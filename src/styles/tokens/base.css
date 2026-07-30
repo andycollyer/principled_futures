@@ -1,0 +1,83 @@
+/* ============================================================
+   Principled Futures — Base reset & primitives
+   Light corporate SaaS theme. Sans-serif throughout.
+   ============================================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--surface-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: var(--weight-semibold);
+  letter-spacing: var(--tracking-snug);
+  color: var(--text-primary);
+  line-height: var(--leading-tight);
+}
+
+p { margin: 0; }
+
+a {
+  color: var(--text-link);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* Display heading helper (sans, tight) — replaces any serif display */
+.pf-display {
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-tight);
+  line-height: 1.08;
+}
+
+/* Tabular numerals for metrics/scores */
+.pf-tnum { font-variant-numeric: tabular-nums; }
+
+/* Mobile shell — hidden scrollbars + transient animations */
+.pf-scroll::-webkit-scrollbar { width: 0; height: 0; }
+@keyframes pf-spin { to { transform: rotate(360deg); } }
+@keyframes pf-sheet-in { from { transform: translateY(100%); } to { transform: translateY(0); } }
+@keyframes pf-fade-in { from { opacity: 0; } to { opacity: 1; } }
+
+/* Focus ring */
+.pf-focus:focus-visible,
+:focus-visible {
+  outline: none;
+  box-shadow: var(--ring);
+}
+
+/* Thin corporate scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb {
+  background: var(--border-default);
+  border-radius: var(--radius-pill);
+  border: 2px solid var(--surface-canvas);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--ink-400); }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

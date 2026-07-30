@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap");
+@import "tailwindcss";
+@import "../styles/design-system.css";
+
+/* Never allow horizontal scroll on any device. */
+html, body { max-width: 100%; overflow-x: hidden; }
+
+/* ── Responsive utilities ──────────────────────────────────────────
+   The app is inline-styled, so these media-query rules use !important
+   to override inline layout props. Applied via className on marketing
+   and app containers. Tablet break at 900px, phone at 560px. */
+@media (max-width: 900px) {
+  .pf-r-hide       { display: none !important; }
+  .pf-r-col        { grid-template-columns: 1fr !important; }
+  .pf-r-col-2      { grid-template-columns: 1fr 1fr !important; }
+  .pf-r-stack      { flex-direction: column !important; align-items: flex-start !important; }
+  .pf-r-stack-center { flex-direction: column !important; }
+  .pf-r-wrap       { flex-wrap: wrap !important; }
+  .pf-r-h1         { font-size: 42px !important; line-height: 1.08 !important; }
+  .pf-r-hero-pad   { padding-left: 20px !important; padding-right: 20px !important; padding-bottom: 64px !important; }
+  .pf-r-full       { width: 100% !important; }
+  .pf-r-showflex   { display: flex !important; }
+}
+@media (min-width: 901px) {
+  .pf-r-showflex   { display: none; }  /* mobile-only affordances hidden on desktop */
+}
+@media (max-width: 560px) {
+  .pf-r-col-2      { grid-template-columns: 1fr !important; }
+  .pf-r-h1         { font-size: 34px !important; }
+  .pf-r-pad        { padding-left: 18px !important; padding-right: 18px !important; }
+}

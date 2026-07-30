@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# next / build
+/.next
+/out
+next-env.d.ts
+
+# netlify cli local state (contains its own node_modules)
+/.netlify
+
+# secrets & local env — NEVER commit these
+.env
+.env.*
+!.env.example
+
+# extraction scratch
+/extracted
+
+# os
+.DS_Store
+*.tsbuildinfo

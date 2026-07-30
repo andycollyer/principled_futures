@@ -1,0 +1,8 @@
+/* ============================================================
+   Principled Futures — Web fonts
+   Inter is the brand's real typeface (confirmed in the app's
+   globals.css and the Figma file). Loaded from Google Fonts.
+   JetBrains Mono used only for metric / code specimens.
+   ============================================================ */
+
+/* Fonts are imported at the top of src/app/globals.css (import-order rule). */

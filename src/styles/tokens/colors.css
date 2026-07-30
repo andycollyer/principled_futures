@@ -1,0 +1,62 @@
+/* ============================================================
+   Principled Futures — Color primitives
+   Brand green (#20521A) + cool corporate neutrals + status.
+   Primitives only here; semantic aliases live in semantic.css.
+   ============================================================ */
+
+:root {
+  /* ── Brand green scale (anchored on #20521A) ───────────── */
+  --green-50:  #f1f6ef;
+  --green-100: #e7f0e3;   /* pale tint — selected nav, soft fills */
+  --green-200: #cadfc1;
+  --green-300: #a6c899;
+  --green-400: #6fa45e;
+  --green-500: #2f7a25;   /* bright green — emphasis on light */
+  --green-600: #20521a;   /* PRIMARY brand green */
+  --green-700: #1a4315;
+  --green-800: #163612;
+  --green-900: #10290d;
+  --green-950: #0a1b08;
+
+  /* ── Ink / navy scale (cool, near-black) ───────────────── */
+  --ink-50:  #f5f6f7;
+  --ink-100: #eef0f1;
+  --ink-200: #e6e8ea;
+  --ink-300: #d3d7db;
+  --ink-400: #98a0a8;
+  --ink-500: #5b6470;
+  --ink-600: #475059;
+  --ink-700: #333d47;
+  --ink-800: #232f3a;
+  --ink-900: #1c2630;     /* primary ink / navy */
+  --ink-950: #121922;
+
+  /* ── Brand-dark surfaces (greenish near-black) ─────────── */
+  --rail:      #15241d;   /* narrow icon rail / dark chrome */
+  --rail-soft: #1d3027;
+
+  /* ── Pure ───────────────────────────────────────────────── */
+  --white: #ffffff;
+  --black: #0a0d0c;
+
+  /* ── Status: success / warning / danger / info ─────────── */
+  --success-50:  #ecf6ea;
+  --success-500: #2f7a25;
+  --success-600: #256b1d;
+  --success-700: #1d5417;
+
+  --warning-50:  #fbf2d9;
+  --warning-500: #b9870c;
+  --warning-600: #a8780a;
+  --warning-700: #8a6208;
+
+  --danger-50:   #fbe6e3;
+  --danger-500:  #d24a3b;
+  --danger-600:  #c0392b;
+  --danger-700:  #9c2b20;
+
+  --info-50:     #e8eef6;
+  --info-500:    #2b6cb0;
+  --info-600:    #245d99;
+  --info-700:    #1d4b7c;
+}

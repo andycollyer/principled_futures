@@ -1,0 +1,57 @@
+/* ============================================================
+   Principled Futures — Semantic aliases
+   Reference these in components, never raw primitives.
+   ============================================================ */
+
+:root {
+  /* ── Surfaces ───────────────────────────────────────────── */
+  --surface-canvas:   var(--ink-50);    /* app background */
+  --surface-card:     var(--white);     /* cards, panels, sheets */
+  --surface-sunken:   var(--ink-100);   /* wells, inset areas */
+  --surface-raised:   var(--white);
+  --surface-inverse:  var(--ink-900);   /* dark sections */
+  --surface-rail:     var(--rail);      /* icon rail / dark chrome */
+  --surface-brand:    var(--green-600); /* full-bleed brand sections */
+  --surface-brand-soft: var(--green-100);
+
+  /* ── Text ───────────────────────────────────────────────── */
+  --text-primary:   var(--ink-900);
+  --text-secondary: var(--ink-500);
+  --text-tertiary:  var(--ink-400);
+  --text-inverse:   var(--white);
+  --text-brand:     var(--green-600);
+  --text-on-brand:  var(--white);
+  --text-link:      var(--green-600);
+  --text-disabled:  var(--ink-400);
+
+  /* ── Borders ────────────────────────────────────────────── */
+  --border-subtle:  var(--ink-200);
+  --border-default: var(--ink-300);
+  --border-strong:  var(--ink-400);
+  --border-brand:   var(--green-600);
+  --border-focus:   var(--green-600);
+
+  /* ── Brand actions ──────────────────────────────────────── */
+  --brand:          var(--green-600);
+  --brand-hover:    var(--green-700);
+  --brand-active:   var(--green-800);
+  --brand-emphasis: var(--green-500);
+
+  /* Primary action = ink/navy (corporate, serious) */
+  --action-primary:       var(--ink-900);
+  --action-primary-hover: var(--ink-800);
+  --action-primary-text:  var(--white);
+
+  /* ── Status (semantic) ──────────────────────────────────── */
+  --status-success:    var(--success-600);
+  --status-success-bg: var(--success-50);
+  --status-warning:    var(--warning-600);
+  --status-warning-bg: var(--warning-50);
+  --status-danger:     var(--danger-600);
+  --status-danger-bg:  var(--danger-50);
+  --status-info:       var(--info-600);
+  --status-info-bg:    var(--info-50);
+
+  /* ── Focus ring ─────────────────────────────────────────── */
+  --ring: 0 0 0 3px color-mix(in srgb, var(--green-600) 28%, transparent);
+}
