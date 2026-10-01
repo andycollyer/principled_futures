@@ -60,6 +60,7 @@ User-agent: *
 Disallow: /dashboard/
 Disallow: /mobile/
 Disallow: /research/
+Disallow: /team/
 Disallow: /login/
 Disallow: /signup/
 Disallow: /onboarding/

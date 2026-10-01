@@ -10,9 +10,23 @@
 // (Product → Payment link), then paste the URLs below and rebuild.
 // Empty string = not configured yet → CTAs fall back to the contact flow.
 
+// SELLING IS OFF (1 October 2026). The links below are correct and still live
+// in Stripe, but they are deliberately not wired up, because a payment cannot
+// currently be honoured: the Supabase project behind the product went away, so
+// there is no sign-in, no library, and no webhook to upgrade a payer. Taking
+// £480–£1,250 for nothing is worse than not taking it.
+//
+// Before restoring either line: the database must be back on a paid plan (a
+// free project pauses after about a week and takes the product down with it),
+// the webhook redeployed, and a real end-to-end purchase tested.
+//
+//   governance       → https://buy.stripe.com/aFa28q3ZmfjZcbp95GfjG00  (£480/mo)
+//   governance-plus  → https://buy.stripe.com/cNibJ0cvS5Jp3ET0zafjG01  (£1,250/mo)
+//
+// Empty = not configured → every paid CTA falls back to the enquiry flow.
 export const PAYMENT_LINKS: Record<string, string> = {
-  governance: "https://buy.stripe.com/aFa28q3ZmfjZcbp95GfjG00",        // £480/mo — verified: "Governance Membership £480.00 per month"
-  "governance-plus": "https://buy.stripe.com/cNibJ0cvS5Jp3ET0zafjG01", // £1,250/mo — verified: "Governance + £1,250.00 per month"
+  governance: "",
+  "governance-plus": "",
 };
 
 /** The raw Payment Link for a plan, or null if not configured. */

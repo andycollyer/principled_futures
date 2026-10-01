@@ -53,7 +53,7 @@ export default function PrivacyPage() {
       </LegalSection>
 
       <LegalSection title="International transfers">
-        <P>Your account and assessment data is stored in the European Union (Ireland). Our hosting, database, payment and font providers are US-headquartered companies, so where personal data is transferred outside the UK we rely on the UK Extension to the EU–US Data Privacy Framework, or standard contractual clauses with the UK International Data Transfer Addendum, as applicable.</P>
+        <P>Your account and assessment data is stored in the United Kingdom (London). Our hosting, database, payment and font providers are US-headquartered companies, so where personal data is transferred outside the UK we rely on the UK Extension to the EU–US Data Privacy Framework, or standard contractual clauses with the UK International Data Transfer Addendum, as applicable.</P>
       </LegalSection>
 
       <LegalSection title="Children">

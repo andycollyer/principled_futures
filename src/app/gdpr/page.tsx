@@ -45,7 +45,7 @@ export default function GdprPage() {
       </LegalSection>
 
       <LegalSection title="International transfers">
-        <P>Your assessment data is held in our database in the European Union (Ireland, AWS eu-west-1) and is not stored outside the UK or EU. Where personal data nonetheless reaches a US-headquartered sub-processor — for example payment confirmation via Stripe, or technical delivery data — we rely on the UK Extension to the EU–US Data Privacy Framework or standard contractual clauses with the UK International Data Transfer Addendum.</P>
+        <P>Your assessment data is held in our database in the United Kingdom (London) and is not stored outside the UK. Where personal data nonetheless reaches a US-headquartered sub-processor — for example payment confirmation via Stripe, or technical delivery data — we rely on the UK Extension to the EU–US Data Privacy Framework or standard contractual clauses with the UK International Data Transfer Addendum.</P>
       </LegalSection>
 
       <LegalSection title="Supervisory authorities">

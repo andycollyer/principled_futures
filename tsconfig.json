@@ -39,6 +39,7 @@
   "exclude": [
     "node_modules",
     "extracted",
-    "supabase/functions"
+    "supabase/functions",
+    "netlify/edge-functions"
   ]
 }
