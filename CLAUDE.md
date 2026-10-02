@@ -10,3 +10,5 @@ Board-level AI & ESG governance SaaS (a Salveus Labs product). Next.js 16 + Reac
 - All score functions return null when unanswered — guard every render. Partial completion must never crash a screen.
 - Design system: `src/components/` (ported from the design handoff) + tokens in `src/styles/tokens/`. Buttons are 8px-radius rectangles, not pills. No eyebrow labels. Tabular numerals on all scores. Transition `color`, never `background`/`all`, on nav items.
 - UK English throughout. Bands: Initial / Developing / Defined / Managed / Leading.
+
+@HANDOFF.md
