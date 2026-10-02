@@ -227,75 +227,75 @@ export const ARTICLE_META: ArticleMeta[] = [
   },
   {
     "id": "4.1",
-    "title": "Talking to a machine: the disclosure duty arriving in August",
+    "title": "AI-interaction disclosure",
     "category": "Transparency",
-    "read": "5 min",
-    "extract": "From 2 August 2026, people interacting with your chatbot must be told it's a chatbot — unless it's obvious. 'Obvious' is doing more work than most deployments can bear.",
+    "read": "1 min",
+    "extract": "Whether people are told, at the point of contact, that they are dealing with an AI system and not a person, under a written standard covering every channel.",
     "isSample": true,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "4.2",
-    "title": "Marking the synthetic: watermarks, metadata, and the December deadline",
+    "title": "Synthetic-content marking",
     "category": "Transparency",
-    "read": "6 min",
-    "extract": "New generative systems must mark their output from August. Legacy systems get until 2 December 2026. Either way, a visible label alone no longer passes.",
+    "read": "1 min",
+    "extract": "Whether text, images, audio and video produced by the organisation's AI carry a mark that software can detect, and a visible label where the law requires one.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "4.3",
-    "title": "Explaining this decision to this person",
+    "title": "Decision-specific explanation",
     "category": "Transparency",
-    "read": "5 min",
-    "extract": "The ICO's draft guidance is pointed: decision-specific explanation, not boilerplate. If your system can't say why it refused this applicant, it isn't ready to refuse anyone.",
+    "read": "1 min",
+    "extract": "Whether the organisation can tell a person why an AI-supported decision about them came out as it did: the factors that mattered in their case, in plain words.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "4.4",
-    "title": "The four safeguards: contestability as working machinery",
+    "title": "Contestability",
     "category": "Transparency",
-    "read": "5 min",
-    "extract": "Inform, hear representations, provide human intervention, allow contest. The DUAA's four rights are operational duties — and 'operational' is the word the regulator will test.",
+    "read": "1 min",
+    "extract": "Whether a person affected by a significant automated decision can put their side, have a person look at it again and challenge the outcome, by a route that works in practice.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "4.5",
-    "title": "Explainability by design: buy nothing you cannot explain",
+    "title": "Explainability by design",
     "category": "Transparency",
-    "read": "5 min",
-    "extract": "The transparency paradox in one line: your legal duties assume reasoning access your vendor never gave you. Fix it in procurement or live with it in production.",
+    "read": "1 min",
+    "extract": "Whether the ability to explain an AI system's outputs is settled before the system is bought or built: written into the specification and the contract, and kept current.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "4.6",
-    "title": "The register as window: internal transparency before external",
+    "title": "Internal transparency",
     "category": "Transparency",
-    "read": "4 min",
-    "extract": "Before the organisation explains its AI to anyone else, it has to be able to explain it to itself. The register is where external transparency is manufactured.",
+    "read": "1 min",
+    "extract": "Whether the organisation can describe its own AI: a complete, current record of each system: purpose, a plain summary of how it works, data used, named owner.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "4.7",
-    "title": "Telling people: notification when the algorithm decides",
+    "title": "Notification of automated decisions",
     "category": "Transparency",
-    "read": "4 min",
-    "extract": "Buried in clause 14.3 of the terms is not 'informed.' The duty to tell people an algorithm decided about them is converging from both London and Brussels.",
+    "read": "1 min",
+    "extract": "Whether people are told, promptly and plainly, that a significant decision about them was made by a machine, and what they can do about it.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "4.8",
-    "title": "Saying what's true: AI claims that survive scrutiny",
+    "title": "External reporting honesty",
     "category": "Transparency",
-    "read": "5 min",
-    "extract": "'AI-powered' in the deck, a spreadsheet and an intern in production. AI-washing is now a named enforcement priority — and your public claims are the easiest audit anyone will ever run.",
+    "read": "1 min",
+    "extract": "Whether public statements about the organisation's AI (marketing, bids, investor material, the annual report) are checked against what the systems really do before publication, and who signs that off.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "5.1",

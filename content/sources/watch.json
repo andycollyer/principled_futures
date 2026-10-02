@@ -1,0 +1,76 @@
+{
+  "_note": "Things known to be in motion. Checked on every run regardless of the cycle. 'expect' is text whose appearance or disappearance means a brief needs a decision.",
+  "items": [
+    {
+      "id": "W1",
+      "what": "ICO automated decision-making guidance is a consultation draft (final expected winter 2026)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards/",
+      "banner": "this draft guidance",
+      "affects": [
+        "3.4",
+        "4.3",
+        "4.4",
+        "4.7"
+      ],
+      "when_gone": "Final guidance published: re-read every quotation and figure taken from the draft."
+    },
+    {
+      "id": "W2",
+      "what": "ICO guidance on AI and data protection is marked 'under review' after the Data (Use and Access) Act",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-about-fairness-bias-and-discrimination/",
+      "banner": "under review",
+      "affects": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.5"
+      ],
+      "when_gone": "Guidance reissued: re-read quotations in 3.1 and 3.2."
+    },
+    {
+      "id": "W3",
+      "what": "ICO 'Explaining decisions made with AI' is marked 'under review'",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-2-explaining-ai-in-practice/task-3-build/",
+      "banner": "under review",
+      "affects": [
+        "4.3",
+        "4.5"
+      ],
+      "when_gone": "Guidance reissued: re-read 4.5 quotation and figure."
+    },
+    {
+      "id": "W4",
+      "what": "European Commission's copy of the EU AI Act says it is not yet updated for the Digital Omnibus; the Official Journal text has not been read",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "banner": "not yet",
+      "affects": [
+        "4.1",
+        "4.2"
+      ],
+      "when_gone": "Copy updated: re-read Articles 50, 111 and 113 and confirm the dates in 4.1 and 4.2."
+    },
+    {
+      "id": "W5",
+      "what": "Regulator's name. Data (Use and Access) Act 2025 s.117 establishes the Information Commission; UK GDPR reads 'the Commission' from 30 September 2026; ico.org.uk is now titled 'Information Commission's Office' (seen 2 October 2026)",
+      "url": "https://ico.org.uk/",
+      "banner": "Information Commissioner's Office",
+      "affects": [
+        "all"
+      ],
+      "when_gone": "The regulator has renamed itself: rename across every brief in the next version."
+    },
+    {
+      "id": "W6",
+      "what": "Regulations under UK GDPR Article 22D (none made as at 2 October 2026)",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22D",
+      "banner": "no known outstanding effects",
+      "affects": [
+        "3.4",
+        "3.5",
+        "4.4",
+        "4.7"
+      ],
+      "when_gone": "Article 22D has outstanding effects or has been used: check for new safeguards or exemptions."
+    }
+  ]
+}

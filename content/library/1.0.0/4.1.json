@@ -1,29 +1,75 @@
 {
   "criterion": "4.1",
   "bank": "1.0.0",
-  "status": "draft",
+  "status": "approved",
   "checked": "2026-10-02",
   "items": [
-    { "title": "Complying with consumer law when using AI agents", "publisher": "Competition and Markets Authority", "year": 2026, "tier": "official",
-      "url": "https://www.gov.uk/government/publications/complying-with-consumer-law-when-using-ai-agents/complying-with-consumer-law-when-using-ai-agents", "access": "free",
+    {
+      "title": "Complying with consumer law when using AI agents",
+      "publisher": "Competition and Markets Authority",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://www.gov.uk/government/publications/complying-with-consumer-law-when-using-ai-agents/complying-with-consumer-law-when-using-ai-agents",
+      "access": "free",
       "locator": "Sections 'Tell your customers if you use an AI agent' and 'When it comes to dealing with your customers, the same rules apply whether using AI or human agents'",
-      "why": "Source of the quotation. Also says the business is responsible for an AI agent as for an employee, even where someone else designed or provides it, and that fines can reach 10% of worldwide turnover. Published 9 March 2026. Guidance, not statute: it says 'consider whether you need to label it'." },
-    { "title": "Digital Markets, Competition and Consumers Act 2024, section 227: Misleading omissions", "publisher": "legislation.gov.uk", "year": 2024, "tier": "official",
-      "url": "https://www.legislation.gov.uk/ukpga/2024/13/section/227", "access": "free", "locator": "s.227(1), (2) and (4); read with s.225(4)(a) and s.226(1)(b)",
-      "why": "The legal test behind the guidance. Material information is what the average consumer needs to take an informed transactional decision; information given so the consumer is unlikely to see it counts as omitted. In force 6 April 2025 (S.I. 2025/272). The section does not mention AI." },
-    { "title": "AI Act (Regulation (EU) 2024/1689), Article 50: Transparency obligations for providers and deployers of certain AI systems", "publisher": "European Commission, AI Act Service Desk", "year": 2024, "tier": "official",
-      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50", "access": "free", "locator": "Article 50(1) and 50(5); application date from Article 113 on the same site",
-      "why": "The explicit duty, placed on providers, with the 'obvious' exception and the 'at the latest at the time of the first interaction' rule. This is the Commission's copy, not the Official Journal (EUR-Lex returned empty pages). The page carries a notice that the provision has been amended by the Digital Omnibus on AI and the text is not yet updated; the amendment marker sits on paragraph 7, not paragraph 1." },
-    { "title": "Guidelines on the implementation of the transparency obligations for certain AI systems under Article 50 of the AI Act, C(2026) 5054 final, Annex", "publisher": "European Commission", "year": 2026, "tier": "official",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems", "access": "free",
+      "why": "Source of the quotation. Also says the business is responsible for an AI agent as for an employee, even where someone else designed or provides it, and that fines can reach 10% of worldwide turnover. Published 9 March 2026. Guidance, not statute: it says 'consider whether you need to label it'.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "Digital Markets, Competition and Consumers Act 2024, section 227: Misleading omissions",
+      "publisher": "legislation.gov.uk",
+      "year": 2024,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/section/227",
+      "access": "free",
+      "locator": "s.227(1), (2) and (4); read with s.225(4)(a) and s.226(1)(b)",
+      "why": "The legal test behind the guidance. Material information is what the average consumer needs to take an informed transactional decision; information given so the consumer is unlikely to see it counts as omitted. In force 6 April 2025 (S.I. 2025/272). The section does not mention AI.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "AI Act (Regulation (EU) 2024/1689), Article 50: Transparency obligations for providers and deployers of certain AI systems",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2024,
+      "tier": "official",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "access": "free",
+      "locator": "Article 50(1) and 50(5); application date from Article 113 on the same site",
+      "why": "The explicit duty, placed on providers, with the 'obvious' exception and the 'at the latest at the time of the first interaction' rule. This is the Commission's copy, not the Official Journal (EUR-Lex returned empty pages). The page carries a notice that the provision has been amended by the Digital Omnibus on AI and the text is not yet updated; the amendment marker sits on paragraph 7, not paragraph 1.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "Guidelines on the implementation of the transparency obligations for certain AI systems under Article 50 of the AI Act, C(2026) 5054 final, Annex",
+      "publisher": "European Commission",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+      "access": "free",
       "locator": "Section 3: paragraphs 30, 34-40 (pp. 11-15) and 42-45 with examples (pp. 16-18)",
-      "why": "Says disclosure only in terms and conditions is insufficient (para 38), the exception 'should be interpreted restrictively' (para 45), and helpdesk chatbots do not qualify as obvious (p. 18). Non-binding (para 5). Content approved 20 July 2026; the covering communication says formal adoption follows once all language versions exist. The landing page states that Article 50 applies from 2 August 2026." },
-    { "title": "A pro-innovation approach to AI regulation (white paper)", "publisher": "Department for Science, Innovation and Technology", "year": 2023, "tier": "official",
-      "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach/white-paper", "access": "free",
+      "why": "Says disclosure only in terms and conditions is insufficient (para 38), the exception 'should be interpreted restrictively' (para 45), and helpdesk chatbots do not qualify as obvious (p. 18). Non-binding (para 5). Content approved 20 July 2026; the covering communication says formal adoption follows once all language versions exist. The landing page states that Article 50 applies from 2 August 2026.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "A pro-innovation approach to AI regulation (white paper)",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2023,
+      "tier": "official",
+      "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach/white-paper",
+      "access": "free",
       "locator": "Paragraphs 10-11; section 3.2.3, 'Principle: Appropriate transparency and explainability'",
-      "why": "Lists the five principles and says they are issued on a non-statutory basis. Defines transparency as communicating 'how, when, and for which purposes an AI system is being used'. Published under the previous government; no later statement of the principles was read in this pass." },
-    { "title": "Should AI systems behave like people?", "publisher": "AI Security Institute (then AI Safety Institute)", "year": 2024, "tier": "official",
-      "url": "https://www.aisi.gov.uk/blog/should-ai-systems-behave-like-people", "access": "free", "locator": "Section on transparency, first bullet; survey description above it; Figure 1 caption",
-      "why": "Source of the figure (68% agreed, 16% disagreed). Survey with Deltapoll, March 2024. The text gives a sample of 1,583 UK adults; the caption to Figure 1 gives 1,498 respondents for these questions. A blog post, not a full report." }
-  ]
+      "why": "Lists the five principles and says they are issued on a non-statutory basis. Defines transparency as communicating 'how, when, and for which purposes an AI system is being used'. Published under the previous government; no later statement of the principles was read in this pass.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "Should AI systems behave like people?",
+      "publisher": "AI Security Institute (then AI Safety Institute)",
+      "year": 2024,
+      "tier": "official",
+      "url": "https://www.aisi.gov.uk/blog/should-ai-systems-behave-like-people",
+      "access": "free",
+      "locator": "Section on transparency, first bullet; survey description above it; Figure 1 caption",
+      "why": "Source of the figure (68% agreed, 16% disagreed). Survey with Deltapoll, March 2024. The text gives a sample of 1,583 UK adults; the caption to Figure 1 gives 1,498 respondents for these questions. A blog post, not a full report.",
+      "last_checked": "2026-10-02"
+    }
+  ],
+  "approved": "2026-10-02"
 }

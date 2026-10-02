@@ -12,7 +12,8 @@
       "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-about-fairness-bias-and-discrimination/",
       "access": "free",
       "locator": "Sections 'Why might an AI system lead to discrimination?', 'Should we just remove all sensitive data?', 'Can we process special category data to assess and address discrimination in AI systems?'",
-      "why": "Imbalanced training data and data reflecting past discrimination; why removing sensitive fields fails (occupation, working hours, postcode as proxies); worked example relying on Article 9(2)(g) with Schedule 1 paragraph 8. Carries a banner: under review following the Data (Use and Access) Act 2025."
+      "why": "Imbalanced training data and data reflecting past discrimination; why removing sensitive fields fails (occupation, working hours, postcode as proxies); worked example relying on Article 9(2)(g) with Schedule 1 paragraph 8. Carries a banner: under review following the Data (Use and Access) Act 2025.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "AI tools in recruitment: audit outcomes report",
@@ -22,7 +23,8 @@
       "url": "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf",
       "access": "free",
       "locator": "pp. 3, 12, 18-20, 22",
-      "why": "Source of the quotation (p.3) and the figure (p.12). Pages 18-20 cover training and testing data: not all providers sampled for representative datasets; some 'cleaned' data of demographics and proxies. Page 22: inferred characteristics are still special category data and need a condition."
+      "why": "Source of the quotation (p.3) and the figure (p.12). Pages 18-20 cover training and testing data: not all providers sampled for representative datasets; some 'cleaned' data of demographics and proxies. Page 22: inferred characteristics are still special category data and need a condition.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "Data Protection Act 2018, Schedule 1, paragraph 8: Equality of opportunity or treatment",
@@ -32,7 +34,8 @@
       "url": "https://www.legislation.gov.uk/ukpga/2018/12/schedule/1/paragraph/8",
       "access": "free",
       "locator": "Sch.1 para 8(1)-(5); see also para 5 (appropriate policy document)",
-      "why": "The UK condition for processing special category data to review equality of opportunity. Four categories only (racial or ethnic origin, religious or philosophical beliefs, health, sexual orientation); not for decisions about a particular person; not if likely to cause substantial damage or distress; stops on written objection."
+      "why": "The UK condition for processing special category data to review equality of opportunity. Four categories only (racial or ethnic origin, religious or philosophical beliefs, health, sexual orientation); not for decisions about a particular person; not if likely to cause substantial damage or distress; stops on written objection.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "Equality Act 2010, section 19: Indirect discrimination",
@@ -42,7 +45,8 @@
       "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/19",
       "access": "free",
       "locator": "s.19(1)-(2)",
-      "why": "The effect-based test: a practice that puts a protected group at a particular disadvantage is discriminatory unless a proportionate means of achieving a legitimate aim. No exception for the state of the data."
+      "why": "The effect-based test: a practice that puts a protected group at a particular disadvantage is discriminatory unless a proportionate means of achieving a legitimate aim. No exception for the state of the data.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "Responsible AI in Recruitment",
@@ -52,7 +56,8 @@
       "url": "https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment",
       "access": "free",
       "locator": "Sections 3.2 (during procurement), 4.1 (before deployment), Annex A (screening)",
-      "why": "Supports asking the supplier what data trained the model, with a breakdown by protected characteristic and source; states that historical bias in training data is perpetuated at scale; bias audits to be repeated at intervals."
+      "why": "Supports asking the supplier what data trained the model, with a breakdown by protected characteristic and source; states that historical bias in training data is perpetuated at scale; bias audits to be repeated at intervals.",
+      "last_checked": "2026-10-02"
     }
   ],
   "approved": "2026-10-02"

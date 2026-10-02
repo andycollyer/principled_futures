@@ -1,0 +1,682 @@
+{
+  "watch:W2": {
+    "present": true,
+    "status": 200,
+    "checked": "2026-10-02"
+  },
+  "watch:W3": {
+    "present": true,
+    "status": 200,
+    "checked": "2026-10-02"
+  },
+  "watch:W4": {
+    "present": true,
+    "status": 200,
+    "checked": "2026-10-02"
+  },
+  "watch:W5": {
+    "present": false,
+    "status": 200,
+    "checked": "2026-10-02"
+  },
+  "watch:W6": {
+    "present": true,
+    "status": 200,
+    "checked": "2026-10-02"
+  },
+  "https://www.aisi.gov.uk/blog/should-ai-systems-behave-like-people": {
+    "title": "Should AI systems behave like people?",
+    "criteria": [
+      "4.1"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 92,
+    "change": 0.0
+  },
+  "https://asa.org.uk/static/eb77bee0-a147-49b8-81856c3c83586bf2/AI-as-a-Marketing-Term-Report.pdf": {
+    "title": "'AI' as a Marketing Term: A Quantitative Review of Usage in UK Advertising",
+    "criteria": [
+      "4.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 52,
+    "change": 0.0
+  },
+  "https://www.asa.org.uk/news/disclosure-of-ai-in-advertising-striking-the-balance-between-creativity-and-responsibility.html": {
+    "title": "Disclosure of AI in Advertising: Striking the Balance Between Creativity and Responsibility",
+    "criteria": [
+      "4.2"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 44,
+    "change": 0.0
+  },
+  "https://www.asa.org.uk/news/regulating-the-illusion-of-intelligence-in-ads.html": {
+    "title": "Regulating the Illusion of Intelligence in Ads",
+    "criteria": [
+      "4.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 61,
+    "change": 0.0
+  },
+  "https://www.gov.uk/government/publications/complying-with-consumer-law-when-using-ai-agents/complying-with-consumer-law-when-using-ai-agents": {
+    "title": "Complying with consumer law when using AI agents",
+    "criteria": [
+      "4.1"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 60
+  },
+  "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach/white-paper": {
+    "title": "A pro-innovation approach to AI regulation (white paper)",
+    "criteria": [
+      "3.8",
+      "4.1"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 1139
+  },
+  "https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment": {
+    "title": "Responsible AI in Recruitment",
+    "criteria": [
+      "3.1",
+      "3.2",
+      "3.3",
+      "3.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 276
+  },
+  "https://www.gov.uk/government/publications/report-and-impact-assessment-on-copyright-and-artificial-intelligence/report-on-copyright-and-artificial-intelligence": {
+    "title": "Report on Copyright and Artificial Intelligence",
+    "criteria": [
+      "4.2"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 1941
+  },
+  "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems": {
+    "title": "Guidelines on the implementation of the transparency obligations for certain AI systems under Article 50 of the AI Act, C(2026) 5054 final, Annex",
+    "criteria": [
+      "4.1"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 6
+  },
+  "https://ec.europa.eu/newsroom/dae/redirection/document/129555": {
+    "title": "Code of Practice on Transparency of AI-Generated Content",
+    "criteria": [
+      "4.2"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 427
+  },
+  "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50": {
+    "title": "AI Act (Regulation (EU) 2024/1689), Article 50: Transparency obligations for providers and deployers of certain AI systems",
+    "criteria": [
+      "4.1",
+      "4.2"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 27
+  },
+  "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111": {
+    "title": "Regulation (EU) 2024/1689 (AI Act), Article 111: AI systems already placed on the market",
+    "criteria": [
+      "4.2"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 16
+  },
+  "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26": {
+    "title": "Regulation (EU) 2024/1689 (AI Act), Article 26: Obligations of deployers of high-risk AI systems",
+    "criteria": [
+      "4.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 42
+  },
+  "https://www.frc.org.uk/documents/6709/UK_Corporate_Governance_Code_2024_a2hmQmY.pdf": {
+    "title": "UK Corporate Governance Code 2024",
+    "criteria": [
+      "4.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 187
+  },
+  "https://www.gov.uk/government/publications/algorithmic-transparency-recording-standard-mandatory-scope-and-exemptions-policy/algorithmic-transparency-recording-standard-atrs-mandatory-scope-and-exemptions-policy": {
+    "title": "Algorithmic Transparency Recording Standard (ATRS) Mandatory Scope and Exemptions Policy",
+    "criteria": [
+      "4.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 102
+  },
+  "https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework": {
+    "title": "Data and AI Ethics Framework",
+    "criteria": [
+      "3.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 453
+  },
+  "https://ico.org.uk/about-the-ico/our-information/our-strategies-and-plans/artificial-intelligence-and-biometrics-strategy": {
+    "title": "AI and biometrics strategy",
+    "criteria": [
+      "3.1"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 31
+  },
+  "https://ico.org.uk/action-weve-taken/audits-and-overview-reports/ai-tools-in-recruitment": {
+    "title": "AI tools in recruitment: audit outcomes report",
+    "criteria": [
+      "3.1"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 6
+  },
+  "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf": {
+    "title": "AI tools in recruitment: audit outcomes report",
+    "criteria": [
+      "3.2",
+      "3.3",
+      "3.5",
+      "3.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 563
+  },
+  "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards": {
+    "title": "Automated decision-making, including profiling (draft guidance): What are the ADM safeguards?",
+    "criteria": [
+      "4.3",
+      "4.4",
+      "4.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 61
+  },
+  "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/when-can-we-use-special-category-data-in-our-adm": {
+    "title": "Automated decision-making, including profiling (draft guidance): When can we use special category data in our ADM?",
+    "criteria": [
+      "3.4"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 60
+  },
+  "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/governance-and-accountability-in-ai": {
+    "title": "Data protection audit framework, Artificial intelligence toolkit: Governance and accountability in AI",
+    "criteria": [
+      "4.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 135
+  },
+  "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/do-we-need-to-consult-the-ico": {
+    "title": "Data protection impact assessments: Do we need to consult the ICO?",
+    "criteria": [
+      "3.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 35
+  },
+  "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/annex-a-fairness-in-the-ai-lifecycle": {
+    "title": "Guidance on AI and data protection: Annex A, Fairness in the AI lifecycle",
+    "criteria": [
+      "3.3"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 408
+  },
+  "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems": {
+    "title": "Guidance on AI and data protection: How do we ensure individual rights in our AI systems?",
+    "criteria": [
+      "3.5",
+      "4.4"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 248
+  },
+  "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-about-fairness-bias-and-discrimination": {
+    "title": "Guidance on AI and data protection: What about fairness, bias and discrimination?",
+    "criteria": [
+      "3.1",
+      "3.2",
+      "3.3"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 206
+  },
+  "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/what-are-the-accountability-and-governance-implications-of-ai": {
+    "title": "Guidance on AI and data protection: What are the accountability and governance implications of AI?",
+    "criteria": [
+      "4.5"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 205
+  },
+  "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/introduction-what-is-adm-and-why-are-we-focusing-on-it-in-recruitment": {
+    "title": "Recruitment rewired: Introduction",
+    "criteria": [
+      "4.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 92
+  },
+  "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/transparency-and-safeguards": {
+    "title": "Recruitment rewired: Transparency and safeguards",
+    "criteria": [
+      "4.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 93
+  },
+  "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/meaningful-human-involvement": {
+    "title": "Recruitment rewired: an update on the ICO's work on the fair and responsible use of automation in recruitment",
+    "criteria": [
+      "3.5"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 61
+  },
+  "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data": {
+    "title": "Special category data: What is special category data?",
+    "criteria": [
+      "3.4"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 93
+  },
+  "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2024/11/thinking-of-using-ai-to-assist-recruitment-our-key-data-protection-considerations": {
+    "title": "Thinking of using AI to assist recruitment? Our key data protection considerations",
+    "criteria": [
+      "3.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 38
+  },
+  "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-1-the-basics-of-explaining-ai/what-goes-into-an-explanation": {
+    "title": "Explaining decisions made with AI, Part 1: What goes into an explanation?",
+    "criteria": [
+      "4.3",
+      "4.4"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 184
+  },
+  "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-2-explaining-ai-in-practice/task-3-build": {
+    "title": "Explaining decisions made with AI, Part 2, Task 3: Build your system to ensure you are able to extract relevant information",
+    "criteria": [
+      "4.5"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 188
+  },
+  "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-3-what-explaining-ai-means-for-your-organisation/organisational-roles-and-functions-for-explaining-ai": {
+    "title": "Explaining decisions made with AI, Part 3: Organisational roles and functions for explaining AI",
+    "criteria": [
+      "4.3",
+      "4.5"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 57
+  },
+  "https://ico.org.uk/media2/migrated/2615039/project-explain-20190603.pdf": {
+    "title": "Project explAIn: interim report",
+    "criteria": [
+      "4.3"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 289
+  },
+  "https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai": {
+    "title": "The hidden risks of shadow AI",
+    "criteria": [
+      "4.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 34
+  },
+  "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf": {
+    "title": "Towards a Standard for Identifying and Managing Bias in Artificial Intelligence (Special Publication 1270)",
+    "criteria": [
+      "3.3"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 1130
+  },
+  "https://oecd.ai/en/dashboards/ai-principles/P7": {
+    "title": "OECD AI Principles, 1.3: Transparency and explainability",
+    "criteria": [
+      "3.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 32
+  },
+  "https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/deepfake-defences-2/deepfake-defences-2---the-attribution-toolkit.pdf?v=402066": {
+    "title": "Deepfake Defences 2: The Attribution Toolkit",
+    "criteria": [
+      "4.2"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 606
+  },
+  "https://www.gov.uk/government/publications/guidelines-for-ai-procurement/guidelines-for-ai-procurement": {
+    "title": "Guidelines for AI procurement",
+    "criteria": [
+      "3.7",
+      "4.5"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 207
+  },
+  "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence": {
+    "title": "Recommendation on the Ethics of Artificial Intelligence",
+    "criteria": [
+      "3.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 322
+  },
+  "https://www.legislation.gov.uk/ukpga/2025/18/section/103": {
+    "title": "Data (Use and Access) Act 2025, section 103: Complaints by data subjects",
+    "criteria": [
+      "3.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 45
+  },
+  "https://www.legislation.gov.uk/ukpga/2025/18/section/80": {
+    "title": "Data (Use and Access) Act 2025, section 80: Automated decision-making",
+    "criteria": [
+      "3.4",
+      "3.5"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 61
+  },
+  "https://www.legislation.gov.uk/ukpga/2018/12/schedule/1/paragraph/8": {
+    "title": "Data Protection Act 2018, Schedule 1, paragraph 8: Equality of opportunity or treatment",
+    "criteria": [
+      "3.2"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 39
+  },
+  "https://www.legislation.gov.uk/ukpga/2024/13/section/182": {
+    "title": "Digital Markets, Competition and Consumers Act 2024, section 182: Final infringement notice",
+    "criteria": [
+      "4.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 45
+  },
+  "https://www.legislation.gov.uk/ukpga/2024/13/section/226": {
+    "title": "Digital Markets, Competition and Consumers Act 2024, section 226: Misleading actions",
+    "criteria": [
+      "4.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 41
+  },
+  "https://www.legislation.gov.uk/ukpga/2024/13/section/227": {
+    "title": "Digital Markets, Competition and Consumers Act 2024, section 227: Misleading omissions",
+    "criteria": [
+      "4.1"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 40
+  },
+  "https://www.legislation.gov.uk/ukpga/2010/15/section/109": {
+    "title": "Equality Act 2010, section 109: Liability of employers and principals",
+    "criteria": [
+      "3.1",
+      "3.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 41
+  },
+  "https://www.legislation.gov.uk/ukpga/2010/15/section/124": {
+    "title": "Equality Act 2010, section 124: Remedies: general",
+    "criteria": [
+      "3.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 44
+  },
+  "https://www.legislation.gov.uk/ukpga/2010/15/section/19": {
+    "title": "Equality Act 2010, section 19: Indirect discrimination",
+    "criteria": [
+      "3.1",
+      "3.2",
+      "3.3"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 39
+  },
+  "https://www.legislation.gov.uk/ukpga/2000/8/schedule/10A": {
+    "title": "Financial Services and Markets Act 2000, Schedule 10A: Liability of issuers in connection with published information",
+    "criteria": [
+      "4.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 71
+  },
+  "https://www.legislation.gov.uk/uksi/2008/1276/regulation/3": {
+    "title": "The Business Protection from Misleading Marketing Regulations 2008, regulation 3",
+    "criteria": [
+      "4.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 28
+  },
+  "https://www.legislation.gov.uk/uksi/2026/82/regulation/2/made": {
+    "title": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026 (S.I. 2026/82)",
+    "criteria": [
+      "3.4"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 12
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/13": {
+    "title": "UK GDPR, Article 13: Information to be provided where personal data are collected from the data subject",
+    "criteria": [
+      "4.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 35
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/15": {
+    "title": "UK GDPR, Article 15: Right of access by the data subject",
+    "criteria": [
+      "4.3"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 35
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/22A": {
+    "title": "UK GDPR, Article 22A: Automated processing and significant decisions",
+    "criteria": [
+      "3.5"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 28
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/22B": {
+    "title": "UK GDPR, Article 22B: Restrictions on automated decision-making",
+    "criteria": [
+      "3.4"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 30
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/22C": {
+    "title": "UK GDPR, Article 22C: Safeguards for automated decision-making",
+    "criteria": [
+      "3.5",
+      "3.8",
+      "4.3",
+      "4.4",
+      "4.5",
+      "4.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 28
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/25": {
+    "title": "UK GDPR, Article 25: Data protection by design and by default",
+    "criteria": [
+      "4.5"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 34
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/28": {
+    "title": "UK GDPR, Article 28: Processor",
+    "criteria": [
+      "3.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 47
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/30": {
+    "title": "UK GDPR, Article 30: Records of processing activities",
+    "criteria": [
+      "4.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 35
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/35": {
+    "title": "UK GDPR, Article 35: Data protection impact assessment",
+    "criteria": [
+      "3.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 43
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/36": {
+    "title": "UK GDPR, Article 36: Prior consultation",
+    "criteria": [
+      "3.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 41
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/5": {
+    "title": "UK GDPR, Article 5: Principles relating to processing of personal data",
+    "criteria": [
+      "4.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 31
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/82": {
+    "title": "UK GDPR, Article 82: Right to compensation and liability",
+    "criteria": [
+      "3.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 32
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/83": {
+    "title": "UK GDPR, Article 83: General conditions for imposing administrative fines",
+    "criteria": [
+      "3.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 49
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/article/9": {
+    "title": "UK GDPR, Article 9: Processing of special categories of personal data",
+    "criteria": [
+      "3.4"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 44
+  },
+  "https://www.legislation.gov.uk/eur/2016/679/chapter/III/section/1": {
+    "title": "UK GDPR, Articles 12 and 12A: time limits for acting on rights requests",
+    "criteria": [
+      "4.4"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 52
+  },
+  "watch:W1": {
+    "present": true,
+    "status": 200,
+    "checked": "2026-10-02"
+  }
+}

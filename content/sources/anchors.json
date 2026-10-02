@@ -1,0 +1,70 @@
+{
+  "_note": "The exact words each approved brief rests on, and where they were read. The source check fails an anchor the day the words are no longer on the page. Text is compared after normalising quote marks and white space.",
+  "3.1": [
+    {"kind": "quotation", "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-about-fairness-bias-and-discrimination/", "text": "enable the model to reproduce patterns of discrimination associated with those characteristics, even if the designers did not intend this"},
+    {"kind": "figure", "url": "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf", "text": "ICO auditors made 296 recommendations"},
+    {"kind": "figure", "url": "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf", "text": "97% of recommendations were accepted"}
+  ],
+  "3.2": [
+    {"kind": "quotation", "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-about-fairness-bias-and-discrimination/", "text": "any model based on such training data is likely to reproduce the same pattern of discrimination"}
+  ],
+  "3.3": [
+    {"kind": "quotation", "url": "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf", "text": "This inferred information is not accurate enough to monitor bias effectively."},
+    {"kind": "figure", "url": "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf", "text": "four fifths or 80% of the selection rate of the group with the highest rate"}
+  ],
+  "3.4": [
+    {"kind": "quotation", "url": "https://www.legislation.gov.uk/eur/2016/679/article/22B", "text": "A significant decision based entirely or partly on processing described in Article 9(1) (processing of special categories of personal data) may not be taken based solely on automated processing, unless one of the following conditions is met."},
+    {"kind": "figure", "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/when-can-we-use-special-category-data-in-our-adm/", "text": "23 available"}
+  ],
+  "3.5": [
+    {"kind": "quotation", "url": "https://www.legislation.gov.uk/eur/2016/679/article/22A", "text": "a decision is based solely on automated processing if there is no meaningful human involvement in the taking of the decision"},
+    {"kind": "figure", "url": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/", "text": "over 30 employers"}
+  ],
+  "3.6": [
+    {"kind": "quotation", "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/do-we-need-to-consult-the-ico/", "text": "You cannot go ahead with the processing until you have consulted us."},
+    {"kind": "figure", "url": "https://www.legislation.gov.uk/eur/2016/679/article/36", "text": "eight weeks"}
+  ],
+  "3.7": [
+    {"kind": "quotation", "url": "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf", "text": "Request test results or reports and evidence of actions AI providers have taken to address fairness, accuracy, or bias issues in AI tools or outputs."},
+    {"kind": "figure", "url": "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf", "text": "3% of recommendations were partially accepted"}
+  ],
+  "3.8": [
+    {"kind": "quotation", "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach/white-paper", "text": "The UK's initial non-statutory approach will not create new rights or new routes to redress at this stage."},
+    {"kind": "figure", "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/103", "text": "within the period of 30 days beginning when the complaint is received"}
+  ],
+  "4.1": [
+    {"kind": "quotation", "url": "https://www.gov.uk/government/publications/complying-with-consumer-law-when-using-ai-agents/complying-with-consumer-law-when-using-ai-agents", "text": "if the fact they are dealing with AI rather than a person might affect people's decisions then you should tell them."},
+    {"kind": "figure", "url": "https://www.aisi.gov.uk/blog/should-ai-systems-behave-like-people", "text": "68%"},
+    {"kind": "figure", "url": "https://www.legislation.gov.uk/ukpga/2024/13/section/182", "text": "£300,000"}
+  ],
+  "4.2": [
+    {"kind": "quotation", "url": "https://ec.europa.eu/newsroom/dae/redirection/document/129555", "text": "at least two layers of machine-readable marking"}
+  ],
+  "4.3": [
+    {"kind": "quotation", "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards/", "text": "This is decision-specific information about the actual outcome, rather than simply repeating information you provide in your privacy notice"}
+  ],
+  "4.4": [
+    {"kind": "quotation", "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards/", "text": "You must ensure this involves a review of the decision, with the possibility that you could change it."},
+    {"kind": "figure", "url": "https://www.legislation.gov.uk/eur/2016/679/chapter/III/section/1", "text": "the period of one month beginning with the relevant time"},
+    {"kind": "figure", "url": "https://www.legislation.gov.uk/eur/2016/679/chapter/III/section/1", "text": "by two further months"}
+  ],
+  "4.5": [
+    {"kind": "quotation", "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-3-what-explaining-ai-means-for-your-organisation/organisational-roles-and-functions-for-explaining-ai/", "text": "you as the data controller have the primary responsibility for ensuring that the AI system you use is capable of producing an appropriate explanation for the decision recipient."},
+    {"kind": "figure", "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-2-explaining-ai-in-practice/task-3-build/", "text": "The 11 techniques listed in the left column"}
+  ],
+  "4.6": [
+    {"kind": "quotation", "url": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/governance-and-accountability-in-ai/", "text": "Without fully understanding how information is processed, neither provider nor deployer can assure themselves that they have an effective information governance regime in place."},
+    {"kind": "figure", "url": "https://www.legislation.gov.uk/eur/2016/679/article/30", "text": "employing fewer than 250 persons"},
+    {"kind": "figure", "url": "https://www.frc.org.uk/documents/6709/UK_Corporate_Governance_Code_2024_a2hmQmY.pdf", "text": "financial years beginning on or after 1 January 2026"}
+  ],
+  "4.7": [
+    {"kind": "quotation", "url": "https://www.legislation.gov.uk/eur/2016/679/article/22C", "text": "provide the data subject with information about decisions described in paragraph 1 taken in relation to the data subject"},
+    {"kind": "figure", "url": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/introduction-what-is-adm-and-why-are-we-focusing-on-it-in-recruitment/", "text": "we contacted 37 employers"},
+    {"kind": "figure", "url": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/introduction-what-is-adm-and-why-are-we-focusing-on-it-in-recruitment/", "text": "16 employers were likely to be using ADM"}
+  ],
+  "4.8": [
+    {"kind": "quotation", "url": "https://www.asa.org.uk/news/regulating-the-illusion-of-intelligence-in-ads.html", "text": "Hold evidence to back up any objective claims about what your product can do"},
+    {"kind": "figure", "url": "https://asa.org.uk/static/eb77bee0-a147-49b8-81856c3c83586bf2/AI-as-a-Marketing-Term-Report.pdf", "text": "around 16k unique relevant ads"},
+    {"kind": "figure", "url": "https://www.legislation.gov.uk/ukpga/2024/13/section/182", "text": "10%"}
+  ]
+}

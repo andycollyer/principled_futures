@@ -41,14 +41,19 @@ Netlify settings: `SITE_PRIVATE=1`, `TEAM_PASSCODE` (also in `../TEAM-PASSCODE.t
 ## Content programme
 - Format approved by Andy 2 Oct 2026 (pilot 3.1). Decision: the new briefs REPLACE the legacy briefings in the product, domain by domain, on approval.
 - Domain 3 (3.1–3.8) approved by Andy 2 Oct 2026 and live in the product: `scripts/seed-content.mjs` uses any brief with `status: approved` in place of the legacy briefing (title, body, reading list, checked date; migration 0008). Legacy briefings still serve the other 56 and are labelled "awaiting evidence review".
-- Domain 4 (4.1–4.8) researched and lead re-checked 2 Oct 2026; 71 corrections on file. Awaiting Andy's approval (`../Domain-4-for-approval.md`).
+- Domain 4 (4.1–4.8) approved and live 2 Oct 2026 (71 corrections on file). 16 of 64 briefs are now evidence briefs.
+- Source review: `docs/source-review-protocol.md`; `python3 scripts/source_check.py` (anchors, watch list, drift, coverage) writes to `content/sources/`. Baseline 2 Oct 2026: 35/35 anchors found, 69 documents, 1 open queue item (regulator renamed). Not yet scheduled.
+- Directory target: 500+ documents, 12+ per criterion. Now 69. Complete-citation fields required from Domain 5 (see METHOD).
 - To publish an approved domain: set `status: approved` in the brief and library files, run `npm run seed:content`, apply 0005 to the database, build, deploy.
 - Method: `content/research/METHOD.md`. One researcher per criterion; the lead re-reads every quotation and figure against raw source text.
 - Then: Domain 3, then the other seven domains, approved domain by domain. One NotebookLM notebook per domain, named `Principled Futures · D<n> <domain>`.
 - The 64 existing briefings carry no citations. Each gets the same claim-by-claim check.
 
 ## Open items
-- [ ] Establish whether the Information Commission has formally replaced the ICO (UK GDPR Art. 36 reads "the Commission" from 30 Sep 2026) and rename across briefs
+- [ ] Andy to decide queue item R-20261002-02: rename the regulator to "the Information Commission (ICO)" in six approved briefs (confirmed: DUAA s.117; site retitled)
+- [ ] Andy to decide: update 3.5 figure to the precise 37 / 16
+- [ ] Schedule the daily source check; name a second reviewer; build a review page
+- [ ] Expansion pass to 12+ documents per criterion; back-fill quote/type/jurisdiction/published on Domains 3 and 4
 - [ ] Read the EU AI Act from an original source (EUR-Lex returned empty pages)
 - [ ] Wait-list form: submit a test entry on the live site; add an email alert to support@principledfutures.com
 - [ ] Obtain EHRC guidance on AI and the public sector equality duty (site blocked automated reading)

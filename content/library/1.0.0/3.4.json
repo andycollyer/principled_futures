@@ -12,7 +12,8 @@
       "url": "https://www.legislation.gov.uk/eur/2016/679/article/22B",
       "access": "free",
       "locator": "Art. 22B(1)-(4); textual amendment note F1",
-      "why": "Source of the quotation (para 1). Three conditions: explicit consent; contract; required or authorised by law, the last two only with Article 9(2)(g). Para 4 bars the recognised legitimate interests basis for any solely automated significant decision. Note F1 gives the in-force date of 5 February 2026."
+      "why": "Source of the quotation (para 1). Three conditions: explicit consent; contract; required or authorised by law, the last two only with Article 9(2)(g). Para 4 bars the recognised legitimate interests basis for any solely automated significant decision. Note F1 gives the in-force date of 5 February 2026.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "Data (Use and Access) Act 2025, section 80: Automated decision-making",
@@ -22,7 +23,8 @@
       "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/80",
       "access": "free",
       "locator": "s.80(1); commencement notes I1, I2",
-      "why": "The provision that replaced Article 22 with Articles 22A to 22D. In force 5 February 2026 (regulation-making powers from Royal Assent, 19 June 2025)."
+      "why": "The provision that replaced Article 22 with Articles 22A to 22D. In force 5 February 2026 (regulation-making powers from Royal Assent, 19 June 2025).",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026 (S.I. 2026/82)",
@@ -32,7 +34,8 @@
       "url": "https://www.legislation.gov.uk/uksi/2026/82/regulation/2/made",
       "access": "free",
       "locator": "reg. 2(j); saving in reg. 5",
-      "why": "Fixes the commencement date. Regulation 5 keeps the old rules for decisions taken before 5 February 2026."
+      "why": "Fixes the commencement date. Regulation 5 keeps the old rules for decisions taken before 5 February 2026.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "UK GDPR, Article 9: Processing of special categories of personal data",
@@ -42,7 +45,8 @@
       "url": "https://www.legislation.gov.uk/eur/2016/679/article/9",
       "access": "free",
       "locator": "Art. 9(1) and 9(2)(g)",
-      "why": "The list of special categories. Biometric data counts only where used to identify a person uniquely. Criminal offence data is not in the list."
+      "why": "The list of special categories. Biometric data counts only where used to identify a person uniquely. Criminal offence data is not in the list.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "Automated decision-making, including profiling (draft guidance): When can we use special category data in our ADM?",
@@ -52,7 +56,8 @@
       "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/when-can-we-use-special-category-data-in-our-adm/",
       "access": "free",
       "locator": "Sections 'What is special category data?' and 'What are the special category data conditions for ADM?'",
-      "why": "Source of the figure (23 substantial public interest conditions). Draft updated 31 March 2026; consultation closed 29 May 2026; final version not yet published. States that the restriction bites on small amounts of special category data, including inferred data."
+      "why": "Source of the figure (23 substantial public interest conditions). Draft updated 31 March 2026; consultation closed 29 May 2026; final version not yet published. States that the restriction bites on small amounts of special category data, including inferred data.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "Special category data: What is special category data?",
@@ -62,7 +67,8 @@
       "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/",
       "access": "free",
       "locator": "Section 'What about inferences?' (updated 9 April 2024)",
-      "why": "Inferred data is special category data where the organisation intends to infer, or to treat someone differently on the inference, however uncertain. Carries an 'under review' banner following the Data (Use and Access) Act 2025."
+      "why": "Inferred data is special category data where the organisation intends to infer, or to treat someone differently on the inference, however uncertain. Carries an 'under review' banner following the Data (Use and Access) Act 2025.",
+      "last_checked": "2026-10-02"
     }
   ],
   "approved": "2026-10-02"

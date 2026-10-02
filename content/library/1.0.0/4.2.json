@@ -1,26 +1,75 @@
 {
   "criterion": "4.2",
   "bank": "1.0.0",
-  "status": "draft",
+  "status": "approved",
   "checked": "2026-10-02",
   "items": [
-    { "title": "Code of Practice on Transparency of AI-Generated Content", "publisher": "European Commission (AI Office); drafted by independent chairs", "year": 2026, "tier": "official",
-      "url": "https://ec.europa.eu/newsroom/dae/redirection/document/129555", "access": "free", "locator": "Section 1, Measure 1.1 (p. 8); Sub-measures 1.1.1 to 1.1.3 (pp. 9-10); Measure 3.3 (pp. 17-18)",
-      "why": "Source of the quotation. Voluntary. Two layers (digitally signed metadata plus imperceptible watermark) for audio, image, video and containerised text; watermark alone for free-form text; fingerprinting or logging optional and not sufficient alone. Published 10 June 2026; found adequate by the Commission on 8 July 2026. Linked from digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content." },
-    { "title": "Regulation (EU) 2024/1689 (AI Act), Article 50: Transparency obligations for providers and deployers of certain AI systems", "publisher": "European Commission, AI Act Service Desk", "year": 2024, "tier": "official",
-      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50", "access": "free", "locator": "Article 50(2) and 50(4); see also Article 2(1)(a) and (c) on the same site",
-      "why": "The marking duty on providers and the disclosure duty on deployers. This is the Commission's copy, not the Official Journal (EUR-Lex returned empty pages). The page carries a notice that the provision was amended by the Digital Omnibus and the displayed text is not yet updated; paragraphs 2 and 4 are not flagged as amended." },
-    { "title": "Regulation (EU) 2024/1689 (AI Act), Article 111: AI systems already placed on the market", "publisher": "European Commission, AI Act Service Desk", "year": 2026, "tier": "official",
-      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111", "access": "free", "locator": "Article 111(4), marked NEW; with Article 113 (general application from 2 August 2026)",
-      "why": "Source of the dates. Systems placed on the market before 2 August 2026 must comply with the marking duty by 2 December 2026. Commission's copy; carries the same 'not yet updated' notice although the new paragraph is displayed." },
-    { "title": "Deepfake Defences 2: The Attribution Toolkit", "publisher": "Ofcom", "year": 2025, "tier": "official",
-      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/deepfake-defences-2/deepfake-defences-2---the-attribution-toolkit.pdf?v=402066", "access": "free", "locator": "Key takeaways 5 and 8 (pp. 6-7); Box 2 (p. 14); survey findings (pp. 25-26)",
-      "why": "Source of the figure. A discussion paper, not guidance: Ofcom says regulated services are not required to adopt the measures. Says watermarks, metadata and labels should be used in combination." },
-    { "title": "Report on Copyright and Artificial Intelligence", "publisher": "Department for Science, Innovation and Technology and Intellectual Property Office", "year": 2026, "tier": "official",
-      "url": "https://www.gov.uk/government/publications/report-and-impact-assessment-on-copyright-and-artificial-intelligence/report-on-copyright-and-artificial-intelligence", "access": "free", "locator": "Section E: Output transparency (Overview; Conclusions and proposals); summary under 'Labelling of AI and human-created content'",
-      "why": "The UK position in the government's own words: no obligation to label AI-generated content; proposal to work with industry on good practice. Published 18 March 2026." },
-    { "title": "Disclosure of AI in Advertising: Striking the Balance Between Creativity and Responsibility", "publisher": "Advertising Standards Authority and Committee of Advertising Practice", "year": 2025, "tier": "official",
-      "url": "https://www.asa.org.uk/news/disclosure-of-ai-in-advertising-striking-the-balance-between-creativity-and-responsibility.html", "access": "free", "locator": "Whole article (dated 29 May 2025)",
-      "why": "No blanket UK requirement to disclose AI in adverts; existing rules apply however content is made; a disclosure does not cure a misleading claim. An advice article, not a Code rule." }
-  ]
+    {
+      "title": "Code of Practice on Transparency of AI-Generated Content",
+      "publisher": "European Commission (AI Office); drafted by independent chairs",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://ec.europa.eu/newsroom/dae/redirection/document/129555",
+      "access": "free",
+      "locator": "Section 1, Measure 1.1 (p. 8); Sub-measures 1.1.1 to 1.1.3 (pp. 9-10); Measure 3.3 (pp. 17-18)",
+      "why": "Source of the quotation. Voluntary. Two layers (digitally signed metadata plus imperceptible watermark) for audio, image, video and containerised text; watermark alone for free-form text; fingerprinting or logging optional and not sufficient alone. Published 10 June 2026; found adequate by the Commission on 8 July 2026. Linked from digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 50: Transparency obligations for providers and deployers of certain AI systems",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2024,
+      "tier": "official",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "access": "free",
+      "locator": "Article 50(2) and 50(4); see also Article 2(1)(a) and (c) on the same site",
+      "why": "The marking duty on providers and the disclosure duty on deployers. This is the Commission's copy, not the Official Journal (EUR-Lex returned empty pages). The page carries a notice that the provision was amended by the Digital Omnibus and the displayed text is not yet updated; paragraphs 2 and 4 are not flagged as amended.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 111: AI systems already placed on the market",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111",
+      "access": "free",
+      "locator": "Article 111(4), marked NEW; with Article 113 (general application from 2 August 2026)",
+      "why": "Source of the dates. Systems placed on the market before 2 August 2026 must comply with the marking duty by 2 December 2026. Commission's copy; carries the same 'not yet updated' notice although the new paragraph is displayed.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "Deepfake Defences 2: The Attribution Toolkit",
+      "publisher": "Ofcom",
+      "year": 2025,
+      "tier": "official",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/deepfake-defences-2/deepfake-defences-2---the-attribution-toolkit.pdf?v=402066",
+      "access": "free",
+      "locator": "Key takeaways 5 and 8 (pp. 6-7); Box 2 (p. 14); survey findings (pp. 25-26)",
+      "why": "Source of the figure. A discussion paper, not guidance: Ofcom says regulated services are not required to adopt the measures. Says watermarks, metadata and labels should be used in combination.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "Report on Copyright and Artificial Intelligence",
+      "publisher": "Department for Science, Innovation and Technology and Intellectual Property Office",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://www.gov.uk/government/publications/report-and-impact-assessment-on-copyright-and-artificial-intelligence/report-on-copyright-and-artificial-intelligence",
+      "access": "free",
+      "locator": "Section E: Output transparency (Overview; Conclusions and proposals); summary under 'Labelling of AI and human-created content'",
+      "why": "The UK position in the government's own words: no obligation to label AI-generated content; proposal to work with industry on good practice. Published 18 March 2026.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "Disclosure of AI in Advertising: Striking the Balance Between Creativity and Responsibility",
+      "publisher": "Advertising Standards Authority and Committee of Advertising Practice",
+      "year": 2025,
+      "tier": "official",
+      "url": "https://www.asa.org.uk/news/disclosure-of-ai-in-advertising-striking-the-balance-between-creativity-and-responsibility.html",
+      "access": "free",
+      "locator": "Whole article (dated 29 May 2025)",
+      "why": "No blanket UK requirement to disclose AI in adverts; existing rules apply however content is made; a disclosure does not cure a misleading claim. An advice article, not a Code rule.",
+      "last_checked": "2026-10-02"
+    }
+  ],
+  "approved": "2026-10-02"
 }

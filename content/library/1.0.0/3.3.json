@@ -12,7 +12,8 @@
       "url": "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf",
       "access": "free",
       "locator": "pp. 3, 20-24",
-      "why": "Source of the quotation (p.3) and the figure (four fifths or 80%, p.21, reported as what providers did, not as a legal standard). Pages 22-23 set out the limits of testing on inferred characteristics and the recommendation to keep test results and report them to senior managers."
+      "why": "Source of the quotation (p.3) and the figure (four fifths or 80%, p.21, reported as what providers did, not as a legal standard). Pages 22-23 set out the limits of testing on inferred characteristics and the recommendation to keep test results and report them to senior managers.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "Equality Act 2010, section 19: Indirect discrimination",
@@ -22,7 +23,8 @@
       "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/19",
       "access": "free",
       "locator": "s.19(2)(b) and (d)",
-      "why": "The legal question a bias test informs: particular disadvantage, then proportionate means of achieving a legitimate aim. The section contains no numerical threshold."
+      "why": "The legal question a bias test informs: particular disadvantage, then proportionate means of achieving a legitimate aim. The section contains no numerical threshold.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "Guidance on AI and data protection: Annex A, Fairness in the AI lifecycle",
@@ -32,7 +34,8 @@
       "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/annex-a-fairness-in-the-ai-lifecycle/",
       "access": "free",
       "locator": "Sections 'Model evaluation' and 'Deployment and monitoring'",
-      "why": "Expects evaluation broken down by group and subgroup, and monitoring after deployment at a frequency proportional to impact. Under review following the Data (Use and Access) Act 2025."
+      "why": "Expects evaluation broken down by group and subgroup, and monitoring after deployment at a frequency proportional to impact. Under review following the Data (Use and Access) Act 2025.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "Guidance on AI and data protection: What about fairness, bias and discrimination?",
@@ -42,7 +45,8 @@
       "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-about-fairness-bias-and-discrimination/",
       "access": "free",
       "locator": "Sections on technical approaches to mitigating discrimination and on processing special category data to assess discrimination",
-      "why": "Confirms special category data may be processed to test performance across groups if an Article 9 condition applies, and calls for ongoing monitoring. Under review; covers data protection only."
+      "why": "Confirms special category data may be processed to test performance across groups if an Article 9 condition applies, and calls for ongoing monitoring. Under review; covers data protection only.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "Responsible AI in Recruitment",
@@ -52,7 +56,8 @@
       "url": "https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment",
       "access": "free",
       "locator": "Sections 3.2 (during procurement) and 4.2 (live operation)",
-      "why": "Defines bias audit, performance testing and model cards for a buyer, says bias audits should be repeated in operation, and describes model drift."
+      "why": "Defines bias audit, performance testing and model cards for a buyer, says bias audits should be repeated in operation, and describes model drift.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "Towards a Standard for Identifying and Managing Bias in Artificial Intelligence (Special Publication 1270)",
@@ -62,7 +67,8 @@
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf",
       "access": "free",
       "locator": "PDF pp. 13-14 (legal context, footnote 9) and p. 41 (fairness metrics)",
-      "why": "Traces the four-fifths rule to United States federal employment guidelines (29 C.F.R. 1607.4(D)) and explains why no single fairness metric settles the matter. United States context; not UK law."
+      "why": "Traces the four-fifths rule to United States federal employment guidelines (29 C.F.R. 1607.4(D)) and explains why no single fairness metric settles the matter. United States context; not UK law.",
+      "last_checked": "2026-10-02"
     }
   ],
   "approved": "2026-10-02"

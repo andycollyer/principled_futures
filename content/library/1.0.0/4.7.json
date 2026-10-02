@@ -1,29 +1,75 @@
 {
   "criterion": "4.7",
   "bank": "1.0.0",
-  "status": "draft",
+  "status": "approved",
   "checked": "2026-10-02",
   "items": [
-    { "title": "UK GDPR, Article 22C: Safeguards for automated decision-making", "publisher": "legislation.gov.uk", "year": 2026, "tier": "official",
-      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22C", "access": "free", "locator": "Art. 22C(1) and (2)(a); note F1",
-      "why": "Source of the quotation. The duty applies only to significant decisions based solely on automated processing and at least partly on personal data. Inserted by the Data (Use and Access) Act 2025, s.80; in force 5 February 2026. Article 22D(3) lets the Secretary of State add to the safeguards by regulation; none were found on legislation.gov.uk on the date checked." },
-    { "title": "UK GDPR, Article 13: Information to be provided where personal data are collected from the data subject", "publisher": "legislation.gov.uk", "year": 2016, "tier": "official",
-      "url": "https://www.legislation.gov.uk/eur/2016/679/article/13", "access": "free", "locator": "Art. 13(1) and 13(2)(f); note F7",
-      "why": "The privacy-notice duty: the existence of automated decision-making subject to Article 22C, with meaningful information about the logic and consequences, given when the data are obtained. Article 14(2)(g) says the same for data obtained elsewhere; Article 12(1) requires clear and plain language." },
-    { "title": "Automated decision-making, including profiling: What are the ADM safeguards?", "publisher": "Information Commissioner's Office", "year": 2026, "tier": "official",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards/", "access": "free",
+    {
+      "title": "UK GDPR, Article 22C: Safeguards for automated decision-making",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22C",
+      "access": "free",
+      "locator": "Art. 22C(1) and (2)(a); note F1",
+      "why": "Source of the quotation. The duty applies only to significant decisions based solely on automated processing and at least partly on personal data. Inserted by the Data (Use and Access) Act 2025, s.80; in force 5 February 2026. Article 22D(3) lets the Secretary of State add to the safeguards by regulation; none were found on legislation.gov.uk on the date checked.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "UK GDPR, Article 13: Information to be provided where personal data are collected from the data subject",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/13",
+      "access": "free",
+      "locator": "Art. 13(1) and 13(2)(f); note F7",
+      "why": "The privacy-notice duty: the existence of automated decision-making subject to Article 22C, with meaningful information about the logic and consequences, given when the data are obtained. Article 14(2)(g) says the same for data obtained elsewhere; Article 12(1) requires clear and plain language.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "Automated decision-making, including profiling: What are the ADM safeguards?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards/",
+      "access": "free",
       "locator": "Section 'What 'information about decisions' do we have to provide?'",
-      "why": "Consultation draft (updated 31 March 2026), not final guidance. Says the information must be about the actual decision, not a repeat of the privacy notice, and that the routes to challenge should be explained when the decision is given." },
-    { "title": "Recruitment rewired: Transparency and safeguards", "publisher": "Information Commissioner's Office", "year": 2026, "tier": "official",
-      "url": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/transparency-and-safeguards/", "access": "free",
+      "why": "Consultation draft (updated 31 March 2026), not final guidance. Says the information must be about the actual decision, not a repeat of the privacy notice, and that the routes to challenge should be explained when the decision is given.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "Recruitment rewired: Transparency and safeguards",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/transparency-and-safeguards/",
+      "access": "free",
       "locator": "Sections 'Our findings about transparency and safeguards' and 'Discussion'",
-      "why": "What the regulator found in practice: privacy notices that did not clearly mention automated decisions, employers treating the notice as satisfying the safeguard, and candidates given nothing about their own decision. Recruitment only." },
-    { "title": "Recruitment rewired: Introduction", "publisher": "Information Commissioner's Office", "year": 2026, "tier": "official",
-      "url": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/introduction-what-is-adm-and-why-are-we-focusing-on-it-in-recruitment/", "access": "free",
+      "why": "What the regulator found in practice: privacy notices that did not clearly mention automated decisions, employers treating the notice as satisfying the safeguard, and candidates given nothing about their own decision. Recruitment only.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "Recruitment rewired: Introduction",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/introduction-what-is-adm-and-why-are-we-focusing-on-it-in-recruitment/",
+      "access": "free",
       "locator": "Section 'How we've examined automated recruitment practices'",
-      "why": "Source of the figure: 37 employers contacted, 16 judged likely to be making automated decisions; all 16 agreed to act. The report's summary page says 'over 30 employers'; this section is the more precise." },
-    { "title": "Regulation (EU) 2024/1689 (AI Act), Article 26: Obligations of deployers of high-risk AI systems", "publisher": "European Commission, AI Act Service Desk", "year": 2024, "tier": "official",
-      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26", "access": "free", "locator": "Art. 26(11)",
-      "why": "The Commission's copy, not the Official Journal (EUR-Lex returned an empty page). Deployers of Annex III high-risk systems that make or assist decisions about people must inform them. The page carries a notice that the provision was amended by the Digital Omnibus and the text is not yet updated; no application date is given in the brief for that reason." }
-  ]
+      "why": "Source of the figure: 37 employers contacted, 16 judged likely to be making automated decisions; all 16 agreed to act. The report's summary page says 'over 30 employers'; this section is the more precise.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 26: Obligations of deployers of high-risk AI systems",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2024,
+      "tier": "official",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26",
+      "access": "free",
+      "locator": "Art. 26(11)",
+      "why": "The Commission's copy, not the Official Journal (EUR-Lex returned an empty page). Deployers of Annex III high-risk systems that make or assist decisions about people must inform them. The page carries a notice that the provision was amended by the Digital Omnibus and the text is not yet updated; no application date is given in the brief for that reason.",
+      "last_checked": "2026-10-02"
+    }
+  ],
+  "approved": "2026-10-02"
 }

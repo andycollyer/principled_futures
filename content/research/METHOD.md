@@ -59,3 +59,22 @@ proposed corrections in the CORRECTIONS.md table format; anything you could not 
 - Name the regulator as its own source names it. (Open question: statute reads "the Commission" from 30 Sep 2026.)
 - Where a report contradicts itself, use the more precise passage and record both in the log.
 - In the log, give proposed corrections as table rows starting `| <id>-a |`, `| <id>-b |` and so on.
+
+## Citations for the source directory (apply from Domain 5)
+The reading lists feed a directory of 500+ documents that is machine-checked every fortnight
+(`docs/source-review-protocol.md`). So every reading-list item must be a complete citation:
+- `title`, `publisher`, `year`, `published` (the date shown on the document, or null), `url`, `access`, `tier`
+- `type`: legislation | regulator guidance | code or standard | reporting framework | official report |
+  court or tribunal | research | professional
+- `jurisdiction`: UK | EU | International | US | other
+- `locator`: section, paragraph or page
+- `quote`: an exact passage of 25 words or fewer, copied character for character from the raw text you read
+  (it is machine-checked against the page; a paraphrase will fail)
+- `why`, and `last_checked` (today's date)
+Aim for 8 to 10 items per criterion in the first pass: the binding rule, the regulator's guidance, a standard or
+framework, an official report or inquiry, research where it exists, and one international comparator where
+relevant. Relevance beats count; do not pad. In the log, also give the anchors for the lead: the brief's
+quotation and each figure as exact strings with the URL where each was read.
+- The UK data protection regulator is now the Information Commission (Data (Use and Access) Act 2025 s.117;
+  its site is titled "Information Commission's Office"). In brief text write "the Information Commission (ICO)".
+  In reading lists keep the publisher name printed on the document.

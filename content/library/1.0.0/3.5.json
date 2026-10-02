@@ -12,7 +12,8 @@
       "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/80",
       "access": "free",
       "locator": "s.80(1), inserting UK GDPR Articles 22A-22D",
-      "why": "The amending provision. Replaces Article 22 with Articles 22A-22D. Article 22D(1) lets the Secretary of State say by regulation when there is, or is not, meaningful human involvement."
+      "why": "The amending provision. Replaces Article 22 with Articles 22A-22D. Article 22D(1) lets the Secretary of State say by regulation when there is, or is not, meaningful human involvement.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "UK GDPR, Article 22A: Automated processing and significant decisions",
@@ -22,7 +23,8 @@
       "url": "https://www.legislation.gov.uk/eur/2016/679/article/22A",
       "access": "free",
       "locator": "Art. 22A(1)(a) and 22A(2)",
-      "why": "Source of the quotation. The only statutory content on what counts as meaningful is 22A(2): the extent of profiling must be considered. Competence, authority and access to reasoning are not in the text."
+      "why": "Source of the quotation. The only statutory content on what counts as meaningful is 22A(2): the extent of profiling must be considered. Competence, authority and access to reasoning are not in the text.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "UK GDPR, Article 22C: Safeguards for automated decision-making",
@@ -32,7 +34,8 @@
       "url": "https://www.legislation.gov.uk/eur/2016/679/article/22C",
       "access": "free",
       "locator": "Art. 22C(2)(a)-(d); textual amendment note F1",
-      "why": "The four safeguards owed when a significant decision is solely automated: information, representations, human intervention, contest. Note F1 gives commencement: fully in force 5 February 2026 (S.I. 2026/82)."
+      "why": "The four safeguards owed when a significant decision is solely automated: information, representations, human intervention, contest. Note F1 gives commencement: fully in force 5 February 2026 (S.I. 2026/82).",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "Guidance on AI and data protection: How do we ensure individual rights in our AI systems?",
@@ -42,7 +45,8 @@
       "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems/",
       "access": "free",
       "locator": "Section 'What is the role of human oversight?' through 'What monitoring should we undertake?'",
-      "why": "Where 'authority and competence' to go against the recommendation, rubber-stamping, automation bias, lack of interpretability and monitoring of accept/reject rates come from. Under review following the Data (Use and Access) Act 2025; still refers to Article 22. Year not shown on the page; to confirm."
+      "why": "Where 'authority and competence' to go against the recommendation, rubber-stamping, automation bias, lack of interpretability and monitoring of accept/reject rates come from. Under review following the Data (Use and Access) Act 2025; still refers to Article 22. Year not shown on the page; to confirm.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "Recruitment rewired: an update on the ICO's work on the fair and responsible use of automation in recruitment",
@@ -52,7 +56,8 @@
       "url": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/meaningful-human-involvement/",
       "access": "free",
       "locator": "Executive summary (parent page) and section 'Meaningful human involvement'",
-      "why": "Source of the figure (over 30 employers, executive summary) and of the current test: real influence before the decision is applied, with authority, discretion and competence to alter it. Voluntary engagement, not an audit. Review must reach every candidate, not only high scorers."
+      "why": "Source of the figure (over 30 employers, executive summary) and of the current test: real influence before the decision is applied, with authority, discretion and competence to alter it. Voluntary engagement, not an audit. Review must reach every candidate, not only high scorers.",
+      "last_checked": "2026-10-02"
     },
     {
       "title": "AI tools in recruitment: audit outcomes report",
@@ -62,7 +67,8 @@
       "url": "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf",
       "access": "free",
       "locator": "'Human reviews in AI', pp. 32-34",
-      "why": "Supports 'what good looks like': train reviewers, document when humans may override, keep records, have managers sample and check reviews, monitor grades changed by recruiters (p.33)."
+      "why": "Supports 'what good looks like': train reviewers, document when humans may override, keep records, have managers sample and check reviews, monitor grades changed by recruiters (p.33).",
+      "last_checked": "2026-10-02"
     }
   ],
   "approved": "2026-10-02"
