@@ -18,7 +18,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dir = path.join(root, "assets/research");
 const BUCKET = "research";
 
-const url = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "https://iizrsxtptbfpgthbgkba.supabase.co";
+const url = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "https://zmjkubaokuhzdddtejke.supabase.co";
 
 /**
  * Ask for the service key without echoing it and without it touching the

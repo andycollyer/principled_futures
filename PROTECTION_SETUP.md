@@ -39,7 +39,7 @@ database.
 
 ```bash
 npx supabase login
-npx supabase link --project-ref iizrsxtptbfpgthbgkba
+npx supabase link --project-ref zmjkubaokuhzdddtejke
 npx supabase functions deploy issue-paper
 npx supabase functions deploy stripe-webhook --no-verify-jwt
 ```

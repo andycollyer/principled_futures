@@ -34,7 +34,7 @@ adjust quantity" OFF** and be set to a **subscription** price.
 ```bash
 # from the app folder, once:
 supabase login
-supabase link --project-ref iizrsxtptbfpgthbgkba
+supabase link --project-ref zmjkubaokuhzdddtejke
 
 # ONE secret only — the webhook never calls Stripe, so it holds no API key:
 supabase secrets set STRIPE_WEBHOOK_SECRET=whsec_xxx
@@ -43,7 +43,7 @@ supabase secrets set STRIPE_WEBHOOK_SECRET=whsec_xxx
 supabase functions deploy stripe-webhook --no-verify-jwt
 ```
 The function URL is:
-`https://iizrsxtptbfpgthbgkba.supabase.co/functions/v1/stripe-webhook`
+`https://zmjkubaokuhzdddtejke.supabase.co/functions/v1/stripe-webhook`
 
 ### 3. Point Stripe at the webhook
 Stripe → Developers → Webhooks → **Add endpoint**:
