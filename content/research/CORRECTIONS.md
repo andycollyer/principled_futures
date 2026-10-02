@@ -194,3 +194,115 @@ Published content is versioned, never edited. Items here go into briefing set 1.
 | # | Current wording | Problem | Proposed |
 | --- | --- | --- | --- |
 | 3.5-fig | "drew on evidence from over 30 employers and found many likely relying on solely automated decisions" | Correct, but the report's introduction is more precise (found while researching 4.7) | "contacted 37 employers in 2025 and judged 16 likely to be using automated decision-making on candidates" |
+
+## 5.1
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 5.1-a | "attaches its entire safeguards apparatus to a two-part trigger"; extract "Two tests decide everything" | Omits that there must be a decision at all and that it must use personal data; the regulator's draft counts three factors | "attaches its safeguards to three conditions: a decision about a person, a significant effect, and no meaningful human involvement" |
+| 5.1-b | "(a contract terminated, an entitlement refused)" | First example not in the source read | "(a benefit or licence refused, a penalty issued)" |
+| 5.1-c | "a seemingly minor filter that silently removes applicants from consideration is squarely caught" | Too broad: a yes/no filter set in advance by a human is not a decision | "a scoring tool that rejects applicants below a pass mark is caught; a yes/no eligibility question set in advance by a person is not" |
+| 5.1-d | "the meaningful-involvement test imports the full ICO standard - competence, reasoning access, override authority" | The statute imports nothing; the standard is draft guidance | "the regulator's draft guidance reads the test as requiring a trained reviewer who considers the facts of every decision before it takes effect and has authority to change it" |
+| 5.1-e | "does it make or substantially shape decisions about people" | Not the UK test | "does it make decisions about people, or shape them so far that the human step adds nothing" |
+| 5.1-f | "the reasoning is what an assessment notice examines" | Not found in s.146 | "the regulator has treated an unreasoned answer to the scope question as non-compliant" |
+| 5.1-g | "The scoping exercise is a register pass (1.4)"; "(a standing horizon-scan item, 1.6)" | Internal question numbers in client text | "a pass through the AI register"; "a standing horizon-scanning item" |
+| 5.1-h | "they have decorated it"; "scoping by vibe" | Tone | "they have not changed who decided"; "scoping by assertion" |
+| 5.1-i | (omission) | The draft says that where those significantly affected cannot be separated from the rest, safeguards should apply to all decisions | Add one sentence to that effect, marked as draft guidance |
+
+## 5.2
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 5.2-a | Extract: "The Act names four rights." | The Act inserts Article 22C into the UK GDPR; the text sets safeguards, not rights | "The UK GDPR now sets four safeguards." |
+| 5.2-b | Extract: "The ICO's word is 'operational.'"; body: "the regulatory expectation, stated plainly, is that safeguards be operational rather than merely theoretical" | Phrase not found in statute, draft guidance or the recruitment report | "The regulator's draft guidance says safeguards must be applied consistently, not at discretion, and its recruitment review found notices of rights with no process behind them." |
+| 5.2-c | Extract: "The distance between the two is where most organisations currently live." | "Most organisations" unsourced; the evidence is recruitment only, over 30 employers, voluntary | "In recruitment, the regulator found that employers were not putting the safeguards in place." |
+| 5.2-d | "For every decision the scoping exercise catches, Article 22C requires four safeguards" | Scope and statute unstated | "For every significant decision taken solely by automated processing of personal data, Article 22C of the UK GDPR requires four safeguards" |
+| 5.2-e | "An owner: a named role accountable for the mechanism working" | Stated as a requirement; it is audit good practice | "An owner: a specific person or team responsible, as the regulator's audit toolkit expects" |
+| 5.2-f | "with the intervention owner meeting the meaningful-involvement standard in person — competent, reasoning-sighted, authorised to reverse" | Draft guidance treats intervention and involvement as distinct; "reasoning-sighted" not listed | "with a reviewer who is trained to understand the system's outputs and limits, sees the data it used, and has authority to alter the decision" |
+| 5.2-g | "A timescale: how quickly representations are considered ... undefined timescales are how rights decay into gestures" | Statutory limit exists and is not stated | "A timescale: the law allows one month, extendable by two for complex or numerous requests; set an internal target inside it" |
+| 5.2-h | "an unrecorded safeguard is unprovable, and unprovable is the regulator's synonym for absent" | Second half unsourced | "an unrecorded safeguard cannot be demonstrated, and the controller must be able to demonstrate compliance (Article 24)" |
+| 5.2-i | "the intervention route nobody invokes because nobody knows it exists" | Cause asserted; the regulator could not explain low use | "the route that is rarely used, for reasons nobody has looked into" |
+| 5.2-j | "the representations mailbox with a backlog measured in months" | Not found in any source | Delete, or "requests that run past the one-month limit" |
+| 5.2-k | "every intervention request is a person telling you, for free, where the automation is not yet good enough" | Overstates; a request can also reflect a poor explanation | "review outcomes show where the system, or the explanation given, is falling short" |
+| 5.2-l | "(4.3, 4.4)", "(5.8)" | Internal question numbers in client text | "the explanation and the challenge route"; "the accountability file" |
+| 5.2-m | (omission) | Monitoring accuracy or spot-checking is not the human intervention safeguard | Add one sentence |
+| 5.2-n | (omission) | Penalty tier for Article 22C is not stated | Add: "A breach of Article 22C sits in the higher penalty tier: up to £17,500,000 or 4% of worldwide turnover" |
+| 5.2-o | (omission) | Regulator guidance is a consultation draft; the audit toolkits are under review | Say so wherever either is relied on |
+
+## 5.3
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 5.3-a | "The ICO's position through its generative-AI work is that basis must be identified per purpose" | Source is the core AI guidance, which is under review | "The regulator's AI guidance, now under review, says each distinct processing operation needs its own purpose and lawful basis" |
+| 5.3-b | "an AI deployment typically contains at least three: training ... operation ... and outputs" | Regulator separates development and deployment; outputs as a third purpose is unsourced | "at least two, development and deployment, and what the system produces about a person is personal data in its own right" |
+| 5.3-c | "it cannot be relied upon for significant automated decisions" | Statute says solely automated | "it cannot support a significant decision taken solely by automated processing" |
+| 5.3-d | Extract: "and immediately banned it for automated decisions" | Same | "and barred it for solely automated significant decisions" |
+| 5.3-e | "covering matters such as national security and emergency response" | Incomplete; may suggest wider use | "limited to a short statutory list: national and public security, defence, emergencies, crime, safeguarding, and disclosure to bodies with a public task" |
+| 5.3-f | "review on the change triggers (2.7)" | Internal criterion number | "review whenever the purpose changes" |
+| 5.3-g | "Regulators read that sequence as fluently as they read dates on DPIAs." | Unsourced | "The regulator's guidance is that the basis is decided and recorded before processing starts." |
+| 5.3-h | "with training data attracting the hardest questions" | Regulator's statement concerns web-scraped data | "with web-scraped training data attracting the hardest questions" |
+| 5.3-i | Extract: "blanket 'legitimate interests' fails all three" | Unsourced | "a blanket claim of legitimate interests is not an assessment" |
+
+## 5.4
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 5.4-a | "systematic automated decision-making with significant effects, large-scale profiling, and novel technologies are the textbook triggers" | Mixes the statute with the regulator's list; new technology alone is not a trigger | "systematic automated decisions with significant effects are named in the Article itself; the regulator's own list adds large-scale profiling, and new technology such as AI when combined with one other risk factor" |
+| 5.4-b | "each mitigation needs an owner, a date, and eventual evidence of completion" | Stated as a requirement; the regulator asks for an owner and for checks that controls work | "each mitigation needs an owner, and someone must check it was put in place and works; a date and closure evidence are good practice" |
+| 5.4-c | "the DPIA also becomes the foundation the FRIA builds on (2.3)" | Overstates: applies to certain deployers only; the Act permits cross-reference; internal number | "certain deployers of high-risk systems under the EU AI Act must also assess the impact on fundamental rights, and may cross-refer to the data protection assessment" |
+| 5.4-d | "it forces the scoping question (5.1), tests the basis analysis (5.3), surfaces the special-category flows (5.5), and specifies the safeguards (5.2)"; "(2.5)"; "(2.7)" | Internal question numbers in client text | Remove the numbers; name the topics in words |
+| 5.4-e | "the cheapest design review your AI will ever get" | Unsourced superlative | "found early, a problem is usually simpler and cheaper to fix" |
+| 5.4-f | "The mature position reuses the DPIA commercially, as bid evidence, buyer-diligence collateral" | No source found | Either mark as the programme's own view, or replace with "the regulator regards publishing the assessment, or a summary, as good practice" |
+| 5.4-g | (omission) | No mention that the 2025 Act left the duty in place, or of the 2024 chatbot decision | Add one sentence on each |
+
+## 5.5
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 5.5-a | "Criterion 3.4 established the legal line: significant automated decisions based on special-category data are prohibited by default" | Internal number; omits "solely" | "The law bars significant decisions taken solely by automated means on special category data, unless a narrow condition applies" |
+| 5.5-b | "exceptions confined to explicit consent or legal authorisation meeting the substantial public interest condition" | Omits the contract route (Art. 22B(3)(a)(i)) | "the conditions are explicit consent, or a decision necessary for a contract or required or authorised by law, the last two also needing a substantial public interest condition" |
+| 5.5-c | "statutorily excluded from ADM altogether" | Overstated | "which cannot be relied on for a solely automated significant decision" |
+| 5.5-d | "This criterion is the data-governance half of the same obligation" | Article 9 is wider: it covers all processing, including collection and training | "This criterion covers the wider rule: special category data may not be processed at all, at any stage, without a condition" |
+| 5.5-e | "The enforcement problem is almost never the rule's clarity; it is visibility" | Unsourced; the one UK notice read turned on necessity and the wrong condition | "Two problems recur: not seeing the data, and relying on a condition that does not fit" |
+| 5.5-f | "ethnicity reconstructed from name and postcode proxies" | Postcode not in the sources read here | "ethnicity or religion inferred from names or images" |
+| 5.5-g | "the statutory rule attaches to what the decision is based on, not what the field is called" | The inference test is intention, per the ICO | "an inference counts where the organisation intends to draw it or to treat someone differently because of it, however the field is labelled" |
+| 5.5-h | "part of the DPIA (5.4)", "asked in procurement (1.5)" | Internal numbers | "part of the data protection impact assessment", "asked in procurement" |
+| 5.5-i | "the explicit consent captured to standard, or the legal authorisation named" | Omits the appropriate policy document and the Article 30 record | Add: "with the appropriate policy document the 2018 Act requires for most Schedule 1 conditions" |
+| 5.5-j | (omission) | Biometric and criminal offence data not explained | Add: "Biometric data is covered when used to identify someone; criminal offence data has its own, similar rules" |
+| 5.5-k | (omission) | No enforcement example | Add: "In 2024 the ICO ordered Serco Leisure to stop using facial recognition to record the attendance of 2,283 staff" |
+
+## 5.6
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 5.6-a | "The first two echo the deployer's Article 26 duty over input data under its control" | Unnamed statute; EU not UK; high-risk systems only; the only official copy readable is marked not yet updated | Delete, or "the EU AI Act asks something similar of those who deploy high-risk systems" once a current official text has been read |
+| 5.6-b | "data-protection law's oldest principle" | Unsourced | "one of data protection law's core principles" |
+| 5.6-c | Extract: "Most estates fail on the third word first" | Unsourced; the regulator's audits found retention and repurposing the commoner failures | "The third word is the one most easily forgotten" or delete |
+| 5.6-d | "every unnecessary field is simultaneously a compliance exposure, a bias vector, and a breach-impact multiplier" | "Every" and "breach-impact multiplier" unsourced | "an unnecessary field is a compliance exposure, adds to what a breach could expose, and may teach the system something irrelevant" |
+| 5.6-e | "you rarely control the model" | No evidence on frequency | "you may not control the model, but you control what your organisation connects to it" |
+| 5.6-f | "(3.2 — screening for bias)" and "(3.3)" | Internal criterion numbers in client text | Name the topics: "screening data for bias", "fairness testing" |
+| 5.6-g | "The Band 4 posture is quality metrics in telemetry — completeness, freshness, representation" | Internal vocabulary; the three metrics are not in the framework or any source read | "A mature organisation tracks measures of data quality and is alerted when they slip" |
+| 5.6-h | "integrations break silently" | Unsourced as fact | "sources change and populations drift" |
+| 5.6-i | Minimisation reviews "in both directions" | Under-representation is an adequacy and fairness matter; calling it minimisation hides a real tension the regulator acknowledges | "Review in both directions: remove what the system does not need, and check the data is still adequate for the people it is used on. The two can pull against each other, and the balance struck should be written down" |
+| 5.6-j | (omission) accuracy and retention | Art. 5(1)(d) and (e) not mentioned | Add: "data must also be accurate, kept up to date where necessary, and deleted when no longer needed" |
+| 5.6-k | (omission) scope | The legal duty covers personal data only | Add: "the legal duty covers personal data; the same discipline is good practice for all data" |
+
+## 5.7
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 5.7-a | "Data subject rights did not change because AI arrived — access, rectification, erasure, objection and the rest apply with full force" | The access right was amended in 2025; erasure and objection are conditional | "Data protection rights have no exception for AI: access, rectification, erasure and objection apply wherever personal data is used, each within its own limits" |
+| 5.7-b | "a subject-access request reaching an AI-involved process must surface not just the stored data but the decision-relevant information — including, for significant automated decisions, the information the safeguards regime already obliges you to provide (5.2, 4.3)" | Runs two duties together; internal numbers | "an access response must cover outputs and inferences about the person and, where a significant decision was taken solely by automated means, meaningful information about the logic involved" |
+| 5.7-c | "an access response that omits the algorithmic chapter of someone's file is incomplete on its face" | Opinion stated as rule; no mention of the search limit | "an access response that leaves out what the system inferred about the person is incomplete, subject to a reasonable and proportionate search" |
+| 5.7-d | "corrected inputs must propagate" | Word not in the law | "a correction has to reach every copy the organisation uses, and recipients must be told unless that is impossible or disproportionate" |
+| 5.7-e | "deletion has to reach the places AI put the data — caches, vendor processors, retraining sets" | "Caches" unsourced | "deletion has to reach training sets, suppliers acting as processors and, in time, backups" |
+| 5.7-f | "where data has been absorbed into a trained model, the honest position is to have thought about that boundary in advance (in the DPIA, 5.4) rather than improvising a theory of machine forgetting under deadline" | Omits the regulator's actual test; internal number | "erasing training data does not mean erasing the model unless the model contains the data or can be used to infer it; where it can, re-training or deletion may be needed, and output filters alone may not be enough" |
+| 5.7-g | "an objection to processing that includes profiling needs a route to actually stop the profiling for that person" | Objection is conditional except for direct marketing | "where an objection succeeds, and always for direct marketing, there must be a working way to stop the profiling for that person" |
+| 5.7-h | "drawn from the register (1.4)", "(1.5)", "(the Band 4 posture)" | Internal numbers and scoring terms in client text | Name the things: "the AI register", "supplier contracts"; delete the band reference |
+| 5.7-i | "a rights process that quietly runs past statutory timescales is a complaint generator with a lag" | No source for complaint volumes by right | "a rights process that runs past the legal time limit invites complaints to the regulator" |
+| 5.7-j | "The subject-access request that touches an AI system is where data-rights machinery usually breaks"; "so few organisations can produce it" | Frequency claims with no source | "A rights request that touches an AI system is a hard test of the process"; delete the second |
+
+## 5.8
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 5.8-a | "The ICO's assessment notice can compel technical reports and audits" | Regulator renamed; the report power dates only from 5 February 2026 and the statute does not say "technical" | "An assessment notice from the Information Commission (ICO) is a compulsory audit, and since February 2026 it can require a report from an approved person at the organisation's expense" |
+| 5.8-b | "(5.1) ... (5.7) ... built in 1.8 ... criterion 1.8" | Internal question numbers in client text | Name the subjects in words; drop the numbers |
+| 5.8-c | "data-protection scrutiny is the most likely scrutiny an SME's AI will ever face" | Unsourced | "data protection is where a regulator can already demand the file" |
+| 5.8-d | "could the complete file ... be assembled in an afternoon" and extract "a folder you can produce in an afternoon" | Unsourced timescale | "an urgent information notice can require documents after 24 hours" |
+| 5.8-e | "a file reconstructed after the notice arrives converts a documentation gap into a candour problem" | Overstates; only false statements and deliberate concealment or falsification are offences | "records written after a notice arrives are weaker evidence, and falsifying or concealing material at that point is a criminal offence" |
+| 5.8-f | "the enterprise buyer's diligence list ... the litigation disclosure request" | Unsourced | Keep as illustration only, or cut |
+| 5.8-g | "telemetry the Band 4 answer" | Internal scoring label in client text | "the stronger answer tracks how complete and how current each file is" |
+| 5.8-h | (omission) | The regulator can now interview current and former staff and managers (s.148A) | Add one sentence |

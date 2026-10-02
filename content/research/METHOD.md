@@ -78,3 +78,8 @@ quotation and each figure as exact strings with the URL where each was read.
 - The UK data protection regulator is now the Information Commission (Data (Use and Access) Act 2025 s.117;
   its site is titled "Information Commission's Office"). In brief text write "the Information Commission (ICO)".
   In reading lists keep the publisher name printed on the document.
+
+- Update, 2 October 2026 (afternoon): the Commission's AI Act Service Desk copy now states it is "based on the
+  EUR-Lex consolidated version of the AI Act as at 27 July 2026" and marks Digital Omnibus changes NEW or AMENDED.
+  It may be cited for EU provisions and dates, named as the Commission's copy of the consolidated text, with the
+  consolidation date in the reading-list note. Still read the article page itself in raw text.

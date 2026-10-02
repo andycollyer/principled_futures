@@ -1,6 +1,6 @@
 {
   "built": "2026-10-02",
-  "count": 69,
+  "count": 123,
   "sources": [
     {
       "key": "https://www.aisi.gov.uk/blog/should-ai-systems-behave-like-people",
@@ -17,6 +17,26 @@
         "4.1": "Section on transparency, first bullet; survey description above it; Figure 1 caption"
       },
       "last_checked": "2026-10-02"
+    },
+    {
+      "key": "https://www.adalovelaceinstitute.org/report/ryder-review-biometrics",
+      "url": "https://www.adalovelaceinstitute.org/report/ryder-review-biometrics/",
+      "title": "The Ryder Review: Independent legal review of the governance of biometric data in England and Wales",
+      "publisher": "Ada Lovelace Institute",
+      "year": 2022,
+      "tier": "research",
+      "access": "free",
+      "criteria": [
+        "5.5"
+      ],
+      "locators": {
+        "5.5": "Chapter 2 (Executive summary and recommendations), Recommendations 1-2; Chapter 5, 'Data protection law'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "research",
+      "quote": "There is an urgent need for a new, technologically neutral, statutory framework.",
+      "published": "2022-06-29"
     },
     {
       "key": "https://asa.org.uk/static/eb77bee0-a147-49b8-81856c3c83586bf2/AI-as-a-Marketing-Term-Report.pdf",
@@ -49,6 +69,46 @@
         "4.2": "Whole article (dated 29 May 2025)"
       },
       "last_checked": "2026-10-02"
+    },
+    {
+      "key": "https://ec.europa.eu/newsroom/just/document.cfm?doc_id=47711",
+      "url": "https://ec.europa.eu/newsroom/just/document.cfm?doc_id=47711",
+      "title": "Guidelines on Data Protection Impact Assessment (DPIA) and determining whether processing is \"likely to result in a high risk\" for the purposes of Regulation 2016/679 (WP 248 rev.01)",
+      "publisher": "Article 29 Data Protection Working Party (European Commission)",
+      "year": 2017,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.4"
+      ],
+      "locators": {
+        "5.4": "Section III.D(a), p. 14; nine criteria at pp. 9-11; Annex 2 (criteria for an acceptable DPIA)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "EU",
+      "type": "regulator guidance",
+      "quote": "Carrying out a DPIA is a continual process, not a one-time exercise.",
+      "published": "2017-10-04"
+    },
+    {
+      "key": "https://ec.europa.eu/newsroom/article29/redirection/document/49826",
+      "url": "https://ec.europa.eu/newsroom/article29/redirection/document/49826",
+      "title": "Guidelines on Automated individual decision-making and Profiling for the purposes of Regulation 2016/679 (WP251rev.01)",
+      "publisher": "Article 29 Data Protection Working Party (endorsed by the European Data Protection Board, 25 May 2018)",
+      "year": 2018,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.2"
+      ],
+      "locators": {
+        "5.2": "Chapter IV, section F 'Establishing appropriate safeguards', p.27; Annex 1 good practice recommendations, row 'Appropriate safeguards', p.32"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "EU",
+      "type": "regulator guidance",
+      "quote": "The controller must provide a simple way for the data subject to exercise these rights.",
+      "published": "6 February 2018"
     },
     {
       "key": "https://www.asa.org.uk/news/regulating-the-illusion-of-intelligence-in-ads.html",
@@ -189,6 +249,25 @@
       "last_checked": "2026-10-02"
     },
     {
+      "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Annex III: High-risk AI systems referred to in Article 6(2)",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.1"
+      ],
+      "locators": {
+        "5.1": "Annex III, points 4(a) and 5(b)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "EU",
+      "type": "legislation",
+      "quote": "AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score"
+    },
+    {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111",
       "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111",
       "title": "Regulation (EU) 2024/1689 (AI Act), Article 111: AI systems already placed on the market",
@@ -221,6 +300,70 @@
       "last_checked": "2026-10-02"
     },
     {
+      "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27",
+      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Article 27: Fundamental rights impact assessment for high-risk AI systems",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.4"
+      ],
+      "locators": {
+        "5.4": "Art. 27(1), (2), (4)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "EU",
+      "type": "legislation",
+      "quote": "include cross-references to the relevant sections of that data protection impact assessment",
+      "published": "2024-06-13"
+    },
+    {
+      "key": "https://www.edpb.europa.eu/system/files/2026-02/edpb_cef-report_2025_right-to-erasure_en.pdf",
+      "url": "https://www.edpb.europa.eu/system/files/2026-02/edpb_cef-report_2025_right-to-erasure_en.pdf",
+      "title": "2025 Coordinated Enforcement Action: Implementation of the right to erasure by controllers",
+      "publisher": "European Data Protection Board",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.7"
+      ],
+      "locators": {
+        "5.7": "Executive summary, pp. 2-3; section 3.1, p. 9"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "EU",
+      "type": "official report",
+      "quote": "a total of 764 controllers responded to the questionnaire",
+      "published": "2026-02-10"
+    },
+    {
+      "key": "https://www.edpb.europa.eu/system/files/2024-12/edpb_opinion_202428_ai-models_en.pdf",
+      "url": "https://www.edpb.europa.eu/system/files/2024-12/edpb_opinion_202428_ai-models_en.pdf",
+      "title": "Opinion 28/2024 on certain data protection aspects related to the processing of personal data in the context of AI models",
+      "publisher": "European Data Protection Board",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.3",
+        "5.5",
+        "5.7"
+      ],
+      "locators": {
+        "5.3": "Paras 60 and 66; executive summary pp. 2 to 3 (three-step test; scenarios on unlawfully trained models)",
+        "5.5": "para 17, first bullet (p.10), with footnotes 11-13",
+        "5.7": "Para. 43 (p. 16); also para. 65 (p. 21) and the lists of mitigating measures on pp. 29-30 and para. 114 (p. 32)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "EU",
+      "type": "regulator guidance",
+      "quote": "the GDPR does not establish any hierarchy between the different legal bases laid down in Article 6(1) GDPR",
+      "published": "2024-12-17"
+    },
+    {
       "key": "https://www.frc.org.uk/documents/6709/UK_Corporate_Governance_Code_2024_a2hmQmY.pdf",
       "url": "https://www.frc.org.uk/documents/6709/UK_Corporate_Governance_Code_2024_a2hmQmY.pdf",
       "title": "UK Corporate Governance Code 2024",
@@ -245,12 +388,18 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "4.6"
+        "4.6",
+        "5.1"
       ],
       "locators": {
-        "4.6": "Sections 2 (Introduction), 3.1 (Overall scope) and 4.2"
+        "4.6": "Sections 2 (Introduction), 3.1 (Overall scope) and 4.2",
+        "5.1": "Section 4.2 'For which tools must I complete an algorithmic transparency record?'"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "code or standard",
+      "quote": "‘Significant influence’ includes where an algorithmic tool meaningfully assists, supplements, or fully automates a decision-making process.",
+      "published": "2024-12-17"
     },
     {
       "key": "https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework",
@@ -267,6 +416,65 @@
         "3.6": "Accountability principle; passage on human oversight ('the right choice might be to not use the system at all')"
       },
       "last_checked": "2026-10-02"
+    },
+    {
+      "key": "https://ico.org.uk/media2/pyophl0h/guide-to-data-protection-audits.pdf",
+      "url": "https://ico.org.uk/media2/pyophl0h/guide-to-data-protection-audits.pdf",
+      "title": "A guide to ICO audits (version 1.5)",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.8"
+      ],
+      "locators": {
+        "5.8": "pp. 3-4 (executive summary, compulsory audits), p. 7 ('Document review'), p. 8"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "Prior to the audit we will request necessary policies and procedures that relate to the agreed scope areas from the organisation being audited.",
+      "published": "2026-02"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/recognised-legitimate-interest",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/recognised-legitimate-interest/",
+      "title": "A guide to lawful basis: Recognised legitimate interest",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.3"
+      ],
+      "locators": {
+        "5.3": "'At a glance' and section 'When can we use recognised legitimate interest?'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "You can’t use recognised legitimate interest as your lawful basis if you want to make significant decisions about someone based solely on automated processing.",
+      "published": "2026-03-23"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/",
+      "title": "A guide to the data protection principles. Principle (c): Data minimisation",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.6"
+      ],
+      "locators": {
+        "5.6": "'At a glance'; sections 'How do we decide what is adequate, relevant and limited?' and 'When could we be processing inadequate personal data?'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "You should periodically review your processing to check that the personal data you hold is still relevant and adequate for your purposes"
     },
     {
       "key": "https://ico.org.uk/about-the-ico/our-information/our-strategies-and-plans/artificial-intelligence-and-biometrics-strategy",
@@ -312,15 +520,23 @@
         "3.2",
         "3.3",
         "3.5",
-        "3.7"
+        "3.7",
+        "5.4",
+        "5.6"
       ],
       "locators": {
         "3.2": "pp. 3, 12, 18-20, 22",
         "3.3": "pp. 3, 20-24",
         "3.5": "'Human reviews in AI', pp. 32-34",
-        "3.7": "pp. 12, 19, 24, 40, 44-45, 47"
+        "3.7": "pp. 12, 19, 24, 40, 44-45, 47",
+        "5.4": "'DPIAs and risk management', pp. 34-37",
+        "5.6": "pp. 13-17, 'Data minimisation and purpose limitation'"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "AI providers had completed DPIAs retrospectively or just prior to the audit",
+      "published": "2024-11"
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards",
@@ -333,14 +549,20 @@
       "criteria": [
         "4.3",
         "4.4",
-        "4.7"
+        "4.7",
+        "5.2"
       ],
       "locators": {
         "4.3": "Section 'What 'information about decisions' do we have to provide?'",
         "4.4": "Sections 'How do we enable people to make representations?', 'What is human intervention?', 'How do we enable people to contest decisions?' and 'What do we do if someone exercises their rights under the ADM provisions?'",
-        "4.7": "Section 'What 'information about decisions' do we have to provide?'"
+        "4.7": "Section 'What 'information about decisions' do we have to provide?'",
+        "5.2": "Sections 'What are the safeguards in the ADM provisions?', 'What is human intervention?' and 'How do we enable people to contest decisions?'"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "You must apply the safeguards consistently rather than on an ad hoc discretionary basis.",
+      "published": "31 March 2026"
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/when-can-we-use-special-category-data-in-our-adm",
@@ -359,6 +581,106 @@
       "last_checked": "2026-10-02"
     },
     {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-does-the-uk-gdpr-say-about-adm",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-does-the-uk-gdpr-say-about-adm/",
+      "title": "Automated decision-making, including profiling: What does the UK GDPR say about ADM?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.1"
+      ],
+      "locators": {
+        "5.1": "Sections 'When do the ADM provisions apply?', 'What is a 'significant decision'?' and 'What is a 'solely' automated decision?'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "You should keep a record of how the human was involved in the decision.",
+      "published": "2026-03-31"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-else-do-we-need-to-consider",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-else-do-we-need-to-consider/",
+      "title": "Automated decision-making, including profiling: What else do we need to consider?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.1",
+        "5.2"
+      ],
+      "locators": {
+        "5.1": "Section 'Do we have to do a data protection impact assessment (DPIA)?'",
+        "5.2": "Sections 'Do we have to do a data protection impact assessment (DPIA)?' and 'Do we need to make any other changes to our systems?', final paragraph"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "A DPIA can help you decide whether or not the ADM provisions are likely to apply to your intended processing in the first place.",
+      "published": "2026-03-31"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/biometric-data-guidance-biometric-recognition/how-do-we-process-biometric-data-lawfully",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/biometric-data-guidance-biometric-recognition/how-do-we-process-biometric-data-lawfully/",
+      "title": "Biometric data guidance: Biometric recognition. How do we process biometric data lawfully?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.5"
+      ],
+      "locators": {
+        "5.5": "'At a glance'; sections 'Can we use consent and explicit consent?' and 'How do we determine our lawful basis and special category condition?'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "If you can’t identify a valid condition, you must not use special category biometric data.",
+      "published": "2024-02-23"
+    },
+    {
+      "key": "https://ico.org.uk/about-the-ico/our-information/policies-and-procedures/data-protection-fining-guidance/circumstances-in-which-the-commissioner-would-consider-it-appropriate-to-issue-a-penalty-notice/relevant-aggravating-or-mitigating-factors",
+      "url": "https://ico.org.uk/about-the-ico/our-information/policies-and-procedures/data-protection-fining-guidance/circumstances-in-which-the-commissioner-would-consider-it-appropriate-to-issue-a-penalty-notice/relevant-aggravating-or-mitigating-factors/",
+      "title": "Data Protection Fining Guidance: Relevant aggravating or mitigating factors",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.8"
+      ],
+      "locators": {
+        "5.8": "Sections 'The degree of responsibility of the controller or processor' and 'The degree of cooperation with the Commissioner'; footnotes 69-71"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "The Commissioner considers that the ordinary duty of cooperation is required by law and meeting this standard is therefore not a mitigating factor."
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/accountability/information-rights",
+      "url": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/accountability/information-rights/",
+      "title": "Data protection audit framework, Accountability toolkit: Information rights",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.2"
+      ],
+      "locators": {
+        "5.2": "Final control measure but one: 'People’s rights related to automated decision-making and profiling are protected'; also the control measures on resources, logging and monitoring of requests"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "code or standard",
+      "quote": "ensure a recorded process allows simple ways for people to request human intervention, express their opinion and challenge a decision"
+    },
+    {
       "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/governance-and-accountability-in-ai",
       "url": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/governance-and-accountability-in-ai/",
       "title": "Data protection audit framework, Artificial intelligence toolkit: Governance and accountability in AI",
@@ -367,12 +689,74 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "4.6"
+        "4.6",
+        "5.8"
       ],
       "locators": {
-        "4.6": "Control measure 'Information flows across the entire supply chain have been comprehensively mapped', under 'Risk'"
+        "4.6": "Control measure 'Information flows across the entire supply chain have been comprehensively mapped', under 'Risk'",
+        "5.8": "Control measures on the privacy management framework, the DPIA, the audit programme and change management"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "Evidence that senior management have seen and signed off the risks associated with using AI."
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/human-review",
+      "url": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/human-review/",
+      "title": "Data protection audit framework, Artificial intelligence toolkit: Human review",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.2"
+      ],
+      "locators": {
+        "5.2": "First control measure, 'Ways to meet our expectations'; second control measure, 'Ways to meet our expectations' and 'Options to consider'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "code or standard",
+      "quote": "Maintain a log of when AI decisions are overridden by a human reviewer, including the reasons why."
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/contracts-and-third-parties",
+      "url": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/contracts-and-third-parties/",
+      "title": "Data protection audit framework, artificial intelligence toolkit: Contracts and third parties",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.7"
+      ],
+      "locators": {
+        "5.7": "List beginning 'Include terms or clauses stating that'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "code or standard",
+      "quote": "the processor must take appropriate measures to help the controller respond to requests from people to exercise their rights"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/data-minimisation",
+      "url": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/data-minimisation/",
+      "title": "Data protection audit framework, artificial intelligence toolkit: Data minimisation",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.6"
+      ],
+      "locators": {
+        "5.6": "Three control measures: review of relevance at each stage; ongoing monitoring and testing; documented retention policy and schedule"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "Remove or erase training data that is no longer required (eg because it is out of date and no longer predictively useful)."
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/do-we-need-to-consult-the-ico",
@@ -389,6 +773,103 @@
         "3.6": "Sections 'When do we need to consult the ICO?', 'How long does it take?' and 'What are the possible outcomes?'"
       },
       "last_checked": "2026-10-02"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/how-do-we-do-a-dpia",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/how-do-we-do-a-dpia/",
+      "title": "Data protection impact assessments: How do we do a DPIA?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.4"
+      ],
+      "locators": {
+        "5.4": "Sections 'Step 7: How do we conclude our DPIA?' and 'What happens next?'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "You should identify any action points and who is responsible for implementing them."
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/what-is-a-dpia",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/what-is-a-dpia/",
+      "title": "Data protection impact assessments: What is a DPIA?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.4"
+      ],
+      "locators": {
+        "5.4": "Section 'How are DPIAs used?'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "a DPIA is not simply a rubber stamp or a technicality as part of a sign-off process"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/when-do-we-need-to-do-a-dpia",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/when-do-we-need-to-do-a-dpia/",
+      "title": "Data protection impact assessments: When do we need to do a DPIA?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.4"
+      ],
+      "locators": {
+        "5.4": "Sections 'What other factors might indicate likely high risk?' and 'What does the ICO consider likely to result in high risk?'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "In most cases, a combination of two of these factors indicates the need for a DPIA."
+    },
+    {
+      "key": "https://ico.org.uk/media2/migrated/4029988/snap-my-ai-non-confidential-decision-21-may-2024-20240619-redacted.pdf",
+      "url": "https://ico.org.uk/media2/migrated/4029988/snap-my-ai-non-confidential-decision-21-may-2024-20240619-redacted.pdf",
+      "title": "Decision of the Information Commissioner: Snap Inc. and Snap Group Limited",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.4"
+      ],
+      "locators": {
+        "5.4": "Paras 1-8, 28, 31, 123-124 and 153"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "a cursory and higher-level risk assessment, in tabular format",
+      "published": "2024-05-21"
+    },
+    {
+      "key": "https://ico.org.uk/media2/woalogoc/20240219-serco-leisure-operating-limited-en.pdf",
+      "url": "https://ico.org.uk/media2/woalogoc/20240219-serco-leisure-operating-limited-en.pdf",
+      "title": "Enforcement Notice: Serco Leisure Operating Limited",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.5"
+      ],
+      "locators": {
+        "5.5": "paras 17, 26(i)-(j), 27, 34-38 (pp. 7, 11-12, 15-16); Annex 1"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "Serco has not produced an appropriate policy document as required by Schedule 1, Paragraph 1(1)(b) of the DPA.",
+      "published": "2024-02-19"
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/annex-a-fairness-in-the-ai-lifecycle",
@@ -416,13 +897,58 @@
       "access": "free",
       "criteria": [
         "3.5",
-        "4.4"
+        "4.4",
+        "5.7"
       ],
       "locators": {
         "3.5": "Section 'What is the role of human oversight?' through 'What monitoring should we undertake?'",
-        "4.4": "Section 'What steps should we take to fulfil rights related to automated decision-making?'"
+        "4.4": "Section 'What steps should we take to fulfil rights related to automated decision-making?'",
+        "5.7": "Sections 'How should we ensure individual rights requests for training data?', 'How should we ensure individual rights requests for AI outputs?' and 'How do individual rights relate to data contained in the model itself?'"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "When procuring an AI service, you must choose one which allows individual rights to be protected and enabled"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-lawfulness-in-ai",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-lawfulness-in-ai/",
+      "title": "Guidance on AI and data protection: How do we ensure lawfulness in AI?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.3",
+        "5.5"
+      ],
+      "locators": {
+        "5.3": "Section 'What should we consider when deciding lawful bases?'; also 'How should we distinguish purposes between AI development and deployment?' and 'Can we rely on legitimate interests?'",
+        "5.5": "Sections 'What about special category data and data about criminal offences?' and 'Using AI systems to make inferences' (page updated 28 October 2024)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "You must break down and separate each distinct processing operation, and identify the purpose and an appropriate lawful basis for each one"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-should-we-assess-security-and-data-minimisation-in-ai",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-should-we-assess-security-and-data-minimisation-in-ai/",
+      "title": "Guidance on AI and data protection: How should we assess security and data minimisation in AI?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2023,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.6"
+      ],
+      "locators": {
+        "5.6": "Sections 'What considerations about the data minimisation principle do we need to make?', 'How should we minimise personal data in the training stage?', 'How should we balance data minimisation and statistical accuracy?'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "You must not collect personal data on the off-chance that it might be useful in the future"
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-about-fairness-bias-and-discrimination",
@@ -453,12 +979,176 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "4.5"
+        "4.5",
+        "5.4"
       ],
       "locators": {
-        "4.5": "Section 'Outsourcing and third-party AI systems'"
+        "4.5": "Section 'Outsourcing and third-party AI systems'",
+        "5.4": "Section 'What do we need to consider when undertaking data protection impact assessments for AI?'"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "the use of AI will involve a type of processing likely to result in a high risk to individuals’ rights and freedoms",
+      "published": "2023-03-15"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/what-do-we-need-to-know-about-accuracy-and-statistical-accuracy",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/what-do-we-need-to-know-about-accuracy-and-statistical-accuracy/",
+      "title": "Guidance on AI and data protection: What do we need to know about accuracy and statistical accuracy?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2023,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.6"
+      ],
+      "locators": {
+        "5.6": "Sections 'What is the difference between accuracy in data protection law and statistical accuracy in AI?' and 'What should we do about statistical accuracy post-deployment?'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "You should regularly assess drift and retrain the model on new data where necessary.",
+      "published": "15 March 2023"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/",
+      "title": "Guide to accountability and governance",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.8"
+      ],
+      "locators": {
+        "5.8": "Sections 'Why is accountability important?', 'What do we need to do?' and 'What documentation should we maintain?'; checklist"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "if you can’t show good data protection practices, it may leave you open to fines and reputational damage",
+      "published": "2026-02-05"
+    },
+    {
+      "key": "https://ico.org.uk/media2/ybsi5n0j/ico-annual-report-202527.pdf",
+      "url": "https://ico.org.uk/media2/ybsi5n0j/ico-annual-report-202527.pdf",
+      "title": "Information Commissioner's Annual Report and Financial Statements 2025/26 (HC 274)",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.8"
+      ],
+      "locators": {
+        "5.8": "p. 65 ('Regulatory Assurance audits'); table p. 67; pp. 34, 59, 62-63"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "we completed a total of 85 audits, risk reviews and follow-up work",
+      "published": "2026-07-14"
+    },
+    {
+      "key": "https://ico.org.uk/about-the-ico/what-we-do/our-work-on-artificial-intelligence/response-to-the-consultation-series-on-generative-ai/accuracy-of-training-data-and-model-outputs",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/our-work-on-artificial-intelligence/response-to-the-consultation-series-on-generative-ai/accuracy-of-training-data-and-model-outputs/",
+      "title": "Information Commissioner's Office response to the consultation series on generative AI: Accuracy of training data and model outputs",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.6"
+      ],
+      "locators": {
+        "5.6": "Sections 'Original call for evidence' and 'Key points from the responses'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "the developer should curate the training data accordingly to ensure sufficient accuracy for the purpose for which it is processed"
+    },
+    {
+      "key": "https://ico.org.uk/about-the-ico/what-we-do/our-work-on-artificial-intelligence/response-to-the-consultation-series-on-generative-ai/the-lawful-basis-for-web-scraping-to-train-generative-ai-models",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/our-work-on-artificial-intelligence/response-to-the-consultation-series-on-generative-ai/the-lawful-basis-for-web-scraping-to-train-generative-ai-models/",
+      "title": "Information Commissioner's Office response to the consultation series on generative AI: The lawful basis for web scraping to train generative AI models",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.3"
+      ],
+      "locators": {
+        "5.3": "'In brief' box and section 'Our response'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "Legitimate interests remains the sole available lawful basis for training generative AI models using web-scraped personal data based on current practices."
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/legitimate-interests/what-is-the-legitimate-interests-basis",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/legitimate-interests/what-is-the-legitimate-interests-basis/",
+      "title": "Legitimate interests: What is the 'legitimate interests' basis?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.3"
+      ],
+      "locators": {
+        "5.3": "Section 'What is the three-part test?'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "It’s not enough for you to simply say that using personal information is in your legitimate interests.",
+      "published": "2026-03-23"
+    },
+    {
+      "key": "https://ico.org.uk/media2/migrated/4020436/clearview-ai-inc-mpn-20220518.pdf",
+      "url": "https://ico.org.uk/media2/migrated/4020436/clearview-ai-inc-mpn-20220518.pdf",
+      "title": "Monetary Penalty Notice: Clearview AI Inc",
+      "publisher": "Information Commissioner's Office",
+      "year": 2022,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.3"
+      ],
+      "locators": {
+        "5.3": "Para 3 (amount), para 4(ii) and para 68 (p. 29) on lawful basis"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "The amount of the penalty is £7,552,800",
+      "published": "2022-05-18"
+    },
+    {
+      "key": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/dpias",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/dpias/",
+      "title": "Recruitment rewired: DPIAs",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.1"
+      ],
+      "locators": {
+        "5.1": "Sections 'Our findings about DPIAs' and case study"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "This is not compliant, because the employer hasn’t fully assessed the extent to which its processing is within the scope of the ADM provisions.",
+      "published": "2026-03-27"
     },
     {
       "key": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/introduction-what-is-adm-and-why-are-we-focusing-on-it-in-recruitment",
@@ -485,12 +1175,37 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "4.7"
+        "4.7",
+        "5.2"
       ],
       "locators": {
-        "4.7": "Sections 'Our findings about transparency and safeguards' and 'Discussion'"
+        "4.7": "Sections 'Our findings about transparency and safeguards' and 'Discussion'",
+        "5.2": "Section 'Our findings about transparency and safeguards', sub-section 'Safeguards', including the third case study (chatbot screening interviews), and 'Expectations'"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "We also didn’t see widespread evidence that candidates were able to make representations, obtain human intervention or contest decisions."
+    },
+    {
+      "key": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/understanding-how-meaningful-human-involvement-applies-use-cases",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/understanding-how-meaningful-human-involvement-applies-use-cases/",
+      "title": "Recruitment rewired: Understanding how meaningful human involvement applies: use cases",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.1"
+      ],
+      "locators": {
+        "5.1": "Use cases 'tools used to provide 'fit' scores' and 'mandatory screening questions'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "This means that a human must make every decision about whether to progress a candidate to the next stage.",
+      "published": "2026-03-27"
     },
     {
       "key": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/meaningful-human-involvement",
@@ -501,12 +1216,76 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "3.5"
+        "3.5",
+        "5.1"
       ],
       "locators": {
-        "3.5": "Executive summary (parent page) and section 'Meaningful human involvement'"
+        "3.5": "Executive summary (parent page) and section 'Meaningful human involvement'",
+        "5.1": "Section 'Our findings about meaningful human involvement'"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "However, the evidence we saw indicated that, in practice, employers were using the tools to make solely automated decisions.",
+      "published": "2026-03-27"
+    },
+    {
+      "key": "https://ico.org.uk/about-the-ico/what-we-do/our-work-on-artificial-intelligence/response-to-the-consultation-series-on-generative-ai/engineering-individual-rights-into-generative-ai-models",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/our-work-on-artificial-intelligence/response-to-the-consultation-series-on-generative-ai/engineering-individual-rights-into-generative-ai-models/",
+      "title": "Response to the consultation series on generative AI: Engineering individual rights into generative AI models",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.7"
+      ],
+      "locators": {
+        "5.7": "Section 'Our response'; also 'In brief' and 'Key points from the responses'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "these may not be sufficient, as they do not actually remove the data from the model"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/right-of-access/how-do-we-find-and-retrieve-the-relevant-information",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/right-of-access/how-do-we-find-and-retrieve-the-relevant-information/",
+      "title": "Right of access: How do we find and retrieve the relevant information?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2025,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.7"
+      ],
+      "locators": {
+        "5.7": "Sections 'What efforts do we need to make to find information?', 'What about archived information and backup records?' and 'What about personal information in big datasets?'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "However, there is no technology exemption from the right of access.",
+      "published": "2025-12-08"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-are-the-rules-on-special-category-data",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-are-the-rules-on-special-category-data/",
+      "title": "Special category data: What are the rules on special category data?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.5"
+      ],
+      "locators": {
+        "5.5": "Sections 'What does the UK GDPR say?', 'How do the conditions work?', 'What does 'necessary' mean?', 'Do we need to do a DPIA?'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "If your purpose is not covered by any of the conditions, and you cannot obtain valid explicit consent, you cannot process the special category data."
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data",
@@ -625,6 +1404,26 @@
       "last_checked": "2026-10-02"
     },
     {
+      "key": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology",
+      "year": 2023,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.6"
+      ],
+      "locators": {
+        "5.6": "Section 3.6 'Privacy-Enhanced', p.17; see also MAP 2.3 (p.27) and Appendix B (p.38)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "US",
+      "type": "code or standard",
+      "quote": "techniques can result in a loss in accuracy, affecting decisions about fairness and other values in certain domains",
+      "published": "January 2023"
+    },
+    {
       "key": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf",
       "title": "Towards a Standard for Identifying and Managing Bias in Artificial Intelligence (Special Publication 1270)",
@@ -707,6 +1506,66 @@
       "last_checked": "2026-10-02"
     },
     {
+      "key": "https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/319",
+      "url": "https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/319",
+      "title": "The Information Commissioner v Clearview AI Incorporated [2025] UKUT 319 (AAC)",
+      "publisher": "Upper Tribunal (Administrative Appeals Chamber)",
+      "year": 2025,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.5"
+      ],
+      "locators": {
+        "5.5": "Summary of decision; Decision; paras 8-9, 367"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "court or tribunal",
+      "quote": "The decision of the Upper Tribunal is to allow the appeal.",
+      "published": "2025-10-06"
+    },
+    {
+      "key": "https://arxiv.org/abs/2412.06966",
+      "url": "https://arxiv.org/abs/2412.06966",
+      "title": "Machine Unlearning Doesn't Do What You Think: Lessons for Generative AI Policy and Research",
+      "publisher": "arXiv (Cooper and others; NeurIPS 2025)",
+      "year": 2024,
+      "tier": "research",
+      "access": "free",
+      "criteria": [
+        "5.7"
+      ],
+      "locators": {
+        "5.7": "Abstract"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "International",
+      "type": "research",
+      "quote": "unlearning is not a general-purpose solution for circumscribing generative-AI model behavior in service of broader positive impact",
+      "published": "2024-12-09"
+    },
+    {
+      "key": "https://arxiv.org/abs/2005.13718",
+      "url": "https://arxiv.org/abs/2005.13718",
+      "title": "Operationalizing the Legal Principle of Data Minimization for Personalization",
+      "publisher": "arXiv (paper in Proceedings of the 43rd International ACM SIGIR Conference); A. J. Biega, P. Potash, H. Daumé III, F. Diaz, M. Finck",
+      "year": 2020,
+      "tier": "research",
+      "access": "free",
+      "criteria": [
+        "5.6"
+      ],
+      "locators": {
+        "5.6": "Abstract"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "International",
+      "type": "research",
+      "quote": "the performance decrease incurred by data minimization might not be substantial, but that it might disparately impact different users",
+      "published": "28 May 2020"
+    },
+    {
       "key": "https://www.legislation.gov.uk/ukpga/2025/18/section/103",
       "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/103",
       "title": "Data (Use and Access) Act 2025, section 103: Complaints by data subjects",
@@ -741,6 +1600,25 @@
       "last_checked": "2026-10-02"
     },
     {
+      "key": "https://www.legislation.gov.uk/ukpga/2018/12/schedule/1/part/4",
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/schedule/1/part/4",
+      "title": "Data Protection Act 2018, Schedule 1, Part 4: Appropriate policy document and additional safeguards",
+      "publisher": "legislation.gov.uk",
+      "year": 2018,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.5"
+      ],
+      "locators": {
+        "5.5": "Sch. 1 paras 38-41; read with s.10 and Sch. 1 paras 1 and 5"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "review and (if appropriate) update it from time to time"
+    },
+    {
       "key": "https://www.legislation.gov.uk/ukpga/2018/12/schedule/1/paragraph/8",
       "url": "https://www.legislation.gov.uk/ukpga/2018/12/schedule/1/paragraph/8",
       "title": "Data Protection Act 2018, Schedule 1, paragraph 8: Equality of opportunity or treatment",
@@ -755,6 +1633,84 @@
         "3.2": "Sch.1 para 8(1)-(5); see also para 5 (appropriate policy document)"
       },
       "last_checked": "2026-10-02"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/ukpga/2018/12/section/142",
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/142",
+      "title": "Data Protection Act 2018, section 142: Information notices",
+      "publisher": "legislation.gov.uk",
+      "year": 2018,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.8"
+      ],
+      "locators": {
+        "5.8": "s.142(1), (5)-(7); notes F2-F13"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "to be provided before the end of the period of 24 hours beginning when the notice is given"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/ukpga/2018/12/section/146",
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/146",
+      "title": "Data Protection Act 2018, section 146: Assessment notices",
+      "publisher": "legislation.gov.uk",
+      "year": 2018,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.2",
+        "5.8"
+      ],
+      "locators": {
+        "5.2": "s.146(1) and (2)(a)-(k)",
+        "5.8": "s.146(2)(a)-(k), (3A), (8), (9), (11A); section 146A"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "carry out an assessment of whether the controller or processor has complied or is complying with the data protection legislation"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/ukpga/2018/12/section/148A",
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/148A",
+      "title": "Data Protection Act 2018, section 148A: Interview notices",
+      "publisher": "legislation.gov.uk",
+      "year": 2018,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.8"
+      ],
+      "locators": {
+        "5.8": "s.148A(1)-(3), (8)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "answer questions with respect to any matter relevant to the investigation"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/ukpga/2018/12/section/155",
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/155",
+      "title": "Data Protection Act 2018, section 155: Penalty notices",
+      "publisher": "legislation.gov.uk",
+      "year": 2018,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.8"
+      ],
+      "locators": {
+        "5.8": "s.155(1)(b)-(c), (3)(d), (3)(f); section 157(4)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "has failed to comply with an information notice, an assessment notice"
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2024/13/section/182",
@@ -907,6 +1863,44 @@
       "last_checked": "2026-10-02"
     },
     {
+      "key": "https://www.legislation.gov.uk/eur/2016/679/annex/1",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/annex/1",
+      "title": "UK GDPR, Annex 1: Lawfulness of processing: recognised legitimate interests",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.3"
+      ],
+      "locators": {
+        "5.3": "Annex 1, paras 1 to 8; note F1"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "This condition is met where the processing is necessary for the purposes of responding to an emergency."
+    },
+    {
+      "key": "https://www.legislation.gov.uk/eur/2016/679/article/11A",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/11A",
+      "title": "UK GDPR, Article 11A: Further provision about processing of special categories of personal data",
+      "publisher": "legislation.gov.uk",
+      "year": 2025,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.5"
+      ],
+      "locators": {
+        "5.5": "Art. 11A(1)-(4); note F1"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "make provision so that an additional description of processing of personal data is subject to the prohibition in Article 9(1)"
+    },
+    {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/13",
       "url": "https://www.legislation.gov.uk/eur/2016/679/article/13",
       "title": "UK GDPR, Article 13: Information to be provided where personal data are collected from the data subject",
@@ -931,12 +1925,55 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "4.3"
+        "4.3",
+        "5.7"
       ],
       "locators": {
-        "4.3": "Art. 15(1)(h); note F4. Same wording at Art. 13(2)(f) and Art. 14(2)(g)"
+        "4.3": "Art. 15(1)(h); note F4. Same wording at Art. 13(2)(f) and Art. 14(2)(g)",
+        "5.7": "Art. 15(1)(h), 15(1A) and 15(3); textual amendment notes F4, F5 and F8"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "based on a reasonable and proportionate search for the personal data and other information described in that paragraph"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/eur/2016/679/article/17",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/17",
+      "title": "UK GDPR, Article 17: Right to erasure ('right to be forgotten')",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.7"
+      ],
+      "locators": {
+        "5.7": "Art. 17(1)(a)-(g), 17(2) and 17(3)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/eur/2016/679/article/21",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/21",
+      "title": "UK GDPR, Article 21: Right to object",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.7"
+      ],
+      "locators": {
+        "5.7": "Art. 21(1)-(4); textual amendment note F1"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "The controller shall no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing"
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/22A",
@@ -947,12 +1984,17 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "3.5"
+        "3.5",
+        "5.1"
       ],
       "locators": {
-        "3.5": "Art. 22A(1)(a) and 22A(2)"
+        "3.5": "Art. 22A(1)(a) and 22A(2)",
+        "5.1": "Art. 22A(1)(b) and 22A(2); note F1"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "a person must consider, among other things, the extent to which the decision is reached by means of profiling"
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/22B",
@@ -963,12 +2005,17 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "3.4"
+        "3.4",
+        "5.3"
       ],
       "locators": {
-        "3.4": "Art. 22B(1)-(4); textual amendment note F1"
+        "3.4": "Art. 22B(1)-(4); textual amendment note F1",
+        "5.3": "Art. 22B(4); note F1"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "is carried out entirely or partly in reliance on Article 6(1)(ea)"
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/22C",
@@ -984,7 +2031,8 @@
         "4.3",
         "4.4",
         "4.5",
-        "4.7"
+        "4.7",
+        "5.2"
       ],
       "locators": {
         "3.5": "Art. 22C(2)(a)-(d); textual amendment note F1",
@@ -992,9 +2040,51 @@
         "4.3": "Art. 22C(1) and 22C(2)(a); textual amendment note F1",
         "4.4": "Art. 22C(1) and 22C(2)(b)-(d); textual amendment note F1",
         "4.5": "Art. 22C(1)-(2); read with Art. 22A(1)-(2)",
-        "4.7": "Art. 22C(1) and (2)(a); note F1"
+        "4.7": "Art. 22C(1) and (2)(a); note F1",
+        "5.2": "Art. 22C(1) and 22C(2)(a)-(d); note F1"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "the controller must ensure that safeguards for the data subject’s rights, freedoms and legitimate interests are in place"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/eur/2016/679/article/22D",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22D",
+      "title": "UK GDPR, Article 22D: Further provision about automated decision-making",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.1"
+      ],
+      "locators": {
+        "5.1": "Art. 22D(1), (2) and (5)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "a description of decision is, or is not, to be taken to have a similarly significant effect for the data subject"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/eur/2016/679/article/24",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/24",
+      "title": "UK GDPR, Article 24: Responsibility of the controller",
+      "publisher": "legislation.gov.uk",
+      "year": 2025,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.2"
+      ],
+      "locators": {
+        "5.2": "Art. 24(1); note F1 (Art. 24(3) amended 20 August 2025)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "to ensure and to be able to demonstrate that processing is performed in accordance with this Regulation"
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/25",
@@ -1005,12 +2095,17 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "4.5"
+        "4.5",
+        "5.6"
       ],
       "locators": {
-        "4.5": "Art. 25(1)"
+        "4.5": "Art. 25(1)",
+        "5.6": "Art. 25(1)-(2)"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "only personal data which are necessary for each specific purpose of the processing are processed"
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/28",
@@ -1037,12 +2132,17 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "4.6"
+        "4.6",
+        "5.1"
       ],
       "locators": {
-        "4.6": "Art. 30(1), (3), (4), (5)"
+        "4.6": "Art. 30(1), (3), (4), (5)",
+        "5.1": "Art. 30(1), (3) and (4)"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "The records referred to in paragraphs 1 and 2 shall be in writing, including in electronic form."
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/35",
@@ -1053,12 +2153,18 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "3.6"
+        "3.6",
+        "5.4"
       ],
       "locators": {
-        "3.6": "Art. 35(1), (3), (7)"
+        "3.6": "Art. 35(1), (3), (7)",
+        "5.4": "Art. 35(1), (3), (7), (11)"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "Where necessary, the controller shall carry out a review to assess if processing is performed in accordance with the data protection impact assessment",
+      "published": "2016-04-27"
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/36",
@@ -1085,12 +2191,39 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "4.6"
+        "4.6",
+        "5.6",
+        "5.8"
       ],
       "locators": {
-        "4.6": "Art. 5(2)"
+        "4.6": "Art. 5(2)",
+        "5.6": "Art. 5(1)(c) data minimisation, 5(1)(d) accuracy, 5(1)(e) storage limitation, 5(2) accountability",
+        "5.8": "Art. 5(2)"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed",
+      "published": "2016-04-27"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/eur/2016/679/article/6",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/6",
+      "title": "UK GDPR, Article 6: Lawfulness of processing",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.3"
+      ],
+      "locators": {
+        "5.3": "Art. 6(1)(a) to (f), 6(5) and 6(11); notes F3 and F14"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "processing is necessary for the purposes of a recognised legitimate interest"
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/82",
@@ -1117,12 +2250,39 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "3.6"
+        "3.6",
+        "5.2",
+        "5.4"
       ],
       "locators": {
-        "3.6": "Art. 83(4)(a)"
+        "3.6": "Art. 83(4)(a)",
+        "5.2": "Art. 83(5), point (ba); notes F8 and F10",
+        "5.4": "Art. 83(4)(a)"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "Article 22B or 22C (restrictions on, and safeguards for, automated decision-making)",
+      "published": "2016-04-27"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/eur/2016/679/article/8A",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/8A",
+      "title": "UK GDPR, Article 8A: Purpose limitation: further processing",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "5.3"
+      ],
+      "locators": {
+        "5.3": "Art. 8A(2) and (3); note F1. Read with Art. 5(1)(b) and 5(3)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "any link between the original purpose and the new purpose"
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/9",
@@ -1133,12 +2293,17 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "3.4"
+        "3.4",
+        "5.5"
       ],
       "locators": {
-        "3.4": "Art. 9(1) and 9(2)(g)"
+        "3.4": "Art. 9(1) and 9(2)(g)",
+        "5.5": "Art. 9(1), 9(2)(a)-(j), 9(5); notes F1-F19"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "biometric data for the purpose of uniquely identifying a natural person"
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/chapter/III/section/1",

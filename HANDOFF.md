@@ -43,6 +43,8 @@ Netlify settings: `SITE_PRIVATE=1`, `TEAM_PASSCODE` (also in `../TEAM-PASSCODE.t
 - Domain 3 (3.1–3.8) approved by Andy 2 Oct 2026 and live in the product: `scripts/seed-content.mjs` uses any brief with `status: approved` in place of the legacy briefing (title, body, reading list, checked date; migration 0008). Legacy briefings still serve the other 56 and are labelled "awaiting evidence review".
 - Domain 4 (4.1–4.8) approved and live 2 Oct 2026 (71 corrections on file). 16 of 64 briefs are now evidence briefs.
 - Source review: `docs/source-review-protocol.md`; `python3 scripts/source_check.py` (anchors, watch list, drift, coverage) writes to `content/sources/`. Baseline 2 Oct 2026: 35/35 anchors found, 69 documents, 1 open queue item (regulator renamed). Not yet scheduled.
+- Domain 5 (5.1–5.8) researched; automated lead re-check passed (`scripts/lead_check.py 5`: all 8 quotations and all 80 reading-list quotes found at their links); 80 corrections filed; awaiting Andy's sign-off (`../Domain-5-for-approval.md`). Domains 6, 7, 8 and 1 in research; Domain 2 to follow.
+- Andy's instruction 2 Oct 2026: run research, re-check and compilation unattended; he reviews and signs off once at the end. Pipeline per domain: researchers → `lead_check.py N --add` → figure anchors → `finalize_domain.py N "Name"` → `source_check.py`.
 - Directory target: 500+ documents, 12+ per criterion. Now 69. Complete-citation fields required from Domain 5 (see METHOD).
 - To publish an approved domain: set `status: approved` in the brief and library files, run `npm run seed:content`, apply 0005 to the database, build, deploy.
 - Method: `content/research/METHOD.md`. One researcher per criterion; the lead re-reads every quotation and figure against raw source text.

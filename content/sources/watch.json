@@ -40,14 +40,14 @@
     },
     {
       "id": "W4",
-      "what": "European Commission's copy of the EU AI Act says it is not yet updated for the Digital Omnibus; the Official Journal text has not been read",
+      "what": "European Commission's copy of the EU AI Act is based on the EUR-Lex consolidated version as at 27 July 2026 (includes the Digital Omnibus amendments)",
       "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
-      "banner": "not yet",
+      "banner": "consolidated version of the AI Act as at 27 July 2026",
       "affects": [
         "4.1",
         "4.2"
       ],
-      "when_gone": "Copy updated: re-read Articles 50, 111 and 113 and confirm the dates in 4.1 and 4.2."
+      "when_gone": "A newer consolidated version is shown: re-read Articles 50, 111 and 113 and every EU date in the briefs."
     },
     {
       "id": "W5",

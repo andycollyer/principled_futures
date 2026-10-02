@@ -132,7 +132,9 @@ def run(check_all):
         if (kind, key) in open_keys:
             return
         open_keys.add((kind, key))
-        n = sum(1 for q in queue["items"] if q["id"].startswith("R-" + TODAY.replace("-", ""))) + len(new_items) + 1
+        stamp = "R-" + TODAY.replace("-", "") + "-"
+        used = [int(q["id"][len(stamp):]) for q in queue["items"] + new_items if q["id"].startswith(stamp)]
+        n = max(used, default=0) + 1
         due = (datetime.date.today() + datetime.timedelta(days=DECIDE_DAYS)).isoformat()
         new_items.append({"id": f"R-{TODAY.replace('-', '')}-{n:02d}", "type": kind, "key": key, "title": title,
                           "criteria": criteria, "detail": detail, "found": TODAY, "decide_by": due})

@@ -1,10 +1,10 @@
 {
   "built": "2026-10-02",
-  "distinct_documents": 69,
+  "distinct_documents": 123,
   "target_total": 500,
-  "criteria_with_a_reading_list": 16,
+  "criteria_with_a_reading_list": 24,
   "criteria_total": 64,
-  "reading_list_entries": 94,
+  "reading_list_entries": 174,
   "target_per_criterion": 12,
   "criteria_below_target": [
     "3.1",
@@ -22,16 +22,24 @@
     "4.5",
     "4.6",
     "4.7",
-    "4.8"
+    "4.8",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6",
+    "5.7",
+    "5.8"
   ],
   "by_tier": {
-    "official": 68,
-    "research": 1
+    "official": 119,
+    "research": 4
   },
   "citation_fields_missing": {
-    "quote": 69,
-    "jurisdiction": 69,
-    "type": 69,
-    "published": 69
+    "quote": 51,
+    "jurisdiction": 51,
+    "type": 51,
+    "published": 90
   }
 }
