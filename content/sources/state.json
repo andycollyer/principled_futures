@@ -1208,7 +1208,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 14
+    "passages": 14,
+    "change": 0.0
   },
   "https://www.aisi.gov.uk/research/poisoning-attacks-on-llms-require-a-near-constant-number-of-poison-samples": {
     "title": "Poisoning Attacks on LLMs Require a Near-constant Number of Poison Samples",
@@ -1217,7 +1218,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 12
+    "passages": 12,
+    "change": 0.0
   },
   "https://www.aisi.gov.uk/research/quantifying-frontier-llm-capabilities-for-container-sandbox-escape": {
     "title": "Quantifying Frontier LLM Capabilities for Container Sandbox Escape",
@@ -1226,7 +1228,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 11
+    "passages": 11,
+    "change": 0.0
   },
   "https://www.aisi.gov.uk/research/security-challenges-in-ai-agent-deployment-insights-from-a-large-scale-public-competition": {
     "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
@@ -1235,7 +1238,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 14
+    "passages": 14,
+    "change": 0.0
   },
   "https://www.acas.org.uk/1-in-4-workers-worry-that-ai-will-lead-to-job-losses": {
     "title": "1 in 4 workers worry that AI will lead to job losses",
@@ -1244,7 +1248,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 23
+    "passages": 23,
+    "change": 0.0
   },
   "https://www.acas.org.uk/research-and-commentary/my-boss-the-algorithm-an-ethical-look-at-algorithms-in-the-workplace/paper": {
     "title": "My boss the algorithm: an ethical look at algorithms in the workplace",
@@ -1253,7 +1258,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 460
+    "passages": 460,
+    "change": 0.0
   },
   "https://www.acas.org.uk/one-third-of-employers-think-ai-will-increase-productivity": {
     "title": "One third of employers think AI will increase productivity",
@@ -1262,17 +1268,20 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 21
+    "passages": 21,
+    "change": 0.0
   },
   "https://www.bankofengland.co.uk/report/2024/artificial-intelligence-in-uk-financial-services-2024": {
     "title": "Artificial intelligence in UK financial services - 2024",
     "criteria": [
+      "1.5",
       "2.1",
       "2.4"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 142
+    "passages": 142,
+    "change": 0.0
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2023/ss123.pdf": {
     "title": "Supervisory Statement SS1/23: Model risk management principles for banks",
@@ -1289,7 +1298,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 257
+    "passages": 257,
+    "change": 0.0
   },
   "https://www.bankofengland.co.uk/prudential-regulation/publication/2023/october/artificial-intelligence-and-machine-learning": {
     "title": "FS2/23: Artificial Intelligence and Machine Learning (feedback statement)",
@@ -1299,7 +1309,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 262
+    "passages": 262,
+    "change": 0.0
   },
   "https://arxiv.org/abs/2109.05067": {
     "title": "The flaws of policies requiring human oversight of government algorithms",
@@ -1308,7 +1319,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 19
+    "passages": 19,
+    "change": 0.0
   },
   "https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/reports/2025-pdfs/9024-lmo-autumn-2025-report-web.pdf": {
     "title": "Labour Market Outlook: Autumn 2025",
@@ -1317,7 +1329,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 149
+    "passages": 149,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/ethics-transparency-and-accountability-framework-for-automated-decision-making/ethics-transparency-and-accountability-framework-for-automated-decision-making": {
     "title": "Ethics, Transparency and Accountability Framework for Automated Decision-Making",
@@ -1326,18 +1339,21 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 138
+    "passages": 138,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-taking-account-of-carbon-reduction-plans-html": {
     "title": "PPN 006: Taking account of Carbon Reduction Plans in the procurement of major government contracts",
     "criteria": [
       "8.1",
       "8.3",
-      "8.4"
+      "8.4",
+      "8.8"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 83
+    "passages": 83,
+    "change": 0.0
   },
   "https://www.caa.co.uk/publication/download/12922": {
     "title": "CAA Paper 2004/10: Flight Crew Reliance on Automation",
@@ -1346,7 +1362,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 605
+    "passages": 605,
+    "change": 0.0
   },
   "https://assets.publishing.service.gov.uk/media/6aa913c42344967b89b087ed/modernising-corporate-reporting-consultation-document.pdf": {
     "title": "Modernising corporate reporting: consultation document",
@@ -2797,5 +2814,339 @@
     "status": 200,
     "checked": "2026-10-02",
     "passages": 32
+  },
+  "https://www.bsigroup.com/en-GB/products-and-services/standards/iso-42001-ai-management-system": {
+    "title": "ISO/IEC 42001 - AI Management System",
+    "criteria": [
+      "1.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 83
+  },
+  "https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/the-greening-of-lending-mortgage-pricing-of-energy-transition-risk.pdf": {
+    "title": "The greening of lending: mortgage pricing of energy transition risk (Staff Working Paper No. 1,016)",
+    "criteria": [
+      "8.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 261
+  },
+  "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2024/ss221-november-2024-update.pdf": {
+    "title": "SS2/21: Outsourcing and third party risk management (November 2024 update)",
+    "criteria": [
+      "1.5"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 388
+  },
+  "https://assets.publishing.service.gov.uk/media/67ab332fd41dfb0b59cec46a/E03274856_National_Procurement_Policy_Statement_Accessible.pdf": {
+    "title": "National Procurement Policy Statement",
+    "criteria": [
+      "8.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 75
+  },
+  "https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-taking-account-of-social-value-in-the-award-of-central-government-contracts-html": {
+    "title": "PPN 002: Taking account of social value in the award of central government contracts",
+    "criteria": [
+      "8.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 47
+  },
+  "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-frequently-asked-questions": {
+    "title": "PPN 006: Frequently asked questions",
+    "criteria": [
+      "8.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 106
+  },
+  "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-technical-standard-for-completion-of-carbon-reduction-plans-html": {
+    "title": "PPN 006: Technical standard for completion of Carbon Reduction Plans",
+    "criteria": [
+      "8.6",
+      "8.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 63
+  },
+  "https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims/environmental-claims-on-goods-and-services": {
+    "title": "Making environmental claims on goods and services (Green Claims Code guidance)",
+    "criteria": [
+      "8.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 589
+  },
+  "https://assets.publishing.service.gov.uk/media/699dd3b007d7bff3604d6c5e/uk_srs_1_general_requirements_for_disclosure_of_sustainability_related_financial_information.pdf": {
+    "title": "UK SRS S1: General Requirements for Disclosure of Sustainability-related Financial Information",
+    "criteria": [
+      "8.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 385
+  },
+  "https://www.gov.uk/government/publications/assuring-a-responsible-future-for-ai/assuring-a-responsible-future-for-ai": {
+    "title": "Assuring a responsible future for AI",
+    "criteria": [
+      "1.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 252
+  },
+  "https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance": {
+    "title": "Introduction to AI assurance",
+    "criteria": [
+      "1.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 285
+  },
+  "https://www.gov.uk/guidance/portfolio-of-ai-assurance-techniques": {
+    "title": "Portfolio of AI assurance techniques",
+    "criteria": [
+      "1.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 63
+  },
+  "https://www.gov.uk/government/publications/regulators-strategic-approaches-to-ai/regulators-strategic-approaches-to-ai": {
+    "title": "Regulators' strategic approaches to AI",
+    "criteria": [
+      "1.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 18
+  },
+  "https://www.gov.uk/government/publications/trusted-third-party-ai-assurance-roadmap/trusted-third-party-ai-assurance-roadmap": {
+    "title": "Trusted third-party AI assurance roadmap",
+    "criteria": [
+      "1.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 191
+  },
+  "https://www.drcf.org.uk/ai-and-digital-hub": {
+    "title": "AI and Digital Hub 2024/5",
+    "criteria": [
+      "1.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 161
+  },
+  "https://www.fca.org.uk/firms/innovation/ai-approach": {
+    "title": "AI and the FCA: our approach",
+    "criteria": [
+      "1.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 30
+  },
+  "https://www.fca.org.uk/publication/correspondence/sll-letter-june-2023.pdf": {
+    "title": "Review of the Sustainability-Linked Loans (SLL) Market: letter to Heads of ESG/Sustainable Finance",
+    "criteria": [
+      "8.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 43
+  },
+  "https://www.frc.org.uk/documents/7963/Assurance_of_Sustainability_Reporting_Market_Study_Final_Report.pdf": {
+    "title": "Assurance of Sustainability Reporting Market Study: Final Report",
+    "criteria": [
+      "8.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 252
+  },
+  "https://www.frc.org.uk/documents/3561/Thematic_review_of_climate-related_metrics_and_targets_2023.pdf": {
+    "title": "CRR Thematic review of climate-related metrics and targets",
+    "criteria": [
+      "8.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 717
+  },
+  "https://www.frc.org.uk/documents/7931/Climate-related_Financial_Disclosures_by_AIM_and_Large_Private_Companies.pdf": {
+    "title": "Thematic Review: Climate-related Financial Disclosures by AIM and Large Private Companies",
+    "criteria": [
+      "8.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 211
+  },
+  "https://ghgprotocol.org/sites/default/files/standards/ghg-protocol-revised.pdf": {
+    "title": "The Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard (revised edition)",
+    "criteria": [
+      "8.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 1659
+  },
+  "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2023/1897": {
+    "title": "ClientEarth v Shell plc and others [2023] EWHC 1897 (Ch)",
+    "criteria": [
+      "8.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 336
+  },
+  "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025": {
+    "title": "Data (Use and Access) Act 2025",
+    "criteria": [
+      "1.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 10
+  },
+  "https://www.hbs.edu/ris/Publication%20Files/23-027_4b09d278-4051-468e-a5d9-eb0e7c50c25d.pdf": {
+    "title": "The Issuance and Design of Sustainability-linked Loans (Working Paper 23-027)",
+    "criteria": [
+      "8.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 519
+  },
+  "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part-57a-business-and-property-courts/practice-direction-57ad-disclosure-in-the-business-and-property-courts": {
+    "title": "Practice Direction 57AD: Disclosure in the Business and Property Courts",
+    "criteria": [
+      "1.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 325
+  },
+  "https://www.gov.uk/government/speeches/the-kings-speech-2024": {
+    "title": "The King's Speech 2024",
+    "criteria": [
+      "1.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 70
+  },
+  "https://www.gov.uk/government/speeches/the-kings-speech-2026": {
+    "title": "The King's Speech 2026",
+    "criteria": [
+      "1.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 63
+  },
+  "https://assets.bbhub.io/company/sites/60/2021/10/FINAL-2017-TCFD-Report.pdf": {
+    "title": "Recommendations of the Task Force on Climate-related Financial Disclosures: Final Report",
+    "criteria": [
+      "8.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 804
+  },
+  "https://www.theiia.org/globalassets/site/standards/editable-versions/globalinternalauditstandards_2024january9_editable.pdf": {
+    "title": "Global Internal Audit Standards",
+    "criteria": [
+      "1.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 1640
+  },
+  "https://www.theiia.org/globalassets/site/content/tools/professional/aiframework-sept-2024-update2.pdf": {
+    "title": "The IIA's Artificial Intelligence Auditing Framework",
+    "criteria": [
+      "1.7"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 437
+  },
+  "https://www.legislation.gov.uk/ukpga/2006/46/section/1157": {
+    "title": "Companies Act 2006, section 1157: Power of court to grant relief in certain cases",
+    "criteria": [
+      "1.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 43
+  },
+  "https://www.legislation.gov.uk/ukpga/2006/46/section/249": {
+    "title": "Companies Act 2006, section 249: Minutes as evidence",
+    "criteria": [
+      "1.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 38
+  },
+  "https://www.legislation.gov.uk/ukpga/2023/54/section/12": {
+    "title": "Procurement Act 2023, section 12: Covered procurement: objectives",
+    "criteria": [
+      "8.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 34
+  },
+  "https://www.legislation.gov.uk/ukpga/2023/54/section/19": {
+    "title": "Procurement Act 2023, section 19: Award of public contracts following a competitive tendering procedure",
+    "criteria": [
+      "8.8"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 41
+  },
+  "https://www.legislation.gov.uk/ukpga/2023/54/section/52": {
+    "title": "Procurement Act 2023, section 52: Key performance indicators",
+    "criteria": [
+      "1.5"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 36
+  },
+  "https://www.legislation.gov.uk/uksi/2026/82/made": {
+    "title": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026, S.I. 2026/82",
+    "criteria": [
+      "1.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 59
+  },
+  "https://www.legislation.gov.uk/uksi/2008/410/schedule/7/part/7A": {
+    "title": "The Large and Medium-sized Companies and Groups (Accounts and Reports) Regulations 2008, Schedule 7, Part 7A: energy and carbon report (unquoted companies)",
+    "criteria": [
+      "8.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 60
   }
 }

@@ -1,6 +1,6 @@
 {
   "built": "2026-10-02",
-  "count": 291,
+  "count": 328,
   "sources": [
     {
       "key": "https://www.aisi.gov.uk/research/how-are-ai-agents-used-evidence-from-177-000-mcp-tools",
@@ -251,6 +251,45 @@
       "published": "6 February 2018"
     },
     {
+      "key": "https://www.bsigroup.com/en-GB/products-and-services/standards/iso-42001-ai-management-system",
+      "url": "https://www.bsigroup.com/en-GB/products-and-services/standards/iso-42001-ai-management-system/",
+      "title": "ISO/IEC 42001 - AI Management System",
+      "publisher": "BSI Group",
+      "year": 2026,
+      "tier": "professional",
+      "access": "free",
+      "criteria": [
+        "1.7"
+      ],
+      "locators": {
+        "1.7": "Introductory section and FAQs ('What is BSI’s experience in auditing AI Management Systems?')"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "professional",
+      "quote": "BSI is the first Certification Body accredited by UKAS to certify ISO/IEC 42001"
+    },
+    {
+      "key": "https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/the-greening-of-lending-mortgage-pricing-of-energy-transition-risk.pdf",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/the-greening-of-lending-mortgage-pricing-of-energy-transition-risk.pdf",
+      "title": "The greening of lending: mortgage pricing of energy transition risk (Staff Working Paper No. 1,016)",
+      "publisher": "Bank of England",
+      "year": 2023,
+      "tier": "research",
+      "access": "free",
+      "criteria": [
+        "8.8"
+      ],
+      "locators": {
+        "8.8": "Abstract, PDF page 2"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "research",
+      "quote": "We find no evidence of lenders charging higher rates on riskier mortgages against energy-inefficient properties.",
+      "published": "March 2023"
+    },
+    {
       "key": "https://www.bankofengland.co.uk/report/2024/artificial-intelligence-in-uk-financial-services-2024",
       "url": "https://www.bankofengland.co.uk/report/2024/artificial-intelligence-in-uk-financial-services-2024",
       "title": "Artificial intelligence in UK financial services - 2024",
@@ -259,18 +298,40 @@
       "tier": "official",
       "access": "free",
       "criteria": [
+        "1.5",
         "2.1",
         "2.4"
       ],
       "locators": {
+        "1.5": "Section 2.8 (third-party implementation, Chart 9); executive summary ('Third-party exposure'); section 1.2 (118 responses)",
         "2.1": "Executive summary, 'Third-party exposure' and 'Materiality'; section 1.2 'Methodology'",
         "2.4": "Executive summary, 'Understanding of AI systems'"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "official report",
-      "quote": "62% of all AI use cases are rated low materiality by the firms that use them with 16% rated high materiality",
-      "published": "21 November 2024"
+      "quote": "The business areas with the highest percentages of third-party implementations were human resources (65%), risk and compliance (64%), and operations and IT (56%).",
+      "published": "2024-11-21"
+    },
+    {
+      "key": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2024/ss221-november-2024-update.pdf",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2024/ss221-november-2024-update.pdf",
+      "title": "SS2/21: Outsourcing and third party risk management (November 2024 update)",
+      "publisher": "Bank of England, Prudential Regulation Authority",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.5"
+      ],
+      "locators": {
+        "1.5": "Paras 2.4-2.6 (non-outsourcing third party arrangements, including off-the-shelf machine learning models), 4.3 (board accountability), 5.15-5.17 (due diligence), 8.3-8.4 (access, audit and information rights), 10.1 and 10.19 (exit plans)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "Firms that enter into outsourcing arrangements remain fully accountable for complying with all their regulatory obligations.",
+      "published": "2024-11-15"
     },
     {
       "key": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2023/ss123.pdf",
@@ -391,6 +452,66 @@
       "published": "2023-11-29"
     },
     {
+      "key": "https://assets.publishing.service.gov.uk/media/67ab332fd41dfb0b59cec46a/E03274856_National_Procurement_Policy_Statement_Accessible.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/67ab332fd41dfb0b59cec46a/E03274856_National_Procurement_Policy_Statement_Accessible.pdf",
+      "title": "National Procurement Policy Statement",
+      "publisher": "Cabinet Office",
+      "year": 2025,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.8"
+      ],
+      "locators": {
+        "8.8": "Section on the government's missions, 'Make Britain a clean energy superpower', PDF page 4; later section on small and medium-sized enterprises"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "taking account of environmental risks and ensuring suppliers are committed to high environmental standards",
+      "published": "13 February 2025"
+    },
+    {
+      "key": "https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-taking-account-of-social-value-in-the-award-of-central-government-contracts-html",
+      "url": "https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-taking-account-of-social-value-in-the-award-of-central-government-contracts-html",
+      "title": "PPN 002: Taking account of social value in the award of central government contracts",
+      "publisher": "Cabinet Office",
+      "year": 2025,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.8"
+      ],
+      "locators": {
+        "8.8": "Paragraphs 7 to 11"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "In-scope organisations must apply a minimum 10% weighting (or an equivalent measurement) of the total score, for social value.",
+      "published": "February 2025 (page updated 5 March 2025)"
+    },
+    {
+      "key": "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-frequently-asked-questions",
+      "url": "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-frequently-asked-questions",
+      "title": "PPN 006: Frequently asked questions",
+      "publisher": "Cabinet Office",
+      "year": 2025,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.8"
+      ],
+      "locators": {
+        "8.8": "Questions on how plans are assessed and on emissions data"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "Supplier CRPs should not be ‘scored’ or compared against each other",
+      "published": "February 2025 (page updated 10 July 2025)"
+    },
+    {
       "key": "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-taking-account-of-carbon-reduction-plans-html",
       "url": "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-taking-account-of-carbon-reduction-plans-html",
       "title": "PPN 006: Taking account of Carbon Reduction Plans in the procurement of major government contracts",
@@ -401,18 +522,42 @@
       "criteria": [
         "8.1",
         "8.3",
-        "8.4"
+        "8.4",
+        "8.8"
       ],
       "locators": {
         "8.1": "Paragraphs 3, 4 and 11; footnote 5",
         "8.3": "Paragraph 11; Carbon Reduction Plan template, sections on baseline and current emissions",
-        "8.4": "Paragraphs 3 and 13"
+        "8.4": "Paragraphs 3 and 13",
+        "8.8": "Paragraphs 2 to 4 (scope), 9 (timing) and 10 to 13 (the requirement)"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "with an estimated contract value above £5 million per year",
       "published": "17 February 2025"
+    },
+    {
+      "key": "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-technical-standard-for-completion-of-carbon-reduction-plans-html",
+      "url": "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-technical-standard-for-completion-of-carbon-reduction-plans-html",
+      "title": "PPN 006: Technical standard for completion of Carbon Reduction Plans",
+      "publisher": "Cabinet Office",
+      "year": 2025,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.6",
+        "8.7"
+      ],
+      "locators": {
+        "8.6": "Paragraphs 11 to 13 (annual review and publication) and 21 to 22 (conversion factors and boundary)",
+        "8.7": "Paragraphs 24 and 25 (approval and sign-off)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "Suppliers’ Carbon Reduction Plans should be reviewed and updated annually",
+      "published": "February 2025 (page updated 10 July 2025)"
     },
     {
       "key": "https://www.caa.co.uk/publication/download/12922",
@@ -467,6 +612,26 @@
       "last_checked": "2026-10-02"
     },
     {
+      "key": "https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims/environmental-claims-on-goods-and-services",
+      "url": "https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims/environmental-claims-on-goods-and-services",
+      "title": "Making environmental claims on goods and services (Green Claims Code guidance)",
+      "publisher": "Competition and Markets Authority",
+      "year": 2021,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.8"
+      ],
+      "locators": {
+        "8.8": "Sections 'Claims must be truthful and accurate', 'Claims must be substantiated' and 'Business-to-business claims'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "They should hold robust, credible, relevant and up to date evidence that supports them.",
+      "published": "20 September 2021"
+    },
+    {
       "key": "https://assets.publishing.service.gov.uk/media/6aa913c42344967b89b087ed/modernising-corporate-reporting-consultation-document.pdf",
       "url": "https://assets.publishing.service.gov.uk/media/6aa913c42344967b89b087ed/modernising-corporate-reporting-consultation-document.pdf",
       "title": "Modernising corporate reporting: consultation document",
@@ -487,6 +652,26 @@
       "published": "7 September 2026"
     },
     {
+      "key": "https://assets.publishing.service.gov.uk/media/699dd3b007d7bff3604d6c5e/uk_srs_1_general_requirements_for_disclosure_of_sustainability_related_financial_information.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/699dd3b007d7bff3604d6c5e/uk_srs_1_general_requirements_for_disclosure_of_sustainability_related_financial_information.pdf",
+      "title": "UK SRS S1: General Requirements for Disclosure of Sustainability-related Financial Information",
+      "publisher": "Department for Business and Trade",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.6"
+      ],
+      "locators": {
+        "8.6": "Appendix D, paragraphs D21 to D23 (verifiability), PDF page 42; paragraph 23 (consistent data and assumptions), PDF page 10"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "reporting framework",
+      "quote": "Information is verifiable if it is possible to corroborate either the information itself or the inputs used to derive it.",
+      "published": "25 February 2026"
+    },
+    {
       "key": "https://assets.publishing.service.gov.uk/media/699ddf22532c9ad91ebbcc2b/uk_srs_s2_climate_related_disclosures.pdf",
       "url": "https://assets.publishing.service.gov.uk/media/699ddf22532c9ad91ebbcc2b/uk_srs_s2_climate_related_disclosures.pdf",
       "title": "UK SRS S2: climate-related disclosures",
@@ -495,10 +680,12 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "8.3"
+        "8.3",
+        "8.7"
       ],
       "locators": {
-        "8.3": "Paragraph 29(a)(i) (PDF pages 14 to 15); Appendix A, defined terms 'Scope 3 greenhouse gas emissions' and 'Scope 3 categories' (PDF page 22)"
+        "8.3": "Paragraph 29(a)(i) (PDF pages 14 to 15); Appendix A, defined terms 'Scope 3 greenhouse gas emissions' and 'Scope 3 categories' (PDF page 22)",
+        "8.7": "Paragraphs 5 and 6 (governance), PDF page 7; paragraph 29(g) (remuneration), PDF page 16"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
@@ -577,10 +764,12 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "8.2"
+        "8.2",
+        "8.6"
       ],
       "locators": {
-        "8.2": "Collection page, opening summary; 'Conversion factors 2026'"
+        "8.2": "Collection page, opening summary; 'Conversion factors 2026'",
+        "8.6": "Opening description and the list of updates to the page"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
@@ -647,15 +836,19 @@
       "tier": "official",
       "access": "free",
       "criteria": [
+        "1.5",
+        "1.6",
         "6.7"
       ],
       "locators": {
+        "1.5": "Section 5.2, paragraph 66 and Case study 1 ('Liability as a barrier to AI adoption in the UK'); footnote 76",
+        "1.6": "Ministerial foreword; paragraphs 12, 15, 17 and 76; section 5.1.2 (central function, horizon scanning)",
         "6.7": "Section 5.2, Box 2 and section 5.2.1 (case study on liability across the supply chain)"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "official report",
-      "quote": "Developers of these systems currently face the least clear legal responsibilities.",
+      "quote": "It’s common for the law to allocate liability to the last actor in the chain",
       "published": "2024-02-06"
     },
     {
@@ -721,6 +914,26 @@
       "published": "2024-05-15"
     },
     {
+      "key": "https://www.gov.uk/government/publications/assuring-a-responsible-future-for-ai/assuring-a-responsible-future-for-ai",
+      "url": "https://www.gov.uk/government/publications/assuring-a-responsible-future-for-ai/assuring-a-responsible-future-for-ai",
+      "title": "Assuring a responsible future for AI",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.7"
+      ],
+      "locators": {
+        "1.7": "Executive summary ('Our research has found'); section 'Opportunities for future market growth' (supply; public research finding)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "Participants felt that, if assurance were delivered only by an AI developer that is profit motivated, it would not be trustworthy.",
+      "published": "2024-11-06"
+    },
+    {
       "key": "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai",
       "url": "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai",
       "title": "Code of Practice for the Cyber Security of AI",
@@ -730,6 +943,8 @@
       "access": "free",
       "criteria": [
         "1.4",
+        "1.5",
+        "1.8",
         "2.4",
         "6.1",
         "6.2",
@@ -741,6 +956,8 @@
       ],
       "locators": {
         "1.4": "Principle 5 (Identify, track and protect your assets), provision 5.1",
+        "1.5": "Principle 7 ('Secure your supply chain'), provisions 7.1-7.4",
+        "1.8": "Principle 8 ('Document your data, models and prompts'), provisions 8.1 and 8.1.1",
         "2.4": "Principle 12 'Monitor your system’s behaviour', provisions 12.1-12.4; definition of 'System Operators'",
         "6.1": "Principle 3, provisions 3.1, 3.1.1 and 3.2",
         "6.2": "Principle 2, provisions 2.4 and 2.7; Principle 7; Principle 9, provisions 9.1 to 9.2.1; Terminology table",
@@ -833,6 +1050,66 @@
       "published": "2025-01-31"
     },
     {
+      "key": "https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance",
+      "url": "https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance",
+      "title": "Introduction to AI assurance",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.7"
+      ],
+      "locators": {
+        "1.7": "Section on roles in the assurance ecosystem (accreditation bodies; UKAS); sections 5.2 (assurance spectrum), 5.6 (bias audit), 5.7 (compliance audit), 5.8 (conformity assessment)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "Contingent on the level of risk, conformity assessment activities should be undertaken by an independent third-party conformity assessment body.",
+      "published": "2024-02-12"
+    },
+    {
+      "key": "https://www.gov.uk/guidance/portfolio-of-ai-assurance-techniques",
+      "url": "https://www.gov.uk/guidance/portfolio-of-ai-assurance-techniques",
+      "title": "Portfolio of AI assurance techniques",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2023,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.7"
+      ],
+      "locators": {
+        "1.7": "Sections 'About the portfolio' and 'Assurance techniques'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "the inclusion of a case study in the portfolio does not represent a government endorsement of the technique or the organisation",
+      "published": "2023-06-07"
+    },
+    {
+      "key": "https://www.gov.uk/government/publications/regulators-strategic-approaches-to-ai/regulators-strategic-approaches-to-ai",
+      "url": "https://www.gov.uk/government/publications/regulators-strategic-approaches-to-ai/regulators-strategic-approaches-to-ai",
+      "title": "Regulators' strategic approaches to AI",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.6"
+      ],
+      "locators": {
+        "1.6": "Introductory text and the list 'Regulator updates'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "requesting an update on how they are taking forward the White Paper proposals",
+      "published": "2024-05-01"
+    },
+    {
       "key": "https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment",
       "url": "https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment",
       "title": "Responsible AI in Recruitment",
@@ -853,6 +1130,26 @@
         "3.7": "Sections 3.2 (during procurement), 4.1 (before deployment), 4.2 (ongoing monitoring; iterative bias audits)"
       },
       "last_checked": "2026-10-02"
+    },
+    {
+      "key": "https://www.gov.uk/government/publications/trusted-third-party-ai-assurance-roadmap/trusted-third-party-ai-assurance-roadmap",
+      "url": "https://www.gov.uk/government/publications/trusted-third-party-ai-assurance-roadmap/trusted-third-party-ai-assurance-roadmap",
+      "title": "Trusted third-party AI assurance roadmap",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2025,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.7"
+      ],
+      "locators": {
+        "1.7": "Section 'Challenges for a trusted third-party assurance market' (Quality; Skills; Information access); 'Government actions' (professionalisation)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "the quality of the goods and services provided is currently unclear",
+      "published": "2025-09-03"
     },
     {
       "key": "https://www.gov.uk/government/publications/uk-compute-roadmap/uk-compute-roadmap",
@@ -997,6 +1294,25 @@
       "quote": "to address the growing energy demands of AI in the UK"
     },
     {
+      "key": "https://www.drcf.org.uk/ai-and-digital-hub",
+      "url": "https://www.drcf.org.uk/ai-and-digital-hub",
+      "title": "AI and Digital Hub 2024/5",
+      "publisher": "Digital Regulation Cooperation Forum",
+      "year": 2025,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.6"
+      ],
+      "locators": {
+        "1.6": "Opening statement and list of eight case studies; FAQs"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "AI and Digital Hub was a one-year pilot that is now closed for queries."
+    },
+    {
       "key": "https://www.efrag.org/en/projects/voluntary-reporting-standard-for-smes-vsme/concluded",
       "url": "https://www.efrag.org/en/projects/voluntary-reporting-standard-for-smes-vsme/concluded",
       "title": "Voluntary reporting standard for SMEs (VSME): concluded project page",
@@ -1025,11 +1341,15 @@
       "access": "free",
       "criteria": [
         "8.2",
-        "8.3"
+        "8.3",
+        "8.6",
+        "8.7"
       ],
       "locators": {
         "8.2": "Paragraphs 5, 22 to 44 (Basic Module, B1 to B11), in particular paragraphs 30, 31 and 42(b)",
-        "8.3": "Paragraphs 45 to 65 (Comprehensive Module, C1 to C9), in particular paragraphs 49 and 50 to 52"
+        "8.3": "Paragraphs 45 to 65 (Comprehensive Module, C1 to C9), in particular paragraphs 49 and 50 to 52",
+        "8.6": "Paragraph 9 (qualities of information), PDF page 6; paragraph 18 (avoiding duplication); list of disclosures B1 to B11 and C1 to C9",
+        "8.7": "Comprehensive Module, disclosure C2, paragraphs 48 and 49, PDF page 12; template at paragraph 213 (source of the quoted words)"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
@@ -1326,6 +1646,7 @@
       "access": "free",
       "criteria": [
         "1.3",
+        "1.6",
         "2.1",
         "2.4",
         "2.6",
@@ -1333,6 +1654,7 @@
       ],
       "locators": {
         "1.3": "Art. 113, as amended (passages marked AMENDED and NEW)",
+        "1.6": "Article 113, points (a)-(d), marked AMENDED and NEW; read with the Service Desk timeline page and the Commission's 'AI Act' policy page ('Application timeline')",
         "2.1": "Art. 113, third paragraph, points (a) and (c), both marked AMENDED",
         "2.4": "Art. 113, third paragraph, point (c)(i), marked AMENDED",
         "2.6": "Art. 113, third paragraph, point (c)(i) and (ii) (marked AMENDED)",
@@ -1450,6 +1772,7 @@
       "access": "free",
       "criteria": [
         "1.2",
+        "1.8",
         "2.3",
         "2.4",
         "2.6",
@@ -1461,6 +1784,7 @@
       ],
       "locators": {
         "1.2": "Art. 26(2)",
+        "1.8": "Article 26(5)-(6); 'About this text' notice. Article 73 (serious incident reporting) read alongside",
         "2.3": "Art. 26(9)",
         "2.4": "Art. 26(1), (4), (5) and (6)",
         "2.6": "Art. 26(5), first subparagraph; Art. 26(6) and (12)",
@@ -1835,7 +2159,7 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "regulator guidance",
-      "quote": "Commission Delegated Regulation of 3 July 2026 supplementing Directive 2013/34/EU by establishing sustainability reporting standards for voluntary use by undertakings protected by the value chain cap",
+      "quote": "for voluntary use by undertakings protected by the value chain cap (not in force until it is published in the Official Journal)",
       "published": "3 July 2026"
     },
     {
@@ -1921,6 +2245,26 @@
       "type": "regulator guidance",
       "quote": "management accountability and is relevant to the safe and responsible use of AI",
       "published": "22 April 2024"
+    },
+    {
+      "key": "https://www.fca.org.uk/firms/innovation/ai-approach",
+      "url": "https://www.fca.org.uk/firms/innovation/ai-approach",
+      "title": "AI and the FCA: our approach",
+      "publisher": "Financial Conduct Authority",
+      "year": 2025,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.6"
+      ],
+      "locators": {
+        "1.6": "Opening section; 'How do our current rules apply?'; page updates (last updated 2 October 2026, editorial amendment)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "We do not plan to introduce extra regulations for AI.",
+      "published": "2025-09-08"
     },
     {
       "key": "https://www.fca.org.uk/firms/critical-third-parties-strengthening-uk-financial-services",
@@ -2083,6 +2427,26 @@
       "published": "2026-03-18"
     },
     {
+      "key": "https://www.fca.org.uk/publication/correspondence/sll-letter-june-2023.pdf",
+      "url": "https://www.fca.org.uk/publication/correspondence/sll-letter-june-2023.pdf",
+      "title": "Review of the Sustainability-Linked Loans (SLL) Market: letter to Heads of ESG/Sustainable Finance",
+      "publisher": "Financial Conduct Authority",
+      "year": 2023,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.8"
+      ],
+      "locators": {
+        "8.8": "Summary findings, p.2; 'Conflicts of interest and weak incentives to issue SLLs', p.3"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "Small savings on margins may be outweighed by costs and negotiation time with lenders or legal advisors.",
+      "published": "29 June 2023"
+    },
+    {
       "key": "https://www.frc.org.uk/documents/8893/Annual_Review_of_Corporate_Governance_Reporting_2025.pdf",
       "url": "https://www.frc.org.uk/documents/8893/Annual_Review_of_Corporate_Governance_Reporting_2025.pdf",
       "title": "Annual Review of Corporate Governance Reporting",
@@ -2105,6 +2469,46 @@
       "type": "official report",
       "quote": "This year, we found that figure rose to 86% of companies",
       "published": "November 2025"
+    },
+    {
+      "key": "https://www.frc.org.uk/documents/7963/Assurance_of_Sustainability_Reporting_Market_Study_Final_Report.pdf",
+      "url": "https://www.frc.org.uk/documents/7963/Assurance_of_Sustainability_Reporting_Market_Study_Final_Report.pdf",
+      "title": "Assurance of Sustainability Reporting Market Study: Final Report",
+      "publisher": "Financial Reporting Council",
+      "year": 2025,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.6"
+      ],
+      "locators": {
+        "8.6": "Paragraph 18 and Figure 10, PDF page 15 (also the summary, PDF page 9); paragraphs 24 to 28 on quality"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "83% of assurance engagements for FTSE 350 companies in 2023 involved limited assurance",
+      "published": "February 2025"
+    },
+    {
+      "key": "https://www.frc.org.uk/documents/3561/Thematic_review_of_climate-related_metrics_and_targets_2023.pdf",
+      "url": "https://www.frc.org.uk/documents/3561/Thematic_review_of_climate-related_metrics_and_targets_2023.pdf",
+      "title": "CRR Thematic review of climate-related metrics and targets",
+      "publisher": "Financial Reporting Council",
+      "year": 2023,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.6"
+      ],
+      "locators": {
+        "8.6": "Section 2, cross-sector findings on data, PDF page 20"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "We also encourage companies to be transparent about data limitations, including explanations of estimations and areas where it is not feasible to collect data.",
+      "published": "July 2023"
     },
     {
       "key": "https://www.frc.org.uk/library/standards-codes-policy/corporate-governance/corporate-governance-code-guidance",
@@ -2153,6 +2557,26 @@
       "published": "December 2018"
     },
     {
+      "key": "https://www.frc.org.uk/documents/7931/Climate-related_Financial_Disclosures_by_AIM_and_Large_Private_Companies.pdf",
+      "url": "https://www.frc.org.uk/documents/7931/Climate-related_Financial_Disclosures_by_AIM_and_Large_Private_Companies.pdf",
+      "title": "Thematic Review: Climate-related Financial Disclosures by AIM and Large Private Companies",
+      "publisher": "Financial Reporting Council",
+      "year": 2025,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.7"
+      ],
+      "locators": {
+        "8.7": "Section 1 'Executive summary', key findings (PDF page 4); section 3 'Scope and selection' (PDF page 7); section 7 'Governance arrangements' (PDF page 13)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "the extent of the integration of the climate governance process with the company’s overall governance process was often unclear",
+      "published": "January 2025"
+    },
+    {
       "key": "https://www.frc.org.uk/documents/6709/UK_Corporate_Governance_Code_2024_a2hmQmY.pdf",
       "url": "https://www.frc.org.uk/documents/6709/UK_Corporate_Governance_Code_2024_a2hmQmY.pdf",
       "title": "UK Corporate Governance Code 2024",
@@ -2163,20 +2587,26 @@
       "criteria": [
         "1.1",
         "1.3",
+        "1.6",
+        "1.7",
         "2.2",
         "4.6",
         "6.8",
         "7.4",
-        "7.5"
+        "7.5",
+        "8.7"
       ],
       "locators": {
         "1.1": "Introduction (Application; Reporting on the Code), p.4-5; Principle O and Provision 29, p.12-13",
         "1.3": "Principle A, p.6; Principle I, p.8",
+        "1.6": "Provision 28 (page 13 of the document); Introduction, 'Reporting on the Code' (activities and outcomes); Principle C",
+        "1.7": "Provisions 25 and 26 (pages 12-13 of the document); Provision 29",
         "2.2": "Section 4, Principle O (PDF p.13); Provisions 28 and 29 (PDF p.14)",
         "4.6": "Provision 29 and footnote 9 (PDF p. 14); application paragraph in the Introduction (PDF p. 6)",
         "6.8": "Section 4, Provision 29 (PDF page 14); Introduction, 'Application' and 'Reporting on the Code'",
         "7.4": "Section 1, Principle E and Provision 5 (page 7)",
-        "7.5": "Section 1, Provision 5 (page 7 of the document)"
+        "7.5": "Section 1, Provision 5 (PDF page 8)",
+        "8.7": "Section 1, Principle A and Provision 1, p.6; Section 5, Principle P, p.15"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
@@ -2216,10 +2646,12 @@
       "access": "free",
       "criteria": [
         "1.4",
+        "1.8",
         "2.3"
       ],
       "locators": {
         "1.4": "Section 2 (ATRS purpose and scope); section 2.1.4 (third party involvement)",
+        "1.8": "Section 2 ('ATRS purpose and scope'); sections 5-13 (the template tiers)",
         "2.3": "Section 13 'Risks, Mitigations and Impact Assessments'"
       },
       "last_checked": "2026-10-02",
@@ -2240,6 +2672,7 @@
         "1.1",
         "1.2",
         "1.4",
+        "1.5",
         "7.1",
         "7.3",
         "7.7"
@@ -2248,6 +2681,7 @@
         "1.1": "Governance section: AI governance board or AI representation on an existing board",
         "1.2": "Section on accountability and responsibility (practical recommendations)",
         "1.4": "Governance section: \"Creating an AI systems inventory\"",
+        "1.5": "Principle 8 ('You work with commercial colleagues from the start'); section 'Buying AI' ('Specifying your requirements', 'Aligning procurement and ethics')",
         "7.1": "Principle 9: You have the skills and expertise needed to implement and use AI solutions",
         "7.3": "Principle 4: You have meaningful human control at the right stages",
         "7.7": "Principle 3; section 'Public AI applications and web services'"
@@ -2315,6 +2749,25 @@
       "quote": "This standard categorizes scope 3 emissions into 15 distinct categories"
     },
     {
+      "key": "https://ghgprotocol.org/sites/default/files/standards/ghg-protocol-revised.pdf",
+      "url": "https://ghgprotocol.org/sites/default/files/standards/ghg-protocol-revised.pdf",
+      "title": "The Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard (revised edition)",
+      "publisher": "Greenhouse Gas Protocol (World Resources Institute and World Business Council for Sustainable Development)",
+      "year": 2004,
+      "tier": "professional",
+      "access": "free",
+      "criteria": [
+        "8.6"
+      ],
+      "locators": {
+        "8.6": "Chapter 7 'Managing Inventory Quality', PDF pages 50 to 53, including Table 4"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "International",
+      "type": "code or standard",
+      "quote": "A quality management system provides a systematic process for preventing and correcting errors"
+    },
+    {
       "key": "https://assets.publishing.service.gov.uk/media/67161e8696def6d27a4c9ab3/environmental-reporting-guidance-secr-march-2019.pdf",
       "url": "https://assets.publishing.service.gov.uk/media/67161e8696def6d27a4c9ab3/environmental-reporting-guidance-secr-march-2019.pdf",
       "title": "Environmental Reporting Guidelines: including Streamlined Energy and Carbon Reporting guidance",
@@ -2323,10 +2776,12 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "8.5"
+        "8.5",
+        "8.6"
       ],
       "locators": {
-        "8.5": "Chapter 2, section 'Should quoted companies report all their emissions?', printed page 39 (PDF page 39)"
+        "8.5": "Chapter 2, section 'Should quoted companies report all their emissions?', printed page 39 (PDF page 39)",
+        "8.6": "Chapter 2, section 'Collecting your energy use data', PDF page 46; Chapter 1 principles (consistent, transparent), PDF page 9"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
@@ -2373,8 +2828,7 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "code or standard",
-      "quote": "The board should determine and continuously assess the nature and extent of the principal risks",
-      "published": "May 2023"
+      "quote": "The board should determine and continuously assess the nature and extent of the principal risks"
     },
     {
       "key": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf",
@@ -2414,6 +2868,26 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "There should be refresher training for infrequent, complex or safety critical tasks and this may include appropriate reassessment"
+    },
+    {
+      "key": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2023/1897",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2023/1897",
+      "title": "ClientEarth v Shell plc and others [2023] EWHC 1897 (Ch)",
+      "publisher": "High Court of Justice, Chancery Division (The National Archives, Find Case Law)",
+      "year": 2023,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.7"
+      ],
+      "locators": {
+        "8.7": "Paragraphs 20 and 28 to 30 (directors' duties); paragraph 99 (outcome)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "court or tribunal",
+      "quote": "it is for directors themselves to determine (acting in good faith) how best to promote the success of a company",
+      "published": "24 July 2023"
     },
     {
       "key": "https://ico.org.uk/media2/pyophl0h/guide-to-data-protection-audits.pdf",
@@ -2645,6 +3119,25 @@
       "published": "2024-02-23"
     },
     {
+      "key": "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/",
+      "title": "Data (Use and Access) Act 2025",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.6"
+      ],
+      "locators": {
+        "1.6": "Opening paragraph; link to 'Our plans for new and updated guidance'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "All the provisions affecting data protection law and the Privacy and Electronic Regulations Communications are now in force."
+    },
+    {
       "key": "https://ico.org.uk/about-the-ico/our-information/policies-and-procedures/data-protection-fining-guidance/circumstances-in-which-the-commissioner-would-consider-it-appropriate-to-issue-a-penalty-notice/relevant-aggravating-or-mitigating-factors",
       "url": "https://ico.org.uk/about-the-ico/our-information/policies-and-procedures/data-protection-fining-guidance/circumstances-in-which-the-commissioner-would-consider-it-appropriate-to-issue-a-penalty-notice/relevant-aggravating-or-mitigating-factors/",
       "title": "Data Protection Fining Guidance: Relevant aggravating or mitigating factors",
@@ -2672,15 +3165,17 @@
       "tier": "official",
       "access": "free",
       "criteria": [
+        "1.7",
         "2.8"
       ],
       "locators": {
+        "1.7": "Introductory text; under-review banner; link to the artificial intelligence toolkit",
         "2.8": "Opening section and 'Who can use the framework?'"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
-      "type": "code or standard",
-      "quote": "As a general rule, the greater the risk, the more robust and comprehensive the measures you should put in place."
+      "type": "regulator guidance",
+      "quote": "using our audit toolkits to conduct both consensual and compulsory audits"
     },
     {
       "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/accountability/information-rights",
@@ -2700,6 +3195,27 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "ensure a recorded process allows simple ways for people to request human intervention, express their opinion and challenge a decision"
+    },
+    {
+      "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/contracts-and-third-parties",
+      "url": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/contracts-and-third-parties/",
+      "title": "Data protection audit framework, Artificial intelligence toolkit: Contracts and third parties",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.5",
+        "5.7"
+      ],
+      "locators": {
+        "1.5": "Second control measure (due diligence before procuring) and third control measure (written contracts)",
+        "5.7": "List beginning 'Include terms or clauses stating that'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "Before procuring AI systems, datasets or coding, there has been appropriate due diligence undertaken on accuracy, bias and the trade-offs"
     },
     {
       "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/governance-and-accountability-in-ai",
@@ -2744,25 +3260,6 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "Maintain a log of when AI decisions are overridden by a human reviewer, including the reasons why."
-    },
-    {
-      "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/contracts-and-third-parties",
-      "url": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/contracts-and-third-parties/",
-      "title": "Data protection audit framework, artificial intelligence toolkit: Contracts and third parties",
-      "publisher": "Information Commissioner's Office",
-      "year": 2026,
-      "tier": "official",
-      "access": "free",
-      "criteria": [
-        "5.7"
-      ],
-      "locators": {
-        "5.7": "List beginning 'Include terms or clauses stating that'"
-      },
-      "last_checked": "2026-10-02",
-      "jurisdiction": "UK",
-      "type": "code or standard",
-      "quote": "the processor must take appropriate measures to help the controller respond to requests from people to exercise their rights"
     },
     {
       "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/data-minimisation",
@@ -2827,7 +3324,7 @@
       "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/what-is-a-dpia/",
       "title": "Data protection impact assessments: What is a DPIA?",
       "publisher": "Information Commissioner's Office",
-      "year": 2018,
+      "year": 2025,
       "tier": "official",
       "access": "free",
       "criteria": [
@@ -3034,12 +3531,13 @@
       "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/what-are-the-accountability-and-governance-implications-of-ai/",
       "title": "Guidance on AI and data protection: What are the accountability and governance implications of AI?",
       "publisher": "Information Commissioner's Office",
-      "year": 2023,
+      "year": 2024,
       "tier": "official",
       "access": "free",
       "criteria": [
         "2.2",
         "2.3",
+        "2.4",
         "2.5",
         "2.8",
         "4.5",
@@ -3048,6 +3546,7 @@
       "locators": {
         "2.2": "Section 'How should we set a meaningful risk appetite?'",
         "2.3": "Section 'What do we need to consider when undertaking data protection impact assessments for AI?', paragraph beginning 'In addition to conducting a DPIA'",
+        "2.4": "Section 'Outsourcing and third-party AI systems'",
         "2.5": "Section 'How do we identify mitigating measures?', final paragraph; section on outsourcing and third-party AI systems, final paragraph",
         "2.8": "Section 'How should we approach AI governance and risk management?', second paragraph; section on managing trade-offs",
         "4.5": "Section 'Outsourcing and third-party AI systems'",
@@ -3068,19 +3567,17 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "2.4",
         "2.7",
         "5.6"
       ],
       "locators": {
-        "2.4": "Section on statistical accuracy after deployment (paragraph beginning 'As part of your obligation to implement data protection by design and by default'); passage on concept or model drift",
         "2.7": "Section 'How should we define and prioritise different statistical accuracy measures?' (closing paragraphs on concept / model drift); section 'What should we do about statistical accuracy post-deployment?', first paragraph",
         "5.6": "Sections 'What is the difference between accuracy in data protection law and statistical accuracy in AI?' and 'What should we do about statistical accuracy post-deployment?'"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "The higher the impact the more frequently you should monitor and report on it.",
+      "quote": "After deployment, you should implement monitoring, the frequency of which should be proportional to the impact an incorrect output may have on individuals.",
       "published": "15 March 2023"
     },
     {
@@ -3505,7 +4002,7 @@
       "url": "https://www.theirm.org/what-we-say/thought-leadership/risk-appetite-and-tolerance/",
       "title": "Risk appetite and tolerance",
       "publisher": "Institute of Risk Management",
-      "year": 2011,
+      "year": 2026,
       "tier": "professional",
       "access": "free",
       "criteria": [
@@ -3680,6 +4177,25 @@
       "published": "13 April 2025"
     },
     {
+      "key": "https://www.hbs.edu/ris/Publication%20Files/23-027_4b09d278-4051-468e-a5d9-eb0e7c50c25d.pdf",
+      "url": "https://www.hbs.edu/ris/Publication%20Files/23-027_4b09d278-4051-468e-a5d9-eb0e7c50c25d.pdf",
+      "title": "The Issuance and Design of Sustainability-linked Loans (Working Paper 23-027)",
+      "publisher": "Loumioti and Serafeim; Harvard Business School",
+      "year": 2022,
+      "tier": "research",
+      "access": "free",
+      "criteria": [
+        "8.8"
+      ],
+      "locators": {
+        "8.8": "Abstract, PDF page 3"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "International",
+      "type": "research",
+      "quote": "sustainability-linked lending has been available mostly to borrowers with low ESG risk profiles"
+    },
+    {
       "key": "https://arxiv.org/abs/2311.16863",
       "url": "https://arxiv.org/abs/2311.16863",
       "title": "Power Hungry Processing: Watts Driving the Cost of AI Deployment?",
@@ -3711,13 +4227,33 @@
         "7.7"
       ],
       "locators": {
-        "7.7": "Finding 1, 'Employees want AI at work'"
+        "7.7": "First finding, on employees bringing their own AI to work"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "professional",
       "quote": "78% of AI users are bringing their own AI tools to work",
       "published": "2024-05-08"
+    },
+    {
+      "key": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part-57a-business-and-property-courts/practice-direction-57ad-disclosure-in-the-business-and-property-courts",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part-57a-business-and-property-courts/practice-direction-57ad-disclosure-in-the-business-and-property-courts",
+      "title": "Practice Direction 57AD: Disclosure in the Business and Property Courts",
+      "publisher": "Ministry of Justice",
+      "year": 2022,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.8"
+      ],
+      "locators": {
+        "1.8": "Paras 2.2, 2.5-2.6 (meaning of document), 3.1 (disclosure duties), 4.1-4.5 (preservation), 13.1 (native format, metadata)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "court or tribunal",
+      "quote": "It also extends to metadata, and other embedded data which is not typically visible on screen or a printout.",
+      "published": "2022-09-29"
     },
     {
       "key": "https://arxiv.org/pdf/2506.08872",
@@ -4087,21 +4623,23 @@
     {
       "key": "https://www.ncsc.gov.uk/collection/supply-chain-security/principles-supply-chain-security/check-your-arrangements",
       "url": "https://www.ncsc.gov.uk/collection/supply-chain-security/principles-supply-chain-security/check-your-arrangements",
-      "title": "Supply chain security guidance. III. Check your arrangements",
+      "title": "Supply chain security guidance: III. Check your arrangements",
       "publisher": "National Cyber Security Centre",
-      "year": 2025,
+      "year": 2019,
       "tier": "official",
       "access": "free",
       "criteria": [
+        "1.5",
         "6.7"
       ],
       "locators": {
+        "1.5": "Principle 10 ('Build assurance activities into your supply chain management'); page shows 'Reviewed 22 October 2025'",
         "6.7": "Principle 10; reviewed 22 October 2025"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "Require those suppliers who are key to the security of your supply chain, via contracts, to provide upward reporting of security performance",
+      "quote": "Build the 'right to audit' into all contracts and exercise this.",
       "published": "2019-02-14"
     },
     {
@@ -4191,6 +4729,8 @@
         "1.1",
         "1.3",
         "1.4",
+        "1.5",
+        "1.8",
         "2.1",
         "2.2",
         "2.4",
@@ -4207,6 +4747,8 @@
         "1.1": "GOVERN 2.3, Table 1, p.23",
         "1.3": "GOVERN 1 and GOVERN 1.1, Table 1, p.22",
         "1.4": "GOVERN 1.6, Table 1, p.23",
+        "1.5": "Table 1, GOVERN 6, 6.1 and 6.2 (document page 24; page 29 of the PDF)",
+        "1.8": "Section 5.1 (GOVERN), document page 22 (page 27 of the PDF); MAP 2.2; MEASURE 3.1",
         "2.1": "Section 1.2.3 'Risk Prioritization', p.7; MAP 4.1 and 4.2, Table 2, p.27; GOVERN 6.1, Table 1, p.24",
         "2.2": "Section 1.2.2 'Risk Tolerance', p.7; GOVERN 1.3, Table 1, p.22; MAP 1.5, Table 2, p.26",
         "2.4": "MANAGE 3.1, Table 4, p.32; MEASURE 2.4, Table 3, p.29; MANAGE 4.1, Table 4, p.33",
@@ -4373,19 +4915,25 @@
       "key": "https://www.gov.uk/government/publications/guidelines-for-ai-procurement/guidelines-for-ai-procurement",
       "url": "https://www.gov.uk/government/publications/guidelines-for-ai-procurement/guidelines-for-ai-procurement",
       "title": "Guidelines for AI procurement",
-      "publisher": "Office for Artificial Intelligence (UK government)",
+      "publisher": "Office for Artificial Intelligence",
       "year": 2020,
       "tier": "official",
       "access": "free",
       "criteria": [
+        "1.5",
         "3.7",
         "4.5"
       ],
       "locators": {
+        "1.5": "Top 10 considerations, items 8 and 10; section 4 ('Contract Implementation and Ongoing management')",
         "3.7": "Sections 'Selection, evaluation and award' and 'Contract implementation and ongoing management'",
         "4.5": "Top 10 considerations, no. 8 'Avoid Black Box algorithms and vendor lock in'; section on drafting the invitation to tender"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "Consider during AI procurement that lifespan testing, not a one-time decision, is required.",
+      "published": "2020-06-08"
     },
     {
       "key": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/articles/artificialintelligenceinukbusinesses/2023to2026",
@@ -4445,6 +4993,46 @@
       "type": "reporting framework",
       "quote": "Making only some criteria mandatory streamlines the reporting process.",
       "published": "February 2025"
+    },
+    {
+      "key": "https://www.gov.uk/government/speeches/the-kings-speech-2024",
+      "url": "https://www.gov.uk/government/speeches/the-kings-speech-2024",
+      "title": "The King's Speech 2024",
+      "publisher": "Prime Minister's Office, 10 Downing Street",
+      "year": 2024,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.6"
+      ],
+      "locators": {
+        "1.6": "Paragraph following the Employment Rights Bill"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "seek to establish the appropriate legislation to place requirements on those working to develop the most powerful artificial intelligence models",
+      "published": "2024-07-17"
+    },
+    {
+      "key": "https://www.gov.uk/government/speeches/the-kings-speech-2026",
+      "url": "https://www.gov.uk/government/speeches/the-kings-speech-2026",
+      "title": "The King's Speech 2026",
+      "publisher": "Prime Minister's Office, 10 Downing Street",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.6"
+      ],
+      "locators": {
+        "1.6": "Whole speech searched for 'artificial intelligence' and 'AI': no occurrence. Passage quoted is the Regulating for Growth Bill"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "official report",
+      "quote": "reduce the burden of unnecessary regulation through innovation",
+      "published": "2026-05-13"
     },
     {
       "key": "http://publications.europa.eu/resource/cellar/db614b12-b555-11f1-81de-01aa75ed71a1.0006.03/DOC_1",
@@ -4509,7 +5097,7 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "amending Directives (EU) 2022/2464 and (EU) 2024/1760 as regards the dates from which Member States are to apply certain corporate sustainability reporting and due diligence requirements",
+      "quote": "as regards the dates from which Member States are to apply certain corporate sustainability reporting and due diligence requirements",
       "published": "16 April 2025"
     },
     {
@@ -4615,6 +5203,65 @@
       "published": "July 2019"
     },
     {
+      "key": "https://assets.bbhub.io/company/sites/60/2021/10/FINAL-2017-TCFD-Report.pdf",
+      "url": "https://assets.bbhub.io/company/sites/60/2021/10/FINAL-2017-TCFD-Report.pdf",
+      "title": "Recommendations of the Task Force on Climate-related Financial Disclosures: Final Report",
+      "publisher": "Task Force on Climate-related Financial Disclosures",
+      "year": 2017,
+      "tier": "professional",
+      "access": "free",
+      "criteria": [
+        "8.7"
+      ],
+      "locators": {
+        "8.7": "Section C, 'Governance', recommended disclosures a) and b) with guidance for all sectors, PDF page 27"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "International",
+      "type": "reporting framework",
+      "quote": "whether the organization has assigned climate-related responsibilities to management-level positions or committees",
+      "published": "June 2017"
+    },
+    {
+      "key": "https://www.theiia.org/globalassets/site/standards/editable-versions/globalinternalauditstandards_2024january9_editable.pdf",
+      "url": "https://www.theiia.org/globalassets/site/standards/editable-versions/globalinternalauditstandards_2024january9_editable.pdf",
+      "title": "Global Internal Audit Standards",
+      "publisher": "The Institute of Internal Auditors",
+      "year": 2024,
+      "tier": "professional",
+      "access": "free",
+      "criteria": [
+        "1.7"
+      ],
+      "locators": {
+        "1.7": "Principle 7 ('Positioned Independently'); Standard 8.4 ('External Quality Assessment'); Glossary, 'independence'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "International",
+      "type": "code or standard",
+      "quote": "The external assessment must be performed at least once every five years by a qualified, independent assessor or assessment team.",
+      "published": "2024-01-09"
+    },
+    {
+      "key": "https://www.theiia.org/globalassets/site/content/tools/professional/aiframework-sept-2024-update2.pdf",
+      "url": "https://www.theiia.org/globalassets/site/content/tools/professional/aiframework-sept-2024-update2.pdf",
+      "title": "The IIA's Artificial Intelligence Auditing Framework",
+      "publisher": "The Institute of Internal Auditors",
+      "year": 2024,
+      "tier": "professional",
+      "access": "free",
+      "criteria": [
+        "1.7"
+      ],
+      "locators": {
+        "1.7": "Part 3 ('AI Auditing Framework'), opening section and 'Governance' (document page 11-12); Part 2 (right to audit clause for vendors, page 10)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "International",
+      "type": "professional",
+      "quote": "internal audit likely will be able to provide only limited assurance"
+    },
+    {
       "key": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
       "url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
       "title": "Recommendation on the Ethics of Artificial Intelligence",
@@ -4642,7 +5289,7 @@
         "7.7"
       ],
       "locators": {
-        "7.7": "Page 69 (PDF page 72); Figure 41 on page 71; executive summary page 5"
+        "7.7": "Page 69 (PDF page 72); Figure 41 on page 71; executive summary (PDF page 8)"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
@@ -4682,7 +5329,7 @@
         "7.8"
       ],
       "locators": {
-        "7.6": "Key findings, page 6; section 2.3 for automation versus augmentation",
+        "7.6": "Key findings, page 6; chapter 2, 'The shifting human-machine frontier: automation versus augmentation'",
         "7.8": "Key findings, page 6"
       },
       "last_checked": "2026-10-02",
@@ -4751,6 +5398,25 @@
       "quote": "An investment firm shall be able to cancel immediately, as an emergency measure, any or all of its unexecuted orders"
     },
     {
+      "key": "https://www.legislation.gov.uk/ukpga/2006/46/section/1157",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/1157",
+      "title": "Companies Act 2006, section 1157: Power of court to grant relief in certain cases",
+      "publisher": "legislation.gov.uk",
+      "year": 2006,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.8"
+      ],
+      "locators": {
+        "1.8": "s.1157(1)-(2)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "he acted honestly and reasonably, and that having regard to all the circumstances of the case"
+    },
+    {
       "key": "https://www.legislation.gov.uk/ukpga/2006/46/section/172",
       "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/172",
       "title": "Companies Act 2006, section 172: Duty to promote the success of the company",
@@ -4759,17 +5425,21 @@
       "tier": "official",
       "access": "free",
       "criteria": [
+        "1.8",
         "7.4",
-        "7.6"
+        "7.6",
+        "8.7"
       ],
       "locators": {
+        "1.8": "s.172(1)(a)-(f)",
         "7.4": "s.172(1)(a) and (b)",
-        "7.6": "s.172(1)(a) and (b)"
+        "7.6": "s.172(1)(a) and (b)",
+        "8.7": "s.172(1)(a) to (f), in particular (d)"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "the interests of the company's employees"
+      "quote": "have regard (amongst other matters) to"
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2006/46/section/174",
@@ -4800,16 +5470,37 @@
       "access": "free",
       "criteria": [
         "1.1",
+        "1.8",
         "7.4"
       ],
       "locators": {
         "1.1": "s.248(1) and (2)",
+        "1.8": "s.248(1)-(4)",
         "7.4": "s.248(1)-(3)"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
       "quote": "Every company must cause minutes of all proceedings at meetings of its directors to be recorded."
+    },
+    {
+      "key": "https://www.legislation.gov.uk/ukpga/2006/46/section/249",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/249",
+      "title": "Companies Act 2006, section 249: Minutes as evidence",
+      "publisher": "legislation.gov.uk",
+      "year": 2006,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.8"
+      ],
+      "locators": {
+        "1.8": "s.249(1)-(2)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "are evidence (in Scotland, sufficient evidence) of the proceedings at the meeting"
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2006/46/section/414CA",
@@ -4820,10 +5511,12 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "8.1"
+        "8.1",
+        "8.7"
       ],
       "locators": {
-        "8.1": "s.414CA(A1), (1), (1A), (2A), (3) and (4)"
+        "8.1": "s.414CA(A1), (1), (1A), (2A), (3) and (4)",
+        "8.7": "s.414CA(1), (1A), (2A)(a) and (4)"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
@@ -4839,10 +5532,12 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "8.3"
+        "8.3",
+        "8.7"
       ],
       "locators": {
-        "8.3": "s.414CB(A1), (2A)(a) to (h) and (4A)"
+        "8.3": "s.414CB(A1), (2A)(a) to (h) and (4A)",
+        "8.7": "s.414CB(A1) and (2A)(a) to (h); notes F4 and F7"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
@@ -4858,15 +5553,17 @@
       "tier": "official",
       "access": "free",
       "criteria": [
+        "1.8",
         "7.4"
       ],
       "locators": {
+        "1.8": "s.414CZA(1)-(2); note F2 (inserted by S.I. 2018/860)",
         "7.4": "s.414CZA(1) and (2)"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "describes how the directors have had regard to the matters set out in section 172(1)(a) to (f) when performing their duty under section 172"
+      "quote": "describes how the directors have had regard to the matters set out in section 172(1)(a) to (f)"
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2025/18/section/103",
@@ -4965,17 +5662,19 @@
       "tier": "official",
       "access": "free",
       "criteria": [
+        "1.7",
         "5.2",
         "5.8"
       ],
       "locators": {
+        "1.7": "s.146(1) and (2)",
         "5.2": "s.146(1) and (2)(a)-(k)",
         "5.8": "s.146(2)(a)-(k), (3A), (8), (9), (11A); section 146A"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "carry out an assessment of whether the controller or processor has complied or is complying with the data protection legislation"
+      "quote": "to carry out an assessment of whether the controller or processor has complied or is complying with the data protection legislation"
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2018/12/section/148A",
@@ -5215,6 +5914,63 @@
       "quote": "It is unlawful for a public authority to act in a way which is incompatible with a Convention right."
     },
     {
+      "key": "https://www.legislation.gov.uk/ukpga/2023/54/section/12",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/54/section/12",
+      "title": "Procurement Act 2023, section 12: Covered procurement: objectives",
+      "publisher": "legislation.gov.uk",
+      "year": 2023,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.8"
+      ],
+      "locators": {
+        "8.8": "s.12(1)(a) to (d) and (4); commencement note I2"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "have regard to the fact that small and medium-sized enterprises may face particular barriers to participation"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/ukpga/2023/54/section/19",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/54/section/19",
+      "title": "Procurement Act 2023, section 19: Award of public contracts following a competitive tendering procedure",
+      "publisher": "legislation.gov.uk",
+      "year": 2023,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.8"
+      ],
+      "locators": {
+        "8.8": "s.19(1), (2) and (3)(a)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "must disregard any tender from a supplier that does not satisfy the conditions of participation"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/ukpga/2023/54/section/52",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/54/section/52",
+      "title": "Procurement Act 2023, section 52: Key performance indicators",
+      "publisher": "legislation.gov.uk",
+      "year": 2023,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.5"
+      ],
+      "locators": {
+        "1.5": "s.52(1)-(4), (6); commencement note I2 (in force 24 February 2025). Read with s.71(2) (assessment at least once in every twelve months; in force 1 January 2026 for specified purposes)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "must set at least three key performance indicators in respect of the contract"
+    },
+    {
       "key": "https://www.legislation.gov.uk/uksi/2008/1276/regulation/3",
       "url": "https://www.legislation.gov.uk/uksi/2008/1276/regulation/3",
       "title": "The Business Protection from Misleading Marketing Regulations 2008, regulation 3",
@@ -5245,6 +6001,26 @@
         "3.4": "reg. 2(j); saving in reg. 5"
       },
       "last_checked": "2026-10-02"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/uksi/2026/82/made",
+      "url": "https://www.legislation.gov.uk/uksi/2026/82/made",
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026, S.I. 2026/82",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "1.6"
+      ],
+      "locators": {
+        "1.6": "Regulations 2 (5 February 2026, including reg. 2(j), section 80, automated decision-making), 3 (19 June 2026) and 5 (saving for decisions taken before 5 February 2026)"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "come into force on 5th February 2026",
+      "published": "2026-01-29"
     },
     {
       "key": "https://www.legislation.gov.uk/uksi/2005/1803/regulation/9",
@@ -5321,6 +6097,25 @@
       "jurisdiction": "UK",
       "type": "legislation",
       "quote": "would result in less than 15 or more than 2,500 employees being required in order for a valid employee request to be made"
+    },
+    {
+      "key": "https://www.legislation.gov.uk/uksi/2008/410/schedule/7/part/7A",
+      "url": "https://www.legislation.gov.uk/uksi/2008/410/schedule/7/part/7A",
+      "title": "The Large and Medium-sized Companies and Groups (Accounts and Reports) Regulations 2008, Schedule 7, Part 7A: energy and carbon report (unquoted companies)",
+      "publisher": "legislation.gov.uk",
+      "year": 2008,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.6"
+      ],
+      "locators": {
+        "8.6": "Sch. 7 Part 7A, paragraphs 20D, 20F and 20H"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "legislation",
+      "quote": "The directors’ report must state the methodologies used to calculate the information disclosed under paragraph 20D(1), (2) and (3)."
     },
     {
       "key": "https://www.legislation.gov.uk/uksi/1999/3242/regulation/13",

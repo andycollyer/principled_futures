@@ -80,17 +80,17 @@
       "last_checked": "2026-10-02"
     },
     {
-      "title": "Guidance on AI and data protection: What do we need to know about accuracy and statistical accuracy?",
+      "title": "Guidance on AI and data protection: What are the accountability and governance implications of AI?",
       "publisher": "Information Commissioner's Office",
-      "year": 2023,
+      "year": 2024,
       "published": null,
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/what-do-we-need-to-know-about-accuracy-and-statistical-accuracy/",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/what-are-the-accountability-and-governance-implications-of-ai/",
       "tier": "official",
       "type": "regulator guidance",
       "jurisdiction": "UK",
-      "locator": "Section on statistical accuracy after deployment (paragraph beginning 'As part of your obligation to implement data protection by design and by default'); passage on concept or model drift",
-      "quote": "The higher the impact the more frequently you should monitor and report on it.",
-      "why": "Source of the quotation. The UK regulator's expectation of monitoring after deployment, scaled to the effect on people, with documented thresholds for retraining and attention to drift; it applies equally where the system is bought in. Guidance, where personal data is processed. Marked under review following the Data (Use and Access) Act 2025.",
+      "locator": "Section 'Outsourcing and third-party AI systems'",
+      "quote": "you should regularly review any outsourced services and be able to modify them or switch to another provider",
+      "why": "The UK regulator on bought-in AI where personal data is processed: requirements set at procurement, regular review during deployment, and a different solution chosen if compliance cannot be assessed. Guidance, not statute. Marked under review following the Data (Use and Access) Act 2025. No date printed; page metadata gives 11 December 2024.",
       "access": "free",
       "last_checked": "2026-10-02"
     },
@@ -105,7 +105,7 @@
       "jurisdiction": "UK",
       "locator": "Principle 12 'Monitor your system’s behaviour', provisions 12.1-12.4; definition of 'System Operators'",
       "quote": "System Operators shall log system and user actions to support security compliance, incident investigations, and vulnerability remediation.",
-      "why": "The UK government's own statement on logging and monitoring by organisations that deploy AI ('System Operators'). Voluntary, and framed around security, not fairness. Sets no retention period.",
+      "why": "Source of the quotation. The UK government's own statement on logging and monitoring by organisations that deploy AI ('System Operators': any business or organisation responsible for embedding or deploying an AI model and system within its infrastructure). Voluntary, and framed around security, not fairness. Sets no retention period.",
       "access": "free",
       "last_checked": "2026-10-02"
     },

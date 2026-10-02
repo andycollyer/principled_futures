@@ -22,7 +22,7 @@
     {
       "title": "Data protection impact assessments: What is a DPIA?",
       "publisher": "Information Commissioner's Office",
-      "year": 2018,
+      "year": 2025,
       "published": null,
       "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/what-is-a-dpia/",
       "tier": "official",
@@ -30,14 +30,14 @@
       "jurisdiction": "UK",
       "locator": "Section 'What kind of ‘risk’ do they assess?'",
       "quote": "This includes risks to privacy and data protection rights, but also effects on other fundamental rights and interests.",
-      "why": "Source of the quotation. The regulator's reading that the UK assessment already reaches discrimination, economic or social disadvantage and, in some cases, the impact on society. Marked under review following the Data (Use and Access) Act 2025. No date printed on the page.",
+      "why": "Source of the quotation. The regulator's reading that the UK assessment already reaches discrimination, economic or social disadvantage and, in some cases, the impact on society. Marked under review following the Data (Use and Access) Act 2025. No date printed; page metadata gives 9 October 2025.",
       "access": "free",
       "last_checked": "2026-10-02"
     },
     {
       "title": "Guidance on AI and data protection: What are the accountability and governance implications of AI?",
       "publisher": "Information Commissioner's Office",
-      "year": 2023,
+      "year": 2024,
       "published": null,
       "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/what-are-the-accountability-and-governance-implications-of-ai/",
       "tier": "official",
@@ -45,7 +45,7 @@
       "jurisdiction": "UK",
       "locator": "Section 'What do we need to consider when undertaking data protection impact assessments for AI?', paragraph beginning 'In addition to conducting a DPIA'",
       "quote": "public sector organisations are required to undertake equality impact assessments",
-      "why": "How the regulator sees the two kinds of assessment sitting together: other impact assessments may be required or done voluntarily alongside the data protection one. Marked under review following the Data (Use and Access) Act 2025.",
+      "why": "How the regulator sees the two kinds of assessment sitting together: other impact assessments may be required or done voluntarily alongside the data protection one. Marked under review following the Data (Use and Access) Act 2025. No date printed; page metadata gives 11 December 2024.",
       "access": "free",
       "last_checked": "2026-10-02"
     },
@@ -105,7 +105,7 @@
       "jurisdiction": "EU",
       "locator": "Recital 96",
       "quote": "After performing that impact assessment, the deployer should notify the relevant market surveillance authority.",
-      "why": "Explains the purpose of the assessment and suggests involving representatives of affected groups, independent experts and civil society. A recital, so an aid to interpretation, not a rule. The word 'dignity' does not appear. Commission's copy of the consolidated text, stated on the page to be based on the EUR-Lex consolidated version as at 27 July 2026, with Digital Omnibus changes marked NEW or AMENDED.",
+      "why": "Explains the purpose of the assessment and suggests involving representatives of affected groups, independent experts and civil society. A recital, so an aid to interpretation, not a rule. Names banking or insurance entities as examples of the deployers covered and mentions complaint handling and redress; the word 'dignity' does not appear. Commission's copy of the consolidated text, stated on the page to be based on the EUR-Lex consolidated version as at 27 July 2026, with Digital Omnibus changes marked NEW or AMENDED.",
       "access": "free",
       "last_checked": "2026-10-02"
     },

@@ -376,3 +376,98 @@ Published content is versioned, never edited. Items here go into briefing set 1.
 | 6.8-c | "where AI touches the production of the numbers ... it is a material control area on its face" | No FRC source | Remove, or present as the framework's view | None found |
 | 6.8-d | "Signing on assertion is no longer available" | Overstates | "the FRC's guidance ties the declaration to work carried out and evidence obtained" | Code Guidance, para 296 |
 | 6.8-e | Level 5 "Independently assured" (framework.ts; not edited) | FRC expressly does not expect external assurance | Flag for the lead: the brief says external assurance is not required | Code Guidance, para 274 |
+
+## 7.1
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 7.1-a | "must support a sufficient level of AI literacy" | Pre-2026 wording | "must take measures to support the development of AI literacy; since 2026 the Act says this does not require any guaranteed level" |
+| 7.1-b | Title and extract: "the obligation already on your books" | No UK duty; the EU duty applies only within the Act's scope | "The literacy duty: binding in the EU, good practice in the UK" |
+| 7.1-c | "an effort obligation still fails where no effort can be evidenced, and eighteen months of applicable duty with an empty file is its own finding" | Unsourced; the Commission says there is no duty to measure | "the Commission says there is no duty to measure knowledge, but that telling staff to read the instructions is not enough; an organisation with nothing to show is exposed if an incident follows" |
+| 7.1-d | "supervision and enforcement beginning 2 August 2026" | Date should be attributed | "national authorities have been able to enforce it since August 2026 (European Commission timeline)" |
+| 7.1-e | "which most training programmes were never designed to touch" | Unsourced | Delete |
+| 7.1-f | "Recorded: ... the effort obligation's entire evidential base" | Overstated | "Recorded: who was trained, on what, when, so the effort can be shown" |
+| 7.1-g | "(1.4)", "(2.7)", "(3.5)", "(7.7)" | Internal question numbers in client text | Name the subjects in words |
+| 7.1-h | (omission) | UK evidence on training is absent | Add: "in a 2024 government-commissioned survey, 11% of UK employers said staff had had AI training in the past year" |
+
+## 7.2
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 7.2-a | "The law names the person: competent, trained, authorised, supported" | EU law for high-risk deployers, not yet in application; not UK law | "The EU AI Act names the person: competent, trained, authorised, supported. UK guidance says much the same" |
+| 7.2-b | (omission) | No date for the EU duty | Add: "on the European Commission's published text this applies to listed high-risk uses from 2 December 2027" |
+| 7.2-c | "give them forty seconds per decision"; "four hundred decisions a day" | Invented numbers | "then give them a caseload that leaves no time to look" |
+| 7.2-d | "an overseer whose overrides trigger friction, justification rituals, or quiet career consequence" | The regulator expects reasons for overrides to be logged | "an overseer who fears being penalised for overruling the system; recording the reason is expected, punishing the override is not" |
+| 7.2-e | "the fourth is where most oversight regimes quietly fail" | Unsourced frequency claim | "the fourth is the easiest to leave unfunded" |
+| 7.2-f | "has authority the way a decorative fire extinguisher has foam" | Tone | "has authority on paper only" |
+| 7.2-g | "Criterion 3.5", "7.1", "(4.5)" | Internal question numbers in client text | Name the subjects in words |
+| 7.2-h | (omission) | Research finding that named overseers can give false assurance | Add one sentence citing Green (2022) |
+
+## 7.3
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 7.3-a | "The AI Act's human-oversight requirement is addressed, in the first instance, to the machine" | No scope or date | Add: "for high-risk systems; on the European Commission's published timetable it does not yet apply" |
+| 7.3-b | "Article 14's premise is that the collapse is usually upstream" | Not in the Article | "The UK regulator's guidance places the fix upstream: controls against automation bias belong in scoping and design" |
+| 7.3-c | "strongest exactly when the machine is usually right" | Unsourced | Delete |
+| 7.3-d | "Countermeasures are known and cheap" | "Cheap" unsourced | "Countermeasures are known" |
+| 7.3-e | "occasional deliberate review of high-confidence cases" | Not in a source read | "testing the review process on a sample of decisions" |
+| 7.3-f | "a system architected for instant throughput has architected oversight out, whatever the process map claims" | Too absolute; government guidance allows control at other stages where real-time review is impossible | "where instant responses make real-time review impossible, human control has to be placed at other stages and shown to work" |
+| 7.3-g | "Friction symmetry: overriding should cost no more effort than approving" | Presented as a named standard; no source | Keep as plain advice: "overriding should be as easy as approving" |
+| 7.3-h | "(3.5)", "(4.5)", "7.1's curriculum" | Internal question numbers in client text | Name the subjects in words |
+| 7.3-i | "a design failure wearing a compliance badge"; "the design has voted" | Tone | "a design failure"; "the design has made agreement the easy path" |
+| 7.3-j | (omission) | UK binding rules not mentioned | Add: UK GDPR Article 25 (safeguards built in by design) and Article 22C(2)(c) (human intervention must be obtainable) |
+
+## 7.4
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 7.4-a | "The s172 duty is procedural: stakeholder impact considered, and minuted" | The section requires regard, not a minute | "Directors must have regard to employees' interests; the minute is how they show it" |
+| 7.4-b | "a duty the courts test procedurally, through what the minutes show was actually weighed" | No authority read | "a duty that turns on what directors considered in good faith, for which the minutes are the best evidence" |
+| 7.4-c | "is the safe harbour" (twice) | No such legal protection | "is the best evidence that employees' interests were weighed" |
+| 7.4-d | "the deployer regime adds its own expectation for workplace AI: workers informed before the system goes into service" | EU law, high-risk only, not yet in application; no jurisdiction given | "the EU AI Act will require employers deploying high-risk systems to inform workers and their representatives first; UK employers are advised by Acas to consult" |
+| 7.4-e | "which presumes the organisation has itself understood the impact it is about to announce" | Not in the Article | Delete, or "which is easier to do well once the impact has been assessed" |
+| 7.4-f | "Both point to the same instrument" | No law requires the assessment | "Neither requires a workforce impact assessment by name; both are easier to meet with one" |
+| 7.4-g | "AI adoption arguments arrive with benefits quantified and workforce effects gestural" | Unsourced generalisation | "Business cases for AI often quantify benefits more carefully than effects on staff" (or cut) |
+| 7.4-h | "(7.5)", "(7.2's resourcing question ...)", "(7.6)", "(7.8)" | Internal question numbers in client text | Name the subjects in words |
+| 7.4-i | (omission) | Reporting and consultation duties absent | Add: larger companies must report how directors had regard to these matters (s.414CZA); collective consultation applies if 20 or more redundancies are proposed at one establishment within 90 days (TULRCA s.188) |
+
+## 7.5
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 7.5-a | "The deployer duty is explicit" (extract) and first paragraph | Presents an EU duty as if it bound UK employers | "For employers within the EU AI Act the duty is explicit. UK law has no AI-specific duty; it requires consultation in good time on the health and safety consequences of new technology, and on substantial changes in work organisation where information and consultation arrangements apply" |
+| 7.5-b | "high-risk systems on the deferred timeline" | Date not verifiable; the official page says the provision has been amended and the text is not updated | "high-risk systems" (no timing) |
+| 7.5-c | "both the direction of travel and elementary employment relations" | No source for a direction of travel in UK law | "good practice recommended by the ICO for monitoring tools" |
+| 7.5-d | "what the system is, what it does, whom it affects" as "the duty's letter" | The Act requires only that people be told they will be subject to the system | "The letter of the duty is that people are told they will be subject to the system; good practice adds what it does and how it affects them" |
+| 7.5-e | "drawn straight from the impact assessment (7.4)" | Not a rule; internal number | "Where a data protection impact assessment is needed, the law says to seek workers' views as part of it" |
+| 7.5-f | "the cheapest mechanism ever devised" | Unsupported superlative | "an inexpensive way of finding problems early" |
+| 7.5-g | "announcement theatre"; "noticeboard PDF" | Tone | "announcement without consultation"; "a notice nobody read" |
+
+## 7.6
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 7.6-a | "frequently the legal requirement anyway" | Overstates UK law | "required by law for significant decisions that would otherwise be taken solely by automated means" |
+| 7.6-b | "manufactures internal opposition"; "quietly sabotage" | No source | "gives staff little reason to help" |
+| 7.6-c | "system-level gains that compound" | Not evidenced | "gains in output and quality, which field studies have measured" |
+| 7.6-d | "The s172 minute (7.4) records the reasoning" | No duty to minute; internal number | "Directors must have regard to employees' interests; a record of how they did so is the evidence" |
+| 7.6-e | "a competitive asset that cannot be purchased retroactively" | No source | "a record that takes time to build" |
+| 7.6-f | (absent) | Omits the law on redundancy consultation | Add: "Where collective redundancies are proposed, the employer must consult on ways of avoiding them" |
+| 7.6-g | "which the workforce decodes in approximately one meeting" | Tone; no source | Delete |
+
+## 7.7
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 7.7-a | "client data in an unassessed consumer tool is a breach with a subscription receipt" | Legally imprecise; tone | "personal data entered into a tool the organisation has not assessed is processed outside its instructions and without a processor contract" |
+| 7.7-b | "bans do not reduce shadow use, they submerge it" | Stated as fact; source supports only the reporting effect | "the National Cyber Security Centre warns that blame and unnecessary lockdowns make staff less willing to say what they use" |
+| 7.7-c | "Amnesty" | Not the source's term | "a no-blame approach" |
+| 7.7-d | "network and expense signals" | Expense signals unsourced | "network monitoring and cloud access controls" |
+| 7.7-e | "the shadow-AI count your dashboard already carries" | Product reference | Delete |
+| 7.7-f | "the six-week approval queue" | Invented number | "a slow approval queue" |
+| 7.7-g | "Staff are already using AI you've never assessed" | UK prevalence not measured | "Surveys in many countries find most employees who use AI at work use free public tools; no UK measure exists" |
+
+## 7.8
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 7.8-a | "the capability your controls depend on decays on schedule" | No source for a schedule | "the capability your controls depend on can fade unnoticed" |
+| 7.8-b | "Automate a task and the human skill behind it begins to atrophy" | Stated as a law of nature; evidence for AI is early | "Skills that are no longer practised tend to fade; aviation regulators documented this with autopilots, and early studies suggest the same risk with AI" |
+| 7.8-c | "roles reduced to supervising a machine's throughput lose the engagement that made the judgement good" | Unsupported; short-run studies found satisfaction rising | "the effect on engagement is not yet known and should be measured, not assumed" |
+| 7.8-d | "inexpensive relative to what they protect" | No source | Delete |
+| 7.8-e | "taken at adoption (inside the impact assessment, 7.4)" | Presented as a requirement; internal number | "taken at adoption; no law requires it, and it is good practice borrowed from safety-critical industries" |
+| 7.8-f | "both trending on the people dashboard" | Product reference | "both reported to the board" |
+| 7.8-g | (absent) | Omits the UK legal position | Add: "No UK law addresses loss of skill through AI; health and safety law requires employers to consider capability and to train when new technology brings new risks" |

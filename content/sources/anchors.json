@@ -463,5 +463,111 @@
       "url": "https://www.frc.org.uk/documents/8893/Annual_Review_of_Corporate_Governance_Reporting_2025.pdf",
       "text": "a sample of 100 randomly selected companies"
     }
+  ],
+  "7.1": [
+    {
+      "kind": "quotation",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4",
+      "text": "This obligation does not require providers or deployers to guarantee any specific level of AI literacy of any individual."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.gov.uk/government/publications/ai-skills-for-life-and-work-employer-survey-findings/ai-skills-for-life-and-work-employer-survey-findings--2",
+      "text": "11% of employers have had staff undertake training on AI in the last 12 months."
+    }
+  ],
+  "7.2": [
+    {
+      "kind": "quotation",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems/",
+      "text": "This authority and confidence cannot be created by policies and training alone: a supportive organisational culture is also crucial"
+    },
+    {
+      "kind": "figure",
+      "url": "https://arxiv.org/abs/2109.05067",
+      "text": "I survey 41 policies"
+    },
+    {
+      "kind": "figure",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
+      "text": "2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III"
+    }
+  ],
+  "7.3": [
+    {
+      "kind": "quotation",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems/",
+      "text": "Those in charge of designing the front-end interface of an AI system must understand the needs, thought processes, and behaviours of human reviewers and allow them to effectively intervene."
+    }
+  ],
+  "7.4": [
+    {
+      "kind": "quotation",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/172",
+      "text": "the interests of the company's employees"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/reports/2025-pdfs/9024-lmo-autumn-2025-report-web.pdf",
+      "text": "17% expect the use of AI tools to reduce their headcount in the next 12 months"
+    }
+  ],
+  "7.5": [
+    {
+      "kind": "quotation",
+      "url": "https://www.legislation.gov.uk/uksi/1996/1513/regulation/3",
+      "text": "the health and safety consequences for those employees of the introduction (including the planning thereof) of new technologies into the workplace"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.legislation.gov.uk/uksi/2004/3426/schedule/1",
+      "text": "At least 50"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.legislation.gov.uk/uksi/2004/3426/regulation/7",
+      "text": "would result in less than 15 or more than 2,500 employees being required in order for a valid employee request to be made"
+    }
+  ],
+  "7.6": [
+    {
+      "kind": "quotation",
+      "url": "https://arxiv.org/pdf/2201.04200",
+      "text": "when AI is focused on augmenting humans rather than mimicking them, then humans retain the power to insist on a share of the value created"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/articles/artificialintelligenceinukbusinesses/2023to2026",
+      "text": "just under 7% reporting a decrease"
+    }
+  ],
+  "7.7": [
+    {
+      "kind": "quotation",
+      "url": "https://www.ncsc.gov.uk/guidance/shadow-it",
+      "text": "If you blame or punish staff, their peers will be reluctant to tell you about their own unsanctioned practices"
+    },
+    {
+      "kind": "figure",
+      "url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2025/05/trust-attitudes-and-use-of-ai-global-report.pdf",
+      "text": "The majority (70%) say they use publicly available AI tools that are free to use"
+    }
+  ],
+  "7.8": [
+    {
+      "kind": "quotation",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf",
+      "text": "you deprive the user of the routine opportunities to practice their judgement"
+    },
+    {
+      "kind": "figure",
+      "url": "https://arxiv.org/pdf/2601.20245",
+      "text": "reduction in the evaluation score by 17%"
+    },
+    {
+      "kind": "figure",
+      "url": "https://arxiv.org/pdf/2601.20245",
+      "text": "52 participants completed the task"
+    }
   ]
 }

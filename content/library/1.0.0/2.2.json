@@ -38,14 +38,14 @@
       "title": "The Orange Book: Management of Risk - Principles and Concepts",
       "publisher": "HM Treasury, Government Finance Function",
       "year": 2023,
-      "published": "May 2023",
+      "published": null,
       "url": "https://www.gov.uk/government/publications/orange-book/the-orange-book-management-of-risk-principles-and-concepts",
       "tier": "official",
       "type": "code or standard",
       "jurisdiction": "UK",
       "locator": "Section A, paragraph A3; Section D, paragraphs D6, D14 and D15",
       "quote": "The board should determine and continuously assess the nature and extent of the principal risks",
-      "why": "Public sector equivalent: the board determines its risk appetite, decisions are compared with it, and reports show whether each principal risk is within it. HTML page shows 'Updated 29 July 2026'. The separate Risk Appetite Guidance Note was deleted from the collection page on 29 July 2026 as out of date, so it is not cited.",
+      "why": "Public sector equivalent: the board determines its risk appetite, decisions are compared with it, and reports show whether each principal risk is within it. The PDF edition carries Crown copyright 2023; the HTML page read here shows 'Updated 29 July 2026'. The separate Risk Appetite Guidance Note was deleted from the collection page on 29 July 2026 as out of date, so it is not cited.",
       "access": "free",
       "last_checked": "2026-10-02"
     },
@@ -67,7 +67,7 @@
     {
       "title": "Guidance on AI and data protection: What are the accountability and governance implications of AI?",
       "publisher": "Information Commissioner's Office",
-      "year": 2023,
+      "year": 2024,
       "published": null,
       "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/what-are-the-accountability-and-governance-implications-of-ai/",
       "tier": "official",
@@ -75,7 +75,7 @@
       "jurisdiction": "UK",
       "locator": "Section 'How should we set a meaningful risk appetite?'",
       "quote": "It is unrealistic to adopt a ‘zero tolerance’ approach to risks to rights and freedoms",
-      "why": "Source of the quotation (the sentence continues 'and indeed the law does not require you to do so'). The same section says 'In all cases, you need to ensure you comply with data protection requirements', so appetite operates above the legal floor. Later it asks that decisions on trade-offs be shown to fit 'your overall risk appetite'. Marked under review following the Data (Use and Access) Act 2025.",
+      "why": "Source of the quotation (the sentence continues 'and indeed the law does not require you to do so'). The same section says 'In all cases, you need to ensure you comply with data protection requirements', so appetite operates above the legal floor. Later it asks that decisions on trade-offs be shown to fit 'your overall risk appetite'. Marked under review following the Data (Use and Access) Act 2025. No date printed; page metadata gives 11 December 2024.",
       "access": "free",
       "last_checked": "2026-10-02"
     },
@@ -142,7 +142,7 @@
     {
       "title": "Risk appetite and tolerance",
       "publisher": "Institute of Risk Management",
-      "year": 2011,
+      "year": 2026,
       "published": null,
       "url": "https://www.theirm.org/what-we-say/thought-leadership/risk-appetite-and-tolerance/",
       "tier": "professional",
@@ -150,7 +150,7 @@
       "jurisdiction": "UK",
       "locator": "Opening paragraph of the page",
       "quote": "Risk appetite and tolerance need to be high on any board's agenda",
-      "why": "Professional body's working definition: 'the amount and type of risk that an organisation is willing to take in order to meet their strategic objectives'. Only the web page was read, not the guidance paper it introduces; no date is printed on the page (the paper dates from 2011). Not about AI.",
+      "why": "Professional body's working definition: 'the amount and type of risk that an organisation is willing to take in order to meet their strategic objectives'. Only the web page was read, not the guidance paper it introduces; no date is printed on the page, so the year given is the year it was read. Not about AI.",
       "access": "free",
       "last_checked": "2026-10-02"
     }

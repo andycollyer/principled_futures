@@ -95,17 +95,17 @@
       "last_checked": "2026-10-02"
     },
     {
-      "title": "UK government conversion factors for company reporting of greenhouse gas emissions",
+      "title": "Greenhouse gas reporting: conversion factors 2026",
       "publisher": "Department for Energy Security and Net Zero",
       "year": 2026,
-      "published": "11 June 2026 (last updated)",
-      "url": "https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting",
+      "published": "11 June 2026 (updated 31 July 2026)",
+      "url": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2026",
       "tier": "official",
       "type": "regulator guidance",
       "jurisdiction": "UK",
-      "locator": "Opening description and the list of updates to the page",
-      "quote": "The UK government conversion factors enable users to calculate and report greenhouse gas emissions from UK operations based on activity data.",
-      "why": "Why a refresh date matters. A new set of factors is published each year (2026 added on 11 June 2026), so a carbon figure is only reproducible if the year of the factors used is recorded. The page's update history shows a new set added each year.",
+      "locator": "Section 'Details', including the note 'Update: July 2026'",
+      "quote": "An update is published each year, together with a methodology report explaining how they are derived",
+      "why": "Why a refresh date matters. The factors used to turn activity data into emissions change every year, so a carbon figure can only be reproduced if the year of the factors is recorded. The page also shows that official data needs correcting too: in July 2026 one file was republished because values had been reported as 0 where no data were available. Suitable for UK organisations of all sizes.",
       "access": "free",
       "last_checked": "2026-10-02"
     },
