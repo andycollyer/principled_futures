@@ -1,0 +1,68 @@
+{
+  "criterion": "4.3",
+  "bank": "1.0.0",
+  "status": "draft",
+  "checked": "2026-10-02",
+  "items": [
+    {
+      "title": "UK GDPR, Article 22C: Safeguards for automated decision-making",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22C",
+      "access": "free",
+      "locator": "Art. 22C(1) and 22C(2)(a); textual amendment note F1",
+      "why": "The duty itself: safeguards must include measures that give the person information about significant, solely automated decisions taken about them. Says nothing on how detailed the information must be. Note F1: inserted by the Data (Use and Access) Act 2025 s.80(1), fully in force 5 February 2026."
+    },
+    {
+      "title": "UK GDPR, Article 15: Right of access by the data subject",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/15",
+      "access": "free",
+      "locator": "Art. 15(1)(h); note F4. Same wording at Art. 13(2)(f) and Art. 14(2)(g)",
+      "why": "The separate transparency duty: the existence of automated decision-making subject to the Article 22C safeguards and, at least in those cases, meaningful information about the logic involved, its significance and envisaged consequences. Words substituted 5 February 2026."
+    },
+    {
+      "title": "Automated decision-making, including profiling (draft guidance): What are the ADM safeguards?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards/",
+      "access": "free",
+      "locator": "Section 'What 'information about decisions' do we have to provide?'",
+      "why": "Source of the quotation. Consultation draft published 31 March 2026; consultation closed 29 May 2026; final version not yet issued, so the wording may change. Lists what to include: contributing factors, whether profiling was involved, third-party data, how to ask for review."
+    },
+    {
+      "title": "Explaining decisions made with AI, Part 1: What goes into an explanation?",
+      "publisher": "Information Commissioner's Office and The Alan Turing Institute",
+      "year": 2020,
+      "tier": "official",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-1-the-basics-of-explaining-ai/what-goes-into-an-explanation/",
+      "access": "free",
+      "locator": "'At a glance' and section 'Process-based vs outcome-based explanations'",
+      "why": "The six explanation types (rationale, responsibility, data, fairness, safety and performance, impact) and the process and outcome distinction. Under review following the Data (Use and Access) Act 2025 and still refers to Article 22. Year not shown on the page; to confirm."
+    },
+    {
+      "title": "Explaining decisions made with AI, Part 3: Organisational roles and functions for explaining AI",
+      "publisher": "Information Commissioner's Office and The Alan Turing Institute",
+      "year": 2020,
+      "tier": "official",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-3-what-explaining-ai-means-for-your-organisation/organisational-roles-and-functions-for-explaining-ai/",
+      "access": "free",
+      "locator": "Section 'What if we use an AI system supplied by a third party?'",
+      "why": "The controller keeps primary responsibility for making sure a bought-in system can produce an appropriate explanation. Under review, as above. Year not shown on the page; to confirm."
+    },
+    {
+      "title": "Project explAIn: interim report",
+      "publisher": "Information Commissioner's Office and The Alan Turing Institute",
+      "year": 2019,
+      "tier": "official",
+      "url": "https://ico.org.uk/media2/migrated/2615039/project-explain-20190603.pdf",
+      "access": "free",
+      "locator": "p. 10 (jury design: 18 jurors in Manchester, 18 in Coventry); p. 15 (findings by scenario)",
+      "why": "Source of the figure. A small deliberative study, not a survey: it shows the value people place on an explanation depends on context. No percentages are given in this report."
+    }
+  ]
+}

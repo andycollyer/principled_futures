@@ -86,3 +86,111 @@ Published content is versioned, never edited. Items here go into briefing set 1.
 | 3.8-e | "(the 2.6 machinery)", "(5.8)", "(3.2)", "(3.3)", "(3.7)" | Internal question numbers in client text | Name the things: "the suspension process", "the accountability file", "screening", "testing thresholds", "supplier management" |
 | 3.8-f | (omission) | Complaints duty in force since 19 June 2026: acknowledge within 30 days, respond without undue delay, report outcome | Add one sentence |
 | 3.8-g | (omission) | Government's contestability and redress principle creates no new rights | Add one clause so readers do not assume an AI-specific right exists |
+
+## 4.1
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 4.1-a | Title "the disclosure duty arriving in August"; extract "From 2 August 2026, people interacting with your chatbot must be told" | Date has passed; duty is on the provider, not the deploying business | "Talking to a machine: the disclosure duty". "Since 2 August 2026, EU law has required AI systems that talk to people to say so, unless it is obvious." |
+| 4.1-b | "lands its first and simplest duty in August 2026" | All Article 50 duties applied on the same date | "has applied since 2 August 2026" |
+| 4.1-c | "The Commission's guidelines of July 2026 and the voluntary Code of Practice on transparency published in June give the duty practical shape — including standardised wording patterns and forthcoming EU icons for labelling." | The Code and icons concern AI-generated content, not interaction; icons already exist; guidelines are non-binding and not yet formally adopted | "The Commission's guidelines, published in July 2026 and not binding, give the duty practical shape, with recommended wording and placement." |
+| 4.1-d | "For UK organisations the duty applies wherever their systems reach people in the EU" | The EU duty binds the provider of the system | "The EU duty binds whoever provides the system, including a UK provider whose system is used in the EU; a UK business buying a chatbot should ask its supplier how the duty is met." |
+| 4.1-e | "the domestic direction points the same way: transparency is one of the UK's five regulatory principles" | Omits the operative UK law | Add: "UK consumer law already bites: the Competition and Markets Authority says customers should be told where dealing with AI rather than a person might affect their decisions." |
+| 4.1-f | "an obviously robotic FAQ widget may qualify" | A rule-based widget is outside the Act; an AI helpdesk chatbot does not qualify | "a tool used only by trained staff may qualify; a chatbot on a public helpdesk does not" |
+| 4.1-g | "web chat, voice, messaging platforms, email triage" | Email triage that only sorts is not an interaction | "web chat, voice, messaging platforms and AI-written email" |
+| 4.1-h | "because the duty attaches per interaction surface" | Not found in the Act or guidelines | "because people must be informed at the latest at the first interaction, whichever channel that is" |
+| 4.1-i | "converting a design achievement into a compliance breach" | Overstates for a UK deployer | "converting a design achievement into a legal exposure" |
+
+## 4.2
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 4.2-a | "with carve-outs for evidently artistic or satirical work ... and for assistive editing that doesn't substantially alter meaning" | The assistive-editing exception belongs to the provider marking duty, not the deployer deepfake duty | "with a lighter duty for evidently artistic or satirical work, where disclosure must not spoil the work. (The exception for assistive editing sits with the provider's marking duty.)" |
+| 4.2-b | "combining secured metadata with technical watermarking, supplemented by fingerprinting and logging" | Fingerprinting or logging is optional in the Code | "combining digitally signed metadata with an imperceptible watermark; fingerprinting or logging is optional and not enough alone" |
+| 4.2-c | "because no single technique survives cropping, compression and paraphrase alone" | Not the Code's stated reason | "because no single technique can yet meet all four legal requirements alone" |
+| 4.2-d | "Robustness, interoperability and reliability are the standard" | Omits effectiveness | "Effective, interoperable, robust and reliable is the standard" |
+| 4.2-e | "Either way, a visible label alone no longer passes." / "non-compliant on its face" | True for providers only; for publishers of deepfakes a visible disclosure is the duty | "For a provider, a visible label alone does not meet the marking duty." |
+| 4.2-f | "maintains detection capability for inbound content too, increasingly a due-diligence expectation in its own right" | Unsourced | Cut, or "and can check the marks on content it receives" as a practice suggestion |
+| 4.2-g | "then a marking architecture aligned to the Code" | Implies the Code is the requirement | "then a marking design that follows the voluntary Code or can be shown to be equivalent" |
+| 4.2-h | (omission) | No UK position; reads as if the duty applied in the UK | Add: "The UK has no equivalent duty; the government said in March 2026 that it does not regulate how AI-generated content is labelled." |
+| 4.2-i | "The Digital Omnibus split the timeline" | Amending regulation not read in the Official Journal | Keep the dates; lead to confirm attribution against the Official Journal text when EUR-Lex can be read |
+
+## 4.3
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 4.3-a | "The UK's explanation duty has sharpened." | The statute says only "information about decisions"; the sharper reading is a consultation draft | "The UK's explanation duty has new statutory words, and the regulator's draft guidance reads them firmly." |
+| 4.3-b | "the ICO's draft guidance presses past the minimal reading" | Does not say the draft is unfinished | Add: "The guidance was consulted on in 2026 and is not yet final." |
+| 4.3-c | "the obligation to provide the individual with information about the decision" | Omits scope | Add: "where the decision is significant and solely automated" |
+| 4.3-d | "the procurement standard of 4.5 is where this duty is won" | Internal criterion number in client text | "this duty is won at procurement" |
+| 4.3-e | "distinguishing explanation types - rationale, data, fairness, responsibility" | There are six types | "six explanation types: rationale, responsibility, data, fairness, safety and performance, and impact" |
+| 4.3-f | "explanation quality is sampled and measured like any other output" | Reads as an established expectation; not in any source read | Keep as a practice suggestion: "the stronger organisations sample their explanations and check them" |
+| 4.3-g | "main factors, stated plainly" | "Main" is not the ICO's wording | "the factors that contributed, stated plainly" |
+| 4.3-h | (omission) | Nothing on the separate duty in Articles 13, 14 and 15 (meaningful information about the logic involved), which applies to privacy notices and access requests | Add one sentence distinguishing it from the decision-level safeguard |
+
+## 4.4
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 4.4-a | "The DUAA's Article 22C sets four safeguards for significant automated decisions" | Article of the UK GDPR, not of the Act; scope too wide | "Article 22C of the UK GDPR, inserted by the Data (Use and Access) Act 2025, sets four safeguards for significant decisions taken solely by automated processing" |
+| 4.4-b | "The DUAA's four rights are operational duties — and 'operational' is the word the regulator will test." | Word not found in statute or guidance | "The four safeguards are duties to be run, not described; the regulator's draft guidance says they cannot be tokenistic." |
+| 4.4-c | "each right must be operational rather than theoretical, which means a working mechanism, a named owner, and evidence of use" | "Operational" and "named owner" unsourced | "each needs a working mechanism and a record of its use; a named owner is good practice" |
+| 4.4-d | "Intervention imports the meaningful-involvement standard wholesale: the intervening human needs competence, reasoning access, and override authority (3.5)" | Draft guidance treats the concepts as distinct; reasoning access not listed; internal number | "Intervention is a separate safeguard from human involvement, but the draft guidance asks much the same of the reviewer: training, discretion and authority to alter the decision, and access to the data the system used" |
+| 4.4-e | "a process that upholds the original decision in one hundred per cent of cases is an appeals process the way a mirror is a second opinion" | No threshold in any source | "a process that never changes an outcome should be questioned; the regulator expects that many challenges could succeed" |
+| 4.4-f | "clear timescales" | Statutory limit exists and is not stated | "the statutory timescale: one month, extendable by two" |
+| 4.4-g | "the metrics are both the management tool and the proof of operationality" | Unsourced as proof | "the metrics are the management tool and the evidence that the route is used" |
+| 4.4-h | "precisely the gap between stated and actual practice that assessment notices exist to find" | Unsourced link | "the gap between stated and actual practice that a regulator's assessment would look for" |
+| 4.4-i | "(4.3)", "(3.5)", "(5.8)" | Internal question numbers in client text | Name the things: "the explanation given", "meaningful human review", "the accountability file" |
+| 4.4-j | (omission) | Spot checks do not satisfy the safeguard; the person must be able to start the review | Add one sentence |
+| 4.4-k | (omission) | Regulator guidance is a consultation draft | Say so wherever it is relied on |
+
+## 4.5
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 4.5-a | "the meaningful-involvement test explicitly requires reasoning access" | Article 22A says no such thing | "a reviewer who cannot see why the system reached its output will struggle to show their involvement was meaningful" |
+| 4.5-b | "Research calls it the transparency paradox" and the sentence that follows | No source named or found | Delete the attribution; "organisations answer for explanations of systems they did not build" |
+| 4.5-c | "The DUAA does not accept the vendor's opacity as your defence" | The Act is silent on vendors | "The safeguards for automated decisions bind the organisation, whoever built the system" |
+| 4.5-d | "the FRC expects boards to report substance about the systems inside their controls" | Provision 29 is about material controls generally, does not mention AI, and applies only to companies following the Code | "boards following the Corporate Governance Code must declare on the effectiveness of material controls, which may include controls that rely on AI" |
+| 4.5-e | "most organisations deploy models they didn't build and cannot see into" | Unsourced | "many organisations use models they did not build" |
+| 4.5-f | "mandatory for central government" | Scope is wider and has exemptions | "mandatory for government departments and many arm's-length bodies" |
+| 4.5-g | "keeping ATRS-style records voluntarily costs little" | No evidence on cost | "keeping records in that format voluntarily answers many later questions in advance" |
+| 4.5-h | "legally responsible for explanations they are structurally unable to give"; "deployers" | "Deployer" is EU vocabulary; the regulator says tools or a second model can supply explanations | "responsible for explanations they have not equipped themselves to give" |
+| 4.5-i | "change notification" listed with other contract terms as if settled practice | No source imposes it | Keep as recommended practice; say so |
+
+## 4.6
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 4.6-a | "Criterion 1.4 built the register as a governance instrument; this criterion completes it as transparency infrastructure" | Internal criterion number in client text | "The AI register was built as a governance instrument; here it is completed as transparency infrastructure" |
+| 4.6-b | "The Art 50 disclosure inventory (4.1) is a register query." | Statute not named; EU law not UK; not read from an official text in this pass; internal number | Drop, or: "The list of AI uses that must be disclosed to the people who meet them can be drawn from the register" (lead to confirm against an official EU text) |
+| 4.6-c | "The DUAA scoping exercise (5.1) is a register pass." | Abbreviation unexplained; no source for a "scoping exercise"; internal number | "Working out which uses fall under the automated decision-making rules starts from the register" |
+| 4.6-d | "The Provision 29 evidence pack starts from the register's controls view." | Reads as if it applied to every organisation and to AI specifically. It applies to listed companies, comply or explain, for financial years beginning on or after 1 January 2026, and does not mention AI | "For listed companies, whose boards must now declare whether material controls are effective, the register is where evidence about AI controls begins" |
+| 4.6-e | "Buyer due-diligence questionnaires — increasingly the real transparency regime for SMEs — are answered in hours instead of weeks" | No source for the trend or the timings | "Buyer due-diligence questionnaires are answered faster, and more credibly, by organisations whose register is current" |
+| 4.6-f | "Plain language is not a stylistic preference" | Presented as a rule; only the public-sector standard asks for it | Keep as advice; add "government's own recording standard asks for the summary tier to be clear and simple" |
+| 4.6-g | (omission) | The statutory record duty is missing | Add: "Where personal data is involved the law already requires part of this: a written record of processing, including purposes and categories of data" |
+| 4.6-h | (omission) | Nothing on tools adopted without approval | Add one sentence: "A register that lists only approved systems misses the tools staff have adopted for themselves" |
+
+## 4.7
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 4.7-a | "one obligation is arriving from both directions" | The UK duty is in force (5 February 2026) and restates an earlier one | "one obligation now sits in UK law and is coming in EU law" |
+| 4.7-b | "the AI Act requires deployers of high-risk systems to inform people subject to their decisions" | Narrower in the text: listed high-risk uses, and the duty is to say the system is being used | "the EU AI Act requires deployers of listed high-risk systems that make or assist decisions about people to tell them the system is in use" |
+| 4.7-c | "and — from August 2026 — to notify individuals exposed to emotion recognition or biometric categorisation" | Date not confirmed against an official text that is current | Remove the date, or confirm it against the Official Journal before publication |
+| 4.7-d | "Notification buried in terms and conditions technically exists and functionally doesn't" | Understates: the regulator's view is that general notice does not meet the safeguard | "A line in the terms and conditions does not meet the safeguard, which calls for information about the decision actually taken" |
+| 4.7-e | "these were the kinds of factors" | Regulator's draft asks for the factors that contributed to this decision | "these were the factors that counted in your case" |
+| 4.7-f | "Three sentences, honestly placed, outperform three pages of drafting." | Unsourced; may be read as a sufficient standard | "A short notice with the decision does more than pages of general terms, provided it explains this decision." |
+| 4.7-g | "which systems make or substantially shape significant decisions about people" | UK duty applies to solely automated decisions; wording blurs UK and EU tests | "which systems take significant decisions about people without meaningful human involvement, and which assist such decisions" |
+| 4.7-h | "the counterintuitive commercial finding being that people distrust the algorithm they suspect far more than the one they're told about" | No source | Cut, or replace with "the regulator reports that job candidates want to know when and how automation is used" |
+| 4.7-i | "silent algorithmic decision-making is being legislated out of respectability" | Overstates the reach of both regimes | "the direction of travel is toward telling people" |
+
+## 4.8
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 4.8-a | "AI-washing is now a named enforcement priority" | No UK regulator source found naming it as one | "Overstated AI claims fall under the general law on misleading statements, which the CMA can now enforce directly" |
+| 4.8-b | "has moved from marketing peccadillo to regulatory target" | Same; unsourced for the UK | "is caught by existing consumer, advertising and securities law" |
+| 4.8-c | "In a regime where the FRC expects outcomes rather than boilerplate and the ICO can compel evidence" | FRC wording is about governance reporting under the Code; ICO power is limited to data protection | "In a regime where the CMA can fine for misleading consumers without going to court" |
+| 4.8-d | "bid claims become contractual representations" | Overstated; depends on the contract | "statements made in a bid can found a misrepresentation claim once the contract is signed" |
+| 4.8-e | "the testing records (3.3) say what fairness evidence exists; assurance (1.7) says what has been independently verified" | Internal question numbers in client text | "the testing records say what fairness evidence exists; assurance says what has been independently verified" |
+| 4.8-f | "is the easier of the two to falsify from your own records" | Stated as fact; no source | "and can be tested against your own records" |
+| 4.8-g | (omission) | No statute named; no penalty | Add: "Since April 2025 the CMA can fine up to £300,000 or, if higher, 10% of turnover for misleading consumers" |
+| 4.8-h | (omission) | Most AI advertising is business-to-business (ASA: 68%), where the consumer regime does not apply | Add: "Claims to business buyers are covered by separate regulations on misleading advertising" |
+
+## Approved briefs: changes held for Andy's sign-off
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 3.5-fig | "drew on evidence from over 30 employers and found many likely relying on solely automated decisions" | Correct, but the report's introduction is more precise (found while researching 4.7) | "contacted 37 employers in 2025 and judged 16 likely to be using automated decision-making on candidates" |

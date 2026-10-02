@@ -1,0 +1,58 @@
+{
+  "criterion": "4.4",
+  "bank": "1.0.0",
+  "status": "draft",
+  "checked": "2026-10-02",
+  "items": [
+    {
+      "title": "UK GDPR, Article 22C: Safeguards for automated decision-making",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22C",
+      "access": "free",
+      "locator": "Art. 22C(1) and 22C(2)(b)-(d); textual amendment note F1",
+      "why": "The duty itself: safeguards must enable the person to make representations, obtain human intervention on the part of the controller, and contest. Applies only to a significant decision based on personal data and based solely on automated processing (defined in Article 22A). Substituted by the Data (Use and Access) Act 2025 s.80(1); fully in force 5 February 2026 (S.I. 2026/82). Article 22D(3) lets the Secretary of State add to the safeguards by regulations."
+    },
+    {
+      "title": "UK GDPR, Articles 12 and 12A: time limits for acting on rights requests",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/chapter/III/section/1",
+      "access": "free",
+      "locator": "Art. 12(3)-(4); Art. 12A(1), (3) and (4); textual amendment notes F4, F5, F20",
+      "why": "Source of the figure. Article 12(3) covers requests 'made under or by virtue of Articles 15 to 22D', so it reaches requests under the Article 22C safeguards. Article 12A(1): one month beginning with the relevant time; 12A(3): two further months for complexity or number of requests; 12A(4): notice of extension within the first month, with reasons. Article 12A has no page of its own on legislation.gov.uk; it is shown on this Section 1 page."
+    },
+    {
+      "title": "Automated decision-making, including profiling: What are the ADM safeguards? (draft guidance for consultation)",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards/",
+      "access": "free",
+      "locator": "Sections 'How do we enable people to make representations?', 'What is human intervention?', 'How do we enable people to contest decisions?' and 'What do we do if someone exercises their rights under the ADM provisions?'",
+      "why": "Source of the quotation ('What is human intervention?', second paragraph). Consultation draft dated 31 March 2026; consultation closed 29 May 2026; not final and may change. Says the reviewer needs discretion and authority to alter the decision and access to the original data, that spot checking does not meet the safeguard, that a record of the review should be kept, and that the three routes are usually exercised together and answered within one month."
+    },
+    {
+      "title": "Guidance on AI and data protection: How do we ensure individual rights in our AI systems?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2023,
+      "tier": "official",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems/",
+      "access": "free",
+      "locator": "Section 'What steps should we take to fulfil rights related to automated decision-making?'",
+      "why": "Supports 'what good looks like': a simple, user-friendly route with a link to a member of staff who can intervene; a record of whether the person asked for intervention, gave views or contested, and whether the decision changed; analysis of that record and changes to the system where decisions are regularly overturned. Also says accurate systems still reach wrong decisions in individual cases. Under review following the Data (Use and Access) Act 2025; still refers to Article 22. Year not shown on the page; follows earlier reading lists, to confirm."
+    },
+    {
+      "title": "Explaining decisions made with AI, Part 1: What goes into an explanation?",
+      "publisher": "Information Commissioner's Office and The Alan Turing Institute",
+      "year": 2020,
+      "tier": "official",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-1-the-basics-of-explaining-ai/what-goes-into-an-explanation/",
+      "access": "free",
+      "locator": "'Challenging a decision' paragraphs under the rationale, responsibility, data and fairness explanations",
+      "why": "Why explanation comes before challenge: knowing the reasoning lets a person form an argument, and the responsibility explanation tells them who to contact for a human review. Under review following the Data (Use and Access) Act 2025. Year not shown on the page read; taken from background knowledge, to confirm."
+    }
+  ]
+}

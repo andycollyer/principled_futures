@@ -1,0 +1,26 @@
+{
+  "criterion": "4.8",
+  "bank": "1.0.0",
+  "status": "draft",
+  "checked": "2026-10-02",
+  "items": [
+    { "title": "Digital Markets, Competition and Consumers Act 2024, section 226: Misleading actions", "publisher": "legislation.gov.uk", "year": 2024, "tier": "official",
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/section/226", "access": "free", "locator": "s.226(1)-(3); read with s.225(1), (3)-(4) and s.227",
+      "why": "The test a public AI claim is judged by where consumers are the audience: false or misleading information, or an overall presentation likely to deceive even if the information is true. In force 6 April 2025 (S.I. 2025/272). Covers consumers only (s.225(3))." },
+    { "title": "Digital Markets, Competition and Consumers Act 2024, section 182: Final infringement notice", "publisher": "legislation.gov.uk", "year": 2024, "tier": "official",
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/section/182", "access": "free", "locator": "s.182(1)-(2), (6), (8)",
+      "why": "The CMA decides the breach itself and may impose a penalty not exceeding £300,000 or, if higher, 10% of turnover (s.182(6)); it may also require a corrective statement to be published (s.182(8))." },
+    { "title": "Regulating the Illusion of Intelligence in Ads", "publisher": "Committee of Advertising Practice (ASA | CAP)", "year": 2026, "tier": "official",
+      "url": "https://www.asa.org.uk/news/regulating-the-illusion-of-intelligence-in-ads.html", "access": "free", "locator": "Section 'Human Advice vs Machine Learning' (CAP News, 27 Aug 2026)",
+      "why": "Source of the quotation. Advice on adverts for AI assistants: objective capability claims must be substantiated. It is advice from the self-regulatory body, not law, and the Code covers the advert, not the product." },
+    { "title": "'AI' as a Marketing Term: A Quantitative Review of Usage in UK Advertising", "publisher": "Advertising Standards Authority", "year": 2024, "tier": "official",
+      "url": "https://asa.org.uk/static/eb77bee0-a147-49b8-81856c3c83586bf2/AI-as-a-Marketing-Term-Report.pdf", "access": "free", "locator": "pp. 3-5",
+      "why": "Source of the figure (around 16,000 adverts, p.3; 68% business-to-business, p.4). CAP advice on p.5: do not falsely claim a product uses AI, exaggerate what it can do, or claim it beats a non-AI product without good evidence." },
+    { "title": "The Business Protection from Misleading Marketing Regulations 2008, regulation 3", "publisher": "legislation.gov.uk", "year": 2008, "tier": "official",
+      "url": "https://www.legislation.gov.uk/uksi/2008/1276/regulation/3", "access": "free", "locator": "reg.3(1)-(4); offence at reg.6",
+      "why": "The rule for claims made to business buyers, where most AI advertising sits: advertising that deceives traders and is likely to affect their economic behaviour is prohibited, including on fitness for purpose and results to be expected." },
+    { "title": "Financial Services and Markets Act 2000, Schedule 10A: Liability of issuers in connection with published information", "publisher": "legislation.gov.uk", "year": 2000, "tier": "official",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/8/schedule/10A", "access": "free", "locator": "paras 1-3 (given effect by s.90A)",
+      "why": "Investor-facing claims: an issuer of securities admitted to trading is liable for an untrue or misleading published statement only if a person discharging managerial responsibilities knew it was so or was reckless (para 3(2)), and the investor reasonably relied on it (para 3(4))." }
+  ]
+}

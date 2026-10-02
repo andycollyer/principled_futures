@@ -1,0 +1,29 @@
+{
+  "criterion": "4.6",
+  "bank": "1.0.0",
+  "status": "draft",
+  "checked": "2026-10-02",
+  "items": [
+    { "title": "UK GDPR, Article 30: Records of processing activities", "publisher": "legislation.gov.uk", "year": 2016, "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/30", "access": "free", "locator": "Art. 30(1), (3), (4), (5)",
+      "why": "The nearest thing in UK law to a register duty: a written record of purposes, categories of data and recipients. Source of the figure (250 staff, Art. 30(5)). It does not ask for a description of how a system works or for a named owner. No outstanding changes shown; the only post-2020 amendment is 'Commission' in Art. 30(4), dated 30 September 2026." },
+    { "title": "UK GDPR, Article 5: Principles relating to processing of personal data", "publisher": "legislation.gov.uk", "year": 2016, "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/5", "access": "free", "locator": "Art. 5(2)",
+      "why": "The accountability principle: the controller must be able to demonstrate compliance. Wording of 5(2) unchanged by the Data (Use and Access) Act 2025, which added Art. 5(3)." },
+    { "title": "Data protection audit framework, Artificial intelligence toolkit: Governance and accountability in AI", "publisher": "Information Commissioner's Office", "year": 2026, "tier": "official",
+      "url": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/governance-and-accountability-in-ai/", "access": "free",
+      "locator": "Control measure 'Information flows across the entire supply chain have been comprehensively mapped', under 'Risk'",
+      "why": "Source of the quotation. Links poor internal knowledge to possible breach of Articles 5(1)(f), 5(2) and 30. Carries the 'under review' banner following the Data (Use and Access) Act 2025; the page shows no publication date, so the year is the year it was read. Covers data protection only." },
+    { "title": "Algorithmic Transparency Recording Standard (ATRS) Mandatory Scope and Exemptions Policy", "publisher": "Government Digital Service", "year": 2024, "tier": "official",
+      "url": "https://www.gov.uk/government/publications/algorithmic-transparency-recording-standard-mandatory-scope-and-exemptions-policy/algorithmic-transparency-recording-standard-atrs-mandatory-scope-and-exemptions-policy", "access": "free",
+      "locator": "Sections 2 (Introduction), 3.1 (Overall scope) and 4.2",
+      "why": "States that the standard was mandated across government departments on 6 February 2024, and which arm's-length bodies and tools are in scope. Central government only; it does not bind companies." },
+    { "title": "UK Corporate Governance Code 2024", "publisher": "Financial Reporting Council", "year": 2024, "tier": "official",
+      "url": "https://www.frc.org.uk/documents/6709/UK_Corporate_Governance_Code_2024_a2hmQmY.pdf", "access": "free",
+      "locator": "Provision 29 and footnote 9 (PDF p. 14); application paragraph in the Introduction (PDF p. 6)",
+      "why": "The board declaration on effectiveness of material controls, applying to financial years beginning on or after 1 January 2026. Applies to listed companies on a comply or explain basis. It does not mention AI or registers." },
+    { "title": "The hidden risks of shadow AI", "publisher": "National Cyber Security Centre", "year": 2026, "tier": "official",
+      "url": "https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai", "access": "free", "locator": "Sections 'What is shadow AI?' and 'What are the cyber security risks of shadow AI?'",
+      "why": "Official definition of AI use that sits outside approved systems, and the loss of visibility it causes. The 71% figure it repeats comes from a supplier's survey, not from the NCSC, and is not used." }
+  ]
+}

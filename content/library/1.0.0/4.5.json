@@ -1,0 +1,30 @@
+{
+  "criterion": "4.5",
+  "bank": "1.0.0",
+  "status": "draft",
+  "checked": "2026-10-02",
+  "items": [
+    { "title": "Explaining decisions made with AI, Part 3: Organisational roles and functions for explaining AI", "publisher": "Information Commissioner's Office and The Alan Turing Institute", "year": 2020, "tier": "official",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-3-what-explaining-ai-means-for-your-organisation/organisational-roles-and-functions-for-explaining-ai/", "access": "free",
+      "locator": "Section 'What if we use an AI system supplied by a third party?'",
+      "why": "Source of the quotation: the buyer, as controller, answers for whether a bought system can produce an explanation. Good-practice guidance, not a statutory code; under review following the Data (Use and Access) Act 2025." },
+    { "title": "Explaining decisions made with AI, Part 2, Task 3: Build your system to ensure you are able to extract relevant information", "publisher": "Information Commissioner's Office and The Alan Turing Institute", "year": 2020, "tier": "official",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-2-explaining-ai-in-practice/task-3-build/", "access": "free",
+      "locator": "Sections 'Select an appropriately explainable model' and 'What types of models are we choosing between?'",
+      "why": "Source of the figure (11 techniques largely interpretable, four broadly 'black box'). Says model selection matters whether procuring or building, and that the choice of an opaque model should be documented. Under review." },
+    { "title": "UK GDPR, Article 25: Data protection by design and by default", "publisher": "legislation.gov.uk", "year": 2016, "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/25", "access": "free", "locator": "Art. 25(1)",
+      "why": "Measures must be in place 'both at the time of the determination of the means for processing and at the time of the processing itself'. Does not mention explainability by name. Amended 5 February 2026 (paragraphs 1A, 1B, 4, 5 on children); no outstanding effects shown." },
+    { "title": "UK GDPR, Article 22C: Safeguards for automated decision-making", "publisher": "legislation.gov.uk", "year": 2016, "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22C", "access": "free", "locator": "Art. 22C(1)-(2); read with Art. 22A(1)-(2)",
+      "why": "The four safeguards a controller must provide for significant decisions taken solely by automated means 'by or on behalf of' it. In force 5 February 2026 (S.I. 2026/82). Says nothing about suppliers or access to a model's reasoning." },
+    { "title": "Guidance on AI and data protection: What are the accountability and governance implications of AI?", "publisher": "Information Commissioner's Office", "year": 2023, "tier": "official",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/what-are-the-accountability-and-governance-implications-of-ai/", "access": "free",
+      "locator": "Section 'Outsourcing and third-party AI systems'",
+      "why": "Requirements to be specified at the procurement stage; if a third-party system cannot be assessed, opt for a different one as good practice; review outsourced services regularly. Under review following the Data (Use and Access) Act 2025." },
+    { "title": "Guidelines for AI procurement", "publisher": "Office for Artificial Intelligence", "year": 2020, "tier": "official",
+      "url": "https://www.gov.uk/government/publications/guidelines-for-ai-procurement/guidelines-for-ai-procurement", "access": "free",
+      "locator": "Top 10 considerations, no. 8 'Avoid Black Box algorithms and vendor lock in'; section on drafting the invitation to tender",
+      "why": "Explainability as a design criterion and a tender requirement; process logs for auditability. Written for public-sector buyers; published 8 June 2020 and not updated since." }
+  ]
+}
