@@ -1,6 +1,6 @@
 {
   "built": "2026-10-02",
-  "count": 328,
+  "count": 329,
   "sources": [
     {
       "key": "https://www.aisi.gov.uk/research/how-are-ai-agents-used-evidence-from-177-000-mcp-tools",
@@ -736,6 +736,26 @@
       "published": "26 May 2026"
     },
     {
+      "key": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2026",
+      "url": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2026",
+      "title": "Greenhouse gas reporting: conversion factors 2026",
+      "publisher": "Department for Energy Security and Net Zero",
+      "year": 2026,
+      "tier": "official",
+      "access": "free",
+      "criteria": [
+        "8.6"
+      ],
+      "locators": {
+        "8.6": "Section 'Details', including the note 'Update: July 2026'"
+      },
+      "last_checked": "2026-10-02",
+      "jurisdiction": "UK",
+      "type": "regulator guidance",
+      "quote": "An update is published each year, together with a methodology report explaining how they are derived",
+      "published": "11 June 2026 (updated 31 July 2026)"
+    },
+    {
       "key": "https://www.gov.uk/government/publications/streamlined-energy-and-carbon-reporting-secr-regulations-evaluation",
       "url": "https://www.gov.uk/government/publications/streamlined-energy-and-carbon-reporting-secr-regulations-evaluation",
       "title": "Streamlined Energy and Carbon Reporting (SECR) regulations: evaluation",
@@ -764,12 +784,10 @@
       "tier": "official",
       "access": "free",
       "criteria": [
-        "8.2",
-        "8.6"
+        "8.2"
       ],
       "locators": {
-        "8.2": "Collection page, opening summary; 'Conversion factors 2026'",
-        "8.6": "Opening description and the list of updates to the page"
+        "8.2": "Collection page, opening summary; 'Conversion factors 2026'"
       },
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",

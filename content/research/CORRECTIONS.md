@@ -471,3 +471,107 @@ Published content is versioned, never edited. Items here go into briefing set 1.
 | 7.8-e | "taken at adoption (inside the impact assessment, 7.4)" | Presented as a requirement; internal number | "taken at adoption; no law requires it, and it is good practice borrowed from safety-critical industries" |
 | 7.8-f | "both trending on the people dashboard" | Product reference | "both reported to the board" |
 | 7.8-g | (absent) | Omits the UK legal position | Add: "No UK law addresses loss of skill through AI; health and safety law requires employers to consider capability and to train when new technology brings new risks" |
+
+## 1.1
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 1.1-a | Extract: "Here is what the 2024 Code actually requires of your board" | The Code does not mention AI and works by comply or explain | "Here is what the 2024 Code and its guidance say, and to whom they apply" |
+| 1.1-b | "the question ... has been answered by the Financial Reporting Council" | Overstated | "The Financial Reporting Council has said it is important for boards to have a clear view of how AI is used and governed" |
+| 1.1-c | "requires boards to monitor the effectiveness of their material internal controls" | "requires"; scope unstated | "asks the boards of listed companies, on a comply or explain basis, to monitor and review their material controls" |
+| 1.1-d | "the FRC has made clear that these controls encompass ... new technologies, AI included" | It is guidance, and permissive | "the FRC's guidance lists new technologies such as AI among the controls a board might treat as material; the board decides" |
+| 1.1-e | "From the 2026 reporting cycle" | Imprecise | "for financial years beginning on or after 1 January 2026" |
+| 1.1-f | "An algorithm failing quietly inside your reporting chain is now, formally, a failure of your board's control environment" | Not supported | Delete, or "Where the board treats a control over AI as material, a failure in it must be described in the annual report" |
+| 1.1-g | "Section 172 ... tempered by the objective standard of reasonable care, skill and diligence" | Two duties run together | "Section 172 requires directors to promote the success of the company having regard to stakeholders. Section 174, a separate duty, requires reasonable care, skill and diligence" |
+| 1.1-h | "is not exercising that standard" | Legal conclusion with no authority | "would find that hard to square with the duty" |
+| 1.1-i | (omission) | Scope: the Code covers listed companies; large private companies have the Wates Principles; most firms have neither | Add one sentence on scope |
+| 1.1-j | (omission) | Minutes are a statutory duty | Add: "Every company must record minutes of directors' meetings and keep them for at least ten years (Companies Act 2006, section 248)" |
+
+## 1.2
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 1.2-a | "UK law has now made that ambiguity expensive." | No such penalty | "UK law now turns on who, if anyone, is meaningfully involved in a decision." |
+| 1.2-b | "rebuilt around a permission-plus-safeguards model" | Gloss, not the statute | "replaced by Articles 22A to 22D of the UK GDPR, in force from 5 February 2026" |
+| 1.2-c | "the reviewing human must have the competence ..., access to its reasoning, and the formal authority to override it" | Presented as law; it is draft guidance | "The regulator's draft guidance says the human should be able to understand the output and have discretion and authority to alter the decision" |
+| 1.2-d | "The ICO has been pointed about 'rubber-stamping'" | Phrase not found; regulator's name | "The Information Commission (ICO) says involvement must be active and not a token gesture" |
+| 1.2-e | "The practical instrument is unglamorous: a RACI for AI decisions." | No source prescribes it | "One practical instrument is a written allocation of roles for each system" |
+| 1.2-f | "The duty of reasonable care, skill and diligence extends to proactive oversight of automated systems" | No authority | "Directors' general duty of care (Companies Act 2006, section 174) applies to how they oversee automated systems as it does to anything else" |
+| 1.2-g | "A system whose human reviewers approve one hundred per cent of outputs is not being reviewed; it is being witnessed." | Unsourced | Delete, or mark as opinion |
+| 1.2-h | (omission) | The financial services position | Add: "In financial services the regulators have said existing senior manager responsibilities already cover AI" |
+| 1.2-i | (omission) | Government's cross-sector principle | Add the accountability and governance principle, noting it is non-statutory |
+
+## 1.3
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 1.3-a | "The FRC's expectation for the 2026 AGM season is specific: boards should report on their governance arrangements for AI risks and opportunities" | No such statement found | "In its 2025 review the FRC said it is important for boards to have a clear view of how AI is used and governed, and that clear policies should be embedded at all levels" |
+| 1.3-b | Extract: "The FRC expects neither" | Overstated | "The FRC has said clear, embedded policies matter" |
+| 1.3-c | "The minimum viable set is ..." (three named policies) | Presented as established; it is the author's design | "One workable set is ..." |
+| 1.3-d | "EU transparency duties from August 2026" | Dates moved in 2026 | Delete the date, or "the EU AI Act's timetable, amended in 2026" |
+| 1.3-e | "new UK automated-decision rules in force from February 2026" | Imprecise | "in force from 5 February 2026" |
+| 1.3-f | "a policy the board has never seen is not a governance arrangement, it is a suggestion" | Unsourced as a rule | Keep as opinion, or add "banks are expected to have model risk policies approved by the board" |
+| 1.3-g | "Most AI policies are either missing or unread." | "Unread" unsourced | "Few organisations have an AI policy: eleven of 100 listed companies sampled by the FRC reported one" |
+| 1.3-h | "At that point the FRC ask ... largely writes itself." | Rests on claim 1 | Delete |
+| 1.3-i | (omission) | No law requires an AI policy by name | Say so, and cite UK GDPR Article 24(2) as the nearest duty |
+
+## 1.4
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 1.4-a | "Most organisations cannot answer completely." | No evidence for "most organisations" | "Many cannot. In a 2024 audit, fewer than half of government bodies using AI identified their use cases centrally before deployment" |
+| 1.4-b | "mandated for central government departments" | Scope incomplete | "mandatory for government departments and certain arm's-length bodies, for tools that significantly influence decisions affecting the public" |
+| 1.4-c | "the private sector is encouraged towards similar discipline" | Not found | "for businesses, the government's voluntary self-assessment tool begins with a record of AI systems" |
+| 1.4-d | "Risk classification against the EU AI Act's tiers requires a list to classify." | Implies a legal requirement to keep a list | "Working out whether any system falls under the EU AI Act is far easier with a list" |
+| 1.4-e | "The DUAA's automated-decision safeguards require knowing ..." | "require" overstates | "The automated-decision safeguards cannot be applied to systems nobody has identified" |
+| 1.4-f | "The Provision 29 declaration requires knowing ..." | As above; listed companies only | "A listed company's board cannot declare on material controls over systems it has not identified" |
+| 1.4-g | "an assured AI register is becoming the artefact due-diligence teams request early, precisely because its absence predicts everything else" | Not found | Delete, or mark as the author's experience |
+| 1.4-h | (omission) | Banking model inventory | Add: "Banks with internal model approval are already expected to keep a firm-wide model inventory, including vendor models" |
+| 1.4-i | (omission) | No UK law requires a register by name | Say so |
+
+## 1.5
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 1.5-a | "Liability for a discriminatory or defective AI decision generally lands on the organisation that used it, not the vendor that built it." | Stated as settled law; the source is a government case study and says "common" | "Government has said it is common for the law to place liability on the organisation that used the tool; the supplier is reached only in limited circumstances." |
+| 1.5-b | "In negligence, inadequate due diligence on a third-party model is itself the breach." | No authority found | Delete |
+| 1.5-c | "the DUAA expects you to explain significant automated decisions" | Wrong instrument and too wide | "UK GDPR Article 22C requires information to be given about significant decisions taken solely by automated processing" |
+| 1.5-d | "Most SMEs will never train a model. Nearly all will deploy someone else's" | Unsourced | "Much AI is bought, not built: in financial services a third of AI use cases were third-party in 2024, up from 17% in 2022." |
+| 1.5-e | "Government guidance on procuring generative AI points the same way, risk managed across the supply chain" | Wording not found | "Government's AI Playbook tells public buyers to hold bought and built systems to the same expectations." |
+| 1.5-f | "the regulator may struggle to reach a foundation-model provider, but it can certainly reach you" | Overstated | "government has asked whether some suppliers are hard for regulators to reach; the deploying organisation is not" |
+| 1.5-g | (omission) | The regulated-sector benchmark is missing | Add: the PRA says firms remain fully accountable and expects audit rights and a tested exit plan for material outsourcing |
+| 1.5-h | (omission) | Public buyers have a statutory duty | Add: contracts above £5 million need at least three published key performance indicators (Procurement Act 2023 s.52) |
+
+## 1.6
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 1.6-a | "its AI-literacy obligation, which has applied since February 2025 and merely awaits enforcement" | Out of date: enforcement began 2 August 2026 and the article was amended | "its AI-literacy obligation, which has applied since 2 February 2025 and was amended in 2026" |
+| 1.6-b | "deferred to late 2027 and 2028" | Imprecise | "now applying from 2 December 2027 for the listed high-risk uses and 2 August 2028 for AI in regulated products (European Commission, as amended July 2026)" |
+| 1.6-c | "its transparency duties, which land in August 2026" | Past tense needed; transitional date missing | "its transparency duties, which have applied since 2 August 2026, with a transitional date of 2 December 2026 for some systems already on the market" |
+| 1.6-d | "while declining to pass an AI statute at all" | Not the stated position | "while passing no AI statute: the 2024 King's Speech promised to seek legislation for the most powerful models, and the 2026 speech did not mention AI" |
+| 1.6-e | "The DSIT operates a central function monitoring cross-sectoral AI risk for exactly this reason" | Sourced only to February 2024 | "In 2024 the government said it had set up a central function to monitor AI risk across sectors" |
+| 1.6-f | "the voluntary sustainability standard's adoption, the Code of Practice landscape" | Unsourced and vague | Name the instruments or delete |
+| 1.6-g | "Most have." | Unsourced | Delete |
+| 1.6-h | "precisely the 'outcomes and activities' evidence the FRC now asks boards to report" | Overstated | "the kind of activity-and-outcome evidence the Corporate Governance Code asks listed companies to report" |
+| 1.6-i | (omission) | The cross-regulator advice hub named in 2024 has closed | Add or avoid referring readers to it |
+
+## 1.7
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 1.7-a | "The ICO can compel an audit of your AI with an assessment notice." | Too wide | "The data protection regulator can compel an assessment of how you handle personal data, AI included." |
+| 1.7-b | "compelling an organisation to submit to technical audit or produce reports on its processing" | Not the statutory wording | "requiring it to let the regulator in, show documents and equipment and, since February 2026, pay for a report by an approved person" |
+| 1.7-c | "The FRC expects the Provision 29 declaration to rest on genuine evidence of control effectiveness." | Scope and wording | "For listed companies following the Corporate Governance Code, Provision 29 asks the board to review and declare on the effectiveness of material controls, for financial years beginning on or after 1 January 2026." |
+| 1.7-d | "Enterprise buyers increasingly send AI governance questionnaires whose answers they reserve the right to verify." | Unsourced | Delete or mark as experience, not evidence |
+| 1.7-e | "ISO/IEC 42001, the management-system standard for AI that UK guidance explicitly commends" | Overstated | "ISO/IEC 42001, the management-system standard for AI that government guidance names as a standard to measure against" |
+| 1.7-f | "model evaluation, red-teaming, and related methods" | Not what the page lists | "impact assessments, bias audits, compliance audits, certification and performance testing" |
+| 1.7-g | "it shortens enterprise due diligence, strengthens bids ... the rare marketing claim that arrives pre-verified" | Unsourced; government says assurance quality is unclear | Delete, or "it may help with buyers' due diligence, though government itself says the quality of AI assurance services is still unclear" |
+| 1.7-h | (omission) | No general legal duty to have AI governance independently audited | Say so |
+| 1.7-i | (omission) | Limits of assurance | Add: the internal auditors' own framework expects only limited assurance on AI |
+
+## 1.8
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 1.8-a | Title: "documentation as the board's safe harbour"; body: "has built a safe harbour" | No safe harbour in the Companies Act | "documentation as the board's best evidence"; "has the evidence a court would look for when deciding whether a director acted honestly and reasonably (section 1157)" |
+| 1.8-b | "Directors' protection under s172 is substantially procedural: the courts ask whether stakeholder impacts were genuinely considered" | No source | "Section 172 requires directors to have regard to employees, customers, the community and others. The Act does not say how to prove it; minutes are evidence of what a board did (section 249)." |
+| 1.8-c | "A board that made the same good decision unminuted has built nothing." | Overstated | "A board that leaves the decision unminuted has committed an offence under section 248 and has no record to rely on." |
+| 1.8-d | "The DUAA's safeguards must be operational" | Wording not in the law | "The automated decision-making safeguards must be in place (UK GDPR Article 22C)" |
+| 1.8-e | "Even the EU AI Act's deployer duties assume a paper trail: instructions followed, logs retained, incidents reported within windows measured in days." | Mixes deployer and provider duties; no date | "The EU AI Act will require deployers of high-risk systems to follow instructions for use and keep logs for at least six months, from 2 December 2027 for the listed high-risk uses; providers must report serious incidents within days." |
+| 1.8-f | "a regulator's fourteen-day deadline" | Not found | "a regulator's deadline, which in urgent cases can be as short as 24 hours" |
+| 1.8-g | "it converts a governance gap into a candour problem" | Unsourced | "it can be seen for what it is: disclosure in litigation extends to metadata" |
+| 1.8-h | (omission) | The ten-year retention rule is not stated | Add: minutes of directors' meetings must be kept for at least ten years (section 248) |
+| 1.8-i | (omission) | The duty to preserve documents when litigation is in prospect is not stated | Add one sentence |

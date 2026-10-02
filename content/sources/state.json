@@ -2822,7 +2822,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 83
+    "passages": 83,
+    "change": 0.0
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/the-greening-of-lending-mortgage-pricing-of-energy-transition-risk.pdf": {
     "title": "The greening of lending: mortgage pricing of energy transition risk (Staff Working Paper No. 1,016)",
@@ -2831,7 +2832,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 261
+    "passages": 261,
+    "change": 0.0
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2024/ss221-november-2024-update.pdf": {
     "title": "SS2/21: Outsourcing and third party risk management (November 2024 update)",
@@ -2840,7 +2842,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 388
+    "passages": 388,
+    "change": 0.0
   },
   "https://assets.publishing.service.gov.uk/media/67ab332fd41dfb0b59cec46a/E03274856_National_Procurement_Policy_Statement_Accessible.pdf": {
     "title": "National Procurement Policy Statement",
@@ -2849,7 +2852,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 75
+    "passages": 75,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-taking-account-of-social-value-in-the-award-of-central-government-contracts-html": {
     "title": "PPN 002: Taking account of social value in the award of central government contracts",
@@ -3148,5 +3152,14 @@
     "status": 200,
     "checked": "2026-10-02",
     "passages": 60
+  },
+  "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2026": {
+    "title": "Greenhouse gas reporting: conversion factors 2026",
+    "criteria": [
+      "8.6"
+    ],
+    "status": 200,
+    "checked": "2026-10-02",
+    "passages": 28
   }
 }

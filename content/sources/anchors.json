@@ -569,5 +569,121 @@
       "url": "https://arxiv.org/pdf/2601.20245",
       "text": "52 participants completed the task"
     }
+  ],
+  "1.1": [
+    {
+      "kind": "quotation",
+      "url": "https://www.frc.org.uk/library/standards-codes-policy/corporate-governance/corporate-governance-code-guidance/",
+      "text": "The board retains ultimate responsibility for the risk management and internal control framework"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.frc.org.uk/documents/8893/Annual_Review_of_Corporate_Governance_Reporting_2025.pdf",
+      "text": "This year, we found that figure rose to 86% of companies"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.frc.org.uk/documents/8893/Annual_Review_of_Corporate_Governance_Reporting_2025.pdf",
+      "text": "around half of companies mentioned it"
+    }
+  ],
+  "1.2": [
+    {
+      "kind": "quotation",
+      "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach/white-paper",
+      "text": "Governance measures should be in place to ensure effective oversight of the supply and use of AI systems, with clear lines of accountability established across the AI life cycle."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.nao.org.uk/wp-content/uploads/2024/03/use-of-artificial-intelligence-in-government.pdf",
+      "text": "24 of the 32 bodies with deployed AI told us that their AI use cases always or usually had a named accountable responsible owner"
+    }
+  ],
+  "1.3": [
+    {
+      "kind": "quotation",
+      "url": "https://www.frc.org.uk/documents/8893/Annual_Review_of_Corporate_Governance_Reporting_2025.pdf",
+      "text": "It is important that there are clear policies and procedures that are embedded across all levels of the organisation."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.frc.org.uk/documents/8893/Annual_Review_of_Corporate_Governance_Reporting_2025.pdf",
+      "text": "Eleven companies reported having an AI policy or reviewing their code of conduct to include a section on AI"
+    }
+  ],
+  "1.4": [
+    {
+      "kind": "quotation",
+      "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html",
+      "text": "A live inventory will help your team, your organisation and your stakeholders understand the scope and scale of AI usage."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.nao.org.uk/wp-content/uploads/2024/03/use-of-artificial-intelligence-in-government.pdf",
+      "text": "Eight of 32 organisations responding to our survey that had deployed AI said they were always or usually compliant with the standard"
+    }
+  ],
+  "1.5": [
+    {
+      "kind": "quotation",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2024/ss221-november-2024-update.pdf",
+      "text": "Firms that enter into outsourcing arrangements remain fully accountable for complying with all their regulatory obligations."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.bankofengland.co.uk/report/2024/artificial-intelligence-in-uk-financial-services-2024",
+      "text": "The business areas with the highest percentages of third-party implementations were human resources (65%), risk and compliance (64%), and operations and IT (56%)."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.bankofengland.co.uk/report/2024/artificial-intelligence-in-uk-financial-services-2024",
+      "text": "This is significantly higher than the 17% reported in 2022"
+    }
+  ],
+  "1.6": [
+    {
+      "kind": "quotation",
+      "url": "https://www.gov.uk/government/consultations/ai-regulation-a-pro-innovation-approach-policy-proposals/outcome/a-pro-innovation-approach-to-ai-regulation-government-response",
+      "text": "The challenges posed by AI will ultimately require legislative action in every country once understanding of risk has matured."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.legislation.gov.uk/uksi/2026/82/made",
+      "text": "come into force on 5th February 2026"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.legislation.gov.uk/uksi/2026/82/made",
+      "text": "come into force on 19th June 2026"
+    },
+    {
+      "kind": "figure",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
+      "text": "2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III"
+    }
+  ],
+  "1.7": [
+    {
+      "kind": "quotation",
+      "url": "https://www.gov.uk/government/publications/assuring-a-responsible-future-for-ai/assuring-a-responsible-future-for-ai",
+      "text": "Participants felt that, if assurance were delivered only by an AI developer that is profit motivated, it would not be trustworthy."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.gov.uk/government/publications/assuring-a-responsible-future-for-ai/assuring-a-responsible-future-for-ai",
+      "text": "an estimated 524 firms supplying AI assurance goods and services in the UK, including 84 specialised AI assurance companies"
+    }
+  ],
+  "1.8": [
+    {
+      "kind": "quotation",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part-57a-business-and-property-courts/practice-direction-57ad-disclosure-in-the-business-and-property-courts",
+      "text": "It also extends to metadata, and other embedded data which is not typically visible on screen or a printout."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/248",
+      "text": "The records must be kept for at least ten years from the date of the meeting."
+    }
   ]
 }

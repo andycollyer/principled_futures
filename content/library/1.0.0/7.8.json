@@ -60,7 +60,7 @@
       "url": "https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/airline_operators/airline_safety/SAFO13002.pdf",
       "locator": "Discussion, page 1",
       "quote": "continuous use of autoflight systems could lead to degradation of the pilot’s ability to quickly recover the aircraft from an undesired state",
-      "why": "A regulator turning the finding into practice: operators should create opportunities to exercise manual skills in line operations and training. The model for a retained-capability decision. Advisory, not binding.",
+      "why": "A regulator turning the finding into practice: operators should create opportunities to exercise manual skills in line operations and training. The model for a retained-capability decision. Advisory, not binding. The FAA site refuses the automated checker (HTTP 403); this entry is re-read by hand at each review.",
       "access": "free",
       "last_checked": "2026-10-02"
     },
