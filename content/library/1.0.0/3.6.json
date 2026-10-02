@@ -1,27 +1,69 @@
 {
   "criterion": "3.6",
   "bank": "1.0.0",
-  "status": "draft",
+  "status": "approved",
   "checked": "2026-10-02",
   "items": [
-    { "title": "UK GDPR, Article 35: Data protection impact assessment", "publisher": "legislation.gov.uk", "year": 2016, "tier": "official",
-      "url": "https://www.legislation.gov.uk/eur/2016/679/article/35", "access": "free", "locator": "Art. 35(1), (3), (7)",
-      "why": "The assessment must be done 'prior to the processing' where high risk to people is likely. The one pre-deployment gate that UK law imposes. No outstanding changes shown on the day checked." },
-    { "title": "UK GDPR, Article 36: Prior consultation", "publisher": "legislation.gov.uk", "year": 2016, "tier": "official",
-      "url": "https://www.legislation.gov.uk/eur/2016/679/article/36", "access": "free", "locator": "Art. 36(1)-(2)",
-      "why": "Source of the figure: written advice within up to eight weeks, extendable by six. The text now reads 'the Commission', substituted on 30 September 2026 by S.I. 2026/386 (note F2)." },
-    { "title": "Data protection impact assessments: Do we need to consult the ICO?", "publisher": "Information Commissioner's Office", "year": 2026, "tier": "official",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/do-we-need-to-consult-the-ico/", "access": "free",
+    {
+      "title": "UK GDPR, Article 35: Data protection impact assessment",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/35",
+      "access": "free",
+      "locator": "Art. 35(1), (3), (7)",
+      "why": "The assessment must be done 'prior to the processing' where high risk to people is likely. The one pre-deployment gate that UK law imposes. No outstanding changes shown on the day checked."
+    },
+    {
+      "title": "UK GDPR, Article 36: Prior consultation",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/36",
+      "access": "free",
+      "locator": "Art. 36(1)-(2)",
+      "why": "Source of the figure: written advice within up to eight weeks, extendable by six. The text now reads 'the Commission', substituted on 30 September 2026 by S.I. 2026/386 (note F2)."
+    },
+    {
+      "title": "Data protection impact assessments: Do we need to consult the ICO?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/do-we-need-to-consult-the-ico/",
+      "access": "free",
       "locator": "Sections 'When do we need to consult the ICO?', 'How long does it take?' and 'What are the possible outcomes?'",
-      "why": "Source of the quotation. Also states the regulator may impose a limitation or ban on intended processing, and a maximum of 14 weeks. Under review following the Data (Use and Access) Act; page carries no date, year is the year read." },
-    { "title": "UK GDPR, Article 83: General conditions for imposing administrative fines", "publisher": "legislation.gov.uk", "year": 2016, "tier": "official",
-      "url": "https://www.legislation.gov.uk/eur/2016/679/article/83", "access": "free", "locator": "Art. 83(4)(a)",
-      "why": "Fines up to £8,700,000 or 2% of worldwide annual turnover for breach of controller obligations in Articles 25 to 39, which include Articles 35 and 36." },
-    { "title": "Data and AI Ethics Framework", "publisher": "Government Digital Service / Department for Science, Innovation and Technology", "year": 2025, "tier": "official",
-      "url": "https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework", "access": "free", "locator": "Accountability principle; passage on human oversight ('the right choice might be to not use the system at all')",
-      "why": "Guidance for public bodies, not law. Defines accountability as governance, oversight and routes to challenge. It does not prescribe an ethics board or a stop/go authority." },
-    { "title": "Recommendation on the Ethics of Artificial Intelligence", "publisher": "UNESCO", "year": 2021, "tier": "official",
-      "url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence", "access": "free", "locator": "Policy Area 1: Ethical impact assessment, paras 50-53",
-      "why": "Para 50 asks Member States to introduce frameworks for impact assessments, such as ethical impact assessment. Addressed to states; not binding on companies." }
-  ]
+      "why": "Source of the quotation. Also states the regulator may impose a limitation or ban on intended processing, and a maximum of 14 weeks. Under review following the Data (Use and Access) Act; page carries no date, year is the year read."
+    },
+    {
+      "title": "UK GDPR, Article 83: General conditions for imposing administrative fines",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/83",
+      "access": "free",
+      "locator": "Art. 83(4)(a)",
+      "why": "Fines up to £8,700,000 or 2% of worldwide annual turnover for breach of controller obligations in Articles 25 to 39, which include Articles 35 and 36."
+    },
+    {
+      "title": "Data and AI Ethics Framework",
+      "publisher": "Government Digital Service / Department for Science, Innovation and Technology",
+      "year": 2025,
+      "tier": "official",
+      "url": "https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework",
+      "access": "free",
+      "locator": "Accountability principle; passage on human oversight ('the right choice might be to not use the system at all')",
+      "why": "Guidance for public bodies, not law. Defines accountability as governance, oversight and routes to challenge. It does not prescribe an ethics board or a stop/go authority."
+    },
+    {
+      "title": "Recommendation on the Ethics of Artificial Intelligence",
+      "publisher": "UNESCO",
+      "year": 2021,
+      "tier": "official",
+      "url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+      "access": "free",
+      "locator": "Policy Area 1: Ethical impact assessment, paras 50-53",
+      "why": "Para 50 asks Member States to introduce frameworks for impact assessments, such as ethical impact assessment. Addressed to states; not binding on companies."
+    }
+  ],
+  "approved": "2026-10-02"
 }

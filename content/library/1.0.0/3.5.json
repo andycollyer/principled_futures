@@ -1,7 +1,7 @@
 {
   "criterion": "3.5",
   "bank": "1.0.0",
-  "status": "draft",
+  "status": "approved",
   "checked": "2026-10-02",
   "items": [
     {
@@ -64,5 +64,6 @@
       "locator": "'Human reviews in AI', pp. 32-34",
       "why": "Supports 'what good looks like': train reviewers, document when humans may override, keep records, have managers sample and check reviews, monitor grades changed by recruiters (p.33)."
     }
-  ]
+  ],
+  "approved": "2026-10-02"
 }

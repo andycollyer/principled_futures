@@ -33,6 +33,15 @@ async function canaries() {
   for (const d of defs.slice(0, 20)) {
     out.push({ source: "glossary.ts", phrase: d.replace(/^def: "/, "").slice(20, 70) });
   }
+  // Approved evidence briefs: every paragraph after the first (the first is the
+  // public teaser by design) is paid content and must not be in the bundle.
+  try {
+    for (const f of (await readdir(path.join(root, "content/briefs/1.0.0"))).filter((n) => n.endsWith(".md")).slice(0, 24)) {
+      const md = await readFile(path.join(root, "content/briefs/1.0.0", f), "utf8");
+      const paras = md.split(/\n\s*\n/).filter((x) => x.startsWith("**"));
+      for (const para of paras.slice(1, 3)) out.push({ source: `briefs/${f}`, phrase: para.replace(/\*\*/g, "").slice(40, 90) });
+    }
+  } catch { /* no briefs yet */ }
   return out.filter((c) => c.phrase.length > 30);
 }
 

@@ -1,7 +1,7 @@
 {
   "criterion": "3.2",
   "bank": "1.0.0",
-  "status": "draft",
+  "status": "approved",
   "checked": "2026-10-02",
   "items": [
     {
@@ -54,5 +54,6 @@
       "locator": "Sections 3.2 (during procurement), 4.1 (before deployment), Annex A (screening)",
       "why": "Supports asking the supplier what data trained the model, with a breakdown by protected characteristic and source; states that historical bias in training data is perpetuated at scale; bias audits to be repeated at intervals."
     }
-  ]
+  ],
+  "approved": "2026-10-02"
 }

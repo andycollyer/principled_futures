@@ -4,7 +4,7 @@
 // definitions live in the database (see supabase/migrations/0004_content_tables.sql)
 // and are fetched per-user by src/lib/content.ts.
 
-export interface ArticleMeta { id: string; title: string; category: string; read: string; extract: string; isSample: boolean }
+export interface ArticleMeta { id: string; title: string; category: string; read: string; extract: string; isSample: boolean; evidence: boolean }
 export interface GlossaryMeta { term: string; source?: string; related?: string[] }
 export interface GuideMeta { id: string; title: string }
 
@@ -15,7 +15,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "6 min",
     "extract": "AI oversight is no longer a peripheral IT issue. Here is what the 2024 Code actually requires of your board — and the evidence it expects.",
-    "isSample": true
+    "isSample": true,
+    "evidence": false
   },
   {
     "id": "1.2",
@@ -23,7 +24,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "5 min",
     "extract": "A decision is only 'solely automated' if no human is meaningfully involved — and 'meaningful' is now a legal test your org chart has to pass.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "1.3",
@@ -31,7 +33,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "5 min",
     "extract": "Most AI policies are either missing or unread. The FRC expects neither — here is the minimum viable architecture.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "1.4",
@@ -39,7 +42,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "5 min",
     "extract": "Embedded AI in procured software is still your AI. The register is where governance begins — and where due diligence now looks first.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "1.5",
@@ -47,7 +51,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "6 min",
     "extract": "Liability for a discriminatory or defective AI decision generally lands on the organisation that used it — not the vendor that built it. Buy accordingly.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "1.6",
@@ -55,7 +60,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "5 min",
     "extract": "The AI Act was 'delayed' — except for the duties that weren't. Organisations that misread the headlines are already exposed. A scanning process is the fix.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "1.7",
@@ -63,7 +69,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "5 min",
     "extract": "The ICO can compel an audit of your AI with an assessment notice. The only question is whether the first independent review is one you commissioned.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "1.8",
@@ -71,7 +78,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "5 min",
     "extract": "Fiduciary protection in the AI era is procedural: what the minutes record, the file evidences, and the organisation can produce without a scramble.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "2.1",
@@ -79,7 +87,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Risk",
     "read": "5 min",
     "extract": "Prohibited, high, limited, minimal — every AI system you use sits in one of four tiers, including the ones your software vendors embedded without telling you.",
-    "isSample": true
+    "isSample": true,
+    "evidence": false
   },
   {
     "id": "2.2",
@@ -87,7 +96,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Risk",
     "read": "5 min",
     "extract": "Every organisation has AI red lines. Almost none have written them down — which means they don't operationally exist.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "2.3",
@@ -95,7 +105,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Risk",
     "read": "6 min",
     "extract": "The DPIA is not optional paperwork for AI that decides about people — and if you serve the EU public sector, credit or insurance markets, the FRIA is coming for you too.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "2.4",
@@ -103,7 +114,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Risk",
     "read": "5 min",
     "extract": "You didn't build the model — but the instructions, the input data, the monitoring and the logs are still yours. Deployer duty is where most SMEs actually live.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "2.5",
@@ -111,7 +123,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Risk",
     "read": "4 min",
     "extract": "An AI risk register full of identified-but-untreated risks is a list of admissions. Every entry needs a decision with a name on it.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "2.6",
@@ -119,7 +132,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Risk",
     "read": "5 min",
     "extract": "Fifteen days. Ten if someone died. Two for critical infrastructure. The AI Act's incident clocks are short — and they start whether or not you were ready.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "2.7",
@@ -127,7 +141,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Risk",
     "read": "4 min",
     "extract": "The model updated, the use case drifted, the regulation moved — and your risk assessment is still dated the day you bought it.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "2.8",
@@ -135,71 +150,80 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Risk",
     "read": "4 min",
     "extract": "The regime now says it plainly: simplified documentation for smaller organisations. Proportionality is permission to be lean — not permission to be empty.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "3.1",
-    "title": "Mapping the exposure: where your AI meets the Equality Act",
+    "title": "Discrimination risk awareness",
     "category": "Ethics & Fairness",
-    "read": "5 min",
-    "extract": "Nine protected characteristics, one deployer, and an algorithm trained on history. The mapping exercise most organisations have never done.",
-    "isSample": true
+    "read": "1 min",
+    "extract": "Whether the organisation knows where its AI could treat people worse because of who they are: each AI use set against the protected characteristics it could affect, with a named owner.",
+    "isSample": true,
+    "evidence": true
   },
   {
     "id": "3.2",
-    "title": "Biased in, biased out: screening the data before it decides",
+    "title": "Bias in data",
     "category": "Ethics & Fairness",
-    "read": "5 min",
-    "extract": "The postcode is a proxy. So is the school, the gap year, and the first name. Data screening is where fairness is won or lost — before the model runs.",
-    "isSample": false
+    "read": "1 min",
+    "extract": "Whether data is examined for inherited unfairness before it informs decisions about people: where it came from, who is missing, and which ordinary-looking fields stand in for protected characteristics.",
+    "isSample": false,
+    "evidence": true
   },
   {
     "id": "3.3",
-    "title": "Testing for disparate impact: the numbers that defend you",
+    "title": "Bias testing",
     "category": "Ethics & Fairness",
-    "read": "6 min",
-    "extract": "Complaints are a detection system with a catastrophic lag. Outcome testing, thresholds and records are what fairness looks like when it has to be proved.",
-    "isSample": false
+    "read": "1 min",
+    "extract": "Whether the organisation checks what its AI does to different groups: outcomes compared across groups, against thresholds set beforehand, recorded, and repeated after launch.",
+    "isSample": false,
+    "evidence": true
   },
   {
     "id": "3.4",
-    "title": "Sensitive data, automated decisions: the prohibition that survived",
+    "title": "Special-category data controls",
     "category": "Ethics & Fairness",
-    "read": "5 min",
-    "extract": "The UK relaxed its automated-decision rules — except where health, race and biometrics are concerned. There, the default is still no.",
-    "isSample": false
+    "read": "1 min",
+    "extract": "Whether the organisation stops sensitive personal data from driving automated decisions about people unless a lawful exception applies, and whether that rule is enforced.",
+    "isSample": false,
+    "evidence": true
   },
   {
     "id": "3.5",
-    "title": "The human in the loop: competence, authority, and access to reasoning",
+    "title": "Meaningful human review",
     "category": "Ethics & Fairness",
-    "read": "5 min",
-    "extract": "A reviewer who can't see the reasoning and can't reverse the outcome isn't oversight — legally, they're absent. The ICO has said so in terms.",
-    "isSample": false
+    "read": "1 min",
+    "extract": "Whether the people who review AI-supported decisions can change them: competent to judge the output, authorised to overrule it, and able to see how it was reached.",
+    "isSample": false,
+    "evidence": true
   },
   {
     "id": "3.6",
-    "title": "The ethical gate: a place where deployment can be refused",
+    "title": "Ethical review",
     "category": "Ethics & Fairness",
-    "read": "4 min",
-    "extract": "Somewhere in your adoption process there must be a point where someone can say no — with criteria, minutes, and the standing to make it stick.",
-    "isSample": false
+    "read": "1 min",
+    "extract": "Whether there is a defined point before deployment where ethical concerns are heard, and where the reviewers can require changes or refuse outright.",
+    "isSample": false,
+    "evidence": true
   },
   {
     "id": "3.7",
-    "title": "Trust but verify: fairness assurance for the AI you buy",
+    "title": "Vendor fairness assurance",
     "category": "Ethics & Fairness",
-    "read": "5 min",
-    "extract": "The vendor's deck says 'bias-audited.' The Equality Act says the discrimination claim lands on you. Close that gap in the contract, not the demo.",
-    "isSample": false
+    "read": "1 min",
+    "extract": "Whether a supplier's statement that its AI is fair is tested before the organisation relies on it: evidence asked for, read, re-checked, and backed by contract terms that give a right to look.",
+    "isSample": false,
+    "evidence": true
   },
   {
     "id": "3.8",
-    "title": "When it goes wrong: remediation that reaches the people affected",
+    "title": "Remediation and redress",
     "category": "Ethics & Fairness",
-    "read": "5 min",
-    "extract": "Fixing the model is the easy half. The decisions it already made — and the people it made them about — are the test of whether fairness is real.",
-    "isSample": false
+    "read": "1 min",
+    "extract": "Whether, when AI is found to have treated people unfairly, the organisation corrects the system, re-examines the decisions it influenced and puts the affected people right.",
+    "isSample": false,
+    "evidence": true
   },
   {
     "id": "4.1",
@@ -207,7 +231,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Transparency",
     "read": "5 min",
     "extract": "From 2 August 2026, people interacting with your chatbot must be told it's a chatbot — unless it's obvious. 'Obvious' is doing more work than most deployments can bear.",
-    "isSample": true
+    "isSample": true,
+    "evidence": false
   },
   {
     "id": "4.2",
@@ -215,7 +240,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Transparency",
     "read": "6 min",
     "extract": "New generative systems must mark their output from August. Legacy systems get until 2 December 2026. Either way, a visible label alone no longer passes.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "4.3",
@@ -223,7 +249,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Transparency",
     "read": "5 min",
     "extract": "The ICO's draft guidance is pointed: decision-specific explanation, not boilerplate. If your system can't say why it refused this applicant, it isn't ready to refuse anyone.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "4.4",
@@ -231,7 +258,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Transparency",
     "read": "5 min",
     "extract": "Inform, hear representations, provide human intervention, allow contest. The DUAA's four rights are operational duties — and 'operational' is the word the regulator will test.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "4.5",
@@ -239,7 +267,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Transparency",
     "read": "5 min",
     "extract": "The transparency paradox in one line: your legal duties assume reasoning access your vendor never gave you. Fix it in procurement or live with it in production.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "4.6",
@@ -247,7 +276,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Transparency",
     "read": "4 min",
     "extract": "Before the organisation explains its AI to anyone else, it has to be able to explain it to itself. The register is where external transparency is manufactured.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "4.7",
@@ -255,7 +285,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Transparency",
     "read": "4 min",
     "extract": "Buried in clause 14.3 of the terms is not 'informed.' The duty to tell people an algorithm decided about them is converging from both London and Brussels.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "4.8",
@@ -263,7 +294,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Transparency",
     "read": "5 min",
     "extract": "'AI-powered' in the deck, a spreadsheet and an intern in production. AI-washing is now a named enforcement priority — and your public claims are the easiest audit anyone will ever run.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "5.1",
@@ -271,7 +303,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "5 min",
     "extract": "Two tests decide everything: is the decision significant, and is any human involvement meaningful? Get the scoping wrong and every downstream safeguard is built on the wrong map.",
-    "isSample": true
+    "isSample": true,
+    "evidence": false
   },
   {
     "id": "5.2",
@@ -279,7 +312,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "5 min",
     "extract": "The Act names four rights. The ICO's word is 'operational.' The distance between the two is where most organisations currently live.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "5.3",
@@ -287,7 +321,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "5 min",
     "extract": "The DUAA created a new lawful basis — and immediately banned it for automated decisions. Basis analysis for AI is now a three-layer exercise, and blanket 'legitimate interests' fails all three.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "5.4",
@@ -295,7 +330,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "5 min",
     "extract": "For automated decisions and large-scale profiling, the DPIA is close to unavoidable. Done at the right moment, it is also the cheapest design review your AI will ever get.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "5.5",
@@ -303,7 +339,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "5 min",
     "extract": "The rule is strict and the real problem is sight: health, race and biometric signals enter decision pipelines through side doors nobody logged. Discovery is the control.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "5.6",
@@ -311,7 +348,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "4 min",
     "extract": "Relevant, representative, minimal — the three-word standard for what goes into your AI. Most estates fail on the third word first.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "5.7",
@@ -319,7 +357,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "5 min",
     "extract": "The subject-access request that touches an AI system is where data-rights machinery usually breaks. Build the AI paths before the request arrives, not during it.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "5.8",
@@ -327,7 +366,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Governance",
     "read": "4 min",
     "extract": "Scoping, basis, DPIA, safeguards, decisions — the UK GDPR's accountability principle, applied to AI, resolves to a folder you can produce in an afternoon.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "6.1",
@@ -335,7 +375,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Security",
     "read": "5 min",
     "extract": "Poisoned training data, adversarial inputs, injected prompts, models walking out the door. Your cyber programme was built for none of these.",
-    "isSample": true
+    "isSample": true,
+    "evidence": false
   },
   {
     "id": "6.2",
@@ -343,7 +384,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Security",
     "read": "5 min",
     "extract": "The UK has published what 'secure AI' means — guidelines, then a code of practice. The only question left is whether your build and procurement actually require it.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "6.3",
@@ -351,7 +393,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Security",
     "read": "4 min",
     "extract": "Who can edit the system prompt? Who touched the training data? If the answer takes longer than a minute, the answer is 'too many people, unlogged.'",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "6.4",
@@ -359,7 +402,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Security",
     "read": "5 min",
     "extract": "Dual authorisation, defined triggers, rehearsed rollback. The off switch is a governance control that has to be built — because on the day you need it, you cannot improvise it.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "6.5",
@@ -367,7 +411,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Security",
     "read": "5 min",
     "extract": "Your IR plan knows what to do about ransomware. Ask it what to do when the pricing model goes wrong at scale, and listen to the silence.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "6.6",
@@ -375,7 +420,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Security",
     "read": "4 min",
     "extract": "The quiet dependency test: which decisions stop, which customers wait, which staff no longer remember the manual process? Resilience is answering before the outage asks.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "6.7",
@@ -383,7 +429,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Security",
     "read": "4 min",
     "extract": "Behind the tool you bought sits a model you didn't, an API you can't see, and a dependency chain nobody mapped. Your security perimeter includes all of it.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "6.8",
@@ -391,7 +438,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Security",
     "read": "5 min",
     "extract": "From the 2026 reporting cycle, boards declare their material controls effective — and the FRC has said IT, cyber and AI are inside the boundary. Signing on assertion is no longer available.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "7.1",
@@ -399,7 +447,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Workforce",
     "read": "5 min",
     "extract": "It has applied since February 2025. Enforcement starts in August 2026. The AI Act's quietest duty is the one most boards still think is next year's problem.",
-    "isSample": true
+    "isSample": true,
+    "evidence": false
   },
   {
     "id": "7.2",
@@ -407,7 +456,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Workforce",
     "read": "5 min",
     "extract": "The law names the person: competent, trained, authorised, supported. Most organisations name them too — and then give them forty seconds per decision.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "7.3",
@@ -415,7 +465,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Workforce",
     "read": "5 min",
     "extract": "Article 14 puts the duty on the system, not just the person: built so oversight is possible. A capable human in front of an opaque, urgent interface is a design failure wearing a compliance badge.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "7.4",
@@ -423,7 +474,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Workforce",
     "read": "5 min",
     "extract": "The s172 duty is procedural: stakeholder impact considered, and minuted. For AI that changes jobs, the assessment is your safe harbour — and it has to predate the decision.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "7.5",
@@ -431,7 +483,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Workforce",
     "read": "4 min",
     "extract": "The deployer duty is explicit: workers and their representatives informed before the system enters service. Finding out from the rollout email is the compliance failure and the trust failure in one.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "7.6",
@@ -439,7 +492,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Workforce",
     "read": "5 min",
     "extract": "Redesign over elimination is not sentiment — it is the adoption strategy with the better failure profile, the better metrics, and the better story to every audience that matters.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "7.7",
@@ -447,7 +501,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Workforce",
     "read": "5 min",
     "extract": "Staff are already using AI you've never assessed — pasting into it, deciding with it, shipping from it. The governed response is a better catalogue, not a wider ban.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "7.8",
@@ -455,7 +510,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "Workforce",
     "read": "5 min",
     "extract": "The fallback plan assumes people who can still do the work. Automation quietly retires that assumption — unless retention is designed, the capability your controls depend on decays on schedule.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "8.1",
@@ -463,7 +519,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "ESG",
     "read": "5 min",
     "extract": "Mandatory CSRD now stops at 1,000 employees and €450 million. Your obligations didn't stop — they changed carrier, and they now arrive in your customers' supplier questionnaires.",
-    "isSample": true
+    "isSample": true,
+    "evidence": false
   },
   {
     "id": "8.2",
@@ -471,7 +528,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "ESG",
     "read": "5 min",
     "extract": "B1 to B11 — profile, energy, emissions, workforce, safety, conduct. The VSME's Basic Module is the standardised answer to the questionnaire flood, and most of it is data you already hold.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "8.3",
@@ -479,7 +537,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "ESG",
     "read": "5 min",
     "extract": "Scope 3, targets, transition risk, human rights — the C-module asks harder questions. Answer them once, deliberately, for the counterparties whose business justifies it.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "8.4",
@@ -487,7 +546,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "ESG",
     "read": "4 min",
     "extract": "Under 1,000 employees, the law now caps what your big customers may demand: information beyond the voluntary standard can be refused. A right nobody exercises protects nobody.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "8.5",
@@ -495,7 +555,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "ESG",
     "read": "5 min",
     "extract": "The AI Act now makes model providers disclose energy use — which means your AI footprint is becoming a knowable number. Buyers have started asking for it.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "8.6",
@@ -503,7 +564,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "ESG",
     "read": "4 min",
     "extract": "The same energy bill excavated six times a year is not a reporting burden — it is a filing failure. One dataset, owned and refreshed, collapses the marginal cost of every request to near zero.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "8.7",
@@ -511,7 +573,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "ESG",
     "read": "4 min",
     "extract": "The comprehensive standard asks it directly: who at senior level is accountable for sustainability? 'Whoever was asked last' is an answer — just not one that survives a questionnaire.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   },
   {
     "id": "8.8",
@@ -519,7 +582,8 @@ export const ARTICLE_META: ArticleMeta[] = [
     "category": "ESG",
     "read": "5 min",
     "extract": "The dataset is built, the line is held, the owner is named. The last discipline is extraction: deliberately converting readiness into won tenders, kept clients, and better borrowing terms.",
-    "isSample": false
+    "isSample": false,
+    "evidence": false
   }
 ];
 

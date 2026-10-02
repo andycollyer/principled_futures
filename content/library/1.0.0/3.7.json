@@ -1,26 +1,69 @@
 {
   "criterion": "3.7",
   "bank": "1.0.0",
-  "status": "draft",
+  "status": "approved",
   "checked": "2026-10-02",
   "items": [
-    { "title": "AI tools in recruitment: audit outcomes report", "publisher": "Information Commissioner's Office", "year": 2024, "tier": "official",
-      "url": "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf", "access": "free", "locator": "pp. 12, 19, 24, 40, 44-45, 47",
-      "why": "Source of the quotation (p.24, recommendations for recruiters) and the figure (p.12). Also tells recruiters to seek assurance on training data (p.19), carry out due diligence and regular checks through the contract (p.40) and record controller and processor roles (pp.44-45). Covers data protection only." },
-    { "title": "Thinking of using AI to assist recruitment? Our key data protection considerations", "publisher": "Information Commissioner's Office", "year": 2024, "tier": "official",
-      "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2024/11/thinking-of-using-ai-to-assist-recruitment-our-key-data-protection-considerations/", "access": "free", "locator": "Questions 3 and 4",
-      "why": "Six questions for buyers. Question 3: record roles in the contract and consider performance measures such as accuracy and bias targets. Question 4: seek clear assurances that bias has been mitigated and ask to see the documentation." },
-    { "title": "UK GDPR, Article 28: Processor", "publisher": "legislation.gov.uk", "year": 2016, "tier": "official",
-      "url": "https://www.legislation.gov.uk/eur/2016/679/article/28", "access": "free", "locator": "Art. 28(1) and 28(3)(h)",
-      "why": "Controller may use only processors giving sufficient guarantees; the contract must let the controller audit and inspect. Applies only where the supplier is a processor, and only to data protection compliance. Read with Article 5(2), accountability." },
-    { "title": "Equality Act 2010, section 109: Liability of employers and principals", "publisher": "legislation.gov.uk", "year": 2010, "tier": "official",
-      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/109", "access": "free", "locator": "s.109(2)-(3); read with s.29(1)-(2) and s.39(1)-(2)",
-      "why": "The duty is on the employer (s.39) and the service-provider (s.29); an agent's authorised acts are the principal's regardless of knowledge. Nothing in these sections mentions suppliers of software, so the application to bought AI is a reading, not a ruling." },
-    { "title": "Responsible AI in Recruitment", "publisher": "Department for Science, Innovation and Technology", "year": 2024, "tier": "official",
-      "url": "https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment", "access": "free", "locator": "Sections 3.2 (during procurement), 4.1 (before deployment), 4.2 (ongoing monitoring; iterative bias audits)",
-      "why": "Questions to put to suppliers on training data and performance across groups; says a supplier should be able to evidence its claims; recommends a pilot because supplier data and the buyer's data differ. Contains nothing on contract terms." },
-    { "title": "Guidelines for AI procurement", "publisher": "Office for Artificial Intelligence (UK government)", "year": 2020, "tier": "official",
-      "url": "https://www.gov.uk/government/publications/guidelines-for-ai-procurement/guidelines-for-ai-procurement", "access": "free", "locator": "Sections 'Selection, evaluation and award' and 'Contract implementation and ongoing management'",
-      "why": "Written for public buyers: avoid black-box systems, require process logs for auditability, test the model on an ongoing basis, plan for end of life in the contract. Dated June 2020 and not specific to fairness." }
-  ]
+    {
+      "title": "AI tools in recruitment: audit outcomes report",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "tier": "official",
+      "url": "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf",
+      "access": "free",
+      "locator": "pp. 12, 19, 24, 40, 44-45, 47",
+      "why": "Source of the quotation (p.24, recommendations for recruiters) and the figure (p.12). Also tells recruiters to seek assurance on training data (p.19), carry out due diligence and regular checks through the contract (p.40) and record controller and processor roles (pp.44-45). Covers data protection only."
+    },
+    {
+      "title": "Thinking of using AI to assist recruitment? Our key data protection considerations",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "tier": "official",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2024/11/thinking-of-using-ai-to-assist-recruitment-our-key-data-protection-considerations/",
+      "access": "free",
+      "locator": "Questions 3 and 4",
+      "why": "Six questions for buyers. Question 3: record roles in the contract and consider performance measures such as accuracy and bias targets. Question 4: seek clear assurances that bias has been mitigated and ask to see the documentation."
+    },
+    {
+      "title": "UK GDPR, Article 28: Processor",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/28",
+      "access": "free",
+      "locator": "Art. 28(1) and 28(3)(h)",
+      "why": "Controller may use only processors giving sufficient guarantees; the contract must let the controller audit and inspect. Applies only where the supplier is a processor, and only to data protection compliance. Read with Article 5(2), accountability."
+    },
+    {
+      "title": "Equality Act 2010, section 109: Liability of employers and principals",
+      "publisher": "legislation.gov.uk",
+      "year": 2010,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/109",
+      "access": "free",
+      "locator": "s.109(2)-(3); read with s.29(1)-(2) and s.39(1)-(2)",
+      "why": "The duty is on the employer (s.39) and the service-provider (s.29); an agent's authorised acts are the principal's regardless of knowledge. Nothing in these sections mentions suppliers of software, so the application to bought AI is a reading, not a ruling."
+    },
+    {
+      "title": "Responsible AI in Recruitment",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2024,
+      "tier": "official",
+      "url": "https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment",
+      "access": "free",
+      "locator": "Sections 3.2 (during procurement), 4.1 (before deployment), 4.2 (ongoing monitoring; iterative bias audits)",
+      "why": "Questions to put to suppliers on training data and performance across groups; says a supplier should be able to evidence its claims; recommends a pilot because supplier data and the buyer's data differ. Contains nothing on contract terms."
+    },
+    {
+      "title": "Guidelines for AI procurement",
+      "publisher": "Office for Artificial Intelligence (UK government)",
+      "year": 2020,
+      "tier": "official",
+      "url": "https://www.gov.uk/government/publications/guidelines-for-ai-procurement/guidelines-for-ai-procurement",
+      "access": "free",
+      "locator": "Sections 'Selection, evaluation and award' and 'Contract implementation and ongoing management'",
+      "why": "Written for public buyers: avoid black-box systems, require process logs for auditability, test the model on an ongoing basis, plan for end of life in the contract. Dated June 2020 and not specific to fairness."
+    }
+  ],
+  "approved": "2026-10-02"
 }

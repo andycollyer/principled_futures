@@ -16,8 +16,16 @@ import { fetchBriefingBody } from "@/lib/content";
 
 /** Render a paragraph, interpreting *asterisk* spans as emphasis. */
 function withEmphasis(text) {
-  const parts = text.split(/\*([^*]+)\*/g);
-  return parts.map((part, i) => (i % 2 === 1 ? <em key={i}>{part}</em> : part));
+  // **bold** lead-ins (evidence briefs) first, then *emphasis* (legacy briefings).
+  return text.split(/\*\*([^*]+)\*\*/g).map((chunk, i) =>
+    i % 2 === 1
+      ? <strong key={`b${i}`} style={{ color: "var(--ink-900)", fontWeight: 600 }}>{chunk}</strong>
+      : chunk.split(/\*([^*]+)\*/g).map((part, j) => (j % 2 === 1 ? <em key={`e${i}-${j}`}>{part}</em> : part)));
+}
+
+function formatDate(iso) {
+  try { return new Date(iso + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }); }
+  catch { return iso; }
 }
 
 /** The locked state: explains what's behind the wall and how to open it. */
@@ -55,6 +63,8 @@ export function BriefingReader({ id }) {
   const article = articleFor(id);
   const [state, setState] = React.useState("loading");
   const [body, setBody] = React.useState([]);
+  const [sources, setSources] = React.useState([]);
+  const [checked, setChecked] = React.useState(null);
 
   React.useEffect(() => {
     let active = true;
@@ -62,6 +72,8 @@ export function BriefingReader({ id }) {
       if (!active) return;
       setState(r.state);
       setBody(r.body);
+      setSources(r.sources ?? []);
+      setChecked(r.checked ?? null);
     });
     return () => { active = false; };
   }, [id]);
@@ -93,9 +105,11 @@ export function BriefingReader({ id }) {
 
         <h1 className="pf-display" style={{ fontSize: 30, color: "var(--ink-900)", lineHeight: 1.2 }}>{article.title}</h1>
 
-        <p style={{ fontSize: 16, color: "var(--text-secondary)", lineHeight: 1.6, marginTop: 16, paddingLeft: 16, borderLeft: "3px solid var(--green-600)", fontStyle: "italic" }}>
-          &ldquo;{article.extract}&rdquo;
-        </p>
+        {!article.evidence && (
+          <p style={{ fontSize: 16, color: "var(--text-secondary)", lineHeight: 1.6, marginTop: 16, paddingLeft: 16, borderLeft: "3px solid var(--green-600)", fontStyle: "italic" }}>
+            &ldquo;{article.extract}&rdquo;
+          </p>
+        )}
 
         {state === "loading" && (
           <p style={{ marginTop: 28, fontSize: 14, color: "var(--text-tertiary)" }}>Loading the briefing&hellip;</p>
@@ -117,9 +131,26 @@ export function BriefingReader({ id }) {
           </p>
         )}
 
+        {state === "ok" && sources.length > 0 && (
+          <div style={{ marginTop: 30, paddingTop: 22, borderTop: "1px solid var(--border-subtle)" }}>
+            <h2 style={{ fontSize: 14, fontWeight: 600, color: "var(--ink-900)", marginBottom: 12 }}>Reading list</h2>
+            <ol style={{ margin: 0, paddingLeft: 18, display: "flex", flexDirection: "column", gap: 10 }}>
+              {sources.map((src) => (
+                <li key={src.url} style={{ fontSize: 13, color: "var(--text-secondary)", lineHeight: 1.55 }}>
+                  <a href={src.url} target="_blank" rel="noopener noreferrer" style={{ color: "var(--text-link)", fontWeight: 500, textDecoration: "none" }}>{src.title}</a>
+                  <span> — {src.publisher}, {src.year}</span>
+                  {src.locator && <span style={{ color: "var(--text-tertiary)" }}> · {src.locator}</span>}
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
+
         {state === "ok" && (
           <p style={{ marginTop: 28, paddingTop: 18, borderTop: "1px solid var(--border-subtle)", fontSize: 12.5, color: "var(--text-tertiary)" }}>
-            Regulatory position current as of 22 July 2026.
+            {checked
+              ? `Checked against its sources on ${formatDate(checked)}. Reviewed on a rolling cycle; the law and guidance cited can change.`
+              : "Awaiting evidence review. Regulatory position as drafted in July 2026; not yet checked against sources."}
           </p>
         )}
 

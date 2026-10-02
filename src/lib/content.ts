@@ -14,9 +14,13 @@ import { articleFor } from "./content-meta";
 
 export type ContentState = "ok" | "signin" | "upgrade" | "unavailable";
 
+export interface BriefingSource { title: string; publisher: string; year: number; url: string; locator?: string; access?: string }
+
 export interface BriefingBody {
   state: ContentState;
   body: string[];
+  sources?: BriefingSource[];
+  checked?: string | null;
 }
 
 /**
@@ -38,12 +42,12 @@ export async function fetchBriefingBody(criterionId: string): Promise<BriefingBo
 
   const { data, error } = await supabase
     .from("briefings")
-    .select("body")
+    .select("body, sources, checked")
     .eq("criterion_id", criterionId)
     .maybeSingle();
 
   if (error) return { state: "unavailable", body: [] };
-  if (data?.body) return { state: "ok", body: data.body as string[] };
+  if (data?.body) return { state: "ok", body: data.body as string[], sources: (data.sources ?? []) as BriefingSource[], checked: (data.checked as string | null) ?? null };
 
   // Signed in but no row came back: the policy declined it. That means a free
   // plan reaching past the samples — unless the briefing genuinely isn't there.

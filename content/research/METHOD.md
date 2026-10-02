@@ -41,3 +41,21 @@ proposed corrections in the CORRECTIONS.md table format; anything you could not 
 - Law changes: the Data (Use and Access) Act 2025 amended UK GDPR (Article 22 replaced by Articles 22A-22D).
   Check the current text; note any "under review" banner on regulator guidance.
 - Do not edit any file outside the three outputs for your criterion.
+
+## Lessons from Domain 3 (apply from Domain 4)
+- A fetch tool that summarises is not a reading. Before quoting or citing a number, confirm the words in the raw
+  page text (for example `curl -sL <url>` with the tags stripped, or text extracted from the PDF itself).
+- Do not reuse a quotation or a figure that another brief in the same domain is likely to use. If the only figure
+  you have is generic, write "No defensible figure was found."
+- EU law: EUR-Lex HTML has returned empty pages. Try the Official Journal PDF on EUR-Lex. Failing that, the
+  European Commission's own pages (AI Act Service Desk, digital-strategy.ec.europa.eu) count as official, but say
+  in the reading list that it is the Commission's copy and note any "not yet updated" notice. Third-party copies
+  are not cited. If no official text can be read, the brief makes no EU claim.
+- EU AI Act dates moved in 2026 (the Digital Omnibus). Never state an application date from memory or from the
+  legacy briefing; state it only from an official source read in this pass, and name that source in the log.
+- UK automated decision-making law is UK GDPR Articles 22A-22D (in force 5 February 2026, S.I. 2026/82). ICO
+  guidance on AI is "under review" and its new automated decision-making guidance is a consultation draft: say so
+  in the reading list when you rely on either.
+- Name the regulator as its own source names it. (Open question: statute reads "the Commission" from 30 Sep 2026.)
+- Where a report contradicts itself, use the more precise passage and record both in the log.
+- In the log, give proposed corrections as table rows starting `| <id>-a |`, `| <id>-b |` and so on.

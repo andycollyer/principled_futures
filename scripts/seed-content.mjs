@@ -41,7 +41,40 @@ async function loadTs(relPath, exportName) {
 const q = (s) => `'${String(s).replace(/'/g, "''")}'`;
 const jsonb = (v) => `${q(JSON.stringify(v))}::jsonb`;
 
-const articles = await loadTs("src/lib/articles.ts", "ARTICLES");
+const legacyArticles = await loadTs("src/lib/articles.ts", "ARTICLES");
+const frameworkSrc = await readFile(path.join(root, "src/lib/framework.ts"), "utf8");
+
+/**
+ * An approved evidence brief replaces the legacy briefing for its criterion:
+ * new body, new title (the criterion's own), a reading list and a checked
+ * date. Drafts are ignored, so nothing unapproved can reach the product.
+ */
+async function approvedBrief(id) {
+  let md, lib;
+  try {
+    md = await readFile(path.join(root, `content/briefs/1.0.0/${id}.md`), "utf8");
+    lib = JSON.parse(await readFile(path.join(root, `content/library/1.0.0/${id}.json`), "utf8"));
+  } catch { return null; }
+  const fm = md.match(/^---\n([\s\S]*?)\n---/);
+  if (!fm || !/^status:\s*approved\s*$/m.test(fm[1]) || lib.status !== "approved") return null;
+  const checked = (fm[1].match(/^checked:\s*(\S+)/m) || [])[1] || null;
+  const rest = md.slice(fm[0].length);
+  const title = (rest.match(/^# (.+)$/m) || [])[1].trim();
+  const paras = rest.replace(/^# .+$/m, "").split(/\n\s*\n/).map((x) => x.trim()).filter(Boolean);
+  const measures = paras[0].replace(/^\*\*[^*]+\*\*\s*/, "");
+  const words = paras.join(" ").split(/\s+/).length;
+  const sources = lib.items.map(({ title, publisher, year, url, locator, access }) => ({ title, publisher, year, url, locator, access }));
+  return { title, body: paras, extract: measures, read: `${Math.max(1, Math.round(words / 200))} min`, sources, checked };
+}
+
+const articles = [];
+let replaced = 0;
+for (const a of legacyArticles) {
+  const b = await approvedBrief(a.id);
+  if (b) { replaced++; articles.push({ ...a, ...b, evidence: true }); }
+  else articles.push({ ...a, sources: [], checked: null, evidence: false });
+}
+void frameworkSrc;
 const glossary = await loadTs("src/lib/glossary.ts", "GLOSSARY");
 const guides = await loadTs("src/lib/guides.ts", "GUIDES");
 
@@ -55,8 +88,8 @@ lines.push("");
 lines.push(`-- Briefings ---------------------------------------------------------------`);
 for (const a of articles) {
   lines.push(
-    `insert into briefings (criterion_id, body, is_sample) values (${q(a.id)}, ${jsonb(a.body)}, ${SAMPLES.has(a.id)})\n` +
-    `  on conflict (criterion_id) do update set body = excluded.body, is_sample = excluded.is_sample, updated_at = now();`,
+    `insert into briefings (criterion_id, body, is_sample, sources, checked) values (${q(a.id)}, ${jsonb(a.body)}, ${SAMPLES.has(a.id)}, ${jsonb(a.sources)}, ${a.checked ? q(a.checked) : "null"})\n` +
+    `  on conflict (criterion_id) do update set body = excluded.body, is_sample = excluded.is_sample, sources = excluded.sources, checked = excluded.checked, updated_at = now();`,
   );
 }
 lines.push("");
@@ -102,12 +135,12 @@ meta.push(`// Metadata only: titles, categories, standfirsts. Body prose and glo
 meta.push(`// definitions live in the database (see supabase/migrations/0004_content_tables.sql)`);
 meta.push(`// and are fetched per-user by src/lib/content.ts.`);
 meta.push("");
-meta.push(`export interface ArticleMeta { id: string; title: string; category: string; read: string; extract: string; isSample: boolean }`);
+meta.push(`export interface ArticleMeta { id: string; title: string; category: string; read: string; extract: string; isSample: boolean; evidence: boolean }`);
 meta.push(`export interface GlossaryMeta { term: string; source?: string; related?: string[] }`);
 meta.push(`export interface GuideMeta { id: string; title: string }`);
 meta.push("");
 meta.push(`export const ARTICLE_META: ArticleMeta[] = ${JSON.stringify(
-  articles.map((a) => ({ id: a.id, title: a.title, category: a.category, read: a.read, extract: a.extract, isSample: SAMPLES.has(a.id) })),
+  articles.map((a) => ({ id: a.id, title: a.title, category: a.category, read: a.read, extract: a.extract, isSample: SAMPLES.has(a.id), evidence: a.evidence })),
   null, 2,
 )};`);
 meta.push("");
@@ -144,6 +177,7 @@ await writeFile(metaDest, meta.join("\n"), "utf8");
 const words = articles.reduce((n, a) => n + a.body.join(" ").split(/\s+/).length, 0);
 console.log(`Wrote ${path.relative(root, dest)}`);
 console.log(`  ${articles.length} briefings (${SAMPLES.size} free samples, ${words.toLocaleString()} words)`);
+console.log(`  ${replaced} of ${articles.length} are approved evidence briefs; the rest are legacy briefings`);
 console.log(`  ${glossary.length} glossary terms`);
 console.log(`  ${guides.length} guides`);
 console.log(`Wrote src/lib/content-meta.ts (metadata only — no body prose)`);
