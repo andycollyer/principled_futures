@@ -39,12 +39,16 @@ Netlify settings: `SITE_PRIVATE=1`, `TEAM_PASSCODE` (also in `../TEAM-PASSCODE.t
 | `assets/research/` | The 11 board-paper PDFs (uploaded to the private bucket by `npm run upload:papers`) |
 
 ## Content programme
-- Pilot: criterion 3.1 done 2 Oct 2026 (brief, 6-item reading list, log, 6 corrections). Awaiting Andy's sign-off on the format.
+- Format approved by Andy 2 Oct 2026 (pilot 3.1). Decision: the new briefs REPLACE the legacy briefings in the product, domain by domain, on approval.
+- Domain 3 (3.1–3.8) researched and lead re-checked 2 Oct 2026; 53 corrections on file. Awaiting Andy's approval (`../Domain-3-for-approval.md`).
+- Method: `content/research/METHOD.md`. One researcher per criterion; the lead re-reads every quotation and figure against raw source text.
 - Then: Domain 3, then the other seven domains, approved domain by domain. One NotebookLM notebook per domain, named `Principled Futures · D<n> <domain>`.
 - The 64 existing briefings carry no citations. Each gets the same claim-by-claim check.
 
 ## Open items
-- [ ] Andy: approve the 3.1 pilot format
+- [ ] Andy: approve Domain 3 briefs; then swap them into the product in place of the legacy briefings
+- [ ] Establish whether the Information Commission has formally replaced the ICO (UK GDPR Art. 36 reads "the Commission" from 30 Sep 2026) and rename across briefs
+- [ ] Read the EU AI Act from an original source (EUR-Lex returned empty pages)
 - [ ] Wait-list form: submit a test entry on the live site; add an email alert to support@principledfutures.com
 - [ ] Obtain EHRC guidance on AI and the public sector equality duty (site blocked automated reading)
 - [ ] Link the Netlify project to GitHub so the live site follows `main`

@@ -1,0 +1,68 @@
+{
+  "criterion": "3.8",
+  "bank": "1.0.0",
+  "status": "draft",
+  "checked": "2026-10-02",
+  "items": [
+    {
+      "title": "UK GDPR, Article 22C: Safeguards for automated decision-making",
+      "publisher": "legislation.gov.uk",
+      "year": 2025,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22C",
+      "access": "free",
+      "locator": "Art. 22C(1)-(2)(a)-(d)",
+      "why": "The four safeguards: information, representations, human intervention, contest. Applies only to significant decisions based solely on automated processing. Inserted by the Data (Use and Access) Act 2025 s.80; fully in force 5 February 2026 (S.I. 2026/82)."
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, section 103: Complaints by data subjects",
+      "publisher": "legislation.gov.uk",
+      "year": 2025,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/103",
+      "access": "free",
+      "locator": "s.103(2), inserting Data Protection Act 2018 s.164A(2)-(5); commencement note I2",
+      "why": "Source of the figure (30 days to acknowledge, s.164A(3)). Controllers must facilitate complaints, respond without undue delay and inform the complainant of the outcome. In force 19 June 2026."
+    },
+    {
+      "title": "UK GDPR, Article 82: Right to compensation and liability",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/82",
+      "access": "free",
+      "locator": "Art. 82(1)-(4)",
+      "why": "Compensation for material or non-material damage from an infringement; a controller escapes only by proving it is not in any way responsible."
+    },
+    {
+      "title": "Equality Act 2010, section 124: Remedies: general",
+      "publisher": "legislation.gov.uk",
+      "year": 2010,
+      "tier": "official",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/124",
+      "access": "free",
+      "locator": "s.124(2)-(7); see also s.119(4) for county court awards including injured feelings",
+      "why": "Employment tribunal may declare, award compensation and recommend steps to reduce the adverse effect on the complainant. For unintentional indirect discrimination it must consider the other remedies before compensation (s.124(4)-(5))."
+    },
+    {
+      "title": "A pro-innovation approach to AI regulation (white paper)",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2023,
+      "tier": "official",
+      "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach/white-paper",
+      "access": "free",
+      "locator": "Section 3.2.3, box 'Principle: Contestability and redress' (after para 52)",
+      "why": "Source of the quotation. The principle is non-statutory and addressed to regulators; it creates no new right for individuals."
+    },
+    {
+      "title": "OECD AI Principles, 1.3: Transparency and explainability",
+      "publisher": "OECD",
+      "year": 2024,
+      "tier": "official",
+      "url": "https://oecd.ai/en/dashboards/ai-principles/P7",
+      "access": "free",
+      "locator": "Principle 1.3, final bullet",
+      "why": "The international baseline: information that enables those adversely affected to challenge an AI system's output. The challenge wording sits here, not in the accountability principle (1.5). Year of the 2024 update taken from oecd.ai; to confirm against the legal instrument."
+    }
+  ]
+}
