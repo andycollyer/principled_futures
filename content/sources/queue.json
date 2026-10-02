@@ -30,6 +30,52 @@
       "found": "2026-10-02",
       "decide_by": "2026-10-16",
       "proposed": "Keep 4.1 and 4.2 unchanged. Update their reading-list notes to cite the consolidated version."
+    },
+    {
+      "id": "R-20261002-04",
+      "type": "changed",
+      "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "title": "AI Act (Regulation (EU) 2024/1689), Article 50: Transparency obligations for providers and deployers of certain AI systems",
+      "criteria": [
+        "4.1",
+        "4.2"
+      ],
+      "detail": "14% of passages differ from the last reading at https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "found": "2026-10-02",
+      "decide_by": "2026-10-16"
+    },
+    {
+      "id": "R-20261002-05",
+      "type": "changed",
+      "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 111: AI systems already placed on the market or put into service",
+      "criteria": [
+        "2.3",
+        "4.2"
+      ],
+      "detail": "22% of passages differ from the last reading at https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111",
+      "found": "2026-10-02",
+      "decide_by": "2026-10-16"
+    },
+    {
+      "id": "R-20261002-06",
+      "type": "changed",
+      "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 26: Obligations of deployers of high-risk AI systems",
+      "criteria": [
+        "1.2",
+        "2.3",
+        "2.4",
+        "2.6",
+        "2.7",
+        "4.7",
+        "7.2",
+        "7.4",
+        "7.5"
+      ],
+      "detail": "9% of passages differ from the last reading at https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26",
+      "found": "2026-10-02",
+      "decide_by": "2026-10-16"
     }
   ]
 }

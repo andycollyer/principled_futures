@@ -332,5 +332,136 @@
       "url": "https://ico.org.uk/media2/ybsi5n0j/ico-annual-report-202527.pdf",
       "text": "we completed a total of 85 audits, risk reviews and follow-up work"
     }
+  ],
+  "6.1": [
+    {
+      "kind": "quotation",
+      "url": "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai",
+      "text": "Threat modelling should include regular reviews and updates and address AI-specific attacks, such as data poisoning, model inversion, and membership inference."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.aisi.gov.uk/research/security-challenges-in-ai-agent-deployment-insights-from-a-large-scale-public-competition",
+      "text": "1.8 million prompt-injection attacks"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.aisi.gov.uk/research/security-challenges-in-ai-agent-deployment-insights-from-a-large-scale-public-competition",
+      "text": "over 60,000"
+    }
+  ],
+  "6.2": [
+    {
+      "kind": "quotation",
+      "url": "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai",
+      "text": "shall undertake a due diligence assessment and should ensure that the provider is adhering to this Code of Practice"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.gov.uk/government/publications/research-on-the-cyber-security-of-ai/ai-cyber-security-survey-main-report",
+      "text": "nearly half of respondents (47%) had no specific cyber security practices in place specifically for AI"
+    }
+  ],
+  "6.3": [
+    {
+      "kind": "quotation",
+      "url": "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai",
+      "text": "an audit log of changes to system prompts or other model configuration (including prompts) that affect the underlying working of the systems"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.aisi.gov.uk/research/poisoning-attacks-on-llms-require-a-near-constant-number-of-poison-samples",
+      "text": "250 poisoned documents"
+    }
+  ],
+  "6.4": [
+    {
+      "kind": "quotation",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14",
+      "text": "interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.aisi.gov.uk/research/how-are-ai-agents-used-evidence-from-177-000-mcp-tools",
+      "text": "177,436 agent tools"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.aisi.gov.uk/research/how-are-ai-agents-used-evidence-from-177-000-mcp-tools",
+      "text": "rose from 27% to 65% of total usage"
+    }
+  ],
+  "6.5": [
+    {
+      "kind": "quotation",
+      "url": "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai",
+      "text": "Developers and System Operators shall create, test and maintain an AI system incident management plan and an AI system recovery plan."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026",
+      "text": "Formal incident response plans were less widespread (25% of businesses; 19% of charities)"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026",
+      "text": "45% of businesses and 54% of charities said they had none of these measures in place"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/33",
+      "text": "not later than 72 hours after having become aware of it"
+    }
+  ],
+  "6.6": [
+    {
+      "kind": "quotation",
+      "url": "https://www.ncsc.gov.uk/collection/cyber-assessment-framework/caf-objective-b/principle-b5-resilient-networks-and-systems",
+      "text": "consideration is also given to how operation of the essential function can continue in the event of technology failure or compromise"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026",
+      "text": "A similar proportion of businesses (33%), and a smaller proportion of charities (20%) had a business continuity plan that covered cyber security."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.fca.org.uk/firms/critical-third-parties-strengthening-uk-financial-services",
+      "text": "From 13 July 2026, regulators oversee systemic services provided by CTPs"
+    }
+  ],
+  "6.7": [
+    {
+      "kind": "quotation",
+      "url": "https://www.ncsc.gov.uk/collection/supply-chain-security/principles-supply-chain-security/understand-the-risks",
+      "text": "Until you have a clear picture of your supply chain, it will be very hard to establish any meaningful control over it."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026",
+      "text": "Just over one in ten businesses said they reviewed the risks posed by their immediate suppliers (15%)"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026",
+      "text": "around one in twenty were looking at their wider supply chain (6%)"
+    }
+  ],
+  "6.8": [
+    {
+      "kind": "quotation",
+      "url": "https://www.frc.org.uk/library/standards-codes-policy/corporate-governance/corporate-governance-code-guidance/",
+      "text": "information and technology risks including cybersecurity, data protection and new technologies (e.g. artificial intelligence)"
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.frc.org.uk/documents/8893/Annual_Review_of_Corporate_Governance_Reporting_2025.pdf",
+      "text": "40 companies did not report on the outcome."
+    },
+    {
+      "kind": "figure",
+      "url": "https://www.frc.org.uk/documents/8893/Annual_Review_of_Corporate_Governance_Reporting_2025.pdf",
+      "text": "a sample of 100 randomly selected companies"
+    }
   ]
 }

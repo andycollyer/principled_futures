@@ -306,3 +306,73 @@ Published content is versioned, never edited. Items here go into briefing set 1.
 | 5.8-f | "the enterprise buyer's diligence list ... the litigation disclosure request" | Unsourced | Keep as illustration only, or cut |
 | 5.8-g | "telemetry the Band 4 answer" | Internal scoring label in client text | "the stronger answer tracks how complete and how current each file is" |
 | 5.8-h | (omission) | The regulator can now interview current and former staff and managers (s.148A) | Add one sentence |
+
+## 6.1
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 6.1-a | "Your cyber programme was built for none of these." | Unsourced and overstated; official guidance says the standard practice still applies, with additions | "Your cyber programme was not built with these in mind." |
+| 6.1-b | "precisely because the standard playbook does not cover the new failure modes" | Not what the NCSC says | "because AI systems have new weaknesses that must be considered alongside the usual ones" |
+| 6.1-c | "The EU AI Act names the new threat surface directly in its robustness requirements" | Omits that this applies to high-risk systems only | "For high-risk systems, the EU AI Act names the new threat surface directly" |
+| 6.1-d | (omission) | The UK Code of Practice (January 2025) is not mentioned although it states the control | Add: "The UK's voluntary Code of Practice for the Cyber Security of AI asks for exactly this: threat modelling that addresses AI-specific attacks and is regularly reviewed." |
+| 6.1-e | "feeding the security standards of 6.2 and the monitoring posture of 6.5" | Internal question numbers in client text | "feeding the security standards for build and purchase, and the monitoring that follows" |
+| 6.1-f | "a category error for perimeter-thinking security, because the attack arrives as payload, not intrusion" | Rhetorical; the sourced point is simpler | "the model cannot tell an instruction from the content it is reading, so the attack arrives inside ordinary data" |
+
+## 6.2
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 6.2-a | Title: "Secure by design, bought by standard: the NCSC bar for AI" | The Code is the government's, and is now also an ETSI specification | "Secure by design, bought by standard: the UK bar for AI" |
+| 6.2-b | "and the government followed with a voluntary Code of Practice ... published in January 2025" | Stops before the April 2025 specification | Add: "whose text became an international specification, ETSI TS 104 223, in April 2025" |
+| 6.2-c | "say the same thing with statutory force on a 2027–28 clock" | "The same thing" overstates; date should be stated from the source | "set robustness and cybersecurity duties for high-risk systems, applying from December 2027 and August 2028 on the Commission's current text" |
+| 6.2-d | "the SME majority case" | Not an SME statistic | "the commoner case" |
+| 6.2-e | "threat modelling at design (6.1)" and "contractual teeth (1.5)" | Internal question numbers in client text | Remove the bracketed numbers |
+| 6.2-f | (omission) | The binding rule is not stated | Add: "Where personal data is involved, UK GDPR already requires security appropriate to the risk and regular testing of it; the Code is voluntary." |
+
+## 6.3
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 6.3-a | "accessible to whoever set the tool up, changeable without record, reviewed never" | Stated as fact about most organisations; unsourced | "often accessible to whoever set the tool up, and changeable without record" |
+| 6.3-b | "the deployer's log-retention duty (2.4)" | The EU duty concerns automatically generated system logs, not change records; internal number | "and any duty to keep the system's own logs" |
+| 6.3-c | "incident investigation (6.5), the accountability file (5.8)" and "(1.5's change-notification clause earning its keep)" | Internal question numbers in client text | Remove the bracketed numbers; "the change-notification clause in the contract" |
+| 6.3-d | (omission) | No source for the control | Add: "The UK's voluntary Code of Practice for the Cyber Security of AI asks for access controls over models, data and pipelines, and an audit log of changes to system prompts and configuration." |
+| 6.3-e | "what your own audit rights recover after the fact" | Unsourced | Keep as advice but do not present as established practice: "and whether your contract lets you see the supplier's change record" |
+| 6.3-f | "reviewed on the same cadence as financial systems" | Unsourced benchmark | "reviewed on a fixed schedule" |
+
+## 6.4
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 6.4-a | "The honest answer, in most organisations, is" | Unsourced generalisation | "The honest answer, in many organisations, is likely to be" |
+| 6.4-b | "The deployer's duty to suspend a system presenting risk (2.4) presumes suspension is possible; incident clocks measured in days (2.6) presume it is fast" | Unnamed statute; EU, high-risk only; internal numbers | "The EU AI Act requires those deploying high-risk systems to suspend one that presents a risk, and sets incident reporting deadlines counted in days" |
+| 6.4-c | "with dual authorisation for drastic action on consequential systems — the two-key discipline" | No source supports dual authorisation as an expected control | Present as an option: "and, where a wrongful shutdown would itself do harm, a second person to confirm" (and review the criterion's level 3 wording, which cannot be edited here) |
+| 6.4-d | "(6.6's continuity position, pre-agreed)" | Internal question number | "the continuity plan, agreed in advance" |
+| 6.4-e | (omission) | No UK position | Add: "No general UK law requires an off switch for AI. The government's voluntary Code of Practice asks for incident and recovery plans that are created, tested and maintained." |
+| 6.4-f | "Time-to-contain is the metric" | Stated as established; unsourced | "Time to contain is a useful measure" |
+
+## 6.5
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 6.5-a | "the authority-reporting windows ... fifteen days general, ten for death, two for critical infrastructure" | Duty is the provider's; text flagged as amended and not yet updated | Remove the day counts. Say providers of high-risk systems must report serious incidents and deployers must tell the provider first | AI Act Service Desk, Arts 73 and 26(5) |
+| 6.5-b | "a statutory expectation" (preservation) | True only under the EU Act, mainly for providers | "expected under the EU AI Act and good practice in UK guidance" | Art. 73(6), Art. 26(6); AI Code 2.3, 12.1 |
+| 6.5-c | "almost everywhere, it was built without AI in mind" | No evidence | Remove, or replace with the survey figure (25% have a formal plan) | Breaches survey 2025/2026, s.5.1 |
+
+## 6.6
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 6.6-a | "the capability the system replaced tends to atrophy in the humans who once held it" | Stated as fact; no source | Present as a risk to test for, not a finding | None found |
+| 6.6-b | "recovery-time objectives set and measured" | Term not confirmed at source (ISO blocked) | "recovery targets set and measured" | CAF B5; SYSC 15A.2.5R |
+| 6.6-c | (missing) | Briefing gives no UK position | Add: no general duty; UK GDPR Art. 32(1)(c); SYSC 15A for financial firms; critical third parties designated 13 July 2026 | Sources above |
+
+## 6.7
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 6.7-a | "the reach problem the UK's regulatory framework acknowledges openly: the developers ... may sit beyond your regulator's practical reach" | Overstates a 2024 policy paper | "the government's 2024 analysis found that developers of the most capable models face the least clear legal responsibilities, while the law tends to hold the deployer liable" | Government response, section 5.2 |
+| 6.7-b | (missing) | No statement of the one binding rule | Add UK GDPR Art. 28(1) for suppliers handling personal data | legislation.gov.uk |
+| 6.7-c | (missing) | No mention that the standards cited are voluntary | Say the AI Code and Governance Code are voluntary | DSIT codes |
+
+## 6.8
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 6.8-a | "the FRC has said IT, cyber and AI are inside the boundary" / "explicit that the boundary encompasses" | Guidance says "could include"; board decides | "the FRC's guidance lists technology risks, including AI, among the controls a board could treat as material" | Code Guidance, paras 270 to 272 |
+| 6.8-b | "boards declare" (general) | Applies to listed companies, comply or explain | Say "boards of companies that follow the UK Corporate Governance Code" | Code, Application |
+| 6.8-c | "where AI touches the production of the numbers ... it is a material control area on its face" | No FRC source | Remove, or present as the framework's view | None found |
+| 6.8-d | "Signing on assertion is no longer available" | Overstates | "the FRC's guidance ties the declaration to work carried out and evidence obtained" | Code Guidance, para 296 |
+| 6.8-e | Level 5 "Independently assured" (framework.ts; not edited) | FRC expressly does not expect external assurance | Flag for the lead: the brief says external assurance is not required | Code Guidance, para 274 |
