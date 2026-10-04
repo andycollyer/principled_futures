@@ -13,7 +13,8 @@ decision is kept, dated. Approved briefs are never edited in place: a decision p
 | --- | --- | --- | --- |
 | **Anchors** (`anchors.json`) | run | The exact words a brief quotes, and the words behind each figure, are no longer on the page | A brief is only as good as its one quotation and one figure. 35 anchors across 16 briefs at baseline |
 | **Watch list** (`watch.json`) | run | A known moving part has moved: draft guidance finalised, an "under review" banner gone, a body renamed | Domains 3 and 4 rest on two draft or under-review ICO guidance sets and an EU text mid-amendment |
-| **Drift** (`fingerprints.json`) | 14 days per document | The document no longer loads, or more than 5% of its passages changed | Guidance is rewritten without notice |
+| **Quotes** (reading lists) | 14 days per document | The passage a reading list cites from a document is no longer in it | Every citation in the directory carries an exact quotation of 25 words or fewer |
+| **Drift** (`fingerprints.json`) | 14 days per document | The document no longer loads, or 30% or more of its passages changed | Guidance is rewritten without notice. Smaller drift is recorded, not queued: on 2 Oct 2026 seven ICO pages shifted 5 to 29% within hours while every cited passage stayed put, so a low threshold only makes noise |
 | **Coverage** (`coverage.json`) | run | Criteria below 12 documents; citation fields missing | Tracks progress to the 500-document directory |
 
 Anything found goes to `queue.json` with a decide-by date 14 days out. `history.jsonl` keeps every run.

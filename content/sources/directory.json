@@ -20,7 +20,10 @@
       "jurisdiction": "UK",
       "type": "research",
       "quote": "the share of 'action' tools rose from 27% to 65% of total usage over the 16-month period sampled",
-      "published": "2026-03-26"
+      "published": "2026-03-26",
+      "quotes": {
+        "6.4": "the share of 'action' tools rose from 27% to 65% of total usage over the 16-month period sampled"
+      }
     },
     {
       "key": "https://www.aisi.gov.uk/research/poisoning-attacks-on-llms-require-a-near-constant-number-of-poison-samples",
@@ -40,7 +43,10 @@
       "jurisdiction": "UK",
       "type": "research",
       "quote": "250 poisoned documents similarly compromise models across all model and dataset sizes",
-      "published": "2025-10-08"
+      "published": "2025-10-08",
+      "quotes": {
+        "6.3": "250 poisoned documents similarly compromise models across all model and dataset sizes"
+      }
     },
     {
       "key": "https://www.aisi.gov.uk/research/quantifying-frontier-llm-capabilities-for-container-sandbox-escape",
@@ -60,7 +66,10 @@
       "jurisdiction": "UK",
       "type": "research",
       "quote": "when vulnerabilities are added, LLMs are able to identify and exploit them",
-      "published": "2026-03-23"
+      "published": "2026-03-23",
+      "quotes": {
+        "6.4": "when vulnerabilities are added, LLMs are able to identify and exploit them"
+      }
     },
     {
       "key": "https://www.aisi.gov.uk/research/security-challenges-in-ai-agent-deployment-insights-from-a-large-scale-public-competition",
@@ -80,7 +89,10 @@
       "jurisdiction": "UK",
       "type": "research",
       "quote": "Participants submitted 1.8 million prompt-injection attacks, with over 60,000 successfully eliciting policy violations",
-      "published": "2025-07-27"
+      "published": "2025-07-27",
+      "quotes": {
+        "6.1": "Participants submitted 1.8 million prompt-injection attacks, with over 60,000 successfully eliciting policy violations"
+      }
     },
     {
       "key": "https://www.aisi.gov.uk/blog/should-ai-systems-behave-like-people",
@@ -116,7 +128,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "If there is an expectation that certain roles begin using AI, that could mean a change of terms and conditions.",
-      "published": "2025-04-28"
+      "published": "2025-04-28",
+      "quotes": {
+        "7.4": "If there is an expectation that certain roles begin using AI, that could mean a change of terms and conditions."
+      }
     },
     {
       "key": "https://www.acas.org.uk/research-and-commentary/my-boss-the-algorithm-an-ethical-look-at-algorithms-in-the-workplace/paper",
@@ -136,7 +151,10 @@
       "jurisdiction": "UK",
       "type": "professional",
       "quote": "Early communication and consultation between employers and employees are the best way to ensure new technology is well implemented and improves workplace outcomes.",
-      "published": "2020-03-06"
+      "published": "2020-03-06",
+      "quotes": {
+        "7.5": "Early communication and consultation between employers and employees are the best way to ensure new technology is well implemented and improves workplace outcomes."
+      }
     },
     {
       "key": "https://www.acas.org.uk/one-third-of-employers-think-ai-will-increase-productivity",
@@ -156,7 +174,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "AI should be cited when used and staff may require training on how to get the best outputs.",
-      "published": "2025-05-15"
+      "published": "2025-05-15",
+      "quotes": {
+        "7.1": "AI should be cited when used and staff may require training on how to get the best outputs."
+      }
     },
     {
       "key": "https://www.adalovelaceinstitute.org/report/ryder-review-biometrics",
@@ -176,7 +197,10 @@
       "jurisdiction": "UK",
       "type": "research",
       "quote": "There is an urgent need for a new, technologically neutral, statutory framework.",
-      "published": "2022-06-29"
+      "published": "2022-06-29",
+      "quotes": {
+        "5.5": "There is an urgent need for a new, technologically neutral, statutory framework."
+      }
     },
     {
       "key": "https://asa.org.uk/static/eb77bee0-a147-49b8-81856c3c83586bf2/AI-as-a-Marketing-Term-Report.pdf",
@@ -228,7 +252,10 @@
       "jurisdiction": "EU",
       "type": "regulator guidance",
       "quote": "Carrying out a DPIA is a continual process, not a one-time exercise.",
-      "published": "2017-10-04"
+      "published": "2017-10-04",
+      "quotes": {
+        "5.4": "Carrying out a DPIA is a continual process, not a one-time exercise."
+      }
     },
     {
       "key": "https://ec.europa.eu/newsroom/article29/redirection/document/49826",
@@ -248,7 +275,10 @@
       "jurisdiction": "EU",
       "type": "regulator guidance",
       "quote": "The controller must provide a simple way for the data subject to exercise these rights.",
-      "published": "6 February 2018"
+      "published": "6 February 2018",
+      "quotes": {
+        "5.2": "The controller must provide a simple way for the data subject to exercise these rights."
+      }
     },
     {
       "key": "https://www.bsigroup.com/en-GB/products-and-services/standards/iso-42001-ai-management-system",
@@ -267,7 +297,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "professional",
-      "quote": "BSI is the first Certification Body accredited by UKAS to certify ISO/IEC 42001"
+      "quote": "BSI is the first Certification Body accredited by UKAS to certify ISO/IEC 42001",
+      "quotes": {
+        "1.7": "BSI is the first Certification Body accredited by UKAS to certify ISO/IEC 42001"
+      }
     },
     {
       "key": "https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/the-greening-of-lending-mortgage-pricing-of-energy-transition-risk.pdf",
@@ -287,7 +320,10 @@
       "jurisdiction": "UK",
       "type": "research",
       "quote": "We find no evidence of lenders charging higher rates on riskier mortgages against energy-inefficient properties.",
-      "published": "March 2023"
+      "published": "March 2023",
+      "quotes": {
+        "8.8": "We find no evidence of lenders charging higher rates on riskier mortgages against energy-inefficient properties."
+      }
     },
     {
       "key": "https://www.bankofengland.co.uk/report/2024/artificial-intelligence-in-uk-financial-services-2024",
@@ -311,7 +347,12 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "The business areas with the highest percentages of third-party implementations were human resources (65%), risk and compliance (64%), and operations and IT (56%).",
-      "published": "2024-11-21"
+      "published": "2024-11-21",
+      "quotes": {
+        "1.5": "The business areas with the highest percentages of third-party implementations were human resources (65%), risk and compliance (64%), and operations and IT (56%).",
+        "2.1": "62% of all AI use cases are rated low materiality by the firms that use them with 16% rated high materiality",
+        "2.4": "46% of respondent firms reported having only ‘partial understanding’ of the AI technologies they use"
+      }
     },
     {
       "key": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2024/ss221-november-2024-update.pdf",
@@ -331,7 +372,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Firms that enter into outsourcing arrangements remain fully accountable for complying with all their regulatory obligations.",
-      "published": "2024-11-15"
+      "published": "2024-11-15",
+      "quotes": {
+        "1.5": "Firms that enter into outsourcing arrangements remain fully accountable for complying with all their regulatory obligations."
+      }
     },
     {
       "key": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2023/ss123.pdf",
@@ -367,7 +411,18 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "The board should receive regular reports on the firms’ model risk profile against its model risk appetite.",
-      "published": "May 2023"
+      "published": "May 2023",
+      "quotes": {
+        "1.1": "The board should receive regular reports on the firms’ model risk profile against its model risk appetite.",
+        "1.2": "An accountable SMF should be empowered to have overall oversight to ensure the effectiveness of the MRM framework.",
+        "1.3": "Firm-wide policies should be approved by the board and reviewed on a regular basis",
+        "1.4": "A comprehensive model inventory should be maintained to enable firms to: identify the sources of model risk",
+        "2.1": "Firms should implement a consistent, firm-wide model tiering approach",
+        "2.2": "The board should set a model risk appetite that articulates the level and types of model risk the firm is willing to accept.",
+        "2.4": "validate their own use of vendor products and conduct ongoing monitoring and outcomes analysis of vendor model performance using their own outcomes",
+        "2.7": "Model monitoring should be conducted on an ongoing basis with a frequency determined by the model tier.",
+        "2.8": "should be commensurate with their size, business activities, and the complexity and extent of their model use"
+      }
     },
     {
       "key": "https://www.bankofengland.co.uk/prudential-regulation/publication/2023/october/artificial-intelligence-and-machine-learning",
@@ -389,7 +444,11 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "Many respondents also said that firms need local owners to retain accountability over AI",
-      "published": "26 October 2023"
+      "published": "26 October 2023",
+      "quotes": {
+        "1.2": "Many respondents also said that firms need local owners to retain accountability over AI",
+        "1.4": "firms should maintain an inventory of high-risk AI use cases"
+      }
     },
     {
       "key": "https://arxiv.org/abs/2109.05067",
@@ -409,7 +468,10 @@
       "jurisdiction": "International",
       "type": "research",
       "quote": "I survey 41 policies that prescribe human oversight of government algorithms and find that they suffer from two significant flaws.",
-      "published": "2022-10-24"
+      "published": "2022-10-24",
+      "quotes": {
+        "7.2": "I survey 41 policies that prescribe human oversight of government algorithms and find that they suffer from two significant flaws."
+      }
     },
     {
       "key": "https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/reports/2025-pdfs/9024-lmo-autumn-2025-report-web.pdf",
@@ -429,7 +491,10 @@
       "jurisdiction": "UK",
       "type": "professional",
       "quote": "Employees in three-quarters of UK organisations are using AI tools at work (76%).",
-      "published": "2025-11"
+      "published": "2025-11",
+      "quotes": {
+        "7.4": "Employees in three-quarters of UK organisations are using AI tools at work (76%)."
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/ethics-transparency-and-accountability-framework-for-automated-decision-making/ethics-transparency-and-accountability-framework-for-automated-decision-making",
@@ -449,7 +514,10 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "Process owners need to introduce simple ways for the impacted person(s) to request human intervention or challenge a decision.",
-      "published": "2023-11-29"
+      "published": "2023-11-29",
+      "quotes": {
+        "7.3": "Process owners need to introduce simple ways for the impacted person(s) to request human intervention or challenge a decision."
+      }
     },
     {
       "key": "https://assets.publishing.service.gov.uk/media/67ab332fd41dfb0b59cec46a/E03274856_National_Procurement_Policy_Statement_Accessible.pdf",
@@ -469,7 +537,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "taking account of environmental risks and ensuring suppliers are committed to high environmental standards",
-      "published": "13 February 2025"
+      "published": "13 February 2025",
+      "quotes": {
+        "8.8": "taking account of environmental risks and ensuring suppliers are committed to high environmental standards"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-taking-account-of-social-value-in-the-award-of-central-government-contracts-html",
@@ -489,7 +560,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "In-scope organisations must apply a minimum 10% weighting (or an equivalent measurement) of the total score, for social value.",
-      "published": "February 2025 (page updated 5 March 2025)"
+      "published": "February 2025 (page updated 5 March 2025)",
+      "quotes": {
+        "8.8": "In-scope organisations must apply a minimum 10% weighting (or an equivalent measurement) of the total score, for social value."
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-frequently-asked-questions",
@@ -509,7 +583,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Supplier CRPs should not be ‘scored’ or compared against each other",
-      "published": "February 2025 (page updated 10 July 2025)"
+      "published": "February 2025 (page updated 10 July 2025)",
+      "quotes": {
+        "8.8": "Supplier CRPs should not be ‘scored’ or compared against each other"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-taking-account-of-carbon-reduction-plans-html",
@@ -535,7 +612,13 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "with an estimated contract value above £5 million per year",
-      "published": "17 February 2025"
+      "published": "17 February 2025",
+      "quotes": {
+        "8.1": "with an estimated contract value above £5 million per year",
+        "8.3": "a defined subset of Scope 3 emissions",
+        "8.4": "provision of a CRP in accordance with this PPN must be relevant and proportionate to the contract",
+        "8.8": "should include, as a condition of participation, a requirement for bidding suppliers to provide a CRP"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-technical-standard-for-completion-of-carbon-reduction-plans-html",
@@ -557,7 +640,11 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Suppliers’ Carbon Reduction Plans should be reviewed and updated annually",
-      "published": "February 2025 (page updated 10 July 2025)"
+      "published": "February 2025 (page updated 10 July 2025)",
+      "quotes": {
+        "8.6": "Suppliers’ Carbon Reduction Plans should be reviewed and updated annually",
+        "8.7": "Your Carbon Reduction Plan must be signed off by a director (or equivalent) or designated member (for LLPs)."
+      }
     },
     {
       "key": "https://www.caa.co.uk/publication/download/12922",
@@ -577,7 +664,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "there is a risk that flight crew no longer have the necessary skills to react appropriately",
-      "published": "2004-12"
+      "published": "2004-12",
+      "quotes": {
+        "7.8": "there is a risk that flight crew no longer have the necessary skills to react appropriately"
+      }
     },
     {
       "key": "https://www.asa.org.uk/news/regulating-the-illusion-of-intelligence-in-ads.html",
@@ -629,7 +719,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "They should hold robust, credible, relevant and up to date evidence that supports them.",
-      "published": "20 September 2021"
+      "published": "20 September 2021",
+      "quotes": {
+        "8.8": "They should hold robust, credible, relevant and up to date evidence that supports them."
+      }
     },
     {
       "key": "https://assets.publishing.service.gov.uk/media/6aa913c42344967b89b087ed/modernising-corporate-reporting-consultation-document.pdf",
@@ -649,7 +742,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "intends to hold a consultation on SECR and the Energy Savings Opportunity Scheme (ESOS) later in 2026",
-      "published": "7 September 2026"
+      "published": "7 September 2026",
+      "quotes": {
+        "8.1": "intends to hold a consultation on SECR and the Energy Savings Opportunity Scheme (ESOS) later in 2026"
+      }
     },
     {
       "key": "https://assets.publishing.service.gov.uk/media/699dd3b007d7bff3604d6c5e/uk_srs_1_general_requirements_for_disclosure_of_sustainability_related_financial_information.pdf",
@@ -669,7 +765,10 @@
       "jurisdiction": "UK",
       "type": "reporting framework",
       "quote": "Information is verifiable if it is possible to corroborate either the information itself or the inputs used to derive it.",
-      "published": "25 February 2026"
+      "published": "25 February 2026",
+      "quotes": {
+        "8.6": "Information is verifiable if it is possible to corroborate either the information itself or the inputs used to derive it."
+      }
     },
     {
       "key": "https://assets.publishing.service.gov.uk/media/699ddf22532c9ad91ebbcc2b/uk_srs_s2_climate_related_disclosures.pdf",
@@ -691,7 +790,11 @@
       "jurisdiction": "UK",
       "type": "reporting framework",
       "quote": "Scope 3 greenhouse gas emissions are categorised into these 15 categories",
-      "published": "25 February 2026"
+      "published": "25 February 2026",
+      "quotes": {
+        "8.3": "Scope 3 greenhouse gas emissions are categorised into these 15 categories",
+        "8.7": "how and how often the body(s) or individual(s) is informed about climate-related risks and opportunities"
+      }
     },
     {
       "key": "https://www.gov.uk/guidance/uk-sustainability-reporting-standards",
@@ -711,7 +814,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "The standards are available for voluntary use, by any entity that chooses to do so.",
-      "published": "25 February 2026"
+      "published": "25 February 2026",
+      "quotes": {
+        "8.1": "The standards are available for voluntary use, by any entity that chooses to do so."
+      }
     },
     {
       "key": "https://assets.publishing.service.gov.uk/media/6a0dbf75faac4bc0b0e906af/2026-streamlined-energy-and-carbon-reporting-post-implementation-review.pdf",
@@ -733,7 +839,11 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "most businesses report good availability of core data",
-      "published": "26 May 2026"
+      "published": "26 May 2026",
+      "quotes": {
+        "8.2": "most businesses report good availability of core data",
+        "8.3": "intensity ratios and Scope 3 data were more challenging"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2026",
@@ -753,7 +863,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "An update is published each year, together with a methodology report explaining how they are derived",
-      "published": "11 June 2026 (updated 31 July 2026)"
+      "published": "11 June 2026 (updated 31 July 2026)",
+      "quotes": {
+        "8.6": "An update is published each year, together with a methodology report explaining how they are derived"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/streamlined-energy-and-carbon-reporting-secr-regulations-evaluation",
@@ -773,7 +886,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "large unquoted companies and LLPs that exceed the statutory thresholds for employees, turnover and balance sheet totals",
-      "published": "29 January 2026"
+      "published": "29 January 2026",
+      "quotes": {
+        "8.1": "large unquoted companies and LLPs that exceed the statutory thresholds for employees, turnover and balance sheet totals"
+      }
     },
     {
       "key": "https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting",
@@ -793,7 +909,10 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "The UK government conversion factors enable users to calculate and report greenhouse gas emissions from UK operations based on activity data.",
-      "published": "11 June 2026"
+      "published": "11 June 2026",
+      "quotes": {
+        "8.2": "The UK government conversion factors enable users to calculate and report greenhouse gas emissions from UK operations based on activity data."
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/environmental-reporting-guidelines-including-mandatory-greenhouse-gas-emissions-reporting-guidance",
@@ -813,7 +932,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "The government encourages all other companies to report similarly, although this remains voluntary.",
-      "published": "29 March 2019"
+      "published": "29 March 2019",
+      "quotes": {
+        "8.2": "The government encourages all other companies to report similarly, although this remains voluntary."
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach/white-paper",
@@ -843,7 +965,13 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "ensure effective oversight of the supply and use of AI systems, with clear lines of accountability established across the AI life cycle",
-      "published": "29 March 2023"
+      "published": "29 March 2023",
+      "quotes": {
+        "1.2": "ensure effective oversight of the supply and use of AI systems, with clear lines of accountability established across the AI life cycle",
+        "2.1": "We will not assign rules or risk levels to entire sectors or technologies.",
+        "2.7": "function reliably as intended throughout their entire life cycle",
+        "2.8": "it is important to ensure that regulatory burdens do not fall disproportionately on smaller companies"
+      }
     },
     {
       "key": "https://www.gov.uk/government/consultations/ai-regulation-a-pro-innovation-approach-policy-proposals/outcome/a-pro-innovation-approach-to-ai-regulation-government-response",
@@ -867,7 +995,12 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "It’s common for the law to allocate liability to the last actor in the chain",
-      "published": "2024-02-06"
+      "published": "2024-02-06",
+      "quotes": {
+        "1.5": "It’s common for the law to allocate liability to the last actor in the chain",
+        "1.6": "The challenges posed by AI will ultimately require legislative action in every country once understanding of risk has matured.",
+        "6.7": "Developers of these systems currently face the least clear legal responsibilities."
+      }
     },
     {
       "key": "https://www.gov.uk/government/consultations/ai-management-essentials-tool/ai-management-essentials-tool-accessible",
@@ -889,7 +1022,11 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "We have a clear, accessible and suitable AI policy for our organisation.",
-      "published": "6 November 2024"
+      "published": "6 November 2024",
+      "quotes": {
+        "1.3": "We have a clear, accessible and suitable AI policy for our organisation.",
+        "1.4": "We maintain a complete and up-to-date record of all the AI systems our organisation develops and uses."
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/ai-opportunities-action-plan/ai-opportunities-action-plan",
@@ -909,7 +1046,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "Government should ensure there are sufficient opportunities for workers to reskill",
-      "published": "2025-01-13"
+      "published": "2025-01-13",
+      "quotes": {
+        "7.1": "Government should ensure there are sufficient opportunities for workers to reskill"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/research-on-the-cyber-security-of-ai/ai-cyber-security-survey-main-report",
@@ -929,7 +1069,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "nearly half of respondents (47%) had no specific cyber security practices in place specifically for AI",
-      "published": "2024-05-15"
+      "published": "2024-05-15",
+      "quotes": {
+        "6.2": "nearly half of respondents (47%) had no specific cyber security practices in place specifically for AI"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/assuring-a-responsible-future-for-ai/assuring-a-responsible-future-for-ai",
@@ -949,7 +1092,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "Participants felt that, if assurance were delivered only by an AI developer that is profit motivated, it would not be trustworthy.",
-      "published": "2024-11-06"
+      "published": "2024-11-06",
+      "quotes": {
+        "1.7": "Participants felt that, if assurance were delivered only by an AI developer that is profit motivated, it would not be trustworthy."
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai",
@@ -989,7 +1135,20 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "shall maintain a comprehensive inventory of their assets (including their interdependencies/connectivity)",
-      "published": "31 January 2025"
+      "published": "31 January 2025",
+      "quotes": {
+        "1.4": "shall maintain a comprehensive inventory of their assets (including their interdependencies/connectivity)",
+        "1.5": "Developers and System Operators shall re-run evaluations on released models that they intend on using.",
+        "1.8": "Developers shall document and maintain a clear audit trail of their system design and post-deployment maintenance plans.",
+        "2.4": "System Operators shall log system and user actions to support security compliance, incident investigations, and vulnerability remediation.",
+        "6.1": "Threat modelling should include regular reviews and updates and address AI-specific attacks, such as data poisoning, model inversion, and membership inference.",
+        "6.2": "they shall undertake a due diligence assessment and should ensure that the provider is adhering to this Code of Practice",
+        "6.3": "an audit log of changes to system prompts or other model configuration (including prompts) that affect the underlying working of the systems",
+        "6.4": "System Operators should ensure that a known good state can be restored.",
+        "6.5": "Developers and System Operators shall create, test and maintain an AI system incident management plan and an AI system recovery plan.",
+        "6.6": "System Operators shall develop and tailor their disaster recovery plans to account for specific attacks aimed at AI systems.",
+        "6.7": "System Operators shall communicate their intention to update models to End-users in an accessible way prior to models being updated."
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/cyber-governance-code-of-practice/cyber-governance-code-of-practice",
@@ -1019,7 +1178,15 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "Agree senior ownership of cyber security risks and gain assurance that they are integrated into the organisation’s wider enterprise risk management and internal controls.",
-      "published": "8 April 2025"
+      "published": "8 April 2025",
+      "quotes": {
+        "1.1": "Agree senior ownership of cyber security risks and gain assurance that they are integrated into the organisation’s wider enterprise risk management and internal controls.",
+        "6.2": "such as the Software Security Code of Practice or the AI Cyber Security Code of Practice, should also follow the Cyber Governance Code of Practice",
+        "6.4": "Gain assurance that the organisation has a plan to respond to and recover from a cyber incident impacting business critical technology processes, information and services.",
+        "6.5": "at least annual exercising of the plan involving relevant internal and external stakeholders",
+        "6.7": "Gain assurance that supplier information is routinely assessed, proportionate to their level of risk",
+        "6.8": "Require formal reporting on at least a quarterly basis, set suitable metrics to track, and agree tolerances for each."
+      }
     },
     {
       "key": "https://www.gov.uk/government/collections/cyber-security-and-resilience-bill",
@@ -1041,7 +1208,11 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "The Bill has now completed its second reading and committee stage in the House of Commons.",
-      "published": "2024-09-30"
+      "published": "2024-09-30",
+      "quotes": {
+        "6.2": "The Bill has now completed its second reading and committee stage in the House of Commons.",
+        "6.7": "The government introduced the Cyber Security and Resilience Bill to Parliament for its first reading on 12 November 2025."
+      }
     },
     {
       "key": "https://assets.publishing.service.gov.uk/media/679cae441d14e76535afb630/Implementation_Guide_for_the_AI_Cyber_Security_Code_of_Practice.pdf",
@@ -1065,7 +1236,12 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "Integrate security into the AI system’s design phase by conducting threat modelling",
-      "published": "2025-01-31"
+      "published": "2025-01-31",
+      "quotes": {
+        "6.2": "Integrate security into the AI system’s design phase by conducting threat modelling",
+        "6.3": "Programmatic updates via pipelines have strict RBAC and approvals in place to prevent abuse.",
+        "6.4": "disable automated responses temporarily while restoring integrity"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance",
@@ -1085,7 +1261,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Contingent on the level of risk, conformity assessment activities should be undertaken by an independent third-party conformity assessment body.",
-      "published": "2024-02-12"
+      "published": "2024-02-12",
+      "quotes": {
+        "1.7": "Contingent on the level of risk, conformity assessment activities should be undertaken by an independent third-party conformity assessment body."
+      }
     },
     {
       "key": "https://www.gov.uk/guidance/portfolio-of-ai-assurance-techniques",
@@ -1105,7 +1284,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "the inclusion of a case study in the portfolio does not represent a government endorsement of the technique or the organisation",
-      "published": "2023-06-07"
+      "published": "2023-06-07",
+      "quotes": {
+        "1.7": "the inclusion of a case study in the portfolio does not represent a government endorsement of the technique or the organisation"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/regulators-strategic-approaches-to-ai/regulators-strategic-approaches-to-ai",
@@ -1125,7 +1307,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "requesting an update on how they are taking forward the White Paper proposals",
-      "published": "2024-05-01"
+      "published": "2024-05-01",
+      "quotes": {
+        "1.6": "requesting an update on how they are taking forward the White Paper proposals"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment",
@@ -1167,7 +1352,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "the quality of the goods and services provided is currently unclear",
-      "published": "2025-09-03"
+      "published": "2025-09-03",
+      "quotes": {
+        "1.7": "the quality of the goods and services provided is currently unclear"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/uk-compute-roadmap/uk-compute-roadmap",
@@ -1186,7 +1374,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "official report",
-      "quote": "The government is committed to delivering AI Growth Zones sustainably, ensuring impact on energy, water and wider environmental systems are considered and minimised."
+      "quote": "The government is committed to delivering AI Growth Zones sustainably, ensuring impact on energy, water and wider environmental systems are considered and minimised.",
+      "quotes": {
+        "8.5": "The government is committed to delivering AI Growth Zones sustainably, ensuring impact on energy, water and wider environmental systems are considered and minimised."
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/ai-adoption-research/ai-adoption-research",
@@ -1208,6 +1399,10 @@
       "jurisdiction": "UK",
       "type": "research",
       "quote": "Very few businesses said they had any internal guidelines or specific policies around using AI responsibly or ethically.",
+      "quotes": {
+        "1.3": "Very few businesses said they had any internal guidelines or specific policies around using AI responsibly or ethically.",
+        "7.7": "Very few businesses said they had any internal guidelines or specific policies around using AI responsibly or ethically."
+      },
       "published": "2026-01-28"
     },
     {
@@ -1228,7 +1423,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "11% of employers have had staff undertake training on AI in the last 12 months.",
-      "published": "2026-01-28"
+      "published": "2026-01-28",
+      "quotes": {
+        "7.1": "11% of employers have had staff undertake training on AI in the last 12 months."
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/assessment-of-ai-capabilities-and-the-impact-on-the-uk-labour-market/assessment-of-ai-capabilities-and-the-impact-on-the-uk-labour-market",
@@ -1248,7 +1446,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "Around half of exposed workers are in ‘high complementarity’ roles.",
-      "published": "2026-01-28"
+      "published": "2026-01-28",
+      "quotes": {
+        "7.6": "Around half of exposed workers are in ‘high complementarity’ roles."
+      }
     },
     {
       "key": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026",
@@ -1274,7 +1475,13 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "Formal incident response plans were less widespread (25% of businesses; 19% of charities)",
-      "published": "2026-04-30"
+      "published": "2026-04-30",
+      "quotes": {
+        "6.5": "Formal incident response plans were less widespread (25% of businesses; 19% of charities)",
+        "6.6": "A similar proportion of businesses (33%), and a smaller proportion of charities (20%) had a business continuity plan that covered cyber security.",
+        "6.7": "Just over one in ten businesses said they reviewed the risks posed by their immediate suppliers (15%)",
+        "6.8": "More than two-thirds of large businesses (68%) had a board member responsible for cyber security compared with 31% of businesses overall."
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/report-and-impact-assessment-on-copyright-and-artificial-intelligence/report-on-copyright-and-artificial-intelligence",
@@ -1309,7 +1516,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "official report",
-      "quote": "to address the growing energy demands of AI in the UK"
+      "quote": "to address the growing energy demands of AI in the UK",
+      "quotes": {
+        "8.5": "to address the growing energy demands of AI in the UK"
+      }
     },
     {
       "key": "https://www.drcf.org.uk/ai-and-digital-hub",
@@ -1328,7 +1538,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "AI and Digital Hub was a one-year pilot that is now closed for queries."
+      "quote": "AI and Digital Hub was a one-year pilot that is now closed for queries.",
+      "quotes": {
+        "1.6": "AI and Digital Hub was a one-year pilot that is now closed for queries."
+      }
     },
     {
       "key": "https://www.efrag.org/en/projects/voluntary-reporting-standard-for-smes-vsme/concluded",
@@ -1347,7 +1560,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "code or standard",
-      "quote": "On 17 December 2024, EFRAG delivered the VSME Standard along with the rest of the package to the European Commission."
+      "quote": "On 17 December 2024, EFRAG delivered the VSME Standard along with the rest of the package to the European Commission.",
+      "quotes": {
+        "8.2": "On 17 December 2024, EFRAG delivered the VSME Standard along with the rest of the package to the European Commission."
+      }
     },
     {
       "key": "https://www.efrag.org/sites/default/files/sites/webpublishing/SiteAssets/VSME%20Standard.pdf",
@@ -1373,7 +1589,13 @@
       "jurisdiction": "EU",
       "type": "code or standard",
       "quote": "The undertaking shall disclose its GHG intensity calculated by dividing",
-      "published": "December 2024"
+      "published": "December 2024",
+      "quotes": {
+        "8.2": "The undertaking shall disclose its GHG intensity calculated by dividing",
+        "8.3": "The undertaking may indicate, if any, the most senior level of the undertaking accountable for implementing them.",
+        "8.6": "The undertaking shall report information that is relevant, faithful, comparable, understandable and verifiable.",
+        "8.7": "You may indicate the highest senior level in the undertaking accountable for implementing them [if any]"
+      }
     },
     {
       "key": "https://www.etsi.org/deliver/etsi_ts/104200_104299/104223/01.01.01_60/ts_104223v010101p.pdf",
@@ -1395,7 +1617,11 @@
       "jurisdiction": "International",
       "type": "code or standard",
       "quote": "should use independent security testers with",
-      "published": "2025-04"
+      "published": "2025-04",
+      "quotes": {
+        "6.2": "should use independent security testers with",
+        "6.3": "identify appropriate measures to secure APIs, models, data, and training and processing pipelines"
+      }
     },
     {
       "key": "https://arxiv.org/pdf/2304.11771",
@@ -1415,7 +1641,10 @@
       "jurisdiction": "US",
       "type": "research",
       "quote": "Access to AI assistance increases worker productivity, as measured by issues resolved per hour, by 15% on average",
-      "published": "2024-11-07"
+      "published": "2024-11-07",
+      "quotes": {
+        "7.6": "Access to AI assistance increases worker productivity, as measured by issues resolved per hour, by 15% on average"
+      }
     },
     {
       "key": "https://arxiv.org/pdf/2201.04200",
@@ -1434,7 +1663,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "US",
       "type": "research",
-      "quote": "when AI is focused on augmenting humans rather than mimicking them, then humans retain the power to insist on a share of the value created"
+      "quote": "when AI is focused on augmenting humans rather than mimicking them, then humans retain the power to insist on a share of the value created",
+      "quotes": {
+        "7.6": "when AI is focused on augmenting humans rather than mimicking them, then humans retain the power to insist on a share of the value created"
+      }
     },
     {
       "key": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
@@ -1455,7 +1687,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "regulator guidance",
-      "quote": "Article 4 of the AI Act does not entail an obligation to measure the knowledge of AI of employees."
+      "quote": "Article 4 of the AI Act does not entail an obligation to measure the knowledge of AI of employees.",
+      "quotes": {
+        "7.1": "Article 4 of the AI Act does not entail an obligation to measure the knowledge of AI of employees.",
+        "7.2": "Relying on the instructions of use is therefore not sufficient, further measures are necessary."
+      }
     },
     {
       "key": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
@@ -1475,7 +1711,10 @@
       "jurisdiction": "EU",
       "type": "official report",
       "quote": "helping more businesses benefit from a proportionate approach",
-      "published": "27 July 2026"
+      "published": "27 July 2026",
+      "quotes": {
+        "2.8": "helping more businesses benefit from a proportionate approach"
+      }
     },
     {
       "key": "https://ec.europa.eu/finance/docs/level-2-measures/csrd-delegated-act-2026-5011_en.pdf",
@@ -1495,7 +1734,10 @@
       "jurisdiction": "EU",
       "type": "official report",
       "quote": "protected undertakings have a statutory right to refuse to provide information exceeding those limits",
-      "published": "3 July 2026"
+      "published": "3 July 2026",
+      "quotes": {
+        "8.4": "protected undertakings have a statutory right to refuse to provide information exceeding those limits"
+      }
     },
     {
       "key": "https://ec.europa.eu/finance/docs/level-2-measures/csrd-staff-working-document-2026-500_en.pdf",
@@ -1521,7 +1763,13 @@
       "jurisdiction": "EU",
       "type": "official report",
       "quote": "reducing the number of companies in scope by about 85%",
-      "published": "3 July 2026"
+      "published": "3 July 2026",
+      "quotes": {
+        "8.1": "reducing the number of companies in scope by about 85%",
+        "8.2": "followed by significantly lower recurring costs in the following years",
+        "8.3": "The VSME CBA was developed for a population of undertakings with up to 250 employees.",
+        "8.4": "Only essential disclosures are covered by the value chain cap"
+      }
     },
     {
       "key": "https://ec.europa.eu/newsroom/dae/redirection/document/119624",
@@ -1541,7 +1789,10 @@
       "jurisdiction": "EU",
       "type": "regulator guidance",
       "quote": "Immediately should be understood as within 24 hours.",
-      "published": "26 September 2025"
+      "published": "26 September 2025",
+      "quotes": {
+        "2.6": "Immediately should be understood as within 24 hours."
+      }
     },
     {
       "key": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
@@ -1610,7 +1861,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "regulator guidance",
-      "quote": "making implementation easier for an additional 8,250 companies in Europe"
+      "quote": "making implementation easier for an additional 8,250 companies in Europe",
+      "quotes": {
+        "2.8": "making implementation easier for an additional 8,250 companies in Europe"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3",
@@ -1631,7 +1885,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "AI systems intended to be used for the recruitment or selection of natural persons"
+      "quote": "AI systems intended to be used for the recruitment or selection of natural persons",
+      "quotes": {
+        "2.1": "AI systems intended to be used for the recruitment or selection of natural persons",
+        "5.1": "AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111",
@@ -1652,7 +1910,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "shall take the necessary steps to comply with the requirements and obligations laid down in this Regulation by 2 August 2030"
+      "quote": "shall take the necessary steps to comply with the requirements and obligations laid down in this Regulation by 2 August 2030",
+      "quotes": {
+        "2.3": "shall take the necessary steps to comply with the requirements and obligations laid down in this Regulation by 2 August 2030"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
@@ -1681,7 +1942,15 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "It shall apply from 2 August 2026."
+      "quote": "It shall apply from 2 August 2026.",
+      "quotes": {
+        "1.3": "It shall apply from 2 August 2026.",
+        "1.6": "2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III",
+        "2.1": "which shall apply from 2 December 2026",
+        "2.4": "Chapter III, Sections 1, 2, and 3, with the exception of Article 6(5), shall apply from:",
+        "2.6": "2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III",
+        "7.2": "2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III; and"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-11",
@@ -1700,7 +1969,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "may provide the elements of the technical documentation specified in Annex IV in a simplified manner"
+      "quote": "may provide the elements of the technical documentation specified in Annex IV in a simplified manner",
+      "quotes": {
+        "2.8": "may provide the elements of the technical documentation specified in Annex IV in a simplified manner"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-13",
@@ -1719,7 +1991,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "High-risk AI systems shall be accompanied by instructions for use"
+      "quote": "High-risk AI systems shall be accompanied by instructions for use",
+      "quotes": {
+        "2.4": "High-risk AI systems shall be accompanied by instructions for use"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14",
@@ -1740,7 +2015,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state"
+      "quote": "interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state",
+      "quotes": {
+        "6.4": "interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state",
+        "7.3": "that they can be effectively overseen by natural persons during the period in which they are in use"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-15",
@@ -1759,7 +2038,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "attacks trying to manipulate the training data set (data poisoning)"
+      "quote": "attacks trying to manipulate the training data set (data poisoning)",
+      "quotes": {
+        "6.1": "attacks trying to manipulate the training data set (data poisoning)"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-25",
@@ -1778,7 +2060,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "they modify the intended purpose of an AI system, including a general-purpose AI system, which has not been classified as high-risk"
+      "quote": "they modify the intended purpose of an AI system, including a general-purpose AI system, which has not been classified as high-risk",
+      "quotes": {
+        "2.4": "they modify the intended purpose of an AI system, including a general-purpose AI system, which has not been classified as high-risk"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26",
@@ -1815,7 +2100,18 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support."
+      "quote": "Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.",
+      "quotes": {
+        "1.2": "Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.",
+        "1.8": "Deployers of high-risk AI systems shall keep the logs automatically generated by that high-risk AI system to the extent such logs are under their control",
+        "2.3": "deployers of high-risk AI systems shall use the information provided under Article 13 of this Regulation to comply with their obligation",
+        "2.4": "for a period appropriate to the intended purpose of the high-risk AI system, of at least six months",
+        "2.6": "they shall, without undue delay, inform the provider or distributor and the relevant market surveillance authority, and shall suspend the use of that system",
+        "2.7": "Deployers shall monitor the operation of the high-risk AI system on the basis of the instructions for use",
+        "7.2": "Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.",
+        "7.4": "deployers who are employers shall inform workers’ representatives and the affected workers that they will be subject to the use of the high-risk AI system",
+        "7.5": "deployers who are employers shall inform workers’ representatives and the affected workers that they will be subject to the use of the high-risk AI system"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27",
@@ -1837,6 +2133,10 @@
       "jurisdiction": "EU",
       "type": "legislation",
       "quote": "Prior to deploying a high-risk AI system referred to in Article 6(2)",
+      "quotes": {
+        "2.3": "Prior to deploying a high-risk AI system referred to in Article 6(2)",
+        "5.4": "include cross-references to the relevant sections of that data protection impact assessment"
+      },
       "published": "2024-06-13"
     },
     {
@@ -1856,7 +2156,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "where the output produced by the AI system is used in the Union"
+      "quote": "where the output produced by the AI system is used in the Union",
+      "quotes": {
+        "2.1": "where the output produced by the AI system is used in the Union"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-3",
@@ -1875,7 +2178,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "an incident or malfunctioning of an AI system that directly or indirectly leads to any of the following"
+      "quote": "an incident or malfunctioning of an AI system that directly or indirectly leads to any of the following",
+      "quotes": {
+        "2.6": "an incident or malfunctioning of an AI system that directly or indirectly leads to any of the following"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-49",
@@ -1894,7 +2200,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "shall register themselves, select the system and register its use in the EU database referred to in Article 71"
+      "quote": "shall register themselves, select the system and register its use in the EU database referred to in Article 71",
+      "quotes": {
+        "1.4": "shall register themselves, select the system and register its use in the EU database referred to in Article 71"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4",
@@ -1913,7 +2222,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "This obligation does not require providers or deployers to guarantee any specific level of AI literacy of any individual."
+      "quote": "This obligation does not require providers or deployers to guarantee any specific level of AI literacy of any individual.",
+      "quotes": {
+        "7.1": "This obligation does not require providers or deployers to guarantee any specific level of AI literacy of any individual."
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5",
@@ -1934,7 +2246,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "The following AI practices shall be prohibited:"
+      "quote": "The following AI practices shall be prohibited:",
+      "quotes": {
+        "2.1": "The following AI practices shall be prohibited:",
+        "2.2": "to infer emotions of a natural person in the areas of workplace and education institutions"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-63",
@@ -1953,7 +2269,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "without affecting the level of protection or the need for compliance with the requirements in respect of high-risk AI systems"
+      "quote": "without affecting the level of protection or the need for compliance with the requirements in respect of high-risk AI systems",
+      "quotes": {
+        "2.8": "without affecting the level of protection or the need for compliance with the requirements in respect of high-risk AI systems"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-6",
@@ -1972,7 +2291,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "AI systems referred to in Annex III shall be considered to be high-risk"
+      "quote": "AI systems referred to in Annex III shall be considered to be high-risk",
+      "quotes": {
+        "2.1": "AI systems referred to in Annex III shall be considered to be high-risk"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-72",
@@ -1991,7 +2313,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "actively and systematically collect, document and analyse relevant data"
+      "quote": "actively and systematically collect, document and analyse relevant data",
+      "quotes": {
+        "2.7": "actively and systematically collect, document and analyse relevant data"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-73",
@@ -2012,7 +2337,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "not later than 15 days after the provider or, where applicable, the deployer, becomes aware of the serious incident"
+      "quote": "not later than 15 days after the provider or, where applicable, the deployer, becomes aware of the serious incident",
+      "quotes": {
+        "2.6": "not later than 15 days after the provider or, where applicable, the deployer, becomes aware of the serious incident",
+        "6.5": "Providers of high-risk AI systems placed on the Union market shall report any serious incident to the market surveillance authorities"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99",
@@ -2035,7 +2364,12 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "administrative fines of up to EUR 35 000 000"
+      "quote": "administrative fines of up to EUR 35 000 000",
+      "quotes": {
+        "2.2": "administrative fines of up to EUR 35 000 000",
+        "2.4": "obligations of deployers pursuant to Article 26",
+        "2.8": "The Member States shall take into account the interests of SMEs, including start-ups, and SMCs, and their economic viability when imposing penalties."
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-9",
@@ -2056,7 +2390,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "the overall residual risk of the high-risk AI systems is judged to be acceptable"
+      "quote": "the overall residual risk of the high-risk AI systems is judged to be acceptable",
+      "quotes": {
+        "2.5": "the overall residual risk of the high-risk AI systems is judged to be acceptable",
+        "2.7": "a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-96",
@@ -2075,7 +2413,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "legislation",
-      "quote": "After performing that impact assessment, the deployer should notify the relevant market surveillance authority."
+      "quote": "After performing that impact assessment, the deployer should notify the relevant market surveillance authority.",
+      "quotes": {
+        "2.3": "After performing that impact assessment, the deployer should notify the relevant market surveillance authority."
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
@@ -2096,7 +2437,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "EU",
       "type": "regulator guidance",
-      "quote": "The timeline takes into account the AI Act amendments introduced by Digital Omnibus on AI."
+      "quote": "The timeline takes into account the AI Act amendments introduced by Digital Omnibus on AI.",
+      "quotes": {
+        "7.1": "The timeline takes into account the AI Act amendments introduced by Digital Omnibus on AI.",
+        "7.3": "02 Dec 2027 Rules for high-risk AI systems in Annex III apply"
+      }
     },
     {
       "key": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-11",
@@ -2116,7 +2461,10 @@
       "jurisdiction": "EU",
       "type": "legislation",
       "quote": "where the energy consumption of the model is unknown, the energy consumption may be based on information about computational resources used",
-      "published": "13 June 2024"
+      "published": "13 June 2024",
+      "quotes": {
+        "8.5": "where the energy consumption of the model is unknown, the energy consumption may be based on information about computational resources used"
+      }
     },
     {
       "key": "https://finance.ec.europa.eu/news/commission-adopts-revised-sustainability-reporting-standards-2026-07-03_en",
@@ -2138,7 +2486,11 @@
       "jurisdiction": "EU",
       "type": "regulator guidance",
       "quote": "The voluntary reporting standard provides a single, proportionate reference framework for sustainability reporting by smaller companies outside the scope of the CSRD.",
-      "published": "3 July 2026"
+      "published": "3 July 2026",
+      "quotes": {
+        "8.2": "The voluntary reporting standard provides a single, proportionate reference framework for sustainability reporting by smaller companies outside the scope of the CSRD.",
+        "8.4": "companies subject to the CSRD cannot require companies in their value chains to provide more information than is covered by the voluntary standard"
+      }
     },
     {
       "key": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
@@ -2158,7 +2510,10 @@
       "jurisdiction": "EU",
       "type": "regulator guidance",
       "quote": "EU law requires companies above a certain size to disclose information on what they see as the risks and opportunities",
-      "published": "3 July 2026"
+      "published": "3 July 2026",
+      "quotes": {
+        "8.1": "EU law requires companies above a certain size to disclose information on what they see as the risks and opportunities"
+      }
     },
     {
       "key": "https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/corporate-sustainability-reporting-directive_en",
@@ -2178,7 +2533,10 @@
       "jurisdiction": "EU",
       "type": "regulator guidance",
       "quote": "for voluntary use by undertakings protected by the value chain cap (not in force until it is published in the Official Journal)",
-      "published": "3 July 2026"
+      "published": "3 July 2026",
+      "quotes": {
+        "8.4": "for voluntary use by undertakings protected by the value chain cap (not in force until it is published in the Official Journal)"
+      }
     },
     {
       "key": "https://www.edpb.europa.eu/system/files/2026-02/edpb_cef-report_2025_right-to-erasure_en.pdf",
@@ -2198,7 +2556,10 @@
       "jurisdiction": "EU",
       "type": "official report",
       "quote": "a total of 764 controllers responded to the questionnaire",
-      "published": "2026-02-10"
+      "published": "2026-02-10",
+      "quotes": {
+        "5.7": "a total of 764 controllers responded to the questionnaire"
+      }
     },
     {
       "key": "https://www.edpb.europa.eu/system/files/2024-12/edpb_opinion_202428_ai-models_en.pdf",
@@ -2222,7 +2583,12 @@
       "jurisdiction": "EU",
       "type": "regulator guidance",
       "quote": "the GDPR does not establish any hierarchy between the different legal bases laid down in Article 6(1) GDPR",
-      "published": "2024-12-17"
+      "published": "2024-12-17",
+      "quotes": {
+        "5.3": "the GDPR does not establish any hierarchy between the different legal bases laid down in Article 6(1) GDPR",
+        "5.5": "The EDPB recalls the prohibition of Article 9(1) GDPR",
+        "5.7": "By default, SAs should consider that AI models are likely to require a thorough evaluation of the likelihood of identification"
+      }
     },
     {
       "key": "https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/airline_operators/airline_safety/SAFO13002.pdf",
@@ -2242,7 +2608,10 @@
       "jurisdiction": "US",
       "type": "regulator guidance",
       "quote": "continuous use of autoflight systems could lead to degradation of the pilot’s ability to quickly recover the aircraft from an undesired state",
-      "published": "2013-01-04"
+      "published": "2013-01-04",
+      "quotes": {
+        "7.8": "continuous use of autoflight systems could lead to degradation of the pilot’s ability to quickly recover the aircraft from an undesired state"
+      }
     },
     {
       "key": "https://www.fca.org.uk/publication/corporate/ai-update.pdf",
@@ -2262,7 +2631,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "management accountability and is relevant to the safe and responsible use of AI",
-      "published": "22 April 2024"
+      "published": "22 April 2024",
+      "quotes": {
+        "1.2": "management accountability and is relevant to the safe and responsible use of AI"
+      }
     },
     {
       "key": "https://www.fca.org.uk/firms/innovation/ai-approach",
@@ -2282,7 +2654,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "We do not plan to introduce extra regulations for AI.",
-      "published": "2025-09-08"
+      "published": "2025-09-08",
+      "quotes": {
+        "1.6": "We do not plan to introduce extra regulations for AI."
+      }
     },
     {
       "key": "https://www.fca.org.uk/firms/critical-third-parties-strengthening-uk-financial-services",
@@ -2302,7 +2677,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Firms remain responsible for managing their own third-party risks in line with our existing operational resilience and outsourcing requirements.",
-      "published": "2026-07-10"
+      "published": "2026-07-10",
+      "quotes": {
+        "6.6": "Firms remain responsible for managing their own third-party risks in line with our existing operational resilience and outsourcing requirements."
+      }
     },
     {
       "key": "https://www.fca.org.uk/firms/operational-resilience/crowdstrike-outage-lessons-operational-resilience",
@@ -2322,7 +2700,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "Firms reflected on the need to identify single points of failure within their infrastructure and technology stack",
-      "published": "2024-10-31"
+      "published": "2024-10-31",
+      "quotes": {
+        "6.6": "Firms reflected on the need to identify single points of failure within their infrastructure and technology stack"
+      }
     },
     {
       "key": "https://handbook.fca.org.uk/handbook/sysc15a",
@@ -2343,7 +2724,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "in the event of a severe but plausible disruption to its operations"
+      "quote": "in the event of a severe but plausible disruption to its operations",
+      "quotes": {
+        "6.6": "in the event of a severe but plausible disruption to its operations",
+        "6.8": "A firm must ensure that its governing body approves and regularly reviews the written records required under"
+      }
     },
     {
       "key": "https://www.fca.org.uk/news/statements/fca-boe-treasury-joint-statement-frontier-ai-models-cyber-resilience",
@@ -2363,7 +2748,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Firms should ensure their boards and senior management have sufficient understanding of frontier AI risks.",
-      "published": "2026-05-15"
+      "published": "2026-05-15",
+      "quotes": {
+        "6.8": "Firms should ensure their boards and senior management have sufficient understanding of frontier AI risks."
+      }
     },
     {
       "key": "https://www.fca.org.uk/firms/operational-resilience",
@@ -2382,7 +2770,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "Firms in scope of our operational resilience rules had until 31 March 2025"
+      "quote": "Firms in scope of our operational resilience rules had until 31 March 2025",
+      "quotes": {
+        "6.6": "Firms in scope of our operational resilience rules had until 31 March 2025"
+      }
     },
     {
       "key": "https://www.fca.org.uk/publications/policy-statements/ps26-19-aligning-listed-issuers-sustainability-disclosures-international-standards",
@@ -2402,7 +2793,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "The new rules apply to accounting periods starting on or after 1 January 2027, with first reporting in 2028.",
-      "published": "30 September 2026"
+      "published": "30 September 2026",
+      "quotes": {
+        "8.1": "The new rules apply to accounting periods starting on or after 1 January 2027, with first reporting in 2028."
+      }
     },
     {
       "key": "https://www.fca.org.uk/publication/policy/ps26-19.pdf",
@@ -2422,7 +2816,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "many issuers face challenges accessing the data needed to make Scope 3 emissions disclosures",
-      "published": "30 September 2026"
+      "published": "30 September 2026",
+      "quotes": {
+        "8.3": "many issuers face challenges accessing the data needed to make Scope 3 emissions disclosures"
+      }
     },
     {
       "key": "https://www.fca.org.uk/publications/policy-statements/ps26-2-operational-incident-third-party-reporting",
@@ -2442,7 +2839,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "created single FCA, PRA and Bank of England regulatory regimes for operational incident and third party reporting",
-      "published": "2026-03-18"
+      "published": "2026-03-18",
+      "quotes": {
+        "6.5": "created single FCA, PRA and Bank of England regulatory regimes for operational incident and third party reporting"
+      }
     },
     {
       "key": "https://www.fca.org.uk/publication/correspondence/sll-letter-june-2023.pdf",
@@ -2462,7 +2862,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "Small savings on margins may be outweighed by costs and negotiation time with lenders or legal advisors.",
-      "published": "29 June 2023"
+      "published": "29 June 2023",
+      "quotes": {
+        "8.8": "Small savings on margins may be outweighed by costs and negotiation time with lenders or legal advisors."
+      }
     },
     {
       "key": "https://www.frc.org.uk/documents/8893/Annual_Review_of_Corporate_Governance_Reporting_2025.pdf",
@@ -2486,7 +2889,12 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "This year, we found that figure rose to 86% of companies",
-      "published": "November 2025"
+      "published": "November 2025",
+      "quotes": {
+        "1.1": "This year, we found that figure rose to 86% of companies",
+        "1.3": "It is important that there are clear policies and procedures that are embedded across all levels of the organisation.",
+        "6.8": "40 companies did not report on the outcome."
+      }
     },
     {
       "key": "https://www.frc.org.uk/documents/7963/Assurance_of_Sustainability_Reporting_Market_Study_Final_Report.pdf",
@@ -2506,7 +2914,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "83% of assurance engagements for FTSE 350 companies in 2023 involved limited assurance",
-      "published": "February 2025"
+      "published": "February 2025",
+      "quotes": {
+        "8.6": "83% of assurance engagements for FTSE 350 companies in 2023 involved limited assurance"
+      }
     },
     {
       "key": "https://www.frc.org.uk/documents/3561/Thematic_review_of_climate-related_metrics_and_targets_2023.pdf",
@@ -2526,7 +2937,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "We also encourage companies to be transparent about data limitations, including explanations of estimations and areas where it is not feasible to collect data.",
-      "published": "July 2023"
+      "published": "July 2023",
+      "quotes": {
+        "8.6": "We also encourage companies to be transparent about data limitations, including explanations of estimations and areas where it is not feasible to collect data."
+      }
     },
     {
       "key": "https://www.frc.org.uk/library/standards-codes-policy/corporate-governance/corporate-governance-code-guidance",
@@ -2550,7 +2964,12 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "The board retains ultimate responsibility for the risk management and internal control framework",
-      "published": "29 January 2024"
+      "published": "29 January 2024",
+      "quotes": {
+        "1.1": "The board retains ultimate responsibility for the risk management and internal control framework",
+        "2.2": "The board, supported by its committees and based on the recommendations from the management, should approve the company’s risk appetite",
+        "6.8": "The board can only provide a reasonable conclusion regarding the effectiveness of the controls, based on the work carried out and evidence obtained."
+      }
     },
     {
       "key": "https://media.frc.org.uk/documents/The_Wates_Corporate_Governance_Principles_for_Large_Private_Companies.pdf",
@@ -2572,7 +2991,11 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "The terms of each committee should be set out including authorities delegated to it.",
-      "published": "December 2018"
+      "published": "December 2018",
+      "quotes": {
+        "1.1": "The terms of each committee should be set out including authorities delegated to it.",
+        "1.3": "A company should set out policies and practices that govern the internal affairs of the company."
+      }
     },
     {
       "key": "https://www.frc.org.uk/documents/7931/Climate-related_Financial_Disclosures_by_AIM_and_Large_Private_Companies.pdf",
@@ -2592,7 +3015,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "the extent of the integration of the climate governance process with the company’s overall governance process was often unclear",
-      "published": "January 2025"
+      "published": "January 2025",
+      "quotes": {
+        "8.7": "the extent of the integration of the climate governance process with the company’s overall governance process was often unclear"
+      }
     },
     {
       "key": "https://www.frc.org.uk/documents/6709/UK_Corporate_Governance_Code_2024_a2hmQmY.pdf",
@@ -2630,7 +3056,18 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "The monitoring and review should cover all material controls, including financial, operational, reporting and compliance controls.",
-      "published": "January 2024"
+      "published": "January 2024",
+      "quotes": {
+        "1.1": "The monitoring and review should cover all material controls, including financial, operational, reporting and compliance controls.",
+        "1.3": "The board should ensure that the necessary resources, policies and practices are in place for the company to meet its objectives",
+        "1.6": "The board should explain what procedures are in place to identify and manage emerging risks.",
+        "1.7": "where there is no internal audit function, an explanation for the absence, how internal assurance is achieved",
+        "2.2": "determine the nature and extent of the principal risks the company is willing to take in order to achieve its long-term strategic objectives",
+        "6.8": "a declaration of effectiveness of the material controls as at the balance sheet date",
+        "7.4": "have been considered in board discussions and decision-making",
+        "7.5": "The board should keep engagement mechanisms under review so that they remain effective.",
+        "8.7": "ensure that the necessary resources, policies and practices are in place for the company to meet its objectives and measure performance against them"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/algorithmic-transparency-recording-standard-mandatory-scope-and-exemptions-policy/algorithmic-transparency-recording-standard-atrs-mandatory-scope-and-exemptions-policy",
@@ -2652,7 +3089,10 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "‘Significant influence’ includes where an algorithmic tool meaningfully assists, supplements, or fully automates a decision-making process.",
-      "published": "2024-12-17"
+      "published": "2024-12-17",
+      "quotes": {
+        "5.1": "‘Significant influence’ includes where an algorithmic tool meaningfully assists, supplements, or fully automates a decision-making process."
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard/algorithmic-transparency-recording-standard-guidance-for-public-sector-bodies",
@@ -2676,7 +3116,12 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "It is mandatory for all government departments, and for ALBs which deliver public or frontline services, or directly interact with the general public.",
-      "published": "8 May 2025"
+      "published": "8 May 2025",
+      "quotes": {
+        "1.4": "It is mandatory for all government departments, and for ALBs which deliver public or frontline services, or directly interact with the general public.",
+        "1.8": "Enable senior responsible owners to take meaningful accountability for algorithmic tools and their outputs",
+        "2.3": "This section should provide information on impact assessments conducted, identified risks, and mitigation efforts."
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html",
@@ -2708,7 +3153,16 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "You should manage governance of AI through an AI governance board or AI expert representation on an existing governance board.",
-      "published": "10 February 2025"
+      "published": "10 February 2025",
+      "quotes": {
+        "1.1": "You should manage governance of AI through an AI governance board or AI expert representation on an existing governance board.",
+        "1.2": "Nominate a senior responsible owner (SRO) who will be accountable for the use of AI in a specific project.",
+        "1.4": "A live inventory will help your team, your organisation and your stakeholders understand the scope and scale of AI usage.",
+        "1.5": "the same between AI systems developed in-house and those procured from a third party",
+        "7.1": "You should understand the technical and ethical requirements for using AI tools and have them in place within your team.",
+        "7.3": "This includes ensuring that humans validate any high-risk decisions influenced by AI and that you have strategies for meaningful intervention.",
+        "7.7": "you cannot easily control the data input to the models"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework",
@@ -2743,7 +3197,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "code or standard",
-      "quote": "users of this specification are strongly advised to request such data from their suppliers"
+      "quote": "users of this specification are strongly advised to request such data from their suppliers",
+      "quotes": {
+        "8.5": "users of this specification are strongly advised to request such data from their suppliers"
+      }
     },
     {
       "key": "https://ghgprotocol.org/sites/default/files/standards/Corporate-Value-Chain-Accounting-Reporing-Standard_041613_2.pdf",
@@ -2764,7 +3221,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "code or standard",
-      "quote": "This standard categorizes scope 3 emissions into 15 distinct categories"
+      "quote": "This standard categorizes scope 3 emissions into 15 distinct categories",
+      "quotes": {
+        "8.3": "This standard categorizes scope 3 emissions into 15 distinct categories",
+        "8.5": "Products include both goods (tangible products) and services (intangible products)."
+      }
     },
     {
       "key": "https://ghgprotocol.org/sites/default/files/standards/ghg-protocol-revised.pdf",
@@ -2783,7 +3244,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "code or standard",
-      "quote": "A quality management system provides a systematic process for preventing and correcting errors"
+      "quote": "A quality management system provides a systematic process for preventing and correcting errors",
+      "quotes": {
+        "8.6": "A quality management system provides a systematic process for preventing and correcting errors"
+      }
     },
     {
       "key": "https://assets.publishing.service.gov.uk/media/67161e8696def6d27a4c9ab3/environmental-reporting-guidance-secr-march-2019.pdf",
@@ -2805,7 +3269,11 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "You are not required to report on other emissions associated with inputs into your company (such as emissions from your supply chain)",
-      "published": "March 2019"
+      "published": "March 2019",
+      "quotes": {
+        "8.5": "You are not required to report on other emissions associated with inputs into your company (such as emissions from your supply chain)",
+        "8.6": "organisations must use verifiable data where reasonably practicable"
+      }
     },
     {
       "key": "https://assets.publishing.service.gov.uk/media/6453acadc33b460012f5e6b8/HMT_Orange_Book_May_2023.pdf",
@@ -2827,7 +3295,11 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "retaining the risk by informed decision",
-      "published": "May 2023"
+      "published": "May 2023",
+      "quotes": {
+        "2.5": "retaining the risk by informed decision",
+        "2.7": "Monitoring should play a role before, during and after implementation of risk treatment."
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/orange-book/the-orange-book-management-of-risk-principles-and-concepts",
@@ -2846,7 +3318,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "code or standard",
-      "quote": "The board should determine and continuously assess the nature and extent of the principal risks"
+      "quote": "The board should determine and continuously assess the nature and extent of the principal risks",
+      "quotes": {
+        "2.2": "The board should determine and continuously assess the nature and extent of the principal risks"
+      }
     },
     {
       "key": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf",
@@ -2866,7 +3341,10 @@
       "jurisdiction": "International",
       "type": "research",
       "quote": "you deprive the user of the routine opportunities to practice their judgement",
-      "published": "2025-04"
+      "published": "2025-04",
+      "quotes": {
+        "7.8": "you deprive the user of the routine opportunities to practice their judgement"
+      }
     },
     {
       "key": "https://www.hse.gov.uk/humanfactors/topics/competence.htm",
@@ -2885,7 +3363,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "There should be refresher training for infrequent, complex or safety critical tasks and this may include appropriate reassessment"
+      "quote": "There should be refresher training for infrequent, complex or safety critical tasks and this may include appropriate reassessment",
+      "quotes": {
+        "7.8": "There should be refresher training for infrequent, complex or safety critical tasks and this may include appropriate reassessment"
+      }
     },
     {
       "key": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2023/1897",
@@ -2905,7 +3386,10 @@
       "jurisdiction": "UK",
       "type": "court or tribunal",
       "quote": "it is for directors themselves to determine (acting in good faith) how best to promote the success of a company",
-      "published": "24 July 2023"
+      "published": "24 July 2023",
+      "quotes": {
+        "8.7": "it is for directors themselves to determine (acting in good faith) how best to promote the success of a company"
+      }
     },
     {
       "key": "https://ico.org.uk/media2/pyophl0h/guide-to-data-protection-audits.pdf",
@@ -2925,7 +3409,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Prior to the audit we will request necessary policies and procedures that relate to the agreed scope areas from the organisation being audited.",
-      "published": "2026-02"
+      "published": "2026-02",
+      "quotes": {
+        "5.8": "Prior to the audit we will request necessary policies and procedures that relate to the agreed scope areas from the organisation being audited."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/recognised-legitimate-interest",
@@ -2945,7 +3432,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "You can’t use recognised legitimate interest as your lawful basis if you want to make significant decisions about someone based solely on automated processing.",
-      "published": "2026-03-23"
+      "published": "2026-03-23",
+      "quotes": {
+        "5.3": "You can’t use recognised legitimate interest as your lawful basis if you want to make significant decisions about someone based solely on automated processing."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation",
@@ -2964,7 +3454,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "You should periodically review your processing to check that the personal data you hold is still relevant and adequate for your purposes"
+      "quote": "You should periodically review your processing to check that the personal data you hold is still relevant and adequate for your purposes",
+      "quotes": {
+        "5.6": "You should periodically review your processing to check that the personal data you hold is still relevant and adequate for your purposes"
+      }
     },
     {
       "key": "https://ico.org.uk/about-the-ico/our-information/our-strategies-and-plans/artificial-intelligence-and-biometrics-strategy",
@@ -3026,7 +3519,11 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "AI providers had completed DPIAs retrospectively or just prior to the audit",
-      "published": "2024-11"
+      "published": "2024-11",
+      "quotes": {
+        "5.4": "AI providers had completed DPIAs retrospectively or just prior to the audit",
+        "5.6": "Do not retain personal information indefinitely, or just in case it is useful in the future."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards",
@@ -3052,7 +3549,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "You must apply the safeguards consistently rather than on an ad hoc discretionary basis.",
-      "published": "31 March 2026"
+      "published": "31 March 2026",
+      "quotes": {
+        "5.2": "You must apply the safeguards consistently rather than on an ad hoc discretionary basis."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-does-the-uk-gdpr-say-about-adm",
@@ -3076,7 +3576,12 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "have discretion and authority to alter the decision",
-      "published": "31 March 2026"
+      "published": "31 March 2026",
+      "quotes": {
+        "1.2": "have discretion and authority to alter the decision",
+        "5.1": "You should keep a record of how the human was involved in the decision.",
+        "7.2": "be suitably trained and qualified to understand the system’s logic, outputs, limitations, and risks; and"
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/when-can-we-use-special-category-data-in-our-adm",
@@ -3114,7 +3619,11 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "A DPIA can help you decide whether or not the ADM provisions are likely to apply to your intended processing in the first place.",
-      "published": "2026-03-31"
+      "published": "2026-03-31",
+      "quotes": {
+        "5.1": "A DPIA can help you decide whether or not the ADM provisions are likely to apply to your intended processing in the first place.",
+        "5.2": "monitoring aspects of a system’s performance, such as its statistical accuracy, is not human intervention"
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/biometric-data-guidance-biometric-recognition/how-do-we-process-biometric-data-lawfully",
@@ -3134,7 +3643,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "If you can’t identify a valid condition, you must not use special category biometric data.",
-      "published": "2024-02-23"
+      "published": "2024-02-23",
+      "quotes": {
+        "5.5": "If you can’t identify a valid condition, you must not use special category biometric data."
+      }
     },
     {
       "key": "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025",
@@ -3153,7 +3665,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "All the provisions affecting data protection law and the Privacy and Electronic Regulations Communications are now in force."
+      "quote": "All the provisions affecting data protection law and the Privacy and Electronic Regulations Communications are now in force.",
+      "quotes": {
+        "1.6": "All the provisions affecting data protection law and the Privacy and Electronic Regulations Communications are now in force."
+      }
     },
     {
       "key": "https://ico.org.uk/about-the-ico/our-information/policies-and-procedures/data-protection-fining-guidance/circumstances-in-which-the-commissioner-would-consider-it-appropriate-to-issue-a-penalty-notice/relevant-aggravating-or-mitigating-factors",
@@ -3172,7 +3687,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "The Commissioner considers that the ordinary duty of cooperation is required by law and meeting this standard is therefore not a mitigating factor."
+      "quote": "The Commissioner considers that the ordinary duty of cooperation is required by law and meeting this standard is therefore not a mitigating factor.",
+      "quotes": {
+        "5.8": "The Commissioner considers that the ordinary duty of cooperation is required by law and meeting this standard is therefore not a mitigating factor."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework",
@@ -3193,7 +3711,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "using our audit toolkits to conduct both consensual and compulsory audits"
+      "quote": "using our audit toolkits to conduct both consensual and compulsory audits",
+      "quotes": {
+        "1.7": "using our audit toolkits to conduct both consensual and compulsory audits",
+        "2.8": "As a general rule, the greater the risk, the more robust and comprehensive the measures you should put in place."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/accountability/information-rights",
@@ -3212,7 +3734,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "code or standard",
-      "quote": "ensure a recorded process allows simple ways for people to request human intervention, express their opinion and challenge a decision"
+      "quote": "ensure a recorded process allows simple ways for people to request human intervention, express their opinion and challenge a decision",
+      "quotes": {
+        "5.2": "ensure a recorded process allows simple ways for people to request human intervention, express their opinion and challenge a decision"
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/contracts-and-third-parties",
@@ -3233,7 +3758,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "Before procuring AI systems, datasets or coding, there has been appropriate due diligence undertaken on accuracy, bias and the trade-offs"
+      "quote": "Before procuring AI systems, datasets or coding, there has been appropriate due diligence undertaken on accuracy, bias and the trade-offs",
+      "quotes": {
+        "1.5": "Before procuring AI systems, datasets or coding, there has been appropriate due diligence undertaken on accuracy, bias and the trade-offs",
+        "5.7": "the processor must take appropriate measures to help the controller respond to requests from people to exercise their rights"
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/governance-and-accountability-in-ai",
@@ -3254,7 +3783,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "Evidence that senior management have seen and signed off the risks associated with using AI."
+      "quote": "Evidence that senior management have seen and signed off the risks associated with using AI.",
+      "quotes": {
+        "5.8": "Evidence that senior management have seen and signed off the risks associated with using AI."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/human-review",
@@ -3277,7 +3809,12 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "code or standard",
-      "quote": "Maintain a log of when AI decisions are overridden by a human reviewer, including the reasons why."
+      "quote": "Maintain a log of when AI decisions are overridden by a human reviewer, including the reasons why.",
+      "quotes": {
+        "5.2": "Maintain a log of when AI decisions are overridden by a human reviewer, including the reasons why.",
+        "7.2": "Assign human reviewers a manageable caseload and ensure there is sufficient resource in place for them to give appropriate time to their tasks.",
+        "7.3": "Be flexible, so that in case of service failure, there is the option to move to a hybrid or manual model"
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/data-minimisation",
@@ -3296,7 +3833,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "Remove or erase training data that is no longer required (eg because it is out of date and no longer predictively useful)."
+      "quote": "Remove or erase training data that is no longer required (eg because it is out of date and no longer predictively useful).",
+      "quotes": {
+        "5.6": "Remove or erase training data that is no longer required (eg because it is out of date and no longer predictively useful)."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/do-we-need-to-consult-the-ico",
@@ -3335,7 +3875,12 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "whether each risk has been eliminated, reduced, or accepted"
+      "quote": "whether each risk has been eliminated, reduced, or accepted",
+      "quotes": {
+        "2.5": "whether each risk has been eliminated, reduced, or accepted",
+        "2.7": "You may need to repeat it if there is a substantial change to the nature, scope, context or purposes of your processing.",
+        "5.4": "You should identify any action points and who is responsible for implementing them."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/what-is-a-dpia",
@@ -3356,7 +3901,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "This includes risks to privacy and data protection rights, but also effects on other fundamental rights and interests."
+      "quote": "This includes risks to privacy and data protection rights, but also effects on other fundamental rights and interests.",
+      "quotes": {
+        "2.3": "This includes risks to privacy and data protection rights, but also effects on other fundamental rights and interests.",
+        "5.4": "a DPIA is not simply a rubber stamp or a technicality as part of a sign-off process"
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/when-do-we-need-to-do-a-dpia",
@@ -3375,7 +3924,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "In most cases, a combination of two of these factors indicates the need for a DPIA."
+      "quote": "In most cases, a combination of two of these factors indicates the need for a DPIA.",
+      "quotes": {
+        "5.4": "In most cases, a combination of two of these factors indicates the need for a DPIA."
+      }
     },
     {
       "key": "https://ico.org.uk/media2/migrated/4029988/snap-my-ai-non-confidential-decision-21-may-2024-20240619-redacted.pdf",
@@ -3395,7 +3947,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "a cursory and higher-level risk assessment, in tabular format",
-      "published": "2024-05-21"
+      "published": "2024-05-21",
+      "quotes": {
+        "5.4": "a cursory and higher-level risk assessment, in tabular format"
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/employment/monitoring-workers/data-protection-and-monitoring-workers",
@@ -3415,7 +3970,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "you should seek and document the views of your workers or their representatives (such as trade unions), unless there is a good reason not to",
-      "published": "2026-06-16"
+      "published": "2026-06-16",
+      "quotes": {
+        "7.5": "you should seek and document the views of your workers or their representatives (such as trade unions), unless there is a good reason not to"
+      }
     },
     {
       "key": "https://ico.org.uk/media2/woalogoc/20240219-serco-leisure-operating-limited-en.pdf",
@@ -3435,7 +3993,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Serco has not produced an appropriate policy document as required by Schedule 1, Paragraph 1(1)(b) of the DPA.",
-      "published": "2024-02-19"
+      "published": "2024-02-19",
+      "quotes": {
+        "5.5": "Serco has not produced an appropriate policy document as required by Schedule 1, Paragraph 1(1)(b) of the DPA."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/annex-a-fairness-in-the-ai-lifecycle",
@@ -3478,7 +4039,12 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "When procuring an AI service, you must choose one which allows individual rights to be protected and enabled"
+      "quote": "When procuring an AI service, you must choose one which allows individual rights to be protected and enabled",
+      "quotes": {
+        "5.7": "When procuring an AI service, you must choose one which allows individual rights to be protected and enabled",
+        "7.2": "This authority and confidence cannot be created by policies and training alone: a supportive organisational culture is also crucial",
+        "7.3": "Those in charge of designing the front-end interface of an AI system must understand the needs, thought processes, and behaviours of human reviewers"
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-lawfulness-in-ai",
@@ -3499,7 +4065,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "You must break down and separate each distinct processing operation, and identify the purpose and an appropriate lawful basis for each one"
+      "quote": "You must break down and separate each distinct processing operation, and identify the purpose and an appropriate lawful basis for each one",
+      "quotes": {
+        "5.3": "You must break down and separate each distinct processing operation, and identify the purpose and an appropriate lawful basis for each one",
+        "5.5": "you will need to ensure you comply with the requirements of Articles 9 and 10 of the UK GDPR, as well as the DPA 2018"
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-should-we-assess-security-and-data-minimisation-in-ai",
@@ -3522,7 +4092,12 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "You must not collect personal data on the off-chance that it might be useful in the future"
+      "quote": "You must not collect personal data on the off-chance that it might be useful in the future",
+      "quotes": {
+        "5.6": "You must not collect personal data on the off-chance that it might be useful in the future",
+        "6.1": "you should stay up-to-date with the state of the art in both methods of attack and mitigation",
+        "6.3": "Your technical teams should record and document all movements and storing of personal data from one location to another."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-about-fairness-bias-and-discrimination",
@@ -3574,6 +4149,14 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "It is unrealistic to adopt a ‘zero tolerance’ approach to risks to rights and freedoms",
+      "quotes": {
+        "2.2": "It is unrealistic to adopt a ‘zero tolerance’ approach to risks to rights and freedoms",
+        "2.3": "public sector organisations are required to undertake equality impact assessments",
+        "2.4": "you should regularly review any outsourced services and be able to modify them or switch to another provider",
+        "2.5": "the DPIA should document the residual levels of risk posed by the processing",
+        "2.8": "Your governance and risk management capabilities need to be proportionate to your use of AI.",
+        "5.4": "the use of AI will involve a type of processing likely to result in a high risk to individuals’ rights and freedoms"
+      },
       "published": "2023-03-15"
     },
     {
@@ -3596,7 +4179,11 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "After deployment, you should implement monitoring, the frequency of which should be proportional to the impact an incorrect output may have on individuals.",
-      "published": "15 March 2023"
+      "published": "15 March 2023",
+      "quotes": {
+        "2.7": "After deployment, you should implement monitoring, the frequency of which should be proportional to the impact an incorrect output may have on individuals.",
+        "5.6": "You should regularly assess drift and retrain the model on new data where necessary."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance",
@@ -3616,7 +4203,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "if you can’t show good data protection practices, it may leave you open to fines and reputational damage",
-      "published": "2026-02-05"
+      "published": "2026-02-05",
+      "quotes": {
+        "5.8": "if you can’t show good data protection practices, it may leave you open to fines and reputational damage"
+      }
     },
     {
       "key": "https://ico.org.uk/media2/ybsi5n0j/ico-annual-report-202527.pdf",
@@ -3636,7 +4226,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "we completed a total of 85 audits, risk reviews and follow-up work",
-      "published": "2026-07-14"
+      "published": "2026-07-14",
+      "quotes": {
+        "5.8": "we completed a total of 85 audits, risk reviews and follow-up work"
+      }
     },
     {
       "key": "https://ico.org.uk/about-the-ico/what-we-do/our-work-on-artificial-intelligence/response-to-the-consultation-series-on-generative-ai/accuracy-of-training-data-and-model-outputs",
@@ -3655,7 +4248,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "official report",
-      "quote": "the developer should curate the training data accordingly to ensure sufficient accuracy for the purpose for which it is processed"
+      "quote": "the developer should curate the training data accordingly to ensure sufficient accuracy for the purpose for which it is processed",
+      "quotes": {
+        "5.6": "the developer should curate the training data accordingly to ensure sufficient accuracy for the purpose for which it is processed"
+      }
     },
     {
       "key": "https://ico.org.uk/about-the-ico/what-we-do/our-work-on-artificial-intelligence/response-to-the-consultation-series-on-generative-ai/the-lawful-basis-for-web-scraping-to-train-generative-ai-models",
@@ -3674,7 +4270,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "Legitimate interests remains the sole available lawful basis for training generative AI models using web-scraped personal data based on current practices."
+      "quote": "Legitimate interests remains the sole available lawful basis for training generative AI models using web-scraped personal data based on current practices.",
+      "quotes": {
+        "5.3": "Legitimate interests remains the sole available lawful basis for training generative AI models using web-scraped personal data based on current practices."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/legitimate-interests/what-is-the-legitimate-interests-basis",
@@ -3694,7 +4293,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "It’s not enough for you to simply say that using personal information is in your legitimate interests.",
-      "published": "2026-03-23"
+      "published": "2026-03-23",
+      "quotes": {
+        "5.3": "It’s not enough for you to simply say that using personal information is in your legitimate interests."
+      }
     },
     {
       "key": "https://ico.org.uk/media2/migrated/4020436/clearview-ai-inc-mpn-20220518.pdf",
@@ -3714,7 +4316,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "The amount of the penalty is £7,552,800",
-      "published": "2022-05-18"
+      "published": "2022-05-18",
+      "quotes": {
+        "5.3": "The amount of the penalty is £7,552,800"
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide",
@@ -3735,7 +4340,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "You must also keep a record of any personal data breaches, regardless of whether you are required to notify."
+      "quote": "You must also keep a record of any personal data breaches, regardless of whether you are required to notify.",
+      "quotes": {
+        "2.6": "You must also keep a record of any personal data breaches, regardless of whether you are required to notify.",
+        "6.5": "You should ensure that you record all breaches, regardless of whether or not they need to be reported to the ICO."
+      }
     },
     {
       "key": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/dpias",
@@ -3755,7 +4364,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "This is not compliant, because the employer hasn’t fully assessed the extent to which its processing is within the scope of the ADM provisions.",
-      "published": "2026-03-27"
+      "published": "2026-03-27",
+      "quotes": {
+        "5.1": "This is not compliant, because the employer hasn’t fully assessed the extent to which its processing is within the scope of the ADM provisions."
+      }
     },
     {
       "key": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/introduction-what-is-adm-and-why-are-we-focusing-on-it-in-recruitment",
@@ -3792,7 +4404,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "official report",
-      "quote": "We also didn’t see widespread evidence that candidates were able to make representations, obtain human intervention or contest decisions."
+      "quote": "We also didn’t see widespread evidence that candidates were able to make representations, obtain human intervention or contest decisions.",
+      "quotes": {
+        "5.2": "We also didn’t see widespread evidence that candidates were able to make representations, obtain human intervention or contest decisions."
+      }
     },
     {
       "key": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/understanding-how-meaningful-human-involvement-applies-use-cases",
@@ -3812,7 +4427,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "This means that a human must make every decision about whether to progress a candidate to the next stage.",
-      "published": "2026-03-27"
+      "published": "2026-03-27",
+      "quotes": {
+        "5.1": "This means that a human must make every decision about whether to progress a candidate to the next stage."
+      }
     },
     {
       "key": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/meaningful-human-involvement",
@@ -3834,7 +4452,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "However, the evidence we saw indicated that, in practice, employers were using the tools to make solely automated decisions.",
-      "published": "2026-03-27"
+      "published": "2026-03-27",
+      "quotes": {
+        "5.1": "However, the evidence we saw indicated that, in practice, employers were using the tools to make solely automated decisions."
+      }
     },
     {
       "key": "https://ico.org.uk/about-the-ico/what-we-do/our-work-on-artificial-intelligence/response-to-the-consultation-series-on-generative-ai/engineering-individual-rights-into-generative-ai-models",
@@ -3853,7 +4474,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "these may not be sufficient, as they do not actually remove the data from the model"
+      "quote": "these may not be sufficient, as they do not actually remove the data from the model",
+      "quotes": {
+        "5.7": "these may not be sufficient, as they do not actually remove the data from the model"
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/right-of-access/how-do-we-find-and-retrieve-the-relevant-information",
@@ -3873,7 +4497,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "However, there is no technology exemption from the right of access.",
-      "published": "2025-12-08"
+      "published": "2025-12-08",
+      "quotes": {
+        "5.7": "However, there is no technology exemption from the right of access."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-are-the-rules-on-special-category-data",
@@ -3892,7 +4519,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "If your purpose is not covered by any of the conditions, and you cannot obtain valid explicit consent, you cannot process the special category data."
+      "quote": "If your purpose is not covered by any of the conditions, and you cannot obtain valid explicit consent, you cannot process the special category data.",
+      "quotes": {
+        "5.5": "If your purpose is not covered by any of the conditions, and you cannot obtain valid explicit consent, you cannot process the special category data."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data",
@@ -3979,7 +4609,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "regulator guidance",
-      "quote": "Your training should avoid any anthropomorphic (or human-like) portrayals of AI systems."
+      "quote": "Your training should avoid any anthropomorphic (or human-like) portrayals of AI systems.",
+      "quotes": {
+        "7.1": "Your training should avoid any anthropomorphic (or human-like) portrayals of AI systems.",
+        "7.2": "This means that they need to be appropriately trained to use the model’s results responsibly and fairly."
+      }
     },
     {
       "key": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-3-what-explaining-ai-means-for-your-organisation/organisational-roles-and-functions-for-explaining-ai",
@@ -4032,7 +4666,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "professional",
-      "quote": "Risk appetite and tolerance need to be high on any board's agenda"
+      "quote": "Risk appetite and tolerance need to be high on any board's agenda",
+      "quotes": {
+        "2.2": "Risk appetite and tolerance need to be high on any board's agenda"
+      }
     },
     {
       "key": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
@@ -4054,7 +4691,11 @@
       "jurisdiction": "International",
       "type": "official report",
       "quote": "General-purpose AI risks fall into three categories: malicious use, malfunctions, and systemic risks.",
-      "published": "3 February 2026"
+      "published": "3 February 2026",
+      "quotes": {
+        "2.1": "General-purpose AI risks fall into three categories: malicious use, malfunctions, and systemic risks.",
+        "2.2": "Risk tolerance refers to the level of risk that an organisation is willing to accept."
+      }
     },
     {
       "key": "https://iea.blob.core.windows.net/assets/de9dea13-b07d-42c5-a398-d1b3ae17d866/EnergyandAI.pdf",
@@ -4074,7 +4715,10 @@
       "jurisdiction": "International",
       "type": "official report",
       "quote": "This lack of data makes it hard to estimate energy consumption for the field of AI as a whole",
-      "published": "April 2025"
+      "published": "April 2025",
+      "quotes": {
+        "8.5": "This lack of data makes it hard to estimate energy consumption for the field of AI as a whole"
+      }
     },
     {
       "key": "https://webapps.ilo.org/static/english/intserv/working-papers/wp140/index.html",
@@ -4093,7 +4737,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "research",
-      "quote": "Globally, one in four workers are in an occupation with some GenAI exposure."
+      "quote": "Globally, one in four workers are in an occupation with some GenAI exposure.",
+      "quotes": {
+        "7.4": "Globally, one in four workers are in an occupation with some GenAI exposure."
+      }
     },
     {
       "key": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@dgreports/@inst/documents/publication/wcms_890761.pdf",
@@ -4113,7 +4760,10 @@
       "jurisdiction": "International",
       "type": "research",
       "quote": "In low-income countries, only 0.4 per cent of total employment is potentially exposed to automation effects",
-      "published": "2023-08"
+      "published": "2023-08",
+      "quotes": {
+        "7.6": "In low-income countries, only 0.4 per cent of total employment is potentially exposed to automation effects"
+      }
     },
     {
       "key": "https://arxiv.org/abs/2502.10036",
@@ -4133,7 +4783,10 @@
       "jurisdiction": "EU",
       "type": "research",
       "quote": "the AIA's focus on providers does not adequately address design and context as causes of AB",
-      "published": "2025-06-20"
+      "published": "2025-06-20",
+      "quotes": {
+        "7.3": "the AIA's focus on providers does not adequately address design and context as causes of AB"
+      }
     },
     {
       "key": "https://arxiv.org/pdf/2601.20245",
@@ -4153,7 +4806,10 @@
       "jurisdiction": "US",
       "type": "research",
       "quote": "AI-enhanced productivity is not a shortcut to competence",
-      "published": "2026-02-03"
+      "published": "2026-02-03",
+      "quotes": {
+        "7.8": "AI-enhanced productivity is not a shortcut to competence"
+      }
     },
     {
       "key": "https://lmalloyds.com/campaigns/understanding-ai-exposures-ai-loss-scenarios-survey-results",
@@ -4172,7 +4828,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "research",
-      "quote": "Only 18% of global responses suggested that insureds’ existing AI risk management/safety procedures are inadequate."
+      "quote": "Only 18% of global responses suggested that insureds’ existing AI risk management/safety procedures are inadequate.",
+      "quotes": {
+        "2.5": "Only 18% of global responses suggested that insureds’ existing AI risk management/safety procedures are inadequate."
+      }
     },
     {
       "key": "https://lmalloyds.com/understanding-artificial-intelligence-risk-in-insurance-products-the-challenges",
@@ -4192,7 +4851,10 @@
       "jurisdiction": "UK",
       "type": "professional",
       "quote": "depending on whether the clause in use affirms coverage, applies a sub-limit or excludes the risk entirely",
-      "published": "13 April 2025"
+      "published": "13 April 2025",
+      "quotes": {
+        "2.5": "depending on whether the clause in use affirms coverage, applies a sub-limit or excludes the risk entirely"
+      }
     },
     {
       "key": "https://www.hbs.edu/ris/Publication%20Files/23-027_4b09d278-4051-468e-a5d9-eb0e7c50c25d.pdf",
@@ -4211,7 +4873,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "research",
-      "quote": "sustainability-linked lending has been available mostly to borrowers with low ESG risk profiles"
+      "quote": "sustainability-linked lending has been available mostly to borrowers with low ESG risk profiles",
+      "quotes": {
+        "8.8": "sustainability-linked lending has been available mostly to borrowers with low ESG risk profiles"
+      }
     },
     {
       "key": "https://arxiv.org/abs/2311.16863",
@@ -4231,7 +4896,10 @@
       "jurisdiction": "International",
       "type": "research",
       "quote": "multi-purpose, generative architectures are orders of magnitude more expensive than task-specific systems",
-      "published": "15 October 2024 (version 3)"
+      "published": "15 October 2024 (version 3)",
+      "quotes": {
+        "8.5": "multi-purpose, generative architectures are orders of magnitude more expensive than task-specific systems"
+      }
     },
     {
       "key": "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part",
@@ -4251,7 +4919,10 @@
       "jurisdiction": "International",
       "type": "professional",
       "quote": "78% of AI users are bringing their own AI tools to work",
-      "published": "2024-05-08"
+      "published": "2024-05-08",
+      "quotes": {
+        "7.7": "78% of AI users are bringing their own AI tools to work"
+      }
     },
     {
       "key": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part-57a-business-and-property-courts/practice-direction-57ad-disclosure-in-the-business-and-property-courts",
@@ -4271,7 +4942,10 @@
       "jurisdiction": "UK",
       "type": "court or tribunal",
       "quote": "It also extends to metadata, and other embedded data which is not typically visible on screen or a printout.",
-      "published": "2022-09-29"
+      "published": "2022-09-29",
+      "quotes": {
+        "1.8": "It also extends to metadata, and other embedded data which is not typically visible on screen or a printout."
+      }
     },
     {
       "key": "https://arxiv.org/pdf/2506.08872",
@@ -4290,7 +4964,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "US",
       "type": "research",
-      "quote": "We recruited a total of 54 participants for Sessions 1, 2, 3, and 18 participants among them completed session 4."
+      "quote": "We recruited a total of 54 participants for Sessions 1, 2, 3, and 18 participants among them completed session 4.",
+      "quotes": {
+        "7.8": "We recruited a total of 54 participants for Sessions 1, 2, 3, and 18 participants among them completed session 4."
+      }
     },
     {
       "key": "https://www.nao.org.uk/wp-content/uploads/2024/03/use-of-artificial-intelligence-in-government.pdf",
@@ -4312,7 +4989,11 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "24 of the 32 bodies with deployed AI told us that their AI use cases always or usually had a named accountable responsible owner",
-      "published": "15 March 2024"
+      "published": "15 March 2024",
+      "quotes": {
+        "1.2": "24 of the 32 bodies with deployed AI told us that their AI use cases always or usually had a named accountable responsible owner",
+        "1.4": "Eight of 32 organisations responding to our survey that had deployed AI said they were always or usually compliant with the standard"
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/guidance/ai-and-cyber-security-what-you-need-to-know",
@@ -4332,7 +5013,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Do you understand where accountability and responsibility for AI/ML security sit in your organisation?",
-      "published": "2024-02-13"
+      "published": "2024-02-13",
+      "quotes": {
+        "7.7": "Do you understand where accountability and responsibility for AI/ML security sit in your organisation?"
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/blog-post/chatgpt-and-large-language-models-whats-the-risk",
@@ -4352,7 +5036,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "not to include sensitive information in queries to public LLMs",
-      "published": "2023-03-14"
+      "published": "2023-03-14",
+      "quotes": {
+        "7.7": "not to include sensitive information in queries to public LLMs"
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/collection/cyber-assessment-framework/caf-objective-a-managing-security-risk/principle-a4-supply-chain",
@@ -4372,7 +5059,10 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "If an organisation relies on third parties (such as outsourced or cloud-based technology services) it remains accountable for the protection of any essential function.",
-      "published": "2024-04-18"
+      "published": "2024-04-18",
+      "quotes": {
+        "6.7": "If an organisation relies on third parties (such as outsourced or cloud-based technology services) it remains accountable for the protection of any essential function."
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/collection/cyber-assessment-framework/caf-objective-b/principle-b5-resilient-networks-and-systems",
@@ -4392,7 +5082,10 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "consideration is also given to how operation of the essential function can continue in the event of technology failure or compromise",
-      "published": "2024-04-18"
+      "published": "2024-04-18",
+      "quotes": {
+        "6.6": "consideration is also given to how operation of the essential function can continue in the event of technology failure or compromise"
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/collection/cyber-assessment-framework/caf-objective-d/principle-d2-lessons-learned",
@@ -4412,7 +5105,10 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "When an incident occurs, steps are taken to understand its causes and to ensure remediating action is taken to protect against future incidents.",
-      "published": "2024-04-18"
+      "published": "2024-04-18",
+      "quotes": {
+        "6.5": "When an incident occurs, steps are taken to understand its causes and to ensure remediating action is taken to protect against future incidents."
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/files/cyber-essentials-requirements-for-it-infrastructure-v3-2.pdf",
@@ -4432,7 +5128,10 @@
       "jurisdiction": "UK",
       "type": "code or standard",
       "quote": "Your organisation must be in control of your user accounts and the access privileges that allow access to your organisational data and services.",
-      "published": "2025-04"
+      "published": "2025-04",
+      "quotes": {
+        "6.3": "Your organisation must be in control of your user accounts and the access privileges that allow access to your organisational data and services."
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/collection/board-toolkit/principle-e-assurance-and-oversight/implementing-effective-cyber-security-measures",
@@ -4452,7 +5151,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "testing the effectiveness of your security controls is important",
-      "published": "2023-03-30"
+      "published": "2023-03-30",
+      "quotes": {
+        "6.8": "testing the effectiveness of your security controls is important"
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development",
@@ -4472,7 +5174,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Security must be a core requirement, not just in the development phase, but throughout the life cycle of the system.",
-      "published": "2023-11-27"
+      "published": "2023-11-27",
+      "quotes": {
+        "6.2": "Security must be a core requirement, not just in the development phase, but throughout the life cycle of the system."
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development/guidelines/secure-deployment",
@@ -4492,7 +5197,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "You apply appropriate access controls to your APIs, models and data, and to their training and processing pipelines",
-      "published": "2023-11-27"
+      "published": "2023-11-27",
+      "quotes": {
+        "6.3": "You apply appropriate access controls to your APIs, models and data, and to their training and processing pipelines"
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development/guidelines/secure-design",
@@ -4514,7 +5222,11 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "you apply a holistic process to assess the threats to your system",
-      "published": "2023-11-27"
+      "published": "2023-11-27",
+      "quotes": {
+        "6.1": "you apply a holistic process to assess the threats to your system",
+        "6.4": "you apply appropriate restrictions to the possible actions (this includes external AI and non-AI fail-safes if necessary)"
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development/guidelines/secure-development",
@@ -4536,7 +5248,11 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "require suppliers to adhere to the same standards your own organisation applies to other software",
-      "published": "2023-11-27"
+      "published": "2023-11-27",
+      "quotes": {
+        "6.2": "require suppliers to adhere to the same standards your own organisation applies to other software",
+        "6.3": "You have processes and tools to track, authenticate, version control and secure your assets"
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/report/impact-ai-cyber-threat-now-2027",
@@ -4556,7 +5272,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "almost certainly presents an increased attack surface for adversaries to exploit",
-      "published": "2025-05-07"
+      "published": "2025-05-07",
+      "quotes": {
+        "6.1": "almost certainly presents an increased attack surface for adversaries to exploit"
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/collection/incident-management/cyber-incident-response-processes",
@@ -4576,7 +5295,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Keeping a careful record of the incident response, decisions made, actions taken, data captured (or missing) is incredibly useful for post-incident reviews.",
-      "published": "2019-09-19"
+      "published": "2019-09-19",
+      "quotes": {
+        "6.5": "Keeping a careful record of the incident response, decisions made, actions taken, data captured (or missing) is incredibly useful for post-incident reviews."
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/blog-post/prompt-injection-is-not-sql-injection",
@@ -4596,7 +5318,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Current large language models (LLMs) simply do not enforce a security boundary between instructions and data inside a prompt.",
-      "published": "2025-12-08"
+      "published": "2025-12-08",
+      "quotes": {
+        "6.1": "Current large language models (LLMs) simply do not enforce a security boundary between instructions and data inside a prompt."
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/guidance/shadow-it",
@@ -4616,7 +5341,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "If you blame or punish staff, their peers will be reluctant to tell you about their own unsanctioned practices",
-      "published": "2023-07-27"
+      "published": "2023-07-27",
+      "quotes": {
+        "7.7": "If you blame or punish staff, their peers will be reluctant to tell you about their own unsanctioned practices"
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/collection/supply-chain-security/principles-supply-chain-security/understand-the-risks",
@@ -4636,7 +5364,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Until you have a clear picture of your supply chain, it will be very hard to establish any meaningful control over it.",
-      "published": "2019-02-14"
+      "published": "2019-02-14",
+      "quotes": {
+        "6.7": "Until you have a clear picture of your supply chain, it will be very hard to establish any meaningful control over it."
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/collection/supply-chain-security/principles-supply-chain-security/check-your-arrangements",
@@ -4658,7 +5389,11 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Build the 'right to audit' into all contracts and exercise this.",
-      "published": "2019-02-14"
+      "published": "2019-02-14",
+      "quotes": {
+        "1.5": "Build the 'right to audit' into all contracts and exercise this.",
+        "6.7": "Require those suppliers who are key to the security of your supply chain, via contracts, to provide upward reporting of security performance"
+      }
     },
     {
       "key": "https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai",
@@ -4693,7 +5428,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "regulator guidance",
-      "quote": "You are ready to failover to alternate solutions for mission-critical systems, if security criteria are not met."
+      "quote": "You are ready to failover to alternate solutions for mission-critical systems, if security criteria are not met.",
+      "quotes": {
+        "6.6": "You are ready to failover to alternate solutions for mission-critical systems, if security criteria are not met."
+      }
     },
     {
       "key": "https://nepc.raeng.org.uk/media/2aggau2j/foundations-for-sustainable-ai-nepc-report.pdf",
@@ -4713,7 +5451,10 @@
       "jurisdiction": "UK",
       "type": "professional",
       "quote": "a lack of clarity on the precise scale of AI’s environmental impacts currently hinders policymakers’ ability to forecast and prepare for future risks",
-      "published": "February 2025"
+      "published": "February 2025",
+      "quotes": {
+        "8.5": "a lack of clarity on the precise scale of AI’s environmental impacts currently hinders policymakers’ ability to forecast and prepare for future risks"
+      }
     },
     {
       "key": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf",
@@ -4733,7 +5474,10 @@
       "jurisdiction": "US",
       "type": "code or standard",
       "quote": "there exist prompts that can trigger that behavior",
-      "published": "2025-03"
+      "published": "2025-03",
+      "quotes": {
+        "6.1": "there exist prompts that can trigger that behavior"
+      }
     },
     {
       "key": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
@@ -4783,7 +5527,25 @@
       "jurisdiction": "US",
       "type": "code or standard",
       "quote": "decisions about risks associated with AI system development and deployment",
-      "published": "January 2023"
+      "published": "January 2023",
+      "quotes": {
+        "1.1": "decisions about risks associated with AI system development and deployment",
+        "1.3": "Legal and regulatory requirements involving AI are understood, managed, and documented.",
+        "1.4": "Mechanisms are in place to inventory AI systems and are resourced according to organizational risk priorities.",
+        "1.5": "Contingency processes are in place to handle failures or incidents in third-party data or AI systems deemed to be high-risk.",
+        "1.8": "Documentation can enhance transparency, improve human review processes, and bolster accountability in AI system teams.",
+        "2.1": "Policies and resources should be prioritized based on the assessed risk level and potential impact of an AI system.",
+        "2.2": "Where established guidelines do not exist, organizations should define reasonable risk tolerance.",
+        "2.4": "AI risks and benefits from third-party resources are regularly monitored, and risk controls are applied and documented.",
+        "2.5": "Treatment of documented AI risks is prioritized based on impact, likelihood, and available resources or methods.",
+        "2.6": "deactivate AI systems that demonstrate performance or outcomes inconsistent with intended use",
+        "2.7": "maintenance due to data, model, or concept drift",
+        "5.6": "techniques can result in a loss in accuracy, affecting decisions about fairness and other values in certain domains",
+        "6.4": "to supersede, disengage, or deactivate AI systems that demonstrate performance or outcomes inconsistent with intended use",
+        "7.1": "The organization’s personnel and partners receive AI risk management training to enable them to perform their",
+        "7.2": "Processes for operator and practitioner proficiency with AI system performance and trustworthiness",
+        "7.3": "Processes for human oversight are defined, assessed, and documented in accordance with organizational policies from the GOVERN function."
+      }
     },
     {
       "key": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
@@ -4803,7 +5565,10 @@
       "jurisdiction": "US",
       "type": "code or standard",
       "quote": "GV.SC-04: Suppliers are known and prioritized by criticality",
-      "published": "2024-02-26"
+      "published": "2024-02-26",
+      "quotes": {
+        "6.7": "GV.SC-04: Suppliers are known and prioritized by criticality"
+      }
     },
     {
       "key": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf",
@@ -4854,7 +5619,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "professional",
-      "quote": "it is unclear if there are fool-proof methods of prevention for prompt injection"
+      "quote": "it is unclear if there are fool-proof methods of prevention for prompt injection",
+      "quotes": {
+        "6.1": "it is unclear if there are fool-proof methods of prevention for prompt injection"
+      }
     },
     {
       "key": "https://genai.owasp.org/llmrisk/llm032025-supply-chain",
@@ -4873,7 +5641,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "professional",
-      "quote": "in ML the risks also extend to third-party pre-trained models and data"
+      "quote": "in ML the risks also extend to third-party pre-trained models and data",
+      "quotes": {
+        "6.2": "in ML the risks also extend to third-party pre-trained models and data"
+      }
     },
     {
       "key": "https://genai.owasp.org/llmrisk/llm062025-excessive-agency",
@@ -4892,7 +5663,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "professional",
-      "quote": "Utilise human-in-the-loop control to require a human to approve high-impact actions before they are taken."
+      "quote": "Utilise human-in-the-loop control to require a human to approve high-impact actions before they are taken.",
+      "quotes": {
+        "6.4": "Utilise human-in-the-loop control to require a human to approve high-impact actions before they are taken."
+      }
     },
     {
       "key": "https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage",
@@ -4911,7 +5685,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "professional",
-      "quote": "the system prompt should not be considered a secret, nor should it be used as a security control"
+      "quote": "the system prompt should not be considered a secret, nor should it be used as a security control",
+      "quotes": {
+        "6.3": "the system prompt should not be considered a secret, nor should it be used as a security control"
+      }
     },
     {
       "key": "https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/deepfake-defences-2/deepfake-defences-2---the-attribution-toolkit.pdf?v=402066",
@@ -4951,7 +5728,10 @@
       "jurisdiction": "UK",
       "type": "regulator guidance",
       "quote": "Consider during AI procurement that lifespan testing, not a one-time decision, is required.",
-      "published": "2020-06-08"
+      "published": "2020-06-08",
+      "quotes": {
+        "1.5": "Consider during AI procurement that lifespan testing, not a one-time decision, is required."
+      }
     },
     {
       "key": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/articles/artificialintelligenceinukbusinesses/2023to2026",
@@ -4971,7 +5751,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "Most businesses report that the use of AI has not resulted in a change to their overall workforce headcount so far",
-      "published": "2026-07-20"
+      "published": "2026-07-20",
+      "quotes": {
+        "7.6": "Most businesses report that the use of AI has not resulted in a change to their overall workforce headcount so far"
+      }
     },
     {
       "key": "https://oecd.ai/en/dashboards/ai-principles/P9",
@@ -4990,7 +5773,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "code or standard",
-      "quote": "AI actors should be accountable for the proper functioning of AI systems and for the respect of the above principles"
+      "quote": "AI actors should be accountable for the proper functioning of AI systems and for the respect of the above principles",
+      "quotes": {
+        "1.2": "AI actors should be accountable for the proper functioning of AI systems and for the respect of the above principles"
+      }
     },
     {
       "key": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/02/towards-a-common-reporting-framework-for-ai-incidents_8c488fdb/f326d4ac-en.pdf",
@@ -5010,7 +5796,10 @@
       "jurisdiction": "International",
       "type": "reporting framework",
       "quote": "Making only some criteria mandatory streamlines the reporting process.",
-      "published": "February 2025"
+      "published": "February 2025",
+      "quotes": {
+        "2.6": "Making only some criteria mandatory streamlines the reporting process."
+      }
     },
     {
       "key": "https://www.gov.uk/government/speeches/the-kings-speech-2024",
@@ -5030,7 +5819,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "seek to establish the appropriate legislation to place requirements on those working to develop the most powerful artificial intelligence models",
-      "published": "2024-07-17"
+      "published": "2024-07-17",
+      "quotes": {
+        "1.6": "seek to establish the appropriate legislation to place requirements on those working to develop the most powerful artificial intelligence models"
+      }
     },
     {
       "key": "https://www.gov.uk/government/speeches/the-kings-speech-2026",
@@ -5050,7 +5842,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "reduce the burden of unnecessary regulation through innovation",
-      "published": "2026-05-13"
+      "published": "2026-05-13",
+      "quotes": {
+        "1.6": "reduce the burden of unnecessary regulation through innovation"
+      }
     },
     {
       "key": "http://publications.europa.eu/resource/cellar/db614b12-b555-11f1-81de-01aa75ed71a1.0006.03/DOC_1",
@@ -5074,7 +5869,12 @@
       "jurisdiction": "EU",
       "type": "legislation",
       "quote": "This module is the target approach for micro-undertakings and constitutes a minimum requirement for other undertakings",
-      "published": "21 September 2026"
+      "published": "21 September 2026",
+      "quotes": {
+        "8.2": "This module is the target approach for micro-undertakings and constitutes a minimum requirement for other undertakings",
+        "8.3": "Applying the Basic Module is a prerequisite for applying the Comprehensive Module.",
+        "8.4": "The value chain cap shall only comprise the datapoints specified in Annex II to this Regulation."
+      }
     },
     {
       "key": "http://publications.europa.eu/resource/cellar/6e6d1165-7196-11f0-bf4e-01aa75ed71a1.0006.03/DOC_1",
@@ -5096,7 +5896,11 @@
       "jurisdiction": "EU",
       "type": "code or standard",
       "quote": "It constitutes an intermediary solution to address market demand",
-      "published": "5 August 2025"
+      "published": "5 August 2025",
+      "quotes": {
+        "8.2": "It constitutes an intermediary solution to address market demand",
+        "8.4": "large corporates and financial intermediaries should limit, as far as possible, such requests to information that is coherent with the disclosures included in the VSME"
+      }
     },
     {
       "key": "http://publications.europa.eu/resource/cellar/8a789948-1a5f-11f0-b1a3-01aa75ed71a1.0006.03/DOC_1",
@@ -5116,7 +5920,10 @@
       "jurisdiction": "EU",
       "type": "legislation",
       "quote": "as regards the dates from which Member States are to apply certain corporate sustainability reporting and due diligence requirements",
-      "published": "16 April 2025"
+      "published": "16 April 2025",
+      "quotes": {
+        "8.1": "as regards the dates from which Member States are to apply certain corporate sustainability reporting and due diligence requirements"
+      }
     },
     {
       "key": "http://publications.europa.eu/resource/cellar/2f337274-12b4-11f1-8870-01aa75ed71a1.0006.03/DOC_1",
@@ -5138,7 +5945,11 @@
       "jurisdiction": "EU",
       "type": "legislation",
       "quote": "There is evidence that undertakings in the value chain, including small and medium-sized enterprises, receive disproportionate requests for information from reporting undertakings",
-      "published": "26 February 2026"
+      "published": "26 February 2026",
+      "quotes": {
+        "8.1": "There is evidence that undertakings in the value chain, including small and medium-sized enterprises, receive disproportionate requests for information from reporting undertakings",
+        "8.4": "Protected undertakings shall have the right to decline to provide information exceeding the information specified in the voluntary standards"
+      }
     },
     {
       "key": "https://arxiv.org/abs/2404.04059",
@@ -5158,7 +5969,10 @@
       "jurisdiction": "International",
       "type": "research",
       "quote": "(a) sufficient causal power with regard to the system and its effects, (b) suitable epistemic access to relevant aspects of the situation",
-      "published": "2024-05-07"
+      "published": "2024-05-07",
+      "quotes": {
+        "7.2": "(a) sufficient causal power with regard to the system and its effects, (b) suitable epistemic access to relevant aspects of the situation"
+      }
     },
     {
       "key": "https://economics.mit.edu/sites/default/files/inline-files/Noy_Zhang_1.pdf",
@@ -5178,7 +5992,10 @@
       "jurisdiction": "US",
       "type": "research",
       "quote": "ChatGPT mostly substitutes for worker effort rather than complementing worker skills",
-      "published": "2023-03-02"
+      "published": "2023-03-02",
+      "quotes": {
+        "7.6": "ChatGPT mostly substitutes for worker effort rather than complementing worker skills"
+      }
     },
     {
       "key": "https://www.gov.uk/government/publications/skills-for-ai-what-works-for-ai-upskilling-in-the-uk/research-evidence-analysis-and-methodology-what-works-for-ai-upskilling-in-the-uk",
@@ -5198,7 +6015,10 @@
       "jurisdiction": "UK",
       "type": "official report",
       "quote": "The evidence includes 23 workshops, 10 case studies and a survey of 536 responses.",
-      "published": "2026-06-10"
+      "published": "2026-06-10",
+      "quotes": {
+        "7.1": "The evidence includes 23 workshops, 10 case studies and a survey of 536 responses."
+      }
     },
     {
       "key": "https://aclanthology.org/P19-1355.pdf",
@@ -5218,7 +6038,10 @@
       "jurisdiction": "International",
       "type": "research",
       "quote": "Authors should report training time and sensitivity to hyperparameters.",
-      "published": "July 2019"
+      "published": "July 2019",
+      "quotes": {
+        "8.5": "Authors should report training time and sensitivity to hyperparameters."
+      }
     },
     {
       "key": "https://assets.bbhub.io/company/sites/60/2021/10/FINAL-2017-TCFD-Report.pdf",
@@ -5238,7 +6061,10 @@
       "jurisdiction": "International",
       "type": "reporting framework",
       "quote": "whether the organization has assigned climate-related responsibilities to management-level positions or committees",
-      "published": "June 2017"
+      "published": "June 2017",
+      "quotes": {
+        "8.7": "whether the organization has assigned climate-related responsibilities to management-level positions or committees"
+      }
     },
     {
       "key": "https://www.theiia.org/globalassets/site/standards/editable-versions/globalinternalauditstandards_2024january9_editable.pdf",
@@ -5258,7 +6084,10 @@
       "jurisdiction": "International",
       "type": "code or standard",
       "quote": "The external assessment must be performed at least once every five years by a qualified, independent assessor or assessment team.",
-      "published": "2024-01-09"
+      "published": "2024-01-09",
+      "quotes": {
+        "1.7": "The external assessment must be performed at least once every five years by a qualified, independent assessor or assessment team."
+      }
     },
     {
       "key": "https://www.theiia.org/globalassets/site/content/tools/professional/aiframework-sept-2024-update2.pdf",
@@ -5277,7 +6106,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "professional",
-      "quote": "internal audit likely will be able to provide only limited assurance"
+      "quote": "internal audit likely will be able to provide only limited assurance",
+      "quotes": {
+        "1.7": "internal audit likely will be able to provide only limited assurance"
+      }
     },
     {
       "key": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
@@ -5312,7 +6144,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "International",
       "type": "research",
-      "quote": "The majority (70%) say they use publicly available AI tools that are free to use"
+      "quote": "The majority (70%) say they use publicly available AI tools that are free to use",
+      "quotes": {
+        "7.7": "The majority (70%) say they use publicly available AI tools that are free to use"
+      }
     },
     {
       "key": "https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/319",
@@ -5332,7 +6167,10 @@
       "jurisdiction": "UK",
       "type": "court or tribunal",
       "quote": "The decision of the Upper Tribunal is to allow the appeal.",
-      "published": "2025-10-06"
+      "published": "2025-10-06",
+      "quotes": {
+        "5.5": "The decision of the Upper Tribunal is to allow the appeal."
+      }
     },
     {
       "key": "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf",
@@ -5354,7 +6192,11 @@
       "jurisdiction": "International",
       "type": "professional",
       "quote": "40% anticipate reducing their workforce where AI can automate tasks",
-      "published": "2025-01"
+      "published": "2025-01",
+      "quotes": {
+        "7.6": "40% anticipate reducing their workforce where AI can automate tasks",
+        "7.8": "two-fifths (39%) of their existing skill sets will be transformed or become outdated over the 2025-2030 period"
+      }
     },
     {
       "key": "https://arxiv.org/abs/2412.06966",
@@ -5374,7 +6216,10 @@
       "jurisdiction": "International",
       "type": "research",
       "quote": "unlearning is not a general-purpose solution for circumscribing generative-AI model behavior in service of broader positive impact",
-      "published": "2024-12-09"
+      "published": "2024-12-09",
+      "quotes": {
+        "5.7": "unlearning is not a general-purpose solution for circumscribing generative-AI model behavior in service of broader positive impact"
+      }
     },
     {
       "key": "https://arxiv.org/abs/2005.13718",
@@ -5394,7 +6239,10 @@
       "jurisdiction": "International",
       "type": "research",
       "quote": "the performance decrease incurred by data minimization might not be substantial, but that it might disparately impact different users",
-      "published": "28 May 2020"
+      "published": "28 May 2020",
+      "quotes": {
+        "5.6": "the performance decrease incurred by data minimization might not be substantial, but that it might disparately impact different users"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2017/589/article/12",
@@ -5413,7 +6261,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "An investment firm shall be able to cancel immediately, as an emergency measure, any or all of its unexecuted orders"
+      "quote": "An investment firm shall be able to cancel immediately, as an emergency measure, any or all of its unexecuted orders",
+      "quotes": {
+        "6.4": "An investment firm shall be able to cancel immediately, as an emergency measure, any or all of its unexecuted orders"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2006/46/section/1157",
@@ -5432,7 +6283,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "he acted honestly and reasonably, and that having regard to all the circumstances of the case"
+      "quote": "he acted honestly and reasonably, and that having regard to all the circumstances of the case",
+      "quotes": {
+        "1.8": "he acted honestly and reasonably, and that having regard to all the circumstances of the case"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2006/46/section/172",
@@ -5457,7 +6311,13 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "have regard (amongst other matters) to"
+      "quote": "have regard (amongst other matters) to",
+      "quotes": {
+        "1.8": "have regard (amongst other matters) to",
+        "7.4": "the interests of the company's employees",
+        "7.6": "the interests of the company's employees",
+        "8.7": "the impact of the company's operations on the community and the environment"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2006/46/section/174",
@@ -5476,7 +6336,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "A director of a company must exercise reasonable care, skill and diligence."
+      "quote": "A director of a company must exercise reasonable care, skill and diligence.",
+      "quotes": {
+        "1.1": "A director of a company must exercise reasonable care, skill and diligence."
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2006/46/section/248",
@@ -5499,7 +6362,12 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "Every company must cause minutes of all proceedings at meetings of its directors to be recorded."
+      "quote": "Every company must cause minutes of all proceedings at meetings of its directors to be recorded.",
+      "quotes": {
+        "1.1": "Every company must cause minutes of all proceedings at meetings of its directors to be recorded.",
+        "1.8": "The records must be kept for at least ten years from the date of the meeting.",
+        "7.4": "Every company must cause minutes of all proceedings at meetings of its directors to be recorded."
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2006/46/section/249",
@@ -5518,7 +6386,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "are evidence (in Scotland, sufficient evidence) of the proceedings at the meeting"
+      "quote": "are evidence (in Scotland, sufficient evidence) of the proceedings at the meeting",
+      "quotes": {
+        "1.8": "are evidence (in Scotland, sufficient evidence) of the proceedings at the meeting"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2006/46/section/414CA",
@@ -5539,7 +6410,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "the company had no more than 500 employees in that financial year"
+      "quote": "the company had no more than 500 employees in that financial year",
+      "quotes": {
+        "8.1": "the company had no more than 500 employees in that financial year",
+        "8.7": "if in that year the company’s turnover was more than £500 million"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2006/46/section/414CB",
@@ -5560,7 +6435,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "an analysis of the resilience of the company’s business model and strategy, taking into consideration different climate-related scenarios"
+      "quote": "an analysis of the resilience of the company’s business model and strategy, taking into consideration different climate-related scenarios",
+      "quotes": {
+        "8.3": "an analysis of the resilience of the company’s business model and strategy, taking into consideration different climate-related scenarios",
+        "8.7": "a description of the company’s governance arrangements in relation to assessing and managing climate-related risks and opportunities"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2006/46/section/414CZA",
@@ -5581,7 +6460,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "describes how the directors have had regard to the matters set out in section 172(1)(a) to (f)"
+      "quote": "describes how the directors have had regard to the matters set out in section 172(1)(a) to (f)",
+      "quotes": {
+        "1.8": "describes how the directors have had regard to the matters set out in section 172(1)(a) to (f)",
+        "7.4": "describes how the directors have had regard to the matters set out in section 172(1)(a) to (f) when performing their duty under section 172"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2025/18/section/103",
@@ -5634,7 +6517,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "review and (if appropriate) update it from time to time"
+      "quote": "review and (if appropriate) update it from time to time",
+      "quotes": {
+        "5.5": "review and (if appropriate) update it from time to time"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2018/12/schedule/1/paragraph/8",
@@ -5669,7 +6555,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "to be provided before the end of the period of 24 hours beginning when the notice is given"
+      "quote": "to be provided before the end of the period of 24 hours beginning when the notice is given",
+      "quotes": {
+        "5.8": "to be provided before the end of the period of 24 hours beginning when the notice is given"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2018/12/section/146",
@@ -5692,7 +6581,12 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "to carry out an assessment of whether the controller or processor has complied or is complying with the data protection legislation"
+      "quote": "to carry out an assessment of whether the controller or processor has complied or is complying with the data protection legislation",
+      "quotes": {
+        "1.7": "to carry out an assessment of whether the controller or processor has complied or is complying with the data protection legislation",
+        "5.2": "carry out an assessment of whether the controller or processor has complied or is complying with the data protection legislation",
+        "5.8": "make arrangements for an approved person to prepare a report on a specified matter"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2018/12/section/148A",
@@ -5711,7 +6605,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "answer questions with respect to any matter relevant to the investigation"
+      "quote": "answer questions with respect to any matter relevant to the investigation",
+      "quotes": {
+        "5.8": "answer questions with respect to any matter relevant to the investigation"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2018/12/section/155",
@@ -5730,7 +6627,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "has failed to comply with an information notice, an assessment notice"
+      "quote": "has failed to comply with an information notice, an assessment notice",
+      "quotes": {
+        "5.8": "has failed to comply with an information notice, an assessment notice"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2024/13/section/182",
@@ -5797,7 +6697,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "Subsection (1) applies where an employer is proposing to dismiss as redundant within a period of 90 days or less"
+      "quote": "Subsection (1) applies where an employer is proposing to dismiss as redundant within a period of 90 days or less",
+      "quotes": {
+        "7.5": "Subsection (1) applies where an employer is proposing to dismiss as redundant within a period of 90 days or less"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2010/15/section/109",
@@ -5820,7 +6723,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "Anything done by an agent for a principal, with the authority of the principal, must be treated as also done by the principal."
+      "quote": "Anything done by an agent for a principal, with the authority of the principal, must be treated as also done by the principal.",
+      "quotes": {
+        "2.5": "Anything done by an agent for a principal, with the authority of the principal, must be treated as also done by the principal."
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2010/15/section/124",
@@ -5855,7 +6761,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "A term of a contract is unenforceable by a person in whose favour it would operate"
+      "quote": "A term of a contract is unenforceable by a person in whose favour it would operate",
+      "quotes": {
+        "2.5": "A term of a contract is unenforceable by a person in whose favour it would operate"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2010/15/section/149",
@@ -5874,7 +6783,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "A public authority must, in the exercise of its functions, have due regard to the need to"
+      "quote": "A public authority must, in the exercise of its functions, have due regard to the need to",
+      "quotes": {
+        "2.3": "A public authority must, in the exercise of its functions, have due regard to the need to"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2010/15/section/19",
@@ -5929,7 +6841,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "It is unlawful for a public authority to act in a way which is incompatible with a Convention right."
+      "quote": "It is unlawful for a public authority to act in a way which is incompatible with a Convention right.",
+      "quotes": {
+        "2.3": "It is unlawful for a public authority to act in a way which is incompatible with a Convention right."
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2023/54/section/12",
@@ -5948,7 +6863,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "have regard to the fact that small and medium-sized enterprises may face particular barriers to participation"
+      "quote": "have regard to the fact that small and medium-sized enterprises may face particular barriers to participation",
+      "quotes": {
+        "8.8": "have regard to the fact that small and medium-sized enterprises may face particular barriers to participation"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2023/54/section/19",
@@ -5967,7 +6885,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "must disregard any tender from a supplier that does not satisfy the conditions of participation"
+      "quote": "must disregard any tender from a supplier that does not satisfy the conditions of participation",
+      "quotes": {
+        "8.8": "must disregard any tender from a supplier that does not satisfy the conditions of participation"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/2023/54/section/52",
@@ -5986,7 +6907,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "must set at least three key performance indicators in respect of the contract"
+      "quote": "must set at least three key performance indicators in respect of the contract",
+      "quotes": {
+        "1.5": "must set at least three key performance indicators in respect of the contract"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/uksi/2008/1276/regulation/3",
@@ -6038,7 +6962,10 @@
       "jurisdiction": "UK",
       "type": "legislation",
       "quote": "come into force on 5th February 2026",
-      "published": "2026-01-29"
+      "published": "2026-01-29",
+      "quotes": {
+        "1.6": "come into force on 5th February 2026"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/uksi/2005/1803/regulation/9",
@@ -6057,7 +6984,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "he shall forthwith notify an enforcement authority in writing of that information"
+      "quote": "he shall forthwith notify an enforcement authority in writing of that information",
+      "quotes": {
+        "2.6": "he shall forthwith notify an enforcement authority in writing of that information"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/uksi/1996/1513/regulation/3",
@@ -6076,7 +7006,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "the health and safety consequences for those employees of the introduction (including the planning thereof) of new technologies into the workplace"
+      "quote": "the health and safety consequences for those employees of the introduction (including the planning thereof) of new technologies into the workplace",
+      "quotes": {
+        "7.5": "the health and safety consequences for those employees of the introduction (including the planning thereof) of new technologies into the workplace"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/uksi/2004/3426/regulation/20",
@@ -6095,7 +7028,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "decisions likely to lead to substantial changes in work organisation or in contractual relations"
+      "quote": "decisions likely to lead to substantial changes in work organisation or in contractual relations",
+      "quotes": {
+        "7.5": "decisions likely to lead to substantial changes in work organisation or in contractual relations"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/uksi/2004/3426/regulation/7",
@@ -6114,7 +7050,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "would result in less than 15 or more than 2,500 employees being required in order for a valid employee request to be made"
+      "quote": "would result in less than 15 or more than 2,500 employees being required in order for a valid employee request to be made",
+      "quotes": {
+        "7.5": "would result in less than 15 or more than 2,500 employees being required in order for a valid employee request to be made"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/uksi/2008/410/schedule/7/part/7A",
@@ -6133,7 +7072,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "The directors’ report must state the methodologies used to calculate the information disclosed under paragraph 20D(1), (2) and (3)."
+      "quote": "The directors’ report must state the methodologies used to calculate the information disclosed under paragraph 20D(1), (2) and (3).",
+      "quotes": {
+        "8.6": "The directors’ report must state the methodologies used to calculate the information disclosed under paragraph 20D(1), (2) and (3)."
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/uksi/1999/3242/regulation/13",
@@ -6152,7 +7094,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "the introduction of new technology into the employer’s undertaking"
+      "quote": "the introduction of new technology into the employer’s undertaking",
+      "quotes": {
+        "7.8": "the introduction of new technology into the employer’s undertaking"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/uksi/1977/500/regulation/4A",
@@ -6171,7 +7116,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "every employer shall consult safety representatives in good time with regard to"
+      "quote": "every employer shall consult safety representatives in good time with regard to",
+      "quotes": {
+        "7.5": "every employer shall consult safety representatives in good time with regard to"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/ukpga/1992/52/section/188",
@@ -6192,7 +7140,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "The consultation shall begin in good time and in any event"
+      "quote": "The consultation shall begin in good time and in any event",
+      "quotes": {
+        "7.4": "The consultation shall begin in good time and in any event",
+        "7.6": "shall be undertaken by the employer with a view to reaching agreement with the appropriate representatives"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/annex/1",
@@ -6211,7 +7163,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "This condition is met where the processing is necessary for the purposes of responding to an emergency."
+      "quote": "This condition is met where the processing is necessary for the purposes of responding to an emergency.",
+      "quotes": {
+        "5.3": "This condition is met where the processing is necessary for the purposes of responding to an emergency."
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/11A",
@@ -6230,7 +7185,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "make provision so that an additional description of processing of personal data is subject to the prohibition in Article 9(1)"
+      "quote": "make provision so that an additional description of processing of personal data is subject to the prohibition in Article 9(1)",
+      "quotes": {
+        "5.5": "make provision so that an additional description of processing of personal data is subject to the prohibition in Article 9(1)"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/13",
@@ -6267,7 +7225,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "based on a reasonable and proportionate search for the personal data and other information described in that paragraph"
+      "quote": "based on a reasonable and proportionate search for the personal data and other information described in that paragraph",
+      "quotes": {
+        "5.7": "based on a reasonable and proportionate search for the personal data and other information described in that paragraph"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/17",
@@ -6286,7 +7247,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies"
+      "quote": "the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies",
+      "quotes": {
+        "5.7": "the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/21",
@@ -6305,7 +7269,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "The controller shall no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing"
+      "quote": "The controller shall no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing",
+      "quotes": {
+        "5.7": "The controller shall no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/22A",
@@ -6330,7 +7297,12 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "When considering whether there is meaningful human involvement in the taking of a decision, a person must consider, among other things"
+      "quote": "When considering whether there is meaningful human involvement in the taking of a decision, a person must consider, among other things",
+      "quotes": {
+        "1.2": "When considering whether there is meaningful human involvement in the taking of a decision, a person must consider, among other things",
+        "1.3": "Ch. 3 Section 4A substituted for Art. 22 (19.6.2025 for specified purposes, 5.2.2026 in so far as not already in force)",
+        "5.1": "a person must consider, among other things, the extent to which the decision is reached by means of profiling"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/22B",
@@ -6351,7 +7323,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "is carried out entirely or partly in reliance on Article 6(1)(ea)"
+      "quote": "is carried out entirely or partly in reliance on Article 6(1)(ea)",
+      "quotes": {
+        "5.3": "is carried out entirely or partly in reliance on Article 6(1)(ea)"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/22C",
@@ -6384,7 +7359,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "the controller must ensure that safeguards for the data subject’s rights, freedoms and legitimate interests are in place"
+      "quote": "the controller must ensure that safeguards for the data subject’s rights, freedoms and legitimate interests are in place",
+      "quotes": {
+        "5.2": "the controller must ensure that safeguards for the data subject’s rights, freedoms and legitimate interests are in place",
+        "7.3": "enable the data subject to obtain human intervention on the part of the controller in relation to such decisions"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/22D",
@@ -6403,7 +7382,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "a description of decision is, or is not, to be taken to have a similarly significant effect for the data subject"
+      "quote": "a description of decision is, or is not, to be taken to have a similarly significant effect for the data subject",
+      "quotes": {
+        "5.1": "a description of decision is, or is not, to be taken to have a similarly significant effect for the data subject"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/24",
@@ -6426,7 +7408,12 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "the measures referred to in paragraph 1 shall include the implementation of appropriate data protection policies by the controller"
+      "quote": "the measures referred to in paragraph 1 shall include the implementation of appropriate data protection policies by the controller",
+      "quotes": {
+        "1.3": "the measures referred to in paragraph 1 shall include the implementation of appropriate data protection policies by the controller",
+        "2.8": "Taking into account the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity",
+        "5.2": "to ensure and to be able to demonstrate that processing is performed in accordance with this Regulation"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/25",
@@ -6449,7 +7436,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "only personal data which are necessary for each specific purpose of the processing are processed"
+      "quote": "only personal data which are necessary for each specific purpose of the processing are processed",
+      "quotes": {
+        "5.6": "only personal data which are necessary for each specific purpose of the processing are processed",
+        "7.3": "both at the time of the determination of the means for processing and at the time of the processing itself"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/28",
@@ -6472,7 +7463,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "the controller shall use only processors providing sufficient guarantees to implement appropriate technical and organisational measures"
+      "quote": "the controller shall use only processors providing sufficient guarantees to implement appropriate technical and organisational measures",
+      "quotes": {
+        "6.7": "the controller shall use only processors providing sufficient guarantees to implement appropriate technical and organisational measures",
+        "7.7": "that is binding on the processor with regard to the controller"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/30",
@@ -6493,7 +7488,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "The records referred to in paragraphs 1 and 2 shall be in writing, including in electronic form."
+      "quote": "The records referred to in paragraphs 1 and 2 shall be in writing, including in electronic form.",
+      "quotes": {
+        "5.1": "The records referred to in paragraphs 1 and 2 shall be in writing, including in electronic form."
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/32",
@@ -6518,7 +7516,13 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "a process for regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing"
+      "quote": "a process for regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing",
+      "quotes": {
+        "6.2": "a process for regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing",
+        "6.3": "who has access to personal data does not process them except on instructions from the controller",
+        "6.6": "the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident",
+        "7.7": "does not process them except on instructions from the controller"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/33",
@@ -6539,7 +7543,11 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "The controller shall document any personal data breaches, comprising the facts relating to the personal data breach, its effects and the remedial action taken."
+      "quote": "The controller shall document any personal data breaches, comprising the facts relating to the personal data breach, its effects and the remedial action taken.",
+      "quotes": {
+        "2.6": "The controller shall document any personal data breaches, comprising the facts relating to the personal data breach, its effects and the remedial action taken.",
+        "6.5": "without undue delay and, where feasible, not later than 72 hours after having become aware of it"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/34",
@@ -6558,7 +7566,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "the controller shall communicate the personal data breach to the data subject without undue delay"
+      "quote": "the controller shall communicate the personal data breach to the data subject without undue delay",
+      "quotes": {
+        "6.5": "the controller shall communicate the personal data breach to the data subject without undue delay"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/35",
@@ -6588,6 +7599,13 @@
       "jurisdiction": "UK",
       "type": "legislation",
       "quote": "the controller shall, prior to the processing, carry out an assessment of the impact of the envisaged processing operations on the protection of personal data",
+      "quotes": {
+        "2.3": "the controller shall, prior to the processing, carry out an assessment of the impact of the envisaged processing operations on the protection of personal data",
+        "2.7": "at least when there is a change of the risk represented by processing operations",
+        "5.4": "Where necessary, the controller shall carry out a review to assess if processing is performed in accordance with the data protection impact assessment",
+        "7.4": "the controller shall seek the views of data subjects or their representatives on the intended processing",
+        "7.5": "the controller shall seek the views of data subjects or their representatives on the intended processing"
+      },
       "published": "2016-04-27"
     },
     {
@@ -6609,7 +7627,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "would result in a high risk in the absence of measures taken by the controller to mitigate the risk"
+      "quote": "would result in a high risk in the absence of measures taken by the controller to mitigate the risk",
+      "quotes": {
+        "2.5": "would result in a high risk in the absence of measures taken by the controller to mitigate the risk"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/5",
@@ -6633,6 +7654,10 @@
       "jurisdiction": "UK",
       "type": "legislation",
       "quote": "adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed",
+      "quotes": {
+        "5.6": "adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed",
+        "5.8": "The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1"
+      },
       "published": "2016-04-27"
     },
     {
@@ -6652,7 +7677,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "processing is necessary for the purposes of a recognised legitimate interest"
+      "quote": "processing is necessary for the purposes of a recognised legitimate interest",
+      "quotes": {
+        "5.3": "processing is necessary for the purposes of a recognised legitimate interest"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/82",
@@ -6692,6 +7720,10 @@
       "jurisdiction": "UK",
       "type": "legislation",
       "quote": "Article 22B or 22C (restrictions on, and safeguards for, automated decision-making)",
+      "quotes": {
+        "5.2": "Article 22B or 22C (restrictions on, and safeguards for, automated decision-making)",
+        "5.4": "the obligations of the controller and the processor pursuant to Articles 8, 11, 25 to 39 and 42 and 43"
+      },
       "published": "2016-04-27"
     },
     {
@@ -6711,7 +7743,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "any link between the original purpose and the new purpose"
+      "quote": "any link between the original purpose and the new purpose",
+      "quotes": {
+        "5.3": "any link between the original purpose and the new purpose"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/article/9",
@@ -6732,7 +7767,10 @@
       "last_checked": "2026-10-02",
       "jurisdiction": "UK",
       "type": "legislation",
-      "quote": "biometric data for the purpose of uniquely identifying a natural person"
+      "quote": "biometric data for the purpose of uniquely identifying a natural person",
+      "quotes": {
+        "5.5": "biometric data for the purpose of uniquely identifying a natural person"
+      }
     },
     {
       "key": "https://www.legislation.gov.uk/eur/2016/679/chapter/III/section/1",

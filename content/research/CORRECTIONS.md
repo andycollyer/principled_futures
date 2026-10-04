@@ -575,3 +575,199 @@ Published content is versioned, never edited. Items here go into briefing set 1.
 | 1.8-g | "it converts a governance gap into a candour problem" | Unsourced | "it can be seen for what it is: disclosure in litigation extends to metadata" |
 | 1.8-h | (omission) | The ten-year retention rule is not stated | Add: minutes of directors' meetings must be kept for at least ten years (section 248) |
 | 1.8-i | (omission) | The duty to preserve documents when litigation is in prospect is not stated | Add one sentence |
+
+## 8.1
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 8.1-a | Extract: "Mandatory CSRD now stops at 1,000 employees and €450 million." | Both tests must be exceeded; the instrument is not named | "Mandatory EU sustainability reporting now applies only above both 1,000 employees and €450 million turnover (Directive (EU) 2026/470)." |
+| 8.1-b | "releasing the overwhelming majority of previously in-scope companies — roughly ninety per cent" | The Commission's figure is about 85% | "releasing about 85% of the companies previously in scope, on the Commission's estimate" |
+| 8.1-c | "The Omnibus I Directive, in force since March 2026" | Omits that national laws are due by 19 March 2027 | Add "; member states must put it into national law by 19 March 2027" |
+| 8.1-d | "The reporting duty your organisation escaped by statute returns by contract" | The directive says a supplier is under no obligation to provide information and that terms demanding more than the standard do not bind | "returns as requests, which the same directive now limits" |
+| 8.1-e | "the data requests of banks whose own disclosures require your numbers" | The legal limit does not cover lenders' other requests | "and from banks, whose requests the law only encourages them to limit" |
+| 8.1-f | (omission) | No UK position | Add: listed companies report against UK SRS from 1 January 2027 (FCA PS26/19); quoted and large companies report energy and carbon; central government asks for Carbon Reduction Plans above £5 million a year |
+| 8.1-g | "(8.2)", "(8.4)", "(1.6)" | Internal numbers in client text | Name the topics instead |
+
+## 8.2
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 8.2-a | "The Voluntary Sustainability Reporting Standard for SMEs — EFRAG's VSME" | Superseded as the legal reference in September 2026 | "The EU's voluntary sustainability reporting standard (Annex I to Commission Delegated Regulation (EU) 2026/1560, based on the standard EFRAG drafted in 2024)" |
+| 8.2-b | "One tracker note: the Commission's delegated act formalising the voluntary standard was due imminently" | It has been adopted and published | "The standard became a delegated regulation on publication in the Official Journal on 21 September 2026; the 2025 Recommendation no longer has legal effect." |
+| 8.2-c | "Scope 1 and Scope 2 greenhouse-gas emissions with intensity" | Intensity is not in the 2026 text | "Scope 1 and location-based Scope 2 greenhouse gas emissions" |
+| 8.2-d | "pollution, biodiversity-sensitive sites, water, and waste where material" | The test is "if applicable", not materiality | "pollution, biodiversity-sensitive sites, water and waste, each where the stated circumstances apply" |
+| 8.2-e | "minimum-wage and gender-pay-gap posture, training hours" | Pay gap is required only where already reportable by law; collective bargaining omitted | "whether pay meets the minimum wage, the pay gap where the firm is already required to report it, collective bargaining coverage, training hours" |
+| 8.2-f | "an afternoon's work"; extract "most of it is data you already hold" | Unsourced; the Commission's estimate is EUR 3,500 to 4,500 in the first year for the smallest firms | Delete, or give the estimate |
+| 8.2-g | "the data set that banks and corporate customers are being steered to accept" | Different legal force for each | "the data set that EU reporting companies may not exceed in their requests, and that lenders are encouraged to accept" |
+| 8.2-h | (omission) | Several items are voluntary for firms with 10 employees or less | Add one sentence |
+| 8.2-i | (omission) | It is EU law; no UK equivalent found | Add one sentence |
+| 8.2-j | "(8.1)", "(8.6)", "(1.6)" | Internal numbers in client text | Name the topics instead |
+
+## 8.3
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 8.3-a | "and the module's centre of gravity, Scope 3 — the indirect emissions of the value chain" | Scope 3 is not one of the nine disclosures; it is optional | "Value-chain (Scope 3) emissions sit alongside the module as an optional addition, reported where they matter in the firm's sector" |
+| 8.3-b | "senior accountability for sustainability, emission-reduction targets" | Both are conditional or optional in the text | "emission-reduction targets where the firm has set them, and, if it chooses, the senior person accountable" |
+| 8.3-c | Extract: "Scope 3, targets, transition risk, human rights — the C-module asks harder questions." | Same point; and C8, C9 omitted | "Targets, climate risks, human rights, revenues from certain sectors, board gender balance: the Comprehensive Module asks harder questions, and customers may add Scope 3." |
+| 8.3-d | "the VSME's Comprehensive Module" | Legal reference changed in September 2026 | "the Comprehensive Module of the EU voluntary standard (Regulation (EU) 2026/1560, Annex I)" |
+| 8.3-e | "assured where the stakes justify it" | The standard carries no assurance duty | Add "the standard itself does not require assurance" |
+| 8.3-f | "a category most calculators still miss" | Unsourced | Delete |
+| 8.3-g | "the Basic Module plus the refusal right (8.4) holds the line" | The legal limit is Annex II, not the Basic Module | "the Annex II list marks what an EU reporting customer may require" |
+| 8.3-h | (omission) | Cost | Add the Commission's estimate: EUR 17,500 to 22,800 in the first year for firms with 20 to 250 employees, both modules |
+| 8.3-i | "(8.1)", "(8.4)", "(8.5)", "(8.6)" | Internal numbers in client text | Name the topics instead |
+
+## 8.4
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 8.4-a | Extract: "Under 1,000 employees, the law now caps what your big customers may demand" | Threshold is "does not exceed 1,000"; it is EU law; only EU reporting customers; only for their sustainability report | "Up to 1,000 employees, EU law now caps what a customer reporting under the EU directive may demand for its sustainability report" |
+| 8.4-b | "undertakings with fewer than 1,000 employees" | Same | "undertakings that do not exceed an average of 1,000 employees in the preceding financial year" |
+| 8.4-c | "may refuse to provide value-chain information that exceeds the requirements of the voluntary SME standard" | The limit is the Annex II list; purpose limit omitted | "may decline to provide information beyond the datapoints listed in Annex II to Regulation (EU) 2026/1560, where the request is made for the customer's sustainability reporting" |
+| 8.4-d | "Buried in the Omnibus reforms" | Instrument not named; dates missing | "Directive (EU) 2026/470 adds to Article 19a(3) of the Accounting Directive ...; the limit applies to financial years from 1 January 2027 and member states must transpose by 19 March 2027" |
+| 8.4-e | "is this within VSME territory ... or beyond it?" | Wrong yardstick | "is each item on the Annex II list for a firm of our size?" |
+| 8.4-f | "because the legislator saw the failure mode coming" | The recital records existing evidence | "because the legislator found evidence of disproportionate requests" |
+| 8.4-g | (omission) | Contract terms beyond the limit are not binding; the customer must flag the excess and the right to decline | Add two sentences |
+| 8.4-h | (omission) | The right does not cover due diligence, lending or other legal duties, and it is not UK law | Add: "It does not apply to requests made for other purposes, and no UK law contains it." |
+| 8.4-i | "SMEs over-comply ... out of asymmetric fear" | Unsourced | Soften to "smaller firms may feel unable to refuse" |
+| 8.4-j | "(8.1)", "(8.2)", "(8.3)" | Internal numbers in client text | Name the topics instead |
+
+## 8.5
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 8.5-a | Extract: "The AI Act now makes model providers disclose energy use — which means your AI footprint is becoming a knowable number." | The duty is to document for regulators on request, not to disclose; it does not cover a customer's use | "The EU's AI Act makes model providers document energy use for regulators. It does not yet give customers the number." |
+| 8.5-b | Extract: "Buyers have started asking for it." | Not found | Delete, or "Expect buyers to ask." |
+| 8.5-c | "with the Commission reviewing progress on energy-efficiency standards four-yearly from 2028" | Date from a copy of the 2024 text; AI Act dates moved in 2026 | "with the Commission required to report on progress at intervals" |
+| 8.5-d | "Translation for the deployer: the numbers you would need are becoming numbers your suppliers must produce." | Overstates; produced for regulators, per model | "For the deployer: suppliers must now hold a figure, but nothing obliges them to share it. Ask." |
+| 8.5-e | "for most organisations, AI is a modest slice of energy exposure" | Unsourced | "for many organisations the figure will be small beside heating or transport, but that is a finding to reach, not assume" |
+| 8.5-f | "folded into the Scope 2 and Scope 3 arithmetic the VSME modules already require" | The voluntary standard's basic module requires Scope 1 and 2 only | "counted as purchased services (Scope 3) alongside the organisation's own energy use" |
+| 8.5-g | "sustainability questionnaires have begun sprouting AI-specific lines" | Not found | Delete |
+| 8.5-h | "the Twin Transition framing" | Not found in sources read | Delete the label; keep the plain point |
+| 8.5-i | "which tends, conveniently, to correlate with cost discipline anyway" | Unsourced | Delete |
+| 8.5-j | "(1.4)", "(8.2, 8.3)" | Internal question numbers in client text | "the register of AI systems"; "the standard environmental disclosures" |
+| 8.5-k | (omission) | No UK duty to report bought-in AI emissions is stated | Add: "UK energy and carbon reporting covers a large company's own energy; supply chain emissions are voluntary." |
+| 8.5-l | (omission) | The data problem is not stated | Add the IEA finding that commercial model energy use cannot be measured from outside |
+
+## 8.6
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 8.6-a | "The excavation pattern is the SME default" | Unsourced generalisation | "A common pattern in smaller organisations" |
+| 8.6-b | "it converts a bounded obligation into an unbounded tax" | For most small companies there is no legal obligation; overstated | "it turns each request into a fresh project" |
+| 8.6-c | "mapped to the VSME's disclosure structure (B1–B11 as the spine ...)" | Presented as the natural structure; it is a voluntary European standard | "mapped to a recognised structure, such as the European voluntary standard for smaller companies" |
+| 8.6-d | "Refresh cycles: annual for most lines" | No source for SMEs | "Refresh cycles: at least yearly, recording which year's conversion factors were used" |
+| 8.6-e | "a number whose provenance is folklore fails the first serious challenge" | Rhetoric | "a number is verifiable only if its inputs can be checked" |
+| 8.6-f | "consistency guaranteed because there is only one source to be consistent with" | Overstated | "consistency is far easier with one source" |
+| 8.6-g | "the customer's template populated in an hour" | Unsourced | "the customer's template filled from figures already held" |
+| 8.6-h | "assurance becomes feasible because there is a single thing to assure" | Leaves "assured" undefined; most assurance of the largest companies is limited | "independent assurance becomes possible; note that even for the largest companies it is usually limited assurance over selected figures" |
+| 8.6-i | "the marginal cost of the next request ... approaches zero" | Unsourced | "the cost of the next request falls sharply" |
+| 8.6-j | "(the telemetry posture, applied to ESG)" | Internal concept in client text | "how current the data is gets checked like any other control" |
+| 8.6-k | "(8.3)", "(8.5)" | Internal question numbers in client text | "the Scope 3 estimates"; "the AI footprint estimate" |
+| 8.6-l | (omission) | No statement that estimates should be marked and explained | Add one sentence from the regulator's review |
+
+## 8.7
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 8.7-a | Extract: "The comprehensive standard asks it directly: who at senior level is accountable for sustainability?" | The standard makes this optional ("may indicate, if any") | "The European voluntary standard invites it; UK law already expects every director to have regard to the company's impact on the community and the environment." |
+| 8.7-b | "The VSME's comprehensive tier asks the question in terms — a description of senior-level accountability for sustainability matters" | Overstated, as above | "The comprehensive module of the European voluntary standard lets a company state the most senior level accountable for its sustainability policies" |
+| 8.7-c | "every serious counterparty questionnaire carries some version of it" | Unsourced | "customer questionnaires often ask it" |
+| 8.7-d | "because the asker has learned what its absence predicts" | Unsourced | Delete the causal claim |
+| 8.7-e | "Named accountability: one senior person — a director or equivalent — formally owning sustainability performance" | Reads as a requirement | Add: "No rule requires this of a small company; a bidder for a major government contract does need a director to sign its Carbon Reduction Plan" |
+| 8.7-f | "Decision rights: the owner able to commit resource to data quality, to hold the refusal line" | Unsourced as a standard | Keep as advice; mark it as advice |
+| 8.7-g | "unowned commitments are how firms acquire the public claims that criterion 4.8 later has to walk back" | Unsourced, and an internal number | "commitments nobody owns are the ones most likely to be made without evidence" |
+| 8.7-h | "(8.6)", "(8.4)", "criterion 4.8" | Internal question numbers in client text | "the single dataset"; "the refusal position"; "the checks on public claims" |
+| 8.7-i | (omission) | Section 172 of the Companies Act is not mentioned | Add one sentence on the duty to have regard to community and environment |
+| 8.7-j | (omission) | The climate governance disclosure duty for larger companies and its thresholds are not mentioned | Add: companies with more than 500 employees that are traded, banks, insurers, on AIM or above £500 million turnover must describe their climate governance |
+
+## 8.8
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 8.8-a | "value-chain readiness wins contracts where mandates no longer compel" | Asserted as fact; no evidence found | "readiness can keep an organisation eligible for work it would otherwise be shut out of" |
+| 8.8-b | "sustainability scoring now moves real tenders" | In UK central government the carbon plan is pass or fail and is not scored; social value is scored | "in central government buying, a Carbon Reduction Plan is a condition of taking part in larger tenders, and social value carries a minimum share of the marks" |
+| 8.8-c | "enterprise procurement increasingly pre-qualifies on exactly the data the VSME modules standardise" | Unsourced; the UK public requirement uses a different format | "large buyers often pre-qualify on carbon and policy data; the UK government's format is the Carbon Reduction Plan" |
+| 8.8-d | "every tender's sustainability section starts eighty per cent written" | Invented figure | "every tender's sustainability section starts from text already written and checked" |
+| 8.8-e | "lenders and insurers price what they can see" | Overstated; UK evidence shows small or no price effect; nothing on insurers | "some lenders offer terms linked to sustainability targets, though the regulator found the savings small and the market slow to reach smaller firms" |
+| 8.8-f | "is presenting exactly the risk profile that sustainability-linked terms exist to reward" | Overstated | "is easier to lend to" |
+| 8.8-g | "even where no formal product applies, diligence speed itself is a pricing input" | Unsourced | Delete, or "and quicker answers shorten the lender's checks" |
+| 8.8-h | "a switching cost you install in your own favour" | Unsourced | Delete |
+| 8.8-i | "the story Principled Futures tells"; "the whole 8×8's ESG reframe" | Product name and internal structure in client text | Delete both phrases |
+| 8.8-j | "(8.7)", "(8.5)", "8.1 through 8.7" | Internal question numbers in client text | "the governance answer"; "the AI footprint line"; "the earlier steps" |
+| 8.8-k | (omission) | Nothing says claims made in bids must be true and evidenced | Add one sentence citing the competition regulator's guidance |
+| 8.8-l | (omission) | Limits of the evidence are not stated | Add: "No published UK study was found that measures how often sustainability evidence changes a contract award or a loan price." |
+
+## 2.1
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 2.1-a | "every AI system you use sits in one of four tiers" / "limited risk ... minimal risk" | The Act's text has prohibited practices and high-risk systems; the other two labels are not in it | "the Act bans some practices, puts heavy duties on listed high-risk uses, and asks for disclosure in a few other cases" |
+| 2.1-b | "classification turns on whether failure poses real risk to health, safety or fundamental rights" | The new product rule (Art. 6(1b)) refers to health and safety only | "such a function is back in scope if its failure would endanger health and safety" |
+| 2.1-c | "document the reasoning either way" | Stated as if a legal duty on users; the Act's duty is on providers (Art. 6(4)) | "record the reasoning either way; providers must, and users will want the same record" |
+| 2.1-d | "minimal risk, which is most of the estate and carries no additional burden" | Unsourced | Cut, or "most everyday tools fall outside both classes" |
+| 2.1-e | "(criterion 1.4)", "(1.6)" | Internal numbers in client text | "the AI register"; "horizon scanning" |
+
+## 2.2
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 2.2-a | "the oversight the 2024 Code expects" | The Code binds only listed companies, on comply or explain, and says nothing of AI | "the oversight the UK Corporate Governance Code asks of listed company boards, and which other boards may borrow" |
+| 2.2-b | "Almost none have written them down" | Unsourced | "Few have written them down, in our experience" or cut |
+| 2.2-c | "the answer is always yes" | Unsourced | "the answer is usually yes" |
+| 2.2-d | "breaches escalate automatically" | Not in any source | "breaches are reported and escalated" |
+| 2.2-e | (omission) | Appetite cannot go below legal duties; the regulator says zero tolerance is not required but compliance is | Add one sentence: "Appetite starts where the law stops: some uses are prohibited whatever the board decides." |
+
+## 2.3
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 2.3-a | "banking and insurance entities using AI for creditworthiness or life and health insurance pricing" | The duty falls on any deployer of those systems | "and anyone deploying AI to assess creditworthiness or to price life and health insurance" |
+| 2.3-b | "reaching dignity, non-discrimination and redress" | Only redress is in the text read (Recital 96) | "reaching any harm to the people and groups affected, and requiring complaint routes" |
+| 2.3-c | "which automated decision-making and large-scale profiling almost always are" | Overstated | "which significant automated decisions and large-scale profiling usually are" |
+| 2.3-d | "if you serve the EU public sector, credit or insurance markets" | Wrong test | "if you are a public body, deliver public services, or deploy credit-scoring or life and health insurance pricing AI whose output is used in the EU" |
+| 2.3-e | "So do courts." | Unsourced | Cut |
+| 2.3-f | (omission) | In the UK the data protection assessment already covers other fundamental rights, and public bodies have equality and human rights duties | Add one sentence saying so |
+| 2.3-g | "(criterion 2.4)" | Internal number in client text | "the operational controls" |
+
+## 2.4
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 2.4-a | "use outside it transfers risk quietly to you" | Overstates Art. 25, which applies in three defined cases | "and a deployer who changes a system's purpose so that it becomes high-risk takes on the provider's obligations" |
+| 2.4-b | "garbage in remains the leading cause" | Unsourced | "poor input data is a common way for a sound system to produce unsound results" |
+| 2.4-c | "six months is the minimum, and your own ... processes will often argue for longer" | Omits the limits in the text | "six months is the minimum for logs you control, subject to data protection law; your own incident and complaint processes may need longer" |
+| 2.4-d | "The AI Act's centre of gravity for SMEs is Article 26" | Opinion stated as fact; no mention that it is EU law for high-risk systems | "For organisations that use high-risk AI within the EU's reach, the key provision is Article 26" |
+| 2.4-e | (omission) | UK position missing | Add: "The UK has no equivalent statute; government's voluntary code and regulators' guidance ask for much the same" |
+| 2.4-f | "(2.6, 4.4)", "(6.4)" | Internal numbers in client text | "incident and complaint processes"; "containment" |
+
+## 2.5
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 2.5-a | "mitigate ... transfer ... or accept" (title, extract and body) | Omits the option of stopping the activity, which both the Orange Book and NIST list | "reduce it, share it, stop the activity, or accept it" |
+| 2.5-b | "equality-law exposure for discriminatory decisions generally stays with the deployer regardless of what the contract says about the vendor" | Overstates: a supplier can indemnify the cost; agency of a software supplier is untested | "a contract can move the cost to the supplier but cannot exclude the organisation's duties under the Equality Act to the people affected" |
+| 2.5-c | "insurance where the market offers it" | Unsourced | "insurance, where the policy's cyber clause affirms cover instead of limiting or excluding it" |
+| 2.5-d | "Risk identification without treatment is worse than ignorance: it documents that the organisation knew." and extract "a list of admissions" | Unsourced legal implication | "A risk that is recorded and left untreated shows the organisation knew and did not decide" |
+| 2.5-e | "tightening review (3.5)" | Internal question number in client text | "tightening human review" |
+| 2.5-f | "transfer (contractual allocation to the vendor ...)" | "Transfer" suggests the risk leaves; the Orange Book says "sharing" | "share (contract terms with the supplier, or insurance)" |
+
+## 2.6
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 2.6-a | "report to market surveillance authorities no later than fifteen days after awareness" | Reads as a deployer duty; it is the provider's, and the deployer's own duty is to tell the provider first | "the provider must report within fifteen days; the deployer must tell the provider at once, and takes on the provider's duty only if the provider cannot be reached" |
+| 2.6-b | "with the clock starting at the causal link" | The limits run from awareness | "the report is due as soon as a causal link is established or likely, and in any event within the limit counted from awareness" |
+| 2.6-c | "(would you know? — monitoring per 2.4, telemetry from Band 4) ... the documented procedure of 2.6 ... containment machinery of 6.4" | Internal question numbers and scoring labels in client text | Name the subjects in words |
+| 2.6-d | "These reporting duties track the high-risk timeline" | No date, and the two articles sit in different chapters | "The deployer duties apply to the listed high-risk uses from 2 December 2027" |
+| 2.6-e | "irreversible infrastructure disruption ... serious damage to property or environment" | Loose paraphrase of the definition | "serious and irreversible disruption of critical infrastructure ... serious harm to property or the environment" |
+| 2.6-f | "penalties for non-reporting sit in the same tier as other operator obligations" | Not verified for provider reporting | "breach of the deployer duties carries fines of up to EUR 15 million or 3% of turnover, the lower of the two for smaller firms" |
+| 2.6-g | (omission) | UK duties that already apply are not mentioned | Add one sentence on personal data breach reporting and product safety notification |
+| 2.6-h | (omission) | The Commission's draft guidance reads "immediately" as within 24 hours | Add, marked as draft |
+
+## 2.7
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 2.7-a | "describes a system that, within a year, no longer exists" | Unsourced timescale | "describes a system that may since have changed" |
+| 2.7-b | "(often without notice, in SaaS deployments)" | Unsourced | "(sometimes without notice, where the supplier hosts the system)" or cut |
+| 2.7-c | "From Band 4, monitoring becomes continuous: telemetry against thresholds" | Internal scoring label; "continuous" is not what any source asks | "The stronger answer monitors against written thresholds on an ongoing basis" |
+| 2.7-d | "refreshed testing (3.3) and assessment updates (2.3) ... horizon scanning (1.6) ... treatment decisions (2.5)" | Internal question numbers in client text | Name the subjects in words |
+| 2.7-e | (omission) | No law is cited although UK GDPR Art. 35(11) requires review when risk changes | Add one sentence |
+| 2.7-f | (omission) | The regulator expects documented retraining thresholds | Add: "the regulator expects written thresholds for when a model must be retrained" |
+
+## 2.8
+| # | Current wording | Problem | Proposed |
+| --- | --- | --- | --- |
+| 2.8-a | "permits micro-enterprises to run simplified quality-management approaches" | Out of date: the amended Article 63 covers SMEs including start-ups | "lets small and medium-sized enterprises meet parts of the quality management requirement in a simplified way" |
+| 2.8-b | "mandates simplified technical-documentation formats for smaller enterprises" | It permits; the form is not yet found published | "allows smaller enterprises to give technical documentation in a simplified form the Commission is to publish" |
+| 2.8-c | "The regime increasingly says otherwise" and extract "The regime now says it plainly" | Unnamed law; EU not UK; providers of high-risk systems only | "The EU's AI Act, as amended in 2026, says otherwise for providers of high-risk systems; UK data protection law has always scaled the duty to the risk" |
+| 2.8-d | "the scramble test from criterion 1.8 ... change triggers (2.7)" | Internal question numbers in client text | Name the subjects in words |
+| 2.8-e | "The irreducible core is a defensible file per system" | Reads as a rule; no law requires it | "A sound way to meet the duty to demonstrate is one file per system" |
+| 2.8-f | "it reads as competence ... better per pound than your larger competitors'" | Unsourced commercial claim | Keep as opinion, marked as such, or cut |
+| 2.8-g | (omission) | Simplification does not lower the standard (Art. 63(2)) | Add: "simplified does not mean exempt: risk management, record-keeping and monitoring still apply" |

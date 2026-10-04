@@ -136,7 +136,7 @@
     "status": 200,
     "checked": "2026-10-02",
     "passages": 27,
-    "change": 0.138
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 111: AI systems already placed on the market or put into service",
@@ -147,12 +147,13 @@
     "status": 200,
     "checked": "2026-10-02",
     "passages": 16,
-    "change": 0.222
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 26: Obligations of deployers of high-risk AI systems",
     "criteria": [
       "1.2",
+      "1.8",
       "2.3",
       "2.4",
       "2.6",
@@ -165,25 +166,37 @@
     "status": 200,
     "checked": "2026-10-02",
     "passages": 42,
-    "change": 0.091
+    "change": 0.0
   },
   "https://www.frc.org.uk/documents/6709/UK_Corporate_Governance_Code_2024_a2hmQmY.pdf": {
     "title": "UK Corporate Governance Code 2024",
     "criteria": [
-      "4.6"
+      "1.1",
+      "1.3",
+      "1.6",
+      "1.7",
+      "2.2",
+      "4.6",
+      "6.8",
+      "7.4",
+      "7.5",
+      "8.7"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 187
+    "passages": 187,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/algorithmic-transparency-recording-standard-mandatory-scope-and-exemptions-policy/algorithmic-transparency-recording-standard-atrs-mandatory-scope-and-exemptions-policy": {
     "title": "Algorithmic Transparency Recording Standard (ATRS) Mandatory Scope and Exemptions Policy",
     "criteria": [
-      "4.6"
+      "4.6",
+      "5.1"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 102
+    "passages": 102,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework": {
     "title": "Data and AI Ethics Framework",
@@ -192,7 +205,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 453
+    "passages": 453,
+    "change": 0.0
   },
   "https://ico.org.uk/about-the-ico/our-information/our-strategies-and-plans/artificial-intelligence-and-biometrics-strategy": {
     "title": "AI and biometrics strategy",
@@ -201,7 +215,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 31
+    "passages": 31,
+    "change": 0.062
   },
   "https://ico.org.uk/action-weve-taken/audits-and-overview-reports/ai-tools-in-recruitment": {
     "title": "AI tools in recruitment: audit outcomes report",
@@ -210,7 +225,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 6
+    "passages": 6,
+    "change": 0.0
   },
   "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf": {
     "title": "AI tools in recruitment: audit outcomes report",
@@ -218,22 +234,27 @@
       "3.2",
       "3.3",
       "3.5",
-      "3.7"
+      "3.7",
+      "5.4",
+      "5.6"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 563
+    "passages": 563,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards": {
     "title": "Automated decision-making, including profiling (draft guidance): What are the ADM safeguards?",
     "criteria": [
       "4.3",
       "4.4",
-      "4.7"
+      "4.7",
+      "5.2"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 61
+    "passages": 61,
+    "change": 0.032
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/when-can-we-use-special-category-data-in-our-adm": {
     "title": "Automated decision-making, including profiling (draft guidance): When can we use special category data in our ADM?",
@@ -242,16 +263,19 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 60
+    "passages": 60,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/governance-and-accountability-in-ai": {
     "title": "Data protection audit framework, Artificial intelligence toolkit: Governance and accountability in AI",
     "criteria": [
-      "4.6"
+      "4.6",
+      "5.8"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 135
+    "passages": 135,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/do-we-need-to-consult-the-ico": {
     "title": "Data protection impact assessments: Do we need to consult the ICO?",
@@ -260,7 +284,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 35
+    "passages": 35,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/annex-a-fairness-in-the-ai-lifecycle": {
     "title": "Guidance on AI and data protection: Annex A, Fairness in the AI lifecycle",
@@ -269,17 +294,22 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 408
+    "passages": 408,
+    "change": 0.005
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems": {
     "title": "Guidance on AI and data protection: How do we ensure individual rights in our AI systems?",
     "criteria": [
       "3.5",
-      "4.4"
+      "4.4",
+      "5.7",
+      "7.2",
+      "7.3"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 248
+    "passages": 248,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-about-fairness-bias-and-discrimination": {
     "title": "Guidance on AI and data protection: What about fairness, bias and discrimination?",
@@ -290,16 +320,24 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 206
+    "passages": 206,
+    "change": 0.01
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/what-are-the-accountability-and-governance-implications-of-ai": {
     "title": "Guidance on AI and data protection: What are the accountability and governance implications of AI?",
     "criteria": [
-      "4.5"
+      "2.2",
+      "2.3",
+      "2.4",
+      "2.5",
+      "2.8",
+      "4.5",
+      "5.4"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 205
+    "passages": 205,
+    "change": 0.0
   },
   "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/introduction-what-is-adm-and-why-are-we-focusing-on-it-in-recruitment": {
     "title": "Recruitment rewired: Introduction",
@@ -308,25 +346,30 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 92
+    "passages": 92,
+    "change": 0.022
   },
   "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/transparency-and-safeguards": {
     "title": "Recruitment rewired: Transparency and safeguards",
     "criteria": [
-      "4.7"
+      "4.7",
+      "5.2"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 93
+    "passages": 93,
+    "change": 0.0
   },
   "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/meaningful-human-involvement": {
     "title": "Recruitment rewired: an update on the ICO's work on the fair and responsible use of automation in recruitment",
     "criteria": [
-      "3.5"
+      "3.5",
+      "5.1"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 61
+    "passages": 61,
+    "change": 0.032
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data": {
     "title": "Special category data: What is special category data?",
@@ -335,7 +378,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 93
+    "passages": 93,
+    "change": 0.021
   },
   "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2024/11/thinking-of-using-ai-to-assist-recruitment-our-key-data-protection-considerations": {
     "title": "Thinking of using AI to assist recruitment? Our key data protection considerations",
@@ -344,7 +388,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 38
+    "passages": 38,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-1-the-basics-of-explaining-ai/what-goes-into-an-explanation": {
     "title": "Explaining decisions made with AI, Part 1: What goes into an explanation?",
@@ -354,7 +399,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 184
+    "passages": 184,
+    "change": 0.011
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-2-explaining-ai-in-practice/task-3-build": {
     "title": "Explaining decisions made with AI, Part 2, Task 3: Build your system to ensure you are able to extract relevant information",
@@ -363,7 +409,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 188
+    "passages": 188,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-3-what-explaining-ai-means-for-your-organisation/organisational-roles-and-functions-for-explaining-ai": {
     "title": "Explaining decisions made with AI, Part 3: Organisational roles and functions for explaining AI",
@@ -373,7 +420,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 57
+    "passages": 57,
+    "change": 0.0
   },
   "https://ico.org.uk/media2/migrated/2615039/project-explain-20190603.pdf": {
     "title": "Project explAIn: interim report",
@@ -382,7 +430,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 289
+    "passages": 289,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai": {
     "title": "The hidden risks of shadow AI",
@@ -391,7 +440,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 34
+    "passages": 34,
+    "change": 0.0
   },
   "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf": {
     "title": "Towards a Standard for Identifying and Managing Bias in Artificial Intelligence (Special Publication 1270)",
@@ -400,7 +450,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1130
+    "passages": 1130,
+    "change": 0.0
   },
   "https://oecd.ai/en/dashboards/ai-principles/P7": {
     "title": "OECD AI Principles, 1.3: Transparency and explainability",
@@ -409,7 +460,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 32
+    "passages": 32,
+    "change": 0.0
   },
   "https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/deepfake-defences-2/deepfake-defences-2---the-attribution-toolkit.pdf?v=402066": {
     "title": "Deepfake Defences 2: The Attribution Toolkit",
@@ -418,17 +470,20 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 606
+    "passages": 606,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/guidelines-for-ai-procurement/guidelines-for-ai-procurement": {
     "title": "Guidelines for AI procurement",
     "criteria": [
+      "1.5",
       "3.7",
       "4.5"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 207
+    "passages": 207,
+    "change": 0.0
   },
   "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence": {
     "title": "Recommendation on the Ethics of Artificial Intelligence",
@@ -437,7 +492,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 322
+    "passages": 322,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2025/18/section/103": {
     "title": "Data (Use and Access) Act 2025, section 103: Complaints by data subjects",
@@ -446,7 +502,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 45
+    "passages": 45,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2025/18/section/80": {
     "title": "Data (Use and Access) Act 2025, section 80: Automated decision-making",
@@ -456,7 +513,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 61
+    "passages": 61,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2018/12/schedule/1/paragraph/8": {
     "title": "Data Protection Act 2018, Schedule 1, paragraph 8: Equality of opportunity or treatment",
@@ -465,7 +523,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 39
+    "passages": 39,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2024/13/section/182": {
     "title": "Digital Markets, Competition and Consumers Act 2024, section 182: Final infringement notice",
@@ -474,7 +533,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 45
+    "passages": 45,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2024/13/section/226": {
     "title": "Digital Markets, Competition and Consumers Act 2024, section 226: Misleading actions",
@@ -483,7 +543,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 41
+    "passages": 41,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2024/13/section/227": {
     "title": "Digital Markets, Competition and Consumers Act 2024, section 227: Misleading omissions",
@@ -492,17 +553,20 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 40
+    "passages": 40,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2010/15/section/109": {
     "title": "Equality Act 2010, section 109: Liability of employers and principals",
     "criteria": [
+      "2.5",
       "3.1",
       "3.7"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 41
+    "passages": 41,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2010/15/section/124": {
     "title": "Equality Act 2010, section 124: Remedies: general",
@@ -511,7 +575,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 44
+    "passages": 44,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2010/15/section/19": {
     "title": "Equality Act 2010, section 19: Indirect discrimination",
@@ -522,7 +587,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 39
+    "passages": 39,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2000/8/schedule/10A": {
     "title": "Financial Services and Markets Act 2000, Schedule 10A: Liability of issuers in connection with published information",
@@ -531,7 +597,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 71
+    "passages": 71,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/uksi/2008/1276/regulation/3": {
     "title": "The Business Protection from Misleading Marketing Regulations 2008, regulation 3",
@@ -540,7 +607,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 28
+    "passages": 28,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/uksi/2026/82/regulation/2/made": {
     "title": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026 (S.I. 2026/82)",
@@ -549,7 +617,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 12
+    "passages": 12,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/13": {
     "title": "UK GDPR, Article 13: Information to be provided where personal data are collected from the data subject",
@@ -558,34 +627,43 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 35
+    "passages": 35,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/15": {
     "title": "UK GDPR, Article 15: Right of access by the data subject",
     "criteria": [
-      "4.3"
+      "4.3",
+      "5.7"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 35
+    "passages": 35,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/22A": {
     "title": "UK GDPR, Article 22A: Automated processing and significant decisions",
     "criteria": [
-      "3.5"
+      "1.2",
+      "1.3",
+      "3.5",
+      "5.1"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 28
+    "passages": 28,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/22B": {
     "title": "UK GDPR, Article 22B: Restrictions on automated decision-making",
     "criteria": [
-      "3.4"
+      "3.4",
+      "5.3"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 30
+    "passages": 30,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/22C": {
     "title": "UK GDPR, Article 22C: Safeguards for automated decision-making",
@@ -595,65 +673,87 @@
       "4.3",
       "4.4",
       "4.5",
-      "4.7"
+      "4.7",
+      "5.2",
+      "7.3"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 28
+    "passages": 28,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/25": {
     "title": "UK GDPR, Article 25: Data protection by design and by default",
     "criteria": [
-      "4.5"
+      "4.5",
+      "5.6",
+      "7.3"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 34
+    "passages": 34,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/28": {
     "title": "UK GDPR, Article 28: Processor",
     "criteria": [
-      "3.7"
+      "3.7",
+      "6.7",
+      "7.7"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 47
+    "passages": 47,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/30": {
     "title": "UK GDPR, Article 30: Records of processing activities",
     "criteria": [
-      "4.6"
+      "4.6",
+      "5.1"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 35
+    "passages": 35,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/35": {
     "title": "UK GDPR, Article 35: Data protection impact assessment",
     "criteria": [
-      "3.6"
+      "2.3",
+      "2.7",
+      "3.6",
+      "5.4",
+      "7.4",
+      "7.5"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 43
+    "passages": 43,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/36": {
     "title": "UK GDPR, Article 36: Prior consultation",
     "criteria": [
+      "2.5",
       "3.6"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 41
+    "passages": 41,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/5": {
     "title": "UK GDPR, Article 5: Principles relating to processing of personal data",
     "criteria": [
-      "4.6"
+      "4.6",
+      "5.6",
+      "5.8"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 31
+    "passages": 31,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/82": {
     "title": "UK GDPR, Article 82: Right to compensation and liability",
@@ -662,25 +762,31 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 32
+    "passages": 32,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/83": {
     "title": "UK GDPR, Article 83: General conditions for imposing administrative fines",
     "criteria": [
-      "3.6"
+      "3.6",
+      "5.2",
+      "5.4"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 49
+    "passages": 49,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/9": {
     "title": "UK GDPR, Article 9: Processing of special categories of personal data",
     "criteria": [
-      "3.4"
+      "3.4",
+      "5.5"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 44
+    "passages": 44,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/chapter/III/section/1": {
     "title": "UK GDPR, Articles 12 and 12A: time limits for acting on rights requests",
@@ -689,7 +795,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 52
+    "passages": 52,
+    "change": 0.0
   },
   "watch:W1": {
     "present": true,
@@ -777,7 +884,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 81
+    "passages": 81,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/recognised-legitimate-interest": {
     "title": "A guide to lawful basis: Recognised legitimate interest",
@@ -786,7 +894,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 116
+    "passages": 116,
+    "change": 0.017
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation": {
     "title": "A guide to the data protection principles. Principle (c): Data minimisation",
@@ -795,16 +904,20 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 45
+    "passages": 45,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-does-the-uk-gdpr-say-about-adm": {
-    "title": "Automated decision-making, including profiling: What does the UK GDPR say about ADM?",
+    "title": "Automated decision-making, including profiling (draft guidance): What does the UK GDPR say about ADM?",
     "criteria": [
-      "5.1"
+      "1.2",
+      "5.1",
+      "7.2"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 81
+    "passages": 81,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-else-do-we-need-to-consider": {
     "title": "Automated decision-making, including profiling: What else do we need to consider?",
@@ -814,7 +927,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 25
+    "passages": 25,
+    "change": 0.077
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/biometric-data-guidance-biometric-recognition/how-do-we-process-biometric-data-lawfully": {
     "title": "Biometric data guidance: Biometric recognition. How do we process biometric data lawfully?",
@@ -823,7 +937,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 129
+    "passages": 129,
+    "change": 0.0
   },
   "https://ico.org.uk/about-the-ico/our-information/policies-and-procedures/data-protection-fining-guidance/circumstances-in-which-the-commissioner-would-consider-it-appropriate-to-issue-a-penalty-notice/relevant-aggravating-or-mitigating-factors": {
     "title": "Data Protection Fining Guidance: Relevant aggravating or mitigating factors",
@@ -832,7 +947,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 70
+    "passages": 70,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/accountability/information-rights": {
     "title": "Data protection audit framework, Accountability toolkit: Information rights",
@@ -841,25 +957,31 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 101
+    "passages": 101,
+    "change": 0.02
   },
   "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/human-review": {
     "title": "Data protection audit framework, Artificial intelligence toolkit: Human review",
     "criteria": [
-      "5.2"
+      "5.2",
+      "7.2",
+      "7.3"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 33
+    "passages": 33,
+    "change": 0.059
   },
   "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/contracts-and-third-parties": {
-    "title": "Data protection audit framework, artificial intelligence toolkit: Contracts and third parties",
+    "title": "Data protection audit framework, Artificial intelligence toolkit: Contracts and third parties",
     "criteria": [
+      "1.5",
       "5.7"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 57
+    "passages": 57,
+    "change": 0.034
   },
   "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/data-minimisation": {
     "title": "Data protection audit framework, artificial intelligence toolkit: Data minimisation",
@@ -868,25 +990,31 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 49
+    "passages": 49,
+    "change": 0.04
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/how-do-we-do-a-dpia": {
     "title": "Data protection impact assessments: How do we do a DPIA?",
     "criteria": [
+      "2.5",
+      "2.7",
       "5.4"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 79
+    "passages": 79,
+    "change": 0.025
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/what-is-a-dpia": {
     "title": "Data protection impact assessments: What is a DPIA?",
     "criteria": [
+      "2.3",
       "5.4"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 53
+    "passages": 53,
+    "change": 0.037
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/when-do-we-need-to-do-a-dpia": {
     "title": "Data protection impact assessments: When do we need to do a DPIA?",
@@ -895,7 +1023,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 111
+    "passages": 111,
+    "change": 0.018
   },
   "https://ico.org.uk/media2/migrated/4029988/snap-my-ai-non-confidential-decision-21-may-2024-20240619-redacted.pdf": {
     "title": "Decision of the Information Commissioner: Snap Inc. and Snap Group Limited",
@@ -904,7 +1033,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 331
+    "passages": 331,
+    "change": 0.0
   },
   "https://ico.org.uk/media2/woalogoc/20240219-serco-leisure-operating-limited-en.pdf": {
     "title": "Enforcement Notice: Serco Leisure Operating Limited",
@@ -913,7 +1043,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 129
+    "passages": 129,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-lawfulness-in-ai": {
     "title": "Guidance on AI and data protection: How do we ensure lawfulness in AI?",
@@ -923,25 +1054,31 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 107
+    "passages": 107,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-should-we-assess-security-and-data-minimisation-in-ai": {
     "title": "Guidance on AI and data protection: How should we assess security and data minimisation in AI?",
     "criteria": [
-      "5.6"
+      "5.6",
+      "6.1",
+      "6.3"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 270
+    "passages": 270,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/what-do-we-need-to-know-about-accuracy-and-statistical-accuracy": {
     "title": "Guidance on AI and data protection: What do we need to know about accuracy and statistical accuracy?",
     "criteria": [
+      "2.7",
       "5.6"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 94
+    "passages": 94,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance": {
     "title": "Guide to accountability and governance",
@@ -950,7 +1087,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 92
+    "passages": 92,
+    "change": 0.0
   },
   "https://ico.org.uk/media2/ybsi5n0j/ico-annual-report-202527.pdf": {
     "title": "Information Commissioner's Annual Report and Financial Statements 2025/26 (HC 274)",
@@ -959,7 +1097,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1360
+    "passages": 1360,
+    "change": 0.0
   },
   "https://ico.org.uk/about-the-ico/what-we-do/our-work-on-artificial-intelligence/response-to-the-consultation-series-on-generative-ai/accuracy-of-training-data-and-model-outputs": {
     "title": "Information Commissioner's Office response to the consultation series on generative AI: Accuracy of training data and model outputs",
@@ -968,7 +1107,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 61
+    "passages": 61,
+    "change": 0.032
   },
   "https://ico.org.uk/about-the-ico/what-we-do/our-work-on-artificial-intelligence/response-to-the-consultation-series-on-generative-ai/the-lawful-basis-for-web-scraping-to-train-generative-ai-models": {
     "title": "Information Commissioner's Office response to the consultation series on generative AI: The lawful basis for web scraping to train generative AI models",
@@ -977,7 +1117,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 107
+    "passages": 107,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/legitimate-interests/what-is-the-legitimate-interests-basis": {
     "title": "Legitimate interests: What is the 'legitimate interests' basis?",
@@ -986,7 +1127,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 138
+    "passages": 138,
+    "change": 0.014
   },
   "https://ico.org.uk/media2/migrated/4020436/clearview-ai-inc-mpn-20220518.pdf": {
     "title": "Monetary Penalty Notice: Clearview AI Inc",
@@ -995,7 +1137,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 275
+    "passages": 275,
+    "change": 0.0
   },
   "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/dpias": {
     "title": "Recruitment rewired: DPIAs",
@@ -1004,7 +1147,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 46
+    "passages": 46,
+    "change": 0.043
   },
   "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/understanding-how-meaningful-human-involvement-applies-use-cases": {
     "title": "Recruitment rewired: Understanding how meaningful human involvement applies: use cases",
@@ -1013,7 +1157,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 20
+    "passages": 20,
+    "change": 0.095
   },
   "https://ico.org.uk/about-the-ico/what-we-do/our-work-on-artificial-intelligence/response-to-the-consultation-series-on-generative-ai/engineering-individual-rights-into-generative-ai-models": {
     "title": "Response to the consultation series on generative AI: Engineering individual rights into generative AI models",
@@ -1022,7 +1167,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 70
+    "passages": 70,
+    "change": 0.028
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/right-of-access/how-do-we-find-and-retrieve-the-relevant-information": {
     "title": "Right of access: How do we find and retrieve the relevant information?",
@@ -1031,7 +1177,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 69
+    "passages": 69,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-are-the-rules-on-special-category-data": {
     "title": "Special category data: What are the rules on special category data?",
@@ -1040,16 +1187,33 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 87
+    "passages": 87,
+    "change": 0.0
   },
   "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf": {
     "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
     "criteria": [
-      "5.6"
+      "1.1",
+      "1.3",
+      "1.4",
+      "1.5",
+      "1.8",
+      "2.1",
+      "2.2",
+      "2.4",
+      "2.5",
+      "2.6",
+      "2.7",
+      "5.6",
+      "6.4",
+      "7.1",
+      "7.2",
+      "7.3"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 576
+    "passages": 576,
+    "change": 0.0
   },
   "https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/319": {
     "title": "The Information Commissioner v Clearview AI Incorporated [2025] UKUT 319 (AAC)",
@@ -1058,7 +1222,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1155
+    "passages": 1155,
+    "change": 0.0
   },
   "https://arxiv.org/abs/2412.06966": {
     "title": "Machine Unlearning Doesn't Do What You Think: Lessons for Generative AI Policy and Research",
@@ -1067,7 +1232,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 24
+    "passages": 24,
+    "change": 0.0
   },
   "https://arxiv.org/abs/2005.13718": {
     "title": "Operationalizing the Legal Principle of Data Minimization for Personalization",
@@ -1076,7 +1242,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 19
+    "passages": 19,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2018/12/schedule/1/part/4": {
     "title": "Data Protection Act 2018, Schedule 1, Part 4: Appropriate policy document and additional safeguards",
@@ -1085,7 +1252,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 44
+    "passages": 44,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2018/12/section/142": {
     "title": "Data Protection Act 2018, section 142: Information notices",
@@ -1094,17 +1262,20 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 49
+    "passages": 49,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2018/12/section/146": {
     "title": "Data Protection Act 2018, section 146: Assessment notices",
     "criteria": [
+      "1.7",
       "5.2",
       "5.8"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 60
+    "passages": 60,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2018/12/section/148A": {
     "title": "Data Protection Act 2018, section 148A: Interview notices",
@@ -1113,7 +1284,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 48
+    "passages": 48,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2018/12/section/155": {
     "title": "Data Protection Act 2018, section 155: Penalty notices",
@@ -1122,7 +1294,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 52
+    "passages": 52,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/annex/1": {
     "title": "UK GDPR, Annex 1: Lawfulness of processing: recognised legitimate interests",
@@ -1131,7 +1304,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 34
+    "passages": 34,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/11A": {
     "title": "UK GDPR, Article 11A: Further provision about processing of special categories of personal data",
@@ -1140,7 +1314,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 30
+    "passages": 30,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/17": {
     "title": "UK GDPR, Article 17: Right to erasure ('right to be forgotten')",
@@ -1149,7 +1324,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 44
+    "passages": 44,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/21": {
     "title": "UK GDPR, Article 21: Right to object",
@@ -1158,7 +1334,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 34
+    "passages": 34,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/22D": {
     "title": "UK GDPR, Article 22D: Further provision about automated decision-making",
@@ -1167,16 +1344,20 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 30
+    "passages": 30,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/24": {
     "title": "UK GDPR, Article 24: Responsibility of the controller",
     "criteria": [
+      "1.3",
+      "2.8",
       "5.2"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 28
+    "passages": 28,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/6": {
     "title": "UK GDPR, Article 6: Lawfulness of processing",
@@ -1185,7 +1366,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 46
+    "passages": 46,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/8A": {
     "title": "UK GDPR, Article 8A: Purpose limitation: further processing",
@@ -1194,7 +1376,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 34
+    "passages": 34,
+    "change": 0.0
   },
   "watch:W4": {
     "present": true,
@@ -1372,16 +1555,19 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 983
+    "passages": 983,
+    "change": 0.0
   },
   "https://assets.publishing.service.gov.uk/media/699ddf22532c9ad91ebbcc2b/uk_srs_s2_climate_related_disclosures.pdf": {
     "title": "UK SRS S2: climate-related disclosures",
     "criteria": [
-      "8.3"
+      "8.3",
+      "8.7"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 352
+    "passages": 352,
+    "change": 0.0
   },
   "https://www.gov.uk/guidance/uk-sustainability-reporting-standards": {
     "title": "UK Sustainability Reporting Standards",
@@ -1390,7 +1576,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 40
+    "passages": 40,
+    "change": 0.0
   },
   "https://assets.publishing.service.gov.uk/media/6a0dbf75faac4bc0b0e906af/2026-streamlined-energy-and-carbon-reporting-post-implementation-review.pdf": {
     "title": "2026 post-implementation review of the SECR regulations 2018",
@@ -1400,7 +1587,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 409
+    "passages": 409,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/streamlined-energy-and-carbon-reporting-secr-regulations-evaluation": {
     "title": "Streamlined Energy and Carbon Reporting (SECR) regulations: evaluation",
@@ -1409,7 +1597,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 15
+    "passages": 15,
+    "change": 0.0
   },
   "https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting": {
     "title": "UK government conversion factors for company reporting of greenhouse gas emissions",
@@ -1418,7 +1607,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 19
+    "passages": 19,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/environmental-reporting-guidelines-including-mandatory-greenhouse-gas-emissions-reporting-guidance": {
     "title": "Environmental reporting guidelines: including Streamlined Energy and Carbon Reporting requirements",
@@ -1427,16 +1617,20 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 16
+    "passages": 16,
+    "change": 0.0
   },
   "https://www.gov.uk/government/consultations/ai-regulation-a-pro-innovation-approach-policy-proposals/outcome/a-pro-innovation-approach-to-ai-regulation-government-response": {
     "title": "A pro-innovation approach to AI regulation: government response",
     "criteria": [
+      "1.5",
+      "1.6",
       "6.7"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1514
+    "passages": 1514,
+    "change": 0.0
   },
   "https://www.gov.uk/government/consultations/ai-management-essentials-tool/ai-management-essentials-tool-accessible": {
     "title": "AI Management Essentials tool (consultation version, accessible)",
@@ -1446,7 +1640,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 121
+    "passages": 121,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/ai-opportunities-action-plan/ai-opportunities-action-plan": {
     "title": "AI Opportunities Action Plan",
@@ -1455,7 +1650,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 321
+    "passages": 321,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/research-on-the-cyber-security-of-ai/ai-cyber-security-survey-main-report": {
     "title": "AI cyber security survey: main report",
@@ -1464,12 +1660,15 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 189
+    "passages": 189,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai": {
     "title": "Code of Practice for the Cyber Security of AI",
     "criteria": [
       "1.4",
+      "1.5",
+      "1.8",
       "2.4",
       "6.1",
       "6.2",
@@ -1481,7 +1680,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 163
+    "passages": 163,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/cyber-governance-code-of-practice/cyber-governance-code-of-practice": {
     "title": "Cyber Governance Code of Practice",
@@ -1495,7 +1695,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 71
+    "passages": 71,
+    "change": 0.0
   },
   "https://www.gov.uk/government/collections/cyber-security-and-resilience-bill": {
     "title": "Cyber Security and Resilience Bill (collection)",
@@ -1505,7 +1706,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 23
+    "passages": 23,
+    "change": 0.0
   },
   "https://assets.publishing.service.gov.uk/media/679cae441d14e76535afb630/Implementation_Guide_for_the_AI_Cyber_Security_Code_of_Practice.pdf": {
     "title": "Implementation Guide for the AI Cyber Security Code of Practice",
@@ -1516,7 +1718,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 884
+    "passages": 884,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/uk-compute-roadmap/uk-compute-roadmap": {
     "title": "UK Compute Roadmap",
@@ -1525,7 +1728,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 322
+    "passages": 322,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/ai-adoption-research/ai-adoption-research": {
     "title": "AI Adoption Research",
@@ -1535,7 +1739,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 532
+    "passages": 532,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/ai-skills-for-life-and-work-employer-survey-findings/ai-skills-for-life-and-work-employer-survey-findings--2": {
     "title": "AI skills for life and work: employer survey findings",
@@ -1544,7 +1749,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 125
+    "passages": 125,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/assessment-of-ai-capabilities-and-the-impact-on-the-uk-labour-market/assessment-of-ai-capabilities-and-the-impact-on-the-uk-labour-market": {
     "title": "Assessment of AI capabilities and the impact on the UK labour market",
@@ -1553,7 +1759,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 96
+    "passages": 96,
+    "change": 0.0
   },
   "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026": {
     "title": "Cyber security breaches survey 2025/2026",
@@ -1565,7 +1772,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1005
+    "passages": 1005,
+    "change": 0.0
   },
   "https://www.gov.uk/government/groups/ai-energy-council": {
     "title": "AI Energy Council",
@@ -1574,7 +1782,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 10
+    "passages": 10,
+    "change": 0.0
   },
   "https://www.efrag.org/en/projects/voluntary-reporting-standard-for-smes-vsme/concluded": {
     "title": "Voluntary reporting standard for SMEs (VSME): concluded project page",
@@ -1583,17 +1792,21 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 37
+    "passages": 37,
+    "change": 0.0
   },
   "https://www.efrag.org/sites/default/files/sites/webpublishing/SiteAssets/VSME%20Standard.pdf": {
     "title": "Voluntary sustainability reporting standard for non-listed SMEs (VSME)",
     "criteria": [
       "8.2",
-      "8.3"
+      "8.3",
+      "8.6",
+      "8.7"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 749
+    "passages": 749,
+    "change": 0.0
   },
   "https://www.etsi.org/deliver/etsi_ts/104200_104299/104223/01.01.01_60/ts_104223v010101p.pdf": {
     "title": "ETSI TS 104 223 V1.1.1: Securing Artificial Intelligence (SAI); Baseline Cyber Security Requirements for AI Models and Systems",
@@ -1603,7 +1816,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 222
+    "passages": 222,
+    "change": 0.0
   },
   "https://arxiv.org/pdf/2304.11771": {
     "title": "Generative AI at Work",
@@ -1612,7 +1826,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1047
+    "passages": 1047,
+    "change": 0.0
   },
   "https://arxiv.org/pdf/2201.04200": {
     "title": "The Turing Trap: The Promise & Peril of Human-Like Artificial Intelligence",
@@ -1621,7 +1836,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 194
+    "passages": 194,
+    "change": 0.0
   },
   "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers": {
     "title": "AI Literacy - Questions & Answers",
@@ -1631,7 +1847,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 177
+    "passages": 177,
+    "change": 0.0
   },
   "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force": {
     "title": "AI Omnibus enters into force",
@@ -1640,7 +1857,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 5
+    "passages": 5,
+    "change": 0.0
   },
   "https://ec.europa.eu/finance/docs/level-2-measures/csrd-delegated-act-2026-5011_en.pdf": {
     "title": "Commission Delegated Regulation C(2026) 5011 final: explanatory memorandum",
@@ -1649,7 +1867,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 90
+    "passages": 90,
+    "change": 0.0
   },
   "https://ec.europa.eu/finance/docs/level-2-measures/csrd-staff-working-document-2026-500_en.pdf": {
     "title": "Commission Staff Working Document SWD(2026) 500 final, accompanying the two delegated regulations of 3 July 2026",
@@ -1661,7 +1880,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 384
+    "passages": 384,
+    "change": 0.0
   },
   "https://ec.europa.eu/newsroom/dae/redirection/document/119624": {
     "title": "Draft guidance, Article 73 AI Act: incident reporting (high-risk AI systems)",
@@ -1670,7 +1890,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 137
+    "passages": 137,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/faq": {
     "title": "AI Act Service Desk: Frequently Asked Questions (Digital Omnibus)",
@@ -1679,12 +1900,14 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 83
+    "passages": 83,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 113: Entry into force and application",
     "criteria": [
       "1.3",
+      "1.6",
       "2.1",
       "2.4",
       "2.6",
@@ -1692,7 +1915,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 6
+    "passages": 6,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-11": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 11: Technical documentation",
@@ -1701,7 +1925,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 17
+    "passages": 17,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-13": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 13: Transparency and provision of information to deployers",
@@ -1710,7 +1935,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 14
+    "passages": 14,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 14: Human oversight",
@@ -1720,7 +1946,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 16
+    "passages": 16,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-15": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 15: Accuracy, robustness and cybersecurity",
@@ -1729,7 +1956,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 17
+    "passages": 17,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-25": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 25: Responsibilities along the AI value chain",
@@ -1738,7 +1966,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 23
+    "passages": 23,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 2: Scope",
@@ -1747,7 +1976,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 28
+    "passages": 28,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-3": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 3: Definitions",
@@ -1756,7 +1986,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 8
+    "passages": 8,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-49": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 49: Registration",
@@ -1765,7 +1996,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 16
+    "passages": 16,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 4: AI literacy",
@@ -1774,7 +2006,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 13
+    "passages": 13,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 5: Prohibited AI practices",
@@ -1784,7 +2017,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 37
+    "passages": 37,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-63": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 63: Derogations for specific operators",
@@ -1793,7 +2027,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 11
+    "passages": 11,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-6": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 6: Classification rules for high-risk AI systems",
@@ -1802,7 +2037,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 23
+    "passages": 23,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-72": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 72: Post-market monitoring by providers and post-market monitoring plan for high-risk AI systems",
@@ -1811,7 +2047,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 17
+    "passages": 17,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-73": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 73: Reporting of serious incidents",
@@ -1821,7 +2058,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 26
+    "passages": 26,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 99: Penalties",
@@ -1832,7 +2070,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 22
+    "passages": 22,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-9": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Article 9: Risk management system",
@@ -1842,7 +2081,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 25
+    "passages": 25,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-96": {
     "title": "Regulation (EU) 2024/1689 (AI Act), Recital 96",
@@ -1851,7 +2091,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 15
+    "passages": 15,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act": {
     "title": "Timeline for the Implementation of the EU AI Act",
@@ -1861,7 +2102,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 11
+    "passages": 11,
+    "change": 0.0
   },
   "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-11": {
     "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Annex XI: technical documentation for providers of general-purpose AI models",
@@ -1870,7 +2112,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 14
+    "passages": 14,
+    "change": 0.0
   },
   "https://finance.ec.europa.eu/news/commission-adopts-revised-sustainability-reporting-standards-2026-07-03_en": {
     "title": "Commission adopts revised sustainability reporting standards",
@@ -1880,7 +2123,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 18
+    "passages": 18,
+    "change": 0.0
   },
   "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en": {
     "title": "Corporate sustainability reporting",
@@ -1889,7 +2133,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 41
+    "passages": 41,
+    "change": 0.0
   },
   "https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/corporate-sustainability-reporting-directive_en": {
     "title": "Implementing and delegated acts: Corporate Sustainability Reporting Directive",
@@ -1898,7 +2143,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 5
+    "passages": 5,
+    "change": 0.0
   },
   "https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/airline_operators/airline_safety/SAFO13002.pdf": {
     "title": "Safety Alert for Operators 13002: Manual Flight Operations",
@@ -1917,7 +2163,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 233
+    "passages": 233,
+    "change": 0.0
   },
   "https://www.fca.org.uk/firms/critical-third-parties-strengthening-uk-financial-services": {
     "title": "Critical third parties: strengthening UK financial services",
@@ -1926,7 +2173,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 30
+    "passages": 30,
+    "change": 0.0
   },
   "https://www.fca.org.uk/firms/operational-resilience/crowdstrike-outage-lessons-operational-resilience": {
     "title": "CrowdStrike outage: lessons for operational resilience",
@@ -1935,7 +2183,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 49
+    "passages": 49,
+    "change": 0.0
   },
   "https://handbook.fca.org.uk/handbook/sysc15a": {
     "title": "FCA Handbook, SYSC 15A: Operational resilience",
@@ -1945,7 +2194,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 57
+    "passages": 57,
+    "change": 0.0
   },
   "https://www.fca.org.uk/news/statements/fca-boe-treasury-joint-statement-frontier-ai-models-cyber-resilience": {
     "title": "FCA, Bank of England and Treasury joint statement on frontier AI models and cyber resilience",
@@ -1954,7 +2204,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 35
+    "passages": 35,
+    "change": 0.0
   },
   "https://www.fca.org.uk/firms/operational-resilience": {
     "title": "Operational resilience",
@@ -1963,7 +2214,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 99
+    "passages": 99,
+    "change": 0.0
   },
   "https://www.fca.org.uk/publications/policy-statements/ps26-19-aligning-listed-issuers-sustainability-disclosures-international-standards": {
     "title": "PS26/19: Aligning listed issuers' sustainability disclosures with international standards",
@@ -1972,7 +2224,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 27
+    "passages": 27,
+    "change": 0.0
   },
   "https://www.fca.org.uk/publication/policy/ps26-19.pdf": {
     "title": "PS26/19: Aligning listed issuers' sustainability disclosures with international standards (policy statement)",
@@ -1981,7 +2234,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 691
+    "passages": 691,
+    "change": 0.0
   },
   "https://www.fca.org.uk/publications/policy-statements/ps26-2-operational-incident-third-party-reporting": {
     "title": "PS26/2: Operational incident and third party reporting",
@@ -1990,7 +2244,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 31
+    "passages": 31,
+    "change": 0.0
   },
   "https://www.frc.org.uk/documents/8893/Annual_Review_of_Corporate_Governance_Reporting_2025.pdf": {
     "title": "Annual Review of Corporate Governance Reporting",
@@ -2001,7 +2256,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 615
+    "passages": 615,
+    "change": 0.0
   },
   "https://www.frc.org.uk/library/standards-codes-policy/corporate-governance/corporate-governance-code-guidance": {
     "title": "Corporate Governance Code Guidance",
@@ -2012,7 +2268,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1027
+    "passages": 1027,
+    "change": 0.0
   },
   "https://media.frc.org.uk/documents/The_Wates_Corporate_Governance_Principles_for_Large_Private_Companies.pdf": {
     "title": "The Wates Corporate Governance Principles for Large Private Companies",
@@ -2022,17 +2279,20 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 196
+    "passages": 196,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard/algorithmic-transparency-recording-standard-guidance-for-public-sector-bodies": {
     "title": "Algorithmic Transparency Recording Standard: guidance for public sector bodies",
     "criteria": [
       "1.4",
+      "1.8",
       "2.3"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 186
+    "passages": 186,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html": {
     "title": "Artificial Intelligence Playbook for the UK Government",
@@ -2040,13 +2300,15 @@
       "1.1",
       "1.2",
       "1.4",
+      "1.5",
       "7.1",
       "7.3",
       "7.7"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1208
+    "passages": 1208,
+    "change": 0.0
   },
   "https://sci.greensoftware.foundation": {
     "title": "Software Carbon Intensity (SCI) Specification, version 1.1.0",
@@ -2055,7 +2317,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 111
+    "passages": 111,
+    "change": 0.0
   },
   "https://ghgprotocol.org/sites/default/files/standards/Corporate-Value-Chain-Accounting-Reporing-Standard_041613_2.pdf": {
     "title": "Corporate Value Chain (Scope 3) Accounting and Reporting Standard",
@@ -2065,16 +2328,19 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1466
+    "passages": 1466,
+    "change": 0.0
   },
   "https://assets.publishing.service.gov.uk/media/67161e8696def6d27a4c9ab3/environmental-reporting-guidance-secr-march-2019.pdf": {
     "title": "Environmental Reporting Guidelines: including Streamlined Energy and Carbon Reporting guidance",
     "criteria": [
-      "8.5"
+      "8.5",
+      "8.6"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1304
+    "passages": 1304,
+    "change": 0.0
   },
   "https://assets.publishing.service.gov.uk/media/6453acadc33b460012f5e6b8/HMT_Orange_Book_May_2023.pdf": {
     "title": "The Orange Book: Management of Risk, Principles and Concepts",
@@ -2084,7 +2350,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 378
+    "passages": 378,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/orange-book/the-orange-book-management-of-risk-principles-and-concepts": {
     "title": "The Orange Book: Management of Risk - Principles and Concepts",
@@ -2093,7 +2360,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 371
+    "passages": 371,
+    "change": 0.0
   },
   "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf": {
     "title": "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers",
@@ -2102,7 +2370,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 664
+    "passages": 664,
+    "change": 0.0
   },
   "https://www.hse.gov.uk/humanfactors/topics/competence.htm": {
     "title": "Human factors: Training and competence",
@@ -2111,16 +2380,19 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 27
+    "passages": 27,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework": {
     "title": "Data protection audit framework",
     "criteria": [
+      "1.7",
       "2.8"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 30
+    "passages": 30,
+    "change": 0.0
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/employment/monitoring-workers/data-protection-and-monitoring-workers": {
     "title": "Employment practices and data protection: monitoring workers. Data protection and monitoring workers",
@@ -2129,7 +2401,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 317
+    "passages": 317,
+    "change": 0.006
   },
   "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide": {
     "title": "Personal data breaches: a guide",
@@ -2139,7 +2412,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 112
+    "passages": 112,
+    "change": 0.018
   },
   "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-2-explaining-ai-in-practice/task-5-prepare": {
     "title": "Explaining decisions made with AI, Part 2, Task 5: Prepare implementers to deploy your AI system",
@@ -2149,7 +2423,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 70
+    "passages": 70,
+    "change": 0.0
   },
   "https://www.theirm.org/what-we-say/thought-leadership/risk-appetite-and-tolerance": {
     "title": "Risk appetite and tolerance",
@@ -2158,7 +2433,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 21
+    "passages": 21,
+    "change": 0.0
   },
   "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026": {
     "title": "International AI Safety Report 2026",
@@ -2168,7 +2444,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 3910
+    "passages": 3910,
+    "change": 0.0
   },
   "https://iea.blob.core.windows.net/assets/de9dea13-b07d-42c5-a398-d1b3ae17d866/EnergyandAI.pdf": {
     "title": "Energy and AI (World Energy Outlook Special Report)",
@@ -2177,7 +2454,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 3881
+    "passages": 3881,
+    "change": 0.0
   },
   "https://webapps.ilo.org/static/english/intserv/working-papers/wp140/index.html": {
     "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
@@ -2186,7 +2464,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 510
+    "passages": 510,
+    "change": 0.0
   },
   "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@dgreports/@inst/documents/publication/wcms_890761.pdf": {
     "title": "Generative AI and Jobs: A global analysis of potential effects on job quantity and quality (ILO Working Paper 96)",
@@ -2195,7 +2474,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 532
+    "passages": 532,
+    "change": 0.0
   },
   "https://arxiv.org/abs/2502.10036": {
     "title": "Automation Bias in the AI Act: On the Legal Implications of Attempting to De-Bias Human Oversight of AI",
@@ -2204,7 +2484,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 16
+    "passages": 16,
+    "change": 0.0
   },
   "https://arxiv.org/pdf/2601.20245": {
     "title": "How AI Impacts Skill Formation",
@@ -2213,7 +2494,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 460
+    "passages": 460,
+    "change": 0.0
   },
   "https://lmalloyds.com/campaigns/understanding-ai-exposures-ai-loss-scenarios-survey-results": {
     "title": "Understanding AI Exposures: AI Loss Scenarios Survey Results",
@@ -2222,7 +2504,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 196
+    "passages": 196,
+    "change": 0.0
   },
   "https://lmalloyds.com/understanding-artificial-intelligence-risk-in-insurance-products-the-challenges": {
     "title": "Understanding artificial intelligence risk in insurance products: the challenges",
@@ -2231,7 +2514,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 52
+    "passages": 52,
+    "change": 0.0
   },
   "https://arxiv.org/abs/2311.16863": {
     "title": "Power Hungry Processing: Watts Driving the Cost of AI Deployment?",
@@ -2240,7 +2524,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 18
+    "passages": 18,
+    "change": 0.0
   },
   "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part": {
     "title": "2024 Work Trend Index Annual Report: AI at work is here. Now comes the hard part",
@@ -2249,7 +2534,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 167
+    "passages": 167,
+    "change": 0.0
   },
   "https://arxiv.org/pdf/2506.08872": {
     "title": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task",
@@ -2258,7 +2544,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1505
+    "passages": 1505,
+    "change": 0.0
   },
   "https://www.nao.org.uk/wp-content/uploads/2024/03/use-of-artificial-intelligence-in-government.pdf": {
     "title": "Use of artificial intelligence in government (HC 612)",
@@ -2268,7 +2555,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 520
+    "passages": 520,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/guidance/ai-and-cyber-security-what-you-need-to-know": {
     "title": "AI and cyber security: what you need to know",
@@ -2277,7 +2565,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 76
+    "passages": 76,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/blog-post/chatgpt-and-large-language-models-whats-the-risk": {
     "title": "ChatGPT and large language models: what's the risk?",
@@ -2286,7 +2575,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 69
+    "passages": 69,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/collection/cyber-assessment-framework/caf-objective-a-managing-security-risk/principle-a4-supply-chain": {
     "title": "Cyber Assessment Framework, Principle A4: Supply chain",
@@ -2295,7 +2585,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 71
+    "passages": 71,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/collection/cyber-assessment-framework/caf-objective-b/principle-b5-resilient-networks-and-systems": {
     "title": "Cyber Assessment Framework, Principle B5: Resilient networks and systems",
@@ -2304,7 +2595,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 72
+    "passages": 72,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/collection/cyber-assessment-framework/caf-objective-d/principle-d2-lessons-learned": {
     "title": "Cyber Assessment Framework, Principle D2: Lessons learned",
@@ -2313,7 +2605,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 53
+    "passages": 53,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/files/cyber-essentials-requirements-for-it-infrastructure-v3-2.pdf": {
     "title": "Cyber Essentials: Requirements for IT infrastructure v3.2",
@@ -2322,7 +2615,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 205
+    "passages": 205,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/collection/board-toolkit/principle-e-assurance-and-oversight/implementing-effective-cyber-security-measures": {
     "title": "Cyber Security Toolkit for Boards: Implementing effective cyber security measures",
@@ -2331,7 +2625,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 59
+    "passages": 59,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development": {
     "title": "Guidelines for secure AI system development",
@@ -2340,7 +2635,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 30
+    "passages": 30,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development/guidelines/secure-deployment": {
     "title": "Guidelines for secure AI system development: Secure deployment",
@@ -2349,7 +2645,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 33
+    "passages": 33,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development/guidelines/secure-design": {
     "title": "Guidelines for secure AI system development: Secure design",
@@ -2359,7 +2656,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 28
+    "passages": 28,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development/guidelines/secure-development": {
     "title": "Guidelines for secure AI system development: Secure development",
@@ -2369,7 +2667,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 30
+    "passages": 30,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/report/impact-ai-cyber-threat-now-2027": {
     "title": "Impact of AI on cyber threat from now to 2027",
@@ -2378,7 +2677,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 73
+    "passages": 73,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/collection/incident-management/cyber-incident-response-processes": {
     "title": "Incident management. Plan: Your cyber incident response processes",
@@ -2387,7 +2687,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 94
+    "passages": 94,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/blog-post/prompt-injection-is-not-sql-injection": {
     "title": "Prompt injection is not SQL injection (it may be worse)",
@@ -2396,7 +2697,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 73
+    "passages": 73,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/guidance/shadow-it": {
     "title": "Shadow IT",
@@ -2405,7 +2707,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 84
+    "passages": 84,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/collection/supply-chain-security/principles-supply-chain-security/understand-the-risks": {
     "title": "Supply chain security guidance. I. Understand the risks",
@@ -2414,16 +2717,19 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 40
+    "passages": 40,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/collection/supply-chain-security/principles-supply-chain-security/check-your-arrangements": {
-    "title": "Supply chain security guidance. III. Check your arrangements",
+    "title": "Supply chain security guidance: III. Check your arrangements",
     "criteria": [
+      "1.5",
       "6.7"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 19
+    "passages": 19,
+    "change": 0.0
   },
   "https://www.ncsc.gov.uk/files/Guidelines-for-secure-AI-system-development.pdf": {
     "title": "Guidelines for secure AI system development",
@@ -2432,7 +2738,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 149
+    "passages": 149,
+    "change": 0.0
   },
   "https://nepc.raeng.org.uk/media/2aggau2j/foundations-for-sustainable-ai-nepc-report.pdf": {
     "title": "Engineering Responsible AI: foundations for environmentally sustainable AI",
@@ -2441,7 +2748,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 353
+    "passages": 353,
+    "change": 0.0
   },
   "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf": {
     "title": "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations (NIST AI 100-2e2025)",
@@ -2450,7 +2758,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1624
+    "passages": 1624,
+    "change": 0.0
   },
   "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf": {
     "title": "The NIST Cybersecurity Framework (CSF) 2.0",
@@ -2459,7 +2768,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 286
+    "passages": 286,
+    "change": 0.0
   },
   "https://genai.owasp.org/llmrisk/llm01-prompt-injection": {
     "title": "LLM01:2025 Prompt Injection",
@@ -2468,7 +2778,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 58
+    "passages": 58,
+    "change": 0.0
   },
   "https://genai.owasp.org/llmrisk/llm032025-supply-chain": {
     "title": "LLM03:2025 Supply Chain",
@@ -2477,7 +2788,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 87
+    "passages": 87,
+    "change": 0.0
   },
   "https://genai.owasp.org/llmrisk/llm062025-excessive-agency": {
     "title": "LLM06:2025 Excessive Agency",
@@ -2486,7 +2798,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 59
+    "passages": 59,
+    "change": 0.0
   },
   "https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage": {
     "title": "LLM07:2025 System Prompt Leakage",
@@ -2495,7 +2808,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 46
+    "passages": 46,
+    "change": 0.0
   },
   "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/articles/artificialintelligenceinukbusinesses/2023to2026": {
     "title": "Artificial intelligence in UK businesses: 2023 to 2026",
@@ -2504,7 +2818,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 156
+    "passages": 156,
+    "change": 0.0
   },
   "https://oecd.ai/en/dashboards/ai-principles/P9": {
     "title": "OECD AI Principles: Accountability (Principle 1.5)",
@@ -2513,7 +2828,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 28
+    "passages": 28,
+    "change": 0.0
   },
   "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/02/towards-a-common-reporting-framework-for-ai-incidents_8c488fdb/f326d4ac-en.pdf": {
     "title": "Towards a common reporting framework for AI incidents (OECD Artificial Intelligence Papers No. 34)",
@@ -2522,7 +2838,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 267
+    "passages": 267,
+    "change": 0.0
   },
   "http://publications.europa.eu/resource/cellar/db614b12-b555-11f1-81de-01aa75ed71a1.0006.03/DOC_1": {
     "title": "Commission Delegated Regulation (EU) 2026/1560 establishing sustainability reporting standards for voluntary use by undertakings protected by the value chain cap",
@@ -2533,7 +2850,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 337
+    "passages": 337,
+    "change": 0.0
   },
   "http://publications.europa.eu/resource/cellar/6e6d1165-7196-11f0-bf4e-01aa75ed71a1.0006.03/DOC_1": {
     "title": "Commission Recommendation (EU) 2025/1710 on a voluntary sustainability reporting standard for small and medium-sized undertakings",
@@ -2543,7 +2861,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 822
+    "passages": 822,
+    "change": 0.0
   },
   "http://publications.europa.eu/resource/cellar/8a789948-1a5f-11f0-b1a3-01aa75ed71a1.0006.03/DOC_1": {
     "title": "Directive (EU) 2025/794 as regards the dates from which Member States are to apply certain corporate sustainability reporting and due diligence requirements (the 'stop-the-clock' Directive)",
@@ -2552,7 +2871,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 37
+    "passages": 37,
+    "change": 0.0
   },
   "http://publications.europa.eu/resource/cellar/2f337274-12b4-11f1-8870-01aa75ed71a1.0006.03/DOC_1": {
     "title": "Directive (EU) 2026/470 amending Directives 2006/43/EC, 2013/34/EU, (EU) 2022/2464 and (EU) 2024/1760 (the Omnibus I Directive)",
@@ -2562,7 +2882,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 361
+    "passages": 361,
+    "change": 0.0
   },
   "https://arxiv.org/abs/2404.04059": {
     "title": "On the Quest for Effective Human Oversight: Legal, Philosophical, and Technical Perspectives",
@@ -2571,7 +2892,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 18
+    "passages": 18,
+    "change": 0.0
   },
   "https://economics.mit.edu/sites/default/files/inline-files/Noy_Zhang_1.pdf": {
     "title": "Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence",
@@ -2580,7 +2902,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 152
+    "passages": 152,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/skills-for-ai-what-works-for-ai-upskilling-in-the-uk/research-evidence-analysis-and-methodology-what-works-for-ai-upskilling-in-the-uk": {
     "title": "Research evidence, analysis and methodology: What works for AI upskilling in the UK",
@@ -2589,7 +2912,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 401
+    "passages": 401,
+    "change": 0.0
   },
   "https://aclanthology.org/P19-1355.pdf": {
     "title": "Energy and Policy Considerations for Deep Learning in NLP",
@@ -2598,7 +2922,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 115
+    "passages": 115,
+    "change": 0.0
   },
   "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2025/05/trust-attitudes-and-use-of-ai-global-report.pdf": {
     "title": "Trust, attitudes and use of artificial intelligence: A global study 2025",
@@ -2607,7 +2932,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1208
+    "passages": 1208,
+    "change": 0.0
   },
   "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf": {
     "title": "The Future of Jobs Report 2025",
@@ -2617,7 +2943,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1439
+    "passages": 1439,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2017/589/article/12": {
     "title": "Commission Delegated Regulation (EU) 2017/589, Article 12: Kill functionality",
@@ -2626,17 +2953,21 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 32
+    "passages": 32,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2006/46/section/172": {
     "title": "Companies Act 2006, section 172: Duty to promote the success of the company",
     "criteria": [
+      "1.8",
       "7.4",
-      "7.6"
+      "7.6",
+      "8.7"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 45
+    "passages": 45,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2006/46/section/174": {
     "title": "Companies Act 2006, section 174: Duty to exercise reasonable care, skill and diligence",
@@ -2645,44 +2976,53 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 43
+    "passages": 43,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2006/46/section/248": {
     "title": "Companies Act 2006, section 248: Minutes of directors' meetings",
     "criteria": [
       "1.1",
+      "1.8",
       "7.4"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 40
+    "passages": 40,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2006/46/section/414CA": {
     "title": "Companies Act 2006, section 414CA: Non-financial and sustainability information statement",
     "criteria": [
-      "8.1"
+      "8.1",
+      "8.7"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 59
+    "passages": 59,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2006/46/section/414CB": {
     "title": "Companies Act 2006, section 414CB: Contents of non-financial and sustainability information statement",
     "criteria": [
-      "8.3"
+      "8.3",
+      "8.7"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 54
+    "passages": 54,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2006/46/section/414CZA": {
     "title": "Companies Act 2006, section 414CZA: Section 172(1) statement",
     "criteria": [
+      "1.8",
       "7.4"
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 40
+    "passages": 40,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2025/36/section/29": {
     "title": "Employment Rights Act 2025, section 29: Collective redundancy: extended application of requirements",
@@ -2691,7 +3031,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 49
+    "passages": 49,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2010/15/section/144": {
     "title": "Equality Act 2010, section 144: Contracting out",
@@ -2700,7 +3041,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 43
+    "passages": 43,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2010/15/section/149": {
     "title": "Equality Act 2010, section 149: Public sector equality duty",
@@ -2709,7 +3051,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 44
+    "passages": 44,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/1998/42/section/6": {
     "title": "Human Rights Act 1998, section 6: Acts of public authorities",
@@ -2718,7 +3061,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 28
+    "passages": 28,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/uksi/2005/1803/regulation/9": {
     "title": "The General Product Safety Regulations 2005, regulation 9: Obligations of producers and distributors",
@@ -2727,7 +3071,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 41
+    "passages": 41,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/uksi/1996/1513/regulation/3": {
     "title": "The Health and Safety (Consultation with Employees) Regulations 1996, regulation 3: Duty of employer to consult",
@@ -2736,7 +3081,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 26
+    "passages": 26,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/uksi/2004/3426/regulation/20": {
     "title": "The Information and Consultation of Employees Regulations 2004, regulation 20: Standard information and consultation provisions",
@@ -2745,7 +3091,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 34
+    "passages": 34,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/uksi/2004/3426/regulation/7": {
     "title": "The Information and Consultation of Employees Regulations 2004, regulation 7: Employee request to negotiate an agreement",
@@ -2754,7 +3101,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 34
+    "passages": 34,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/uksi/1999/3242/regulation/13": {
     "title": "The Management of Health and Safety at Work Regulations 1999, regulation 13: Capabilities and training",
@@ -2763,7 +3111,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 25
+    "passages": 25,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/uksi/1977/500/regulation/4A": {
     "title": "The Safety Representatives and Safety Committees Regulations 1977, regulation 4A: Employer's duty to consult and provide facilities and assistance",
@@ -2772,7 +3121,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 33
+    "passages": 33,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/1992/52/section/188": {
     "title": "Trade Union and Labour Relations (Consolidation) Act 1992, section 188: Duty of employer to consult representatives",
@@ -2782,7 +3132,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 60
+    "passages": 60,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/32": {
     "title": "UK GDPR, Article 32: Security of processing",
@@ -2794,7 +3145,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 30
+    "passages": 30,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/33": {
     "title": "UK GDPR, Article 33: Notification of a personal data breach",
@@ -2804,7 +3156,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 38
+    "passages": 38,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/eur/2016/679/article/34": {
     "title": "UK GDPR, Article 34: Communication of a personal data breach to the data subject",
@@ -2813,7 +3166,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 32
+    "passages": 32,
+    "change": 0.0
   },
   "https://www.bsigroup.com/en-GB/products-and-services/standards/iso-42001-ai-management-system": {
     "title": "ISO/IEC 42001 - AI Management System",
@@ -2862,7 +3216,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 47
+    "passages": 47,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-frequently-asked-questions": {
     "title": "PPN 006: Frequently asked questions",
@@ -2871,7 +3226,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 106
+    "passages": 106,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-technical-standard-for-completion-of-carbon-reduction-plans-html": {
     "title": "PPN 006: Technical standard for completion of Carbon Reduction Plans",
@@ -2881,7 +3237,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 63
+    "passages": 63,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims/environmental-claims-on-goods-and-services": {
     "title": "Making environmental claims on goods and services (Green Claims Code guidance)",
@@ -2890,7 +3247,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 589
+    "passages": 589,
+    "change": 0.0
   },
   "https://assets.publishing.service.gov.uk/media/699dd3b007d7bff3604d6c5e/uk_srs_1_general_requirements_for_disclosure_of_sustainability_related_financial_information.pdf": {
     "title": "UK SRS S1: General Requirements for Disclosure of Sustainability-related Financial Information",
@@ -2899,7 +3257,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 385
+    "passages": 385,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/assuring-a-responsible-future-for-ai/assuring-a-responsible-future-for-ai": {
     "title": "Assuring a responsible future for AI",
@@ -2908,7 +3267,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 252
+    "passages": 252,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance": {
     "title": "Introduction to AI assurance",
@@ -2917,7 +3277,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 285
+    "passages": 285,
+    "change": 0.0
   },
   "https://www.gov.uk/guidance/portfolio-of-ai-assurance-techniques": {
     "title": "Portfolio of AI assurance techniques",
@@ -2926,7 +3287,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 63
+    "passages": 63,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/regulators-strategic-approaches-to-ai/regulators-strategic-approaches-to-ai": {
     "title": "Regulators' strategic approaches to AI",
@@ -2935,7 +3297,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 18
+    "passages": 18,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/trusted-third-party-ai-assurance-roadmap/trusted-third-party-ai-assurance-roadmap": {
     "title": "Trusted third-party AI assurance roadmap",
@@ -2944,7 +3307,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 191
+    "passages": 191,
+    "change": 0.0
   },
   "https://www.drcf.org.uk/ai-and-digital-hub": {
     "title": "AI and Digital Hub 2024/5",
@@ -2953,7 +3317,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 161
+    "passages": 161,
+    "change": 0.0
   },
   "https://www.fca.org.uk/firms/innovation/ai-approach": {
     "title": "AI and the FCA: our approach",
@@ -2962,7 +3327,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 30
+    "passages": 30,
+    "change": 0.0
   },
   "https://www.fca.org.uk/publication/correspondence/sll-letter-june-2023.pdf": {
     "title": "Review of the Sustainability-Linked Loans (SLL) Market: letter to Heads of ESG/Sustainable Finance",
@@ -2971,7 +3337,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 43
+    "passages": 43,
+    "change": 0.0
   },
   "https://www.frc.org.uk/documents/7963/Assurance_of_Sustainability_Reporting_Market_Study_Final_Report.pdf": {
     "title": "Assurance of Sustainability Reporting Market Study: Final Report",
@@ -2980,7 +3347,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 252
+    "passages": 252,
+    "change": 0.0
   },
   "https://www.frc.org.uk/documents/3561/Thematic_review_of_climate-related_metrics_and_targets_2023.pdf": {
     "title": "CRR Thematic review of climate-related metrics and targets",
@@ -2989,7 +3357,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 717
+    "passages": 717,
+    "change": 0.0
   },
   "https://www.frc.org.uk/documents/7931/Climate-related_Financial_Disclosures_by_AIM_and_Large_Private_Companies.pdf": {
     "title": "Thematic Review: Climate-related Financial Disclosures by AIM and Large Private Companies",
@@ -2998,7 +3367,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 211
+    "passages": 211,
+    "change": 0.0
   },
   "https://ghgprotocol.org/sites/default/files/standards/ghg-protocol-revised.pdf": {
     "title": "The Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard (revised edition)",
@@ -3007,7 +3377,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1659
+    "passages": 1659,
+    "change": 0.0
   },
   "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2023/1897": {
     "title": "ClientEarth v Shell plc and others [2023] EWHC 1897 (Ch)",
@@ -3016,7 +3387,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 336
+    "passages": 336,
+    "change": 0.0
   },
   "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025": {
     "title": "Data (Use and Access) Act 2025",
@@ -3025,7 +3397,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 10
+    "passages": 10,
+    "change": 0.182
   },
   "https://www.hbs.edu/ris/Publication%20Files/23-027_4b09d278-4051-468e-a5d9-eb0e7c50c25d.pdf": {
     "title": "The Issuance and Design of Sustainability-linked Loans (Working Paper 23-027)",
@@ -3034,7 +3407,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 519
+    "passages": 519,
+    "change": 0.0
   },
   "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part-57a-business-and-property-courts/practice-direction-57ad-disclosure-in-the-business-and-property-courts": {
     "title": "Practice Direction 57AD: Disclosure in the Business and Property Courts",
@@ -3043,7 +3417,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 325
+    "passages": 325,
+    "change": 0.0
   },
   "https://www.gov.uk/government/speeches/the-kings-speech-2024": {
     "title": "The King's Speech 2024",
@@ -3052,7 +3427,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 70
+    "passages": 70,
+    "change": 0.0
   },
   "https://www.gov.uk/government/speeches/the-kings-speech-2026": {
     "title": "The King's Speech 2026",
@@ -3061,7 +3437,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 63
+    "passages": 63,
+    "change": 0.0
   },
   "https://assets.bbhub.io/company/sites/60/2021/10/FINAL-2017-TCFD-Report.pdf": {
     "title": "Recommendations of the Task Force on Climate-related Financial Disclosures: Final Report",
@@ -3070,7 +3447,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 804
+    "passages": 804,
+    "change": 0.0
   },
   "https://www.theiia.org/globalassets/site/standards/editable-versions/globalinternalauditstandards_2024january9_editable.pdf": {
     "title": "Global Internal Audit Standards",
@@ -3079,7 +3457,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 1640
+    "passages": 1640,
+    "change": 0.0
   },
   "https://www.theiia.org/globalassets/site/content/tools/professional/aiframework-sept-2024-update2.pdf": {
     "title": "The IIA's Artificial Intelligence Auditing Framework",
@@ -3088,7 +3467,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 437
+    "passages": 437,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2006/46/section/1157": {
     "title": "Companies Act 2006, section 1157: Power of court to grant relief in certain cases",
@@ -3097,7 +3477,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 43
+    "passages": 43,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2006/46/section/249": {
     "title": "Companies Act 2006, section 249: Minutes as evidence",
@@ -3106,7 +3487,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 38
+    "passages": 38,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2023/54/section/12": {
     "title": "Procurement Act 2023, section 12: Covered procurement: objectives",
@@ -3115,7 +3497,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 34
+    "passages": 34,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2023/54/section/19": {
     "title": "Procurement Act 2023, section 19: Award of public contracts following a competitive tendering procedure",
@@ -3124,7 +3507,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 41
+    "passages": 41,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/ukpga/2023/54/section/52": {
     "title": "Procurement Act 2023, section 52: Key performance indicators",
@@ -3133,7 +3517,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 36
+    "passages": 36,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/uksi/2026/82/made": {
     "title": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026, S.I. 2026/82",
@@ -3142,7 +3527,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 59
+    "passages": 59,
+    "change": 0.0
   },
   "https://www.legislation.gov.uk/uksi/2008/410/schedule/7/part/7A": {
     "title": "The Large and Medium-sized Companies and Groups (Accounts and Reports) Regulations 2008, Schedule 7, Part 7A: energy and carbon report (unquoted companies)",
@@ -3151,7 +3537,8 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 60
+    "passages": 60,
+    "change": 0.0
   },
   "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2026": {
     "title": "Greenhouse gas reporting: conversion factors 2026",
@@ -3160,6 +3547,7 @@
     ],
     "status": 200,
     "checked": "2026-10-02",
-    "passages": 28
+    "passages": 28,
+    "change": 0.0
   }
 }

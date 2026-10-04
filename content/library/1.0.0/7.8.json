@@ -22,7 +22,7 @@
     {
       "title": "Human factors: Training and competence",
       "publisher": "Health and Safety Executive",
-      "year": null,
+      "year": 2026,
       "published": null,
       "tier": "official",
       "type": "regulator guidance",
@@ -30,7 +30,7 @@
       "url": "https://www.hse.gov.uk/humanfactors/topics/competence.htm",
       "locator": "Section 'Key principles in competence'",
       "quote": "There should be refresher training for infrequent, complex or safety critical tasks and this may include appropriate reassessment",
-      "why": "The regulator's principle that competence must be maintained by practice and reassessment, including for rare and emergency tasks. Written for major-hazard industries, not for AI; the page shows no publication date.",
+      "why": "The regulator's principle that competence must be maintained by practice and reassessment, including for rare and emergency tasks. Written for major-hazard industries, not for AI; the page shows no publication date. The page shows no publication date; 2026 is the year it was read.",
       "access": "free",
       "last_checked": "2026-10-02"
     },

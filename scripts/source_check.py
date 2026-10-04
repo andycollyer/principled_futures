@@ -12,7 +12,8 @@ every change. Method: docs/source-review-protocol.md.
 Three kinds of check, in order of how much they matter:
   1. Anchors   the exact words a brief quotes, and the words behind each figure, are still on the page.
   2. Watch     known moving parts (draft guidance, "under review" banners, pending renames).
-  3. Drift     the document still loads, and how much of its text has changed since last time.
+  3. Quotes    the passage each reading list cites from a document is still in that document.
+  4. Drift     the document still loads; a rewrite of 30% or more is queued, smaller change only recorded.
 
 Stores fingerprints and short labels only, never copies of the sources.
 """
@@ -23,7 +24,7 @@ SRC = os.path.join(ROOT, "content", "sources")
 LIB = os.path.join(ROOT, "content", "library", "1.0.0")
 CYCLE_DAYS = 14          # every source is re-read at least this often
 DECIDE_DAYS = 14         # a queued item must be decided within this many days
-CHANGE_THRESHOLD = 0.05  # share of passages added or removed before drift is queued
+CHANGE_THRESHOLD = 0.30  # share of passages changed before drift alone is queued (smaller drift is recorded, not queued)
 MIN_PASSAGE = 80         # shorter passages are menus, dates and captions
 TARGET_PER_CRITERION = 12
 TARGET_TOTAL = 500
@@ -97,6 +98,8 @@ def build_directory():
             for field in ("jurisdiction", "type", "quote", "published"):
                 if it.get(field) and field not in r:
                     r[field] = it[field]
+            if it.get("quote"):
+                r.setdefault("quotes", {})[cid] = it["quote"]
     directory = sorted(rows.values(), key=lambda r: (r.get("publisher") or "", r["title"]))
     save("directory.json", {"built": TODAY, "count": len(directory), "sources": directory})
     short = sorted(c for c, v in per.items() if v["items"] < TARGET_PER_CRITERION)
@@ -188,6 +191,13 @@ def run(check_all):
                 enqueue("unreachable", r["key"], r["title"], r["criteria"], f"HTTP {status} at {r['url']}")
         else:
             loaded += 1
+            # The passage each reading list cites must still be on the page. This is the
+            # signal that matters; regulators' pages change wording around it all the time.
+            gone = [c for c, qt in (r.get("quotes") or {}).items() if norm(qt) not in text]
+            if gone:
+                entry["quotes_missing"] = gone
+                enqueue("quote", r["key"], r["title"], gone,
+                        f"The passage cited from this document is no longer on the page at {r['url']}")
             if old and fp:
                 a, b = set(old), set(fp)
                 change = len(a ^ b) / max(1, len(a | b))
