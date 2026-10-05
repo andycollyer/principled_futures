@@ -58,14 +58,16 @@ Netlify settings: `SITE_PRIVATE=1`, `TEAM_PASSCODE` (also in `../TEAM-PASSCODE.t
 - [ ] Schedule the daily source check; name a second reviewer; build a review page
 - [ ] Expansion pass to 12+ documents per criterion; back-fill quote/type/jurisdiction/published on Domains 3 and 4
 - [ ] Read the EU AI Act from an original source (EUR-Lex returned empty pages)
-- [ ] Wait-list form: submit a test entry on the live site; add an email alert to support@principledfutures.com
+- [x] Wait-list form tested on the live site 5 Oct 2026 (Netlify form detection was OFF on this site, so no sign-up could ever have been stored; now on; form `pf-waitlist` registered with name, email, organisation, role; one TEST ENTRY stored). Posts to `/__forms.html`
+- [ ] Email alert for new wait-list sign-ups to support@principledfutures.com (awaiting Andy's go-ahead)
+- [ ] Andy to approve the landing page draft at `/welcome-next` (team-only). On approval: move it to `/welcome` (served at `/` by the gate), delete the interim holding page, update the privacy page for the consent wording
 - [ ] Obtain EHRC guidance on AI and the public sector equality duty (site blocked automated reading)
 - [ ] Link the Netlify project to GitHub so the live site follows `main`
 - [ ] Before selling: Supabase Pro; set `STRIPE_WEBHOOK_SECRET`; re-point the Stripe event destination to the new project; test a real purchase
 - [ ] Rotate the old Supabase secret key pasted in chat in July (old project is gone; confirm nothing reuses it)
 - [ ] Solicitor review of privacy, terms and GDPR pages; ICO registration before any sale
 - [ ] Score-history trend recording (known gap since July)
-- [ ] Front-end redesign and final landing page, after the content programme
+- [ ] Front-end redesign: landing page drafted 5 Oct 2026 in SLG³'s shape (`src/app/welcome-next`, `src/components/landing/`); scope of any wider app restyle to be agreed with Andy
 
 ## Working rules
 - Verify end to end before reporting; say what was and was not tested.
