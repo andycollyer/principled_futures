@@ -64,7 +64,7 @@ proposed corrections in the CORRECTIONS.md table format; anything you could not 
 The reading lists feed a directory of 500+ documents that is machine-checked every fortnight
 (`docs/source-review-protocol.md`). So every reading-list item must be a complete citation:
 - `title`, `publisher`, `year`, `published` (the date shown on the document, or null), `url`, `access`, `tier`
-- `type`: legislation | regulator guidance | code or standard | reporting framework | official report |
+- `type`: legislation | regulator guidance | enforcement decision | code or standard | reporting framework | official report |
   court or tribunal | research | professional
 - `jurisdiction`: UK | EU | International | US | other
 - `locator`: section, paragraph or page

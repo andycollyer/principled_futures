@@ -53,7 +53,7 @@ already recorded for that document elsewhere if you can.
   "additions": [
     { "title": "", "publisher": "", "year": 2025, "published": "2025-03-14 or null", "url": "", "access": "free",
       "tier": "official | research | professional | practitioner",
-      "type": "legislation | regulator guidance | code or standard | reporting framework | official report | court or tribunal | research | professional",
+      "type": "legislation | regulator guidance | enforcement decision | code or standard | reporting framework | official report | court or tribunal | research | professional",
       "jurisdiction": "UK | EU | International | US | other", "locator": "", "quote": "", "why": "",
       "comparator": false, "last_checked": "YYYY-MM-DD" }
   ],
