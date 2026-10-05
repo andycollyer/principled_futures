@@ -1226,6 +1226,30 @@ export const GUIDE_META: GuideMeta[] = [
   }
 ];
 
+export const LIBRARY_STATS = {
+  "documents": 659,
+  "citations": 1151,
+  "anchors": 168,
+  "byType": {
+    "legislation": 163,
+    "code or standard": 67,
+    "regulator guidance": 149,
+    "official report": 83,
+    "research": 148,
+    "court or tribunal": 11,
+    "professional": 17,
+    "enforcement decision": 15,
+    "reporting framework": 6
+  },
+  "byJurisdiction": {
+    "UK": 383,
+    "US": 61,
+    "other": 22,
+    "International": 104,
+    "EU": 89
+  }
+} as const;
+
 /** Briefing metadata for a criterion id, or undefined if none exists. */
 export function articleFor(criterionId: string): ArticleMeta | undefined {
   return ARTICLE_META.find((a) => a.id === criterionId);

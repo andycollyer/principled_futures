@@ -37,8 +37,10 @@ export default function WelcomePage() {
     try {
       // Netlify Forms: posted as urlencoded to the page itself, matched to the
       // static form in public/__forms.html by the form-name field.
-      const body = new URLSearchParams({ "form-name": "pf-waitlist", ...form });
-      const res = await fetch("/", {
+      // Post to the static registration file, not "/": while the site is private the gate
+      // rewrites "/", and Netlify only accepts the fields listed in public/__forms.html.
+      const body = new URLSearchParams({ "form-name": "pf-waitlist", name: form.name, email: form.email, organisation: form.org, role: form.role, consent: "yes" });
+      const res = await fetch("/__forms.html", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: body.toString(),

@@ -153,6 +153,31 @@ meta.push(`export const GUIDE_META: GuideMeta[] = ${JSON.stringify(
   guides.map((g) => ({ id: g.id, title: g.title })), null, 2,
 )};`);
 meta.push("");
+// Library statistics for the landing page: counts only, drawn from the reading lists, so the public
+// figures can never drift from what the product actually holds.
+{
+  const { readdir } = await import("node:fs/promises");
+  const dir = path.join(root, "content/library/1.0.0");
+  const docs = new Map(); let citations = 0;
+  for (const f of (await readdir(dir)).filter((n) => n.endsWith(".json"))) {
+    const lib = JSON.parse(await readFile(path.join(dir, f), "utf8"));
+    for (const it of lib.items) { citations++; const k = it.url.split("#")[0].replace(/\/$/, ""); if (!docs.has(k)) docs.set(k, it); }
+  }
+  const byType = {}; const byJurisdiction = {};
+  for (const it of docs.values()) {
+    byType[it.type || "other"] = (byType[it.type || "other"] || 0) + 1;
+    byJurisdiction[it.jurisdiction || "other"] = (byJurisdiction[it.jurisdiction || "other"] || 0) + 1;
+  }
+  // How many exact passages (quotations and figures) the daily check re-reads. A count only: the
+  // passages themselves are paid content and must never reach the bundle.
+  let anchors = 0;
+  try {
+    const a = JSON.parse(await readFile(path.join(root, "content/sources/anchors.json"), "utf8"));
+    for (const [k, v] of Object.entries(a)) if (!k.startsWith("_")) anchors += v.length;
+  } catch { /* no anchors file */ }
+  meta.push(`export const LIBRARY_STATS = ${JSON.stringify({ documents: docs.size, citations, anchors, byType, byJurisdiction }, null, 2)} as const;`);
+  meta.push("");
+}
 meta.push(`/** Briefing metadata for a criterion id, or undefined if none exists. */`);
 meta.push(`export function articleFor(criterionId: string): ArticleMeta | undefined {`);
 meta.push(`  return ARTICLE_META.find((a) => a.id === criterionId);`);

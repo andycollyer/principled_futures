@@ -29,3 +29,16 @@ html, body { max-width: 100%; overflow-x: hidden; }
   .pf-r-h1         { font-size: 34px !important; }
   .pf-r-pad        { padding-left: 18px !important; padding-right: 18px !important; }
 }
+
+/* ── Landing page (src/app/welcome-next) ─────────────────────────────────── */
+.pf-l-dot { fill: var(--green-300); animation: pf-l-dot 7s ease-in-out infinite; }
+@keyframes pf-l-dot { 0%, 100% { fill: var(--green-300); } 6% { fill: var(--green-600); } 14% { fill: var(--green-300); } }
+.pf-l-bar { transform-origin: left; animation: pf-l-bar 900ms cubic-bezier(0.16, 1, 0.3, 1) both; }
+@keyframes pf-l-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) { .pf-l-dot, .pf-l-bar { animation: none; } }
+@media (max-width: 900px) {
+  .pf-l-hero { grid-template-columns: 1fr !important; gap: 32px !important; padding-top: 32px !important; }
+  .pf-l-three { grid-template-columns: 1fr !important; gap: 22px !important; }
+  .pf-l-h1 { font-size: 34px !important; }
+}
+@media (max-width: 560px) { .pf-l-two { grid-template-columns: 1fr !important; } }

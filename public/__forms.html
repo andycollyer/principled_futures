@@ -2,18 +2,20 @@
 <!-- Netlify Forms detection.
 
      Netlify finds forms by scanning the HTML it is given at deploy time. This
-     app renders in the browser, so the wait-list form on /welcome/ is invisible
-     to that scan. This file exists purely so the form is registered; nobody
-     visits it. Keep the field names identical to the real form, or submissions
-     will be rejected. -->
+     app renders in the browser, so the wait-list form is invisible to that
+     scan. This file exists so the form is registered, and the form posts here.
+     Keep the field names identical to src/components/landing/WaitlistForm.jsx,
+     or submissions will be rejected. -->
 <html lang="en-GB">
   <head><meta charset="utf-8" /><title>Forms</title></head>
   <body>
-    <form name="pf-waitlist" data-netlify="true" hidden>
+    <form name="pf-waitlist" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="bot-field" />
       <input type="text" name="name" />
       <input type="email" name="email" />
-      <input type="text" name="org" />
+      <input type="text" name="organisation" />
       <input type="text" name="role" />
+      <input type="checkbox" name="consent" value="yes" />
     </form>
   </body>
 </html>
