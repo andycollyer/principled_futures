@@ -72,7 +72,8 @@ Netlify settings: `SITE_PRIVATE=1`, `TEAM_PASSCODE` (also in `../TEAM-PASSCODE.t
 - [ ] Old public landing (`src/app/page.tsx` → `components/Landing.jsx`) and `/pricing` are still in the old style; unseen while private. Before reopening, decide whether `/` becomes the new landing page
 - [ ] Inner screens were checked in a preview build without sign-in; not yet checked signed in on the live site
 - [x] Team access simplified 5 Oct 2026: the passcode goes straight to `/dashboard` (no options screen); old `/welcome-next` redirects to `/`. Migration 0009: `team_emails` table (andy@andycollyer.com) and `provision_org` gives listed addresses the `governance_plus` plan on first sign-in. Plan label in the product chrome now reads the real plan. Review the team list before reopening
-- [ ] SECURITY, before selling: signed-in users can update their own `organisations` row including `plan` (policy `org_update`, table-level UPDATE granted). Restrict to name/sector columns
+- [x] Plan loophole closed 5 Oct 2026 (migration 0010): browser roles can only read `organisations`; plans change server-side only
+- [x] Sign-in fixed 5 Oct 2026: the Netlify deploy step REBUILDS the site using Netlify's own stored settings, which still held the deleted database's address. Settings corrected; `check-bundle` now fails any build whose database address differs from `.env.local`. If the database ever moves again, update the Netlify settings too
 - [ ] Sign-up has no email confirmation, so a team address could be claimed by whoever registers it first. Turn confirmation on before reopening
 - [ ] Seven 1.1.0 brief revisions in `content/briefs/next/` still await Andy's explicit sign-off
 
