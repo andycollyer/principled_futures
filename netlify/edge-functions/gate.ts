@@ -61,7 +61,9 @@ export default async function gate(request: Request, context: Context) {
   if ((path === "/team" || path === "/team/") && url.searchParams.has("key")) {
     const offered = url.searchParams.get("key") ?? "";
     if (expected && sameHash(await sha256(offered), expected)) {
-      const home = new URL("/dashboard/", url.origin);
+      // Land on the team page, not the dashboard: the product has its own account sign-in,
+      // and dropping someone straight onto a second log-in reads as the passcode having failed.
+      const home = new URL("/team/?in=1", url.origin);
       return new Response(null, {
         status: 302,
         headers: {

@@ -12,9 +12,14 @@ import * as UI from "@/components/icons";
 export default function TeamPage() {
   const [key, setKey] = React.useState("");
   const [bad, setBad] = React.useState(false);
+  const [inside, setInside] = React.useState(false);
 
   React.useEffect(() => {
-    try { setBad(new URLSearchParams(window.location.search).has("bad")); } catch {}
+    try {
+      const q = new URLSearchParams(window.location.search);
+      setBad(q.has("bad"));
+      setInside(q.has("in"));
+    } catch {}
   }, []);
 
   const submit = (e: React.FormEvent) => {
@@ -31,7 +36,28 @@ export default function TeamPage() {
           <span style={{ fontSize: 16, fontWeight: 600, color: "#fff", letterSpacing: "-0.012em" }}>Principled Futures</span>
         </div>
 
-        <form onSubmit={submit} style={{ background: "var(--surface-card)", borderRadius: 14, padding: 26, boxShadow: "0 18px 48px -16px rgba(20,36,29,0.45)" }}>
+        {inside && (
+          <div style={{ background: "var(--surface-card)", borderRadius: 14, padding: 26, boxShadow: "0 18px 48px -16px rgba(20,36,29,0.45)" }}>
+            <h1 style={{ fontSize: 17, fontWeight: 600, color: "var(--ink-900)" }}>You&rsquo;re in</h1>
+            <p style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55, margin: "6px 0 16px" }}>
+              This browser can see the private site for the next 30 days.
+            </p>
+            <div style={{ display: "grid", gap: 10 }}>
+              {[
+                ["/welcome-next/", "New landing page (draft)", "The page awaiting approval, with the wait list."],
+                ["/signup/?next=%2Fdashboard", "The product", "Assessment, library and report. It has its own account: create one, or sign in."],
+                ["/", "Public holding page", "What visitors see today."],
+              ].map(([href, title, sub]) => (
+                <a key={href} href={href} style={{ display: "block", border: "1px solid var(--border-default)", borderRadius: 10, padding: "12px 14px", textDecoration: "none" }}>
+                  <span style={{ display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 14.5, fontWeight: 600, color: "var(--ink-900)" }}>{title} <UI.IArrowRight size={15} /></span>
+                  <span style={{ display: "block", fontSize: 12.5, color: "var(--text-secondary)", marginTop: 2, lineHeight: 1.5 }}>{sub}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {!inside && <form onSubmit={submit} style={{ background: "var(--surface-card)", borderRadius: 14, padding: 26, boxShadow: "0 18px 48px -16px rgba(20,36,29,0.45)" }}>
           <h1 style={{ fontSize: 17, fontWeight: 600, color: "var(--ink-900)" }}>Team access</h1>
           <p style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55, margin: "6px 0 18px" }}>
             The product is private while we build it out. Enter the team passcode to continue.
@@ -59,7 +85,7 @@ export default function TeamPage() {
           <p style={{ fontSize: 12, color: "var(--text-tertiary)", textAlign: "center", lineHeight: 1.5, marginTop: 14 }}>
             Not on the team? <a href="/" style={{ color: "var(--text-link)" }}>Join the wait list</a>.
           </p>
-        </form>
+        </form>}
       </div>
     </div>
   );
