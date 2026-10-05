@@ -55,7 +55,7 @@
       "4.8"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 61,
     "change": 0.0
   },
@@ -65,7 +65,7 @@
       "4.1"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 60,
     "change": 0.0
   },
@@ -80,7 +80,7 @@
       "4.1"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 1139,
     "change": 0.0
   },
@@ -1534,7 +1534,7 @@
       "8.8"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 83,
     "change": 0.0
   },
@@ -1544,7 +1544,7 @@
       "7.8"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 605,
     "change": 0.0
   },
@@ -1554,7 +1554,7 @@
       "8.1"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 983,
     "change": 0.0
   },
@@ -1565,7 +1565,7 @@
       "8.7"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 352,
     "change": 0.0
   },
@@ -1575,7 +1575,7 @@
       "8.1"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 40,
     "change": 0.0
   },
@@ -1586,7 +1586,7 @@
       "8.3"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 409,
     "change": 0.0
   },
@@ -1596,9 +1596,9 @@
       "8.1"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 15,
-    "change": 0.0
+    "change": 0.125
   },
   "https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting": {
     "title": "UK government conversion factors for company reporting of greenhouse gas emissions",
@@ -1606,7 +1606,7 @@
       "8.2"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 19,
     "change": 0.0
   },
@@ -1616,9 +1616,9 @@
       "8.2"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 16,
-    "change": 0.0
+    "change": 0.222
   },
   "https://www.gov.uk/government/consultations/ai-regulation-a-pro-innovation-approach-policy-proposals/outcome/a-pro-innovation-approach-to-ai-regulation-government-response": {
     "title": "A pro-innovation approach to AI regulation: government response",
@@ -1628,7 +1628,7 @@
       "6.7"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 1514,
     "change": 0.0
   },
@@ -1639,7 +1639,7 @@
       "1.4"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 121,
     "change": 0.0
   },
@@ -1649,7 +1649,7 @@
       "7.1"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 321,
     "change": 0.0
   },
@@ -1659,7 +1659,7 @@
       "6.2"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 189,
     "change": 0.0
   },
@@ -3215,7 +3215,7 @@
       "8.8"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 47,
     "change": 0.0
   },
@@ -3225,7 +3225,7 @@
       "8.8"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 106,
     "change": 0.0
   },
@@ -3236,7 +3236,7 @@
       "8.7"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 63,
     "change": 0.0
   },
@@ -3246,7 +3246,7 @@
       "8.8"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 589,
     "change": 0.0
   },
@@ -3256,7 +3256,7 @@
       "8.6"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 385,
     "change": 0.0
   },
@@ -3266,7 +3266,7 @@
       "1.7"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 252,
     "change": 0.0
   },
@@ -3546,8 +3546,8 @@
       "8.6"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 28,
-    "change": 0.0
+    "change": 0.133
   }
 }

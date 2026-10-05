@@ -38,18 +38,6 @@
       "decided": "2026-10-05",
       "by": "Andy Collyer",
       "note": "Dates in 4.1 and 4.2 confirmed against the consolidated text; no change. Accepted with the sign-off pack."
-    },
-    {
-      "id": "R-20261005-01",
-      "type": "anchor",
-      "key": "5.8|to be provided before the end of the period of 24 hours begi",
-      "title": "Figure in 5.8",
-      "criteria": [
-        "5.8"
-      ],
-      "detail": "HTTP 0: \"to be provided before the end of the period of 24 hours beginning when the notice is given\" at https://www.legislation.gov.uk/ukpga/2018/12/section/142",
-      "found": "2026-10-05",
-      "decide_by": "2026-10-19"
     }
   ]
 }

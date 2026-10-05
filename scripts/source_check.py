@@ -54,13 +54,20 @@ def norm(t):
 
 
 def fetch(url):
-    """Return (status, text). PDFs are read from the file itself, never a summary."""
-    out = subprocess.run(["curl", "-sL", "-m", "60", "-A", UA, "-w", "\n%{http_code}", url], capture_output=True).stdout
-    body, _, code = out.rpartition(b"\n")
-    try:
-        status = int(code)
-    except ValueError:
-        status = 0
+    """Return (status, text). PDFs are read from the file itself, never a summary.
+    A dropped connection, a 202 "try again" or a server error is retried twice before it counts:
+    one timeout on legislation.gov.uk must not put a false alarm in front of the reviewer."""
+    import time
+    for attempt in range(3):
+        out = subprocess.run(["curl", "-sL", "-m", "60", "-A", UA, "-w", "\n%{http_code}", url], capture_output=True).stdout
+        body, _, code = out.rpartition(b"\n")
+        try:
+            status = int(code)
+        except ValueError:
+            status = 0
+        if status not in (0, 202, 429) and status < 500:
+            break
+        time.sleep(4 * (attempt + 1))
     if body[:5] == b"%PDF-":
         try:
             from pypdf import PdfReader

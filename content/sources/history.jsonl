@@ -8,3 +8,4 @@
 {"run": "2026-10-02", "mode": "all", "anchors_ok": 167, "anchors_failed": 0, "watch_items": 6, "watch_changed": 0, "sources_checked": 329, "loaded": 328, "did_not_load": 1, "drifted": 7, "queued_today": 7, "open_queue": 12, "directory": 329}
 {"run": "2026-10-02", "mode": "all", "anchors_ok": 167, "anchors_failed": 0, "watch_items": 6, "watch_changed": 0, "sources_checked": 329, "loaded": 328, "did_not_load": 1, "drifted": 0, "queued_today": 0, "open_queue": 2, "directory": 329}
 {"run": "2026-10-05", "mode": "batch", "anchors_ok": 167, "anchors_failed": 1, "watch_items": 6, "watch_changed": 0, "sources_checked": 23, "loaded": 23, "did_not_load": 0, "drifted": 0, "queued_today": 1, "open_queue": 1, "directory": 329}
+{"run": "2026-10-05", "mode": "batch", "anchors_ok": 168, "anchors_failed": 0, "watch_items": 6, "watch_changed": 0, "sources_checked": 23, "loaded": 23, "did_not_load": 0, "drifted": 0, "queued_today": 0, "open_queue": 0, "directory": 329}
