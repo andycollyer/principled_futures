@@ -112,7 +112,7 @@ export default function WelcomePage() {
                     <div><label style={label} htmlFor="w-email">Work email</label>
                       <input id="w-email" name="email" type="email" style={field} value={form.email} onChange={(e) => set("email", e.target.value)} placeholder="you@organisation.com" /></div>
                     <div><label style={label} htmlFor="w-org">Organisation <span style={{ fontWeight: 400, color: "var(--text-tertiary)" }}>(optional)</span></label>
-                      <input id="w-org" name="org" style={field} value={form.org} onChange={(e) => set("org", e.target.value)} placeholder="Organisation name" /></div>
+                      <input id="w-org" name="organisation" style={field} value={form.org} onChange={(e) => set("org", e.target.value)} placeholder="Organisation name" /></div>
                     <div><label style={label} htmlFor="w-role">Your role <span style={{ fontWeight: 400, color: "var(--text-tertiary)" }}>(optional)</span></label>
                       <input id="w-role" name="role" style={field} value={form.role} onChange={(e) => set("role", e.target.value)} placeholder="Board director, CEO, General Counsel…" /></div>
 
