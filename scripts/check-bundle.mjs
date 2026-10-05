@@ -71,15 +71,27 @@ if (!probes.length) {
 const files = (await walk(outDir)).filter((f) => /\.(js|html|json|txt|map)$/i.test(f));
 const leaks = [];
 
+// The build must talk to the database named in .env.local. A stale build cache once shipped
+// the address of a deleted project, which broke sign-in on the live site.
+let wantDb = null;
+try { wantDb = (await readFile(path.join(root, ".env.local"), "utf8")).match(/^NEXT_PUBLIC_SUPABASE_URL=(\S+)/m)?.[1] ?? null; } catch {}
+const seenDb = new Set();
+
 for (const file of files) {
   let text;
   try { text = await readFile(file, "utf8"); } catch { continue; }
+  for (const m of text.matchAll(/https:\/\/[a-z0-9]+\.supabase\.co/g)) seenDb.add(m[0]);
   for (const probe of probes) {
     if (text.includes(probe.phrase)) {
       leaks.push({ file: path.relative(root, file), ...probe });
       break; // one hit per file is enough to condemn it
     }
   }
+}
+
+if (wantDb && [...seenDb].some((u) => u !== wantDb)) {
+  console.error(`check-bundle: the build points at ${[...seenDb].join(", ")} but .env.local says ${wantDb}. Delete the build cache and rebuild.`);
+  process.exit(1);
 }
 
 if (leaks.length) {
