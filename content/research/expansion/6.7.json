@@ -1,0 +1,184 @@
+{
+  "criterion": "6.7",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "Final Notice: Equifax Limited",
+      "publisher": "Financial Conduct Authority",
+      "year": 2023,
+      "published": "2023-10-03",
+      "url": "https://www.fca.org.uk/publication/final-notices/equifax-limited-2023.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Paragraphs 2.3 and 2.5; penalty at paragraph 1.1",
+      "quote": "firms regulated by the Authority remain responsible for ensuring that all regulatory requirements are met",
+      "why": "Enforcement decision on an unassessed dependency: the firm sent UK consumer data to its parent for processing and had no adequate framework for monitoring the parent's security; data on 13.8 million UK individuals was exposed and the penalty was £11,164,400. Shows that a supplier inside the same group still has to be assessed. Financial services; a 2017 breach; no AI system involved.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Software provider fined £3m following 2022 ransomware attack",
+      "publisher": "Information Commissioner's Office",
+      "year": 2025,
+      "published": "2025-03-27",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/03/software-provider-fined-3m-following-2022-ransomware-attack/",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Opening summary and the paragraphs that follow it",
+      "quote": "Hackers accessed certain systems of Advanced’s health and care subsidiary via a customer account that did not have multi-factor authentication (MFA).",
+      "why": "Enforcement against a supplier acting as a data processor for the NHS and other healthcare providers: its security gaps disrupted services such as NHS 111 and exposed data on 79,404 people. The customer's exposure was the vendor's weakness. The regulator's statement was read, not the full penalty notice; settled by agreement.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "SS2/21 Outsourcing and third party risk management",
+      "publisher": "Prudential Regulation Authority",
+      "year": 2024,
+      "published": "2024-11",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2024/ss221-november-2024-update.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Chapter 9 (Sub-outsourcing), paragraph 9.3; Chapter 5, paragraph 5.18; Chapter 10 (Business continuity and exit plans), paragraph 10.1",
+      "quote": "It is important that firms have visibility of the supply chain",
+      "why": "The fullest UK regulatory statement of the whole criterion: due diligence before signing, visibility of the supplier's own suppliers, and a documented, tested exit strategy for stressed and planned exits. November 2024 version, updating March 2021. Applies to PRA-regulated firms; other businesses can use it as a benchmark.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial intelligence in UK financial services - 2024",
+      "publisher": "Bank of England and Financial Conduct Authority",
+      "year": 2024,
+      "published": "2024-11-21",
+      "url": "https://www.bankofengland.co.uk/report/2024/artificial-intelligence-in-uk-financial-services-2024",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Executive summary, 'Third-party exposure'",
+      "quote": "A third of all AI use cases are third-party implementations.",
+      "why": "UK evidence on how much AI is bought in: a third of use cases, up from 17% in 2022, with the top three providers accounting for 73% of reported cloud providers and 44% of model providers. A survey of regulated financial firms, self-reported.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Understanding accountability in algorithmic supply chains",
+      "publisher": "arXiv (Cobbe, Veale and Singh)",
+      "year": 2023,
+      "published": "2023-04-28",
+      "url": "https://arxiv.org/abs/2304.14749",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "UK",
+      "locator": "Abstract",
+      "quote": "algorithmic accountability discussions must consider supply chains and the difficult implications they raise for the governance and accountability of algorithmic systems",
+      "why": "Peer-reviewed analysis by UK-based researchers (ACM FAccT 2023) of why AI built from several companies' services is hard to hold to account: responsibility is spread across actors and each can see only part of the chain. Conceptual, not empirical.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "How is ChatGPT's behavior changing over time?",
+      "publisher": "arXiv (Chen, Zaharia and Zou)",
+      "year": 2023,
+      "published": "2023-07-18",
+      "url": "https://arxiv.org/abs/2307.09009",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "when and how these models are updated over time is opaque",
+      "why": "Evidence for reassessing when the model changes: the same hosted service gave markedly different results three months apart, for example 84% against 51% accuracy on one task. Preprint in the version read (revised 31 October 2023); two models from one provider in 2023, so the size of the effect will not carry over to other services.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain",
+      "publisher": "arXiv (Gu, Dolan-Gavitt and Garg)",
+      "year": 2017,
+      "published": "2017-08-22",
+      "url": "https://arxiv.org/abs/1708.06733",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "outsourced training introduces new security risks",
+      "why": "The founding study of the model supply chain as a security risk: a model trained by someone else can pass the buyer's tests and still carry a hidden backdoor, which survives later retraining. Preprint (revised 2019); laboratory demonstrations on image classifiers, not large language models.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+      "publisher": "National Institute of Standards and Technology",
+      "year": 2024,
+      "published": "2024-07",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "US",
+      "locator": "Section 2.12, 'Value Chain and Component Integration'",
+      "quote": "GAI value chains involve many third-party components such as procured datasets, pre-trained models, and software libraries.",
+      "why": "The AI-specific counterpart to the general NIST framework already listed: names untraceable third-party components as a risk in its own right and notes it can be hard to attribute a fault to any one source. Voluntary; a United States document on generative AI only.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 25: Responsibilities along the AI value chain",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2024,
+      "published": null,
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-25",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Art. 25(4)",
+      "quote": "shall, by written agreement, specify the necessary information, capabilities, technical access and other assistance",
+      "why": "Supply-chain assurance made contractual in law: the provider of a high-risk system and a third party supplying a model, tool or component must agree in writing the information and access needed for compliance. The Commission's copy of the EUR-Lex consolidated text as at 27 July 2026; paragraph 4 is marked AMENDED by the Digital Omnibus. Binds providers of high-risk systems, not deployers, and reaches UK firms only where the Act applies to them.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "ISO/IEC 42001 and ISO 22301 (standard-setter's own pages)",
+      "url": "https://www.iso.org/standard/42001",
+      "reason": "HTTP 403 to automated reading, as in the first pass. Not bypassed; no ISO claim made."
+    },
+    {
+      "title": "Regulation (EU) 2022/2554 (DORA), EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R2554",
+      "reason": "HTTP 202 with an empty body. Not read; no DORA claim made."
+    },
+    {
+      "title": "LLM03:2025 Supply Chain (OWASP Top 10 for LLM Applications)",
+      "url": "https://genai.owasp.org/llmrisk/llm032025-supply-chain/",
+      "reason": "Opened. A practitioner list that repeats points already covered by the AI security code and NIST; not added."
+    },
+    {
+      "title": "AI Foundation Models: Update paper",
+      "url": "https://assets.publishing.service.gov.uk/media/661941a6c1d297c6ad1dfeed/Update_Paper__1_.pdf",
+      "reason": "Opened (CMA, 11 April 2024). Competition analysis of the foundation model value chain; it does not address security assessment of dependencies."
+    },
+    {
+      "title": "Parliament Bill page, Cyber Security and Resilience (Network and Information Systems) Bill",
+      "url": "https://bills.parliament.uk/bills/4035",
+      "reason": "HTTP 403 with a browser check again. Not bypassed; the Bill's current stage could not be confirmed at source."
+    },
+    {
+      "title": "Final Notice: TSB Bank plc",
+      "url": "https://www.fca.org.uk/publication/final-notices/tsb-bank-plc-2022.pdf",
+      "reason": "Relevant here too (assurance about a supplier's management of fourth parties, paragraph 2.36) but cited under 6.8 to avoid repetition."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. Its statement that no Act was found still holds on the date checked: a title search of legislation.gov.uk for 'Cyber Security and Resilience' returned no results, and the GOV.UK collection page is unchanged. Parliament's site again refused automated access, so the Bill's present stage is unconfirmed at source."
+}

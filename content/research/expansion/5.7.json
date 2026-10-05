@@ -1,0 +1,184 @@
+{
+  "criterion": "5.7",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "UK GDPR, Article 12A: Meaning of \"applicable time period\"",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/12A.",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Art. 12A(1)-(4); note F1; read with Art. 12(3)-(4)",
+      "quote": "the period of one month beginning with the relevant time",
+      "why": "The statutory clock the criterion's 'within statutory timescales' refers to, missing from this list. One month from the latest of receipt of the request, of any identity information asked for, or of any fee; extendable by two further months for complex or numerous requests, by notice given within the first month with reasons. Inserted on 5 February 2026 by the Data (Use and Access) Act 2025 s.76(3) (note F1; S.I. 2026/82); no outstanding effects shown. The address ends in a full stop; without it the site returns 'page not found'. Year is the year of the latest amendment shown.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Data Protection Act 2018, section 164A: Complaints by data subjects to controllers",
+      "publisher": "legislation.gov.uk",
+      "year": 2025,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/164A",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.164A(1)-(5); note F1",
+      "quote": "A controller must facilitate the making of complaints under this section",
+      "why": "A new duty that bears directly on rights readiness and is not in the brief. Anyone who thinks their data has been mishandled may complain to the organisation, which must make complaining easy (for example an electronic form), acknowledge within 30 days, respond without undue delay and tell the person the outcome. Inserted by the Data (Use and Access) Act 2025 s.103; fully in force 19 June 2026 (note F1, S.I. 2026/82). A failed rights request about an AI system will now usually arrive here first. One unrelated Northern Ireland effect is shown as outstanding.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "UK GDPR, Article 19: Notification obligation regarding rectification or erasure of personal data or restriction of processing",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/19",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Art. 19 (single paragraph)",
+      "quote": "to each recipient to whom the personal data have been disclosed, unless this proves impossible or involves disproportionate effort",
+      "why": "The duty to pass a correction or erasure down the chain. Where personal data has gone to an AI supplier, a model developer or another recipient, the organisation must tell each of them unless that is impossible or disproportionate, and must tell the person who the recipients are if asked. The existing Article 17 entry refers to this article; it is the legal reason supplier contracts need a route for rights requests. No amendments shown on the page.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Enforcement Notice: Bristol City Council",
+      "publisher": "Information Commissioner's Office",
+      "year": 2025,
+      "published": "2025-08-27",
+      "url": "https://ico.org.uk/media2/tacptiie/bristol-city-council-enforcement-notice.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "paras 12-17 (pp. 4-5); Annex 1",
+      "quote": "take 50 months (over 3 years) to complete the SAR backlog",
+      "why": "UK enforcement on the access right, and a UK figure of the kind the brief could not find: a backlog of 170 overdue access requests in March 2023, the oldest from December 2020, rising to 189 by February 2024, which the council itself estimated would take 50 months to clear. The regulator ordered the backlog cleared and processes changed. Limits: one public body, ordinary records and not AI; it shows what the regulator does when requests cannot be met in time. An enforcement notice, not a fine; typed 'regulator guidance' for want of an enforcement type, as with the Serco notice. Dated 27 August 2025 on its face.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "AI how-to sheets: Ensuring and facilitating the exercise of data subjects' rights",
+      "publisher": "Commission Nationale de l'Informatique et des Libertés (CNIL)",
+      "year": 2026,
+      "published": "2026-01-05",
+      "url": "https://www.cnil.fr/en/ensuring-and-facilitating-exercise-data-subjects-rights",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "other",
+      "locator": "Sections on rights over training datasets and over AI models; passage beginning 'the CNIL identifies, to date, two main techniques'",
+      "quote": "the most effective is retraining, which makes it possible to erase or rectify data at the heart of the model",
+      "why": "International comparator: the French regulator's practical guidance, more detailed than anything yet published in the UK. Rights apply to training data and to a model unless it is anonymous; developers of generative systems should keep an internal procedure for querying the model to see whether it retained a person's data; retraining is the effective remedy and output filters a second best that leaves the data in place; a request refused today may have to be met as techniques improve. Limits: French guidance under the EU GDPR, not binding in the UK; aimed at developers more than at firms that buy systems. Date is the one shown on the English page.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "2024 Coordinated Enforcement Action: Implementation of the right of access by controllers",
+      "publisher": "European Data Protection Board",
+      "year": 2025,
+      "published": "2025-01-16",
+      "url": "https://www.edpb.europa.eu/system/files/2025-01/edpb_cef-report-2024_20250116_rightofaccess_en.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "EU",
+      "locator": "Executive summary, p. 2; section 3.1, p. 9; section 4.2.3 'Lack of documented internal procedures', pp. 18-19",
+      "quote": "a lack of a formal documented procedure can heighten the possibility of an infringement of a data subjects rights",
+      "why": "The access-right companion to the erasure report already listed. Thirty regulators across the European Economic Area questioned controllers and 1,185 replied (p. 9). Recurring problems: no documented procedure, requests not recognised when they arrive by an unexpected route, and confusion over how much must be provided. Evidence that readiness fails on process before it fails on technology. Limits: European Economic Area, not the UK; about access generally, not AI; self-reported answers. The address redirects to a path under /system/files/documents/.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "NIST Privacy Framework: A Tool for Improving Privacy through Enterprise Risk Management, Version 1.0",
+      "publisher": "National Institute of Standards and Technology",
+      "year": 2020,
+      "published": "2020-01-16",
+      "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "US",
+      "locator": "Appendix A, Table 2, Control-P, 'Data Processing Management (CT.DM-P)', p. 24 (PDF p. 28); p. 17 (PDF p. 21)",
+      "quote": "CT.DM-P4: Data elements can be accessed for deletion.",
+      "why": "A free standard that turns rights readiness into testable system capabilities: each data element can be reached for review (P1), disclosure (P2), alteration (P3) and deletion (P4), and data is destroyed according to policy (P5). Useful as a design checklist for an AI system that holds personal data. Limits: a voluntary United States framework, not UK law; version 1.0 of January 2020 pre-dates generative AI and says nothing about data inside trained models. Whether a later version has been issued was not checked.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Algorithms that Remember: Model Inversion Attacks and Data Protection Law",
+      "publisher": "arXiv (M. Veale, R. Binns and L. Edwards; Philosophical Transactions of the Royal Society A 376, 2018)",
+      "year": 2018,
+      "published": "2018-07-12",
+      "url": "https://arxiv.org/abs/1807.04644",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "EU",
+      "locator": "Abstract (version 2, 15 October 2018)",
+      "quote": "the process of turning training data into machine learned systems is not one-way",
+      "why": "Peer-reviewed work, and an early statement of the argument the regulator now makes: because training data can sometimes be recovered or inferred from a model, a model can itself be personal data, and the rights of access, erasure and objection would then reach it. Explains why the criterion looks beyond the training set. Limits: abstract only read in this pass; written about the EU GDPR in 2018, before large language models; the authors' copy, journal reference as stated on the arXiv page.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Extracting Training Data from Large Language Models",
+      "publisher": "arXiv (N. Carlini and others)",
+      "year": 2020,
+      "published": "2020-12-14",
+      "url": "https://arxiv.org/abs/2012.07805",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract (version 2, 15 June 2021)",
+      "quote": "an adversary can perform a training data extraction attack to recover individual training examples by querying the language model",
+      "why": "The experiment behind the concern. By querying a public language model the authors recovered hundreds of passages word for word from its training data, including names, phone numbers and email addresses, some of which appeared in only one training document; larger models were more exposed. If personal data can be pulled out of a model, deleting the training set does not end the organisation's duty. Limits: abstract only read in this pass; one model (GPT-2) and one attack; the authors' preprint, and its conference publication was not checked.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "CJEU, Case C-203/22 Dun & Bradstreet Austria (access to the logic of an automated decision)",
+      "url": "https://curia.europa.eu/juris/document/document.jsf?docid=295841&doclang=EN",
+      "reason": "The court's site redirects to a page that needs JavaScript (no text returned); EUR-Lex returned HTTP 202 with an empty body for CELEX 62022CJ0203. Not read, not cited. The document number used for the court's site was from memory and is unconfirmed."
+    },
+    {
+      "title": "Machine Unlearning (Bourtoule and others)",
+      "url": "https://arxiv.org/abs/1912.03817",
+      "reason": "Abstract read. A technique paper on making retraining cheaper; the list already has a 2024 paper on the limits of unlearning. Not added."
+    },
+    {
+      "title": "UK GDPR, Articles 11, 12 and 16",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/12",
+      "reason": "Read to support the Article 12A and 19 entries (Article 12(3)-(4) now refer to 'the applicable time period' and to complaints under section 164A). Not listed separately, to avoid padding with neighbouring articles."
+    },
+    {
+      "title": "UK GDPR, Article 12A at the address without a trailing full stop",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/12A",
+      "reason": "HTTP 404. The working address ends '12A.' and is the one cited."
+    },
+    {
+      "title": "EDPB 2024 right of access report at the first address tried",
+      "url": "https://www.edpb.europa.eu/system/files/2025-01/edpb_cef-report_2024_right-of-access_en.pdf",
+      "reason": "HTTP 404 (guessed file name). The correct file was found and read."
+    },
+    {
+      "title": "CNIL, AI how-to sheets index",
+      "url": "https://www.cnil.fr/en/ai-how-sheets",
+      "reason": "HTTP 404 at the guessed address. The individual sheet was found and read."
+    }
+  ],
+  "brief_check": "Two points date the approved brief; neither contradicts its law. (1) 'No UK figure was found': the regulator's Bristol City Council enforcement notice (27 August 2025, paras 13-15) gives UK figures for overdue access requests (170, then 189; 50 months to clear), though for one council and not for AI. (2) The brief does not mention the duty to handle complaints from individuals under Data Protection Act 2018 s.164A, fully in force 19 June 2026."
+}

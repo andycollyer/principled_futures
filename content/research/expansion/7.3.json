@@ -1,0 +1,141 @@
+{
+  "criterion": "7.3",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "Code of Practice for the Cyber Security of AI",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2025,
+      "published": "2025-01-31",
+      "url": "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Principle 4: Enable human responsibility for AI systems, provisions 4.1 to 4.3",
+      "quote": "Developers and/or System Operators should incorporate and maintain capabilities to enable human oversight.",
+      "why": "A UK government code placing oversight in the design: capabilities for oversight built in and maintained, outputs made easy for the responsible person to assess, and technical measures required where oversight is a risk control. Limits: voluntary; framed as cyber security; 4.1 and 4.2 are 'should', 4.3 is 'shall'.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Good machine learning practice for medical device development: guiding principles",
+      "publisher": "Medicines and Healthcare products Regulatory Agency (with the US FDA and Health Canada)",
+      "year": 2021,
+      "published": "2021-10-27",
+      "url": "https://www.gov.uk/government/publications/good-machine-learning-practice-for-medical-device-development-guiding-principles/good-machine-learning-practice-for-medical-device-development-guiding-principles",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Guiding principle 7 (see also principle 9)",
+      "quote": "human factors considerations and the human interpretability of the model outputs are addressed with emphasis on the performance of the Human-AI team",
+      "why": "A UK regulator's statement that what must be designed and tested is the person and the system working together, not the model alone; principle 9 adds clear information for users. Limits: medical devices only; ten high-level principles, not requirements; 2021.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "When combinations of humans and AI are useful: A systematic review and meta-analysis",
+      "publisher": "Vaccaro, Almaatouq and Malone; Nature Human Behaviour",
+      "year": 2024,
+      "published": "2024-10-28",
+      "url": "https://www.nature.com/articles/s41562-024-02024-1",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "human–AI combinations performed significantly worse than the best of humans or AI alone",
+      "why": "Peer-reviewed, open access meta-analysis of 106 experiments and 370 effect sizes. Putting a person alongside a system does not by itself improve results; losses were found in decision tasks. Evidence that the configuration has to be designed and tested, not assumed. Limits: laboratory-style experiments published 2020 to mid-2023; pooled effect is small (Hedges' g = -0.23); not about oversight duties as such.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making",
+      "publisher": "Buçinca, Malaya and Gajos; arXiv (Proceedings of the ACM on Human-Computer Interaction, CSCW 2021)",
+      "year": 2021,
+      "published": "2021-02-19",
+      "url": "https://arxiv.org/abs/2102.09692",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "The results demonstrate that cognitive forcing significantly reduced overreliance compared to the simple explainable AI approaches.",
+      "why": "Experimental evidence that interface design changes how often people accept wrong output: designs that make the reviewer think before seeing or accepting a suggestion reduced over-reliance. Also reports the cost: people liked those designs least. Limits: one online experiment, 199 participants; author copy on arXiv; abstract only was read; publication venue is taken from general knowledge, not from the page.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance",
+      "publisher": "Bansal and others; arXiv (CHI 2021)",
+      "year": 2021,
+      "published": "2021-01-12",
+      "url": "https://arxiv.org/abs/2006.14779",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "explanations increased the chance that humans will accept the AI's recommendation, regardless of its correctness",
+      "why": "A caution on 'reasons on screen': in these studies showing the system's explanation made people more likely to accept its recommendation whether it was right or wrong. Visibility of reasoning needs testing with reviewers, as the regulator's guidance suggests. Limits: three task datasets with crowd workers; author copy on arXiv (v3); the page notes CHI'21; abstract only was read.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Model Artificial Intelligence Governance Framework, Second Edition",
+      "publisher": "Infocomm Media Development Authority and Personal Data Protection Commission, Singapore",
+      "year": 2020,
+      "published": "2020-01-21",
+      "url": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/resource-for-organisation/ai/sgmodelaigovframework2.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "other",
+      "locator": "Determining the level of human involvement in AI-augmented decision-making, item (c) Human-over-the-loop, following paragraph 3.13 (printed pages 30-31)",
+      "quote": "with the ability to take over control when the AI model encounters unexpected or undesirable events (such as model failure)",
+      "why": "International comparator: sets out three designs (human in the loop, out of the loop, over the loop) and asks organisations to choose by severity and probability of harm, reversibility and feasibility. A usable vocabulary for a deployment standard. Limits: voluntary; Singapore; 2020.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "Directive on Automated Decision-Making (Treasury Board of Canada Secretariat)",
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+      "reason": "HTTP 403 to a plain request. Not bypassed, not read, not cited."
+    },
+    {
+      "title": "TechDispatch 2/2025: Human Oversight of Automated Decision-Making (European Data Protection Supervisor)",
+      "url": "https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making_en",
+      "reason": "HTTP 403 to a plain request (address taken from memory, so it may also be wrong). Not read, not cited."
+    },
+    {
+      "title": "Report of the Royal Commission into the Robodebt Scheme (Australia, 2023)",
+      "url": "https://robodebt.royalcommission.gov.au/publications/report",
+      "reason": "No response to a plain request (HTTP 0). Not read, not cited; no inquiry finding is offered for this criterion as a result."
+    },
+    {
+      "title": "ISO 9241-210 (human-centred design) and ISO/IEC 42001, standard-setter's free pages",
+      "url": "https://www.iso.org/standard/77520.html",
+      "reason": "HTTP 403 with a browser challenge. Not bypassed, not read, not cited."
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative AI Profile (NIST AI 600-1)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "reason": "Read; used under oversight capability (override monitoring). Its design-related passages contain typographic ligatures in the PDF text that would not match an exact-quote check reliably."
+    },
+    {
+      "title": "Algorithmic Transparency Recording Standard: guidance for public sector bodies",
+      "url": "https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard/algorithmic-transparency-recording-standard-guidance-for-public-sector-bodies",
+      "reason": "Read. Requires a description of how humans are involved and of appeal routes, but sets no design expectation. Marginal; not added."
+    },
+    {
+      "title": "R (Bridges) v Chief Constable of South Wales Police [2020] EWCA Civ 1058",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1058",
+      "reason": "Read; used under oversight capability. No inquiry or court finding specific to interface or system design was found that could be read today."
+    }
+  ],
+  "brief_check": "No contradiction, one qualification. The brief lists 'reasons on screen' and 'reasons shown at decision time' as good design. Two experimental papers read (Bansal and others 2021; Buçinca and others 2021) report that showing explanations can raise acceptance of the system's output whether or not it is correct. This supports the brief's 'designs tested with reviewers' and suggests the next version say reasons should be shown and tested, not shown alone."
+}

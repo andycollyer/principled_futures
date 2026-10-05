@@ -1,0 +1,163 @@
+{
+  "criterion": "2.2",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "FCA Handbook, SYSC 7.1: Risk control",
+      "publisher": "Financial Conduct Authority",
+      "year": 2026,
+      "published": null,
+      "url": "https://handbook.fca.org.uk/handbook/sysc7",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "SYSC 7.1.2-A R (shown as in force from 23/10/2025); SYSC 7.1.2A G",
+      "quote": "set the level of risk tolerated by the firm",
+      "why": "A binding UK rule on stating risk tolerance: a common platform firm must have risk management policies and procedures that identify its risks and, where appropriate, set the level of risk the firm tolerates. Other firms are to treat the rule as guidance. Regulated financial firms only; not about AI, and 'where appropriate' leaves the firm judgement. The Handbook shows the current version only; no publication date.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "SS5/16 Corporate governance: Board responsibilities",
+      "publisher": "Bank of England, Prudential Regulation Authority",
+      "year": 2018,
+      "published": "July 2018 (updating March 2016)",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2018/ss516update.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Paragraph 1.2, second bullet; paragraph 2.1; section 3 'Risk appetite, risk management and internal controls'",
+      "quote": "articulates and oversees a clear and measurable statement of risk appetite against which major business options are actively assessed",
+      "why": "The prudential regulator's general test of an effective board, which is the test the question applies to AI: a statement that is clear, measurable and actually used to assess major options. PRA-regulated firms only; written in 2016 and updated in 2018, so it does not mention AI.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Annual Review of Corporate Governance Reporting",
+      "publisher": "Financial Reporting Council",
+      "year": 2025,
+      "published": "November 2025",
+      "url": "https://www.frc.org.uk/documents/8893/Annual_Review_of_Corporate_Governance_Reporting_2025.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Section 'Artificial Intelligence', paragraph headed 'AI risk'; introduction (sample)",
+      "quote": "Twenty companies disclosed AI as an emerging risk and a further three companies disclosed it as a principal risk, all of which were FTSE350 companies.",
+      "why": "Evidence of how far listed boards have got: in a sample of 100 annual reports, 86% mentioned AI but only three named it a principal risk, the category for which the Code asks the board to decide what it is willing to take. Says nothing about written appetite statements as such. A random sample of 100 companies following the Code; reporting, not practice.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Principles for An Effective Risk Appetite Framework",
+      "publisher": "Financial Stability Board",
+      "year": 2013,
+      "published": "18 November 2013",
+      "url": "https://www.fsb.org/uploads/r_131118.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Section II 'Key definitions'; Section III, 2.1 'An effective risk appetite statement'; 4.1 'The board of directors'",
+      "quote": "The aggregate level and types of risk a financial institution is willing to assume within its risk capacity",
+      "why": "International comparator and the source of the vocabulary used here: appetite, capacity, limits and profile, with the board approving the framework and holding management to it. Written for systemically important financial institutions and their supervisors; not binding on firms; pre-dates current AI.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Guideline E-23: Model Risk Management (2027)",
+      "publisher": "Office of the Superintendent of Financial Institutions (Canada)",
+      "year": 2025,
+      "published": "11 September 2025",
+      "url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/guideline-e-23-model-risk-management-2027",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "other",
+      "locator": "Section B.2, Principle 1.2; section A (Overview); definitions",
+      "quote": "The MRM framework should align risk-taking activities to strategic objectives and risk appetite.",
+      "why": "International comparator written with AI in view: Canada's prudential regulator expects the model risk framework, covering AI and machine learning models, to reflect the institution's risk appetite for model risk. Federally regulated Canadian financial institutions only; takes effect on 1 May 2027.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile, NIST AI 600-1",
+      "publisher": "National Institute of Standards and Technology",
+      "year": 2024,
+      "published": "July 2024",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "US",
+      "locator": "Section 3, GOVERN 1.3, suggested actions GV-1.3-001 and GV-1.3-006",
+      "quote": "Reevaluate organizational risk tolerances to account for unacceptable negative risk",
+      "why": "Supports the upper levels of the question: tolerances for generative AI should be revisited, and the profile lists factors for setting or updating risk tiers. Suggested actions, not requirements. Voluntary, United States; a different document from the AI RMF 1.0 already on this list.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Risk Management in the Artificial Intelligence Act",
+      "publisher": "European Journal of Risk Regulation (Cambridge University Press); J. Schuett",
+      "year": 2023,
+      "published": "8 February 2023",
+      "url": "https://www.cambridge.org/core/journals/european-journal-of-risk-regulation/article/risk-management-in-the-artificial-intelligence-act/2E4D5707E65EFB3251A76E288BA74068",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "EU",
+      "locator": "Section V 'Requirements': the risk management process under Article 9(2), and the discussion of acceptable residual risk",
+      "quote": "If it turns out that it is not possible to reduce residual risks to an acceptable level, the development and deployment process must be stopped.",
+      "why": "Peer-reviewed, open access. Shows that the AI Act's risk management duty turns on a judgement of what is 'acceptable', and that most of its terms are left undefined; the author borrows a definition from safety standards, treats a risk as acceptable where benefits clearly outweigh it, and says further guidance is urgently needed. That open judgement is the appetite a board has to set. Written while the Act was still a proposal (it discusses the Commission's original proposal and the changes then suggested by the Council and Parliament), so paragraph numbers differ from the Act as adopted; concerns providers of high-risk systems.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Risk thresholds for frontier AI",
+      "publisher": "arXiv (L. Koessler, J. Schuett and M. Anderljung)",
+      "year": 2024,
+      "published": "20 June 2024",
+      "url": "https://arxiv.org/abs/2406.14713",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "A more direct approach is to define risk thresholds that simply state how much risk would be too much.",
+      "why": "Working paper on turning appetite into numbers: it distinguishes thresholds on risk from thresholds on capability, and finds the former more principled but harder to evaluate reliably. Bears on the level where appetite becomes measurable thresholds. Preprint, not peer reviewed; about developers of frontier models, not boards of deploying organisations. Only the abstract page was read.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "ISO/IEC 42001, ISO/IEC 23894 and ISO/IEC 42005 standard pages",
+      "url": "https://www.iso.org/standard/42001",
+      "reason": "HTTP 403 to automated reading on all three iso.org pages (42001, 77304, 42005). Not cited."
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 9: Risk management system",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-9",
+      "reason": "Read. The only passage bearing on appetite (residual risk 'judged to be acceptable', Art. 9(5)) is already the quotation recorded for this document under the risk treatment criterion; the Schuett article was used to make the point instead."
+    },
+    {
+      "title": "Use of artificial intelligence in government (National Audit Office, 2024)",
+      "url": "https://www.nao.org.uk/wp-content/uploads/2024/03/use-of-artificial-intelligence-in-government.pdf",
+      "reason": "Read. Nothing on risk appetite or tolerance."
+    },
+    {
+      "title": "MAS consultation paper on Guidelines on Artificial Intelligence Risk Management (Singapore)",
+      "url": "https://www.mas.gov.sg/publications/consultations/2025/consultation-paper-on-guidelines-on-artificial-intelligence-risk-management",
+      "reason": "The page returned only a script shell to a plain request (653 characters); the text could not be read. Not cited."
+    },
+    {
+      "title": "COSO, Risk Appetite: Critical to Success (2020)",
+      "url": "https://www.coso.org/guidance-erm",
+      "reason": "The guessed PDF address returned 404 and the guidance page carries no usable text. Not cited."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. One point of nuance for 'No UK law requires an AI risk appetite statement': FCA rule SYSC 7.1.2-A R does require common platform firms to set, where appropriate, the level of risk they tolerate; it is not AI-specific and applies to regulated firms only, so the sentence stands."
+}

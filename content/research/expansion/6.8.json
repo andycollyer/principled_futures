@@ -1,0 +1,226 @@
+{
+  "criterion": "6.8",
+  "current_count": 8,
+  "additions": [
+    {
+      "title": "Provision 29 Mythbuster: Preparing to report",
+      "publisher": "Financial Reporting Council",
+      "year": 2026,
+      "published": null,
+      "url": "https://www.frc.org.uk/documents/9097/Provision_29_Mythbuster.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Questions 'How many material controls should we have?', 'Will boards have to seek external assurance over controls?' and 'How should the declaration be worded?'",
+      "quote": "The Code does not state that the testing of the material controls should be supported by external assurance",
+      "why": "The regulator's latest answers on the declaration: no list of controls or testing need be published, most companies report identifying between 30 and 50 material controls, no wording will be supplied, and external assurance is the board's choice. The PDF carries no date; the FRC's web version of it is dated 29 January 2026. Informal guidance, not part of the Code; it does not mention AI.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Mythbuster: the auditor's responsibilities in respect of the Provision 29 statement required by the UK Corporate Governance Code 2024",
+      "publisher": "Financial Reporting Council",
+      "year": 2026,
+      "published": "2026-06",
+      "url": "https://www.frc.org.uk/documents/9420/Provision_29_Mythbuster_June_2026_TR6phecr.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Questions on whether the audit opinion covers the statement and whether the auditor tests the material controls",
+      "quote": "the auditor is not required to test the design, implementation and operating effectiveness of the material controls identified by the Board",
+      "why": "Settles who stands behind the declaration: the audit opinion does not cover it and the auditor only reads it for inconsistency with what the audit found. Any independent assurance on AI controls therefore has to be commissioned by the board. Informal guidance for stakeholders; auditing standards were not changed.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "FCA Handbook, UK Listing Rules, UKLR 6.6: Annual financial report",
+      "publisher": "Financial Conduct Authority",
+      "year": 2025,
+      "published": null,
+      "url": "https://handbook.fca.org.uk/handbook/uklr6",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "UKLR 6.6.6R(5) and (6) (dated 28/03/2025)",
+      "quote": "a statement as to whether the listed company has",
+      "why": "The binding rule that gives the Code its force: a UK-incorporated listed company must state in its annual report whether it complied with all relevant provisions of the UK Corporate Governance Code and, if not, which and why. So a board that cannot make the declaration must say so publicly. Applies to listed companies only.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "FCA Handbook, Disclosure Guidance and Transparency Rules, DTR 7.2: Corporate governance statements",
+      "publisher": "Financial Conduct Authority",
+      "year": 2016,
+      "published": null,
+      "url": "https://handbook.fca.org.uk/handbook/dtr7",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "DTR 7.2.5R (dated 29/01/2016)",
+      "quote": "internal control and risk management systems in relation to the financial reporting process",
+      "why": "A mandatory disclosure that sits beside the declaration: the corporate governance statement must describe the main features of internal control and risk management over financial reporting. Narrower than the declaration (financial reporting only, a description and not a conclusion on effectiveness). Issuers within DTR 7.2 only.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Sarbanes-Oxley Act of 2002, section 404: Management assessment of internal controls",
+      "publisher": "United States Congress (U.S. Government Publishing Office)",
+      "year": 2002,
+      "published": "2002-07-30",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ204/html/PLAW-107publ204.htm",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "US",
+      "locator": "Section 404(a) and (b); Public Law 107-204, 116 Stat. 789",
+      "quote": "each registered public accounting firm that prepares or issues the audit report for the issuer shall attest to, and report on, the assessment",
+      "why": "International comparator and the model the UK chose not to follow: US law requires management's assessment of internal control over financial reporting and the auditor's attestation of it. The UK declaration is wider (operational and compliance controls too) but unaudited. The Act as passed in 2002, read from the official print; later amendments are not shown there and were not checked.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Prudential Standard CPS 234 Information Security",
+      "publisher": "Australian Prudential Regulation Authority",
+      "year": 2019,
+      "published": "2019-07-01",
+      "url": "https://handbook.apra.gov.au/standard/cps-234",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "other",
+      "locator": "Sections 'Roles and responsibilities' and 'Testing control effectiveness'",
+      "quote": "must escalate and report to the Board or senior management any testing results that identify information security control deficiencies",
+      "why": "International comparator. A binding standard that makes the board ultimately responsible for information security and requires control testing by functionally independent specialists, with failures escalated. Shows what evidence-fed board assurance looks like when written as a rule. Australian regulated financial entities only; not AI-specific.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Final Notice: TSB Bank plc",
+      "publisher": "Financial Conduct Authority",
+      "year": 2022,
+      "published": "2022-12-20",
+      "url": "https://www.fca.org.uk/publication/final-notices/tsb-bank-plc-2022.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Paragraph 2.36(c); penalty at paragraph 1.1",
+      "quote": "some assurances were limited or qualified in ways which do not appear to have been drawn to the TSB Board’s attention or challenged by them",
+      "why": "Enforcement decision on board assurance over technology: the board received assurances about a new IT platform that were qualified in ways it was not told about and did not challenge. The FCA's penalty was £29.75 million. A 2018 IT migration at a bank, not an AI system, and decided under financial services rules, not the Code.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Post Office Horizon IT Inquiry: Final Report, Volume 1",
+      "publisher": "Post Office Horizon IT Inquiry (Sir Wyn Williams)",
+      "year": 2025,
+      "published": "2025-07-08",
+      "url": "https://www.postofficehorizoninquiry.org.uk/sites/default/files/2025-07/Post%20Office%20Horizon%20IT%20Inquiry%20Final%20Report%20Volume%201_0.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Chapter 1, Introduction, paragraphs 1.3 and 1.4; HC 1119",
+      "quote": "the Post Office maintained the fiction that its data was always accurate",
+      "why": "Statutory inquiry finding on what happens when an organisation asserts that a system works without evidence: senior staff knew or should have known it could produce false data, and people were prosecuted on its output. Volume 1 covers human impact and redress; findings on governance were left to a later volume. Not an AI system.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Trusted third-party AI assurance roadmap",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2025,
+      "published": "2025-09-03",
+      "url": "https://www.gov.uk/government/publications/trusted-third-party-ai-assurance-roadmap/trusted-third-party-ai-assurance-roadmap",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Section 'Challenges for a trusted third-party assurance market', under 'Quality'",
+      "quote": "the quality of the goods and services provided is currently unclear",
+      "why": "A caution on 'independently assured': the government's own assessment is that the quality of third-party AI assurance on the UK market is unclear, and that none of the existing certifications of assurance skills is issued by a UKAS-accredited organisation. A policy paper setting out plans, not a standard.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Auditing large language models: a three-layered approach",
+      "publisher": "arXiv (Mökander, Schuett, Kirk and Floridi)",
+      "year": 2023,
+      "published": "2023-02-16",
+      "url": "https://arxiv.org/abs/2302.08500",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "UK",
+      "locator": "Abstract",
+      "quote": "existing auditing procedures fail to address the governance challenges posed by LLMs",
+      "why": "Research from UK-based authors on what independent assurance of AI would have to cover: the supplier's governance, the model, and the application built on it. The abstract page links the published version in the journal AI and Ethics (2023); only the arXiv abstract was read. A proposal, not a tested method, and the authors discuss its limits.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing",
+      "publisher": "arXiv (Raji, Smart, White, Mitchell, Gebru, Hutchinson, Smith-Loud, Theron and Barnes)",
+      "year": 2020,
+      "published": "2020-01-03",
+      "url": "https://arxiv.org/abs/2001.00973",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "it remains challenging for practitioners to identify the harmful repercussions of their own systems prior to deployment",
+      "why": "Research on producing the evidence a declaration needs: an internal audit process in which each stage yields documents that together form an audit report. Presented at the ACM fairness conference in 2020; a proposed framework, and the abstract reports no independent validation.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "ISO/IEC 42001 and ISO 22301 (standard-setter's own pages)",
+      "url": "https://www.iso.org/standard/42001",
+      "reason": "HTTP 403 to automated reading, as in the first pass. Not bypassed; no ISO claim made."
+    },
+    {
+      "title": "Regulation (EU) 2022/2554 (DORA), EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R2554",
+      "reason": "HTTP 202 with an empty body. Not read; no DORA claim made."
+    },
+    {
+      "title": "FRC web (HTML) versions of the two Provision 29 mythbusters",
+      "url": "https://www.frc.org.uk/docs/9097/html/",
+      "reason": "Each carries a warning that it was converted from PDF by an AI tool with no human verification and should not be relied on as authoritative. The original PDFs were read and cited instead."
+    },
+    {
+      "title": "FRC annual review landing page (for a 2026 review)",
+      "url": "https://www.frc.org.uk/library/corporate-governance-and-stewardship/annual-review-of-corporate-governance-reporting/",
+      "reason": "HTTP 404 at the addresses tried; no 2026 review was found. The mythbuster says Provision 29 reporting begins in 2027."
+    },
+    {
+      "title": "The IIA's Three Lines Model",
+      "url": "https://www.theiia.org/globalassets/documents/resources/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense-july-2020/three-lines-model-updated-english.pdf",
+      "reason": "Opened (2020). General model of assurance roles; nothing specific to the declaration or to AI, so it would be padding."
+    },
+    {
+      "title": "Companies Act 2006, section 174",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/174",
+      "reason": "Opened. The general duty of care, skill and diligence; no source read ties it to the declaration, so it is not cited for that."
+    },
+    {
+      "title": "SOX after Ten Years: A Multidisciplinary Review (Coates and Srinivasan), Harvard repository",
+      "url": "https://dash.harvard.edu/bitstream/handle/1/12175240/SOX%20after%20Ten%20Years.pdf",
+      "reason": "HTTP 404 at the address tried; not read."
+    },
+    {
+      "title": "Cyber Security Toolkit for Boards: Cyber security regulation and directors' duties in the UK",
+      "url": "https://www.ncsc.gov.uk/collection/board-toolkit/cyber-security-regulation-and-directors-duties-in-the-uk",
+      "reason": "Opened. A short signpost page; adds nothing to the toolkit page already listed."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief; the two 2026 FRC mythbusters confirm it (external assurance is the board's choice; the auditor does not test the material controls; first declarations appear in 2027 reports). They sharpen the point already flagged against framework level 5: 'independently assured' goes beyond what the FRC expects, and the government's 2025 roadmap says the quality of third-party AI assurance is currently unclear."
+}

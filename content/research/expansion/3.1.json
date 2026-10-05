@@ -1,0 +1,311 @@
+{
+  "criterion": "3.1",
+  "current_count": 6,
+  "additions": [
+    {
+      "title": "Equality Act 2010, section 4: The protected characteristics",
+      "publisher": "legislation.gov.uk",
+      "year": 2010,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/4",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.4",
+      "quote": "The following characteristics are protected characteristics",
+      "why": "The statutory list any mapping has to cover: age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, sexual orientation. Extent shown as England, Wales and Scotland. The page lists amendments by a 2025 Act not yet applied to other sections of the Act; none alters this list.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Equality Act 2010, section 13: Direct discrimination",
+      "publisher": "legislation.gov.uk",
+      "year": 2010,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/13",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.13(1)-(2)",
+      "quote": "A person (A) discriminates against another (B) if, because of a protected characteristic, A treats B less favourably than A treats or would treat others.",
+      "why": "The second route to liability beside indirect discrimination. Direct discrimination cannot be justified, except for age (s.13(2)), so a system that uses a protected characteristic, or a near-perfect stand-in for one, carries more exposure than one with a disparate effect. The section says nothing about algorithms; how it applies to proxies has not been settled by a UK court.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Equality Act 2010, section 29: Provision of services, etc.",
+      "publisher": "legislation.gov.uk",
+      "year": 2010,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/29",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.29(1)-(2), (6)",
+      "quote": "must not discriminate against a person requiring the service by not providing the person with the service",
+      "why": "Carries the duty beyond employment to anyone providing a service to the public, paid or not, and to the exercise of public functions (s.29(6)). The legal basis for saying that pricing, lending and service triage carry the same exposure as recruitment. Exceptions elsewhere in the Act (for example for insurance and age) were not read in this pass.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Equality Act 2010, section 149: Public sector equality duty",
+      "publisher": "legislation.gov.uk",
+      "year": 2010,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/149",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.149(1)-(3), (7)",
+      "quote": "remove or minimise disadvantages suffered by persons who share a relevant protected characteristic that are connected to that characteristic",
+      "why": "For public authorities, and others exercising public functions, the duty to have due regard to equality before and while a policy is adopted. This is the duty the Court of Appeal applied to facial recognition software in Bridges. It binds public functions only; a private firm has no equivalent general duty. Marriage and civil partnership is not a relevant characteristic for this duty (s.149(7)).",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "R (Bridges) v Chief Constable of South Wales Police [2020] EWCA Civ 1058",
+      "publisher": "Court of Appeal (Civil Division), published by The National Archives (Find Case Law)",
+      "year": 2020,
+      "published": "2020-08-11",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1058",
+      "access": "free",
+      "tier": "official",
+      "type": "court or tribunal",
+      "jurisdiction": "UK",
+      "locator": "paras 175-181 and 199-201",
+      "quote": "It requires the taking of reasonable steps to make enquiries about what may not yet be known to a public authority about the potential impact",
+      "why": "The leading UK judgment on equality duties and an AI system. The court held that the public sector equality duty requires reasonable enquiry into what is not yet known about a system's effect on people of different race and sex, before and during use, and that the duty cannot be delegated to a supplier. Public authorities only; the court made no finding that the software was in fact biased (para 182).",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Review into bias in algorithmic decision-making",
+      "publisher": "Centre for Data Ethics and Innovation",
+      "year": 2020,
+      "published": "2020-11-27",
+      "url": "https://www.gov.uk/government/publications/cdei-publishes-review-into-bias-in-algorithmic-decision-making/main-report-cdei-review-into-bias-in-algorithmic-decision-making",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Executive summary, 'Guidance to organisation leaders and boards'; section 2.4 on proxies and direct discrimination",
+      "quote": "Understanding their legal obligations and having carried out appropriate impact assessments",
+      "why": "The government-commissioned review of recruitment, financial services, policing and local government. It tells boards to put named leaders in place who are accountable for understanding the tools, their legal obligations and impact assessments, which is the substance of this criterion. Advisory, not binding; dated 2020, so it predates the Data (Use and Access) Act 2025 and the current rules on automated decisions.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Algorithms: How they can reduce competition and harm consumers",
+      "publisher": "Competition and Markets Authority",
+      "year": 2021,
+      "published": "2021-01-19",
+      "url": "https://www.gov.uk/government/publications/algorithms-how-they-can-reduce-competition-and-harm-consumers/algorithms-how-they-can-reduce-competition-and-harm-consumers",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Section 2, 'Algorithmic discrimination', subsection 'Geographic targeting'",
+      "quote": "even simple policies implementing regional pricing or varying services available in different areas could potentially result in indirect discrimination",
+      "why": "A regulator outside data protection saying that pricing and service algorithms, not only recruitment tools, can discriminate, because people with protected characteristics are unevenly spread by area. Supports mapping consumer-facing uses. A research paper setting out the regulator's thinking, not guidance or a finding against any firm; its examples come from published studies, several of them from the United States.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Playbook for the UK Government",
+      "publisher": "Government Digital Service",
+      "year": 2025,
+      "published": "2025-02-10",
+      "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "'Using AI safely and responsibly', Ethics: Fairness, bias and discrimination, practical recommendations",
+      "quote": "difficulties with making links between abstract algorithmic groupings and protected groups",
+      "why": "Current government guidance. It warns that AI can make Equality Act duties harder to meet because a model's groupings do not line up with protected groups, and that bias compounds when characteristics combine: two reasons a mapping has to be deliberate. Written for government departments and public bodies; guidance, not law, for anyone else.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "EU AI Act (Regulation (EU) 2024/1689), Article 27: Fundamental rights impact assessment for high-risk AI systems",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2026,
+      "published": null,
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Art. 27(1)(c)-(d)",
+      "quote": "the categories of natural persons and groups likely to be affected by its use in the specific context",
+      "why": "The nearest thing in binding law to a required map: before first use, certain deployers of high-risk systems must record which groups of people are likely to be affected and the specific risks of harm to them. The Commission's copy of the consolidated text as at 27 July 2026. EU law: it reaches UK firms only where they deploy in the EU; it covers public bodies, private providers of public services, and credit scoring and life and health insurance pricing, not every deployer. Application dates were moved by the Digital Omnibus and are not stated here.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Tax Administration fined for discriminatory and unlawful data processing",
+      "publisher": "Autoriteit Persoonsgegevens (Dutch Data Protection Authority)",
+      "year": 2021,
+      "published": "2021-12-07",
+      "url": "https://www.autoriteitpersoonsgegevens.nl/en/current/tax-administration-fined-for-discriminatory-and-unlawful-data-processing",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "other",
+      "locator": "Sections 'Unlawful processing' and 'Discriminatory processing'",
+      "quote": "it used applicants' nationality (Dutch/not Dutch) as an indicator in a system that automatically designated certain applications as risky",
+      "why": "The regulator's enforcement decision in the Dutch childcare benefits affair: a EUR 2.75 million fine for using nationality as a risk indicator in an automated system. What an unmapped characteristic in a risk model looks like when it reaches a regulator. Netherlands, under the EU GDPR, not the Equality Act; this is the regulator's English notice, and the decision itself (in Dutch) was not read.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Discrimination in the Age of Algorithms (NBER Working Paper 25548)",
+      "publisher": "Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan and Cass R. Sunstein; National Bureau of Economic Research",
+      "year": 2019,
+      "published": null,
+      "url": "https://www.nber.org/papers/w25548",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract (issue date February 2019)",
+      "quote": "with appropriate requirements in place, the use of algorithms will make it possible to more easily examine and interrogate the entire decision process",
+      "why": "Argues that algorithms can make discrimination easier to detect than human decisions, but only if the organisation keeps the records that allow examination. The case for mapping and documenting rather than avoiding the question. Working-paper version of an article in the Journal of Legal Analysis (vol. 10, 2018); legal analysis under United States law, not an empirical study.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Why Fairness Cannot Be Automated: Bridging the Gap Between EU Non-Discrimination Law and AI",
+      "publisher": "Sandra Wachter, Brent Mittelstadt and Chris Russell (arXiv preprint)",
+      "year": 2020,
+      "published": "2020-05-12",
+      "url": "https://arxiv.org/abs/2005.05906",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "EU",
+      "locator": "Abstract",
+      "quote": "we show how the legal protection offered by non-discrimination law is challenged when AI, not humans, discriminate",
+      "why": "Explains why algorithmic discrimination goes unnoticed: human prejudice gives victims a signal that something is wrong, an algorithm does not. So the organisation cannot rely on complaints to tell it where its exposure lies. Preprint (arXiv, linked to an SSRN paper); the journal version was not read. It analyses EU non-discrimination law and Court of Justice case law, not the Equality Act 2010.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Protected Grounds and the System of Non-Discrimination Law in the Context of Algorithmic Decision-Making and Artificial Intelligence",
+      "publisher": "Janneke Gerards and Frederik Zuiderveen Borgesius (arXiv; Colorado Technology Law Journal, 2022)",
+      "year": 2022,
+      "published": null,
+      "url": "https://arxiv.org/abs/2509.08837",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "EU",
+      "locator": "Abstract",
+      "quote": "algorithms can generate new categories of people based on seemingly innocuous characteristics, such as web browser preference or apartment number",
+      "why": "A limit on any map drawn only against the listed characteristics. The authors show that algorithms sort people into new groups that match no protected ground, so the differentiation can escape discrimination law and still be unfair. A reason to record what a system actually differentiates on, not only the nine characteristics. Law-journal article (2022), authors' copy posted to arXiv in 2025; European law, not the Equality Act. Only the abstract was read.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology (US)",
+      "year": 2023,
+      "published": null,
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "US",
+      "locator": "Table 2, MAP 5 and MAP 5.1 (p. 27); section 3.7, 'Fair - with Harmful Bias Managed' (p. 17)",
+      "quote": "Impacts to individuals, groups, communities, organizations, and society are characterized.",
+      "why": "International comparator. The most widely used voluntary AI risk framework makes mapping impacts on groups a named outcome (MAP 5) and treats managing harmful bias as a property of a trustworthy system. Voluntary; United States; written without reference to UK equality law.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {
+    "https://www.legislation.gov.uk/ukpga/2010/15/section/19": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "A applies to B a provision, criterion or practice which is discriminatory in relation to a relevant protected characteristic of B's"
+    },
+    "https://www.legislation.gov.uk/ukpga/2010/15/section/109": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "It does not matter whether that thing is done with the employer's or principal's knowledge or approval."
+    },
+    "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-about-fairness-bias-and-discrimination/": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "enable the model to reproduce patterns of discrimination associated with those characteristics, even if the designers did not intend this"
+    },
+    "https://ico.org.uk/action-weve-taken/audits-and-overview-reports/ai-tools-in-recruitment/": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": "2024-11-06",
+      "quote": "to understand how the development and provision of AI recruitment tools complies with UK data protection law"
+    },
+    "https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment": {
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "published": "2024-03-25",
+      "quote": "A process to anticipate the wider effects of a system/product on environmental, equality, human rights, data protection, or other outcomes."
+    },
+    "https://ico.org.uk/about-the-ico/our-information/our-strategies-and-plans/artificial-intelligence-and-biometrics-strategy/": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "focusing on how they are used in recruitment and in public services"
+    }
+  },
+  "rejected": [
+    {
+      "title": "Equality and Human Rights Commission, Artificial intelligence in public services (guidance on AI and the public sector equality duty)",
+      "url": "https://www.equalityhumanrights.com/guidance/artificial-intelligence-public-services",
+      "reason": "Tried again on 5 October 2026: HTTP 403 with a Cloudflare browser challenge ('Just a moment... Enable JavaScript and cookies to continue'; response header cf-mitigated: challenge) to both the source checker and a plain request; the site's home page and sitemap return the same. Not bypassed, not read, not cited. A quote from it could not pass the machine check either. The government AI Playbook (added) refers to this guidance by name. Still worth obtaining by hand."
+    },
+    {
+      "title": "Adams-Prassl, Binns and Kelly-Lyth, Directly Discriminatory Algorithms (Modern Law Review, 2023)",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/1468-2230.12759",
+      "reason": "The best UK-law paper on proxies and direct discrimination, and open access, but the publisher returned 403 (browser challenge) and the PubMed Central copy sits behind a reCAPTCHA check. Not read; not cited."
+    },
+    {
+      "title": "Kleinberg and others, Discrimination in the Age of Algorithms (Journal of Legal Analysis, published version)",
+      "url": "https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086",
+      "reason": "Oxford University Press returned 403 (browser challenge). The authors' NBER working-paper page was read and cited instead."
+    },
+    {
+      "title": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS 225), Article 10",
+      "url": "https://rm.coe.int/1680afae3c",
+      "reason": "Council of Europe sites (rm.coe.int and www.coe.int) returned 403 'you have been blocked'. No UK government copy was found on GOV.UK. Not read; not cited."
+    },
+    {
+      "title": "ISO/IEC TR 24027:2021, Bias in AI systems and AI aided decision making",
+      "url": "https://www.iso.org/standard/77607.html",
+      "reason": "ISO's own page returned 403 (browser challenge), as the Domain 3 log recorded for ISO/IEC 42001. The standard is sold; with the free page unreadable nothing can be cited."
+    },
+    {
+      "title": "Public Sector Equality Duty: guidance for public authorities (Government Equalities Office, 18 December 2023)",
+      "url": "https://www.gov.uk/government/publications/public-sector-equality-duty-guidance-for-public-authorities/public-sector-equality-duty-guidance-for-public-authorities",
+      "reason": "Read. General guidance on the duty; it says nothing about algorithms or AI, so it does not speak to this criterion beyond the statute itself."
+    },
+    {
+      "title": "Australian Human Rights Commission, Using artificial intelligence to make decisions: Addressing the problem of algorithmic bias (2020)",
+      "url": "https://humanrights.gov.au/our-work/technology-and-human-rights/publications/using-artificial-intelligence-make-decisions-addressing",
+      "reason": "Returned 403 (browser challenge). Not read; not cited."
+    },
+    {
+      "title": "Treasury Board of Canada, Directive on Automated Decision-Making",
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+      "reason": "Returned 403 'Request Rejected'. Not read; not cited."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the approved brief. Two points it could gain from: the CDEI review (2020, section 2.4) says that as proxies become more accurate some cases 'could potentially cross into direct discrimination', where the proportionality defence the brief describes is not available; and the regulator's strategy page now carries a March 2026 update, which keeps recruitment as a priority and promises a report on automated decisions in recruitment."
+}

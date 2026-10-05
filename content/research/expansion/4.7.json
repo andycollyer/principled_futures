@@ -1,0 +1,247 @@
+{
+  "criterion": "4.7",
+  "current_count": 6,
+  "additions": [
+    {
+      "title": "UK GDPR, Article 12: Transparent information, communication and modalities for the exercise of the rights of the data subject",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "published": "2016-04-27",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/12",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Art. 12(1); note F1",
+      "quote": "in a concise, transparent, intelligible and easily accessible form, using clear and plain language",
+      "why": "The plain-language rule. As amended on 5 February 2026 it covers communications made under Articles 15 to 22D, so it reaches information given under the automated decision-making safeguards as well as the privacy notice. It sets a standard of form; it does not say what the notice must contain.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Data Protection Act 2018, section 50C: Safeguards for automated decision-making",
+      "publisher": "legislation.gov.uk",
+      "year": 2018,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/50C",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.50C(1)-(4); note F1",
+      "quote": "provide the data subject with information about decisions described in subsection (1) taken in relation to the data subject",
+      "why": "The same duty to tell the person, for law enforcement processing by competent authorities (Part 3 of the Act), which the UK GDPR does not cover. Substituted by the Data (Use and Access) Act 2025 s.80(3); fully in force 5 February 2026. Unlike the UK GDPR version it allows exemptions (for example to avoid prejudicing an investigation) if the decision is reconsidered with meaningful human involvement.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Automated decision-making, including profiling: What rights do people have?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "published": "2026-03-31",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-rights-do-people-have/",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Sections 'What do we need to tell people under the ADM safeguards?' and 'How should we deliver the information?'",
+      "quote": "You should take steps to assess whether the information may confuse people.",
+      "why": "The regulator's draft sets three moments for telling people (on collection, on request, and proactively when a decision is made) and expects the wording to be checked for whether people understand it. Consultation draft updated 31 March 2026, not final guidance; wording may change.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "AI tools in recruitment: Audit outcomes report",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "published": null,
+      "url": "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Executive summary, 'Recommendation: Transparency and explainability', PDF p.7",
+      "quote": "Recruiters must ensure that they inform their candidates how they will process their personal information by AI.",
+      "why": "From the regulator's consensual audits of AI recruitment tool providers (August 2023 to May 2024): recruiters must tell candidates how AI processes their information, and contracts must say which party gives candidates that information. Dated November 2024, before the 2025 Act changed the law; recruitment only; organisations that agreed to be audited.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Guidelines on Automated individual decision-making and Profiling for the purposes of Regulation 2016/679 (WP251rev.01)",
+      "publisher": "Article 29 Data Protection Working Party",
+      "year": 2018,
+      "published": "2018-02-06",
+      "url": "https://ec.europa.eu/newsroom/article29/redirection/document/49826",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "EU",
+      "locator": "Chapter IV, section E 'Right to be informed', PDF p.25",
+      "quote": "tell the data subject that they are engaging in this type of activity",
+      "why": "The European regulators' reading of the notice duty: say the decision-making is happening, give meaningful information on the logic, and explain the consequences; good practice even outside the strict legal trigger. Written on the old Article 22, which the UK replaced in 2026; EU guidance, not binding in the UK.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Ethics, Transparency and Accountability Framework for Automated Decision-Making",
+      "publisher": "Department for Science, Innovation and Technology, Centre for Data Ethics and Innovation, Cabinet Office and Office for Artificial Intelligence",
+      "year": 2023,
+      "published": "2023-11-29",
+      "url": "https://www.gov.uk/government/publications/ethics-transparency-and-accountability-framework-for-automated-decision-making/ethics-transparency-and-accountability-framework-for-automated-decision-making",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Point 5, 'Help users and citizens understand how it impacts them'",
+      "quote": "notifying citizens when a process or service has automated decision-making with plain English explanations",
+      "why": "Government's own standard for departments: notification as the default, in plain English, with exceptions agreed by lawyers and a minister. Applies to government departments only; the date is the page's 'updated' date and the text still cites the old Article 22.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "OECD AI Principles: Transparency and explainability (Principle 1.3)",
+      "publisher": "Organisation for Economic Co-operation and Development",
+      "year": 2024,
+      "published": null,
+      "url": "https://oecd.ai/en/dashboards/ai-principles/P7",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Principle 1.3, second and fourth indents",
+      "quote": "to make stakeholders aware of their interactions with AI systems, including in the workplace",
+      "why": "International comparator: the intergovernmental principle asks organisations to make people aware and to give those adversely affected enough information to challenge the outcome. Non-binding; broader than the UK duty (not limited to solely automated decisions). The page shows no date; the year given is that of the OECD's latest revision of the principles and was not confirmed on this page.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "'It's Reducing a Human Being to a Percentage'; Perceptions of Justice in Algorithmic Decisions",
+      "publisher": "Reuben Binns and others (arXiv; published in Proceedings of CHI 2018)",
+      "year": 2018,
+      "published": "2018-01-31",
+      "url": "https://arxiv.org/abs/1801.10408",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "Our results suggests there may be no 'best' approach to explaining algorithmic decisions",
+      "why": "Three experimental studies of how people judge the fairness of automated decisions about loans, insurance and CV filtering, by style of explanation. Supports testing notices with real readers and not assuming one format works. Authors' repository copy of a peer-reviewed conference paper; hypothetical scenarios, and the abstract gives no sample size.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR",
+      "publisher": "Sandra Wachter, Brent Mittelstadt and Chris Russell (arXiv; published in Harvard Journal of Law & Technology, 2018)",
+      "year": 2018,
+      "published": "2017-11-01",
+      "url": "https://arxiv.org/abs/1711.00399",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "explanations can, in principle, be offered without opening the black box",
+      "why": "Argues a notice can be useful without exposing the model, and sets three aims for it: help the person understand why the decision was reached, give grounds to contest it, and show what could be changed (the 'counterfactual' form of explanation the title names). Authors' repository copy (v3, 21 March 2018) of a law-review article; legal and technical argument on the pre-2026 EU text, not an empirical study.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "How do people feel about AI? 2025 survey: Key findings",
+      "publisher": "Ada Lovelace Institute and The Alan Turing Institute",
+      "year": 2025,
+      "published": null,
+      "url": "https://attitudestoai.uk/findings-2025/key-findings",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "UK",
+      "locator": "Key findings, paragraph on laws, regulation and appeal procedures; methodology page for the sample",
+      "quote": "along with 61% who felt getting information on how AI systems made decisions about them would increase their comfort levels",
+      "why": "UK evidence on the link between being told and trust: 65% said appeal procedures, and 61% said information on how a decision about them was made, would make them more comfortable with AI. Nationally representative sample of 3,513 people, fieldwork 25 October to 24 November 2024. Stated attitudes, not observed behaviour; institute report, not peer reviewed.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {
+    "https://www.legislation.gov.uk/eur/2016/679/article/22C": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": "2016-04-27",
+      "quote": "provide the data subject with information about decisions described in paragraph 1 taken in relation to the data subject"
+    },
+    "https://www.legislation.gov.uk/eur/2016/679/article/13": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": "2016-04-27",
+      "quote": "meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject"
+    },
+    "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards/": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": "2026-03-31",
+      "quote": "You must explain how they can do this. You should do this at the point you provide the decision."
+    },
+    "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/transparency-and-safeguards/": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "did not recognise that this was separate to the transparency safeguard within the ADM provisions"
+    },
+    "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/introduction-what-is-adm-and-why-are-we-focusing-on-it-in-recruitment/": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "we determined that 16 employers were likely to be using ADM to make decisions about candidates"
+    },
+    "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26": {
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "published": null,
+      "quote": "shall inform the natural persons that they are subject to the use of the high-risk AI system"
+    }
+  },
+  "rejected": [
+    {
+      "title": "CJEU, Case C-634/21 SCHUFA Holding (Scoring), judgment of 7 December 2023",
+      "url": "https://curia.europa.eu/juris/document/document.jsf?docid=280426&doclang=EN",
+      "reason": "Blocked: the Court's site returned a four-character body; EUR-Lex (CELEX 62021CJ0634) returned HTTP 202 with an empty body. Not read, not cited."
+    },
+    {
+      "title": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS 225)",
+      "url": "https://rm.coe.int/1680afae3c",
+      "reason": "Blocked: HTTP 403 from the site's bot protection. Not bypassed. The OECD principle is used as the comparator instead."
+    },
+    {
+      "title": "Treasury Board of Canada, Directive on Automated Decision-Making (notice requirement)",
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+      "reason": "Blocked: 'Request Rejected' (HTTP 403). Not bypassed."
+    },
+    {
+      "title": "CFPB Circular 2023-03: Adverse action notification requirements",
+      "url": "https://www.consumerfinance.gov/compliance/circulars/circular-2023-03-adverse-action-notification-requirements-and-the-proper-use-of-the-cfpbs-sample-forms-provided-in-regulation-b/",
+      "reason": "Reachable, but the page is marked 'Archived content' (last modified 11 April 2025) and the circular's text is no longer shown. Cannot be read at the original, so not cited."
+    },
+    {
+      "title": "Colorado Senate Bill 24-205 (consumer protections for artificial intelligence)",
+      "url": "https://leg.colorado.gov/bills/sb24-205",
+      "reason": "Blocked: HTTP 406 to a plain request. Not read."
+    },
+    {
+      "title": "Royal Commission into the Robodebt Scheme, Report",
+      "url": "https://robodebt.royalcommission.gov.au/publications/report",
+      "reason": "No response from the site (connection returned nothing on three attempts). Not read; no inquiry finding is cited for this criterion."
+    },
+    {
+      "title": "Public attitudes to data and AI: Tracker survey (Wave 4) report",
+      "url": "https://www.gov.uk/government/publications/public-attitudes-to-data-and-ai-tracker-survey-wave-4/public-attitudes-to-data-and-ai-tracker-survey-wave-4-report",
+      "reason": "Read. Nothing specific on being told about automated decisions; the Ada Lovelace/Turing survey answers the question directly."
+    },
+    {
+      "title": "Regulation (EU) 2024/1689, Article 86: Right to explanation of individual decision-making",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-86",
+      "reason": "Read. A right to an explanation on request, not a duty to notify; belongs to the explanation criteria."
+    }
+  ],
+  "brief_check": "No contradiction of the approved brief. One item is dated: the reading-list note on EU AI Act Article 26 says the Commission's page carries a 'not yet updated' notice; on 5 October 2026 the page instead says it shows the consolidated text as at 27 July 2026, and Article 26(11) reads as quoted with no amendment marker. The ICO automated decision-making guidance is still labelled a draft (updated 31 March 2026)."
+}

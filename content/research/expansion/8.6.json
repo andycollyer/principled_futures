@@ -1,0 +1,152 @@
+{
+  "criterion": "8.6",
+  "current_count": 9,
+  "additions": [
+    {
+      "title": "FRC Lab report: Improving ESG data production",
+      "publisher": "Financial Reporting Council (Financial Reporting Lab)",
+      "year": 2022,
+      "published": null,
+      "url": "https://www.frc.org.uk/documents/4919/FRC_Lab_Report_Improving_ESG_Data_Production.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Section 2 'Method', 'Sources, tools and systems for data collection', PDF page 18; 'Validating the data' on owners, methodology statements and audit trail",
+      "quote": "Many companies do not have a dedicated system and collect data manually into spreadsheets.",
+      "why": "The UK regulator's own study of how companies actually gather sustainability data: roles, owners, tools and controls. It describes the criterion's lower levels and the steps to the middle one. Limits: dated August 2022; based on discussions with participating companies (listed in its appendix); observations, not requirements.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "International Standard on Sustainability Assurance (UK) 5000: General Requirements for Sustainability Assurance Engagements",
+      "publisher": "Financial Reporting Council",
+      "year": 2025,
+      "published": null,
+      "url": "https://www.frc.org.uk/documents/8887/ISSA_UK_5000.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Paragraph 9 (limited and reasonable assurance), PDF page 8; paragraphs 117 and 118 (the entity's information system); paragraph 15 (effective date)",
+      "quote": "the level of assurance obtained in a limited assurance engagement is substantially lower than in a reasonable assurance engagement",
+      "why": "The UK standard for assuring sustainability information, which defines the top level of the criterion and tells a company what an assurer will examine: its information system, sources and methods. Limits: issued November 2025 for voluntary use; effective for periods beginning on or after 15 December 2026; addressed to assurance providers, not to companies.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Corporate Value Chain (Scope 3) Accounting and Reporting Standard",
+      "publisher": "Greenhouse Gas Protocol (World Resources Institute and World Business Council for Sustainable Development)",
+      "year": 2011,
+      "published": null,
+      "url": "https://ghgprotocol.org/sites/default/files/standards/Corporate-Value-Chain-Accounting-Reporing-Standard_041613_2.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Chapter 7 'Collecting Data', paragraph beginning 'To facilitate quality assurance', printed page 75 (PDF page 77); Appendix C 'Data Management Plan', printed page 129",
+      "quote": "companies should develop a data management plan that documents the GHG inventory process and the internal quality assurance and quality control (QA/QC) procedures",
+      "why": "Sets out the data management plan: who collects what, from which source, with which checks, written down once. This is the criterion's 'single dataset with owners' in the standard-setter's words. Limits: voluntary; 2011 text; written for value-chain emissions, though the plan applies to any inventory.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Small Business Finance Markets 2025/26",
+      "publisher": "British Business Bank",
+      "year": 2026,
+      "published": null,
+      "url": "https://www.british-business-bank.co.uk/sites/g/files/sovrnj166/files/2026-03/report-small-business-finance-markets-2026.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Chapter 2.5 'Finance for environmental sustainability', section 'The proportion of smaller businesses measuring their carbon emissions remains low', PDF page 98",
+      "quote": "5% of smaller businesses stated they were measuring, monitoring or reporting their business carbon emissions",
+      "why": "The only UK figure found on how many smaller businesses hold any emissions data at all; the first-pass log found none. It shows how far most firms are from a maintained dataset. Limits: a survey answer, not an audit of data quality; the figure covers carbon only; the site refused automated requests in the first pass but the report file opened today without a log-in.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Harmonizing corporate carbon footprints",
+      "publisher": "Klaaßen and Stoll; Nature Communications 12, 6149",
+      "year": 2021,
+      "published": "2021-10-22",
+      "url": "https://www.nature.com/articles/s41467-021-26349-x",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract; Results, case study of the technology sector",
+      "quote": "Current carbon accounting and reporting practices remain unsystematic and not comparable",
+      "why": "Peer-reviewed, open access. Finds that the same company's emissions differ between its own reports and other channels, and that technology companies' reports omitted about half of total emissions. Evidence that figures rebuilt for each purpose drift apart. Limits: 56 large technology companies, 2019 data; value-chain emissions only; not UK-specific.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Corporate carbon performance data: Quo vadis?",
+      "publisher": "Busch, Johnson and Pioch; Journal of Industrial Ecology 26(1), 350-363",
+      "year": 2020,
+      "published": "2020-04-24",
+      "url": "https://link.springer.com/article/10.1111/jiec.13008",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "data on direct emissions are more consistent than data on indirect emissions",
+      "why": "Peer-reviewed, open access. Compares the emissions figures that data providers hold for the same companies and finds they disagree, most of all for value-chain emissions and for estimated rather than reported data. Shows why a company should supply its own traceable figure. Limits: large companies covered by commercial data providers; published online 2020, in the 2022 volume.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "GHG Inventory Development Process and Guidance",
+      "publisher": "United States Environmental Protection Agency, Center for Corporate Climate Leadership",
+      "year": 2025,
+      "published": null,
+      "url": "https://www.epa.gov/climateleadership/ghg-inventory-development-process-and-guidance",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "US",
+      "locator": "Section 'The GHG Inventory Development Process', step 3 'Develop a GHG Inventory Management Plan'",
+      "quote": "Formalize data collection procedures and document process in Inventory Management Plan.",
+      "why": "International comparator: a regulator's free guidance, with a simplified template for small businesses, that makes a written inventory management plan one of four steps. Limits: US, voluntary; page last updated 4 December 2025 and subject to change with US policy; greenhouse gases only.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "GRI 1: Foundation 2021 (Global Sustainability Standards Board)",
+      "url": "https://www.globalreporting.org/pdf.ashx?id=12334",
+      "reason": "The file opened at a direct address, but the publisher's site normally offers its standards through a download form. Not cited, so as not to rely on a link that sidesteps registration; the principles of accuracy and verifiability are already covered by UK SRS S1 and the EFRAG standard."
+    },
+    {
+      "title": "ISSA 5000 (International Auditing and Assurance Standards Board)",
+      "url": "https://ifacweb.blob.core.windows.net/publicfiles/2025-01/IAASB-International-Standard-on-Sustainability-Assurance-ISSA-5000.pdf",
+      "reason": "Read on the publisher's file server. Not added: the UK version issued by the Financial Reporting Council reproduces it and is cited instead; adding both would be padding."
+    },
+    {
+      "title": "Corporate carbon performance data: Quo vadis? (Wiley Online Library address)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jiec.13008",
+      "reason": "HTTP 403. The journal's open-access copy on Springer Nature Link was read and is cited."
+    },
+    {
+      "title": "FRC Lab ESG data report (address guessed)",
+      "url": "https://www.frc.org.uk/documents/3996/FRC_Lab_ESG_Data_Report_2022.pdf",
+      "reason": "HTTP 404; the correct address was found on the regulator's own page and is cited."
+    },
+    {
+      "title": "Unlocking the SME Net Zero Transition (UK Finance, 2024)",
+      "url": "https://www.ukfinance.org.uk/system/files/2024-05/UK%20Finance%20SME%20sustainability%20report.pdf",
+      "reason": "Opened today (it returned HTTP 403 in the first pass). Read: a trade-body report on barriers to SME action; nothing specific on how data is kept. Not cited."
+    },
+    {
+      "title": "Any source on AI tools producing unsupported sustainability figures",
+      "url": "",
+      "reason": "Still none found. The brief's sentence on this remains reasoning, not a sourced finding."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. It is slightly dated on assurance: the Financial Reporting Council issued ISSA (UK) 5000 in November 2025 (voluntary; effective for periods beginning on or after 15 December 2026, para. 15), which the brief does not mention. British Business Bank's 2025/26 survey figure (5% of smaller businesses measure or report carbon emissions, PDF p.98) supports 'What it measures' and fills a gap the first-pass log recorded."
+}

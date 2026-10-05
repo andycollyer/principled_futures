@@ -1,0 +1,184 @@
+{
+  "criterion": "1.8",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "Explaining decisions made with AI, Part 3: Documentation",
+      "publisher": "Information Commissioner's Office",
+      "year": 2020,
+      "published": null,
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-3-what-explaining-ai-means-for-your-organisation/documentation/",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "'At a glance' and 'Checklist'; sections 'What documentation should we provide to demonstrate the explainability of our AI system?' and 'How should we organise this documentation?'; under-review banner",
+      "quote": "It is essential to document each stage of the process behind the design and deployment of an AI decision-support system",
+      "why": "The regulator's guidance on what an AI decision file should hold, stage by stage from design to the decision given to the individual, including an audit trail of who received explanations. The closest UK regulator text to the criterion's 'filed per system' standard. Guidance, not law, and it reaches AI only where personal data is used. The page carries a banner that it is under review because of the Data (Use and Access) Act, and it still refers to 'the GDPR' and Article 22, which UK law has since replaced with Articles 22A-22D. No date is printed on the page; the year given is that of the guidance's first publication and was not confirmed on the page today.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "FCA Handbook, SYSC 9.1: General rules on record-keeping",
+      "publisher": "Financial Conduct Authority",
+      "year": 2021,
+      "published": null,
+      "url": "https://handbook.fca.org.uk/handbook/SYSC/9/1.html",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "SYSC 9.1.1R (dated 01/01/2021); SYSC 9.1.1AR and 9.1.1BR (common platform firms: compliance, risk management and internal audit reports to be kept)",
+      "quote": "must arrange for orderly records to be kept of its business and internal organisation",
+      "why": "A binding regulator rule that sets the 'regulator-grade' test in terms: records must be sufficient to enable the FCA to monitor the firm's compliance. For common platform firms each compliance, risk management and internal audit report to senior management must be kept. Sector-specific (FCA-authorised firms); not written for AI, but an AI system used in a regulated activity falls within 'business and internal organisation'.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "AI Act, Article 18: Documentation keeping (AI Act Service Desk copy)",
+      "publisher": "European Commission",
+      "year": 2026,
+      "published": null,
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-18",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Article 18(1)(a)-(e); read with Article 12 (automatic logging over the lifetime of the system)",
+      "quote": "for a period ending 10 years after the high-risk AI system has been placed on the market or put into service",
+      "why": "The Commission's own copy, not the Official Journal; it says the text follows the EUR-Lex consolidated version of the AI Act as at 27 July 2026 and marks Digital Omnibus changes. The provider of a high-risk system must keep its technical documentation, quality management documentation and declaration of conformity available to authorities for ten years. A provider duty, so it tells a UK deployer what record a supplier within the Act's reach must hold and can be asked for; the deployer's own log duty is Article 26, already on this list. High-risk rules are not yet in application.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Code of Practice on the management of records issued under section 46 of the Freedom of Information Act 2000",
+      "publisher": "The National Archives",
+      "year": 2021,
+      "published": "2021-07-15",
+      "url": "https://assets.publishing.service.gov.uk/media/6114c3278fa8f506c4d84100/Freedom_Information_Code_Practice_Web_Accessible.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Paragraph 1.2.4; paragraph 1.3 (status of the Code); Glossary ('Records', citing BS ISO 15489-1:2016)",
+      "quote": "Authorities should manage their information so as to create and maintain a record of their activities which, in turn, provides evidence of their activities.",
+      "why": "The statutory code on keeping, managing and destroying records, and a free statement of the records-management principles that the paid standard BS ISO 15489 sets out. Defines a record as information kept as evidence. A statutory code for public authorities under the Freedom of Information Act (the publication page says it applies to England, Northern Ireland and Wales); a benchmark for others. It does not mention algorithms or AI. Published 15 July 2021.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "SS1/23: Model risk management principles for banks",
+      "publisher": "Bank of England, Prudential Regulation Authority",
+      "year": 2023,
+      "published": "2023-05",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2023/ss123.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Principle 3.5 ('Model development documentation'), points (a) and (b); para 1.5 (in effect 17 May 2024)",
+      "quote": "Firms should have comprehensive, and up-to-date documentation on the design, theory, and logic underlying the development of their models.",
+      "why": "A supervisor's test of whether a model file is good enough: detailed enough that an independent third party with the relevant expertise could understand how the model operates, covering data sources and quality tests, choice of method and assumptions, and with enough detail on vendor models to validate the firm's use of them. Applies to banks, building societies and PRA-designated investment firms with internal model approval; a benchmark elsewhere, not a rule.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Government Response: Royal Commission into the Robodebt Scheme",
+      "publisher": "Australian Government, Department of the Prime Minister and Cabinet",
+      "year": 2023,
+      "published": "2023-11",
+      "url": "https://www.pmc.gov.au/sites/default/files/resource/download/gov-response-royal-commission-robodebt-scheme.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "other",
+      "locator": "Recommendation 23.8 ('Documenting decisions and discussions') and the Government's response",
+      "quote": "should develop standards for documenting important decisions and discussions, and the delivery of training on those standards",
+      "why": "An official inquiry into an automated decision scheme concluding that decisions were not properly recorded. The Royal Commission recommended standards for documenting important decisions and discussions, with training; the Australian Government accepted this and tied record-keeping to integrity. Read in the Government's response, which reproduces the recommendation: the Royal Commission's own site did not respond today, so its findings of fact on missing records were not read. Australian public service, not UK companies.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Reviewable Automated Decision-Making: A Framework for Accountable Algorithmic Systems",
+      "publisher": "Jennifer Cobbe, Michelle Seng Ah Lee and Jatinder Singh (arXiv; ACM FAccT 2021)",
+      "year": 2021,
+      "published": "2021-01-26",
+      "url": "https://arxiv.org/abs/2102.04201",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract (arXiv:2102.04201v2)",
+      "quote": "determining the contextually appropriate record-keeping mechanisms to facilitate meaningful review - both of individual decisions and of the process as a whole",
+      "why": "Peer-reviewed conference paper, read on the authors' arXiv copy. Argues that explanations of a model are not enough for oversight; what a reviewer needs is records of the whole decision process, human and technical, from commissioning to consequences, on the pattern of administrative law. The research basis for a per-system file that covers approvals and reviews as well as the model. A framework, not an empirical test.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Model Cards for Model Reporting",
+      "publisher": "Margaret Mitchell and eight co-authors (arXiv; FAT* 2019)",
+      "year": 2019,
+      "published": "2018-10-05",
+      "url": "https://arxiv.org/abs/1810.03993",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract (arXiv:1810.03993v2)",
+      "quote": "we recommend that released models be accompanied by documentation detailing their performance characteristics",
+      "why": "The paper that established the short standard document for a model: intended use, how it was evaluated, and measured performance across groups. The origin of the supplier documentation a buyer should ask for and file. Peer-reviewed conference paper read on arXiv; it proposes a format and shows two examples and does not test whether model cards improve outcomes.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Datasheets for Datasets",
+      "publisher": "Timnit Gebru and six co-authors (arXiv; Communications of the ACM, December 2021)",
+      "year": 2021,
+      "published": "2018-03-23",
+      "url": "https://arxiv.org/abs/1803.09010",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract (arXiv:1803.09010v8)",
+      "quote": "The machine learning community currently has no standardized process for documenting datasets, which can lead to severe consequences in high-stakes domains.",
+      "why": "The companion standard for training data: every dataset documented for its motivation, composition, collection process and recommended uses. Supplies the 'on what evidence' part of an approval file where a system was trained or tuned on the organisation's or a supplier's data. Published article read on the authors' arXiv copy; a proposal, with no test of effect, and the statement about the absence of a standard process dates from 2018-2021.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "Royal Commission into the Robodebt Scheme, Report (2023)",
+      "url": "https://robodebt.royalcommission.gov.au/publications/report",
+      "reason": "The Royal Commission's site did not respond (no HTTP response within 30 seconds, two URLs). A university-hosted copy exists and was not used; the Government's response is cited instead."
+    },
+    {
+      "title": "ISO/IEC 42001 and ISO 15489-1 (documented information; records management)",
+      "url": "https://www.iso.org/standard/42001",
+      "reason": "Not re-tried: iso.org returned HTTP 403 on 2 October and again today on another standard page. Paid standards. The section 46 Code, which is free and cites BS ISO 15489-1, is used instead."
+    },
+    {
+      "title": "Limitation Act 1980, section 5",
+      "url": "https://www.legislation.gov.uk/ukpga/1980/58/section/5",
+      "reason": "Read (six years for actions on simple contract). Bears on how long records may be needed but says nothing about records; left out as not speaking to the criterion."
+    },
+    {
+      "title": "UK GDPR Article 30 and Article 5(2)",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/30",
+      "reason": "Not added: the brief deliberately leaves the data protection records duty to the records and accountability brief (5.8), which carries both."
+    },
+    {
+      "title": "AI Act, Article 12: Record-keeping (AI Act Service Desk copy)",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-12",
+      "reason": "Read (automatic logging over the lifetime of a high-risk system). Mentioned in the Article 18 entry; a third AI Act article on this list would pad."
+    },
+    {
+      "title": "Post Office Horizon IT Inquiry, later volumes",
+      "url": "https://www.postofficehorizoninquiry.org.uk/",
+      "reason": "Not re-read: the 2 October log found no citable finding on records in Volume 1 and no later volume listed. No change checked today."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. Note for the reviewer: the ICO 'Documentation' page cited here is under review and still describes Article 22 of 'the GDPR', which UK law replaced with Articles 22A-22D on 5 February 2026; and FCA rule SYSC 9.1 is a binding record-keeping rule for authorised firms that the brief, written from company law, does not mention."
+}

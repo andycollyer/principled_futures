@@ -1,0 +1,168 @@
+{
+  "criterion": "8.4",
+  "current_count": 8,
+  "additions": [
+    {
+      "title": "Feedback on sustainability reporting standards: additional explanatory information regarding the value chain cap",
+      "publisher": "European Commission, Directorate-General for Financial Stability, Financial Services and Capital Markets Union",
+      "year": 2026,
+      "published": "2026-05-06",
+      "url": "https://finance.ec.europa.eu/news/feedback-sustainability-reporting-standards-additional-explanatory-information-regarding-value-chain-2026-05-06_en",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "EU",
+      "locator": "Part B, questions 3 to 6",
+      "quote": "It means only that they cannot require companies with 1000 employees or fewer to provide certain information.",
+      "why": "The Commission's own questions and answers on how the right works in practice. A customer may still ask for more than the cap but cannot require it, must mark which items go beyond the cap and must tell the supplier of its statutory right to decline; applying the voluntary standard does not stop other requests; and customers are expected to ask for less than the cap where they do not need it all. Explanatory, not law, and written on 6 May 2026 about the draft standard then out for feedback: it describes the cap as the disclosures marked 'necessary', whereas the adopted regulation defines it by the list in Annex II. Follow the regulation where they differ.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Commission Delegated Regulation (EU) 2026/1563 amending Delegated Regulation (EU) 2023/2772 as regards the simplification of certain sustainability reporting standards",
+      "publisher": "Publications Office of the European Union (Official Journal of the European Union)",
+      "year": 2026,
+      "published": "2026-09-21",
+      "url": "http://publications.europa.eu/resource/cellar/7c16cdc5-b556-11f1-81de-01aa75ed71a1.0006.03/DOC_1",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Annex, ESRS 1 General Requirements, chapter 5, paragraph 66; paragraph 65 on estimates; Article 3 (entry into force and application)",
+      "quote": "This limitation also applies to non-EU undertakings in the upstream and downstream value chain of the reporting undertaking.",
+      "why": "The customer's side of the line, and the passage that matters most to a UK supplier. The reporting standard binding on EU companies in scope tells them that what may be required from protected undertakings comprises only the Annex II datapoints, and that this limit also applies to non-EU undertakings in their value chain. Paragraph 65 lets the customer use estimates instead of supplier data, so a refusal does not leave the customer unable to report. A rule addressed to the reporting customer, not a right enforceable by a UK firm in a UK court; that question was not researched. Enters into force on 10 November 2026 and applies to financial years from 1 January 2027. Official Journal text served by the Publications Office.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Directive (EU) 2022/2464 as regards corporate sustainability reporting (the Corporate Sustainability Reporting Directive), as originally published",
+      "publisher": "Publications Office of the European Union (Official Journal of the European Union)",
+      "year": 2022,
+      "published": "2022-12-16",
+      "url": "http://publications.europa.eu/resource/cellar/59e70288-7ce5-11ed-9887-01aa75ed71a1.0006.02/DOC_1",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Article 1(8), inserting Article 29b into Directive 2013/34/EU, paragraph 4",
+      "quote": "Sustainability reporting standards shall specify disclosures on value chains that are proportionate and relevant to the capacities and the characteristics of undertakings in value chains",
+      "why": "Where the line came from. The 2022 directive already said that reporting standards must not require companies to obtain from small and medium-sized undertakings in their value chain more than the standard for listed small companies. That was a limit on the standard-setter, not a right the supplier could use, and the 2026 directive records that disproportionate requests continued notwithstanding it. Explains why a refusal position written before 2026 has no statutory basis. This is the text as published on 16 December 2022; Directive (EU) 2026/470 has since amended these provisions, so do not cite it as current law.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Procurement Act 2023, section 12: Covered procurement: objectives",
+      "publisher": "legislation.gov.uk",
+      "year": 2023,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2023/54/section/12",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.12(4); see also s.22(1) and (5) on proportionate conditions of participation",
+      "quote": "have regard to the fact that small and medium-sized enterprises may face particular barriers to participation",
+      "why": "The nearest UK statutory basis for pushing back, and it applies to public buyers only. A contracting authority must have regard to the barriers small and medium-sized enterprises face and consider whether they can be removed or reduced, and under section 22 may set conditions of participation only if they are a proportionate means of ensuring capacity or ability to perform. A supplier facing an excessive sustainability questionnaire in a public tender can cite these duties. They are duties on the buyer, not a right to decline, and say nothing about private customers. The page shows no known outstanding effects and a current version dated 24 February 2025.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "UK SRS S1: General Requirements for Disclosure of Sustainability-related Financial Information",
+      "publisher": "Department for Business and Trade",
+      "year": 2026,
+      "published": "2026-02-25",
+      "url": "https://assets.publishing.service.gov.uk/media/699dd3b007d7bff3604d6c5e/uk_srs_1_general_requirements_for_disclosure_of_sustainability_related_financial_information.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "reporting framework",
+      "jurisdiction": "UK",
+      "locator": "Appendix B, paragraphs B6 and B8 to B10 (printed pages 23 to 24, PDF pages 27 to 28)",
+      "quote": "An entity need not undertake an exhaustive search for information to identify sustainability-related risks and opportunities",
+      "why": "What a UK reporting customer is actually obliged to gather. The UK standard asks it to use reasonable and supportable information available without undue cost or effort, and says an exhaustive search is not needed. A supplier can point to this when a UK customer claims its own reporting compels a demand: the standard does not require the customer to obtain everything. It gives the supplier no right to decline and is voluntary unless another rule, such as the listing rules, applies it.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Scope 3 Emissions in the UK Reporting Landscape: Call for Evidence Analysis Report",
+      "publisher": "Department for Energy Security and Net Zero",
+      "year": 2024,
+      "published": null,
+      "url": "https://assets.publishing.service.gov.uk/media/67499f7e75bb645366b3a1e7/summary-of-responses-call-for-evidence-scope-3-emissions-reporting.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Chapter 1, 'Compliance with IFRS', PDF page 14; chapter 2, 'Data challenges', item 6, PDF page 20",
+      "quote": "a set of overarching principles that prioritise proportionality, and materiality, will help to balance the requests on SMEs for data inputs",
+      "why": "Shows the UK has recognised the problem without legislating on it. Respondents to the government's call for evidence asked for proportionality principles to limit requests to small firms and raised confidentiality of supplier information as a concern. Supports the brief's finding that no UK equivalent of the EU right exists. Dated May 2024. An analysis of 184 self-selected responses; views of respondents, not government policy.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Data Requests in Value Chains: The Effects of Corporate Sustainability Reporting on SMEs in The Netherlands",
+      "publisher": "Niemann, Morssinkhof, van der Linden and de Vries, Sustainability 17(17), 8029 (MDPI); copy held in the Delft University of Technology repository",
+      "year": 2025,
+      "published": null,
+      "url": "https://repository.tudelft.nl/file/File_45575c22-db6d-40bd-b5d7-d43ab0c97965",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "EU",
+      "locator": "Section 1, Introduction (article page 2, PDF page 3); end of section 3.2 (article page 8, PDF page 9)",
+      "quote": "business partners can in principle impose contractual demands for data that they consider material",
+      "why": "Peer-reviewed evidence of the pressure the right is meant to answer. The authors note that a voluntary standard alone does not protect a small firm, because customers can write data demands into contracts, and report that the burden grows when different customers ask for different data on the same product. Written before Directive (EU) 2026/470 made contract terms that go beyond the standard non-binding for reporting purposes, so it describes the position the directive changed. Survey of 431 Dutch firms and 48 interviews, late 2024. Read in the university repository's copy of the final published version.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Supply-chain data sharing for scope 3 emissions",
+      "publisher": "Stenzel and Waichman, npj Climate Action 2, article 7 (Springer Nature)",
+      "year": 2023,
+      "published": "2023-03-13",
+      "url": "https://www.nature.com/articles/s44168-023-00032-x",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Section 'Obstacles to primary data sharing', paragraphs on data privacy concerns",
+      "quote": "Firms are very hesitant to share such data.",
+      "why": "Peer-reviewed review of why suppliers hold back emissions data, and a legitimate ground for refusal that is separate from the EU right: product-level emissions data can reveal production processes, product composition and supplier networks, so it is competitively sensitive. Supports a refusal position that distinguishes aggregate figures from commercially sensitive detail. A review article, not new empirical work; it concerns emissions data only and predates the 2026 rules. Open access on the publisher's site.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "How small suppliers deal with the buyer power in asymmetric relationships within the sustainable fashion supply chain (Talay and co-authors)",
+      "url": "https://irep.ntu.ac.uk/id/eprint/34145/1/11615_a1000_Talay.pdf",
+      "reason": "Read in the Nottingham Trent University repository (accepted manuscript). Twelve interviews with six small fashion suppliers, partly in Turkey; about commercial terms, not sustainability data requests. Too narrow for this criterion."
+    },
+    {
+      "title": "EU omnibus package on sustainability (Baumüller, SSRN working paper)",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5195189",
+      "reason": "HTTP 403 with a browser check. Not bypassed; not read; not cited."
+    },
+    {
+      "title": "Consolidated text of Directive 2013/34/EU",
+      "url": "https://eur-lex.europa.eu/",
+      "reason": "EUR-Lex not attempted again (recorded as returning empty pages). No consolidated text was read; the amending directives are cited as published."
+    },
+    {
+      "title": "Directive (EU) 2024/1760 on corporate sustainability due diligence",
+      "url": "http://publications.europa.eu/resource/cellar/a416fd73-3a66-11ef-a1cb-01aa75ed71a1.0006.03/DOC_1",
+      "reason": "Address resolved but not read. The original text has been amended by Directive (EU) 2026/470 and no consolidated version was available; due diligence requests are outside the right in any case."
+    },
+    {
+      "title": "UK GDPR data minimisation and the ICO data sharing code, as a ground for refusing workforce data",
+      "url": "https://ico.org.uk/",
+      "reason": "Considered and not pursued. The voluntary standard asks for aggregate workforce figures, not personal data, so the link to this criterion is indirect; adding it would be padding."
+    },
+    {
+      "title": "International comparator for a supplier's right to decline",
+      "url": "",
+      "reason": "None found. The OECD paper read for the other criteria discusses convergence of requests but no right to refuse; no comparator is recorded for this criterion."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief; two points refine it. (1) ESRS 1 paragraph 66 in Regulation (EU) 2026/1563 says the value-chain cap 'also applies to non-EU undertakings' in the customer's value chain, which bears on the log's open question whether a UK supplier is covered (it binds the EU customer; enforceability by a UK firm was not researched). (2) 'No UK equivalent was found' holds for private customers, but for public tenders the Procurement Act 2023, sections 12(4) and 22, imposes proportionality duties on the buyer. Also note the Commission's Q&A of 6 May 2026: customers may still ask for more than the cap; what they cannot do is require it."
+}

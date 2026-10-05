@@ -1,0 +1,136 @@
+{
+  "criterion": "5.5",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "UK GDPR, Article 10: Processing of personal data relating to criminal convictions and offences",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/10",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Art. 10(1)-(2); notes F1-F5",
+      "quote": "shall be carried out only under the control of official authority",
+      "why": "The separate binding rule for criminal offence data, which the brief mentions but the list did not carry. Processing needs official authority or authorisation in domestic law (routed by para 2 to section 10 of the 2018 Act and its Schedule 1 conditions) or, since 20 August 2025, relevant international law (words inserted by the Data (Use and Access) Act 2025 s.72(5)). Section 11(2) of the 2018 Act, read in the same pass, extends it to alleged offences and proceedings. No outstanding effects shown on the date checked.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "R (Bridges) v Chief Constable of South Wales Police [2020] EWCA Civ 1058",
+      "publisher": "Court of Appeal (Civil Division)",
+      "year": 2020,
+      "published": "2020-08-11",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1058",
+      "access": "free",
+      "tier": "official",
+      "type": "court or tribunal",
+      "jurisdiction": "UK",
+      "locator": "paras 48-50, 155-162, 209; Annex A paras 25-28",
+      "quote": "A section 42 document is an evolving document, which, in accordance with section 42(3), must be kept under review and updated from time to time.",
+      "why": "The leading UK judgment on live facial recognition. It proceeds on the footing that capturing faces to identify people is sensitive processing of biometric data, permitted only if strictly necessary, within a Schedule 8 condition and covered by an appropriate policy document. Limits: it concerns police use under Part 3 of the 2018 Act (law enforcement), not the UK GDPR Article 9 regime that applies to most firms; and the court rejected the ground that the policy document was inadequate (Ground 4), leaving that point undecided. The appeal succeeded on other grounds (Article 8, the impact assessment, the equality duty).",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "AI tools in recruitment: audit outcomes report",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "published": "November 2024",
+      "url": "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "p. 22 (example on inferred characteristics); see also pp. 27 and 43",
+      "quote": "Information intentionally inferred in this way is still special category data.",
+      "why": "What the regulator found in practice: several providers of AI recruitment tools guessed candidates' gender and ethnicity from names or profiles, did not always treat the result as special category data, and had no additional condition for it. The regulator says such processing is unlikely to be lawful and recommended collecting the information directly and lawfully. Direct evidence for the brief's point that an inference is caught. Recruitment only; the audits were consensual. Already cited elsewhere in the library for other passages.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 4a: Processing of special categories of personal data for bias detection and correction",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2026,
+      "published": null,
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4a",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Art. 4a(1)(a)-(f) and 4a(2); all marked NEW",
+      "quote": "the bias detection and correction cannot be effectively fulfilled by processing other data, including synthetic or anonymised data",
+      "why": "The EU's narrow exception allowing special category data to be used to detect and correct bias, added by the Digital Omnibus on AI in place of the former Article 10(5), which the same site now shows as deleted. Six cumulative conditions: no workable alternative data, technical limits on re-use, access controls, no onward transfer, deletion once the bias is corrected, and reasons recorded in the record of processing. It shows how tightly an exception is drawn. The UK has no equivalent provision in the UK GDPR; UK firms rely on Schedule 1 conditions. The Commission's copy of the consolidated text (EUR-Lex consolidation as at 27 July 2026), not the Official Journal; EUR-Lex itself returned an empty page. EU law: it reaches UK firms only where they place systems on the EU market or their output is used there. No application date is stated here because none was read on this page.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "A Right to Reasonable Inferences: Re-Thinking Data Protection Law in the Age of Big Data and AI",
+      "publisher": "Oxford University Research Archive (S. Wachter and B. Mittelstadt; Columbia Business Law Review 2019(2))",
+      "year": 2019,
+      "published": null,
+      "url": "https://ora.ox.ac.uk/objects/uuid:d53f7b6a-981c-4f87-91bc-743067d10167/files/m11a3a4ceea760eb2cd96110e6e823a5f",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract, journal p. 495 (PDF p. 2); Part V.D 'Protections Against Sensitive Inferences', pp. 560-568",
+      "quote": "The GDPR also provides insufficient protection against sensitive inferences (Article 9)",
+      "why": "Peer-reviewed legal research by two Oxford authors on the gap the brief describes: systems infer sensitive traits from ordinary data, and the special category rules were written for data that is collected, not derived. Argues the law's reach over inferences depends on intention and reliability. Limits: analyses the EU GDPR as it stood in 2019, before the UK regulator's current guidance on inferences; a legal argument, not an empirical study. The university repository's copy of the version of record; the journal's own site refused automated reading.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Using sensitive data to prevent discrimination by artificial intelligence: Does the GDPR need a new exception?",
+      "publisher": "arXiv (M. van Bekkum and F. Zuiderveen Borgesius)",
+      "year": 2022,
+      "published": "2022-05-17",
+      "url": "https://arxiv.org/abs/2206.03262",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "EU",
+      "locator": "Abstract (version 3, 28 November 2022)",
+      "quote": "We argue that the GDPR does prohibit such use of special category data in many circumstances.",
+      "why": "Research on the tension a board will meet when it tests its systems for bias: to check whether a system treats ethnic groups differently it needs ethnicity data, which the prohibition usually blocks. Sets out the arguments for and against a new exception; the EU has since created one (AI Act Article 4a). Limits: abstract only read in this pass; EU law; the authors' preprint, and its journal publication was not checked.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "Private traits and attributes are predictable from digital records of human behavior (Kosinski, Stillwell, Graepel; PNAS 2013)",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1218772110",
+      "reason": "HTTP 403 to automated reading. Not bypassed; no author or institution copy located. Not cited."
+    },
+    {
+      "title": "A Right to Reasonable Inferences, journal's own page (Columbia Business Law Review)",
+      "url": "https://journals.library.columbia.edu/index.php/CBLR/article/view/3424",
+      "reason": "Bot challenge page (proof-of-work script). Not bypassed. The Oxford repository's version of record was read and cited instead. The SSRN page for the same paper returned HTTP 403."
+    },
+    {
+      "title": "Council of Europe Convention 108 (and 108+), Article 6: special categories of data",
+      "url": "https://rm.coe.int/1680078b37",
+      "reason": "HTTP 403 on rm.coe.int and on the coe.int data protection page. Not bypassed. Intended as the international comparator; none added, the list already has the EDPB Opinion."
+    },
+    {
+      "title": "CJEU, Case C-184/20 (inference of sensitive data) on EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62020CJ0184",
+      "reason": "Not retried at this address in this pass; EUR-Lex returned HTTP 202 with an empty body for another judgment today, as recorded in the domain log. Not read, not cited."
+    },
+    {
+      "title": "ICO, Special category data: What is special category data?",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/",
+      "reason": "Fetched. A further page of guidance the list already cites; left out so the additions are distinct documents."
+    },
+    {
+      "title": "Data Protection Act 2018, sections 10 and 11",
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/10",
+      "reason": "Read to support the Article 10 entry; section 10 is already folded into the existing Schedule 1 entry. Not listed separately."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the approved brief. One point dates the research log, not the brief: the EU now has a specific exception for using special category data to test for bias (AI Act Article 4a, added by the Digital Omnibus; former Article 10(5) deleted), readable on the Commission's consolidated copy. The brief makes no EU claim."
+}

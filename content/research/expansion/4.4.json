@@ -1,0 +1,305 @@
+{
+  "criterion": "4.4",
+  "current_count": 5,
+  "additions": [
+    {
+      "title": "A pro-innovation approach to AI regulation (white paper)",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2023,
+      "published": "2023-08-03",
+      "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach/white-paper",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Section 3.2.3, box 'Principle: Contestability and redress'; Annex A",
+      "quote": "should be able to contest an AI decision or outcome that is harmful or creates material risk of harm",
+      "why": "The fifth of the government's five principles, and wider than data protection law: it covers affected third parties and outcomes, not only solely automated decisions about a data subject. Non-statutory; regulators are 'expected' to clarify routes. Published under the previous government; date shown is the last update. Already on the list for AI-interaction disclosure, with a different passage.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "UK GDPR, Article 22A: Automated processing and significant decisions",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22A",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Art. 22A(1)(a) and (b)",
+      "quote": "a decision is based solely on automated processing if there is no meaningful human involvement in the taking of the decision",
+      "why": "Sets the boundary of the legal right to contest: the Article 22C safeguards apply only to significant decisions with no meaningful human involvement. A token human check does not take a decision outside the safeguards. Inserted by the Data (Use and Access) Act 2025; 'meaningful' is not defined and can be specified by regulations under Article 22D.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "AI Update",
+      "publisher": "Financial Conduct Authority",
+      "year": 2024,
+      "published": "2024-04-22",
+      "url": "https://www.fca.org.uk/publication/corporate/ai-update.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Paragraphs 3.44 to 3.47, 'Contestability and redress' (p. 18)",
+      "quote": "This would include complaints about AI decisions concerning the provision of, or failure to provide, a financial service.",
+      "why": "For regulated financial firms the contest route already exists: complaint-handling rules (DISP 1), then the Financial Ombudsman Service free of charge. An AI decision is complained about like any other. A statement of approach, not new rules; it still describes Article 22 and predates the 2025 Act. Date from the FCA's publication page.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Ethics, Transparency and Accountability Framework for Automated Decision-Making",
+      "publisher": "Department for Science, Innovation and Technology, Centre for Data Ethics and Innovation, Cabinet Office and Office for Artificial Intelligence",
+      "year": 2023,
+      "published": "2023-11-29",
+      "url": "https://www.gov.uk/government/publications/ethics-transparency-and-accountability-framework-for-automated-decision-making/ethics-transparency-and-accountability-framework-for-automated-decision-making",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Point 5, 'Help users and citizens understand how it impacts them', 'Context' and 'Practical steps'",
+      "quote": "Process owners need to introduce simple ways for the impacted person(s) to request human intervention or challenge a decision.",
+      "why": "Government's standard for its own automated decisions: a simple route, an accountable officer to answer queries, clear guidance on how to challenge, and feedback loops for improvement. Close to the top two levels of this criterion. Guidance for central government only; date shown is the last update.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Ensuring statistical models command public confidence: learning lessons from the approach to developing models for awarding grades in the UK in 2020",
+      "publisher": "Office for Statistics Regulation",
+      "year": 2021,
+      "published": "2021-03-02",
+      "url": "https://osr.statisticsauthority.gov.uk/publication/ensuring-statistical-models-command-public-confidence/",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Executive summary, findings: 'Quality Assurance'; see also the principle on 'timing and grounds for appeal'",
+      "quote": "There was limited human review of outputs of the models at an individual level prior to results day.",
+      "why": "The statistics regulator's review of the 2020 exam grading. The appeal process 'was expected to address any issues' that review of individual results had not caught; the predictable hard cases were left for students to contest. Its lesson: be clear on the timing and grounds for appeal before decisions go out. A statistical model, not machine learning; the review did not judge legal compliance.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Post Office Horizon IT Inquiry, Report Volume 1 (HC 1119)",
+      "publisher": "Post Office Horizon IT Inquiry (Sir Wyn Williams)",
+      "year": 2025,
+      "published": "2025-07-08",
+      "url": "https://www.postofficehorizoninquiry.org.uk/sites/default/files/2025-07/Post%20Office%20Horizon%20IT%20Inquiry%20Final%20Report%20Volume%201_0.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Chapter 1, paragraph 1.4",
+      "quote": "the Post Office maintained the fiction that its data was always accurate",
+      "why": "The UK's starkest finding on what follows when an organisation will not let system output be challenged: people held to account for losses that were illusory. Horizon was an accounting system, not AI, and made no automated decisions in the data protection sense; cited for the governance lesson only. Volume 1 covers human impact and redress.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Use of automated decision-making by government: consultation paper",
+      "publisher": "Attorney-General's Department, Australian Government",
+      "year": 2024,
+      "published": "2024-11",
+      "url": "https://consultations.ag.gov.au/integrity/adm/user_uploads/consultation-paper-use-of-automated-decision-making-by-government.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "other",
+      "locator": "Section on 'Merits review rights' (pp. 30-31); Royal Commission recommendation 17.1 quoted in the introduction",
+      "quote": "The Commission considered that the availability of review pathways are vital safeguards in the use of ADM.",
+      "why": "Comparator, and the route to the Robodebt Royal Commission's finding: where automated decision-making is used 'there should be a clear path for those affected by decisions to seek review'. Also notes that harm can be done long before complaint-based review stops it. A consultation paper reporting the Commission; the Commission's own report could not be reached. Australian public sector.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Recommendation on the Ethics of Artificial Intelligence",
+      "publisher": "UNESCO",
+      "year": 2021,
+      "published": "2021-11-23",
+      "url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Paragraph 38 (Transparency and explainability)",
+      "quote": "a designated staff member of the private sector company or public sector institution able to review and correct the decision",
+      "why": "International comparator. Puts the same three elements as the UK safeguards into one sentence: reasons, the chance to make submissions, and a named person with power to correct. Names private companies as well as public bodies. Addressed to states and non-binding.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "OECD AI Principles: Transparency and explainability (Principle 1.3)",
+      "publisher": "OECD (OECD.AI Policy Observatory)",
+      "year": 2019,
+      "published": null,
+      "url": "https://oecd.ai/en/dashboards/ai-principles/P7",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Principle 1.3, final indent",
+      "quote": "to provide information that enable those adversely affected by an AI system to challenge its output",
+      "why": "International comparator. Ties contestability to information: the purpose of transparency is to let an affected person challenge the output. Covers any AI output, not only solely automated decisions. The OECD's own page for the principle; the legal instrument itself (OECD/LEGAL/0449) could not be read because its site needs JavaScript, and the page shows no adoption or revision date. A non-binding recommendation to governments, not a rule for firms. Year is that of first adoption, from background knowledge.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology",
+      "year": 2023,
+      "published": "2023-01",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "US",
+      "locator": "MEASURE 3.3 (table of categories and subcategories for the MEASURE function)",
+      "quote": "Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established",
+      "why": "A free, widely used framework that makes appeals a measured control: the subcategory goes on to require that feedback is 'integrated into AI system evaluation metrics'. Matches the level where learnings feed improvement. Voluntary and US; not a certifiable standard.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Conceptualising Contestability: Perspectives on Contesting Algorithmic Decisions",
+      "publisher": "Lyons, Velloso and Miller, arXiv:2103.01774",
+      "year": 2021,
+      "published": "2021-02-23",
+      "url": "https://arxiv.org/abs/2103.01774",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "other",
+      "locator": "Abstract",
+      "quote": "the ability to contest algorithmic decisions is being recognised as an important safeguard for individuals",
+      "why": "Analysis of submissions on Australia's AI Ethics Framework, the first to make contestability a core principle. Finds that people expect contesting an algorithm to resemble contesting a human decision, and that there is little guidance on what it requires. Qualitative; Australian consultation responses; the arXiv page read shows no publication venue.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The Flaws of Policies Requiring Human Oversight of Government Algorithms",
+      "publisher": "Green, arXiv:2109.05067 (Computer Law & Security Review, 2022)",
+      "year": 2021,
+      "published": "2021-09-10",
+      "url": "https://arxiv.org/abs/2109.05067",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "evidence suggests that people are unable to perform the desired oversight functions",
+      "why": "A survey of 41 policies that rely on a human in the loop. Argues that human review often fails in practice and gives false assurance. The caution behind 'human intervention cannot be tokenistic': a reviewer needs time, authority and evidence, and outcomes should be measured. Government algorithms; an argument from existing studies, not a new experiment.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Contestable AI by Design: Towards a Framework",
+      "publisher": "Alfrink, Keller, Kortuem and Doorn, Minds and Machines 33, 613-639",
+      "year": 2022,
+      "published": "2022-08-13",
+      "url": "https://link.springer.com/article/10.1007/s11023-022-09611-z",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "EU",
+      "locator": "Abstract",
+      "quote": "ensuring AI systems are contestable by design: responsive to human intervention throughout the system lifecycle",
+      "why": "Peer-reviewed, open access. Draws from the literature a design framework of features and practices that make a system open to challenge, before and after a decision. Useful for linking the complaints route to the decision system itself. A literature synthesis, not a test of what works.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The Right to Contest AI",
+      "publisher": "Kaminski and Urban, Columbia Law Review 121(7)",
+      "year": 2021,
+      "published": null,
+      "url": "https://columbialawreview.org/content/the-right-to-contest-ai/",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract on the journal's page",
+      "quote": "This Article establishes four contestation archetypes that should serve as the bases of discussions of contestation",
+      "why": "The fullest legal treatment of an individual right to contest AI decisions, including a close reading of the GDPR's right for a US audience. Sets out how routes differ: rules or standards, procedure or substantive rights. A law review article; US perspective, written on the EU GDPR before the UK's 2025 changes.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {
+    "https://www.legislation.gov.uk/eur/2016/679/article/22C": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "enable the data subject to obtain human intervention on the part of the controller in relation to such decisions"
+    },
+    "https://www.legislation.gov.uk/eur/2016/679/chapter/III/section/1": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "extend the applicable time period by two further months"
+    },
+    "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards/": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": "2026-03-31",
+      "quote": "Spot checking an ADM process doesn't meet the requirements of this safeguard."
+    },
+    "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems/": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "If a system is too complex to explain, it may also be too complex to meaningfully contest"
+    },
+    "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-1-the-basics-of-explaining-ai/what-goes-into-an-explanation/": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "and who to contact for a human review of a decision"
+    }
+  },
+  "rejected": [
+    {
+      "title": "Royal Commission into the Robodebt Scheme, Report (2023), recommendation 17.1",
+      "url": "https://robodebt.royalcommission.gov.au/publications/report",
+      "reason": "No response from the Commission's site on two addresses (connection closed). A university-hosted copy exists but is a third-party copy, so not cited. The Australian Attorney-General's consultation paper, which quotes the recommendation, was read and used."
+    },
+    {
+      "title": "Canada, Directive on Automated Decision-Making, section 6.4 (recourse)",
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+      "reason": "Request rejected (HTTP 403); a canada.ca guide address returned 404. Not read."
+    },
+    {
+      "title": "Council of Europe Framework Convention on Artificial Intelligence (CETS 225), Articles 14 and 15",
+      "url": "https://rm.coe.int/1680afae3c",
+      "reason": "Blocked (HTTP 403, Cloudflare). Not read."
+    },
+    {
+      "title": "Voluntary AI Safety Standard (Australia), guardrail 7",
+      "url": "https://www.industry.gov.au/publications/voluntary-ai-safety-standard",
+      "reason": "No response from industry.gov.au. Not read."
+    },
+    {
+      "title": "Data Protection Act 2018, section 50C (safeguards for automated decision-making, law enforcement processing)",
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/50C",
+      "reason": "Read. Mirrors Article 22C for competent authorities only; not relevant to most boards, so left out."
+    },
+    {
+      "title": "R (Bridges) v Chief Constable of South Wales Police [2020] EWCA Civ 1058",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1058",
+      "reason": "Fetched. About lawfulness of facial recognition deployment, not a route to contest an individual decision. Not relevant to this criterion."
+    },
+    {
+      "title": "Model Artificial Intelligence Governance Framework, Second Edition (Singapore), paragraphs 3.53-3.54",
+      "url": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/resource-for-organisation/ai/sgmodelaigovframework2.pdf",
+      "reason": "Read; supports a review channel for material AI decisions. Left out here because two international comparators already cover the point; used for 4.1 and 4.3."
+    },
+    {
+      "title": "FCA Handbook, DISP 1",
+      "url": "https://www.handbook.fca.org.uk/handbook/CONC/7/9.html",
+      "reason": "Handbook pages need JavaScript; no rule text in the raw page. The FCA's AI Update, which describes DISP 1, was used instead."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. The ICO page read today still calls itself draft guidance (latest update 31 March 2026), so the quotation is still from a consultation draft. The brief treats contestability through data protection law only; the FCA's complaint-handling route and the government's wider non-statutory principle (which covers third parties and AI-assisted outcomes) are not mentioned and could be, if it is revised."
+}

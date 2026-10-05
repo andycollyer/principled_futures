@@ -1,0 +1,173 @@
+{
+  "criterion": "6.1",
+  "current_count": 9,
+  "additions": [
+    {
+      "title": "Machine learning principles: 1.2 Model the threats to your system",
+      "publisher": "National Cyber Security Centre",
+      "year": 2024,
+      "published": "2024-05-22",
+      "url": "https://www.ncsc.gov.uk/collection/machine-learning-principles/secure-design/model-threats",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Part 1: Secure design, principle 1.2, 'Why is this important?' and 'Create a high-level threat model for the ML system'",
+      "quote": "New attacks on ML systems are demonstrated regularly, and there are significant limitations to existing defence methods.",
+      "why": "The national technical authority's instruction to build a threat model for each machine learning system, covering what happens to the wider system if the model is attacked or fails. Version 2.0, published and reviewed 22 May 2024. Written for machine learning generally and predates most guidance on language models. Guidance, not a rule.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Cyber security risks to artificial intelligence",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2024,
+      "published": "2024-05-15",
+      "url": "https://www.gov.uk/government/publications/research-on-the-cyber-security-of-ai/cyber-security-risks-to-artificial-intelligence",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Executive summary; section 4 (findings of the risk assessment); section 5 (list of case studies)",
+      "quote": "a set of 23 case studies were identified, both real-world and theoretical proof of concepts, involving cyber-attacks linked to AI vulnerabilities",
+      "why": "The government's commissioned map of vulnerabilities at each stage of the AI lifecycle (design, development, deployment, maintenance), separating those specific to AI from ordinary software weaknesses, with 23 attack case studies. Useful as a checklist for a threat model. Written by a consultancy and a university for the department, based on literature reviews and five client interviews; it does not rank the risks. Published May 2024, so it predates agentic systems.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "UK GDPR, Article 32: Security of processing",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/32",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Art. 32(2)",
+      "quote": "account shall be taken in particular of the risks that are presented by processing",
+      "why": "The one binding rule found that bears on threat awareness: when setting the level of security, a controller or processor must take account of the risks, including unlawful alteration of, disclosure of and access to personal data. It applies only where personal data is processed, is not specific to AI and does not name any AI attack. Art. 32(3) was amended by the Data (Use and Access) Act 2025.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Financial Stability in Focus: Artificial intelligence in the financial system",
+      "publisher": "Bank of England, Financial Policy Committee",
+      "year": 2025,
+      "published": "2025-04-09",
+      "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2025/april-2025",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Section headed 'Changing external cyber threat environment'",
+      "quote": "via the malicious manipulation of model training data (so-called data poisoning)",
+      "why": "A UK financial authority naming attacks on a firm's own AI, including through suppliers and through training data, as a risk it will monitor. A statement of the Committee's view of risks to financial stability; it sets no requirement and concerns financial firms.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+      "publisher": "arXiv (Greshake, Abdelnabi, Mishra, Endres, Holz and Fritz)",
+      "year": 2023,
+      "published": "2023-02-23",
+      "url": "https://arxiv.org/abs/2302.12173",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract on the arXiv record (version 2, 5 May 2023)",
+      "quote": "LLM-Integrated Applications blur the line between data and instructions",
+      "why": "The research paper that set out indirect prompt injection: instructions planted in content an assistant later retrieves, demonstrated against a live search assistant and code-completion tools. It is the origin of the attack class the NCSC blog and the NIST profile describe. Cited from the authors' preprint on arXiv; only the abstract was read, and the record itself does not state where it was peer reviewed. The products tested have since changed.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Poisoning Web-Scale Training Datasets is Practical",
+      "publisher": "arXiv (Carlini, Jagielski, Choquette-Choo, Paleka, Pearce, Anderson, Terzis, Thomas and Tramèr)",
+      "year": 2023,
+      "published": "2023-02-20",
+      "url": "https://arxiv.org/abs/2302.10149",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract on the arXiv record (version 2, 6 May 2024)",
+      "quote": "we show how we could have poisoned 0.01% of the LAION-400M or COYO-700M datasets for just $60 USD",
+      "why": "Evidence that poisoning the public data large models are trained on is cheap and practical, not theoretical: two attacks that could have altered ten widely used datasets. The authors told the dataset maintainers and proposed defences. Cited from the authors' preprint on arXiv; only the abstract was read. It shows the attack is feasible, not how often it happens.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Lessons From Red Teaming 100 Generative AI Products",
+      "publisher": "arXiv (Bullwinkel and 25 others, Microsoft)",
+      "year": 2025,
+      "published": "2025-01-13",
+      "url": "https://arxiv.org/abs/2501.07238",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract on the arXiv record",
+      "quote": "LLMs amplify existing security risks and introduce new ones",
+      "why": "What a large in-house red team learned from testing more than 100 products: eight lessons, including that the work of securing AI systems is never complete. Supports the top level of the criterion, where testing by people trying to break a system drives its design. A preprint written by one supplier's own team about its own products, not peer reviewed so far as the record shows; only the abstract was read.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Guidelines on Securing AI Systems",
+      "publisher": "Cyber Security Agency of Singapore",
+      "year": 2024,
+      "published": "2024-10-15",
+      "url": "https://isomer-user-content.by.gov.sg/36/42140c27-030f-4bb9-b4c7-b543ad2ddad4/guidelines-on-securing-ai-systems_2024-10-15.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "other",
+      "locator": "Section 3 'Securing AI', opening paragraph, PDF p. 7; section 2 'Understanding AI threats', p. 5; guideline 1.2, p. 10",
+      "quote": "refresh their risk management strategies accordingly",
+      "why": "International comparator. Singapore's national guidance says AI brings attacks that ordinary IT does not, asks for threats and risks to be modelled, and tells system owners to keep up with developments in AI security and refresh their approach. Voluntary and deliberately non-prescriptive; no legal force in the UK.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "Stealing Machine Learning Models via Prediction APIs (Tramèr and others)",
+      "url": "https://arxiv.org/abs/1609.02943",
+      "reason": "Abstract read. Model theft by querying is already covered by the NIST taxonomy and the ICO guidance on the list; a 2016 paper on older model types adds little for a board."
+    },
+    {
+      "title": "Extracting Training Data from Large Language Models (Carlini and others)",
+      "url": "https://arxiv.org/abs/2012.07805",
+      "reason": "Abstract read. Leakage of training data is covered by the existing ICO and NIST items; not added, to avoid padding."
+    },
+    {
+      "title": "NIST AI 600-1, Generative AI Profile",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "reason": "Read (section 2.9 on prompt injection and data poisoning). The list already has a NIST document on attacks and an EU comparator; used for 6.3 instead."
+    },
+    {
+      "title": "NCSC statement in response to recent incidents resulting from frontier AI evaluations (4 August 2026)",
+      "url": "https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations",
+      "reason": "Read. A three-paragraph press statement with no detail of the incidents; not the right kind of evidence."
+    },
+    {
+      "title": "Careful adoption of agentic AI services (joint guidance, Australian Signals Directorate with NCSC and partners, 2026)",
+      "url": "https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/careful-adoption-of-agentic-ai-services",
+      "reason": "No response to the checker's request (connection returned nothing, three attempts). Not read, not cited. The NCSC's own summary blog was read and is used for 6.4."
+    },
+    {
+      "title": "Deploying AI Systems Securely (joint guidance, NSA, CISA, NCSC and partners, April 2024)",
+      "url": "https://media.defense.gov/2024/Apr/15/2003439257/-1/-1/0/CSI-DEPLOYING-AI-SYSTEMS-SECURELY.PDF",
+      "reason": "HTTP 403 (Access Denied) to the checker's request. Not bypassed, not read, not cited. The CISA alert page that links to it was reachable but is only a notice."
+    },
+    {
+      "title": "ISO/IEC 42001 abstract page",
+      "url": "https://www.iso.org/standard/42001",
+      "reason": "HTTP 403 with a browser challenge page, as on 2 October. Not bypassed, not cited."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the approved brief. One thing dates a note in the existing reading list, not the brief text: the Code of Practice entry says its wording matches ETSI TS 104 223 V1.1.1 (April 2025); ETSI has since published it as a European Standard, EN 304 223 V2.1.1 (December 2025), where the same sentence is provision 5.1.3-1."
+}

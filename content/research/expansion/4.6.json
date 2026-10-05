@@ -1,0 +1,253 @@
+{
+  "criterion": "4.6",
+  "current_count": 6,
+  "additions": [
+    {
+      "title": "Use of artificial intelligence in government (HC 612, Session 2023-24)",
+      "publisher": "National Audit Office",
+      "year": 2024,
+      "published": "2024-03-15",
+      "url": "https://www.nao.org.uk/wp-content/uploads/2024/03/use-of-artificial-intelligence-in-government.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Part One, para 1.10 (PDF p.22); see also para 3.20 on the transparency standard",
+      "quote": "a lack of central visibility of AI use may increase the risk of incomplete assurance",
+      "why": "The public auditor found that only 15 of 32 government bodies with deployed AI said use cases were always or usually identified at organisational level before deployment, and states the cost: incomplete assurance. Government bodies only; position as at autumn 2023.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "SS1/23 Model risk management principles for banks",
+      "publisher": "Bank of England, Prudential Regulation Authority",
+      "year": 2023,
+      "published": null,
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2023/ss123.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Principle 1.2 'Model inventory', points (a)-(b), PDF pp.11-12",
+      "quote": "firms should maintain a firm-wide model inventory which would help to identify all direct and indirect model inter-dependencies",
+      "why": "The clearest UK regulatory expectation of a single, complete inventory: every model in use, in development or retired, held firm-wide. Sector-specific (banks, building societies and PRA-designated investment firms with internal model approval); covers models generally, not only AI. Dated May 2023 on the document.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Data protection audit framework, Accountability toolkit: Records of processing and lawful basis",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "published": null,
+      "url": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/accountability/records-of-processing-and-lawful-basis/",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "First control measure ('Comprehensive data mapping exercises are carried out...'), 'Risk' and 'Ways to meet our expectations'",
+      "quote": "Carry out information audits (or data mapping exercises) to find out what personal information is held",
+      "why": "How the regulator's auditors test the statutory record: it must rest on a data mapping exercise that is kept up to date with responsibilities assigned. Carries the 'under review' banner following the Data (Use and Access) Act 2025; no date on the page, so the year is the year read. Personal data only.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "AI Management Essentials tool",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2026,
+      "published": "2026-02-06",
+      "url": "https://www.gov.uk/government/consultations/ai-management-essentials-tool/ai-management-essentials-tool-accessible",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Section 1 'AI system record', questions 1.1 onwards and the definition that follows",
+      "quote": "an inventory of documentation, assets and resources related to your AI systems",
+      "why": "Government's self-assessment tool for organisations opens with the register: a complete, current record of every AI system developed or used. Voluntary; published as a consultation outcome (page updated 6 February 2026), so it is guidance, not a requirement.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Algorithmic Transparency Recording Standard: guidance for public sector bodies",
+      "publisher": "Government Digital Service",
+      "year": 2025,
+      "published": "2025-05-08",
+      "url": "https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard/algorithmic-transparency-recording-standard-guidance-for-public-sector-bodies",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Section 6 'Owner and responsibility (Tier 2)'",
+      "quote": "It should be the role which is ultimately accountable for the tool in an operational context.",
+      "why": "The only UK official template that asks for the fields this criterion looks for: a plain summary, how the tool works and an accountable owner per tool. Binds central government and certain arm's-length bodies only; the date is the page's 'updated' date.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Playbook for the UK Government",
+      "publisher": "Government Digital Service",
+      "year": 2025,
+      "published": "2025-02-10",
+      "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Governance section, 'Creating an AI systems inventory'",
+      "quote": "organisations should set up an AI and machine learning (ML) systems inventory",
+      "why": "Says an internal inventory of all deployed systems is needed in addition to the published transparency records, and lists what it should hold. Written for civil servants and public bodies; guidance only.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "PPN 017: Improving transparency of AI use in procurement",
+      "publisher": "Cabinet Office",
+      "year": 2025,
+      "published": "2025-02-17",
+      "url": "https://www.gov.uk/government/publications/ppn-017-improving-transparency-of-ai-use-in-procurement/ppn-017-improving-transparency-of-ai-use-in-procurement-html",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Paragraph 11 and Annex B (example disclosure questions)",
+      "quote": "Where AI is likely to be used in the delivery of a service, commercial teams may wish to require suppliers to declare this",
+      "why": "Addresses a gap in most registers: AI inside services bought as 'non-AI' services. Gives buyers optional questions to make suppliers declare it. Applies to central government departments, executive agencies and non-departmental public bodies; the questions are optional. First issued November 2023, updated February 2025.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "AI Adoption Research",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2026,
+      "published": "2026-02-13",
+      "url": "https://www.gov.uk/government/publications/ai-adoption-research/ai-adoption-research",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Executive summary, methodology paragraph (3,500 telephone interviews, 12 February to 2 May 2025)",
+      "quote": "A limitation of this approach is that the survey will not provide insights into shadow AI adoption.",
+      "why": "The government's own business survey states it cannot see AI use that the person responsible for technology does not know about: an official admission of the blind spot a register has to close. It therefore offers no figure for unapproved use. The date is the page's 'updated' date.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "M-25-21, Accelerating Federal Use of AI through Innovation, Governance, and Public Trust",
+      "publisher": "Executive Office of the President, Office of Management and Budget (United States)",
+      "year": 2025,
+      "published": "2025-04-03",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "US",
+      "locator": "Section 3, item 'v. Update AI Use Case Inventories', PDF p.12",
+      "quote": "Each agency (except for the Department of Defense and the Intelligence Community) must inventory its AI use cases at least annually",
+      "why": "International comparator: the United States makes an annual AI inventory mandatory for federal agencies, submitted centrally and published. Binds US federal agencies only, not companies and not the UK. The PDF is a scanned copy with some character errors.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing",
+      "publisher": "Inioluwa Deborah Raji and others (arXiv; published in Proceedings of FAT* 2020)",
+      "year": 2020,
+      "published": "2020-01-03",
+      "url": "https://arxiv.org/abs/2001.00973",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "once deployed, emergent issues can become difficult or impossible to trace back to their source",
+      "why": "Research basis for keeping documents on each system from the start: without them an organisation cannot trace a fault in its own system. Proposes an internal audit framework whose stages each produce a record. Authors' repository copy of a conference paper (accepted to ACM FAT* 2020); a proposed framework, not a test of effect.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Trust, attitudes and use of artificial intelligence: A global study 2025",
+      "publisher": "University of Melbourne and KPMG International",
+      "year": 2025,
+      "published": null,
+      "url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2025/05/trust-attitudes-and-use-of-ai-global-report.pdf",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Section on AI use at work, text accompanying Figure 44 (PDF p.77)",
+      "quote": "Fifty-six percent say they have used AI tools at work without knowing if it is allowed.",
+      "why": "A primary survey figure for use the organisation cannot see: 56% of employees who use AI had used tools without knowing whether it was allowed, and 57% had hidden their use. More than 48,000 people in 47 countries; university-led but co-published with a consultancy, self-reported, not peer reviewed, and not a UK-only sample.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {
+    "https://www.legislation.gov.uk/eur/2016/679/article/30": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": "2016-04-27",
+      "quote": "shall maintain a record of processing activities under its responsibility"
+    },
+    "https://www.legislation.gov.uk/eur/2016/679/article/5": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": "2016-04-27",
+      "quote": "be able to demonstrate compliance with, paragraph 1 ('accountability')"
+    },
+    "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/governance-and-accountability-in-ai/": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "Without fully understanding how information is processed, neither provider nor deployer can assure themselves that they have an effective information governance regime in place."
+    },
+    "https://www.gov.uk/government/publications/algorithmic-transparency-recording-standard-mandatory-scope-and-exemptions-policy/algorithmic-transparency-recording-standard-atrs-mandatory-scope-and-exemptions-policy": {
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "published": "2024-12-17",
+      "quote": "on 6 Feb 2024 it was mandated across all government departments"
+    },
+    "https://www.frc.org.uk/documents/6709/UK_Corporate_Governance_Code_2024_a2hmQmY.pdf": {
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "The board should monitor the company's risk management and internal control framework and, at least annually, carry out a review of its effectiveness."
+    },
+    "https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": "2026-09-07",
+      "quote": "You cannot manage what you do not know."
+    }
+  },
+  "rejected": [
+    {
+      "title": "Committee of Public Accounts, Use of AI in Government (HC 356, 26 March 2025)",
+      "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/356/report.html",
+      "reason": "Blocked: HTTP 403 with a JavaScript challenge on both publications.parliament.uk and committees.parliament.uk (documents/244683). Not bypassed, not read, not cited."
+    },
+    {
+      "title": "Treasury Board of Canada, Directive on Automated Decision-Making",
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+      "reason": "Blocked: the site returned 'Request Rejected' (HTTP 403). Not bypassed. The US memorandum is used as the comparator instead."
+    },
+    {
+      "title": "Post Office Horizon IT Inquiry, Final Report Volume 1 (8 July 2025)",
+      "url": "https://www.postofficehorizoninquiry.org.uk/reports-and-statements",
+      "reason": "Not used: Volume 1 covers human impact and redress, not what the Post Office knew about its own system; the guessed report address returned 404 and the later volume was not located. No inquiry finding is cited for this criterion."
+    },
+    {
+      "title": "NIST AI RMF 1.0, GOVERN 1.6 (inventory of AI systems)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "reason": "Relevant, but the only inventory passage in the document is the single sentence already quoted for this document under 1.4; no different passage exists, so it is left to that list."
+    },
+    {
+      "title": "Regulation (EU) 2024/1689, Article 49: Registration",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-49",
+      "reason": "Read. It is registration in a public EU database by providers and public-authority deployers, not an organisation's own internal record; not close enough to this criterion."
+    },
+    {
+      "title": "Dutch Comfort: The limits of AI governance through municipal registers (Cath and Jansen)",
+      "url": "https://arxiv.org/abs/2109.02944",
+      "reason": "Read (abstract). A commentary on public city registers, not on internal knowledge of systems; would be padding."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the approved brief. Two points support adding to it at the next version: government's AI Management Essentials tool (updated 6 February 2026) now gives a non-statutory official statement that organisations of any kind should keep a complete AI system record, and DSIT's survey confirms there is still no official figure for unapproved AI use."
+}

@@ -1,0 +1,189 @@
+{
+  "criterion": "2.8",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "UK GDPR, Article 30: Records of processing activities",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/30",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Art. 30(1), (4) and (5)",
+      "quote": "shall not apply to an enterprise or an organisation employing fewer than 250 persons",
+      "why": "UK law that scales a documentation duty by size and then takes most of the relief back: organisations with fewer than 250 staff are excused the record of processing unless the processing is likely to result in a risk to people, is not occasional, or includes special category or criminal-offence data. Most AI use on personal data will be regular, so the relief rarely applies. The record must be produced to the regulator on request. Personal data only; the page shows an amendment dated 30 September 2026 (the regulator is now 'the Commission').",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Annex IV: Technical documentation referred to in Article 11(1)",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2026,
+      "published": null,
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-4",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Annex IV, opening words and points 1 to 9",
+      "quote": "shall contain at least the following information, as applicable to the relevant AI system",
+      "why": "The full list that the simplified form is a simplification of, and a ready checklist for a per-system file: description and intended purpose, design and data, monitoring and control, performance metrics, the risk management system, changes over the lifecycle, standards applied, and the post-market monitoring plan. A provider duty for high-risk systems. The Commission's copy; unlike the article pages, the annex page carries no statement of the consolidation date and shows no NEW or AMENDED marks. EU law; not UK law.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Guidance for using the AI Management Essentials tool: government response",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2026,
+      "published": "2026-02-06",
+      "url": "https://www.gov.uk/government/consultations/ai-management-essentials-tool/outcome/guidance-for-using-the-ai-management-essentials-tool-government-response",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Executive summary; 'Key themes and government response', Proportionality and procurement",
+      "quote": "develop future guidance focused solely on the foundational governance measures needed to support responsible AI deployment",
+      "why": "The most recent UK government statement on proportionate AI governance for smaller firms. Having consulted on a self-assessment tool, the department reports that smaller organisations find existing frameworks hard to navigate and that requiring the tool in procurement could burden them, and says it will write simpler guidance aimed at small and medium-sized enterprises. Limits: a consultation response (65 responses), not guidance; the tool itself remains a consultation version; the promised guidance was not found published.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Risk assessment: Steps needed to manage risk",
+      "publisher": "Health and Safety Executive",
+      "year": 2024,
+      "published": "Updated 2024-06-10",
+      "url": "https://www.hse.gov.uk/simple-health-safety/risk/steps-needed-to-manage-risk.htm",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Sections 'What reasonably practicable means' and 'Record your findings'",
+      "quote": "If you employ 5 or more people, you must record your significant findings",
+      "why": "The longest-established UK model of proportionate, evidenced risk work: the effort is weighed against the risk ('You're not expected to eliminate all risks') and the duty to write it down starts at a size threshold, under regulation 3(6) of the Management of Health and Safety at Work Regulations 1999, read alongside. Shows that 'scaled and evidenced' is ordinary UK regulatory practice. Limits: health and safety at work only; says nothing about AI; cited as an analogy and where AI creates a workplace hazard.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Model Cards for Model Reporting",
+      "publisher": "arXiv (authors' copy; Proceedings of the Conference on Fairness, Accountability, and Transparency, FAT* 2019); authors Margaret Mitchell and others",
+      "year": 2019,
+      "published": "2019-01-14",
+      "url": "https://arxiv.org/abs/1810.03993",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "Model cards are short documents accompanying trained machine learning models",
+      "why": "The peer-reviewed origin of the short, structured model record: one or two pages stating intended use, performance across conditions and groups, and limits. Evidence that lean documentation is a recognised format, and something to ask a supplier for. Limits: a proposal with two worked examples, not a study of whether such records reduce harm; written by a developer's own researchers; 2019.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing",
+      "publisher": "arXiv (authors' copy; Proceedings of the Conference on Fairness, Accountability, and Transparency, FAT* 2020); authors Inioluwa Deborah Raji and others",
+      "year": 2020,
+      "published": "2020-01-03",
+      "url": "https://arxiv.org/abs/2001.00973",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "Each stage of the audit yields a set of documents that together form an overall audit report",
+      "why": "Peer-reviewed framework showing how a per-system file builds up through the life of a system, stage by stage, so that decisions can be checked against the organisation's stated principles before and after deployment. Supports the top level of the criterion, where documentation withstands audit. Limits: a framework drawn from other industries, not tested for effect; designed inside a large technology company, so it needs scaling down for a small firm; 2020.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Model Artificial Intelligence Governance Framework, Second Edition",
+      "publisher": "Infocomm Media Development Authority and Personal Data Protection Commission, Singapore",
+      "year": 2020,
+      "published": "21 January 2020",
+      "url": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/resource-for-organisation/ai/sgmodelaigovframework2.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "other",
+      "locator": "Introduction, 'Scale- and Business-model-agnostic' (point d), p.10; paragraph 3.13",
+      "quote": "It does not focus on organisations of a particular scale or size.",
+      "why": "International comparator. Singapore's voluntary framework is written to be adopted in proportion: organisations of any size adopt the elements relevant to them (paragraphs 2.5 and 3.2), and document the process through a periodically reviewed risk impact assessment. Voluntary; no legal force in the UK; predates generative AI.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Playbook for the UK Government",
+      "publisher": "Government Digital Service",
+      "year": 2025,
+      "published": "2025-02-10",
+      "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Passage headed 'Auditability' (accountability and responsibility); practical recommendations on model cards",
+      "quote": "Auditability is the process of documenting every stage of the AI innovation life cycle",
+      "why": "Current UK government guidance on what the record is for: reporting and documentation protocols and traceability through the life of an AI project, from data collection to retirement, with model cards or fact sheets as a reference point and governance actions that are documented and proportionate. Limits: guidance for the public sector, not binding on companies.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Use of artificial intelligence in government (HC 612)",
+      "publisher": "National Audit Office",
+      "year": 2024,
+      "published": "2024-03-15",
+      "url": "https://www.nao.org.uk/wp-content/uploads/2024/03/use-of-artificial-intelligence-in-government.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Summary, paragraph 17; Part Three, paragraph 3.20",
+      "quote": "developed to improve transparency and provide information about the algorithmic tools used in government, is not widely used",
+      "why": "An audit finding on how far documentation lags use, even where a standard format exists: the government's own recording standard for algorithmic tools was little used when the auditor looked. A caution against assuming records exist because a template does. Limits: central government, autumn 2023 survey; the standard has since been made mandatory for departments, so the position will have moved.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "ISO 31000:2018 Risk management: Guidelines (abstract page)",
+      "url": "https://www.iso.org/standard/65694.html",
+      "reason": "Blocked again today: HTTP 403 (bot challenge). Not bypassed; not cited."
+    },
+    {
+      "title": "ISO/IEC 23894:2023 AI: Guidance on risk management (abstract page)",
+      "url": "https://www.iso.org/standard/77304.html",
+      "reason": "Blocked again today: HTTP 403 (bot challenge). Not bypassed; not cited."
+    },
+    {
+      "title": "ISO/IEC 42001:2023 AI management systems (abstract page)",
+      "url": "https://www.iso.org/standard/42001",
+      "reason": "HTTP 403 (bot challenge). Not bypassed; not cited."
+    },
+    {
+      "title": "Directive on Automated Decision-Making (Treasury Board of Canada Secretariat)",
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+      "reason": "HTTP 403 ('Request Rejected'). Would have been the best comparator for requirements scaled by impact level. Not bypassed; not cited."
+    },
+    {
+      "title": "Use of AI in Government (Committee of Public Accounts report)",
+      "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/356/report.html",
+      "reason": "HTTP 403 (bot challenge) on publications.parliament.uk and on committees.parliament.uk. Not bypassed; not cited."
+    },
+    {
+      "title": "AI Management Essentials tool (consultation version)",
+      "url": "https://www.gov.uk/government/consultations/ai-management-essentials-tool/ai-management-essentials-tool-accessible",
+      "reason": "Read. A named self-assessment product in consultation form which the government now says it will replace with simpler guidance; the government response is cited instead."
+    },
+    {
+      "title": "The Management of Health and Safety at Work Regulations 1999, regulation 3",
+      "url": "https://www.legislation.gov.uk/uksi/1999/3242/regulation/3",
+      "reason": "Read (reg. 3(6): record where five or more employees). Folded into the HSE entry to avoid two entries for one analogy."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the approved brief. Two points for the next version: (1) the government's February 2026 consultation response says it will issue simpler AI governance guidance aimed at small and medium-sized enterprises, which is later than the 2023 white paper the brief relies on for 'government policy since 2023'; (2) the Commission's simplified technical documentation form was again not found published."
+}

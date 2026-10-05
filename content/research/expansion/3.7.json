@@ -1,0 +1,216 @@
+{
+  "criterion": "3.7",
+  "current_count": 6,
+  "additions": [
+    {
+      "title": "R (Bridges) v Chief Constable of South Wales Police [2020] EWCA Civ 1058",
+      "publisher": "Court of Appeal (Civil Division), published by Courts and Tribunals Judiciary",
+      "year": 2020,
+      "published": "2020-08-11",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2020/08/R-Bridges-v-CC-South-Wales-ors-Judgment.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "court or tribunal",
+      "jurisdiction": "UK",
+      "locator": "Paras 193-201, PDF pp.41-43",
+      "quote": "SWP have never sought to satisfy themselves, either directly or by way of independent verification, that the software program in this case does not have",
+      "why": "The one UK appellate ruling found on taking a supplier's fairness on trust. The police force relied on the manufacturer's evidence about its facial recognition software and could not see the training data, which the supplier treated as commercially confidential; the court held the force had not done all it reasonably could to check for race or sex bias. Decided under the public sector equality duty, so it binds public bodies and those carrying out public functions; it is not a ruling on a private employer's liability.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Review into bias in algorithmic decision-making",
+      "publisher": "Centre for Data Ethics and Innovation",
+      "year": 2020,
+      "published": "2020-11-27",
+      "url": "https://www.gov.uk/government/publications/cdei-publishes-review-into-bias-in-algorithmic-decision-making/main-report-cdei-review-into-bias-in-algorithmic-decision-making",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Executive summary and Part III, passage on public sector procurement and the supply chain (before Recommendation 16); chapter 3, Recruitment",
+      "quote": "there is limited maturity or consistency in contractual mechanisms to place responsibilities in the right place in the supply chain",
+      "why": "The government's independent review of algorithmic bias. States that accountability for fair decisions stays with the body making them, and that contracts were not yet doing the work of passing duties to suppliers. The recruitment chapter describes how vendors test their own tools. Dated 2020; the finding on contracts is about the public sector.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Data protection audit framework, artificial intelligence toolkit: Contracts and third parties",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "published": null,
+      "url": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/contracts-and-third-parties/",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Second control measure (due diligence before procuring), list 'Ways to meet our expectations'",
+      "quote": "do not procure the services or datasets if bias or discrimination cannot be mitigated",
+      "why": "What the regulator's auditors expect of a buyer: decide the acceptable level of accuracy before buying, seek guarantees on the source of data and models, write accuracy measures into the contract, carry out an independent evaluation of trade-offs, and walk away if bias cannot be reduced. Voluntary audit toolkit, not law; under review following the Data (Use and Access) Act. No date on the page; year follows the existing library entry.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "SS1/23: Model risk management principles for banks",
+      "publisher": "Prudential Regulation Authority, Bank of England",
+      "year": 2023,
+      "published": "2023-05",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2023/ss123.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Principle 2.6, 'Use of externally developed models, third-party vendor products', points (a)-(b), PDF p.19",
+      "quote": "satisfy themselves that the vendor models have been validated to the same standards as their own internal MRM expectations",
+      "why": "The clearest UK regulatory statement that a bought model must be checked like one built in-house: the board stays responsible, and the firm should verify the vendor's data and assumptions and monitor the model against its own outcomes. Supervisory expectation for banks, building societies and designated investment firms with internal model approval, in effect from 17 May 2024 (para 1.5); it is about model risk in general, not fairness in particular.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 13: Transparency and provision of information to deployers",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2024,
+      "published": null,
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-13",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Art. 13(3)(b)(v)-(vi)",
+      "quote": "when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used",
+      "why": "Where it applies, this turns the buyer's request for fairness evidence into the supplier's legal duty: the instructions for use of a high-risk system must give its performance for the groups it will be used on and describe the training, validation and testing data. 'When appropriate' leaves room for the supplier. The first pass could not read this article. The Commission's copy of the consolidated text (EUR-Lex consolidated version as at 27 July 2026), not the Official Journal. EU law: reaches UK firms only where a system or its output is used in the EU. No application date is stated here.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Automated Employment Decision Tools (Local Law 144 of 2021)",
+      "publisher": "New York City Department of Consumer and Worker Protection",
+      "year": 2023,
+      "published": null,
+      "url": "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "US",
+      "locator": "Opening paragraph and enforcement note",
+      "quote": "prohibits employers and employment agencies from using an automated employment decision tool unless the tool has been subject to a bias audit within one year",
+      "why": "International comparator. The first law to make independent verification of a hiring tool a condition of using it: a bias audit within the past year, with the results made public and notice to candidates. The duty falls on the employer, not the vendor. The enforcing department's summary page, not the text of the law; enforcement began 5 July 2023. New York City only.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Auditing Work: Exploring the New York City algorithmic bias audit regime",
+      "publisher": "Lara Groves and others (arXiv preprint 2402.08101)",
+      "year": 2024,
+      "published": "2024-02-12",
+      "url": "https://arxiv.org/abs/2402.08101",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "we find that LL 144 has not effectively established an auditing regime",
+      "why": "What happened when verification was mandated: interviews with 16 auditors and practitioners found loose definitions of the tools covered and of an independent auditor, and auditors struggling to get data from vendors. A warning that a bought audit report is not the same as assurance, and a reason to write data access into the contract. Small qualitative sample, one city, early in the regime; preprint as read.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Mitigating Bias in Algorithmic Hiring: Evaluating Claims and Practices",
+      "publisher": "Manish Raghavan, Solon Barocas, Jon Kleinberg and Karen Levy (authors' copy on arXiv 1906.09208; published version DOI 10.1145/3351095.3372828)",
+      "year": 2020,
+      "published": "2019-12-06",
+      "url": "https://arxiv.org/abs/1906.09208",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "we document and analyze the claims and practices of companies offering algorithms for employment assessment",
+      "why": "The standard study of what vendors of hiring algorithms say about bias and what they disclose about how their tools are built and validated. Shows what a buyer can and cannot learn from a supplier's public statements. Based on vendors' published material, not on testing the tools; United States law and market.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "What does it mean to 'solve' the problem of discrimination in hiring? Social, technical and legal perspectives from the UK on automated hiring systems",
+      "publisher": "Javier Sánchez-Monedero, Lina Dencik and Lilian Edwards (authors' copy on arXiv 1910.06144)",
+      "year": 2020,
+      "published": "2020-01-17",
+      "url": "https://arxiv.org/abs/1910.06144",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "UK",
+      "locator": "Abstract",
+      "quote": "such claims of bias mitigation are rarely scrutinised and evaluated",
+      "why": "The UK counterpart: examines how three hiring systems in regular use in the UK describe, validate and audit their own bias controls, and sets those claims against UK equality and data protection law, which differ from the United States law the tools were designed around. Based on publicly available documents for three products, not on independent testing.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {
+    "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf": {
+      "type": "official report",
+      "jurisdiction": "UK",
+      "published": "2024-11",
+      "quote": "Request test results or reports and evidence of actions AI providers have taken to address fairness, accuracy, or bias issues in AI tools or outputs."
+    },
+    "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2024/11/thinking-of-using-ai-to-assist-recruitment-our-key-data-protection-considerations/": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": "2024-11-06",
+      "quote": "You should seek clear assurances from the AI provider that they have mitigated bias and ask to see any relevant documentation."
+    },
+    "https://www.legislation.gov.uk/eur/2016/679/article/28": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "allow for and contribute to audits, including inspections, conducted by the controller or another auditor mandated by the controller"
+    },
+    "https://www.legislation.gov.uk/ukpga/2010/15/section/109": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "Anything done by an agent for a principal, with the authority of the principal, must be treated as also done by the principal."
+    },
+    "https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment": {
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "published": "2024-03-25",
+      "quote": "A supplier should be able to provide evidence of these claims to your team, regardless of your level of technical literacy."
+    },
+    "https://www.gov.uk/government/publications/guidelines-for-ai-procurement/guidelines-for-ai-procurement": {
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "published": "2020-06-08",
+      "quote": "You can also consider the requirement for independent audits of the algorithms."
+    }
+  },
+  "rejected": [
+    {
+      "title": "Equality and Human Rights Commission, Artificial intelligence in public services (guidance)",
+      "url": "https://www.equalityhumanrights.com/guidance/artificial-intelligence-public-services",
+      "reason": "Blocked: HTTP 403 (browser check), as in the first pass. Not read. The address was not confirmed."
+    },
+    {
+      "title": "Introduction to AI assurance (DSIT, 12 February 2024)",
+      "url": "https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance",
+      "reason": "Read. General account of assurance techniques; mentions organisations procuring AI as an audience but gives no instruction on checking a supplier's fairness claims. Left out to avoid padding."
+    },
+    {
+      "title": "NIST AI Risk Management Framework 1.0, GOVERN 6.1",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "reason": "Read. The third-party subcategory is framed around intellectual property and other rights, not fairness evidence. The New York City law is the better comparator for this criterion."
+    },
+    {
+      "title": "European Commission model contractual clauses for the procurement of AI",
+      "url": "",
+      "reason": "Not located on an official address in this pass; not read, not cited."
+    },
+    {
+      "title": "ISO/IEC 42001:2023 (supplier controls)",
+      "url": "https://www.iso.org/standard/42001",
+      "reason": "Blocked: HTTP 403 on the standard-setter's free page. The standard itself is sold."
+    }
+  ],
+  "brief_check": "One point dates the brief. It says whether a software supplier counts as the buyer's agent is 'untested'; that remains true for section 109, but the brief does not mention that the Court of Appeal has ruled on unverified supplier fairness under a different duty: in Bridges (2020, paras 199-201) a police force that relied on the manufacturer and never sought independent verification was held to have breached the public sector equality duty. That applies to public bodies and public functions only. Separately, the first pass could not read the EU AI Act; Article 13 was read today and requires suppliers of high-risk systems to give performance by group, so the next version could make one EU statement. Nothing else read contradicts the brief; the 296 / 97% / 3% figure was re-read today at p.12 of the audit report and stands."
+}

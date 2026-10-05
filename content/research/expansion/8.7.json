@@ -1,0 +1,151 @@
+{
+  "criterion": "8.7",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "Companies Act 2006, section 414CZA: Section 172(1) statement",
+      "publisher": "legislation.gov.uk",
+      "year": 2018,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/414CZA",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.414CZA(1) and (2); textual amendment note on S.I. 2018/860",
+      "quote": "Subsection (1) does not apply if the company qualifies as medium-sized in relation to that financial year",
+      "why": "The binding rule that turns the section 172 duty into a published account: large companies must say each year how directors had regard to the community and the environment, among other matters. Medium-sized and small companies are exempt, which is why ownership in a smaller firm has to be chosen rather than imposed. Limits: inserted in 2018; the site notes revised text may not be fully up to date.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The Wates Corporate Governance Principles for Large Private Companies",
+      "publisher": "Financial Reporting Council (Wates Coalition Group)",
+      "year": 2018,
+      "published": null,
+      "url": "https://www.frc.org.uk/documents/634/The_Wates_Corporate_Governance_Principles_for_Large_Private_Companies.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Principle Six 'Stakeholder relationships and engagement', guidance on external impacts, printed page 21 (PDF page 24); Principle Three 'Director responsibilities', printed page 15; Principle Five 'Remuneration', printed page 19",
+      "quote": "When explaining impact on the community or environment, boards may want to refer to recognised international standards or frameworks that it follows.",
+      "why": "The governance code written for large private companies, the nearest code to the unlisted firms most users will be. Principle Three asks for clear lines of accountability; Principle Six asks boards to explain environmental impact; Principle Five ties pay to long-term sustainable success. Limits: voluntary, 'apply and explain'; dated December 2018; says little about sustainability by name.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Supervisory Statement SS5/25: Enhancing banks' and insurers' approaches to managing climate-related risks",
+      "publisher": "Bank of England, Prudential Regulation Authority",
+      "year": 2025,
+      "published": null,
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2025/ss425-december-2025.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Chapter 1 'Governance', paragraphs 4.2 and 4.6, printed pages 12 and 13 (PDF pages 14 and 15); paragraphs 4.40 and 4.41 on reporting and management information to the board",
+      "quote": "The board and executive management should assign individual responsibility for identifying, assessing and managing climate-related risks at an appropriate level of seniority",
+      "why": "The clearest UK regulatory statement of the criterion's middle level: a named senior individual, written into their statement of responsibilities, with regular management information to the board. Limits: sector-specific, applying to banks, building societies and insurers only; a supervisory expectation, not a rule; climate risk only; dated December 2025.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "G20/OECD Principles of Corporate Governance 2023",
+      "publisher": "Organisation for Economic Co-operation and Development",
+      "year": 2023,
+      "published": null,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/09/g20-oecd-principles-of-corporate-governance-2023_60836fcb/ed750b30-en.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Chapter VI 'Sustainability and resilience', Principle VI.C, printed page 47 (PDF page 49)",
+      "quote": "The corporate governance framework should ensure that boards adequately consider material sustainability risks and opportunities when fulfilling their key functions",
+      "why": "International comparator: the G20 and OECD standard for corporate governance, with a chapter on the board's part in sustainability added in 2023. Limits: addressed to policy makers and written chiefly for listed companies; not binding; the publisher's web page refused automated requests but the report file opened without a log-in.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Do chief sustainability officers and CSR committees influence CSR-related outcomes? A structured literature review based on empirical-quantitative research findings",
+      "publisher": "Velte and Stawinoga; Journal of Management Control 31, 333-377",
+      "year": 2020,
+      "published": "2020-11-26",
+      "url": "https://link.springer.com/article/10.1007/s00187-020-00308-x",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "Our analysis shows that CSR committees positively influence CSR reporting and performance.",
+      "why": "Peer-reviewed, open access review of 48 quantitative studies on whether a board committee or a named senior officer for sustainability changes outcomes. Committees are associated with better reporting and performance; for named officers the authors find results inconclusive. This is the evidence the first-pass log could not find. Limits: a structured review, not a meta-analysis; mostly large listed companies; associations, not proof of cause.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Executive Compensation Tied to ESG Performance: International Evidence (ECGI Finance Working Paper 825/2022)",
+      "publisher": "Cohen, Kadach, Ormazabal and Reichelstein; European Corporate Governance Institute",
+      "year": 2022,
+      "published": "2022-04-30",
+      "url": "https://www.ecgi.global/publications/working-papers/executive-compensation-tied-to-esg-performance-international-evidence",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract (working paper page; last revised 25 March 2023)",
+      "quote": "the adoption of ESG Pay is accompanied by improvements in key ESG outcomes, but not by improvements in financial performance",
+      "why": "Evidence on the criterion's top level, sustainability built into pay: across listed companies in many countries, adoption goes with better sustainability outcomes but not better financial results. Limits: working-paper page of a study later published in the Journal of Accounting Research (2023), which is behind a paywall; listed companies only; the paper reports association, and the authors themselves frame adoption as partly a response to investor pressure.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "The Perils and Questionable Promise of ESG-Based Compensation (Bebchuk and Tallarita, ECGI Law Working Paper 671/2022)",
+      "url": "https://www.ecgi.global/publications/working-papers/the-perils-and-questionable-promise-of-esg-based-compensation",
+      "reason": "Read (abstract). A critical counterweight on pay linkage based on S&P 100 companies. Not added because the abstract's key sentences exceed the 25-word limit when quoted fairly and the list already has one paper on pay; a candidate if the lead wants the opposing view cited."
+    },
+    {
+      "title": "Executive compensation with environmental and social performance (Review of Finance, 2025)",
+      "url": "https://academic.oup.com/rof/article/29/3/779/8046670",
+      "reason": "HTTP 403. Not read."
+    },
+    {
+      "title": "ESG-based executive compensation: state of art and future research directions (Corporate Governance, Emerald)",
+      "url": "https://www.emerald.com/cg/article/25/8/101/1267056/ESG-based-executive-compensation-state-of-art-and",
+      "reason": "HTTP 403. Not read."
+    },
+    {
+      "title": "Board Characteristics and Corporate Social Responsibility: A Meta-Analytic Investigation (Endrikat and others, Business & Society, 2021)",
+      "url": "https://journals.sagepub.com/doi/10.1177/0007650320930638",
+      "reason": "HTTP 403. Not read. Its finding is reported second-hand in an open review (Velte, Management Review Quarterly, 2021), which is not a substitute for the original."
+    },
+    {
+      "title": "Executive Compensation Tied to ESG Performance (SSRN and CEPR copies)",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4097202",
+      "reason": "SSRN returned HTTP 403; the CEPR page showed no abstract. The ECGI working-paper page was read and is cited."
+    },
+    {
+      "title": "Institute of Directors, Code of Conduct for Directors",
+      "url": "https://www.iod.com/resources/governance/iod-code-of-conduct-for-directors/",
+      "reason": "HTTP 403. Not read."
+    },
+    {
+      "title": "The Wates Principles for Large Private Companies: Reporting Insights (Financial Reporting Council, 2025)",
+      "url": "https://www.frc.org.uk/documents/8923/The_Wates_Principles_for_Large_Private_Companies_Reporting_Insights.pdf",
+      "reason": "Read. Examples of company reporting; nothing on who owns sustainability or how often boards see figures. Not cited."
+    },
+    {
+      "title": "OECD publication page for the G20/OECD Principles",
+      "url": "https://www.oecd.org/en/publications/g20-oecd-principles-of-corporate-governance-2023_ed750b30-en.html",
+      "reason": "HTTP 403 on the web page; the report file on the same site opened and is the copy cited."
+    },
+    {
+      "title": "FCA Handbook, UK Listing Rules on climate disclosure; IFRS S2 on ifrs.org",
+      "url": "https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/ifrs-s2-climate-related-disclosures/",
+      "reason": "The IFRS page returned only introductory text without the standard; UK SRS S2, already on the list, reproduces it. The Listing Rules were not fetched."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. 'Smaller companies have no such duty' is consistent with s.414CZA(2), which also exempts medium-sized companies from the section 172 statement. The brief does not mention the Prudential Regulation Authority's SS5/25 (December 2025), which sets a named-individual expectation for banks and insurers; that is an addition, not a correction."
+}

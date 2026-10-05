@@ -1,0 +1,141 @@
+{
+  "criterion": "7.5",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "Consulting employees on health and safety: A brief guide to the law (INDG232 rev2)",
+      "publisher": "Health and Safety Executive",
+      "year": 2013,
+      "published": "2013-04",
+      "url": "https://www.hse.gov.uk/pubns/indg232.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "PDF page 3, 'What should consultation with employees involve?'; PDF page 2 for the list of matters, including new technology",
+      "quote": "listening to them and taking account of what they say before making any health and safety decisions",
+      "why": "The regulator's own plain statement of what consultation means under the 1977 and 1996 Regulations already on the list: listening before the decision, not announcing after it. It also lists 'the health and safety consequences of introducing new technology' among the matters and explains 'in good time'. Limits: a short leaflet dated April 2013; health and safety only; says nothing about AI as such.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Managing technology that manages people: November 2025. A Social Partnership approach to algorithmic management systems in the Welsh public sector",
+      "publisher": "Welsh Government (guidance agreed by the Workforce Partnership Council)",
+      "year": 2025,
+      "published": "2025-11-24",
+      "url": "https://www.gov.wales/managing-technology-manages-people-november-2025-html",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Section 'After a new system starts being used'; also 'Before adoption and implementation' and 'Due diligence and consultation during buying or building systems'",
+      "quote": "Feedback from workers and worker representatives should be sought, collected and used to shape the system.",
+      "why": "The only UK government guidance found that sets out consultation on workplace AI step by step: joint audit of existing systems, unions involved in buying or building, an audit framework agreed before use, and feedback used to change the system. It matches the 'feedback tracked and demonstrably considered' and co-design levels. Limits: applies to devolved public sector bodies in Wales only; guidance agreed in social partnership, not law; this page is a summary of longer guidance that was not read (the TUC copy refused access).",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Protection of workers' personal data: An ILO code of practice",
+      "publisher": "International Labour Office",
+      "year": 1997,
+      "published": null,
+      "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@ed_protect/@protrav/@safework/documents/normativeinstrument/wcms_107797.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Section 12, Collective rights, paragraph 12.2(a) and (b) (PDF page 19); paragraph 5.8",
+      "quote": "concerning the introduction or modification of automated systems that process worker's personal data",
+      "why": "International comparator. The ILO code says workers' representatives should be informed and consulted about the introduction or modification of automated systems that process workers' data, and before any electronic monitoring is introduced. It shows the principle is long settled internationally. Limits: published 1997; the code states it has no binding force and only makes recommendations; it predates modern AI.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "UK GDPR, Article 22C: Safeguards for automated decision-making",
+      "publisher": "legislation.gov.uk",
+      "year": 2025,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22C",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Art. 22C(1) and (2)(a) to (d); textual amendment note F1",
+      "quote": "provide the data subject with information about decisions described in paragraph 1 taken in relation to the data subject",
+      "why": "The binding UK rule on telling people about automated decisions taken about them: the employer must have measures that give the worker information about the decision and let them make representations, obtain human intervention and contest it. Limits: it applies only to the automated decisions the Article covers, and to the individual affected, after the decision; it is not a duty to consult the workforce or its representatives before a system goes live. Inserted by the Data (Use and Access) Act 2025; the page records it as fully in force from 5 February 2026 (S.I. 2026/82).",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Robots, Digitalization, and Worker Voice (GLO Discussion Paper No. 1038)",
+      "publisher": "Filippo Belloc, Gabriel Burdin and Fabio Landini, Global Labor Organization (EconStor repository)",
+      "year": 2022,
+      "published": null,
+      "url": "https://www.econstor.eu/bitstream/10419/249341/1/GLO-DP-1038.pdf",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "EU",
+      "locator": "Abstract (PDF page 2) and Introduction (PDF page 4)",
+      "quote": "Overall, these results cast some doubts on the idea that ER may spur automation by reducing the flexibility of employment relationships.",
+      "why": "Evidence on what worker voice does to technology adoption: across more than 20,000 European establishments, workplaces with employee representation (ER) use robots and advanced digital tools more, not less, and the link runs through influence on training and work organisation. It answers the worry that consulting staff slows adoption. Limits: a discussion paper, not peer reviewed in this version; cross-sectional association plus an Italian case study; about robots and digital tools generally, not AI; it does not measure trust. Parts of the abstract's text layer run words together.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Advanced Digital Technologies in Unionized Firms",
+      "publisher": "Fabio Berton, Stefano Dughera and Andrea Ricci, Italian Economic Journal (Springer, open access)",
+      "year": 2024,
+      "published": "2024-04-29",
+      "url": "https://link.springer.com/article/10.1007/s40797-024-00276-4",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "EU",
+      "locator": "Abstract",
+      "quote": "workplace employee organizations increase the probability of advanced digitalization by around 15 percentage points per year",
+      "why": "Peer-reviewed, open-access study using an instrumental-variable design on a nationally representative survey of Italian firms (2018): workplace employee organisations raise the probability of adopting advanced digital technologies. Supports the case that informing and involving representatives helps new technology land. Limits: Italy only; 2018 data; digital technologies broadly, not AI specifically; measures adoption, not worker trust or outcomes for workers.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "Directive (EU) 2024/2831 on improving working conditions in platform work (Article 13, information and consultation)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024L2831",
+      "reason": "EUR-Lex returned HTTP 202 with an empty body on both the PDF and the ELI address. The EU-OSHA summary page (osha.europa.eu/en/legislation/directive/directive-20242831eu-platform-work) was read and confirms a duty to inform platform workers and their representatives about automated monitoring and decision-making systems, with transposition due by 2 December 2026, but it is an agency summary, not the legal text, so it is not cited for a duty."
+    },
+    {
+      "title": "TUC, Guidance on using AI and algorithmic management in the Welsh public sector (the longer guidance behind the Welsh Government page)",
+      "url": "https://www.tuc.org.uk/research-analysis/reports/wales/guidance-using-ai-and-algorithmic-management-welsh-public-sector",
+      "reason": "HTTP 403. Not read. The Welsh Government's own page was used instead."
+    },
+    {
+      "title": "OECD Employment Outlook 2023, chapter on social dialogue and collective bargaining in the age of AI",
+      "url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2023_08785bba-en/full-report/social-dialogue-and-collective-bargaining-in-the-age-of-artificial-intelligence_5828691a.html",
+      "reason": "HTTP 403 (as in the first pass). Not read."
+    },
+    {
+      "title": "Eurofound, Ethical digitalisation at work: from theory to practice",
+      "url": "https://www.eurofound.europa.eu/en/publications/all/ethical-digitalisation-work-policy-practice",
+      "reason": "HTTP 429 (rate limited). Not retried further; not read."
+    },
+    {
+      "title": "NIST AI Risk Management Framework 1.0, GOVERN 5 (engagement with relevant AI actors)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "reason": "Read. GOVERN 5.1 and 5.2 concern feedback from people outside the development team in general and do not mention workers or their representatives; the ILO code is the more exact comparator. Not added."
+    },
+    {
+      "title": "Institute for the Future of Work, Good Work Algorithmic Impact Assessment",
+      "url": "https://www.ifow.org/publications/good-work-algorithmic-impact-assessment-an-approach-for-worker-involvement",
+      "reason": "Only the short landing page loaded; the report itself was not opened, so it is not cited."
+    },
+    {
+      "title": "HSE web page, 'What to consult on and when'",
+      "url": "https://www.hse.gov.uk/involvement/plan/whattoconsult.htm",
+      "reason": "The address returned HSE's general legal-duties text, which repeats the leaflet INDG232. The leaflet was preferred as the fuller statement."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. Two things it does not mention: the Welsh Government's November 2025 social partnership guidance, which expects devolved public bodies in Wales to involve unions before and after adopting algorithmic management systems (so 'no UK statute requires consultation on AI' stands, but there is now UK government guidance that does); and the EU platform work directive's duty to inform workers and representatives about automated systems, which the EU-OSHA summary says must be transposed by 2 December 2026 (legal text not readable)."
+}

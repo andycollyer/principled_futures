@@ -1,0 +1,184 @@
+{
+  "criterion": "5.8",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "UK GDPR, Article 30: Records of processing activities",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/30",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Art. 30(1)(a)-(g), (2), (4), (5); notes F1-F4",
+      "quote": "shall maintain a record of processing activities under its responsibility",
+      "why": "The specific record-keeping duty behind the general one in Article 5(2), and the first thing the regulator's auditors ask for. Each controller must record purposes, categories of people and data, recipients, transfers, erasure time limits and security measures; processors keep a parallel record; both must hand it over on request (para 4, now reading 'the Commission' from 30 September 2026). Para 5 exempts organisations with fewer than 250 staff unless the processing is risky, not occasional, or includes special category or criminal offence data, which most AI use will be. No outstanding effects shown. Cited elsewhere in the library for a different passage.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Data Protection Act 2018, section 148: Destroying or falsifying information and documents etc",
+      "publisher": "legislation.gov.uk",
+      "year": 2018,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/148",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.148(1)-(3); notes F1-F5",
+      "quote": "to destroy or otherwise dispose of, conceal, block or (where relevant) falsify all or part of the information, document, equipment or material",
+      "why": "The criminal edge of the accountability file. Once an information notice or assessment notice has been given, it is an offence to destroy, hide, block or falsify what it covers, or to let that happen, intending to keep it from the regulator. The only defence is that the destruction would have happened anyway, which is far easier to show with a retention schedule that is followed. The first pass read this and left it out for space. Text reads 'Commission' from 30 September 2026; one unrelated Northern Ireland effect is shown as outstanding.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 12: Record-keeping",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2026,
+      "published": null,
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-12",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Art. 12(1)-(3); read with Art. 18 (documentation kept for 10 years) and Art. 19 (logs kept at least six months)",
+      "quote": "High-risk AI systems shall technically allow for the automatic recording of events (logs) over the lifetime of the system.",
+      "why": "Record-keeping as a design requirement, which UK law does not impose in terms: a high-risk system must be built to log events automatically so that risks, monitoring and operation can be traced. Articles 18 and 19, read in the same pass, set how long documentation and logs are kept. It matches the criterion's fourth level, where the file is kept current by the system and not by hand. Unmarked on the page, so unchanged by the Digital Omnibus. The Commission's copy of the consolidated text (EUR-Lex consolidation as at 27 July 2026), not the Official Journal; EUR-Lex itself returned an empty page. EU law: it reaches UK firms only where they place systems on the EU market or their output is used there. No application date is stated here because none was read on this page.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Guidance on AI and data protection: What are the accountability and governance implications of AI?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2023,
+      "published": "15 March 2023",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/what-are-the-accountability-and-governance-implications-of-ai/",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "'At a glance'; section 'What do we need to consider when undertaking data protection impact assessments for AI?'",
+      "quote": "you still need to document how you have made this assessment",
+      "why": "The regulator's AI-specific statement of what must be written down: how the organisation justified using AI at all, the impact assessment, the views of people consulted, trade-offs (for example accuracy against minimisation) with method and reasons, and, where it decides no impact assessment is needed, how it reached that view. Carries the banner: under review following the Data (Use and Access) Act. Date is the 'latest updates' date shown. Cited elsewhere in the library for other passages.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "R (Bridges) v Chief Constable of South Wales Police [2020] EWCA Civ 1058",
+      "publisher": "Court of Appeal (Civil Division)",
+      "year": 2020,
+      "published": "2020-08-11",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1058",
+      "access": "free",
+      "tier": "official",
+      "type": "court or tribunal",
+      "jurisdiction": "UK",
+      "locator": "paras 145-154 (Ground 3); declaration at para 210(2)",
+      "quote": "the DPIA failed properly to assess the risks to the rights and freedoms of data subjects",
+      "why": "A court testing an accountability file and finding it wanting. South Wales Police had written an impact assessment for live facial recognition; the Court of Appeal held it did not meet the statutory requirements because it wrongly assumed there was no interference with privacy rights, so it neither assessed the risks properly nor addressed measures to deal with them. The lesson is that a document existing is not enough; its reasoning is examined. Limits: law enforcement processing under Part 3 of the 2018 Act (section 64), not the UK GDPR Article 35 duty that applies to most firms, though the two are closely parallel.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Algorithmic Transparency Recording Standard: guidance for public sector bodies",
+      "publisher": "Government Digital Service",
+      "year": 2025,
+      "published": "2025-05-08",
+      "url": "https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard/algorithmic-transparency-recording-standard-guidance-for-public-sector-bodies",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Section 2 'ATRS purpose and scope'; sections 5-13 (the template fields); section 14",
+      "quote": "It consists of a template for organisations to fill in with key information about their algorithmic tools.",
+      "why": "The UK's only official template for a per-system record: owner, purpose, how the tool fits the decision process, human oversight, appeals, data, risks and impact assessments, kept up to date and published. Mandatory for government departments and certain arm's-length bodies; any organisation can use the fields as a contents list for its own file. Limits: public sector, a transparency record written for publication and not a full compliance file. Date is the 'updated' date shown. Cited elsewhere in the library for other passages.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Model Artificial Intelligence Governance Framework, Second Edition",
+      "publisher": "Info-communications Media Development Authority and Personal Data Protection Commission, Singapore",
+      "year": 2020,
+      "published": "2020-01-21",
+      "url": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/resource-for-organisation/ai/sgmodelaigovframework2.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "other",
+      "locator": "p. 44 (documenting model training and selection); para 3.13, p. 29; p. 37 (data provenance record); p. 48 (traceability)",
+      "quote": "Documenting how the model training and selection processes are conducted, the reasons for which decisions are made, and measures taken to address identified risks",
+      "why": "International comparator. Singapore's voluntary framework treats records as the means of answering to regulators and individuals: document training and selection decisions with reasons, keep a data provenance record, and make decisions traceable. It is written for private companies and covers the whole system, not only personal data. Limits: voluntary, not UK law, and published in January 2020 before generative AI. Release date as given in its summary of updates (p. 4).",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Reviewable Automated Decision-Making: A Framework for Accountable Algorithmic Systems",
+      "publisher": "arXiv (J. Cobbe, M. S. A. Lee and J. Singh; ACM FAccT 2021)",
+      "year": 2021,
+      "published": "2021-01-26",
+      "url": "https://arxiv.org/abs/2102.04201",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract (version 2, 10 February 2021)",
+      "quote": "determining the contextually appropriate record-keeping mechanisms to facilitate meaningful review",
+      "why": "Peer-reviewed research that gives the criterion its theory. Explanations of a model are not enough for a regulator or court; what is needed is a record of the whole decision process, human and technical, from commissioning to consequences, designed so that an outsider can review individual decisions and the process. Draws on how administrative law reviews human decisions. Limits: abstract only read in this pass; a framework, not an empirical test; the authors' copy, conference as stated on the arXiv page.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing",
+      "publisher": "arXiv (I. D. Raji and others; ACM FAT* 2020)",
+      "year": 2020,
+      "published": "2020-01-03",
+      "url": "https://arxiv.org/abs/2001.00973",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "Each stage of the audit yields a set of documents that together form an overall audit report",
+      "why": "Peer-reviewed research on building the file as the work is done. Proposes an internal audit running through the whole development cycle, each stage leaving documents that together form the audit report, because once a system is live problems can be 'difficult or impossible to trace back to their source'. Supports the brief's point that records must be made at the time and not assembled on request. Limits: abstract only read in this pass; a proposed method, not evidence that it works.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "Council of Europe Framework Convention on Artificial Intelligence (CETS 225), Articles 9 and 16",
+      "url": "https://rm.coe.int/1680afae3c",
+      "reason": "HTTP 403 on rm.coe.int. Not bypassed. Not read, not cited; the Singapore framework is the comparator instead."
+    },
+    {
+      "title": "Committee of Public Accounts, Use of AI in Government (HC 356, March 2025)",
+      "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/356/report.html",
+      "reason": "HTTP 403 on publications.parliament.uk and committees.parliament.uk. Not bypassed. Its figure on published transparency records was seen only in a search summary, so it is not used."
+    },
+    {
+      "title": "NIST AI Risk Management Framework (AI RMF 1.0)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "reason": "Read again (p. 22: 'Documentation can enhance transparency, improve human review processes, and bolster accountability in AI system teams.'). Left out: a general line, and the Singapore framework is the more specific comparator on records."
+    },
+    {
+      "title": "ICO, Documentation (detailed guidance on Article 30)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/documentation/",
+      "reason": "Landing page fetched (under review banner); sub-pages not read. Article 30 itself is cited."
+    },
+    {
+      "title": "EU AI Act, Articles 18 and 19 (Commission's consolidated copy)",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-19",
+      "reason": "Read; folded into the Article 12 entry instead of being listed separately."
+    },
+    {
+      "title": "Report of the Royal Commission into the Robodebt Scheme (Australia)",
+      "url": "https://www.royalcommission.gov.au/robodebt/report",
+      "reason": "No response from the site (connection error, then timeout). Not read, not cited."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the approved brief. Two omissions a later version might cover: the specific duty to keep a record of processing (UK GDPR Article 30, with its under-250-staff exemption that rarely helps AI users), and the offence of destroying or falsifying material after a notice (Data Protection Act 2018 s.148). The first-pass log's statement that the EU AI Act record-keeping articles could not be relied on is out of date: the Commission's copy is now a dated consolidated text."
+}

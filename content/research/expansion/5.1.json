@@ -1,0 +1,152 @@
+{
+  "criterion": "5.1",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "Data (Use and Access) Act 2025: Explanatory Notes",
+      "publisher": "Department for Science, Innovation and Technology and other departments (legislation.gov.uk)",
+      "year": 2025,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/pdfs/ukpgaen_20250018_en.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Commentary on section 80, paras 634 to 645 (PDF pp. 84-85); quote at para 644",
+      "quote": "clarify when meaningful human involvement can be said to have taken place in light of constantly emerging technologies",
+      "why": "The government's own account of the two scoping tests and of why ministers took power to redefine them: the meaningful-involvement power is tied to emerging technology, the significance power to 'changing societal expectations'. This is the rule-change a board would need to track. Limits: explanatory notes are not law and were not endorsed by Parliament; they describe the Act as passed in June 2025 and say nothing about whether regulations have been made. The PDF text has stray spaces in places; the quoted passage is clean.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Data Protection Act 2018, section 50A: Automated processing and significant decisions",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/50A",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.50A(1)(a)-(b) and (2); note F1",
+      "quote": "it produces an adverse legal effect for the data subject",
+      "why": "The parallel scoping test for law enforcement processing (Part 3). Same meaningful-involvement wording as UK GDPR Article 22A, but a decision is significant only if its legal or similar effect is adverse. An organisation processing under both regimes needs two scoping tests, not one. Limits: applies only to competent authorities processing for law enforcement purposes. Substituted by the Data (Use and Access) Act 2025 s.80(3), fully in force 5 February 2026 (note F1). The page lists one outstanding effect from a Northern Ireland Act not yet applied to the text.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Guidelines on Automated individual decision-making and Profiling for the purposes of Regulation 2016/679 (WP251rev.01)",
+      "publisher": "Article 29 Data Protection Working Party (endorsed by the European Data Protection Board)",
+      "year": 2018,
+      "published": "6 February 2018",
+      "url": "https://ec.europa.eu/newsroom/article29/redirection/document/49826",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "EU",
+      "locator": "Chapter IV, section A 'Decision based solely on automated processing', pp. 20-21; section B on 'legal' or 'similarly significant' effects, pp. 21-22",
+      "quote": "The controller cannot avoid the Article 22 provisions by fabricating human involvement.",
+      "why": "The European regulators' test for 'solely', which the UK draft guidance follows closely: oversight must be meaningful, not a token gesture, and done by someone with authority and competence to change the decision. It also says the degree of human involvement should be identified and recorded in the impact assessment. Limits: EU guidance on the EU GDPR's Article 22, not binding in the UK and written before Articles 22A to 22D replaced Article 22 here. Already used by another brief in this domain for a different passage (p. 27).",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Human-AI Interactions in Public Sector Decision Making: 'Automation Bias' and 'Selective Adherence' to Algorithmic Advice",
+      "publisher": "Saar Alon-Barkat and Madalina Busuioc, Journal of Public Administration Research and Theory (authors' copy on arXiv)",
+      "year": 2022,
+      "published": "2022-02-08",
+      "url": "https://arxiv.org/pdf/2103.02381",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "other",
+      "locator": "Abstract, p. 1 (three experiments: N = 605, 904 and 1,345)",
+      "quote": "We find a stronger propensity for adherence when the advice is aligned with group stereotypes",
+      "why": "Peer-reviewed experimental evidence on what a human reviewer actually adds, which is the question the meaningful-involvement test turns on. The result is mixed and should be reported as such: the studies did not find reviewers deferring more to an algorithm than to a human expert, but did find reviewers more likely to follow advice that matched stereotypes (not repeated in the third study, of civil servants). Limits: Dutch samples and hypothetical vignettes, not live decisions; read on arXiv because the publisher's page refused a plain request.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Rethinking Decisions under Article 22 of the GDPR: Implications for Semi-Automated Legal Decision-Making",
+      "publisher": "Peter Alexander Earls Davis and Sebastian Felix Schwemer, Proceedings of LegalAIIA 2023 (CEUR Workshop Proceedings vol. 3423)",
+      "year": 2023,
+      "published": "2023-06-19",
+      "url": "https://ceur-ws.org/Vol-3423/paper8.pdf",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "EU",
+      "locator": "Abstract, p. 1; sections 3 and 4 on locating the decision",
+      "quote": "it should be construed broadly to include recommendations or other measures leading to a particular outcome for an individual",
+      "why": "Speaks to the first step of scoping: which step in a multi-stage process is 'the decision'. The authors argue a score or recommendation that leads to an outcome can itself be the decision, so putting a human at the end does not take a system out of scope. Limits: a workshop paper, open access on the proceedings site, lightly reviewed; it interprets the EU GDPR and relies on an Advocate General's opinion in the SCHUFA case, not the final judgment, which could not be read from an official source in this pass. Not UK law.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The flaws of policies requiring human oversight of government algorithms",
+      "publisher": "Ben Green, Computer Law & Security Review 45 (author's copy on arXiv)",
+      "year": 2022,
+      "published": "2022-10-24",
+      "url": "https://arxiv.org/abs/2109.05067",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "evidence suggests that people are unable to perform the desired oversight functions",
+      "why": "Peer-reviewed review of 41 human-oversight policies. It supports reading the answer 'a human is always involved' with caution: naming a reviewer does not show the reviewer can change outcomes. Limits: about government algorithms, mostly outside the UK; only the abstract is on the linked page; read on arXiv. Used by another brief (human oversight) for a different sentence.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology",
+      "year": 2023,
+      "published": "January 2023",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "US",
+      "locator": "Table 2, MAP 3.5 (p. 26); see also Table 1, GOVERN 3.2 (p. 22)",
+      "quote": "Processes for human oversight are defined, assessed, and documented in accordance with organizational policies from the GOVERN function.",
+      "why": "International comparator and the only free standard found that bears on this point. It asks for what the scoping record needs: human oversight defined, assessed and written down system by system. Limits: a voluntary United States framework; it does not use the UK legal tests of 'significant' or 'solely automated' and is not law here.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "CJEU, Case C-634/21 SCHUFA Holding (judgment of 7 December 2023)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:62021CJ0634",
+      "reason": "Blocked: EUR-Lex returned HTTP 202 with an empty body; the Curia page returned a script shell with no judgment text. Same result as the first pass. Not read, not cited; no third-party copy used."
+    },
+    {
+      "title": "Directive on Automated Decision-Making (Treasury Board of Canada Secretariat)",
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+      "reason": "Blocked: HTTP 403 to a plain request with the source-check user agent. Not read, not cited. Would have been the international comparator."
+    },
+    {
+      "title": "Binns and Veale, 'Is that your final decision? Multi-stage profiling, selective effects, and Article 22 of the GDPR', International Data Privacy Law 11(4), 2021",
+      "url": "https://academic.oup.com/idpl/article/11/4/319/6403925",
+      "reason": "Blocked: publisher page and the UCL repository copy (discovery.ucl.ac.uk) both returned HTTP 403 (browser challenge); the SocArXiv page is script-only with no text. Not read, not cited."
+    },
+    {
+      "title": "Report of the Royal Commission into the Robodebt Scheme (Australia, 2023)",
+      "url": "https://robodebt.royalcommission.gov.au/publications/report",
+      "reason": "Blocked: connection returned no response (HTTP 0) on the report page and on the full-report PDF. Not read, not cited."
+    },
+    {
+      "title": "Goodman and Flaxman, 'European Union regulations on algorithmic decision-making and a right to explanation'",
+      "url": "https://arxiv.org/abs/1606.08813",
+      "reason": "Read (abstract). About explanation, not about which decisions fall in scope. Not relevant enough."
+    },
+    {
+      "title": "Office for Statistics Regulation, Ensuring statistical models command public confidence (2021)",
+      "url": "https://osr.statisticsauthority.gov.uk/publication/ensuring-statistical-models-command-public-confidence/",
+      "reason": "Read. States that judging compliance with legal frameworks is outside its remit, so it says nothing on whether the 2020 grading model was a solely automated decision. Used for the safeguards criterion instead."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the approved brief. One point to add when it is next revised: Part 3 of the Data Protection Act 2018 (s.50A) uses a narrower significance test for law enforcement processing ('adverse' effect), which the brief does not mention. The SCHUFA judgment and the Canadian directive remain unread (blocked)."
+}

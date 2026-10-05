@@ -1,0 +1,285 @@
+{
+  "criterion": "3.8",
+  "current_count": 6,
+  "additions": [
+    {
+      "title": "FCA Handbook, DISP 1.3: Complaints handling rules",
+      "publisher": "Financial Conduct Authority",
+      "year": 2019,
+      "published": null,
+      "url": "https://handbook.fca.org.uk/handbook/DISP/1/3.html",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "DISP 1.3.3R (dated 03/01/2018) and DISP 1.3.6G (dated 01/04/2019)",
+      "quote": "undertake proactively a redress or remediation exercise, which may include contacting customers who have not complained",
+      "why": "The sector rule the first pass left unchecked. A regulated firm must identify and remedy recurring or systemic problems, including root causes that affect products nobody has complained about (a rule), and should consider whether to seek out and compensate customers who have not complained (guidance). The closest thing in UK rules to the three steps this criterion describes. Applies to FCA-regulated firms only; 1.3.6 is guidance, tied to Principle 6.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "FG22/5: Final non-Handbook Guidance for firms on the Consumer Duty",
+      "publisher": "Financial Conduct Authority",
+      "year": 2022,
+      "published": "2022-07",
+      "url": "https://www.fca.org.uk/publication/finalised-guidance/fg22-5.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Paras 5.15-5.17, PDF pp.30-31",
+      "quote": "If a firm identifies that it has caused customers harm, either through its action or inaction, the firm must act in good faith",
+      "why": "States the duty in the regulator's own words: a firm that finds it has caused harm must act to put it right, consider redress, and pay it promptly when due. It applies whatever caused the harm, so it covers an unfair model as much as an unfair term. Guidance on the Consumer Duty for FCA-regulated firms dealing with retail customers; not a general duty on all businesses.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "How to deal with data protection complaints",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "published": "2026-02-12",
+      "url": "https://ico.org.uk/for-organisations/how-to-deal-with-data-protection-complaints/",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Opening summary and 'Latest updates' (published 12 February 2026, updated 8 May 2026)",
+      "quote": "You must have a process for handling data protection complaints within your organisation - there are no exemptions to this.",
+      "why": "The regulator's guidance on the complaints duty the brief cites, which the first pass could not locate. Confirms the four steps: give people a way to complain, acknowledge within 30 days, respond without undue delay and tell them the outcome. About data protection complaints in general; it does not mention AI.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "UK GDPR, Article 16: Right to rectification",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/16",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Art. 16",
+      "quote": "The data subject shall have the right to obtain from the controller without undue delay the rectification of inaccurate personal data concerning him or her.",
+      "why": "The individual's lever for the first step, correction: where an unfair outcome came from wrong data about the person, they can require it to be put right without undue delay. It corrects the record, not the decision made on it, and says nothing on other people affected by the same fault. Read in the first pass and left out for space.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Equality Act 2010, section 119: Remedies",
+      "publisher": "legislation.gov.uk",
+      "year": 2010,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/119",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.119(2)-(6)",
+      "quote": "An award of damages may include compensation for injured feelings (whether or not it includes compensation on any other basis).",
+      "why": "The remedy for discrimination in services (lending, insurance, retail), where the claim goes to the county court or sheriff rather than an employment tribunal. The court may grant any remedy the High Court could, and damages can cover injured feelings. Unlike section 124 it gives no power to recommend steps. Corrects a gap the first pass recorded: the brief's 'tribunal' sentence covers employment only.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Principles for remedy",
+      "publisher": "Parliamentary and Health Service Ombudsman",
+      "year": 2009,
+      "published": "2009-02",
+      "url": "https://www.ombudsman.org.uk/sites/default/files/page/principles_for_remedy_0.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Principle 5, 'Putting things right', PDF p.5",
+      "quote": "returning the complainant and, where appropriate, others who have suffered similar injustice or hardship, to the position they would have been in",
+      "why": "The UK public-sector standard for redress, and the source for extending a remedy beyond the person who complained to others harmed by the same fault. Also asks bodies to consider every form of remedy, including apology and explanation, and to learn from the outcome. Binding on no one; it states what the Ombudsman expects of government departments and the NHS. Dated February 2009 on its face; the Ombudsman's page shows it as last updated 30 September 2026.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Post Office Horizon IT Inquiry Report: Volume 1 (human impact and redress)",
+      "publisher": "Post Office Horizon IT Inquiry (Sir Wyn Williams)",
+      "year": 2025,
+      "published": "2025-07-08",
+      "url": "https://www.postofficehorizoninquiry.org.uk/sites/default/files/2025-07/Post%20Office%20Horizon%20IT%20Inquiry%20Final%20Report%20Volume%201_0.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Para 3.1, PDF p.12; Recommendation 2, section 2; section 6 on 'full and fair' redress and delay",
+      "quote": "there are currently about 10,000 eligible claimants in the schemes providing financial redress",
+      "why": "The UK's fullest official account of redress after people were wronged on the strength of a computer system's output. Finds that the number affected is almost impossible to establish, records four separate redress schemes, and recommends that government define 'full and fair' redress publicly. Shows the cost of the missing middle step, working out who was affected. Horizon was accounting software, not AI, and the wrongs were prosecutions and debts, not biased scoring.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 86: Right to explanation of individual decision-making",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2024,
+      "published": null,
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-86",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Art. 86(1)",
+      "quote": "shall have the right to obtain from the deployer clear and meaningful explanations of the role of the AI system in the decision-making procedure",
+      "why": "Sits in the Act's section headed 'Remedies'. A person significantly affected by a decision based on a listed high-risk system can require the organisation using it to explain the system's role and the main elements of the decision. A right to an explanation, which makes a challenge possible; it is not a right to compensation or to a fresh decision. The Commission's copy of the consolidated text (EUR-Lex consolidated version as at 27 July 2026), not the Official Journal. EU law: reaches UK firms only where a system or its output is used in the EU. No application date is stated here.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 20: Corrective actions and duty of information",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2024,
+      "published": null,
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-20",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Art. 20(1)",
+      "quote": "shall immediately take the necessary corrective actions to bring that system into conformity, to withdraw it, to disable it, or to recall it",
+      "why": "The 'fix the system' step as a legal duty: a provider that has reason to think its high-risk system does not conform must correct, withdraw, disable or recall it at once and tell distributors and the organisations using it. It is silent on the people already affected by the system's decisions, which is the gap this criterion tests. A duty on providers. The Commission's copy of the consolidated text (EUR-Lex consolidated version as at 27 July 2026), not the Official Journal. EU law: reaches UK firms only where a system or its output is used in the EU. No application date is stated here.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Recommendation on the Ethics of Artificial Intelligence",
+      "publisher": "UNESCO",
+      "year": 2021,
+      "published": "2021-11-23",
+      "url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Para 29 (fairness and non-discrimination); para 35 (attributing responsibility in cases of remedy)",
+      "quote": "Effective remedy should be available against discrimination and biased algorithmic determination.",
+      "why": "International comparator. The plainest international statement that a person harmed by a biased algorithmic decision should have an effective remedy, and that responsibility in cases of remedy must always be traceable to a person or legal entity. Adopted by UNESCO's General Conference on 23 November 2021; a recommendation to states, not binding on companies.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Automated decision-making, including profiling (draft guidance): What are the ADM safeguards?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "published": "2026-03-31",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards/",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Sections 'What is 'human intervention'?' and 'How do we enable people to contest decisions?'",
+      "quote": "you must put measures in place for people to challenge or appeal the ADM you carry out",
+      "why": "How the regulator reads the safeguards the brief lists: people must be told they can contest and how, and the person who reconsiders must be able to alter the decision, be trained, and look at the data it rested on; a token second look does not count. Covers significant decisions taken solely by automated means. Draft guidance, updated 31 March 2026; consultation closed, final text may differ.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Conceptualising Contestability: Perspectives on Contesting Algorithmic Decisions",
+      "publisher": "Henrietta Lyons, Eduardo Velloso and Tim Miller (authors' copy on arXiv 2103.01774; published version DOI 10.1145/3449180)",
+      "year": 2021,
+      "published": "2021-02-23",
+      "url": "https://arxiv.org/abs/2103.01774",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "other",
+      "locator": "Abstract",
+      "quote": "the ability to contest algorithmic decisions is being recognised as an important safeguard for individuals",
+      "why": "Analyses what people and organisations said contestability should mean, from submissions on Australia's proposed AI ethics framework. Finds the idea disputed but understood as protection for the individual, modelled on how human decisions are challenged. Useful for designing the 'review affected decisions' step. Qualitative analysis of consultation responses in Australia; no evidence on outcomes.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Contestable AI by Design: Towards a Framework",
+      "publisher": "Kars Alfrink, Ianus Keller, Gerd Kortuem and Neelke Doorn, Minds and Machines 33",
+      "year": 2022,
+      "published": "2022-08-13",
+      "url": "https://link.springer.com/article/10.1007/s11023-022-09611-z",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract; section 5.1 (method: literature published 2016 to 2021)",
+      "quote": "ensuring AI systems are contestable by design: responsive to human intervention throughout the system lifecycle",
+      "why": "A peer-reviewed synthesis of the literature on building challenge and correction into a system from the start, rather than adding an appeals route afterwards. Supports the 'recurrence tracked' level: a fault found through one challenge should reach the people who maintain the system. A framework drawn from published papers, not tested in organisations; open access.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {
+    "https://www.legislation.gov.uk/eur/2016/679/article/22C": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "enable the data subject to contest such decisions"
+    },
+    "https://www.legislation.gov.uk/ukpga/2025/18/section/103": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "the controller must acknowledge receipt of the complaint within the period of 30 days beginning when the complaint is received"
+    },
+    "https://www.legislation.gov.uk/eur/2016/679/article/82": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "shall have the right to receive compensation from the controller or processor for the damage suffered"
+    },
+    "https://www.legislation.gov.uk/ukpga/2010/15/section/124": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "order the respondent to pay compensation to the complainant; (c) make an appropriate recommendation"
+    },
+    "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach/white-paper": {
+      "type": "official report",
+      "jurisdiction": "UK",
+      "published": "2023-08-03",
+      "quote": "The UK's initial non-statutory approach will not create new rights or new routes to redress at this stage."
+    },
+    "https://oecd.ai/en/dashboards/ai-principles/P7": {
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "published": null,
+      "quote": "to provide information that enable those adversely affected by an AI system to challenge its output"
+    }
+  },
+  "rejected": [
+    {
+      "title": "Council of Europe Framework Convention on Artificial Intelligence (CETS No. 225), Articles 14 and 15 (remedies and procedural safeguards)",
+      "url": "https://rm.coe.int/1680afae3c",
+      "reason": "Blocked: HTTP 403 on the treaty text and on the Council of Europe's web pages. Not read, not cited."
+    },
+    {
+      "title": "Royal Commission into the Robodebt Scheme, Report (2023)",
+      "url": "https://robodebt.royalcommission.gov.au/publications/report",
+      "reason": "Blocked: the Royal Commission's site refused the connection on every attempt. A university-hosted copy exists but is not the original."
+    },
+    {
+      "title": "'Unprecedented injustice', report of the Dutch Childcare Allowance Parliamentary Inquiry Committee (2020), English translation",
+      "url": "https://www.houseofrepresentatives.nl/sites/default/files/atoms/files/verslag_pok_definitief-en-gb.docx.pdf",
+      "reason": "Read. Chapter 5 covers the slow road to compensation, but the English text never mentions an algorithm or risk model, so it cannot be cited for redress after unfair AI without importing facts from elsewhere."
+    },
+    {
+      "title": "Data Protection Act 2018, section 168: Compensation for contravention of the UK GDPR",
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/168",
+      "reason": "Read: confirms non-material damage includes distress. A one-line gloss on Article 82, already listed; left out to avoid padding."
+    },
+    {
+      "title": "NIST AI Risk Management Framework 1.0, MANAGE 4.1 and MEASURE 3.3",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "reason": "Read. Mentions appeal and override in a list of post-deployment plans; nothing on putting affected people right. UNESCO is the better comparator here."
+    },
+    {
+      "title": "Post Office Horizon IT Inquiry report, accessible web version",
+      "url": "https://www.postofficehorizoninquiry.org.uk/volume-1-post-office-horizon-it-inquirys-final-report-accessible-version",
+      "reason": "Landing page only (links to a PDF). The main PDF was read and cited instead."
+    }
+  ],
+  "brief_check": "One sentence needs qualifying, as the first-pass log anticipated. The brief says: 'None of the provisions read requires an organisation to seek out affected people unprompted; that is a commitment the board chooses.' For FCA-regulated firms that is no longer a free choice: DISP 1.3.3R requires them to identify and remedy systemic problems, DISP 1.3.6G says they should consider proactive redress including contacting customers who have not complained, and the Consumer Duty guidance (FG22/5 para 5.15) says a firm that finds it has caused harm must act to rectify it. The sentence stays true for unregulated businesses. Also: the brief's 'a tribunal can award compensation and recommend steps' is employment only; services cases go to the county court under section 119, which has no recommendation power. The 30-day figure and the white paper quotation were re-read today and stand."
+}

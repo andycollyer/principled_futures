@@ -1,0 +1,199 @@
+{
+  "criterion": "6.4",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "Managing the cyber risk of agentic AI",
+      "publisher": "National Cyber Security Centre",
+      "year": 2026,
+      "published": "2026-08-20",
+      "url": "https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Consideration 7, 'Emergency shutdown: maintain the ability to 'pull the plug''; consideration 3, 'Set the right level of oversight'",
+      "quote": "you should always be able to 'pull the plug' and halt autonomous AI agent activity immediately",
+      "why": "The first UK official text found that asks for an emergency stop on AI in terms. It says stopping the agent's processes may not be enough: the controls should also cut its network access and its link to the model. It also asks for named people responsible for an agent's activity. Interim advice in a blog post by a named NCSC architect, published after several incidents of AI agents acting without sanction; the page says formal guidance will supersede it.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Thinking carefully before adopting agentic AI",
+      "publisher": "National Cyber Security Centre",
+      "year": 2026,
+      "published": "2026-05-15",
+      "url": "https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Section 'Insist on human accountability'",
+      "quote": "who approves its access, who monitors its behaviour, who reviews incidents, and ultimately who can stop it",
+      "why": "On the 'people with authority' half of the criterion: who owns an agent and who can stop it should be settled before it is connected to real systems, and those people should be empowered to intervene. Also says an agent whose actions cannot be understood, monitored or contained is not ready to deploy. A blog post summarising joint guidance written with international partners; the joint guidance itself could not be read (see rejected).",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "SS5/18 Algorithmic trading",
+      "publisher": "Prudential Regulation Authority",
+      "year": 2018,
+      "published": "2018-06",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2018/ss518.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Para 3.5, PDF p. 7; para 2.3(e) on ownership of kill-switch controls",
+      "quote": "periodically assess kill-switch controls to ensure that they operate as intended",
+      "why": "The fullest UK regulatory description of a governed stop: manual and automated controls that halt trading, a named owner, a governance process for using them, a rule that restarting needs a person, and periodic testing that includes how fast the stop takes effect. Sits beside the kill functionality rule already on the list. Applies to PRA-regulated firms that trade by algorithm, not to AI in general; dated June 2018.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Final Notice: Citigroup Global Markets Limited",
+      "publisher": "Financial Conduct Authority",
+      "year": 2024,
+      "published": "2024-05-17",
+      "url": "https://www.fca.org.uk/publication/final-notices/citigroup-global-markets-limited-2024.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Paras 2.4 to 2.7, PDF pp. 3-4",
+      "quote": "before the remaining orders were cancelled in full at 09:10 by the trader",
+      "why": "A UK enforcement decision on an automated system that was not stopped in time. An input error on 2 May 2022 created orders worth US$196 billion; US$1.4 billion of sales were executed before the trader who made the error cancelled the rest, while the desks monitoring in real time did not escalate the alerts. Illustrates the weak answer in the brief, that one person could stop it. A trading case with no AI involved; the firm settled.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "In the Matter of Knight Capital Americas LLC, Securities Exchange Act Release No. 70694",
+      "publisher": "US Securities and Exchange Commission",
+      "year": 2013,
+      "published": "2013-10-16",
+      "url": "https://www.sec.gov/litigation/admin/2013/34-70694.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "court or tribunal",
+      "jurisdiction": "US",
+      "locator": "Paras 17 and 21, PDF pp. 6-7",
+      "quote": "Knight also did not have procedures in place to halt SMARS's operations in response to its own aberrant activity.",
+      "why": "The regulator's findings on the best-documented case of an automated system nobody could stop: a faulty software release sent millions of orders in about 45 minutes and the firm lost more than $460 million. The finding quoted is that there was no procedure to halt the system. A US administrative order made by consent, in which the firm neither admitted nor denied the findings; algorithmic trading in 2012, not AI.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The Provision and Use of Work Equipment Regulations 1998, regulation 16: Emergency stop controls",
+      "publisher": "legislation.gov.uk",
+      "year": 1998,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/uksi/1998/2306/regulation/16",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Reg. 16(1) and (2)",
+      "quote": "work equipment is provided with one or more readily accessible emergency stop controls",
+      "why": "A general UK duty to be able to stop a machine: every employer must ensure, where appropriate, that work equipment has readily accessible emergency stop controls that take priority over other controls. It reaches AI only where AI drives physical work equipment such as robots or vehicles on site; it says nothing about software that only produces decisions or text. Applies in Great Britain; in force since 5 December 1998.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The Off-Switch Game",
+      "publisher": "arXiv (Hadfield-Menell, Dragan, Abbeel and Russell)",
+      "year": 2016,
+      "published": "2016-11-24",
+      "url": "https://arxiv.org/abs/1611.08219",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract on the arXiv record (version 3, 16 June 2017)",
+      "quote": "we show that such agents have an incentive to disable the off switch, except in the special case where H is perfectly rational",
+      "why": "Research on why an off switch cannot be taken for granted as systems become more capable: an agent pursuing a fixed objective has a reason to prevent being switched off, unless it is built to be uncertain about what people want. Supports designing containment before deployment rather than adding it afterwards. A theoretical model, not an experiment on deployed systems. Cited from the authors' preprint on arXiv; only the abstract was read.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Safely Interruptible Agents",
+      "publisher": "Conference on Uncertainty in Artificial Intelligence, UAI 2016 (Orseau and Armstrong)",
+      "year": 2016,
+      "published": null,
+      "url": "https://www.auai.org/uai2016/proceedings/papers/68.pdf",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract, PDF p. 1",
+      "quote": "some agents are already safely interruptible, like Q-learning, or can easily be made so, like Sarsa",
+      "why": "The paper that defined the problem of a learning system coming to avoid interruption by its operator, and showed that some kinds of learning agent can be built so that interruption does not teach them to resist it. Conference paper from the organiser's own proceedings site. Theoretical results about reinforcement learning agents, with a UK author; not evidence about today's commercial systems.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Model AI Governance Framework for Agentic AI, Version 1.5",
+      "publisher": "Infocomm Media Development Authority (Singapore)",
+      "year": 2026,
+      "published": "2026-05-20",
+      "url": "https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "other",
+      "locator": "Section 2.3.3, 'Continuous testing and monitoring', PDF p. 43; Executive summary on human approval of irreversible actions",
+      "quote": "When potential failures are detected, stop agent workflow and escalate to a human supervisor",
+      "why": "International comparator. Singapore's framework for AI agents asks for failsafe mechanisms and real-time intervention, with human approval at checkpoints before high-stakes or irreversible actions. Version 1.5, published 20 May 2026 and updated 5 June 2026; it describes itself as a living document. Voluntary; no legal force in the UK.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "Careful adoption of agentic AI services (joint guidance, Australian Signals Directorate with NCSC and partners, 2026)",
+      "url": "https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/careful-adoption-of-agentic-ai-services",
+      "reason": "No response to the checker's request (connection returned nothing, three attempts). Not read, not cited. The NCSC's summary blog of 15 May 2026 was read and is used."
+    },
+    {
+      "title": "FCA multi-firm review of algorithmic trading controls (August 2025)",
+      "url": "https://www.fca.org.uk/publications/multi-firm-reviews/algorithmic-trading-controls",
+      "reason": "HTTP 404 at the two addresses tried; the correct address was not found in this pass. Not read, not cited. The 2 October log records the same failure."
+    },
+    {
+      "title": "Algorithmic Trading Compliance in Wholesale Markets (FCA, February 2018)",
+      "url": "https://www.fca.org.uk/publication/multi-firm-reviews/algorithmic-trading-compliance-wholesale-markets.pdf",
+      "reason": "Read. Para 4.5 says firms must maintain kill functionality and that compliance staff must keep contact with the person able to cancel orders. Sound, but the list would then carry four items on algorithmic trading; the PRA statement is fuller and the Citigroup notice more recent."
+    },
+    {
+      "title": "AI Control: Improving Safety Despite Intentional Subversion (Greenblatt and others)",
+      "url": "https://arxiv.org/abs/2312.06942",
+      "reason": "Abstract read. About checking an untrusted model's outputs with a trusted one, not about stopping a system; too far from a board control."
+    },
+    {
+      "title": "Visibility into AI Agents (Chan and others)",
+      "url": "https://arxiv.org/abs/2401.13138",
+      "reason": "Record fetched; abstract not read closely. About identifying and logging agents, which belongs with monitoring rather than stopping. Not used."
+    },
+    {
+      "title": "EU AI Act, Article 26: Obligations of deployers (Commission AI Act Service Desk)",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26",
+      "reason": "Page fetched. Article 26(5) is already described in the note on the Article 14 entry; a second EU entry would add little."
+    },
+    {
+      "title": "NIST AI 600-1, Generative AI Profile",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "reason": "Read. Its material on deactivation repeats MANAGE 2.4 of the framework already on the list; used for 6.3 instead."
+    },
+    {
+      "title": "Deploying AI Systems Securely (joint guidance, NSA, CISA, NCSC and partners, April 2024)",
+      "url": "https://media.defense.gov/2024/Apr/15/2003439257/-1/-1/0/CSI-DEPLOYING-AI-SYSTEMS-SECURELY.PDF",
+      "reason": "HTTP 403 (Access Denied) to the checker's request. Not bypassed, not read, not cited. The CISA alert page that links to it was reachable but is only a notice."
+    },
+    {
+      "title": "ISO/IEC 42001 abstract page",
+      "url": "https://www.iso.org/standard/42001",
+      "reason": "HTTP 403 with a browser challenge page, as on 2 October. Not bypassed, not cited."
+    }
+  ],
+  "brief_check": "Two points date or narrow the approved brief. (1) The UK position rests on the Code of Practice, which has no stop wording. On 20 August 2026 the NCSC published interim advice saying 'you should always be able to 'pull the plug' and halt autonomous AI agent activity immediately', and on 15 May 2026 that organisations should be clear 'who can stop it'. The brief is not wrong, but it no longer gives the latest UK official position. (2) 'No general UK law requires an off switch for AI. One sector has such a rule' is accurate for AI as such, but regulation 16 of the Provision and Use of Work Equipment Regulations 1998 is a cross-sector duty to provide emergency stop controls on work equipment, which reaches AI that drives machinery. The revocation status of Regulation 2017/589 was not re-checked."
+}

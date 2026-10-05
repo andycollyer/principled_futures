@@ -1,0 +1,252 @@
+{
+  "criterion": "4.1",
+  "current_count": 6,
+  "additions": [
+    {
+      "title": "OECD AI Principles: Transparency and explainability (Principle 1.3)",
+      "publisher": "OECD (OECD.AI Policy Observatory)",
+      "year": 2019,
+      "published": null,
+      "url": "https://oecd.ai/en/dashboards/ai-principles/P7",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Principle 1.3, second indent",
+      "quote": "to make stakeholders aware of their interactions with AI systems, including in the workplace",
+      "why": "International comparator. The intergovernmental principle asks AI actors to make people aware they are dealing with AI, and extends it to the workplace, which the UK consumer-law route does not. The OECD's own page for the principle; the legal instrument itself (OECD/LEGAL/0449) could not be read because its site needs JavaScript, and the page shows no adoption or revision date. A non-binding recommendation to governments, not a rule for firms. Year is that of first adoption, from background knowledge.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Recommendation on the Ethics of Artificial Intelligence",
+      "publisher": "UNESCO",
+      "year": 2021,
+      "published": "2021-11-23",
+      "url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Paragraph 127 (policy area on communication and information / human-AI interaction); see also paragraph 38, last sentence",
+      "quote": "users can easily identify whether they are interacting with a living being, or with an AI system imitating human or animal characteristics",
+      "why": "The global standard adopted by UNESCO's General Conference. Paragraph 127 adds a right to refuse the interaction and ask for a person; paragraph 38 says users should be told when a service is provided with AI. Addressed to states, non-binding, and written before generative chatbots were common.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Model Artificial Intelligence Governance Framework, Second Edition",
+      "publisher": "Infocomm Media Development Authority and Personal Data Protection Commission, Singapore",
+      "year": 2020,
+      "published": "2020-01-21",
+      "url": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/resource-for-organisation/ai/sgmodelaigovframework2.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "other",
+      "locator": "Paragraph 3.46, 'General disclosure' (p. 53)",
+      "quote": "an online portal may inform its users that they are interacting with an AI-powered chatbot and not a human customer service agent",
+      "why": "Comparator from Singapore: a regulator-issued, voluntary framework that treats disclosure of a chatbot as the basic example of general disclosure. Voluntary ('encouraged'), dated 2020 and not updated for generative AI in this edition.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "California Business and Professions Code, section 17941 (Bots)",
+      "publisher": "California Legislative Information",
+      "year": 2018,
+      "published": null,
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=17941",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "US",
+      "locator": "s.17941(a) and (b); added by Stats. 2018, Ch. 892 (SB 1001), operative 1 July 2019",
+      "quote": "A person using a bot shall not be liable under this section if the person discloses that it is a bot.",
+      "why": "The earliest statute found that makes disclosure the safe harbour. Narrower than it is often described: it bites only where a bot is used with intent to mislead in order to sell goods or services or influence a vote. Disclosure must be 'clear, conspicuous, and reasonably designed'. US state law, no effect in the UK.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "California Senate Bill No. 243 (Companion chatbots), Chapter 677, Statutes of 2025",
+      "publisher": "California Legislative Information",
+      "year": 2025,
+      "published": "2025-10-13",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "US",
+      "locator": "Section 1, adding Business and Professions Code s.22602(a)",
+      "quote": "an operator shall issue a clear and conspicuous notification indicating that the companion chatbot is artificially generated and not human",
+      "why": "A 2025 statute that uses a reasonable-person test close to the EU's 'obvious' exception: notification is owed where a reasonable person would be misled into thinking they are talking to a human. Covers companion chatbots only. Chaptered bill text; the operative date and any later amendment were not checked. US state law.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Playbook for the UK Government",
+      "publisher": "Government Digital Service",
+      "year": 2025,
+      "published": "2025-02-10",
+      "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Principle 7: You are open and collaborative",
+      "quote": "You should also clearly identify any automated response to the public.",
+      "why": "The UK government's own standard for public bodies, with example wording for a chatbot reply ('this response has been written by an automated AI chatbot'). Guidance for the public sector, not a duty on companies; useful as a benchmark for what 'exceeds the legal floor' looks like in the UK.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Digital Markets, Competition and Consumers Act 2024, section 226: Misleading actions",
+      "publisher": "legislation.gov.uk",
+      "year": 2024,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/section/226",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.226(1)(b)",
+      "quote": "an overall presentation which is likely to deceive the average consumer about a matter relating to a product, a trader or any other matter",
+      "why": "The second consumer-law route alongside misleading omissions: an agent presented so that people take it for a person can deceive by overall presentation even if nothing false is said. The section does not mention AI; applying it to chatbots is a reading of the CMA's guidance, not a court ruling.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Frontiers: Machines vs. Humans: The Impact of Artificial Intelligence Chatbot Disclosure on Customer Purchases",
+      "publisher": "Luo, Tong, Fang and Qu, Marketing Science 38(6)",
+      "year": 2019,
+      "published": "2019-09-20",
+      "url": "https://www.fox.temple.edu/sites/fox/files/Frontiers-Machines-versus-Humans-The-Impact-of-Artificial-Intelligence-Chatbot-Disclosure-on-Customer-Purchases.pdf",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "other",
+      "locator": "Abstract (p. 937)",
+      "quote": "reduces purchase rates by more than 79.7%",
+      "why": "Peer-reviewed field experiment on more than 6,200 customers: disclosing the chatbot before an outbound sales call cut purchases sharply. Shows the commercial incentive not to disclose, which is why a written standard is needed. A single firm's structured outbound sales calls, with 2019 technology; the copy read is hosted by the lead author's university (Temple), and the journal's own site was not read.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Trust me, I'm a bot: repercussions of chatbot disclosure in different service frontline settings",
+      "publisher": "Mozafari, Weiger and Hammerschmidt, Journal of Service Management",
+      "year": 2021,
+      "published": null,
+      "url": "https://www.uni-goettingen.de/de/document/download/0a0cb34d6c10c02ed20eca822f57db4f.pdf/10-1108_JOSM-10-2020-0380.pdf",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "other",
+      "locator": "Abstract, 'Findings'",
+      "quote": "Chatbot disclosure has a negative indirect effect on customer retention through mitigated trust for services with high criticality.",
+      "why": "Peer-reviewed. Two scenario experiments: disclosure costs trust where the service matters a great deal, but helps retention when the chatbot fails to solve the problem. Supports user-testing the wording and placement instead of assuming disclosure is neutral. Simulated interactions, not live customers; copy hosted by the authors' university (Goettingen).",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Large Language Models Pass the Turing Test",
+      "publisher": "Jones and Bergen, arXiv:2503.23674",
+      "year": 2025,
+      "published": "2025-03-31",
+      "url": "https://arxiv.org/abs/2503.23674",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "GPT-4.5 was judged to be the human 73% of the time",
+      "why": "Why silence now deceives: in pre-registered three-party tests, people picked a prompted language model as the human more often than the real person. Weakens any reliance on the interaction being 'obvious'. Preprint, not peer reviewed on the date checked; five-minute text chats in two participant pools.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {
+    "https://www.gov.uk/government/publications/complying-with-consumer-law-when-using-ai-agents/complying-with-consumer-law-when-using-ai-agents": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": "2026-03-09",
+      "quote": "you are responsible for what an AI agent does in the same way you are responsible for what an employee does"
+    },
+    "https://www.legislation.gov.uk/ukpga/2024/13/section/227": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "information that the average consumer needs to take an informed transactional decision"
+    },
+    "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50": {
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "published": null,
+      "quote": "the natural persons concerned are informed that they are interacting with an AI system"
+    },
+    "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems": {
+      "type": "regulator guidance",
+      "jurisdiction": "EU",
+      "published": "2026-07-20",
+      "quote": "These transparency obligations apply from 2 August 2026."
+    },
+    "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach/white-paper": {
+      "type": "official report",
+      "jurisdiction": "UK",
+      "published": "2023-08-03",
+      "quote": "information on how, when, and for which purposes an AI system is being used"
+    },
+    "https://www.aisi.gov.uk/blog/should-ai-systems-behave-like-people": {
+      "type": "official report",
+      "jurisdiction": "UK",
+      "published": "2024-09-25",
+      "quote": "68% agreed that it should be made clear whether the agent was human or artificial, whereas only 16% disagreed"
+    }
+  },
+  "rejected": [
+    {
+      "title": "OECD Recommendation of the Council on Artificial Intelligence (OECD/LEGAL/0449)",
+      "url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449",
+      "reason": "Page is built by JavaScript; the raw text is empty. oecd.org topic page returned a bot check (HTTP 403). The OECD.AI page for Principle 1.3 was read and used instead."
+    },
+    {
+      "title": "Council of Europe Framework Convention on Artificial Intelligence (CETS 225), Article 15(2)",
+      "url": "https://rm.coe.int/1680afae3c",
+      "reason": "Blocked (HTTP 403, Cloudflare) on rm.coe.int and on two coe.int pages. Not read, not cited."
+    },
+    {
+      "title": "Utah Artificial Intelligence Policy Act (Utah Code Title 13, Chapter 75)",
+      "url": "https://le.utah.gov/xcode/Title13/Chapter75/13-75-S103.html",
+      "reason": "Request rejected by the site's firewall. Not read."
+    },
+    {
+      "title": "Colorado SB24-205 (Consumer Protections for Artificial Intelligence)",
+      "url": "https://leg.colorado.gov/bills/sb24-205",
+      "reason": "HTTP 406 to an automated request. Not read."
+    },
+    {
+      "title": "Voluntary AI Safety Standard (Australia), guardrail 6",
+      "url": "https://www.industry.gov.au/publications/voluntary-ai-safety-standard",
+      "reason": "No response (connection closed) on three addresses on industry.gov.au. Not read."
+    },
+    {
+      "title": "People cannot distinguish GPT-4 from a human in a Turing test (Jones and Bergen, 2024)",
+      "url": "https://arxiv.org/abs/2405.08007",
+      "reason": "Read. Same authors and finding as the 2025 paper, which is the stronger three-party test; one is enough."
+    },
+    {
+      "title": "Luo et al. (2019), SSRN copy",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3435635",
+      "reason": "Bot check (HTTP 403). The copy on the lead author's university site was read instead."
+    },
+    {
+      "title": "Ofcom, Open letter to UK online service providers regarding Generative AI and chatbots",
+      "url": "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/open-letter-to-uk-online-service-providers-regarding-generative-ai-and-chatbots",
+      "reason": "Read. About which chatbots fall under the Online Safety Act; nothing on telling users they are dealing with AI."
+    },
+    {
+      "title": "FCA, AI Update (April 2024)",
+      "url": "https://www.fca.org.uk/publication/corporate/ai-update.pdf",
+      "reason": "Read. Mentions chatbots only as a way to help customers understand products; nothing on disclosing AI interaction. Used for 4.3 and 4.4 instead."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. One reading-list note is dated: the Commission's Article 50 page no longer carries a 'not yet updated' notice; it now says the text is the EUR-Lex consolidated version as at 27 July 2026, with only paragraph 7 marked AMENDED. The guidelines landing page says the Commission 'adopted' the guidelines; whether formal adoption has now happened was not confirmed."
+}

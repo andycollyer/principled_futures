@@ -1,0 +1,162 @@
+{
+  "criterion": "5.2",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "Data Protection Act 2018, section 50C: Safeguards for automated decision-making",
+      "publisher": "legislation.gov.uk",
+      "year": 2026,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/50C",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.50C(1), (2)(a)-(d) and (3)-(4); note F1",
+      "quote": "the controller reconsiders the decision as soon as reasonably practicable",
+      "why": "The law enforcement counterpart of UK GDPR Article 22C: the same four safeguards, with one exemption that itself requires a working process, namely prompt reconsideration with meaningful human involvement. Shows that even where the safeguards are disapplied the statute expects an operating review route. Limits: applies only to competent authorities under Part 3. Substituted by the Data (Use and Access) Act 2025 s.80(3), fully in force 5 February 2026.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Algorithmic Transparency Recording Standard: guidance for public sector bodies",
+      "publisher": "Government Digital Service",
+      "year": 2025,
+      "published": "8 May 2025",
+      "url": "https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard/algorithmic-transparency-recording-standard-guidance-for-public-sector-bodies",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Section on completing Tier 2, 'What information is relevant for the appeals and review field?'",
+      "quote": "You should consider both the outputs of the algorithmic tool itself and whether they can be challenged or appealed",
+      "why": "The government standard requires each published record to say how a tool's outputs, and the wider process, can be challenged or appealed, with a link to the route. A public, checkable statement of the contest safeguard per system. Limits: government policy, not statute; mandatory only for central government bodies in scope; the passage still quotes the old Article 22, not Articles 22A to 22D. Used by other briefs for different passages.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology",
+      "year": 2023,
+      "published": "January 2023",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "US",
+      "locator": "Table 3, MEASURE 3.3 (p. 30); see also Table 4, MANAGE 4.1 (p. 32)",
+      "quote": "Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established and integrated into AI system evaluation metrics.",
+      "why": "International comparator. The nearest published standard to the criterion's upper levels: appeal routes are not only to exist but to be measured and fed into how the system is evaluated. MANAGE 4.1 adds 'appeal and override' to post-deployment monitoring plans. Limits: voluntary United States framework, not UK law; it does not set out the four UK statutory safeguards.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Article 86: Right to explanation of individual decision-making",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2024,
+      "published": null,
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-86",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Art. 86(1) to (3)",
+      "quote": "clear and meaningful explanations of the role of the AI system in the decision-making procedure and the main elements of the decision taken",
+      "why": "A separate EU safeguard that reaches UK firms deploying high-risk systems in the EU: a person significantly affected by a decision based on such a system can demand an explanation from the deployer. It applies whether or not a human was involved, so it is wider than the UK 'solely automated' trigger. Limits: this is the Commission's copy, stated to be based on the EUR-Lex consolidated version as at 27 July 2026; the article carries no NEW or AMENDED marker; no application date is taken from it. Not UK law.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Ensuring statistical models command public confidence: learning lessons from the approach to developing models for awarding grades in the UK in 2020",
+      "publisher": "Office for Statistics Regulation",
+      "year": 2021,
+      "published": "2021-03-02",
+      "url": "https://osr.statisticsauthority.gov.uk/publication/ensuring-statistical-models-command-public-confidence/",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Executive summary, findings on quality assurance and on meeting the need; the full report is a download from the same page",
+      "quote": "There was limited human review of outputs of the models at an individual level prior to results day.",
+      "why": "Official review of the 2020 exam grading models. The regulators relied on an appeals process to catch individual errors in place of human review before results were issued; the review found the limits of the models and the role of appeals were not well communicated, and recommends being clear on the timing and grounds for appeal. A UK case of a safeguard that existed on paper and did not hold. Limits: a statistics regulator's review against the Code of Practice for Statistics; it expressly does not judge compliance with data protection law.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The Right to Contest AI",
+      "publisher": "Margot E. Kaminski and Jennifer M. Urban, Columbia Law Review vol. 121 no. 7",
+      "year": 2021,
+      "published": null,
+      "url": "https://columbialawreview.org/content/the-right-to-contest-ai/",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract and Introduction on the journal's own page",
+      "quote": "This Article establishes four contestation archetypes that should serve as the bases of discussions of contestation",
+      "why": "The fullest academic treatment found of what a working right to contest needs. It sorts contest schemes by whether they rest on rules or standards and on procedure or substantive rights, and examines the European right in depth. Useful for judging whether a contest route is real. Limits: a United States law review article (student-edited, not peer reviewed in the scientific sense), written for a US audience before the UK's 2025 changes; argument, not measurement.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Conceptualising Contestability: Perspectives on Contesting Algorithmic Decisions",
+      "publisher": "Henrietta Lyons, Eduardo Velloso and Tim Miller, Proceedings of the ACM on Human-Computer Interaction (CSCW), authors' copy on arXiv",
+      "year": 2021,
+      "published": "2021-02-23",
+      "url": "https://arxiv.org/abs/2103.01774",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "other",
+      "locator": "Abstract",
+      "quote": "while the nature of contestability is disputed, it is seen as a way to protect individuals",
+      "why": "Peer-reviewed analysis of submissions to Australia's proposed AI ethics framework. Finds little agreement on what contestability requires in practice, and that respondents model it on how human decisions are challenged. Supports the point that naming a right does not specify a process. Limits: Australian policy submissions, qualitative; only the abstract is on the linked page; no evidence on how often safeguards are used or how well they work.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "CJEU, Case C-203/22 Dun & Bradstreet Austria (2025), on explanation and the right to contest",
+      "url": "https://curia.europa.eu/juris/document/document.jsf?docid=280426&doclang=EN",
+      "reason": "Not attempted separately: Curia returns a script shell with no judgment text and EUR-Lex returns HTTP 202 with an empty body (tested on Case C-634/21 today). Not read, not cited."
+    },
+    {
+      "title": "Directive on Automated Decision-Making (Treasury Board of Canada Secretariat)",
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+      "reason": "Blocked: HTTP 403 to a plain request with the source-check user agent. Not read, not cited. Would have been the international comparator."
+    },
+    {
+      "title": "Report of the Royal Commission into the Robodebt Scheme (Australia, 2023)",
+      "url": "https://robodebt.royalcommission.gov.au/publications/report",
+      "reason": "Blocked: connection returned no response (HTTP 0) on the report page and on the full-report PDF. Not read, not cited."
+    },
+    {
+      "title": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS 225)",
+      "url": "https://rm.coe.int/1680afae3c",
+      "reason": "Blocked: HTTP 403. Not read, not cited."
+    },
+    {
+      "title": "Commonwealth Ombudsman (Australia), Automated Decision-Making Better Practice Guide (2025)",
+      "url": "https://www.ombudsman.gov.au/__data/assets/pdf_file/0025/317437/Automated-Decision-Making-Better-Practice-Guide-March-2025.pdf",
+      "reason": "Blocked: HTTP 403 (browser challenge). Not read, not cited."
+    },
+    {
+      "title": "Landau and others, Challenging the Machine: Contestability in Government AI Systems (2024)",
+      "url": "https://arxiv.org/abs/2406.10430",
+      "reason": "Read (abstract). A United States workshop report held under a modified Chatham House rule; not peer reviewed and about US federal agencies. Two stronger research items kept instead."
+    },
+    {
+      "title": "Lyons, Velloso and Miller, Fair and Responsible AI: A Focus on the Ability to Contest",
+      "url": "https://arxiv.org/abs/2102.10787",
+      "reason": "Read (abstract). Short position paper by the same authors as the item kept; adds nothing further."
+    },
+    {
+      "title": "Data (Use and Access) Act 2025: Explanatory Notes, para 642",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/pdfs/ukpgaen_20250018_en.pdf",
+      "reason": "Read. Relevant (information must help people exercise the rights to contest and obtain human intervention) but the document is used for the scoping criterion; not repeated here."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the approved brief. No measured rate of safeguard requests, overturns or turnaround was found in any source, so the brief's statutory-maximum figure remains the only defensible one. The public-sector transparency guidance still quotes the old Article 22."
+}

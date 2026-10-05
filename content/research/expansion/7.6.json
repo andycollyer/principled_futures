@@ -1,0 +1,178 @@
+{
+  "criterion": "7.6",
+  "current_count": 9,
+  "additions": [
+    {
+      "title": "The Wrong Kind of AI? Artificial Intelligence and the Future of Labor Demand (IZA Discussion Paper No. 12292)",
+      "publisher": "Daron Acemoglu and Pascual Restrepo, IZA Institute of Labor Economics",
+      "year": 2019,
+      "published": "2019-04",
+      "url": "https://docs.iza.org/dp12292.pdf",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract (PDF page 3)",
+      "quote": "Recent technological change has been biased towards automation, with insufficient focus on creating new tasks where labor can be productively employed.",
+      "why": "The economic argument behind an augmentation-first default: AI can either automate existing tasks or create new ones in which people are productive, and the authors argue the balance has tilted too far to automation, with stagnating labour demand and lower productivity growth as the result. Limits: a discussion paper (the series says papers 'often represent preliminary work'); an argument paper written in 2019, before generative AI; not a study of firms' strategies.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "New Frontiers: The Origins and Content of New Work, 1940-2018 (NBER Working Paper 30389)",
+      "publisher": "David Autor, Caroline Chin, Anna Salomons and Bryan Seegmiller, National Bureau of Economic Research",
+      "year": 2022,
+      "published": "2022-08",
+      "url": "https://www.nber.org/system/files/working_papers/w30389/w30389.pdf",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract (PDF page 2)",
+      "quote": "the demand-eroding effects of automation innovations have intensified in the last four decades while the demand-increasing effects of augmentation innovations have not",
+      "why": "The strongest empirical base found for the distinction the criterion rests on: over eight decades of United States data, innovations that augment an occupation's output raise demand for its labour and generate new kinds of work, while innovations that automate its tasks depress demand. Limits: United States census and patent data; the working paper states it has not been peer reviewed (a later journal version was not read); occupation-level, so it does not show that an individual firm choosing augmentation does better.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Can we Have Pro-Worker AI? Choosing a path of machines in service of minds (policy memo)",
+      "publisher": "Daron Acemoglu, David Autor and Simon Johnson, MIT Shaping the Future of Work Initiative",
+      "year": 2023,
+      "published": "2023-09-19",
+      "url": "https://shapingwork.mit.edu/wp-content/uploads/2023/09/Pro-Worker-AI-Policy-Memo.pdf",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Summary, page 1 (PDF page 2)",
+      "quote": "Choosing the human-complementary path is feasible but will require changes in the direction of technological innovation, as well as in corporate norms and behavior.",
+      "why": "States the criterion's premise directly for generative AI: the path is a choice, and making AI complement workers needs changes in corporate norms as well as in technology. Useful for a board because it describes what 'human-complementary' use looks like in practice (tools that let more people do expert work). Limits: a policy memo by three economists, not peer reviewed; its recommendations are for United States federal policy; argument, not new evidence. The summary's text layer has irregular spacing in places.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Large Language Models, Small Labor Market Effects (Becker Friedman Institute Working Paper No. 2025-56)",
+      "publisher": "Anders Humlum and Emilie Vestergaard, University of Chicago, Becker Friedman Institute",
+      "year": 2025,
+      "published": "2025-04-15",
+      "url": "https://bfi.uchicago.edu/wp-content/uploads/2025/04/BFI_WP_2025-56-1.pdf",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "other",
+      "locator": "Abstract (PDF page 2); Introduction for the share of workers with new tasks",
+      "quote": "AI chatbots have had no significant impact on earnings or recorded hours in any occupation",
+      "why": "The best measured evidence found on what AI chatbots have done to jobs so far: two surveys of 25,000 workers in 7,000 Danish workplaces linked to administrative records show no effect on earnings or hours, average time savings of 2.8%, and new job tasks created for 8.4% of workers. It supports measuring redesign and new tasks, and cautions against business cases built on headcount savings. Limits: Denmark; 11 exposed occupations; surveys in late 2023 and 2024; working paper, not peer reviewed.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Transformed by AI: How generative artificial intelligence could affect work in the UK - and how to manage it",
+      "publisher": "Carsten Jung and Bhargav Srinivasa Desikan, Institute for Public Policy Research",
+      "year": 2024,
+      "published": "2024-03",
+      "url": "https://ippr-org.files.svdcdn.com/production/Downloads/Transformed_by_AI_March24_2024-03-27-121003_kxis.pdf",
+      "access": "free",
+      "tier": "professional",
+      "type": "professional",
+      "jurisdiction": "UK",
+      "locator": "Summary, page 7 (PDF page 7); chapter 4, section 4.1",
+      "quote": "In our 'full augmentation' scenario we show that there can be zero job displacement.",
+      "why": "A UK analysis that sets augmentation and displacement side by side: assessing 22,000 tasks, it models a full augmentation scenario (no jobs lost, 13 per cent added to GDP), a full displacement scenario (8 million jobs lost, no GDP gain) and a central case between them. It gives a board UK numbers for why the default matters. Limits: think-tank scenario modelling, which the authors say are 'not predictions'; not peer reviewed; economy-wide, not firm-level; published March 2024.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Companies Act 2006, section 414CB: Contents of non-financial and sustainability information statement",
+      "publisher": "legislation.gov.uk",
+      "year": 2006,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/414CB",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.414CB(1)(b) and (2)(b) to (e)",
+      "quote": "a description of the outcome of those policies",
+      "why": "The binding UK reporting rule nearest to 'measured and reported': companies within section 414CA must report on the company's employees in the strategic report, including the policies pursued, the outcome of those policies, the principal risks and the non-financial key performance indicators. An augmentation-first policy and its results would sit here. Limits: applies only to the kinds of company described in section 414CA(1), which was not read in this pass; it does not mention AI, automation or job design; a company may explain that it has no policy.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "OECD AI Principles, Principle 2.4: Building human capacity and preparing for labour market transformation",
+      "publisher": "Organisation for Economic Co-operation and Development (OECD.AI)",
+      "year": 2024,
+      "published": null,
+      "url": "https://oecd.ai/en/dashboards/ai-principles/P13",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Rationale for this principle, third paragraph",
+      "quote": "to be able to leverage AI in their areas of expertise, so that AI augments human capabilities",
+      "why": "International comparator. The OECD's intergovernmental AI standard treats augmentation as the aim: skills policy should let workers use AI in their own fields 'so that AI augments human capabilities', and governments should promote responsible use of AI at work to improve job quality. Limits: a recommendation addressed to governments, not a duty on firms; non-binding; the page carries no date (the OECD's principles page says they were adopted in 2019 and updated in May 2024).",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Managing technology that manages people: November 2025. A Social Partnership approach to algorithmic management systems in the Welsh public sector",
+      "publisher": "Welsh Government (guidance agreed by the Workforce Partnership Council)",
+      "year": 2025,
+      "published": "2025-11-24",
+      "url": "https://www.gov.wales/managing-technology-manages-people-november-2025-html",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Section 'General principles', principle 5 (Jobs); principle 4 (Building capability)",
+      "quote": "A commitment to protecting jobs, creating jobs, and investing in the workforce.",
+      "why": "A UK example of a stated augmentation-first position: the Welsh Government, devolved public sector employers and trade unions have agreed, as a general principle for any algorithmic management system, a commitment to protect and create jobs and invest in the workforce. It is what a 'stated policy' at the Defined level can look like. Limits: devolved public sector in Wales only; guidance, not law; covers systems used to manage workers, not all AI; it sets no metrics.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "IMF Staff Discussion Note SDN/2024/001, Gen-AI: Artificial Intelligence and the Future of Work",
+      "url": "https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2024/01/14/Gen-AI-Artificial-Intelligence-and-the-Future-of-Work-542379",
+      "reason": "HTTP 403 (as in the first pass). Not read."
+    },
+    {
+      "title": "Singapore, A Guide to Job Redesign in the Age of AI (IMDA, PDPC and partners)",
+      "url": "https://file.go.gov.sg/ai-guide-to-jd.pdf",
+      "reason": "HTTP 403 at file.go.gov.sg; the IMDA address tried returned a short shell page with no document. Not read. It would have been the closest comparator; the OECD principle is used instead."
+    },
+    {
+      "title": "Bank of England, Monthly Decision Maker Panel data, January 2026",
+      "url": "https://www.bankofengland.co.uk/decision-maker-panel/2026/january-2026",
+      "reason": "Read. The release page reports prices, wages and employment only and says nothing about AI, so it cannot support the ONS reference to it. Not added."
+    },
+    {
+      "title": "ILO Working Paper 140, Generative AI and Jobs: A Refined Global Index of Occupational Exposure (2025)",
+      "url": "https://www.ilo.org/sites/default/files/2025-05/WP140_web.pdf",
+      "reason": "Abstract read ('Globally, one in four workers are in an occupation with some GenAI exposure'). It updates the exposure index in the 2023 paper already on the list and says nothing about firms' strategies; adding it would be padding."
+    },
+    {
+      "title": "David Autor, Applying AI to Rebuild Middle Class Jobs (NBER Working Paper 32140)",
+      "url": "https://www.nber.org/system/files/working_papers/w32140/w32140.pdf",
+      "reason": "Abstract read. An essay making the same argument as the Acemoglu, Autor and Johnson memo; one of the two is enough."
+    },
+    {
+      "title": "Large and Medium-sized Companies and Groups (Accounts and Reports) Regulations 2008, Schedule 7 Part 4 (statement of engagement with employees)",
+      "url": "https://www.legislation.gov.uk/uksi/2008/410/schedule/7",
+      "reason": "Read. Paragraphs 11 to 11C are shown as omitted in the current text, so there is no provision to cite. Section 414CB of the Companies Act 2006 used instead."
+    },
+    {
+      "title": "GRI 402: Labor/Management Relations 2016",
+      "url": "https://www.globalreporting.org/publications/documents/english/gri-402-labor-management-relations-2016/",
+      "reason": "HTTP 404 at the address tried. Not read."
+    },
+    {
+      "title": "Acas guidance on avoiding compulsory redundancies",
+      "url": "https://www.acas.org.uk/manage-staff-redundancies/avoid-compulsory-redundancies",
+      "reason": "HTTP 404 at the address tried. Not read."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. The Danish study (April 2025) agrees with the ONS finding the brief relies on: no measurable effect of AI chatbots on earnings or hours so far. No evidence was found, again, that augmentation-first firms outperform or recruit better; the 'talent asset' level remains unsupported by any source."
+}

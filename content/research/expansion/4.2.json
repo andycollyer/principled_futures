@@ -1,0 +1,242 @@
+{
+  "criterion": "4.2",
+  "current_count": 6,
+  "additions": [
+    {
+      "title": "Guidelines on the implementation of the transparency obligations for certain AI systems under Article 50 of the AI Act, C(2026) 5054 final, Annex",
+      "publisher": "European Commission",
+      "year": 2026,
+      "published": "2026-07-20",
+      "url": "https://ec.europa.eu/newsroom/dae/redirection/document/131215",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "EU",
+      "locator": "Section 4.2, paragraph 70; marking obligation defined at 4.2.1, paragraph 71",
+      "quote": "For every marking solution deployed, providers should ensure that corresponding means for detection are available",
+      "why": "The Commission's reading of the marking duty: two linked elements, marking and detectability, and marking without a way to detect it 'will not suffice'. Supports 'detection capability maintained' in the top level. Non-binding; content approved 20 July 2026 with formal adoption to follow once all language versions exist. The PDF itself, linked from the Commission's library page.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "California Senate Bill No. 942 (California AI Transparency Act), Chapter 291, Statutes of 2024",
+      "publisher": "California Legislative Information",
+      "year": 2024,
+      "published": "2024-09-19",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB942",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "US",
+      "locator": "Section 1, adding Business and Professions Code s.22757.3(b)",
+      "quote": "A covered provider shall include a latent disclosure in AI-generated image, video, or audio content",
+      "why": "Comparator: a US state statute that requires a machine-readable ('latent') mark, an optional visible one (s.22757.3(a)) and a free public detection tool (s.22757.2). Text is not among the content types listed. Applies only to generative systems with over 1,000,000 monthly users. Chaptered text as enacted in 2024; later amendments and the operative date were not checked. US state law.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Reducing Risks Posed by Synthetic Content: An Overview of Technical Approaches to Digital Content Transparency (NIST AI 100-4)",
+      "publisher": "National Institute of Standards and Technology",
+      "year": 2024,
+      "published": "2024-11",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "US",
+      "locator": "Section 7, Conclusion",
+      "quote": "none of these techniques can be considered as a comprehensive solution; the value of any given technique is use-case and context specific",
+      "why": "The fullest public technical survey of watermarking, metadata and detection, with the known ways each fails (compression, cropping, paraphrase). Evidence for layered marking and for testing robustness instead of trusting a supplier. A technical overview, not a standard or a rule; US federal agency.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Content Credentials: C2PA Technical Specification, version 2.4",
+      "publisher": "Coalition for Content Provenance and Authenticity (C2PA)",
+      "year": 2026,
+      "published": "2026-04",
+      "url": "https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html",
+      "access": "free",
+      "tier": "professional",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Section 2.3.2, 'Claim' (glossary); version history at 5.3.1",
+      "quote": "A digitally signed and tamper-evident data structure that references a set of assertions",
+      "why": "The open industry specification for signed provenance metadata, the kind of 'digitally signed metadata' the EU code asks for as one layer. Free to read. An industry consortium specification, not a formal national or international standard on the page read; the research log records that the EU code does not name it. Version 2.4 (April 2026) was the latest found; check for a newer one.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Public content provenance for organisations",
+      "publisher": "National Cyber Security Centre and Canadian Centre for Cyber Security",
+      "year": 2025,
+      "published": "2025-12-04",
+      "url": "https://www.ncsc.gov.uk/files/public-content-provenance-for-organisations.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Section 3.2.5, 'Digital watermarking' (p. 15)",
+      "quote": "Digital watermarking is not a provenance mechanism but is included here because it is often considered for addressing digital trust challenges.",
+      "why": "The UK's technical authority on what provenance tools can and cannot prove. Useful corrective: a watermark shows a signal is present, not where content came from, so it complements signed metadata and does not replace it. A primer for security and communications teams, written for organisations proving their own content is genuine, not for marking AI output; no duty attached. Date taken from the NCSC collection page.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Playbook for the UK Government",
+      "publisher": "Government Digital Service",
+      "year": 2025,
+      "published": "2025-02-10",
+      "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Principle 7 (You are open and collaborative), practical recommendations",
+      "quote": "Clearly signpost when AI has been used to create content, is interacting with members of the public, or is used in decision-making processes",
+      "why": "The nearest thing to a UK labelling expectation: government tells its own departments to signpost AI-made content. Visible signposting only; says nothing about machine-readable marks. Public-sector guidance, not a duty on companies.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "A Watermark for Large Language Models",
+      "publisher": "Kirchenbauer, Geiping, Wen, Katz, Miers and Goldstein, arXiv:2301.10226 (ICML 2023)",
+      "year": 2023,
+      "published": "2023-01-24",
+      "url": "https://arxiv.org/abs/2301.10226",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "embedding signals into generated text that are invisible to humans but algorithmically detectable from a short span of tokens",
+      "why": "The paper that set out how text watermarking works in practice, and the basis for much of what the EU code calls an imperceptible watermark for text. Peer reviewed at a conference (ICML 2023); the arXiv copy is the authors' own. Tests on one model family; robustness is discussed, not guaranteed.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Scalable watermarking for identifying large language model outputs",
+      "publisher": "Dathathri et al., Nature 634, 818-823",
+      "year": 2024,
+      "published": "2024-10-23",
+      "url": "https://www.nature.com/articles/s41586-024-08025-4",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "Watermarking can help identify synthetic text and limit accidental or deliberate misuse",
+      "why": "Peer-reviewed, open access. Reports a production-ready text watermark that, on the authors' evaluation, preserves text quality, so 'technically feasible' is no longer hypothetical for text. The paper describes its authors' own system; the abstract itself notes watermarking had not been adopted in production before.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Can AI-Generated Text be Reliably Detected?",
+      "publisher": "Sadasivan, Kumar, Balasubramanian, Wang and Feizi, arXiv:2303.11156",
+      "year": 2023,
+      "published": "2023-03-17",
+      "url": "https://arxiv.org/abs/2303.11156",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "while our recursive paraphrasing method can significantly reduce detection rates, it only slightly degrades text quality in many cases",
+      "why": "The counter-evidence a board should hear: paraphrasing defeats several text detectors, watermark-based ones included, and human-written text can be made to look machine-made. Supports testing robustness and not treating detection as proof. Preprint (version 4, January 2025); attack results on passages of about 300 tokens.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Invisible Image Watermarks Are Provably Removable Using Generative AI",
+      "publisher": "Zhao et al., arXiv:2306.01953 (NeurIPS 2024)",
+      "year": 2023,
+      "published": "2023-06-02",
+      "url": "https://arxiv.org/abs/2306.01953",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "we demonstrate that pixel-level invisible watermarks are vulnerable to this regeneration attack",
+      "why": "Peer reviewed at a conference (NeurIPS 2024). Shows with proofs and tests on four schemes that pixel-level image watermarks can be removed by adding noise and regenerating the image; consistent with Ofcom's cropping finding. Says watermarks that keep the image semantically similar may resist. Laboratory attacks, not measured misuse.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {
+    "https://ec.europa.eu/newsroom/dae/redirection/document/129555": {
+      "type": "code or standard",
+      "jurisdiction": "EU",
+      "published": null,
+      "quote": "relying on fingerprinting or logging alone is not considered sufficient"
+    },
+    "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50": {
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "published": null,
+      "quote": "shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated"
+    },
+    "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111": {
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "published": null,
+      "quote": "shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026"
+    },
+    "https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/deepfake-defences-2/deepfake-defences-2---the-attribution-toolkit.pdf?v=402066": {
+      "type": "official report",
+      "jurisdiction": "UK",
+      "published": "2025-07-11",
+      "quote": "Attribution measures should be used in combination to tackle the greatest range of deepfakes."
+    },
+    "https://www.gov.uk/government/publications/report-and-impact-assessment-on-copyright-and-artificial-intelligence/report-on-copyright-and-artificial-intelligence": {
+      "type": "official report",
+      "jurisdiction": "UK",
+      "published": "2026-03-18",
+      "quote": "some developers and service providers provide labelling services and tools in the UK"
+    },
+    "https://www.asa.org.uk/news/disclosure-of-ai-in-advertising-striking-the-balance-between-creativity-and-responsibility.html": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": "2025-05-29",
+      "quote": "There is no blanket legal requirement in the UK to disclose the use of AI in ads"
+    }
+  },
+  "rejected": [
+    {
+      "title": "Hiroshima Process International Code of Conduct for Organizations Developing Advanced AI Systems (G7), action 7",
+      "url": "https://www.mofa.go.jp/files/100573473.pdf",
+      "reason": "Access denied (HTTP 403). Not read."
+    },
+    {
+      "title": "Content Credentials: Strengthening Multimedia Integrity in the Generative AI Era (NSA, ASD, CCCS, NCSC-UK)",
+      "url": "https://media.defense.gov/2025/Jan/29/2003634788/-1/-1/0/CSI-CONTENT-CREDENTIALS.PDF",
+      "reason": "Access denied (HTTP 403). Not read. The NCSC and Canadian primer was read instead."
+    },
+    {
+      "title": "Ofcom, Deepfake Defences: Mitigating the Harms of Deceptive Deepfakes (23 July 2024)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/discussion-papers/deepfake-defences/deepfake-defences.pdf",
+      "reason": "Read. Describes watermarks, metadata and labels in general terms; everything it says on marking is covered in more depth by Deepfake Defences 2, already on the list."
+    },
+    {
+      "title": "Watermarks in the Sand: Impossibility of Strong Watermarking for Generative Models (Zhang et al.)",
+      "url": "https://arxiv.org/abs/2311.04378",
+      "reason": "Read (abstract). A theoretical impossibility result under stated assumptions; the two attack papers kept make the same point with tests. Left out to avoid padding."
+    },
+    {
+      "title": "ISO/IEC standards page tried for explainability and provenance work",
+      "url": "https://www.iso.org/standard/82148.html",
+      "reason": "Bot check (HTTP 403). No ISO page could be read, so no ISO standard is cited."
+    },
+    {
+      "title": "GCS generative AI policy; AI Insights: synthetic media (gov.uk)",
+      "url": "https://gcs.civilservice.gov.uk/publications/gcs-generative-ai-policy/",
+      "reason": "Guessed addresses returned 404. Not found, not read."
+    },
+    {
+      "title": "Generative AI Framework for HMG",
+      "url": "https://www.gov.uk/government/publications/generative-ai-framework-for-hmg/generative-ai-framework-for-hmg-html",
+      "reason": "Marked withdrawn on GOV.UK; replaced by the AI Playbook, which was used."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. The California statute and the Commission guidelines both pair marking with a detection tool, which the brief's 'what good looks like' does not mention. Two reading-list notes are dated: the Commission's Article 50 and Article 111 pages now state they show the EUR-Lex consolidated text as at 27 July 2026, not a 'not yet updated' copy."
+}

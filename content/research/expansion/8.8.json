@@ -1,0 +1,178 @@
+{
+  "criterion": "8.8",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "Procurement Act 2023, section 23: Award criteria",
+      "publisher": "legislation.gov.uk",
+      "year": 2023,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2023/54/section/23",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.23(2)(a) to (d), (3) and (5)",
+      "quote": "relate to the subject-matter of the contract",
+      "why": "The binding rule on what a public buyer may score. Criteria must relate to what is being bought and be proportionate, so a supplier's general sustainability record earns marks only where the buyer has tied it to the contract. This is the legal reason readiness is more often an entry ticket than a scoring advantage. Limits: in force for procurements begun on or after 24 February 2025; public contracts only.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Public Services (Social Value) Act 2012, section 1: Contracts of relevant authorities",
+      "publisher": "legislation.gov.uk",
+      "year": 2012,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2012/3/section/1",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.1(3)(a) and (b)",
+      "quote": "how what is proposed to be procured might improve the economic, social and environmental well-being of the relevant area",
+      "why": "The statutory root of social value in public buying, reaching beyond central government to local authorities and the health service: the buyer must consider environmental well-being before it starts. Limits: a duty to consider, not to score; applies to public services contracts and frameworks; now cross-refers to the Procurement Act 2023.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "PPN 016: Carbon reduction contract schedule",
+      "publisher": "Cabinet Office",
+      "year": 2025,
+      "published": "2025-02-17",
+      "url": "https://www.gov.uk/government/publications/ppn-016-carbon-reduction-contract-schedule/ppn-016-carbon-reduction-contract-schedule-html",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Paragraphs 1 to 6 (issue, scope and timing); the accompanying guidance note describes contract-specific emissions reporting and reduction targets",
+      "quote": "included, where relevant to the subject matter and proportionate, in government contracts",
+      "why": "Shows what follows a win: standard contract terms under which a supplier reports emissions for the contract and may be set reduction targets. Evidence used to win work becomes a contractual obligation, so it must be true and maintainable. Limits: applies to central government bodies; optional terms, used where relevant and proportionate; first issued March 2024, updated February 2025.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The Business Protection from Misleading Marketing Regulations 2008, regulation 3: Prohibition of advertising which misleads traders",
+      "publisher": "legislation.gov.uk",
+      "year": 2008,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/uksi/2008/1276/regulation/3",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Regulation 3(1), (2) and (5)(e)",
+      "quote": "Advertising which is misleading is prohibited.",
+      "why": "The binding rule for claims made to other businesses, where the Green Claims guidance already on the list says the law is 'less comprehensive'. A sustainability claim in sales material that deceives a trade buyer and affects its decision, or injures a competitor, is unlawful; an advertiser's 'awards and distinctions' are expressly covered. Limits: covers advertising, defined broadly, not every statement in a tender; enforcement provisions were not read.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Directive 2014/24/EU on public procurement, Article 67: Contract award criteria",
+      "publisher": "European Union (Publications Office copy of the Official Journal text)",
+      "year": 2014,
+      "published": "2014-03-28",
+      "url": "http://publications.europa.eu/resource/cellar/aa61f069-b654-11e3-86f9-01aa75ed71a1.0006.03/DOC_1",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Article 67(1) and (2)",
+      "quote": "criteria, including qualitative, environmental and/or social aspects, linked to the subject-matter of the public contract in question",
+      "why": "International comparator, and the rule a UK firm meets when bidding for public work in the EU: environmental aspects may be scored, but only where linked to the contract. The UK Act keeps the same test. Limits: no longer UK law; this is the 2014 text as first published, and later amendments were not read.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Competing for government procurement contracts: The role of corporate social responsibility",
+      "publisher": "Flammer; Strategic Management Journal 39(5), 1299-1324 (author's copy, Columbia University)",
+      "year": 2018,
+      "published": null,
+      "url": "https://www.columbia.edu/~cf2870/PDFs/Flammer_SMJ2018_inclAppendix.pdf",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Research summary and managerial summary, PDF page 1; discussion, PDF page 19",
+      "quote": "I find that companies with higher CSR receive more procurement contracts.",
+      "why": "The one causal study found on whether sustainability credentials win public contracts. It finds they do, more so for complex contracts and early in a relationship. The first-pass log found no such measurement. Limits: US federal contracts and listed companies, not the UK; credentials measured by third-party ratings; published 2018; the publisher's copy is paywalled, and this is the published article on the author's university page.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The pricing of carbon risk in syndicated loans: which risks are priced and why? (BIS Working Paper 946)",
+      "publisher": "Ehlers, Packer and de Greiff; Bank for International Settlements",
+      "year": 2021,
+      "published": "2021-06-01",
+      "url": "https://www.bis.org/publ/work946.htm",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "The price of risk, however, appears to be relatively low given the material risks faced by borrowers.",
+      "why": "Evidence on the finance half of the criterion: since the Paris Agreement lenders have charged carbon-intensive borrowers more, but only on direct emissions and by a small amount. It fits the brief's finding that price effects are real but slight. Limits: working paper dated June 2021; large syndicated loans, not small-firm lending; international sample.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Small Business Finance Markets 2025/26",
+      "publisher": "British Business Bank",
+      "year": 2026,
+      "published": null,
+      "url": "https://www.british-business-bank.co.uk/sites/g/files/sovrnj166/files/2026-03/report-small-business-finance-markets-2026.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Chapter 2.5 'Finance for environmental sustainability', section on barriers, PDF page 95; Figure B.32",
+      "quote": "Access to external finance to support the business in becoming environmentally sustainable remains a barrier affecting only a minority of businesses (27%).",
+      "why": "Current UK survey evidence on smaller businesses, sustainability and finance, from the source the first pass could not open. Few smaller firms cite finance as the obstacle and very few measure emissions, so a firm with evidence in hand is unusual. Limits: a survey of attitudes; it does not measure whether sustainability evidence changes loan pricing or approval.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "ASA ruling on HSBC UK Bank plc (19 October 2022)",
+      "url": "https://www.asa.org.uk/rulings/hsbc-uk-bank-plc-g21-1127656-hsbc-uk-bank-plc.html",
+      "reason": "Read. An upheld complaint about a bank's environmental claims in consumer posters. Not added: it concerns consumer advertising by a lender, not a firm's use of evidence in bids or borrowing; a candidate if the lead wants an enforcement decision on the list."
+    },
+    {
+      "title": "UK Code of Non-broadcast Advertising (CAP Code), section 11: Environmental claims",
+      "url": "https://www.asa.org.uk/type/non_broadcast/code_section/11.html",
+      "reason": "Read (rules 11.1 to 11.4). Overlaps the Green Claims guidance already on the list; not added, to avoid padding."
+    },
+    {
+      "title": "Unlocking the SME Net Zero Transition (UK Finance, 2024)",
+      "url": "https://www.ukfinance.org.uk/system/files/2024-05/UK%20Finance%20SME%20sustainability%20report.pdf",
+      "reason": "Opened today (HTTP 403 in the first pass). Read: a trade-body report on barriers and recommendations; no measurement of finance terms or contract wins. Not cited."
+    },
+    {
+      "title": "ESG and financial performance: aggregated evidence from more than 2000 empirical studies (Friede, Busch and Bassen, 2015)",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/20430795.2015.1118917",
+      "reason": "HTTP 403. Not read."
+    },
+    {
+      "title": "Sustainability-Linked Loan Principles (Loan Market Association)",
+      "url": "https://www.lma.eu.com/application/files/1917/4298/0817/Sustainability-Linked_Loan_Principles_-_26_March_2025.pdf",
+      "reason": "HTTP 404 at the address tried; the first pass noted the document may need a log-in. Not read."
+    },
+    {
+      "title": "Finalised guidance FG24/3 on the anti-greenwashing rule (Financial Conduct Authority)",
+      "url": "https://www.fca.org.uk/publication/finalised-guidance/fg24-3.pdf",
+      "reason": "Opened but not read in full. It binds authorised financial firms' own sustainability claims, not a borrower's use of evidence; too far from the criterion."
+    },
+    {
+      "title": "Digital Markets, Competition and Consumers Act 2024, section 226",
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/section/226",
+      "reason": "Opened. Consumer-facing unfair trading rule; the criterion concerns business buyers and lenders, for which the 2008 Regulations are the relevant rule. Not cited."
+    },
+    {
+      "title": "Any official or peer-reviewed measurement of whether sustainability credentials change who wins UK contracts",
+      "url": "",
+      "reason": "Still none found. The only causal study found is US (Flammer 2018)."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. Two points to weigh: (1) 'On finance the evidence is thin' still holds for UK small firms, but there is international evidence of a small carbon premium in large loans (BIS Working Paper 946), in line with the brief's figure; (2) the entry-ticket reading is supported by Procurement Act 2023 s.23(2)(a), though US evidence (Flammer 2018) finds higher-rated firms do win more federal contracts. The British Business Bank and UK Finance reports, blocked in the first pass, opened today."
+}

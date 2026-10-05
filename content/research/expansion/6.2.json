@@ -1,0 +1,194 @@
+{
+  "criterion": "6.2",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "UK GDPR, Article 28: Processor",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/28",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Art. 28(1) and 28(3)(h)",
+      "quote": "makes available to the controller all information necessary to demonstrate compliance with the obligations laid down in this Article",
+      "why": "The binding rule on buying, where a supplier processes personal data for the organisation: use only processors giving sufficient guarantees of appropriate security, under a contract that gives the right to audit and inspect. This is the legal basis for the contractual obligations and audit rights the criterion's top level describes. Not specific to AI, and it applies only where the supplier is a processor of personal data.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "ETSI EN 304 223 V2.1.1: Securing Artificial Intelligence (SAI); Baseline Cyber Security Requirements for AI Models and Systems",
+      "publisher": "ETSI",
+      "year": 2025,
+      "published": "2025-12",
+      "url": "https://www.etsi.org/deliver/etsi_en/304200_304299/304223/02.01.01_60/en_304223v020101p.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Foreword, PDF p. 4 (status and adoption date); provisions 5.1.2-4 and 5.1.2-7, PDF pp. 10-11",
+      "quote": "they shall undertake a due diligence assessment and should ensure that the provider is adhering to the present document",
+      "why": "The UK Code's provisions as a European Standard, adopted 8 December 2025; it follows the April 2025 technical specification already on this list, and the NCSC now points to this version. The due diligence provision is unchanged. The foreword gives 30 September 2026 as the date for national publication or endorsement. A standard, not law: nothing obliges a UK organisation or its supplier to follow it unless a contract says so.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Machine learning principles: 2.1 Secure your supply chain",
+      "publisher": "National Cyber Security Centre",
+      "year": 2024,
+      "published": "2024-05-22",
+      "url": "https://www.ncsc.gov.uk/collection/machine-learning-principles/secure-development/secure-supply-chain",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Part 2: Secure development, principle 2.1, Goals and 'Verify any third-party inputs are from sources you trust'",
+      "quote": "You understand that the risk of supply chain contamination heightens when you use models that don't have a transparent creation method.",
+      "why": "What to check when a model, dataset or labelling service comes from outside: where it came from, whether it can be verified, and a bill of materials listing the third-party components. Gives a research example of a tampered model uploaded to a public model hub disguised as a popular one. Version 2.0, May 2024. Guidance, not a rule.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Software Security Code of Practice",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2025,
+      "published": "2025-05-07",
+      "url": "https://www.gov.uk/government/publications/software-security-code-of-practice/software-security-code-of-practice",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "'Voluntary Software Security Code of Practice', theme 1 (principles 1.1 to 1.4) and theme 4",
+      "quote": "Follow secure by design and secure by default principles throughout the development lifecycle of the software.",
+      "why": "The government's baseline for any software sold to organisations, which is how most AI is bought: 14 principles, co-designed with the NCSC, with a named senior owner at the vendor who must gain assurance they are met. Gives a buyer a published standard to ask a supplier to attest to. Voluntary and not specific to AI; the page was last updated on 15 January 2026.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "SS2/21 Outsourcing and third party risk management",
+      "publisher": "Prudential Regulation Authority",
+      "year": 2024,
+      "published": "2024-11-15",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2024/ss221-november-2024-update.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Chapter 8 'Access, audit, and information rights', para 8.3, PDF p. 31",
+      "quote": "full access and unrestricted rights for audit and information",
+      "why": "A UK regulator's stated expectation on contracts with suppliers: for material outsourcing, written agreements should give the firm, its auditors and the regulator full audit and information rights, and the firm should use them. A worked model of the criterion's top level. Applies to banks, building societies, insurers and designated investment firms only, and is not about AI. This is the version in force (effective 31 December 2024); a revised version published 18 March 2026 takes effect on 18 March 2027.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Government cyber resilience (HC 546, Session 2024-25)",
+      "publisher": "National Audit Office",
+      "year": 2025,
+      "published": "2025-01-29",
+      "url": "https://www.nao.org.uk/wp-content/uploads/2025/01/government-cyber-resilience.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Summary, paras 15 and 19, PDF pp. 11 and 13",
+      "quote": "This has provided better information than its previous approach of relying on departments' self-reported cyber resilience",
+      "why": "An audit finding on the difference between assumed and verified security: when government moved from departments' own reports to assessment checked by independent reviewers, it found significant gaps across the 72 critical systems assessed, 58 of them checked by independent reviewers. Evidence for the step from the criterion's third level to its fourth. About central government IT in general, not AI and not procurement.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain",
+      "publisher": "arXiv (Gu, Dolan-Gavitt and Garg)",
+      "year": 2017,
+      "published": "2017-08-22",
+      "url": "https://arxiv.org/abs/1708.06733",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract on the arXiv record (version 2, 11 March 2019)",
+      "quote": "we show that outsourced training introduces new security risks",
+      "why": "The founding study of the bought-model risk: a model trained by someone else can pass the buyer's own tests yet misbehave on inputs the attacker chooses, and the hidden behaviour can survive retraining. Why a supplier's accuracy figures are not evidence of security. Cited from the authors' preprint on arXiv; only the abstract was read. Image classifiers from 2017, not language models.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry",
+      "publisher": "arXiv (Jiang, Synovic, Hyatt, Schorlemmer, Sethi, Lu, Thiruvathukal and Davis)",
+      "year": 2023,
+      "published": "2023-03-05",
+      "url": "https://arxiv.org/abs/2303.02552",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract on the arXiv record",
+      "quote": "Three challenges for PTM reuse are missing attributes, discrepancies between claimed and actual performance, and model risks.",
+      "why": "Empirical study of how engineers pick up ready-made models from the largest public model hub: provenance is often missing and claimed performance does not always match what is measured. The arXiv record says it appeared in the proceedings of a peer-reviewed software engineering conference (ICSE 2023). Interviews with 12 practitioners plus measurements of one hub; only the abstract was read.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Guidelines on Securing AI Systems",
+      "publisher": "Cyber Security Agency of Singapore",
+      "year": 2024,
+      "published": "2024-10-15",
+      "url": "https://isomer-user-content.by.gov.sg/36/42140c27-030f-4bb9-b4c7-b543ad2ddad4/guidelines-on-securing-ai-systems_2024-10-15.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "other",
+      "locator": "Section 3.3, guideline 2.1 'Secure the supply chain', PDF p. 11",
+      "quote": "Ensure that suppliers adhere to security policies and internationally recognised standards, or that risks are otherwise appropriately managed.",
+      "why": "International comparator. Singapore's national guidance takes the same line as the UK Code on bought components (training data, models, interfaces, software libraries) and suggests bills of materials and checks against vulnerability databases. Voluntary and non-prescriptive; no legal force in the UK.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "SS2/21 Outsourcing and third party risk management, March 2021 PDF",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2021/ss221-march-21.pdf",
+      "reason": "The PDF is stamped 'This document has been superseded' (31 December 2024). The November 2024 version, shown as current on the Bank's page, was read and used instead."
+    },
+    {
+      "title": "PPN 017: Improving Transparency of AI use in Procurement",
+      "url": "https://assets.publishing.service.gov.uk/media/67af7ba0e270ceae39f9e279/PPN_017_Improving_transparency_of_AI_use_in_procurement.pdf",
+      "reason": "Read. It is about suppliers using AI to write tenders and about confidential tender data, not about the security of AI systems being bought. Off the point of this criterion."
+    },
+    {
+      "title": "Guidelines for AI procurement (Office for AI, 8 June 2020)",
+      "url": "https://www.gov.uk/government/publications/guidelines-for-ai-procurement/guidelines-for-ai-procurement",
+      "reason": "Read. Security appears only as a one-line evaluation heading ('Robust and proportionate security provision'); it predates the Code of Practice and adds nothing to it."
+    },
+    {
+      "title": "Artificial Intelligence Playbook for the UK Government (10 February 2025)",
+      "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html",
+      "reason": "Read (Principle 3 and the Buying AI references). Public-sector guidance that points to other standards rather than setting a security bar of its own; not added, to avoid padding."
+    },
+    {
+      "title": "NIST AI 600-1, Generative AI Profile (GOVERN 6.1 actions on third parties)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "reason": "Read. GV-6.1-004 asks for contracts and service levels that specify security requirements. A comparator is already supplied by the Singapore guidelines; used for 6.3 instead."
+    },
+    {
+      "title": "EU AI Act, Article 25: Responsibilities along the AI value chain (Commission AI Act Service Desk)",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-25",
+      "reason": "Page fetched; not read closely enough to cite and the approved brief makes no EU claim. Not used."
+    },
+    {
+      "title": "Deploying AI Systems Securely (joint guidance, NSA, CISA, NCSC and partners, April 2024)",
+      "url": "https://media.defense.gov/2024/Apr/15/2003439257/-1/-1/0/CSI-DEPLOYING-AI-SYSTEMS-SECURELY.PDF",
+      "reason": "HTTP 403 (Access Denied) to the checker's request. Not bypassed, not read, not cited. The CISA alert page that links to it was reachable but is only a notice."
+    },
+    {
+      "title": "ISO/IEC 42001 abstract page",
+      "url": "https://www.iso.org/standard/42001",
+      "reason": "HTTP 403 with a browser challenge page, as on 2 October. Not bypassed, not cited."
+    }
+  ],
+  "brief_check": "One point is dated. The brief says 'an ETSI specification of April 2025 carries the same provisions'. ETSI has since published them as a European Standard, EN 304 223 V2.1.1 (December 2025, adopted 8 December 2025), which the NCSC now cites in place of the specification; the due diligence wording quoted in the brief is unchanged apart from 'the present document' for 'this Code of Practice'. Also an omission rather than an error: the brief gives UK GDPR Article 32 as the binding rule, but Article 28 (processor contracts with audit and inspection rights) is the binding rule closest to buying. Bill status was not re-checked in this pass."
+}

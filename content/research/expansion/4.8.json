@@ -1,0 +1,295 @@
+{
+  "criterion": "4.8",
+  "current_count": 6,
+  "additions": [
+    {
+      "title": "Companies Act 2006, section 463: Liability for false or misleading statements in reports and statements",
+      "publisher": "legislation.gov.uk",
+      "year": 2006,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/463",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.463(1)-(4)",
+      "quote": "he knew the statement to be untrue or misleading or was reckless as to whether it was untrue or misleading",
+      "why": "Claims in the annual report: a director must compensate the company for loss caused by an untrue or misleading statement in the strategic report, directors' report, remuneration report or corporate governance statement, if the director knew or was reckless. Liability is to the company only (s.463(4)); it does not give investors or customers a claim.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Economic Crime and Corporate Transparency Act 2023, section 199: Failure to prevent fraud",
+      "publisher": "legislation.gov.uk",
+      "year": 2023,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2023/56/section/199",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.199(1), (4); commencement note I2; fraud offences listed in Schedule 13",
+      "quote": "such prevention procedures as it was reasonable in all the circumstances to expect the body to have in place",
+      "why": "Since 1 September 2025 (S.I. 2025/349) a large organisation commits an offence if an employee or other associate commits a listed fraud offence intending to benefit it, unless it had reasonable prevention procedures. Reasonable prevention procedures are the defence, which gives checks on claims before publication legal weight. Applies to large organisations only and needs an underlying fraud offence (dishonesty); an honest overstatement is not caught.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Unfair commercial practices (CMA207)",
+      "publisher": "Competition and Markets Authority",
+      "year": 2025,
+      "published": "2025-11-18",
+      "url": "https://www.gov.uk/government/publications/unfair-commercial-practices-cma207/unfair-commercial-practices",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Chapter 'Misleading actions', 'Misleading action type 2: Overall deceptive presentation' and its example",
+      "quote": "they will have been deceived by the overall presentation and misled",
+      "why": "The enforcing regulator's guidance on the test an AI claim to consumers must pass, with worked examples of statements that are each factually correct yet mislead as a whole. General consumer law: the guidance does not mention AI. The date is the page's 'updated' date.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "UK Code of Non-broadcast Advertising and Direct & Promotional Marketing (CAP Code), Section 3: Misleading advertising",
+      "publisher": "Committee of Advertising Practice (ASA | CAP)",
+      "year": 2026,
+      "published": null,
+      "url": "https://www.asa.org.uk/type/non_broadcast/code_section/03.html",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Rules 3.1 and 3.7 (Substantiation)",
+      "quote": "marketers must hold documentary evidence to prove claims that consumers are likely to regard as objective",
+      "why": "The rule behind the advertising regulator's advice on AI products: evidence must be held before the advert is published, and claims may be judged misleading without it. A self-regulatory code enforced by the ASA, not law; it covers advertising, not annual reports or bids. The page shows no date, so the year is the year read.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "UK Corporate Governance Code 2024",
+      "publisher": "Financial Reporting Council",
+      "year": 2024,
+      "published": null,
+      "url": "https://www.frc.org.uk/documents/6709/UK_Corporate_Governance_Code_2024_a2hmQmY.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Section 4, Principles M and N (PDF p.13); Provision 25 on the audit committee's review",
+      "quote": "The board should present a fair, balanced and understandable assessment of the company's position and prospects.",
+      "why": "The standard a listed company's annual report is held to, with the board required to satisfy itself on the integrity of narrative as well as financial statements. Applies to listed companies on a comply or explain basis; it does not mention AI. Dated January 2024 on the document.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Alan Bates and Others v Post Office Limited, Judgment (No.6) 'Horizon Issues' [2019] EWHC 3408 (QB)",
+      "publisher": "High Court of Justice, Queen's Bench Division (Courts and Tribunals Judiciary)",
+      "year": 2019,
+      "published": "2019-12-16",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2022/07/bates-v-post-office-judgment-1.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "court or tribunal",
+      "jurisdiction": "UK",
+      "locator": "Paras 518-519, 529-533 and 936 (PDF p.160 for para 533)",
+      "quote": "were factually untrue in at least one highly important respect",
+      "why": "A UK court finding on exactly this gap: the Post Office had said publicly that its Horizon system was robust; the judge found earlier public statements factually untrue and that the older system was not robust. Not an AI system and not a ruling on advertising or securities law; cited as an official finding on public claims about a computer system that its owner could not support.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "SEC Charges Two Investment Advisers with Making False and Misleading Statements About Their Use of Artificial Intelligence (press release 2024-36)",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "year": 2024,
+      "published": "2024-03-18",
+      "url": "https://www.sec.gov/newsroom/press-releases/2024-36",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "US",
+      "locator": "Opening paragraphs and Chair's statement",
+      "quote": "Investment advisers should not mislead the public by saying they are using an AI model when they are not.",
+      "why": "International comparator: a US securities enforcement action the regulator itself described as 'AI washing'. Two advisers settled and paid $400,000 in total civil penalties for claims about AI they were not using. A US press release about settled charges under US law; no equivalent UK action was found in this pass.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "FTC Announces Crackdown on Deceptive AI Claims and Schemes (Operation AI Comply)",
+      "publisher": "Federal Trade Commission",
+      "year": 2024,
+      "published": "2024-09-25",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "US",
+      "locator": "Opening paragraphs and Chair's statement",
+      "quote": "there is no AI exemption from the laws on the books",
+      "why": "International comparator on the consumer side: five enforcement actions in one sweep, including a company claiming to sell 'AI Lawyer' services. Shows a regulator applying ordinary deception law to AI claims, as UK law would. US law and US cases; a press release, not a judgment.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Public Statement on the use of Artificial Intelligence (AI) in the provision of retail investment services (ESMA35-335435667-5924)",
+      "publisher": "European Securities and Markets Authority",
+      "year": 2024,
+      "published": "2024-05-30",
+      "url": "https://www.esma.europa.eu/sites/default/files/2024-05/ESMA35-335435667-5924__Public_Statement_on_AI_and_investment_services.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "EU",
+      "locator": "Paragraph 8 (PDF p.4)",
+      "quote": "they ensure that such information is presented in a clear, fair and not misleading manner",
+      "why": "The EU securities regulator's expectation that what investment firms tell clients about their use of AI must be clear, fair and not misleading. EU guidance under MiFID II for investment firms; not UK, and limited to retail investment services.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Trusted third-party AI assurance roadmap",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2025,
+      "published": "2025-09-03",
+      "url": "https://www.gov.uk/government/publications/trusted-third-party-ai-assurance-roadmap/trusted-third-party-ai-assurance-roadmap",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Introduction and the section on professionalisation (auditing)",
+      "quote": "Auditing has a particularly important role to play in independently verifying the trustworthiness of AI systems.",
+      "why": "Government's account of the independent assurance the top level of this criterion calls for, and of how immature that market is. A policy roadmap, not a standard: it describes no scheme for assuring an organisation's public AI claims and requires nothing of companies.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The Fallacy of AI Functionality",
+      "publisher": "Inioluwa Deborah Raji, I. Elizabeth Kumar, Aaron Horowitz and Andrew D. Selbst (arXiv; published in FAccT 2022)",
+      "year": 2022,
+      "published": "2022-06-20",
+      "url": "https://arxiv.org/abs/2206.09511",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "They can be constructed haphazardly, deployed indiscriminately, and promoted deceptively.",
+      "why": "Research on the gap this criterion measures: a taxonomy, built from case studies, of deployed AI systems that did not do what was claimed for them. Authors' repository copy (v2, 1 July 2022) of a peer-reviewed conference paper; case studies, not a measured rate.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Are Companies Taking AI Risks Seriously? A Systematic Analysis of Companies' AI Risk Disclosures in SEC 10-K forms",
+      "publisher": "Lucas G. Uberti-Bona Marin, Bram Rijsbosch, Gerasimos Spanakis and Konrad Kollnig (arXiv preprint; to appear in the ECML PKDD SoGood workshop proceedings)",
+      "year": 2025,
+      "published": "2025-08-26",
+      "url": "https://arxiv.org/abs/2508.19313",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "many disclosures remain generic or lack details on mitigation strategies",
+      "why": "Evidence on what companies actually say about AI in annual filings: over 30,000 filings from more than 7,000 companies; mentions of AI risk rose from 4% in 2020 to over 43% in 2024, but many were generic. US filings only; workshop paper, preprint.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "AI Washing and the Erosion of Digital Legitimacy: A Socio-Technical Perspective on Responsible Artificial Intelligence in Business",
+      "publisher": "Nelly Elsayed (arXiv preprint)",
+      "year": 2026,
+      "published": "2026-01-10",
+      "url": "https://arxiv.org/abs/2601.06611",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "marketing and branding, technical capability inflation, strategic signaling, and governance-based washing",
+      "why": "A typology of overstated AI claims that separates claims about capability from claims about governance, the distinction the brief draws. Single-author preprint marked as under review, not peer reviewed; conceptual, with no data.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {
+    "https://www.legislation.gov.uk/ukpga/2024/13/section/226": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "an overall presentation which is likely to deceive the average consumer about a matter relating to a product, a trader or any other matter"
+    },
+    "https://www.legislation.gov.uk/ukpga/2024/13/section/182": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "a fixed amount not exceeding £300,000 or, if higher, 10% of the total value of the turnover (if any) of the respondent"
+    },
+    "https://www.asa.org.uk/news/regulating-the-illusion-of-intelligence-in-ads.html": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": "2026-08-27",
+      "quote": "Hold evidence to back up any objective claims about what your product can do"
+    },
+    "https://asa.org.uk/static/eb77bee0-a147-49b8-81856c3c83586bf2/AI-as-a-Marketing-Term-Report.pdf": {
+      "type": "official report",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "we identified around 16k unique relevant ads between July and September 2024"
+    },
+    "https://www.legislation.gov.uk/uksi/2008/1276/regulation/3": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "deceives or is likely to deceive the traders to whom it is addressed or whom it reaches"
+    },
+    "https://www.legislation.gov.uk/ukpga/2000/8/schedule/10A": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "knew the statement to be untrue or misleading or was reckless as to whether it was untrue or misleading"
+    }
+  },
+  "rejected": [
+    {
+      "title": "IOSCO, Artificial Intelligence in Capital Markets: Use Cases, Risks, and Challenges (consultation report, 2025)",
+      "url": "https://www.iosco.org/library/pubdocs/pdf/IOSCOPD788.pdf",
+      "reason": "Blocked: HTTP 403 from the site's bot protection. Not bypassed, not read."
+    },
+    {
+      "title": "Donelson, Kim, Kim and Yip, Strategic AI Disclosures (SSRN 5265257); other SSRN 'AI washing' working papers",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5265257",
+      "reason": "Blocked: SSRN returned HTTP 403 with a JavaScript challenge. Not bypassed. A copy of another 'AI washing' working paper (Boyuan Li) was found only on a conference host's site, not the author's or institution's repository, so not cited."
+    },
+    {
+      "title": "FCA Handbook, PRIN 2.1 (Principle 7: communications with clients)",
+      "url": "https://handbook.fca.org.uk/handbook/PRIN/2/1.html",
+      "reason": "The page needs JavaScript; the Principles text did not load in raw text (same result as the D4 log). Not cited."
+    },
+    {
+      "title": "FCA, AI Update",
+      "url": "https://www.fca.org.uk/publication/corporate/ai-update.pdf",
+      "reason": "Reachable; already recorded in the D4 log as being about firms' communications when using AI, not about claims of AI capability. Not re-used; the ESMA statement speaks to the point directly."
+    },
+    {
+      "title": "ASA Ruling on UAB CommerceCore t/a WiggyDog (25 March 2026)",
+      "url": "https://www.asa.org.uk/rulings/uab-commercecore-g25-1321974-uab-commercecore.html",
+      "reason": "Read. Upheld under rules 3.1, 3.7 and 3.11, but the claim was about a toy's realism, with AI-generated imagery in the advert; not a claim about an AI capability. No ASA ruling on an AI capability claim was located."
+    },
+    {
+      "title": "FTC business blog, 'Keep your AI claims in check' (2023)",
+      "url": "https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check",
+      "reason": "HTTP 404 at the address tried; the 2024 enforcement announcement is used instead."
+    },
+    {
+      "title": "UK MAR (Regulation (EU) No 596/2014), Article 12; Financial Services Act 2012, s.89",
+      "url": "https://www.legislation.gov.uk/eur/2014/596/article/12",
+      "reason": "Both read. They concern false or misleading signals as to price and statements made to induce investment decisions; a step removed from claims about AI, and Schedule 10A already covers issuers. Would be padding."
+    },
+    {
+      "title": "Post Office Horizon IT Inquiry, Final Report Volume 1",
+      "url": "https://www.postofficehorizoninquiry.org.uk/reports-and-statements",
+      "reason": "Volume 1 covers human impact and redress; the High Court's Horizon Issues judgment is the finding on the public statements and is used instead."
+    }
+  ],
+  "brief_check": "No contradiction of the approved brief. Two points to consider at the next version: (1) the failure to prevent fraud offence (in force 1 September 2025) is a further UK consequence for large organisations and is not mentioned; (2) the D4 log could not read the SEC's 'AI washing' release; it was readable on 5 October 2026 and confirms two settled cases and $400,000 in total penalties, so a US example is now available if wanted."
+}

@@ -1,0 +1,184 @@
+{
+  "criterion": "1.6",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "Regulatory Initiatives Grid - 10th Edition (May 2026)",
+      "publisher": "Financial Conduct Authority, for the Financial Services Regulatory Initiatives Forum",
+      "year": 2026,
+      "published": "2026-05-19",
+      "url": "https://www.fca.org.uk/publications/corporate-documents/regulatory-initiatives-grid",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Opening paragraphs; 'Scope of the Grid'; 'Understanding how to use the Regulatory Initiatives Grid'",
+      "quote": "The Regulatory Initiatives Grid sets out the planned regulatory initiatives for the next 24 months.",
+      "why": "A ready-made horizon scan published by the regulators themselves. The Forum's members publish one forward calendar of planned regulatory initiatives so that firms can plan for their timing. Financial services only, and it lists initiatives of Forum members, so it will not show every AI-related change (for example EU law). First published and last updated 19 May 2026; the landing page was read, not the Grid PDF.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "FCA Handbook, SYSC 6.1: Compliance",
+      "publisher": "Financial Conduct Authority",
+      "year": 2018,
+      "published": null,
+      "url": "https://handbook.fca.org.uk/handbook/SYSC/6/1.html",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "SYSC 6.1.1R (dated 03/01/2018); SYSC 6.1.3R (compliance function to monitor and assess)",
+      "quote": "A firm must establish, implement and maintain adequate policies and procedures sufficient to ensure compliance",
+      "why": "The binding rule behind regulatory scanning in a regulated firm: an FCA-authorised firm must maintain policies and procedures sufficient to ensure it complies with its obligations under the regulatory system, which it cannot do without knowing when those obligations change. Sector-specific (FCA firms); the rule does not mention horizon scanning or AI, and no equivalent general duty exists for unregulated companies.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Data Use and Access Act 2025: plans for commencement",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2026,
+      "published": "2025-07-25",
+      "url": "https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "'Background' (Stages 1 to 4); summaries of Stage 1 to 3 regulations. Page shows 'Published: 25 July 2025', 'Last updated: 5 February 2026'",
+      "quote": "The government plans to commence these provisions in 4 main stages",
+      "why": "Government's own forward timetable for the Act that changed UK automated decision-making law: four stages, with the main data protection changes about six months after Royal Assent and the complaints duty about twelve months after. The kind of pre-announced schedule a scanning process should have logged in July 2025. Last updated 5 February 2026, so it does not record the later stage; the commencement regulations on legislation.gov.uk are the authority for dates.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Our plans for new and updated guidance",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "published": null,
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/our-plans-for-new-and-updated-guidance/",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Introductory text; 'Guidance stages explained'",
+      "quote": "We'll update this information regularly so that you can confidently track a product as it develops.",
+      "why": "The data protection regulator's pipeline of guidance, by stage (drafting, consultation, redrafting, withdrawn, published). Says planned guidance has been deprioritised or withdrawn because of the Data (Use and Access) Act. The topic lists load separately and were not read as raw text, so no claim is made here about any particular item or date. Undated page; the 2 October log records a metadata date of 30 June 2026.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Timeline for the Implementation of the EU AI Act",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2026,
+      "published": null,
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "EU",
+      "locator": "Opening statement; entries for 02 Aug 2026, 02 Dec 2026, 02 Dec 2027 and 02 Aug 2028",
+      "quote": "The EU's AI Act legislation applies progressively, with a full roll-out of the main application milestones foreseen by 2 August 2028.",
+      "why": "The Commission's one-page calendar of the AI Act as amended by the Digital Omnibus on AI: transparency rules and enforcement from 2 August 2026, a transitional date of 2 December 2026, Annex III high-risk rules from 2 December 2027 and Annex I product rules from 2 August 2028. A Commission summary, not the legal text; Article 113 (already on this list) is the authority. Relevant only to organisations within the Act's reach. Undated page.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "UK signs first international treaty addressing risks of artificial intelligence",
+      "publisher": "Ministry of Justice",
+      "year": 2024,
+      "published": "2024-09-05",
+      "url": "https://www.gov.uk/government/news/uk-signs-first-international-treaty-addressing-risks-of-artificial-intelligence",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "International",
+      "locator": "Press release, body text (paragraph beginning 'Once the treaty is ratified'); list of the 3 over-arching safeguards",
+      "quote": "Once the treaty is ratified and brought into effect in the UK, existing laws and measures will be enhanced.",
+      "why": "An instrument for the watch list that sits outside the UK and EU statute books: the Council of Europe Framework Convention on Artificial Intelligence, signed by the UK on 5 September 2024. Government said existing laws and measures would be enhanced once it is ratified and brought into effect. A press release, not the treaty text; the Council of Europe's treaty pages refused automated reading today, so whether and when the UK has ratified, and the Convention's entry into force, are not verified here.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The Futures Toolkit: tools for strategic futures for policymakers and analysts",
+      "publisher": "Government Office for Science",
+      "year": 2024,
+      "published": "2024-08-29",
+      "url": "https://www.gov.uk/government/publications/futures-toolkit-for-policy-makers-and-analysts/the-futures-toolkit-html",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "'Tools at a glance' (Horizon Scanning); chapter 'Horizon scanning' under 'What is changing?'",
+      "quote": "The systematic collection of insights on emerging trends and weak signals of change to identify potential threats, risks and opportunities.",
+      "why": "Government's own definition of horizon scanning and a five-step method for doing it, described as looking ahead, across and around, beyond the usual timescales and sources. Written for policy officials, not for corporate regulatory tracking, and voluntary; used here for what distinguishes a scanning process from reading the news. 2024 edition; the HTML page shows 'Updated 29 August 2024'.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The Brussels Effect and Artificial Intelligence: How EU regulation will impact the global AI market",
+      "publisher": "Charlotte Siegmann and Markus Anderljung (arXiv)",
+      "year": 2022,
+      "published": "2022-08-23",
+      "url": "https://arxiv.org/abs/2208.12645",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract (arXiv:2208.12645v1)",
+      "quote": "we tentatively conclude that both de facto and de jure Brussels effects are likely for parts of the EU regulatory regime",
+      "why": "Why a UK organisation should track EU rules even if it does not trade there. The authors argue EU AI regulation is likely to change the products offered outside the EU and to influence other jurisdictions' laws. A research report posted as a preprint, not peer reviewed; written in 2022 about the proposed Act, before its adoption and before the 2026 amendments, and its conclusions are stated as tentative.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Complying with the EU AI Act",
+      "publisher": "Jacintha Walters, Diptish Dey, Debarati Bhaumik and Sophie Horsman (arXiv)",
+      "year": 2023,
+      "published": "2023-07-19",
+      "url": "https://arxiv.org/pdf/2307.10458",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "EU",
+      "locator": "Section IV.A ('Identifying Focus Areas'), PDF p.3-4; Section III (fifteen responses); Conclusion",
+      "quote": "The overall average compliance score for all respondents and categories is 57%.",
+      "why": "Evidence of what happens without preparation. A questionnaire scored fifteen organisations against the requirements of the then-proposed AI Act; the average score was 57%, and organisations with 1-50 employees scored lower than larger ones. Preprint, not peer reviewed here; very small, self-selected sample from 2023, mostly self-reported answers, measured against a draft of the Act. Indicative only.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "AI regulation in the UK (House of Commons Library research briefing CBP-10003)",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10003/",
+      "reason": "Blocked: HTTP 403 challenge page ('Just a moment...'). Not bypassed. The PDF at researchbriefings.files.parliament.uk returned the same page. A third-party copy exists and was not used."
+    },
+    {
+      "title": "Council of Europe Framework Convention on Artificial Intelligence (CETS No. 225): treaty page and chart of signatures and ratifications",
+      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+      "reason": "Blocked: HTTP 403 ('Sorry, you have been blocked'). Not bypassed. The UK government's own press release on signature is cited instead; ratification status is unverified."
+    },
+    {
+      "title": "Cuéllar, Larsen, Lee and Webb, Does Information About AI Regulation Change Manager Evaluation of Ethical Concerns and Intent to Adopt AI? (Journal of Law, Economics, and Organization, 2024)",
+      "url": "https://academic.oup.com/jleo/article/40/1/34/6573247",
+      "reason": "Blocked: the publisher's page returned an HTTP 403 challenge. Not bypassed; no author or institutional repository copy was located, so it is not cited."
+    },
+    {
+      "title": "OECD Recommendation of the Council for Agile Regulatory Governance to Harness Innovation (OECD/LEGAL/0464)",
+      "url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0464",
+      "reason": "Page is script-driven: raw text is only 'You need to enable JavaScript to run this app.' Nothing to read or quote."
+    },
+    {
+      "title": "ISO 37301 Compliance management systems",
+      "url": "https://www.iso.org/standard/75080.html",
+      "reason": "Blocked: HTTP 403 challenge page. Paid standard; not cited."
+    },
+    {
+      "title": "DRCF horizon scanning programme page (guessed URL)",
+      "url": "https://www.drcf.org.uk/horizon-scanning",
+      "reason": "404. Not pursued; the DRCF hub page is already on the list."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. The Commission's timeline page confirms 2 December 2027 for the listed high-risk uses. Two things the brief does not mention and a reviewer may want: the UK signed the Council of Europe AI Framework Convention on 5 September 2024 (ratification status could not be verified, coe.int blocked), and the government's commencement plan page for the Data (Use and Access) Act was last updated 5 February 2026, so it still describes the complaints stage as to come while the ICO page says all provisions are in force."
+}

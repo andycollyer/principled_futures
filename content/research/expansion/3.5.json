@@ -1,0 +1,232 @@
+{
+  "criterion": "3.5",
+  "current_count": 7,
+  "additions": [
+    {
+      "title": "Automated decision-making, including profiling (draft guidance): What does the UK GDPR say about ADM?",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "published": "2026-03-31",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-does-the-uk-gdpr-say-about-adm/",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Section 'What is a 'solely' automated decision?', paragraph after the five criteria for meaningful human involvement",
+      "quote": "Using ad hoc spot-checking isn't sufficient because some automated decisions won't receive a check and therefore don't have meaningful human involvement.",
+      "why": "The regulator's current statement of the test under Article 22A: the reviewer should assess the decision at a point where it can change the outcome, have discretion and authority to alter it, be trained to understand the system's logic, outputs and limits, and apply this to every decision, with a record kept. Draft guidance: the page describes itself as draft, updated 31 March 2026; the consultation has closed and the final text may differ.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Data protection audit framework, artificial intelligence toolkit: Human review",
+      "publisher": "Information Commissioner's Office",
+      "year": 2024,
+      "published": null,
+      "url": "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/human-review/",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "First control measure and its 'Ways to meet our expectations' list; second control measure",
+      "quote": "Human reviewers have appropriate knowledge, experience, authority and independence to challenge decisions.",
+      "why": "What the regulator's auditors look for: reviewers with knowledge, authority and independence, a manageable caseload, training, a log of overrides with reasons, and results reported to senior management. Names automation bias and lack of interpretability as the causes of review that is not meaningful. Voluntary audit toolkit, not law; under review following the Data (Use and Access) Act and still refers to Article 22. No date shown on the page; year follows the existing library entry.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Guidelines on Automated individual decision-making and Profiling for the purposes of Regulation 2016/679 (WP251rev.01)",
+      "publisher": "Article 29 Data Protection Working Party (European Commission)",
+      "year": 2018,
+      "published": "2018-02-06",
+      "url": "https://ec.europa.eu/newsroom/article29/redirection/document/49826",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "EU",
+      "locator": "Chapter IV, section B, PDF p.21",
+      "quote": "It should be carried out by someone who has the authority and competence to change the decision.",
+      "why": "The origin of the 'authority and competence' wording and of 'token gesture', which the UK regulator's guidance repeats. Also asks the controller to record the degree of human involvement in its impact assessment. EU guidance on the EU GDPR's Article 22, adopted before the UK left the EU; not binding in the UK and written before Articles 22A-22D replaced Article 22.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 14: Human oversight",
+      "publisher": "European Commission, AI Act Service Desk",
+      "year": 2024,
+      "published": null,
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "EU",
+      "locator": "Art. 14(4)(a)-(d)",
+      "quote": "to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias)",
+      "why": "The only statute read that writes the three elements of this criterion into law: the people overseeing a high-risk system must be enabled to understand its capacities and limits, stay aware of automation bias, correctly interpret its output, and decide to disregard, override or reverse it. A duty on how providers build high-risk systems. The Commission's copy of the consolidated text (EUR-Lex consolidated version as at 27 July 2026), not the Official Journal. EU law: reaches UK firms only where a system or its output is used in the EU. No application date is stated here.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Model Artificial Intelligence Governance Framework, Second Edition",
+      "publisher": "Infocomm Media Development Authority and Personal Data Protection Commission, Singapore",
+      "year": 2020,
+      "published": "2020-01-21",
+      "url": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/resource-for-organisation/ai/sgmodelaigovframework2.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "other",
+      "locator": "Section 'Determining the level of human involvement in AI-augmented decision-making', paras 3.14-3.17, PDF pp.30-31",
+      "quote": "Human-in-the-loop suggests that human oversight is active and involved, with the human retaining full control and the AI only providing recommendations or input.",
+      "why": "International comparator. Sets out three levels of human involvement (in, out of and over the loop) and asks the organisation to choose between them by the probability and severity of harm, and whether the harm can be reversed. Voluntary, Singapore, 2020; it says nothing on how to test whether a reviewer in the loop is in fact exercising judgement.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The Flaws of Policies Requiring Human Oversight of Government Algorithms",
+      "publisher": "Ben Green, Computer Law & Security Review 45 (author's copy on arXiv)",
+      "year": 2022,
+      "published": "2022-10-24",
+      "url": "https://arxiv.org/abs/2109.05067",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "First, evidence suggests that people are unable to perform the desired oversight functions.",
+      "why": "A review of 41 policies that require human oversight of government algorithms. Argues that the evidence does not show people can do the overseeing asked of them, so the requirement can lend legitimacy to a faulty system. Supports independent testing of whether review works. A legal and policy review, not an experiment; government settings, mostly outside the UK.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Human-AI Interactions in Public Sector Decision Making: 'Automation Bias' and 'Selective Adherence' to Algorithmic Advice",
+      "publisher": "Saar Alon-Barkat and Madalina Busuioc, Journal of Public Administration Research and Theory (published version, authors' copy on arXiv)",
+      "year": 2022,
+      "published": "2022-06-08",
+      "url": "https://arxiv.org/pdf/2103.02381",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "EU",
+      "locator": "Abstract, p.1 (study 1 N = 605, study 2 N = 904, study 3 N = 1,345)",
+      "quote": "We find a stronger propensity for adherence when the advice is aligned with group stereotypes",
+      "why": "Three survey experiments in the Netherlands, the third with civil servants. A caution against treating automation bias as settled: the abstract states 'We do not find evidence for automation bias'. What it did find in one study is that people followed advice more readily when it matched a stereotype, whether the advice came from an algorithm or a human expert. Hypothetical scenarios, Dutch participants; the third study did not repeat the stereotype finding.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance",
+      "publisher": "Gagan Bansal and others, CHI 2021 (authors' copy on arXiv)",
+      "year": 2021,
+      "published": "2021-01-12",
+      "url": "https://arxiv.org/abs/2006.14779",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract",
+      "quote": "explanations increased the chance that humans will accept the AI's recommendation, regardless of its correctness",
+      "why": "Bears on the 'access to the system's reasoning' part of the question. In user studies on three datasets, showing the system's explanation did not improve joint accuracy; it made people more likely to accept the recommendation whether it was right or wrong. Access to reasoning is therefore not enough without a check that reviewers still disagree when they should. Online study participants on set tasks, not professional reviewers.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "When combinations of humans and AI are useful: A systematic review and meta-analysis",
+      "publisher": "Michelle Vaccaro, Abdullah Almaatouq and Thomas Malone, Nature Human Behaviour 8",
+      "year": 2024,
+      "published": "2024-10-28",
+      "url": "https://www.nature.com/articles/s41562-024-02024-1",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "on average, human–AI combinations performed significantly worse than the best of humans or AI alone",
+      "why": "Preregistered meta-analysis of 106 experiments reporting 370 effect sizes (studies published 2020 to mid-2023). The losses were in decision-making tasks. Evidence that putting a person alongside a system does not by itself improve decisions, which is why review quality has to be measured. Laboratory and online experiments, not workplace reviews; open access.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {
+    "https://www.legislation.gov.uk/ukpga/2025/18/section/80": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "there is, or is not, to be taken to be meaningful human involvement in the taking of a decision in cases described in the regulations"
+    },
+    "https://www.legislation.gov.uk/eur/2016/679/article/22A": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "a person must consider, among other things, the extent to which the decision is reached by means of profiling"
+    },
+    "https://www.legislation.gov.uk/eur/2016/679/article/22C": {
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "enable the data subject to obtain human intervention on the part of the controller in relation to such decisions"
+    },
+    "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems/": {
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "published": null,
+      "quote": "They should have actual 'meaningful' influence on the decision, including the 'authority and competence' to go against the recommendation"
+    },
+    "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/meaningful-human-involvement/": {
+      "type": "official report",
+      "jurisdiction": "UK",
+      "published": "2026-03-27",
+      "quote": "a human can exercise real influence over decision before it is applied and has the authority, discretion and competence to alter it"
+    },
+    "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf": {
+      "type": "official report",
+      "jurisdiction": "UK",
+      "published": "2024-11",
+      "quote": "Document in your policies the process for human reviews of the AI outputs, including when humans may override the algorithm"
+    },
+    "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/introduction-what-is-adm-and-why-are-we-focusing-on-it-in-recruitment/": {
+      "type": "official report",
+      "jurisdiction": "UK",
+      "published": "2026-03-27",
+      "quote": "we determined that 16 employers were likely to be using ADM to make decisions about candidates"
+    }
+  },
+  "rejected": [
+    {
+      "title": "EDPS TechDispatch #2/2025: Human Oversight of Automated Decision-Making",
+      "url": "https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making_en",
+      "reason": "Blocked: HTTP 403 to the reader. Not read, not cited. The address was not confirmed."
+    },
+    {
+      "title": "Court of Justice of the EU, Case C-634/21 SCHUFA Holding (Scoring), judgment of 7 December 2023",
+      "url": "https://curia.europa.eu/juris/document/document.jsf?docid=280426&doclang=EN",
+      "reason": "Blocked: the court's site returned an empty shell (script-only page). Not read, not cited."
+    },
+    {
+      "title": "Royal Commission into the Robodebt Scheme, Report (2023)",
+      "url": "https://robodebt.royalcommission.gov.au/publications/report",
+      "reason": "Blocked: the Royal Commission's site refused the connection on every attempt. A university-hosted copy exists but is not the original, so it was not used."
+    },
+    {
+      "title": "House of Lords Justice and Home Affairs Committee, Technology rules? The advent of new technologies in the justice system (2022)",
+      "url": "https://publications.parliament.uk/pa/ld5802/ldselect/ldjusthom/180/18002.htm",
+      "reason": "Blocked: HTTP 403 (browser check) on both the web and PDF versions."
+    },
+    {
+      "title": "Goddard, Roudsari and Wyatt, Automation bias: a systematic review of frequency, effect mediators, and mitigators (JAMIA, 2012)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/",
+      "reason": "Blocked: the repository returned a robot check instead of the article. Not read."
+    },
+    {
+      "title": "Directive on Automated Decision-Making (Treasury Board of Canada Secretariat)",
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+      "reason": "Blocked: HTTP 403. Not read."
+    },
+    {
+      "title": "'Unprecedented injustice', report of the Dutch Childcare Allowance Parliamentary Inquiry Committee (2020), English translation",
+      "url": "https://www.houseofrepresentatives.nl/sites/default/files/atoms/files/verslag_pok_definitief-en-gb.docx.pdf",
+      "reason": "Read. The English text contains no passage on algorithms, risk models or human review of system outputs, so it does not speak to this criterion."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. Two points to hold for the next version: (1) the brief treats automation bias as fact on the regulator's word; one peer-reviewed study (Alon-Barkat and Busuioc 2022) found no evidence of it in three experiments, so 'the regulator calls the cause automation bias' remains accurate but should not be hardened. (2) The regulator's draft guidance now lists 'suitably trained and qualified to understand the system's logic, outputs, limitations, and risks' as a criterion, which is closer to 'access to reasoning' than the brief's wording allows; it is still a draft. The 37 and 16 figures were re-read today and stand."
+}

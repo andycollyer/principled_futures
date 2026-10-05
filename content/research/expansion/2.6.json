@@ -1,0 +1,189 @@
+{
+  "criterion": "2.6",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "The Medical Devices (Post-market Surveillance Requirements) (Amendment) (Great Britain) Regulations 2024, regulation 4 (new Part 4A)",
+      "publisher": "legislation.gov.uk",
+      "year": 2024,
+      "published": "Made 16 December 2024",
+      "url": "https://www.legislation.gov.uk/uksi/2024/1368/regulation/4/made",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Regulation 4, inserted regulation 44ZH(1), (3), (4) and (5); regulation 44ZG",
+      "quote": "no later than 15 days after the manufacturer becomes aware of the serious incident",
+      "why": "A UK incident-reporting duty with fixed limits that already covers AI sold as a medical device: the manufacturer reports a serious incident immediately once a causal link is established or reasonably possible and within 15 days of awareness; 2 days for a serious public health threat; 10 days for a death or unanticipated serious deterioration in health. Regulation 44ZG requires preventive or corrective action as soon as possible. Limits: manufacturers of medical devices only; Great Britain; the as-made text (regulation 1 brings it into force six months after making); later amendments not checked.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "FCA Handbook, SUP 15.3: General notification requirements",
+      "publisher": "Financial Conduct Authority",
+      "year": 2026,
+      "published": null,
+      "url": "https://handbook.fca.org.uk/handbook/SUP/15/3.html",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "SUP 15.3.1R; SUP 15.3.7G (Principle 11)",
+      "quote": "A firm must notify the FCA immediately it becomes aware, or has information which reasonably suggests",
+      "why": "A binding rule for authorised firms that applies whatever the technology: tell the regulator at once of anything that could have a significant adverse impact on its reputation, cause serious detriment to a customer or have serious financial consequences for other firms, including where it may occur in the foreseeable future. An AI system causing customer harm falls within it. Limits: FCA-authorised firms only; not AI-specific. The page shows a last update of 1 June 2026 and a future version dated 18 March 2027.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The Network and Information Systems Regulations 2018, regulation 11: The duty to notify incidents",
+      "publisher": "legislation.gov.uk",
+      "year": 2018,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/uksi/2018/506/regulation/11",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "reg. 11(1), (2) and (3)(b)(i)",
+      "quote": "without undue delay and in any event no later than 72 hours after the operator is aware that a NIS incident has occurred",
+      "why": "The UK reporting clock for operators of essential services (energy, transport, health, water, digital infrastructure): an incident with a significant impact on continuity of the service must be notified to the competent authority within 72 hours. Reaches an AI failure only where it disrupts an essential service. Limits: designated operators only; the page shows no outstanding changes today, but the Cyber Security and Resilience Bill would amend this regime and its progress was not checked in this pass.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "In the Matter of Knight Capital Americas LLC: Order Instituting Administrative and Cease-and-Desist Proceedings (Release No. 34-70694)",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "year": 2013,
+      "published": "2013-10-16",
+      "url": "https://www.sec.gov/files/litigation/admin/2013/34-70694.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "US",
+      "locator": "Summary, paragraph 9(D); paragraphs 15 to 21 (events of 1 August 2012)",
+      "quote": "Knight did not have controls and supervisory procedures reasonably designed to guide employees’ responses to significant technological and compliance incidents",
+      "why": "An enforcement decision on the cost of having no rehearsed way to stop an automated system. A faulty deployment sent millions of orders in about 45 minutes; the firm lost over $460 million. The regulator found no written procedures for reviewing deployments or guiding staff through an incident. Limits: United States securities law; automated trading software, not AI; 2013; a settled order, so findings were neither admitted nor denied.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Preventing Repeated Real World AI Failures by Cataloging Incidents: The AI Incident Database",
+      "publisher": "arXiv (author's copy; paper for the Innovative Applications of Artificial Intelligence conference, IAAI-21); author Sean McGregor",
+      "year": 2020,
+      "published": "2020-11-17",
+      "url": "https://arxiv.org/abs/2011.08512",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "As a result, companies repeatedly make the same mistakes in the design, development, and deployment of intelligent systems.",
+      "why": "Research case for recording incidents and learning from them, drawing on aviation: without a shared memory of failures the same ones recur. Supports the higher levels of the criterion, where incident reviews change practice. Describes a database then holding more than 1,000 incident reports, compiled largely from press coverage, so it is not a measure of how often incidents occur. Limits: descriptive paper about one database; United States-led; 2020.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Deployment Corrections: An incident response framework for frontier AI models",
+      "publisher": "arXiv (Institute for AI Policy and Strategy); authors Joe O'Brien, Shaun Ee, Zoe Williams",
+      "year": 2023,
+      "published": "2023-09-30",
+      "url": "https://arxiv.org/abs/2310.00328",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "establish or grow dedicated teams to design and maintain processes for deployment corrections, including incident response plans",
+      "why": "Working paper setting out a graded set of responses once a deployed model proves harmful, from restricting users, access or features up to full shutdown, and recommending that the power to apply them is agreed with downstream users in advance. Useful for defining suspension triggers and for what to ask a supplier. Limits: preprint, not peer reviewed; written for developers of the most capable models, not for organisations that use them; a framework, not evidence of effect.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "AI incident reporting: Addressing a gap in the UK’s regulation of AI",
+      "publisher": "The Centre for Long-Term Resilience; author Tommy Shaffer Shane",
+      "year": 2024,
+      "published": "2024-06-26",
+      "url": "https://www.longtermresilience.org/reports/ai-incident-reporting-addressing-a-gap-in-the-uks-regulation-of-ai/",
+      "access": "free",
+      "tier": "professional",
+      "type": "professional",
+      "jurisdiction": "UK",
+      "locator": "Executive summary, 'A critical gap'",
+      "quote": "the UK’s regulation of AI currently lacks an effective incident reporting framework",
+      "why": "Independent UK policy report confirming the brief's starting point: there is no general UK regime for reporting AI incidents, only what individual regulators collect. Recommends a reporting system for government's own use of AI first. Limits: a think-tank report, not peer reviewed and not official; its count of over 10,000 incidents comes from news reports; written in June 2024 and addressed to government, not to companies.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Code of Practice for the Cyber Security of AI",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2025,
+      "published": "2025-01-31",
+      "url": "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "Principle 10, provision 10.3; Principle 6, provision 6.5",
+      "quote": "should support End-users and Affected Entities during and following a cyber security incident to contain and mitigate the impacts of an incident",
+      "why": "The UK government code that ties AI incident handling to cyber incident response, as the top level of the criterion asks: an incident management plan and a recovery plan that are created, tested and maintained (6.5), and support for users and affected people during and after an incident, documented and agreed in contracts (10.3). Limits: voluntary; framed around security incidents, not unfair or wrong outputs.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+      "publisher": "National Institute of Standards and Technology",
+      "year": 2024,
+      "published": "July 2024",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "US",
+      "locator": "Suggested actions GV-1.7-001 (GOVERN 1.7) and MG-2.4-001 to MG-2.4-004 (MANAGE 2.4)",
+      "quote": "Protocols are put in place to ensure GAI systems are able to be deactivated when necessary.",
+      "why": "International comparator, 2024. Turns the suspension question into specific actions for generative AI: protocols so a system can be deactivated, written criteria for when to do so reviewed against risk tolerance, an escalation route to the risk authority, and a plan for telling those affected. A separate document from the 2023 framework already listed. Voluntary; US; no legal force in the UK.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "ISO 31000:2018 Risk management: Guidelines (abstract page)",
+      "url": "https://www.iso.org/standard/65694.html",
+      "reason": "Blocked again today: HTTP 403 (bot challenge). Not bypassed; not cited."
+    },
+    {
+      "title": "ISO/IEC 23894:2023 AI: Guidance on risk management (abstract page)",
+      "url": "https://www.iso.org/standard/77304.html",
+      "reason": "Blocked again today: HTTP 403 (bot challenge). Not bypassed; not cited."
+    },
+    {
+      "title": "Report of the Royal Commission into the Robodebt Scheme",
+      "url": "https://robodebt.royalcommission.gov.au/publications/report",
+      "reason": "No response to curl (connection failed, status 0). Not read; not cited."
+    },
+    {
+      "title": "Deployment Corrections (full paper PDF)",
+      "url": "https://arxiv.org/pdf/2310.00328",
+      "reason": "Served, but the PDF's text extracts with no spaces between words, so no passage could be matched exactly. The abstract page is cited instead."
+    },
+    {
+      "title": "PS26/2: Operational incident and third party reporting",
+      "url": "https://www.fca.org.uk/publications/policy-statements/ps26-2-operational-incident-third-party-reporting",
+      "reason": "Landing page read (final rules published 18 March 2026). The rules themselves are in a PDF not read in this pass; the handbook rule in force today (SUP 15.3) is cited instead. Worth adding when the 18 March 2027 handbook text is in force."
+    },
+    {
+      "title": "Post Office Horizon IT Inquiry: Report, Volume 1",
+      "url": "https://www.postofficehorizoninquiry.org.uk/sites/default/files/2025-07/Post%20Office%20Horizon%20IT%20Inquiry%20Final%20Report%20Volume%201_0.pdf",
+      "reason": "Read. Volume 1 covers human impact and redress; it makes no finding on detection, suspension or reporting procedures. Listed under risk treatment instead."
+    },
+    {
+      "title": "EU AI Act, Article 20: Corrective actions and duty of information (Commission's copy)",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-20",
+      "reason": "Read. A provider duty; the list already carries five AI Act entries. Left out to avoid padding."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the approved brief. The brief names two UK reporting duties (personal data breaches, unsafe consumer products); three more were read today and could be named at the next version: medical devices (15, 10 and 2 days, in the same pattern as the EU limits), FCA firms (notify immediately, SUP 15.3.1R) and operators of essential services (72 hours). The FCA page shows new handbook text due on 18 March 2027."
+}

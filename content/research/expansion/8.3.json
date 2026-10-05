@@ -1,0 +1,200 @@
+{
+  "criterion": "8.3",
+  "current_count": 9,
+  "additions": [
+    {
+      "title": "Supervisory statement 5/25: Enhancing banks' and insurers' approaches to managing climate-related risks",
+      "publisher": "Bank of England, Prudential Regulation Authority",
+      "year": 2025,
+      "published": "2025-12-03",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2025/ss425-december-2025.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Paragraph 4.28 (printed pages 17 to 18, PDF pages 19 to 20); paragraphs 4.25 and 4.31",
+      "quote": "the credibility of the client, counterparty, investee and policyholder's transition plan and its positioning versus competitors",
+      "why": "Why finance asks comprehensive-level questions. The prudential regulator lists what a bank or insurer should weigh in a material client relationship: exposure to transition and physical risk, the credibility of the client's transition plan, its adaptation plans and the vulnerability of its supply chain. These map onto the targets, transition and climate-risk disclosures (C3 and C4). Supervisory expectations for banks and insurers, applied only to relationships the firm judges material; no duty on the client. Commenced 3 December 2025.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Thematic Review: Climate-related Financial Disclosures by AIM and Large Private Companies",
+      "publisher": "Financial Reporting Council",
+      "year": 2025,
+      "published": "2025-01-21",
+      "url": "https://www.frc.org.uk/documents/7931/Climate-related_Financial_Disclosures_by_AIM_and_Large_Private_Companies.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Section 12, 'Targets and key performance indicators', page 23; executive summary, page 4",
+      "quote": "it was unclear whether targets were in place but not disclosed, or if there were no targets to disclose",
+      "why": "UK regulator's findings on how well companies evidence targets, the hardest part of the comprehensive set. Even among companies legally required to disclose climate targets and performance against them, only half gave all the required information. Supports the brief's warning about a target nobody can evidence. Published 21 January 2025. A review of a selection of annual reports of AIM and large private companies in their first years of mandatory reporting, not of small suppliers; findings are qualitative.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Modern Slavery Act 2015, section 54: Transparency in supply chains etc",
+      "publisher": "legislation.gov.uk",
+      "year": 2015,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2015/30/section/54",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s.54(1), (2), (4) and (5); turnover threshold in S.I. 2015/1833, regulation 2 (£36 million)",
+      "quote": "its due diligence processes in relation to slavery and human trafficking in its business and supply chains",
+      "why": "The UK binding rule behind human rights questions to suppliers. A commercial organisation supplying goods or services with total turnover of at least £36 million must publish a yearly statement of the steps taken to ensure slavery and human trafficking are not taking place in its supply chains, which is why large clients ask suppliers about policies, due diligence and incidents (C6 and C7). The duty is to publish a statement, which may say no steps were taken; it places no duty on the supplier. The page is up to date to 5 October 2026 and notes changes not yet in force.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Guiding Principles on Business and Human Rights: Implementing the United Nations 'Protect, Respect and Remedy' Framework",
+      "publisher": "United Nations Office of the High Commissioner for Human Rights",
+      "year": 2011,
+      "published": null,
+      "url": "https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "International",
+      "locator": "Principle 14 and commentary, printed page 15 (PDF page 20); principles 15 and 16 on policy commitment and due diligence",
+      "quote": "The responsibility of business enterprises to respect human rights applies to all enterprises regardless of their size, sector, operational context, ownership and structure.",
+      "why": "The international standard that customers' human rights questions are drawn from. It expects every enterprise to have a policy commitment, a due diligence process and a route to remedy, while the commentary accepts that a smaller firm's processes will be simpler. Gives a small supplier the benchmark for a proportionate human rights policy and complaints route. Not legally binding; endorsed by the UN Human Rights Council in resolution 17/4 of 16 June 2011 (document HR/PUB/11/04).",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Transition Plan Taskforce Disclosure Framework",
+      "publisher": "Transition Plan Taskforce (published on the IFRS Foundation's site)",
+      "year": 2023,
+      "published": null,
+      "url": "https://www.ifrs.org/content/dam/ifrs/knowledge-hub/resources/tpt/disclosure-framework-oct-2023.pdf",
+      "access": "free",
+      "tier": "professional",
+      "type": "reporting framework",
+      "jurisdiction": "UK",
+      "locator": "Section 3, the five elements, page 21; Figure 3, page 15 (sub-element 3.1, engagement with value chain)",
+      "quote": "An entity shall disclose how it is engaging with its value chain, industry peers, government, public sector, communities, and civil society",
+      "why": "The UK framework against which a transition plan is judged credible, and so the template behind lenders' and large clients' questions on targets and transition. It shows what a full plan contains (ambition, implementation, engagement, metrics and targets, governance) and that large companies are expected to disclose how they engage suppliers. Dated October 2023. Voluntary; written for listed companies and financial firms, so a small supplier should treat it as the shape of the question, not a requirement on itself. Read on the IFRS Foundation's site, which now hosts the document.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Assurance of sustainability reporting: consultation and government response",
+      "publisher": "Department for Business and Trade",
+      "year": 2025,
+      "published": "2025-06-25",
+      "url": "https://www.gov.uk/government/consultations/assurance-of-sustainability-reporting",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "'Detail of outcome' (added 30 January 2026)",
+      "quote": "the government has tasked the FRC to establish an interim regime and register by mid 2026",
+      "why": "The UK position on assurance, which the top level of this criterion depends on. Anyone may currently offer assurance of sustainability data; the government has decided on a voluntary register of providers run by the Financial Reporting Council, with legislation to follow when parliamentary time allows. So a claim of 'assured' data should name the provider and say whether it is registered. The page was last updated on 30 January 2026; whether the interim register opened on time was not checked in this pass. Policy direction, not law.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Scope 3 Emissions in the UK Reporting Landscape: Call for Evidence Analysis Report",
+      "publisher": "Department for Energy Security and Net Zero",
+      "year": 2024,
+      "published": null,
+      "url": "https://assets.publishing.service.gov.uk/media/67499f7e75bb645366b3a1e7/summary-of-responses-call-for-evidence-scope-3-emissions-reporting.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Chapter 2, 'Data challenges', PDF page 20",
+      "quote": "Though it was acknowledged that primary data is preferable, estimates are often used in lieu",
+      "why": "UK government evidence on why value-chain emissions are estimates. Respondents reported reliance on spend-based data, inconsistent methods between organisations, double counting, and confidentiality concerns about supplier information, and said estimates can undermine comparability. Supports stating the method beside any value-chain figure. Dated May 2024. A thematic analysis of 184 self-selected consultation responses, not a survey and not policy.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Harmonizing corporate carbon footprints",
+      "publisher": "Klaaßen and Stoll, Nature Communications 12, 6149 (Springer Nature)",
+      "year": 2021,
+      "published": "2021-10-22",
+      "url": "https://www.nature.com/articles/s41467-021-26349-x",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "International",
+      "locator": "Abstract",
+      "quote": "In a case study of the tech sector, we find that corporate reports omit half of the total emissions.",
+      "why": "Peer-reviewed evidence that value-chain emissions figures are unreliable even from large, well-resourced companies: reporting was inconsistent between channels, boundaries were incomplete and activities were left out. The sector studied is technology, which makes it directly relevant to the emissions of bought-in computing and AI services. A case study of large technology companies, published in 2021; not small firms and not UK-specific. Open access on the publisher's site.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Completing the SME carbon profile: scalable prediction of scope 3 emissions",
+      "publisher": "Phillpotts and co-authors, Journal of Industrial Ecology 30, 23-38 (Springer Nature)",
+      "year": 2026,
+      "published": "2026-03-20",
+      "url": "https://link.springer.com/article/10.1007/s44498-026-00003-5",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "UK",
+      "locator": "Abstract",
+      "quote": "a business's Scope 3 emissions remain rarely measured and as a result are poorly understood",
+      "why": "Peer-reviewed UK research, 2026, on value-chain emissions in small firms. Using financial transaction data for more than 150,000 UK small and medium-sized enterprises, the authors produce spend-based estimates and report that the approach predicts purchased goods and services well and narrower categories less well. Shows both that a small firm can estimate without heroic effort and that the result is a model output whose method must be stated. Spend-based estimates rest on sector averages, not the firm's own suppliers; the lead author's work was funded by Lloyds Banking Group, with which three of the authors are affiliated. Open access on the publisher's site.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Senate Bill No. 253, Climate Corporate Data Accountability Act (chaptered 7 October 2023)",
+      "publisher": "California Legislative Information",
+      "year": 2023,
+      "published": "2023-10-07",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB253",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "US",
+      "locator": "Section 2, adding Health and Safety Code section 38532, subdivisions (b)(2), (b)(5) and (c)(1)",
+      "quote": "including the use of industry average data, proxy data, and other generic data in its scope 3 emissions calculations",
+      "why": "International comparator. California requires companies with revenues above one billion dollars that do business in the state to disclose Scope 1, 2 and 3 emissions with independent assurance, and expressly allows Scope 3 to be calculated from industry averages and proxies. A second large jurisdiction where value-chain emissions are mandatory for big companies and estimates are accepted, so UK suppliers to US groups can expect the same questions. This is the bill as chaptered on 7 October 2023; later amendments and the state board's regulations, which set the reporting dates, were not read in this pass. Do not take a date from this page.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "Scope 3 emissions: Data quality and machine learning prediction accuracy (PLOS Climate, 2023)",
+      "url": "https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000208",
+      "reason": "Read (open access). About divergence between commercial data providers' Scope 3 figures for investors; less directly about a supplier's readiness than the two papers kept. Not added, to avoid padding."
+    },
+    {
+      "title": "Supply-chain data sharing for scope 3 emissions (npj Climate Action, 2023)",
+      "url": "https://www.nature.com/articles/s44168-023-00032-x",
+      "reason": "Read. Used under the protected-undertaking criterion for its passage on confidentiality; not repeated here."
+    },
+    {
+      "title": "What Do We Know About Scope 3 Emissions in Small- and Medium-Sized Enterprises? (Business Strategy and the Environment)",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/bse.71056",
+      "reason": "HTTP 403 with a browser check. Not bypassed; not read; not cited."
+    },
+    {
+      "title": "Sustainability assurance practices: a systematic review and future research agenda",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8596354/",
+      "reason": "PubMed Central returned a reCAPTCHA page. Not bypassed; not read; not cited. No open research source on assurance of small-firm sustainability data was read."
+    },
+    {
+      "title": "International Standard on Sustainability Assurance (ISSA) 5000",
+      "url": "https://www.iaasb.org/publications/international-standard-sustainability-assurance-5000-general-requirements-sustainability-assurance",
+      "reason": "Landing page read only (dated 12 November 2024); the standard itself was not opened, so it is not cited. The UK government response is used for the assurance point."
+    },
+    {
+      "title": "SS5/25 landing page (Bank of England)",
+      "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2025/december/enhancing-banks-and-insurers-approaches-to-managing-climate-related-risks-ss",
+      "reason": "Read for the publication date; the statement itself (PDF) is what is cited. A first address guessed for this page returned 404."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. It can now be sharpened in two places: the brief makes no claim about what UK lenders ask, and PRA SS5/25 (paragraphs 4.28 and 4.31) supplies one; and on assurance, the UK government decided on 30 January 2026 to create a voluntary register of sustainability assurance providers under the Financial Reporting Council, which the brief does not mention."
+}

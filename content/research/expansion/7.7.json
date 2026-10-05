@@ -1,0 +1,163 @@
+{
+  "criterion": "7.7",
+  "current_count": 9,
+  "additions": [
+    {
+      "title": "R (Ayinde) v London Borough of Haringey; Al-Haroun v Qatar National Bank QPSC [2025] EWHC 1383 (Admin)",
+      "publisher": "High Court of Justice, King's Bench Division, Divisional Court (The National Archives, Find Case Law)",
+      "year": 2025,
+      "published": "2025-06-06",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/1383",
+      "access": "free",
+      "tier": "official",
+      "type": "court or tribunal",
+      "jurisdiction": "UK",
+      "locator": "Paragraphs 6 to 9",
+      "quote": "Freely available generative artificial intelligence tools, trained on a large language model such as ChatGPT are not capable of conducting reliable legal research.",
+      "why": "A UK court's finding on what happens when staff use free public AI tools unchecked: fictitious authorities were put before the court in two cases. The court said those with leadership responsibilities must take practical and effective measures so that everyone understands their obligations when using AI, and that it will ask whether they did. It makes acceptable-use rules a leadership duty. Limits: about lawyers and duties to the court; it does not address data leakage or tool approval in other sectors.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence (AI) Guidance for Judicial Office Holders",
+      "publisher": "Courts and Tribunals Judiciary",
+      "year": 2025,
+      "published": "2025-10-31",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2025/10/Artificial-Intelligence-AI-Guidance-for-Judicial-Office-Holders-2.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Section 3, part II 'Uphold confidentiality and privacy' (PDF page 5)",
+      "quote": "Do not enter any information into a public AI chatbot that is not already in the public domain.",
+      "why": "A model of a short acceptable-use rule written for the people who must follow it: what must never be entered into a public tool, the warning that anything entered 'should be seen as being published to all the world', and what to do after an accidental disclosure (report it as a data incident). Limits: written for judges and their staff in England and Wales; guidance; this version states that it replaces the April 2025 guidance, so it is revised often.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Risk Outlook report: The use of artificial intelligence in the legal market",
+      "publisher": "Solicitors Regulation Authority",
+      "year": 2023,
+      "published": "2023-11-20",
+      "url": "https://www.sra.org.uk/sra/research-publications/artificial-intelligence-legal-market/",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Section 'Confidentiality and privacy'; section 'Accountability'",
+      "quote": "A staff member using an online AI, such as ChatGPT, to answer a question on a client's case.",
+      "why": "A UK regulator naming unsanctioned staff use of a public tool as a specific threat to confidentiality and privilege, and telling firms they stay responsible for what the tools do. It shows how a regulator frames shadow AI for the firms it supervises. Limits: solicitors' firms in England and Wales only; a risk outlook, not rules; dated November 2023, and the SRA's site now also points to a later warning notice that was not read.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "UK GDPR, Article 24: Responsibility of the controller",
+      "publisher": "legislation.gov.uk",
+      "year": 2016,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/24",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "Art. 24(1) and (2)",
+      "quote": "Those measures shall be reviewed and updated where necessary.",
+      "why": "The legal root of an acceptable-use policy wherever personal data is involved: the controller must put in place organisational measures, including data protection policies where proportionate, be able to demonstrate compliance, and review and update them. The last point matches 'policy iterated on findings'. Limits: covers personal data only, not confidential business information or accuracy of output; it does not mention AI; 'where proportionate' leaves judgement to the organisation.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+      "publisher": "National Institute of Standards and Technology",
+      "year": 2024,
+      "published": "2024-07",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "US",
+      "locator": "Suggested action GV-3.2-003 under GOVERN 3.2 (PDF page 22); also GV-1.4-002 and GV-1.6-001",
+      "quote": "acceptable use policies for GAI interfaces, modalities, and human-AI",
+      "why": "International comparator. The United States standards body's generative AI profile lists as suggested actions defining acceptable use policies for generative AI interfaces, publishing transparent acceptable use policies, and enumerating the organisation's generative AI systems in its inventory: the policy and the visibility halves of this criterion. Limits: voluntary; United States; written for all organisations, with no detail on staff use of unapproved tools. The PDF text layer uses ligature characters in nearby words, so the quote is a clean fragment.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Generative artificial intelligence (AI) in education",
+      "publisher": "Department for Education",
+      "year": 2025,
+      "published": "2025-08-12",
+      "url": "https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education/generative-artificial-intelligence-ai-in-education",
+      "access": "free",
+      "tier": "official",
+      "type": "official report",
+      "jurisdiction": "UK",
+      "locator": "Paragraph beginning 'Schools and colleges should also consider'; section 'Data privacy'",
+      "quote": "there may be uses of generative AI by staff or pupils that have not been explicitly approved or adopted in their setting",
+      "why": "UK government guidance that tells organisations to assume unapproved use exists and to plan for it: risk assessments 'should include plans for mitigating against unauthorised use cases', and personal data should not be put into generative AI tools. One of the few official UK texts to address unsanctioned use directly. Limits: schools and colleges in England only; departmental guidance, not law; the date is the 'Updated 12 August 2025' shown on the page.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "From Frontier to Shadow AI: A Simmering Threat to Assurance and Security in Critical Infrastructure (arXiv preprint 2606.00088)",
+      "publisher": "Mohan Baruwal Chhetri and others, CSIRO",
+      "year": 2026,
+      "published": "2026-05-23",
+      "url": "https://arxiv.org/pdf/2606.00088",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "other",
+      "locator": "Abstract, page 1",
+      "quote": "Drawing on semi-structured interviews with senior executives and functional leaders across 27 Australian CI organisations",
+      "why": "The only empirical research found that studies shadow AI inside organisations instead of surveying individuals: interviews across 27 Australian critical infrastructure organisations, identifying three ways it weakens control (data leaving established boundaries, AI features embedded in existing software that nobody assessed, and loss of visibility for audit). Useful for what 'surfaced' has to cover. Limits: preprint, not peer reviewed; Australia; communications, energy and water sectors; qualitative, with no prevalence figure. The PDF text layer runs some words together.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "The Adoption of ChatGPT (Becker Friedman Institute Working Paper No. 2024-50)",
+      "publisher": "Anders Humlum and Emilie Vestergaard, University of Chicago, Becker Friedman Institute",
+      "year": 2024,
+      "published": "2024-04",
+      "url": "https://bfi.uchicago.edu/wp-content/uploads/2024/04/BFI_WP_2024-50.pdf",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "other",
+      "locator": "Introduction (PDF page 5); abstract (PDF page 2)",
+      "quote": "Workers report restrictions on use and needing training as the primary barriers to adoption",
+      "why": "Large-sample evidence that employer policy, not worker reluctance, decides whether staff use these tools: in a survey of 100,000 Danish workers in 11 exposed occupations linked to register data, the main barriers reported were employer restrictions and lack of training. It supports the brief's point that guidance and a route to approved tools matter more than a ban. Limits: Denmark; one product; survey from late 2023 (the PDF is a revision dated 25 April 2025); working paper in this version; it does not measure unsanctioned use.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "The Law Society, Generative AI: the essentials",
+      "url": "https://www.lawsociety.org.uk/topics/ai-and-lawtech/generative-ai-the-essentials",
+      "reason": "HTTP 403. Not read."
+    },
+    {
+      "title": "Australian Government, Policy for the responsible use of AI in government (Digital Transformation Agency)",
+      "url": "https://www.digital.gov.au/policy/ai/policy",
+      "reason": "No response from the server (connection failed three times). Not read."
+    },
+    {
+      "title": "DSIT, Code of Practice for the Cyber Security of AI (31 January 2025)",
+      "url": "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai",
+      "reason": "Read. Principle 1 requires AI security content in staff training; the Code does not mention acceptable use, approved tools or unsanctioned use ('shadow' does not appear). It belongs with AI literacy, not here."
+    },
+    {
+      "title": "Bar Council, Updated guidance on generative AI for the Bar",
+      "url": "https://www.barcouncil.org.uk/resource/updated-guidance-on-generative-ai-for-the-bar.html",
+      "reason": "Only a short landing page loaded; the guidance document itself was not opened, so it is not cited."
+    },
+    {
+      "title": "Vendor and press 'shadow AI statistics' pages (various)",
+      "url": "https://www.cio.com/article/4124760/roughly-half-of-employees-are-using-unsanctioned-ai-tools-and-enterprise-leaders-are-major-culprits.html",
+      "reason": "Seen in search results only. Vendor surveys and press summaries, not originals; not opened and not cited."
+    }
+  ],
+  "brief_check": "Nothing read contradicts the brief. One addition of substance: a UK court has now said (Ayinde, 6 June 2025) that people with leadership responsibilities must take practical and effective measures over staff use of AI and can expect to be asked whether they did; the brief's 'No law names shadow AI' remains accurate but could note this. Still no UK figure for unapproved AI use at work."
+}

@@ -1,0 +1,205 @@
+{
+  "criterion": "6.3",
+  "current_count": 10,
+  "additions": [
+    {
+      "title": "Bates and Others v Post Office Limited (No 6: Horizon Issues) [2019] EWHC 3408 (QB)",
+      "publisher": "High Court of Justice, Queen's Bench Division (Courts and Tribunals Judiciary)",
+      "year": 2019,
+      "published": "2019-12-16",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2019/12/bates-v-post-office-judgment.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "court or tribunal",
+      "jurisdiction": "UK",
+      "locator": "Paras 1007-1013 (answers to Horizon Issues 11 and 12), PDF pp. 308-309",
+      "quote": "the roles were very wide and in my judgment they were not controlled",
+      "why": "The court's finding on privileged access in the Post Office Horizon system: the supplier's staff could alter branch data remotely, the powerful roles were not controlled, and proper logs were not kept, so nobody could say how often data had been changed. The clearest UK finding of what uncontrolled, unlogged access costs the people a system decides about. A judgment about an accounting system, not AI; a very long document, of which the Horizon Issues on remote access and their answers were read.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Penalty Notice: Capita plc and Capita Pension Solutions Limited",
+      "publisher": "Information Commissioner's Office",
+      "year": 2025,
+      "published": "2025-10-15",
+      "url": "https://ico.org.uk/media2/pv5nhks4/capita-plc-and-cpsl-monetary-penalty-notice.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Para 7(iii), PDF p. 7; paras 80 and 90 on privileged access management",
+      "quote": "failed to implement appropriate technical and organisational measures to prevent both privilege escalation and unauthorised lateral movement through the network",
+      "why": "An enforcement decision that turns on privileged access: the regulator found the companies had not prevented privilege escalation, in breach of the security duties in UK GDPR, and judged them against privileged access management, tiered administrator accounts and the principle of least privilege. Shows that weak control of privileged accounts is treated as a breach of Article 32 in its own right. Not about AI; a published version with redactions; the companies settled and made full admissions.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Data Protection Act 2018, section 62: Logging",
+      "publisher": "legislation.gov.uk",
+      "year": 2018,
+      "published": null,
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/62",
+      "access": "free",
+      "tier": "official",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "locator": "s. 62(1) and (2)(b)",
+      "quote": "so far as possible, the identity of the person who consulted the data",
+      "why": "The one UK statutory duty found that requires a log of who did what in an automated system: collection, alteration, consultation, disclosure, combination and erasure. It applies only to law enforcement processing by competent authorities under Part 3 of the Act, so it binds police and similar bodies, not business generally. Amended by the Data (Use and Access) Act 2025 from 19 August 2025, which removed the duty to record the reason for consulting or disclosing data. legislation.gov.uk shows it up to date to 4 October 2026.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "SS1/23 Model risk management principles for banks",
+      "publisher": "Prudential Regulation Authority",
+      "year": 2023,
+      "published": "2023-05",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2023/ss123.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Principle 2.3 'Policies and procedures', item (c)(viii), PDF p. 17; Principle 3.3(c) on testing material model changes",
+      "quote": "approval and monitoring procedures that need to be followed when a material change is made to a model",
+      "why": "A UK regulator's expectation of change control for models: named approval authorities, a test of what counts as a material change, and independent review before it takes effect, including for models that change themselves as new data arrives. In effect from 17 May 2024. Addressed to banks, building societies and designated investment firms; it covers models of all kinds and says nothing about prompts.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Machine learning principles: 2.3 Manage the full life cycle of models and datasets",
+      "publisher": "National Cyber Security Centre",
+      "year": 2024,
+      "published": "2024-05-22",
+      "url": "https://www.ncsc.gov.uk/collection/machine-learning-principles/secure-development/manage-life-cycle",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Part 2: Secure development, principle 2.3, 'Use version-control tools to track and control changes to your software, dataset and resulting model'",
+      "quote": "track which users make changes to datasets and models with full details of any modification (including the author, time and date)",
+      "why": "The most exact official statement of this criterion's third level: changes to datasets and models attributable to a person and a time, reviewed before they are made, and reversible. Principle 2.2 in the same collection adds least privilege, access logging and two-person controls where necessary. Version 2.0, May 2024. Guidance, not a rule, and written before prompts became a common point of change.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Managing the cyber risk of agentic AI",
+      "publisher": "National Cyber Security Centre",
+      "year": 2026,
+      "published": "2026-08-20",
+      "url": "https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai",
+      "access": "free",
+      "tier": "official",
+      "type": "regulator guidance",
+      "jurisdiction": "UK",
+      "locator": "Consideration 4(e) 'Assign and limit an agent's access to credentials' and consideration 5 'Observability'",
+      "quote": "Where possible, logs should be immutable so you can trust them during an investigation.",
+      "why": "Extends access control to the AI system itself: each agent should have its own identity, distinct from any person's, with the fewest permissions and shortest-lived credentials the task allows, and its activity logged where it cannot be altered. Interim advice in a blog post by a named NCSC architect; the page says formal guidance will supersede it.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Software Security Code of Practice",
+      "publisher": "Department for Science, Innovation and Technology",
+      "year": 2025,
+      "published": "2025-05-07",
+      "url": "https://www.gov.uk/government/publications/software-security-code-of-practice/software-security-code-of-practice",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "UK",
+      "locator": "'Voluntary Software Security Code of Practice', theme 2 'Build environment security', principles 2.1 and 2.2",
+      "quote": "Control and log changes to the build environment.",
+      "why": "What a buyer can ask of the supplier's side of change control: the vendor's senior owner must gain assurance that the environment where the software is built is protected from unauthorised access and that changes to it are controlled and logged. Voluntary, addressed to software vendors and not specific to AI; last updated 15 January 2026.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "How is ChatGPT's behavior changing over time?",
+      "publisher": "arXiv (Chen, Zaharia and Zou)",
+      "year": 2023,
+      "published": "2023-07-18",
+      "url": "https://arxiv.org/abs/2307.09009",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Abstract on the arXiv record (version 3, 31 October 2023)",
+      "quote": "the behavior of the \"same\" LLM service can change substantially in a relatively short amount of time",
+      "why": "Measured evidence that a supplier's unannounced update changes what a system does: on one task the same named service fell from 84% to 51% accuracy between March and June 2023. The case for requiring notice of supplier changes and re-testing after them. Cited from the authors' preprint on arXiv; only the abstract was read. Two versions of one supplier's models, on tasks chosen by the authors.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Hidden Technical Debt in Machine Learning Systems",
+      "publisher": "Advances in Neural Information Processing Systems 28 (Sculley and others, Google)",
+      "year": 2015,
+      "published": null,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf",
+      "access": "free",
+      "tier": "research",
+      "type": "research",
+      "jurisdiction": "US",
+      "locator": "Section 2, 'Entanglement', PDF p. 2",
+      "quote": "CACE applies not only to input signals, but also to hyper-parameters, learning settings, sampling methods, convergence thresholds, data selection",
+      "why": "The standard peer-reviewed account of why change control for machine learning must reach beyond code: changing any input, setting or data selection can change everything the system does (the authors' 'changing anything changes everything' principle). Conference paper from the publisher's own proceedings site. Practitioner experience at one company, not a measured study, and it predates language models.",
+      "comparator": false,
+      "last_checked": "2026-10-05"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+      "publisher": "National Institute of Standards and Technology",
+      "year": 2024,
+      "published": "2024-07",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "access": "free",
+      "tier": "official",
+      "type": "code or standard",
+      "jurisdiction": "US",
+      "locator": "Suggested action MS-2.8-003 under MEASURE 2.8, PDF p. 38; MANAGE 4.1 (change management)",
+      "quote": "Robust version control systems can also be applied to track changes across the AI lifecycle over time.",
+      "why": "International comparator. The US framework's profile for generative AI lists version control and change-management controls among the actions it suggests, alongside a tamper-proof history of content. Voluntary US framework; no legal force in the UK.",
+      "comparator": true,
+      "last_checked": "2026-10-05"
+    }
+  ],
+  "backfill": {},
+  "rejected": [
+    {
+      "title": "Find Case Law copy of Bates v Post Office (No 6)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2019/3408",
+      "reason": "HTTP 404: the National Archives service does not hold the judgment at that address. The judiciary's own PDF was read and used."
+    },
+    {
+      "title": "NCSC Cyber Assessment Framework, principle B2 (identity and access control)",
+      "url": "https://www.ncsc.gov.uk/collection/cyber-assessment-framework/caf-objective-b-protecting-against-cyber-attack/principle-b2-identity-and-access-control",
+      "reason": "HTTP 404 at the address tried; the current address was not found in this pass. Not read, not cited."
+    },
+    {
+      "title": "Securing AI Model Weights (RAND research report RR-A2849-1)",
+      "url": "https://www.rand.org/pubs/research_reports/RRA2849-1.html",
+      "reason": "HTTP 403 ('Request blocked'). Not bypassed, not read, not cited."
+    },
+    {
+      "title": "EU AI Act, Article 12: Record-keeping (Commission AI Act Service Desk)",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-12",
+      "reason": "Page fetched. It concerns logs a high-risk system generates automatically, not a record of who changed the system; the 2 October log reached the same view on Article 26(6). Not used."
+    },
+    {
+      "title": "BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain",
+      "url": "https://arxiv.org/abs/1708.06733",
+      "reason": "Abstract read. About bought models rather than internal access; used for 6.2."
+    },
+    {
+      "title": "Deploying AI Systems Securely (joint guidance, NSA, CISA, NCSC and partners, April 2024)",
+      "url": "https://media.defense.gov/2024/Apr/15/2003439257/-1/-1/0/CSI-DEPLOYING-AI-SYSTEMS-SECURELY.PDF",
+      "reason": "HTTP 403 (Access Denied) to the checker's request. Not bypassed, not read, not cited. The CISA alert page that links to it was reachable but is only a notice."
+    },
+    {
+      "title": "ISO/IEC 42001 abstract page",
+      "url": "https://www.iso.org/standard/42001",
+      "reason": "HTTP 403 with a browser challenge page, as on 2 October. Not bypassed, not cited."
+    }
+  ],
+  "brief_check": "Nothing contradicts the brief text. Two points for the lead. (1) The existing reading-list note on the Implementation Guide calls it 'the only source read that speaks of approval before a change lands'; NCSC machine learning principle 2.3 (May 2024) also says version control should 'allow for reviews before changes to an asset are made', and PRA SS1/23 expects approval of material model changes. (2) 'No UK law is specific to AI here' stands, but there is a statutory logging duty, Data Protection Act 2018 s.62, for law enforcement processing only. ETSI TS 104 223 on the list now has a successor, EN 304 223 V2.1.1 (December 2025); the audit log provision keeps its number, 5.2.4-3."
+}
