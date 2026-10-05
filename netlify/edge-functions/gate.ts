@@ -61,9 +61,9 @@ export default async function gate(request: Request, context: Context) {
   if ((path === "/team" || path === "/team/") && url.searchParams.has("key")) {
     const offered = url.searchParams.get("key") ?? "";
     if (expected && sameHash(await sha256(offered), expected)) {
-      // Land on the team page, not the dashboard: the product has its own account sign-in,
-      // and dropping someone straight onto a second log-in reads as the passcode having failed.
-      const home = new URL("/team/?in=1", url.origin);
+      // Straight into the product. A team member signs in to their own account once (the
+      // library text is held per account in the database); after that the passcode alone gets them in.
+      const home = new URL("/dashboard/", url.origin);
       return new Response(null, {
         status: 302,
         headers: {
@@ -78,6 +78,9 @@ export default async function gate(request: Request, context: Context) {
 
   // The front door shows the landing page and wait list while the site is private.
   if (path === "/") return context.rewrite(new URL("/welcome/", url.origin));
+
+  // The draft address of the landing page, kept so old links do not dead-end.
+  if (path.startsWith("/welcome-next")) return new Response(null, { status: 302, headers: { Location: "/" } });
 
   if (PUBLIC_EXACT.has(path)) return;
 

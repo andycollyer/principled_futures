@@ -1,8 +1,8 @@
 # Netlify build configuration — used when the repo is linked for
-# continuous deployment. Next.js static export outputs to `out`.
+# continuous deployment. Next.js static export outputs to `out.nosync` (kept out of iCloud).
 [build]
   command = "npm run build"
-  publish = "out"
+  publish = "out.nosync"
 
 [build.environment]
   NODE_VERSION = "20"

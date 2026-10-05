@@ -15,7 +15,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const outDir = path.join(root, "out");
+const outDir = path.join(root, "out.nosync");
 
 /** A handful of distinctive phrases drawn from the content we must not ship. */
 async function canaries() {
@@ -58,7 +58,7 @@ async function walk(dir) {
 try {
   await stat(outDir);
 } catch {
-  console.log("check-bundle: no out/ directory — skipping (nothing built).");
+  console.log("check-bundle: no out.nosync/ directory — skipping (nothing built).");
   process.exit(0);
 }
 

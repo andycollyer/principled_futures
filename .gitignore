@@ -3,6 +3,9 @@ node_modules/
 
 # next / build
 /.next
+/.next-old-*.nosync
+/out.nosync
+/out [0-9]*
 /out
 next-env.d.ts
 

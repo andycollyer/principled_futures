@@ -14,7 +14,10 @@ function TopIcon({ children, onClick, label }) {
   );
 }
 
-function AppShell({ nav, current, onNavigate, org, user, children, breadcrumb, onSearch, onHelp }) {
+const PLAN_NAMES = { diagnostic: "Diagnostic", governance: "Governance", governance_plus: "Governance+" };
+
+function AppShell({ nav, current, onNavigate, org, user, children, breadcrumb, onSearch, onHelp, plan }) {
+  const paid = plan === "governance" || plan === "governance_plus";
   const initial = (user?.name || org || "P").trim().charAt(0).toUpperCase();
   return (
     <div style={{ display: "flex", minHeight: "100vh", background: "#fff", fontFamily: "var(--font-sans)" }}>
@@ -35,7 +38,7 @@ function AppShell({ nav, current, onNavigate, org, user, children, breadcrumb, o
         <div style={{ padding: 12, borderTop: "1px solid var(--border-subtle)" }}>
           <div style={{ border: "1px solid var(--border-subtle)", borderRadius: 8, padding: "10px 12px" }}>
             <div style={{ fontSize: 11.5, color: "var(--text-tertiary)" }}>Plan</div>
-            <div style={{ fontSize: 13, fontWeight: 500, color: "var(--ink-900)", marginTop: 2 }}>Diagnostic · Trial</div>
+            <div style={{ fontSize: 13, fontWeight: 500, color: "var(--ink-900)", marginTop: 2 }}>{PLAN_NAMES[plan] || "Diagnostic"}</div>
           </div>
         </div>
       </aside>
@@ -47,8 +50,10 @@ function AppShell({ nav, current, onNavigate, org, user, children, breadcrumb, o
             {breadcrumb ? <DS.Breadcrumb items={breadcrumb} /> : <span style={{ fontSize: 14, fontWeight: 500, color: "var(--ink-900)" }}>{org}</span>}
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            {!paid && <>
             <span style={{ display: "inline-flex", alignItems: "center", gap: 6, fontSize: 12.5, color: "var(--text-secondary)", marginRight: 2 }}><UI.IClock size={13} /> 14 days left in trial</span>
             <DS.Button variant="brand" size="sm">Upgrade</DS.Button>
+            </>}
             <TopIcon label="Search" onClick={onSearch}><UI.ISearch size={17} /></TopIcon>
             <TopIcon label="Help" onClick={onHelp}><UI.IHelp size={17} /></TopIcon>
             <TopIcon label="Notifications"><UI.IBell size={17} /></TopIcon>

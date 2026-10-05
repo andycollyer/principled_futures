@@ -7,6 +7,7 @@ import { SearchPalette } from "@/components/SearchPalette";
 import * as UI from "@/components/icons";
 import { shouldRedirectToMobile } from "@/lib/device";
 import { useAuth } from "@/lib/auth";
+import { supabase } from "@/lib/supabase";
 import { gateUrl } from "@/lib/next-url";
 
 /* The only area an anonymous visitor may reach: the assessment, and only its
@@ -41,7 +42,17 @@ export default function DashboardLayout({
   // prose is withheld by row-level security in the database, because in a
   // static export anything shipped to the browser is downloadable regardless
   // of what the screen shows.
-  const { ready: authReady, configured, session } = useAuth();
+  const { ready: authReady, configured, session, orgId } = useAuth();
+
+  // The plan shown in the chrome is read from the organisation, never assumed.
+  const [plan, setPlan] = React.useState<string | null>(null);
+  React.useEffect(() => {
+    if (!orgId || !supabase) { setPlan(null); return; }
+    let live = true;
+    supabase.from("organisations").select("plan").eq("id", orgId).single()
+      .then(({ data }) => { if (live) setPlan(data?.plan ?? null); });
+    return () => { live = false; };
+  }, [orgId]);
   const gated = configured && authReady && !session && !pathname.startsWith(ANONYMOUS_OK);
   React.useEffect(() => {
     if (gated) router.replace(gateUrl("/signup/", pathname));
@@ -80,6 +91,7 @@ export default function DashboardLayout({
     <AppShell
       nav={NAV}
       current={current}
+      plan={plan}
       onNavigate={(id: string) => {
         const item = NAV.find((n) => n.id === id);
         if (item?.path) router.push(item.path);
