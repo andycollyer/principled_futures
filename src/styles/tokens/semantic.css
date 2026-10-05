@@ -5,7 +5,7 @@
 
 :root {
   /* ── Surfaces ───────────────────────────────────────────── */
-  --surface-canvas:   var(--ink-50);    /* app background */
+  --surface-canvas:   var(--ink-50);    /* tinted bands and wells; the page ground is white */
   --surface-card:     var(--white);     /* cards, panels, sheets */
   --surface-sunken:   var(--ink-100);   /* wells, inset areas */
   --surface-raised:   var(--white);
@@ -38,8 +38,8 @@
   --brand-emphasis: var(--green-500);
 
   /* Primary action = ink/navy (corporate, serious) */
-  --action-primary:       var(--ink-900);
-  --action-primary-hover: var(--ink-800);
+  --action-primary:       var(--green-600);  /* one action colour, as on the landing page */
+  --action-primary-hover: var(--green-700);
   --action-primary-text:  var(--white);
 
   /* ── Status (semantic) ──────────────────────────────────── */

@@ -104,18 +104,17 @@ export default function AssessmentPage() {
 
       {/* Completion moment: the assessment is done — download, distribute, assign. */}
       {complete && score != null && (
-        <div style={{ position: "relative", overflow: "hidden", background: "var(--green-600)", borderRadius: 16, padding: "26px 28px", marginBottom: 20 }}>
-          <div aria-hidden style={{ position: "absolute", inset: 0, opacity: 0.06, backgroundImage: "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg,#fff 1px, transparent 1px)", backgroundSize: "40px 40px" }} />
+        <div style={{ position: "relative", overflow: "hidden", background: "var(--surface-card)", border: "1px solid var(--border-default)", borderRadius: 16, padding: "26px 28px", marginBottom: 20 }}>
           <div style={{ position: "relative", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 24, flexWrap: "wrap" }}>
             <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
-              <span style={{ display: "inline-flex", width: 44, height: 44, borderRadius: "50%", background: "rgba(255,255,255,0.15)", color: "#fff", alignItems: "center", justifyContent: "center" }}><UI.ICheckCircle size={24} /></span>
+              <span style={{ display: "inline-flex", width: 44, height: 44, borderRadius: "50%", background: "var(--green-100)", color: "var(--green-600)", alignItems: "center", justifyContent: "center" }}><UI.ICheckCircle size={24} /></span>
               <div>
-                <h2 style={{ fontSize: 19, fontWeight: 700, color: "#fff", letterSpacing: "-0.011em" }}>Assessment complete</h2>
-                <p className="pf-tnum" style={{ fontSize: 13.5, color: "rgba(255,255,255,0.82)", marginTop: 3 }}>All 64 criteria answered · overall {score}/100 · {band(score)}</p>
+                <h2 style={{ fontSize: 19, fontWeight: 700, color: "var(--ink-900)", letterSpacing: "-0.011em" }}>Assessment complete</h2>
+                <p className="pf-tnum" style={{ fontSize: 13.5, color: "var(--text-secondary)", marginTop: 3 }}>All 64 criteria answered · overall {score}/100 · {band(score)}</p>
               </div>
             </div>
             <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
-              <button onClick={() => setShowComplete(true)} style={{ display: "inline-flex", alignItems: "center", gap: 7, height: 38, padding: "0 18px", fontSize: 13.5, fontWeight: 600, color: "var(--green-700)", background: "#fff", border: "none", borderRadius: 8, cursor: "pointer", fontFamily: "var(--font-sans)" }}>View next steps <UI.IArrowRight size={15} /></button>
+              <button onClick={() => setShowComplete(true)} style={{ display: "inline-flex", alignItems: "center", gap: 7, height: 38, padding: "0 18px", fontSize: 13.5, fontWeight: 600, color: "#fff", background: "var(--brand)", border: "none", borderRadius: 8, cursor: "pointer", fontFamily: "var(--font-sans)" }}>View next steps <UI.IArrowRight size={15} /></button>
             </div>
           </div>
         </div>
@@ -271,16 +270,15 @@ function CompletionModal({ score, copied, onClose, onBoardPack, onReport, onCopy
           transform: entered ? "none" : "translateY(-10px) scale(0.98)", opacity: entered ? 1 : 0, transition: `transform 200ms ${EASE}, opacity 200ms ${EASE}` }}>
 
         {/* Celebratory header */}
-        <div style={{ position: "relative", overflow: "hidden", background: "var(--green-600)", padding: "30px 28px 26px", textAlign: "center" }}>
-          <div aria-hidden style={{ position: "absolute", inset: 0, opacity: 0.07, backgroundImage: "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg,#fff 1px, transparent 1px)", backgroundSize: "36px 36px" }} />
+        <div style={{ position: "relative", overflow: "hidden", background: "var(--surface-card)", borderBottom: "1px solid var(--border-subtle)", padding: "30px 28px 26px", textAlign: "center" }}>
           <div style={{ position: "relative" }}>
-            <span style={{ display: "inline-flex", width: 56, height: 56, borderRadius: "50%", background: "rgba(255,255,255,0.16)", color: "#fff", alignItems: "center", justifyContent: "center", marginBottom: 14 }}><UI.ICheckCircle size={30} /></span>
-            <h2 className="pf-display" style={{ fontSize: 24, color: "#fff", letterSpacing: "-0.012em" }}>Assessment complete</h2>
-            <p style={{ fontSize: 14, color: "rgba(255,255,255,0.82)", marginTop: 6, maxWidth: 380, marginInline: "auto", lineHeight: 1.5 }}>All 64 criteria answered across eight domains. Here is your governance position, and what you can do with it.</p>
-            <div style={{ display: "inline-flex", alignItems: "baseline", gap: 8, marginTop: 16, background: "rgba(255,255,255,0.14)", borderRadius: 12, padding: "10px 18px" }}>
-              <span className="pf-tnum" style={{ fontSize: 30, fontWeight: 700, color: "#fff", letterSpacing: "-0.02em", lineHeight: 1 }}>{score}</span>
-              <span style={{ fontSize: 14, color: "rgba(255,255,255,0.75)" }}>/ 100</span>
-              <span style={{ fontSize: 13, fontWeight: 600, color: "#fff", textTransform: "uppercase", letterSpacing: "0.05em", marginLeft: 6 }}>{band(score)}</span>
+            <span style={{ display: "inline-flex", width: 56, height: 56, borderRadius: "50%", background: "var(--green-100)", color: "var(--green-600)", alignItems: "center", justifyContent: "center", marginBottom: 14 }}><UI.ICheckCircle size={30} /></span>
+            <h2 className="pf-display" style={{ fontSize: 24, color: "var(--ink-900)", letterSpacing: "-0.012em" }}>Assessment complete</h2>
+            <p style={{ fontSize: 14, color: "var(--text-secondary)", marginTop: 6, maxWidth: 380, marginInline: "auto", lineHeight: 1.5 }}>All 64 criteria answered across eight domains. Here is your governance position, and what you can do with it.</p>
+            <div style={{ display: "inline-flex", alignItems: "baseline", gap: 8, marginTop: 16, background: "var(--green-100)", borderRadius: 12, padding: "10px 18px" }}>
+              <span className="pf-tnum" style={{ fontSize: 30, fontWeight: 700, color: "var(--ink-900)", letterSpacing: "-0.02em", lineHeight: 1 }}>{score}</span>
+              <span style={{ fontSize: 14, color: "var(--text-secondary)" }}>/ 100</span>
+              <span style={{ fontSize: 13, fontWeight: 600, color: "var(--ink-900)", textTransform: "uppercase", letterSpacing: "0.05em", marginLeft: 6 }}>{band(score)}</span>
             </div>
           </div>
         </div>

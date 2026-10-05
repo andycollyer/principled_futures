@@ -176,6 +176,37 @@ meta.push("");
     for (const [k, v] of Object.entries(a)) if (!k.startsWith("_")) anchors += v.length;
   } catch { /* no anchors file */ }
   meta.push(`export const LIBRARY_STATS = ${JSON.stringify({ documents: docs.size, citations, anchors, byType, byJurisdiction }, null, 2)} as const;`);
+
+  // Links between criteria, for the landing-page map: two criteria are joined when their reading lists
+  // rest on the same documents. A factual signal from the research (ids and a count only, no wording),
+  // not a judgement about tension or dependency: typed links are a later, founder-approved stage.
+  const uses = new Map();
+  for (const f of (await readdir(dir)).filter((n) => n.endsWith(".json"))) {
+    const id = f.replace(/\.json$/, "");
+    const lib = JSON.parse(await readFile(path.join(dir, f), "utf8"));
+    for (const it of lib.items) {
+      const k = it.url.split("#")[0].replace(/\/$/, "");
+      if (!uses.has(k)) uses.set(k, new Set());
+      uses.get(k).add(id);
+    }
+  }
+  const pair = new Map();
+  for (const ids of uses.values()) {
+    const list = [...ids].sort();
+    if (list.length > 12) continue; // a document nearly every criterion cites says nothing about a pair
+    for (let i = 0; i < list.length; i++) for (let j = i + 1; j < list.length; j++) {
+      const key = `${list[i]}|${list[j]}`; pair.set(key, (pair.get(key) || 0) + 1);
+    }
+  }
+  const ranked = [...pair.entries()].map(([k, w]) => { const [a, b] = k.split("|"); return { a, b, w }; })
+    .sort((x, y) => y.w - x.w || x.a.localeCompare(y.a) || x.b.localeCompare(y.b));
+  const degree = {}; const chosen = [];
+  const take = (l) => { chosen.push(l); degree[l.a] = (degree[l.a] || 0) + 1; degree[l.b] = (degree[l.b] || 0) + 1; };
+  for (const l of ranked) if (l.w >= 2 && chosen.length < 120 && (degree[l.a] || 0) < 7 && (degree[l.b] || 0) < 7) take(l);
+  for (const l of ranked) if (chosen.length < 150 && !chosen.includes(l) && ((degree[l.a] || 0) < 2 || (degree[l.b] || 0) < 2)) take(l);
+  meta.push(`/** Criteria joined by shared sources: [from, to, documents in common]. */`);
+  meta.push(`export const CRITERION_LINKS: [string, string, number][] = ${JSON.stringify(chosen.map((l) => [l.a, l.b, l.w]))};`);
+  meta.push("");
   meta.push("");
 }
 meta.push(`/** Briefing metadata for a criterion id, or undefined if none exists. */`);

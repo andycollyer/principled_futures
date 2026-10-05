@@ -2,7 +2,7 @@
 import React from "react";
 
 /**
- * Card — the primary surface container. White, subtle border, soft shadow.
+ * Card — the primary surface container. White, one-pixel border, flat.
  */
 export function Card({
   padding = "md",
@@ -20,12 +20,10 @@ export function Card({
       onMouseLeave={hover ? () => setH(false) : undefined}
       style={{
         background: "var(--surface-card)",
-        border: "1px solid var(--border-subtle)",
-        borderRadius: "var(--radius-xl)",
-        boxShadow: h ? "var(--shadow-md)" : "var(--shadow-card)",
+        border: `1px solid ${h ? "var(--border-strong)" : "var(--border-default)"}`,
+        borderRadius: "var(--radius-lg)",
         padding: pad,
-        transition: "box-shadow var(--duration-base) var(--ease-out), transform var(--duration-base) var(--ease-out)",
-        transform: h ? "translateY(-2px)" : "none",
+        transition: "border-color var(--duration-base) var(--ease-out)",
         ...style,
       }}
       {...props}

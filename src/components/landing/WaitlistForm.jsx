@@ -33,7 +33,7 @@ export function WaitlistForm() {
     }
   }
 
-  const box = { background: "var(--surface-card)", border: "1px solid var(--border-default)", borderRadius: 10, padding: 22, boxShadow: "0 1px 2px rgba(20,36,29,0.05)" };
+  const box = { background: "var(--surface-card)", border: "1px solid var(--border-default)", borderRadius: 10, padding: 22 };
   const label = { display: "grid", gap: 5, fontSize: 12.5, fontWeight: 600, color: "var(--text-secondary)" };
   const input = { height: 40, borderRadius: 6, border: "1px solid var(--border-default)", background: "#fff", padding: "0 11px", fontSize: 14.5, fontWeight: 400, color: "var(--ink-900)", fontFamily: "var(--font-sans)", width: "100%" };
 

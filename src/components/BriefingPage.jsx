@@ -42,36 +42,35 @@ export function BriefingPage({ b }) {
   };
 
   return (
-    <div style={{ fontFamily: "var(--font-sans)", background: "var(--surface-canvas)", minHeight: "100vh" }}>
+    <div style={{ fontFamily: "var(--font-sans)", background: "#fff", minHeight: "100vh" }}>
       {/* Hero */}
-      <section style={{ position: "relative", overflow: "hidden", background: "var(--green-600)" }}>
-        <div aria-hidden style={{ position: "absolute", inset: 0, opacity: 0.06, backgroundImage: "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg,#fff 1px, transparent 1px)", backgroundSize: "44px 44px" }} />
+      <section style={{ position: "relative", overflow: "hidden", background: "var(--surface-card)", borderBottom: "1px solid var(--border-subtle)" }}>
         <div style={{ position: "relative", maxWidth: 860, margin: "0 auto", padding: "20px 28px 56px" }}>
           {/* Top row: brand + language switcher */}
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 48 }}>
             <span style={{ display: "inline-flex", alignItems: "center", gap: 10 }}>
-              <UI.Logo inverse size={26} />
-              <span style={{ fontSize: 14.5, fontWeight: 600, color: "#fff", letterSpacing: "-0.012em" }}>Principled Futures</span>
+              <UI.Logo size={26} />
+              <span style={{ fontSize: 14.5, fontWeight: 600, color: "var(--ink-900)", letterSpacing: "-0.012em" }}>Principled Futures</span>
             </span>
             <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
               {BRIEFINGS.map((o) => (
                 o.lang === b.lang
-                  ? <span key={o.lang} style={{ fontSize: 13, fontWeight: 600, color: "#fff" }}>{o.switcherLabel}</span>
-                  : <a key={o.lang} href={`${o.path}/`} hrefLang={o.lang} style={{ fontSize: 13, fontWeight: 500, color: "rgba(255,255,255,0.7)", textDecoration: "none" }}>{o.switcherLabel}</a>
+                  ? <span key={o.lang} style={{ fontSize: 13, fontWeight: 600, color: "var(--ink-900)" }}>{o.switcherLabel}</span>
+                  : <a key={o.lang} href={`${o.path}/`} hrefLang={o.lang} style={{ fontSize: 13, fontWeight: 500, color: "var(--text-secondary)", textDecoration: "none" }}>{o.switcherLabel}</a>
               ))}
             </div>
           </div>
 
           <div style={{ marginTop: 40 }}>
-            <div style={{ fontSize: 12.5, color: "rgba(255,255,255,0.72)", marginBottom: 14 }}>{b.meta}</div>
-            <h1 className="pf-r-h1" style={{ fontSize: 40, fontWeight: 700, color: "#fff", lineHeight: 1.12, letterSpacing: "-0.02em", maxWidth: 720 }}>{b.h1}</h1>
-            <p style={{ fontSize: 16, color: "rgba(255,255,255,0.82)", lineHeight: 1.6, marginTop: 18, maxWidth: 620 }}>{b.sub}</p>
+            <div style={{ fontSize: 12.5, color: "var(--text-secondary)", marginBottom: 14 }}>{b.meta}</div>
+            <h1 className="pf-r-h1" style={{ fontSize: 40, fontWeight: 700, color: "var(--ink-900)", lineHeight: 1.12, letterSpacing: "-0.02em", maxWidth: 720 }}>{b.h1}</h1>
+            <p style={{ fontSize: 16, color: "var(--text-secondary)", lineHeight: 1.6, marginTop: 18, maxWidth: 620 }}>{b.sub}</p>
           </div>
         </div>
       </section>
 
       {/* Email capture row */}
-      <div style={{ maxWidth: 860, margin: "-28px auto 0", padding: "0 28px", position: "relative", zIndex: 2 }}>
+      <div style={{ maxWidth: 860, margin: "24px auto 0", padding: "0 28px", position: "relative", zIndex: 2 }}>
         <div style={{ background: "var(--surface-card)", border: "1px solid var(--border-subtle)", borderRadius: 14, boxShadow: "var(--shadow-md)", padding: "18px 20px" }}>
           {sent ? (
             <div style={{ display: "flex", alignItems: "center", gap: 10, fontSize: 14, fontWeight: 500, color: "var(--green-700)" }}>
@@ -83,7 +82,7 @@ export function BriefingPage({ b }) {
               <div style={{ display: "flex", gap: 8, flex: 1, minWidth: 260 }}>
                 <input id="pf-capture" type="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder={b.capturePlaceholder}
                   style={{ flex: 1, height: 40, border: "1px solid var(--border-default)", borderRadius: 8, padding: "0 12px", fontFamily: "var(--font-sans)", fontSize: 14, color: "var(--ink-900)", outline: "none" }} />
-                <button type="submit" style={{ display: "inline-flex", alignItems: "center", gap: 7, height: 40, padding: "0 16px", border: "none", borderRadius: 8, background: "var(--ink-900)", color: "#fff", fontFamily: "var(--font-sans)", fontSize: 14, fontWeight: 500, cursor: "pointer", whiteSpace: "nowrap" }}>{b.captureButton}</button>
+                <button type="submit" style={{ display: "inline-flex", alignItems: "center", gap: 7, height: 40, padding: "0 16px", border: "none", borderRadius: 8, background: "var(--brand)", color: "#fff", fontFamily: "var(--font-sans)", fontSize: 14, fontWeight: 500, cursor: "pointer", whiteSpace: "nowrap" }}>{b.captureButton}</button>
               </div>
             </form>
           )}
@@ -134,11 +133,11 @@ export function BriefingPage({ b }) {
       </section>
 
       {/* Ink CTA band */}
-      <section style={{ background: "var(--ink-900)", padding: "56px 0", textAlign: "center", marginTop: 16 }}>
+      <section style={{ background: "var(--surface-canvas)", borderTop: "1px solid var(--border-subtle)", padding: "56px 0", textAlign: "center", marginTop: 16 }}>
         <div style={{ maxWidth: 640, margin: "0 auto", padding: "0 28px" }}>
-          <h2 className="pf-display" style={{ fontSize: 30, color: "#fff", letterSpacing: "-0.012em" }}>{b.ctaTitle}</h2>
-          <p style={{ fontSize: 15, color: "rgba(255,255,255,0.72)", lineHeight: 1.6, marginTop: 14, maxWidth: 500, marginInline: "auto" }}>{b.ctaBody}</p>
-          <a href="/dashboard/assessment/" style={{ display: "inline-flex", alignItems: "center", gap: 8, height: 46, padding: "0 26px", marginTop: 24, fontSize: 15, fontWeight: 600, color: "var(--green-700)", background: "#fff", borderRadius: 10, textDecoration: "none" }}>{b.ctaButton} <UI.IArrowRight size={16} /></a>
+          <h2 className="pf-display" style={{ fontSize: 30, color: "var(--ink-900)", letterSpacing: "-0.012em" }}>{b.ctaTitle}</h2>
+          <p style={{ fontSize: 15, color: "var(--text-secondary)", lineHeight: 1.6, marginTop: 14, maxWidth: 500, marginInline: "auto" }}>{b.ctaBody}</p>
+          <a href="/dashboard/assessment/" style={{ display: "inline-flex", alignItems: "center", gap: 8, height: 46, padding: "0 26px", marginTop: 24, fontSize: 15, fontWeight: 600, color: "#fff", background: "var(--brand)", borderRadius: 10, textDecoration: "none" }}>{b.ctaButton} <UI.IArrowRight size={16} /></a>
         </div>
       </section>
 

@@ -13,9 +13,9 @@ import { openPaper } from "@/lib/papers";
 
 function BriefingCard({ a }: { a: Article }) {
   return (
-    <a href={`/dashboard/research/${a.id}/`} style={{ textDecoration: "none", display: "flex", flexDirection: "column", background: "var(--surface-card)", border: "1px solid var(--border-subtle)", borderRadius: 12, boxShadow: "var(--shadow-card)", padding: 20, transition: "box-shadow var(--duration-base) var(--ease-out), transform var(--duration-base) var(--ease-out)" }}
-      onMouseEnter={(e) => { e.currentTarget.style.boxShadow = "var(--shadow-md)"; e.currentTarget.style.transform = "translateY(-2px)"; }}
-      onMouseLeave={(e) => { e.currentTarget.style.boxShadow = "var(--shadow-card)"; e.currentTarget.style.transform = "none"; }}>
+    <a href={`/dashboard/research/${a.id}/`} style={{ textDecoration: "none", display: "flex", flexDirection: "column", background: "var(--surface-card)", border: "1px solid var(--border-subtle)", borderRadius: 12, boxShadow: "var(--shadow-card)", padding: 20, transition: "border-color var(--duration-base) var(--ease-out)" }}
+      onMouseEnter={(e) => { e.currentTarget.style.borderColor = "var(--border-strong)"; }}
+      onMouseLeave={(e) => { e.currentTarget.style.borderColor = "var(--border-subtle)"; }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
         <span style={{ display: "inline-flex", gap: 6 }}>
           <DS.Badge tone="brand" pill={false}>{a.category}</DS.Badge>
@@ -35,9 +35,9 @@ function BriefingCard({ a }: { a: Article }) {
 
 function PaperCard({ p, onOpen }: { p: Paper; onOpen: (file: string) => void }) {
   return (
-    <a href={`/research/${p.file}`} onClick={(e) => { e.preventDefault(); onOpen(p.file); }} style={{ textDecoration: "none", display: "flex", flexDirection: "column", cursor: "pointer", background: "var(--surface-card)", border: "1px solid var(--border-subtle)", borderRadius: 12, boxShadow: "var(--shadow-card)", padding: 20, transition: "box-shadow var(--duration-base) var(--ease-out), transform var(--duration-base) var(--ease-out)" }}
-      onMouseEnter={(e) => { e.currentTarget.style.boxShadow = "var(--shadow-md)"; e.currentTarget.style.transform = "translateY(-2px)"; }}
-      onMouseLeave={(e) => { e.currentTarget.style.boxShadow = "var(--shadow-card)"; e.currentTarget.style.transform = "none"; }}>
+    <a href={`/research/${p.file}`} onClick={(e) => { e.preventDefault(); onOpen(p.file); }} style={{ textDecoration: "none", display: "flex", flexDirection: "column", cursor: "pointer", background: "var(--surface-card)", border: "1px solid var(--border-subtle)", borderRadius: 12, boxShadow: "var(--shadow-card)", padding: 20, transition: "border-color var(--duration-base) var(--ease-out)" }}
+      onMouseEnter={(e) => { e.currentTarget.style.borderColor = "var(--border-strong)"; }}
+      onMouseLeave={(e) => { e.currentTarget.style.borderColor = "var(--border-subtle)"; }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
         <DS.Badge tone={p.tone} pill={false}>{p.cat}</DS.Badge>
         <span style={{ display: "inline-flex", width: 34, height: 34, borderRadius: 9, background: "var(--surface-sunken)", color: "var(--text-tertiary)", alignItems: "center", justifyContent: "center" }}><UI.IFile size={17} /></span>
@@ -101,19 +101,18 @@ export default function ResearchPage() {
 
       {/* Featured */}
       <a href={`/research/${FEATURED.file}`} onClick={(e) => { e.preventDefault(); openWithFeedback(FEATURED.file); }} style={{ textDecoration: "none", display: "block", marginBottom: 26, cursor: "pointer" }}>
-        <div style={{ position: "relative", overflow: "hidden", background: "var(--green-600)", borderRadius: 16, padding: 36, display: "grid", gridTemplateColumns: "1fr auto", gap: 28, alignItems: "center" }}>
-          <div aria-hidden style={{ position: "absolute", inset: 0, opacity: 0.06, backgroundImage: "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg,#fff 1px, transparent 1px)", backgroundSize: "40px 40px" }} />
+        <div style={{ position: "relative", overflow: "hidden", background: "var(--surface-card)", border: "1px solid var(--border-default)", borderRadius: 16, padding: 36, display: "grid", gridTemplateColumns: "1fr auto", gap: 28, alignItems: "center" }}>
           <div style={{ position: "relative", maxWidth: 620 }}>
-            <span style={{ display: "inline-flex", alignItems: "center", gap: 7, padding: "5px 12px", borderRadius: 999, fontSize: 12, fontWeight: 600, color: "#fff", background: "rgba(255,255,255,0.15)" }}>Featured · Flagship framework</span>
-            <h2 className="pf-display" style={{ fontSize: 28, color: "#fff", marginTop: 14, lineHeight: 1.2 }}>{FEATURED.title}</h2>
-            <p style={{ fontSize: 14.5, color: "rgba(255,255,255,0.82)", lineHeight: 1.6, marginTop: 12 }}>{FEATURED.desc}</p>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: 7, padding: "5px 12px", borderRadius: 999, fontSize: 12, fontWeight: 600, color: "var(--green-700)", background: "var(--green-100)" }}>Featured · Flagship framework</span>
+            <h2 className="pf-display" style={{ fontSize: 28, color: "var(--ink-900)", marginTop: 14, lineHeight: 1.2 }}>{FEATURED.title}</h2>
+            <p style={{ fontSize: 14.5, color: "var(--text-secondary)", lineHeight: 1.6, marginTop: 12 }}>{FEATURED.desc}</p>
             <div style={{ display: "flex", alignItems: "center", gap: 18, marginTop: 20 }}>
-              <span style={{ display: "inline-flex", alignItems: "center", gap: 8, height: 42, padding: "0 20px", background: "#fff", color: "var(--green-700)", borderRadius: 10, fontSize: 14, fontWeight: 600 }}>Read the framework <UI.IArrowRight size={15} /></span>
-              <span style={{ fontSize: 13, color: "rgba(255,255,255,0.7)" }}>{FEATURED.read} read · {FEATURED.pages}</span>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 8, height: 42, padding: "0 20px", background: "var(--brand)", color: "#fff", borderRadius: 10, fontSize: 14, fontWeight: 600 }}>Read the framework <UI.IArrowRight size={15} /></span>
+              <span style={{ fontSize: 13, color: "var(--text-secondary)" }}>{FEATURED.read} read · {FEATURED.pages}</span>
             </div>
           </div>
-          <div style={{ position: "relative", width: 120, height: 120, borderRadius: 20, background: "rgba(255,255,255,0.12)", display: "grid", placeItems: "center" }}>
-            <UI.IFile size={52} color="#fff" />
+          <div style={{ position: "relative", width: 120, height: 120, borderRadius: 20, background: "var(--green-100)", display: "grid", placeItems: "center" }}>
+            <UI.IFile size={52} color="var(--green-600)" />
           </div>
         </div>
       </a>

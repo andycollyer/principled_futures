@@ -18,7 +18,7 @@ function PriceCard({ tier, onCta }: { tier: Tier; onCta: (t: Tier) => void }) {
   return (
     <div style={{ display: "flex", flexDirection: "column", background: "var(--surface-card)", borderRadius: 12, padding: 26,
       border: tier.highlighted ? "1px solid var(--green-600)" : "1px solid var(--border-subtle)",
-      boxShadow: tier.highlighted ? "0 8px 24px -8px rgba(20,36,29,0.14)" : "var(--shadow-card)" }}>
+      boxShadow: "none" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10, marginBottom: 4 }}>
         <h3 style={{ fontSize: 16, fontWeight: 600, color: "var(--ink-900)" }}>{tier.name}</h3>
         {tier.highlighted && <DS.Badge tone="brand" pill>Recommended</DS.Badge>}

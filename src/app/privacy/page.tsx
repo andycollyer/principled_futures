@@ -4,7 +4,7 @@ import { LegalPage, LegalSection, P, UL, LI } from "@/components/LegalPage";
 
 export default function PrivacyPage() {
   return (
-    <LegalPage title="Privacy policy" updated="29 July 2026">
+    <LegalPage title="Privacy policy" updated="5 October 2026">
       <LegalSection title="Who we are">
         <P>Principled Futures Advisory (&ldquo;Principled Futures&rdquo;, &ldquo;we&rdquo;) is a Salveus Labs product providing board-level AI and ESG governance software: a maturity assessment, an advisory report, continuous telemetry and a research library. For personal data processed through this website, we are the controller. Principled Futures is a product of Salveus Labs Ltd, a company registered in England and Wales (company number 16939567), registered office 3rd Floor, 86–90 Paul Street, London, England, EC2A 4NE.</P>
       </LegalSection>
@@ -21,6 +21,7 @@ export default function PrivacyPage() {
           <LI><strong>Colleagues&rsquo; names you record</strong> — if you enter another person&rsquo;s name as a metric owner, you are the controller of that record and we process it on your behalf. Record only what you are entitled to record.</LI>
           <LI><strong>Payments</strong> — card payments are taken by Stripe on their own hosted checkout. Stripe processes your card details as controller under their own privacy policy; we never see or store your card number. We receive confirmation of payment, your billing email and a customer reference so we can activate your plan.</LI>
           <LI><strong>Enquiries</strong> — if you send us an enquiry we store the details you provide (name, work email, organisation, sector, role, organisation size and your message) so we can respond and keep a record of the conversation.</LI>
+          <LI><strong>Wait list</strong> — if you join the wait list we store the name, work email, organisation and role you give us, and the fact that you agreed to be contacted, so that we can write to you about Principled Futures and offer you a place. The form is handled by our hosting provider (Netlify, Inc.) on our behalf.</LI>
           <LI><strong>Document marking</strong> — reports and library documents issued to you are individually marked with your name, organisation and the date of issue. This protects our intellectual property and lets us trace unauthorised redistribution.</LI>
           <LI><strong>Technical delivery data</strong> — our hosting provider (Netlify, Inc.) and our database provider process IP addresses, request logs and similar technical data to deliver and secure the service, retained for a short period for security and diagnostics.</LI>
           <LI><strong>Fonts</strong> — pages load the Inter and JetBrains Mono typefaces from Google Fonts, which means your browser discloses your IP address to Google LLC to fetch the font files. We plan to self-host fonts to remove this disclosure.</LI>
@@ -35,12 +36,13 @@ export default function PrivacyPage() {
         <UL>
           <LI><strong>Performance of a contract</strong> — creating and running your account, storing your assessment data, providing the library and reports, and taking payment for a paid plan.</LI>
           <LI><strong>Legitimate interests</strong> — operating, securing and improving the service; responding to enquiries; and protecting our intellectual property, including marking issued documents and preventing bulk extraction of our content. We have balanced these interests against your rights and consider the impact proportionate and expected.</LI>
+          <LI><strong>Consent</strong> — contacting you after you join the wait list. You can withdraw consent at any time by emailing support@principledfutures.com, and we will remove your details.</LI>
           <LI><strong>Legal obligation</strong> — retaining records of payments and invoices as tax and company law require.</LI>
         </UL>
       </LegalSection>
 
       <LegalSection title="How long we keep it">
-        <P>Account and assessment data is retained for as long as your account is open, and for 12 months after closure so that a reinstated account is not lost — after which it is deleted. Enquiry records are kept for 24 months. Payment and invoice records are kept for six years, as tax law requires. You can ask us to delete your account and its data at any time.</P>
+        <P>Account and assessment data is retained for as long as your account is open, and for 12 months after closure so that a reinstated account is not lost — after which it is deleted. Enquiry records are kept for 24 months. Wait-list details are kept until you ask us to remove them, or for 24 months after we last write to you, whichever comes first. Payment and invoice records are kept for six years, as tax law requires. You can ask us to delete your account and its data at any time.</P>
       </LegalSection>
 
       <LegalSection title="Your rights">

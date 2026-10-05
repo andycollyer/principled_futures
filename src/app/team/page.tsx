@@ -3,7 +3,7 @@
 /* Team entry. While the site is private this is how Salveus people get in.
    The passcode is checked by the edge function (netlify/edge-functions/gate.ts),
    never here — this page only hands it over. On success the gate sets a cookie
-   and sends you to the dashboard with a clean URL, so the passcode is not left
+   and sends you back here with a clean URL, so the passcode is not left
    sitting in your history. */
 
 import React from "react";
@@ -29,24 +29,23 @@ export default function TeamPage() {
   };
 
   return (
-    <div style={{ fontFamily: "var(--font-sans)", background: "var(--green-600)", minHeight: "100vh", display: "grid", placeItems: "center", padding: 28 }}>
+    <div style={{ fontFamily: "var(--font-sans)", background: "#fff", minHeight: "100vh", display: "grid", placeItems: "center", padding: 28 }}>
       <div style={{ width: "100%", maxWidth: 380 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, justifyContent: "center", marginBottom: 22 }}>
-          <UI.Logo inverse size={30} />
-          <span style={{ fontSize: 16, fontWeight: 600, color: "#fff", letterSpacing: "-0.012em" }}>Principled Futures</span>
+          <UI.Logo size={30} />
+          <span style={{ fontSize: 16, fontWeight: 600, color: "var(--ink-900)", letterSpacing: "-0.012em" }}>Principled Futures</span>
         </div>
 
         {inside && (
-          <div style={{ background: "var(--surface-card)", borderRadius: 14, padding: 26, boxShadow: "0 18px 48px -16px rgba(20,36,29,0.45)" }}>
+          <div style={{ background: "var(--surface-card)", border: "1px solid var(--border-default)", borderRadius: 10, padding: 26 }}>
             <h1 style={{ fontSize: 17, fontWeight: 600, color: "var(--ink-900)" }}>You&rsquo;re in</h1>
             <p style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55, margin: "6px 0 16px" }}>
               This browser can see the private site for the next 30 days.
             </p>
             <div style={{ display: "grid", gap: 10 }}>
               {[
-                ["/welcome-next/", "New landing page (draft)", "The page awaiting approval, with the wait list."],
                 ["/signup/?next=%2Fdashboard", "The product", "Assessment, library and report. It has its own account: create one, or sign in."],
-                ["/", "Public holding page", "What visitors see today."],
+                ["/", "Public landing page", "What visitors see today, with the wait list."],
               ].map(([href, title, sub]) => (
                 <a key={href} href={href} style={{ display: "block", border: "1px solid var(--border-default)", borderRadius: 10, padding: "12px 14px", textDecoration: "none" }}>
                   <span style={{ display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 14.5, fontWeight: 600, color: "var(--ink-900)" }}>{title} <UI.IArrowRight size={15} /></span>
@@ -57,7 +56,7 @@ export default function TeamPage() {
           </div>
         )}
 
-        {!inside && <form onSubmit={submit} style={{ background: "var(--surface-card)", borderRadius: 14, padding: 26, boxShadow: "0 18px 48px -16px rgba(20,36,29,0.45)" }}>
+        {!inside && <form onSubmit={submit} style={{ background: "var(--surface-card)", border: "1px solid var(--border-default)", borderRadius: 10, padding: 26 }}>
           <h1 style={{ fontSize: 17, fontWeight: 600, color: "var(--ink-900)" }}>Team access</h1>
           <p style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55, margin: "6px 0 18px" }}>
             The product is private while we build it out. Enter the team passcode to continue.

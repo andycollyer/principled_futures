@@ -6,38 +6,64 @@
 
 import React from "react";
 import { framework } from "@/lib/framework";
-import { LIBRARY_STATS } from "@/lib/content-meta";
+import { LIBRARY_STATS, CRITERION_LINKS } from "@/lib/content-meta";
 
 const card = { background: "var(--surface-card)", border: "1px solid var(--border-default)", borderRadius: 10, padding: 18 };
 const cap = { fontSize: 11.5, fontWeight: 600, color: "var(--text-tertiary)", letterSpacing: ".02em" };
 
-/* Eight domains on a ring, eight criteria each: the structure of the assessment. */
-export function DomainRing() {
-  const R = 118, r = 150, cx = 190, cy = 178;
+/* The criteria map: the Salveus signature. Eight domains on a ring, eight criteria round each, and
+   the links between criteria drawn one after another. A link joins two criteria whose evidence rests
+   on the same documents (CRITERION_LINKS, generated from the reading lists), so the picture is the
+   research itself and carries no wording. Green crosses domains; grey stays within one. */
+const SIZE = 1000, MID = 500, RING = 300, CLUSTER = 76, NODE = 15, PAD = 85;
+const rad = (deg) => (deg * Math.PI) / 180;
+const domainAngle = (i) => -90 + i * 45;
+const domainCentre = (i) => ({ x: MID + RING * Math.cos(rad(domainAngle(i))), y: MID + RING * Math.sin(rad(domainAngle(i))) });
+/* Criterion 1 faces the middle of the map; the rest follow clockwise. */
+const nodeAt = (i, n) => {
+  const c = domainCentre(i), a = rad(domainAngle(i) + 180 + (n - 1) * 45);
+  return { x: c.x + CLUSTER * Math.cos(a), y: c.y + CLUSTER * Math.sin(a) };
+};
+/* A curve bowed towards the domain centre (same domain) or the map centre (across domains). */
+function linkPath(a, b, pull, strength) {
+  const m = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
+  const ctrl = { x: m.x + (pull.x - m.x) * strength, y: m.y + (pull.y - m.y) * strength };
+  const trim = (p, to, by) => { const dx = to.x - p.x, dy = to.y - p.y, len = Math.hypot(dx, dy) || 1; return { x: p.x + (dx / len) * by, y: p.y + (dy / len) * by }; };
+  const s = trim(a, ctrl, NODE + 2), e = trim(b, ctrl, NODE + 5);
+  return `M${s.x.toFixed(1)} ${s.y.toFixed(1)}Q${ctrl.x.toFixed(1)} ${ctrl.y.toFixed(1)} ${e.x.toFixed(1)} ${e.y.toFixed(1)}`;
+}
+
+export function CriteriaMap() {
+  const pos = new Map(framework.flatMap((d, i) => d.criteria.map((c, j) => [c.id, nodeAt(i, j + 1)])));
+  const dom = (id) => Number(id.split(".")[0]) - 1;
   return (
-    <div style={{ ...card, padding: 14 }}>
-      <svg viewBox="0 0 380 356" role="img" aria-label="The assessment's eight domains, each with eight criteria" style={{ width: "100%", height: "auto", display: "block" }}>
-        <circle cx={cx} cy={cy} r={R} fill="none" stroke="var(--ink-200)" strokeWidth="1" />
-        <circle cx={cx} cy={cy} r="44" fill="var(--green-50)" stroke="var(--green-200)" strokeWidth="1" />
-        <text x={cx} y={cy - 3} textAnchor="middle" style={{ fontSize: 22, fontWeight: 700, fill: "var(--green-700)", fontFamily: "var(--font-sans)" }}>64</text>
-        <text x={cx} y={cy + 14} textAnchor="middle" style={{ fontSize: 10, fontWeight: 600, fill: "var(--text-tertiary)", fontFamily: "var(--font-sans)" }}>criteria</text>
+    <div style={{ ...card, padding: 12 }}>
+      <svg viewBox={`${PAD} ${PAD} ${SIZE - 2 * PAD} ${SIZE - 2 * PAD}`} aria-hidden="true" style={{ width: "100%", height: "auto", display: "block" }}>
         {framework.map((d, i) => {
-          const a = (i / 8) * Math.PI * 2 - Math.PI / 2;
-          const x = cx + Math.cos(a) * R, y = cy + Math.sin(a) * R;
+          const c = domainCentre(i);
           return (
             <g key={d.id}>
-              <line x1={cx + Math.cos(a) * 44} y1={cy + Math.sin(a) * 44} x2={x} y2={y} stroke="var(--ink-200)" strokeWidth="1" />
-              {d.criteria.map((c, j) => {
-                const b = a + ((j - 3.5) / 8) * 0.62;
-                return <circle key={c.id} className="pf-l-dot" style={{ animationDelay: `${(i * 8 + j) * 55}ms` }} cx={cx + Math.cos(b) * r} cy={cy + Math.sin(b) * r} r="3.2" />;
-              })}
-              <circle cx={x} cy={y} r="13" fill="var(--green-600)" />
-              <text x={x} y={y + 4} textAnchor="middle" style={{ fontSize: 11.5, fontWeight: 700, fill: "#fff", fontFamily: "var(--font-sans)" }}>{d.id}</text>
+              <circle cx={c.x} cy={c.y} r={CLUSTER + NODE + 10} fill="var(--ink-50)" stroke="var(--ink-200)" />
+              <text x={c.x} y={c.y + 11} textAnchor="middle" style={{ fontSize: 32, fontWeight: 700, fill: "var(--green-700)", fontFamily: "var(--font-sans)" }}>{d.id}</text>
             </g>
           );
         })}
+        <g fill="none" strokeLinecap="round">
+          {CRITERION_LINKS.map(([from, to, weight], i) => {
+            const same = dom(from) === dom(to);
+            const pull = same ? domainCentre(dom(from)) : { x: MID, y: MID };
+            return (
+              <path key={`${from}-${to}`} d={linkPath(pos.get(from), pos.get(to), pull, same ? 0.7 : 0.55)} pathLength={1}
+                className="pf-l-draw" style={{ animationDelay: `${(i * 37) % 4000}ms` }}
+                stroke={same ? "var(--ink-400)" : "var(--green-600)"} strokeWidth={weight >= 5 ? 2.75 : 1.75} opacity={0.55} />
+            );
+          })}
+        </g>
+        {[...pos.entries()].map(([id, p], i) => (
+          <circle key={id} cx={p.x} cy={p.y} r={NODE - 3} fill="#fff" stroke="var(--green-600)" strokeWidth="2" className="pf-l-pop" style={{ animationDelay: `${i * 18}ms` }} />
+        ))}
       </svg>
-      <ol style={{ listStyle: "none", margin: "6px 4px 2px", padding: 0, display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4px 14px" }}>
+      <ol style={{ listStyle: "none", margin: "8px 6px 4px", padding: 0, display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4px 14px" }}>
         {framework.map((d) => (
           <li key={d.id} style={{ fontSize: 11.5, color: "var(--text-secondary)", display: "flex", gap: 6 }}>
             <span className="pf-tnum" style={{ fontWeight: 700, color: "var(--green-700)" }}>{d.id}</span>{d.name}

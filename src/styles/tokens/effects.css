@@ -19,14 +19,15 @@
   --border-width: 1px;
   --border-width-2: 1.5px;
 
-  /* Shadows — cool, restrained corporate elevation */
-  --shadow-2xs: 0 1px 2px rgba(20, 36, 29, 0.05);
-  --shadow-xs:  0 1px 2px rgba(20, 36, 29, 0.06), 0 1px 1px rgba(20, 36, 29, 0.04);
-  --shadow-sm:  0 1px 2px rgba(20, 36, 29, 0.06), 0 2px 6px -2px rgba(20, 36, 29, 0.08);
-  --shadow-md:  0 2px 4px rgba(20, 36, 29, 0.05), 0 6px 16px -8px rgba(20, 36, 29, 0.12);
+  /* Shadows — flat by design (Oct 2026): surfaces at rest carry a border, no shadow.
+     Only floating layers (menus, dialogs) keep one. */
+  --shadow-2xs: none;
+  --shadow-xs:  none;
+  --shadow-sm:  none;
+  --shadow-md:  none;
   --shadow-lg:  0 4px 8px rgba(20, 36, 29, 0.06), 0 16px 32px -12px rgba(20, 36, 29, 0.16);
   --shadow-xl:  0 8px 16px rgba(20, 36, 29, 0.08), 0 32px 56px -16px rgba(20, 36, 29, 0.22);
-  --shadow-card: var(--shadow-sm);
+  --shadow-card: none;
 
   /* Motion — quick, professional, no bounce */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1); /* @kind other */

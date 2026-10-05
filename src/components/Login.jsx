@@ -48,17 +48,16 @@ function Login({ onAuth, onBack, onDemo, mode = "signin" }) {
   return (
     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", minHeight: "100vh", fontFamily: "var(--font-sans)" }}>
       {/* Brand panel */}
-      <div style={{ position: "relative", background: "var(--green-600)", padding: 48, display: "flex", flexDirection: "column", justifyContent: "space-between", overflow: "hidden" }}>
-        <div aria-hidden style={{ position: "absolute", inset: 0, opacity: 0.06, backgroundImage: "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg,#fff 1px, transparent 1px)", backgroundSize: "44px 44px" }} />
+      <div style={{ position: "relative", background: "var(--surface-canvas)", borderRight: "1px solid var(--border-subtle)", padding: 48, display: "flex", flexDirection: "column", justifyContent: "space-between", overflow: "hidden" }}>
         <div style={{ position: "relative", display: "flex", alignItems: "center", gap: 10, cursor: "pointer" }} onClick={onBack}>
-          <UI.Logo inverse size={30} />
-          <span style={{ fontSize: 16, fontWeight: 600, color: "#fff", letterSpacing: "-0.012em" }}>Principled Futures</span>
+          <UI.Logo size={30} />
+          <span style={{ fontSize: 16, fontWeight: 600, color: "var(--ink-900)", letterSpacing: "-0.012em" }}>Principled Futures</span>
         </div>
         <div style={{ position: "relative", maxWidth: 420 }}>
-          <h2 style={{ fontSize: 30, fontWeight: 700, color: "#fff", lineHeight: 1.2, letterSpacing: "-0.02em" }}>We do not just predict the future; we govern it.</h2>
-          <p style={{ fontSize: 14.5, color: "rgba(255,255,255,0.78)", marginTop: 16, lineHeight: 1.6 }}>Board-level oversight of ESG performance and Ethical AI — bridging the gap between policy and practice.</p>
+          <h2 style={{ fontSize: 30, fontWeight: 700, color: "var(--ink-900)", lineHeight: 1.2, letterSpacing: "-0.02em" }}>We do not just predict the future; we govern it.</h2>
+          <p style={{ fontSize: 14.5, color: "var(--text-secondary)", marginTop: 16, lineHeight: 1.6 }}>Board-level oversight of ESG performance and Ethical AI — bridging the gap between policy and practice.</p>
         </div>
-        <span style={{ position: "relative", fontSize: 12, color: "rgba(255,255,255,0.55)" }}>A Salveus Labs Product</span>
+        <span style={{ position: "relative", fontSize: 12, color: "var(--text-secondary)" }}>A Salveus Labs Product</span>
       </div>
 
       {/* Form */}

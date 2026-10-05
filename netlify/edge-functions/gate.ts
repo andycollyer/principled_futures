@@ -4,7 +4,7 @@
 // The app is a static export, so there is no server to guard it — this edge
 // function is the only thing between a visitor and the product. When private:
 //
-//   "/"                      serves the holding page (rewritten to /welcome/)
+//   "/"                      serves the landing page (rewritten to /welcome/)
 //   /welcome /privacy /terms /gdpr /team     public
 //   static assets            public (they carry no product content)
 //   everything else          needs the team cookie, or you land on /team/
@@ -76,7 +76,7 @@ export default async function gate(request: Request, context: Context) {
     return new Response(null, { status: 302, headers: { Location: "/team/?bad=1" } });
   }
 
-  // The front door shows the holding page while the site is private.
+  // The front door shows the landing page and wait list while the site is private.
   if (path === "/") return context.rewrite(new URL("/welcome/", url.origin));
 
   if (PUBLIC_EXACT.has(path)) return;

@@ -92,7 +92,7 @@ export function ContactModal({ onClose, intent = "" }) {
           <p style={{ fontSize: 14, color: "var(--text-secondary)", lineHeight: 1.6, marginTop: 10 }}>
             We&rsquo;ve received your enquiry and will reply to <strong style={{ color: "var(--ink-900)" }}>{form.email}</strong>, usually within one working day.
           </p>
-          <button onClick={onClose} style={{ marginTop: 20, height: 40, padding: "0 20px", fontSize: 14, fontWeight: 500, color: "#fff", background: "var(--ink-900)", border: "none", borderRadius: 8, cursor: "pointer", fontFamily: "var(--font-sans)" }}>Close</button>
+          <button onClick={onClose} style={{ marginTop: 20, height: 40, padding: "0 20px", fontSize: 14, fontWeight: 500, color: "#fff", background: "var(--brand)", border: "none", borderRadius: 8, cursor: "pointer", fontFamily: "var(--font-sans)" }}>Close</button>
         </div>
       </div>
     );
@@ -103,14 +103,13 @@ export function ContactModal({ onClose, intent = "" }) {
       <div onClick={(e) => e.stopPropagation()} role="dialog" aria-label="Contact us"
         style={{ width: "calc(100% - 40px)", maxWidth: 560, background: "var(--surface-card)", borderRadius: 16, border: "1px solid var(--border-subtle)", boxShadow: "0 28px 72px -18px rgba(20,36,29,0.4)", overflow: "hidden", marginBottom: "7vh",
           transform: entered ? "none" : "translateY(-10px) scale(0.98)", opacity: entered ? 1 : 0, transition: `transform 200ms ${EASE}, opacity 200ms ${EASE}` }}>
-        <div style={{ position: "relative", overflow: "hidden", background: "var(--green-600)", padding: "22px 24px" }}>
-          <div aria-hidden style={{ position: "absolute", inset: 0, opacity: 0.07, backgroundImage: "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg,#fff 1px, transparent 1px)", backgroundSize: "34px 34px" }} />
+        <div style={{ position: "relative", overflow: "hidden", background: "var(--surface-card)", borderBottom: "1px solid var(--border-subtle)", padding: "22px 24px" }}>
           <div style={{ position: "relative", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
             <div>
-              <h2 className="pf-display" style={{ fontSize: 21, color: "#fff", letterSpacing: "-0.012em" }}>Talk to us</h2>
-              <p style={{ fontSize: 13.5, color: "rgba(255,255,255,0.82)", marginTop: 4, maxWidth: 400, lineHeight: 1.5 }}>Tell us a little about your organisation and we&rsquo;ll be in touch.</p>
+              <h2 className="pf-display" style={{ fontSize: 21, color: "var(--ink-900)", letterSpacing: "-0.012em" }}>Talk to us</h2>
+              <p style={{ fontSize: 13.5, color: "var(--text-secondary)", marginTop: 4, maxWidth: 400, lineHeight: 1.5 }}>Tell us a little about your organisation and we&rsquo;ll be in touch.</p>
             </div>
-            <button onClick={onClose} aria-label="Close" style={{ width: 30, height: 30, display: "grid", placeItems: "center", border: "1px solid rgba(255,255,255,0.3)", borderRadius: 8, background: "transparent", cursor: "pointer", color: "#fff" }}>✕</button>
+            <button onClick={onClose} aria-label="Close" style={{ width: 30, height: 30, display: "grid", placeItems: "center", border: "1px solid var(--border-default)", borderRadius: 8, background: "transparent", cursor: "pointer", color: "var(--ink-900)" }}>✕</button>
           </div>
         </div>
 
