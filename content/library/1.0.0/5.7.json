@@ -1,7 +1,7 @@
 {
   "criterion": "5.7",
   "bank": "1.0.0",
-  "status": "draft",
+  "status": "approved",
   "checked": "2026-10-02",
   "items": [
     {
@@ -154,5 +154,6 @@
       "access": "free",
       "last_checked": "2026-10-02"
     }
-  ]
+  ],
+  "approved": "2026-10-05"
 }

@@ -1,5 +1,5 @@
 {
-  "built": "2026-10-02",
+  "built": "2026-10-05",
   "count": 329,
   "sources": [
     {
@@ -3351,7 +3351,7 @@
       "url": "https://www.hse.gov.uk/humanfactors/topics/competence.htm",
       "title": "Human factors: Training and competence",
       "publisher": "Health and Safety Executive",
-      "year": null,
+      "year": 2026,
       "tier": "official",
       "access": "free",
       "criteria": [
@@ -4378,12 +4378,14 @@
       "tier": "official",
       "access": "free",
       "criteria": [
+        "3.5",
         "4.7"
       ],
       "locators": {
+        "3.5": "Section 'How we've examined automated recruitment practices'",
         "4.7": "Section 'How we've examined automated recruitment practices'"
       },
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-05"
     },
     {
       "key": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/key-findings-how-are-employers-automating-their-recruitment-processes/transparency-and-safeguards",

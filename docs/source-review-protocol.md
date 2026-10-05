@@ -25,7 +25,7 @@ Anything found goes to `queue.json` with a decide-by date 14 days out. `history.
 3. **Decision, within 14 days, by Andy:** keep / reword in next version / replace source / withdraw claim.
    Recorded on the queue item with the date and a note.
 4. **New version:** agreed rewording goes into `content/research/CORRECTIONS.md`, then the next brief set.
-5. **Second reviewer:** to be named. Until then the lead re-check is the second pair of eyes.
+5. **Reviewer:** Andy Collyer alone while the product is being built (decision 5 October 2026). The lead re-check is the second pair of eyes. Name a second reviewer before selling.
 
 ## Triggers outside the cycle (re-read the affected briefs at once)
 - A statute cited by a brief shows new "outstanding effects" or a new commencement order on legislation.gov.uk.

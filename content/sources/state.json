@@ -2,22 +2,22 @@
   "watch:W2": {
     "present": true,
     "status": 200,
-    "checked": "2026-10-02"
+    "checked": "2026-10-05"
   },
   "watch:W3": {
     "present": true,
     "status": 200,
-    "checked": "2026-10-02"
+    "checked": "2026-10-05"
   },
   "watch:W5": {
     "present": false,
     "status": 200,
-    "checked": "2026-10-02"
+    "checked": "2026-10-05"
   },
   "watch:W6": {
     "present": true,
     "status": 200,
-    "checked": "2026-10-02"
+    "checked": "2026-10-05"
   },
   "https://www.aisi.gov.uk/blog/should-ai-systems-behave-like-people": {
     "title": "Should AI systems behave like people?",
@@ -25,7 +25,7 @@
       "4.1"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 92,
     "change": 0.0
   },
@@ -35,7 +35,7 @@
       "4.8"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 52,
     "change": 0.0
   },
@@ -45,7 +45,7 @@
       "4.2"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 44,
     "change": 0.0
   },
@@ -801,7 +801,7 @@
   "watch:W1": {
     "present": true,
     "status": 200,
-    "checked": "2026-10-02"
+    "checked": "2026-10-05"
   },
   "https://www.adalovelaceinstitute.org/report/ryder-review-biometrics": {
     "title": "The Ryder Review: Independent legal review of the governance of biometric data in England and Wales",
@@ -809,7 +809,7 @@
       "5.5"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 1479,
     "change": 0.0
   },
@@ -819,7 +819,7 @@
       "5.4"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 251,
     "change": 0.0
   },
@@ -829,7 +829,7 @@
       "5.2"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 462,
     "change": 0.0
   },
@@ -1382,7 +1382,7 @@
   "watch:W4": {
     "present": true,
     "status": 200,
-    "checked": "2026-10-02"
+    "checked": "2026-10-05"
   },
   "https://www.aisi.gov.uk/research/how-are-ai-agents-used-evidence-from-177-000-mcp-tools": {
     "title": "How are AI agents used? Evidence from 177,000 MCP tools",
@@ -1390,7 +1390,7 @@
       "6.4"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 14,
     "change": 0.0
   },
@@ -1400,7 +1400,7 @@
       "6.3"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 12,
     "change": 0.0
   },
@@ -1410,7 +1410,7 @@
       "6.4"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 11,
     "change": 0.0
   },
@@ -1420,7 +1420,7 @@
       "6.1"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 14,
     "change": 0.0
   },
@@ -1430,7 +1430,7 @@
       "7.4"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 23,
     "change": 0.0
   },
@@ -1440,7 +1440,7 @@
       "7.5"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 460,
     "change": 0.0
   },
@@ -1450,7 +1450,7 @@
       "7.1"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 21,
     "change": 0.0
   },
@@ -1462,7 +1462,7 @@
       "2.4"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 142,
     "change": 0.0
   },
@@ -1480,7 +1480,7 @@
       "2.8"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 257,
     "change": 0.0
   },
@@ -1491,7 +1491,7 @@
       "1.4"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 262,
     "change": 0.0
   },
@@ -1501,7 +1501,7 @@
       "7.2"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 19,
     "change": 0.0
   },
@@ -1511,7 +1511,7 @@
       "7.4"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 149,
     "change": 0.0
   },
@@ -1521,7 +1521,7 @@
       "7.3"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 138,
     "change": 0.0
   },
@@ -3175,7 +3175,7 @@
       "1.7"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 83,
     "change": 0.0
   },
@@ -3185,7 +3185,7 @@
       "8.8"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 261,
     "change": 0.0
   },
@@ -3195,7 +3195,7 @@
       "1.5"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 388,
     "change": 0.0
   },
@@ -3205,7 +3205,7 @@
       "8.8"
     ],
     "status": 200,
-    "checked": "2026-10-02",
+    "checked": "2026-10-05",
     "passages": 75,
     "change": 0.0
   },

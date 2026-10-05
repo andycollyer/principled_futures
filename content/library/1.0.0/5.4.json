@@ -1,7 +1,7 @@
 {
   "criterion": "5.4",
   "bank": "1.0.0",
-  "status": "draft",
+  "status": "approved",
   "checked": "2026-10-02",
   "items": [
     {
@@ -154,5 +154,6 @@
       "why": "International comparator: a second assessment for certain deployers of high-risk systems (public bodies, private providers of public services, and deployers of the systems in points 5(b) and (c) of Annex III), which may draw on the data protection assessment. This is the Commission's copy, not the Official Journal; it carries a notice that the provision was amended by the Digital Omnibus and may not be fully updated. Paragraphs 4 and 5 are marked 'AMENDED'. No application date is stated here.",
       "last_checked": "2026-10-02"
     }
-  ]
+  ],
+  "approved": "2026-10-05"
 }

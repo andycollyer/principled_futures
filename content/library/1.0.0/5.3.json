@@ -1,7 +1,7 @@
 {
   "criterion": "5.3",
   "bank": "1.0.0",
-  "status": "draft",
+  "status": "approved",
   "checked": "2026-10-02",
   "items": [
     {
@@ -154,5 +154,6 @@
       "why": "Source of the figure. Enforcement on scraped images used for a facial recognition service; one of the listed infringements is the absence of any Article 6 basis. Not a generative AI training case. Status: the First-tier Tribunal set the notice aside on jurisdiction; the Upper Tribunal reversed that on 6 October 2025 ([2025] UKUT 319 (AAC)) and sent the case back; the ICO's news page records permission to appeal to the Court of Appeal on 19 December 2025. The penalty is therefore not final.",
       "last_checked": "2026-10-02"
     }
-  ]
+  ],
+  "approved": "2026-10-05"
 }

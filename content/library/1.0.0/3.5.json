@@ -69,6 +69,17 @@
       "locator": "'Human reviews in AI', pp. 32-34",
       "why": "Supports 'what good looks like': train reviewers, document when humans may override, keep records, have managers sample and check reviews, monitor grades changed by recruiters (p.33).",
       "last_checked": "2026-10-02"
+    },
+    {
+      "title": "Recruitment rewired: Introduction",
+      "publisher": "Information Commissioner's Office",
+      "year": 2026,
+      "tier": "official",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/introduction-what-is-adm-and-why-are-we-focusing-on-it-in-recruitment/",
+      "access": "free",
+      "locator": "Section 'How we've examined automated recruitment practices'",
+      "why": "Source of the figure: 37 employers contacted, 16 judged likely to be using automated decision-making on candidates.",
+      "last_checked": "2026-10-05"
     }
   ],
   "approved": "2026-10-02"

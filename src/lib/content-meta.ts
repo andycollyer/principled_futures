@@ -11,147 +11,147 @@ export interface GuideMeta { id: string; title: string }
 export const ARTICLE_META: ArticleMeta[] = [
   {
     "id": "1.1",
-    "title": "The board mandate: making AI oversight a directors' duty in practice",
+    "title": "Board mandate",
     "category": "Governance",
-    "read": "6 min",
-    "extract": "AI oversight is no longer a peripheral IT issue. Here is what the 2024 Code actually requires of your board — and the evidence it expects.",
+    "read": "1 min",
+    "extract": "Whether oversight of AI is written into the remit of the board or a named committee, reported on regularly, and recorded in the minutes.",
     "isSample": true,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "1.2",
-    "title": "Decision rights: who is actually accountable when the AI decides?",
+    "title": "Roles and decision rights",
     "category": "Governance",
-    "read": "5 min",
-    "extract": "A decision is only 'solely automated' if no human is meaningfully involved — and 'meaningful' is now a legal test your org chart has to pass.",
+    "read": "1 min",
+    "extract": "Whether each use of AI has a named person answerable for what it does, with the authority to change or stop it, and a known route for taking concerns upward.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "1.3",
-    "title": "Policy architecture: the small set of documents that governs the machines",
+    "title": "Policy architecture",
     "category": "Governance",
-    "read": "5 min",
-    "extract": "Most AI policies are either missing or unread. The FRC expects neither — here is the minimum viable architecture.",
+    "read": "1 min",
+    "extract": "Whether there is a small set of approved, current policies: what AI may be used for, which tools staff may use with what data, and what happens when something goes wrong.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "1.4",
-    "title": "The AI register: you cannot govern what you have not listed",
+    "title": "AI inventory and register",
     "category": "Governance",
-    "read": "5 min",
-    "extract": "Embedded AI in procured software is still your AI. The register is where governance begins — and where due diligence now looks first.",
+    "read": "1 min",
+    "extract": "Whether there is one maintained list of every AI system in use, including AI bought in and AI built into other software, with purpose, owner, data and risk recorded for each.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "1.5",
-    "title": "Third-party AI: due diligence when you didn't build the model",
+    "title": "Third-party and procurement governance",
     "category": "Governance",
-    "read": "6 min",
-    "extract": "Liability for a discriminatory or defective AI decision generally lands on the organisation that used it — not the vendor that built it. Buy accordingly.",
+    "read": "1 min",
+    "extract": "Whether bought-in AI is examined before adoption and for as long as it is used: questions asked, answers tested, terms written into the contract, and a way out if the supplier fails.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "1.6",
-    "title": "Horizon scanning: governing against next year's rules, not last year's",
+    "title": "Regulatory horizon scanning",
     "category": "Governance",
-    "read": "5 min",
-    "extract": "The AI Act was 'delayed' — except for the duties that weren't. Organisations that misread the headlines are already exposed. A scanning process is the fix.",
+    "read": "1 min",
+    "extract": "Whether someone is responsible for watching the rules that govern the organisation's AI, on a set rhythm, with a record of what changed, what it meant and what was done.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "1.7",
-    "title": "Independent assurance: the difference between believing and knowing",
+    "title": "Independent assurance",
     "category": "Governance",
-    "read": "5 min",
-    "extract": "The ICO can compel an audit of your AI with an assessment notice. The only question is whether the first independent review is one you commissioned.",
+    "read": "1 min",
+    "extract": "Whether anyone outside the team that runs AI governance checks that it works: a review that is scoped, scheduled, carried out by someone free to disagree, and followed through.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "1.8",
-    "title": "The evidence trail: documentation as the board's safe harbour",
+    "title": "Documentation and records",
     "category": "Governance",
-    "read": "5 min",
-    "extract": "Fiduciary protection in the AI era is procedural: what the minutes record, the file evidences, and the organisation can produce without a scramble.",
+    "read": "1 min",
+    "extract": "Whether the organisation can show, from records made at the time, how each AI system came to be approved, on what evidence, by whom, and what has been reviewed since.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "2.1",
-    "title": "Classifying the estate: risk tiers before anything else",
+    "title": "Risk identification and classification",
     "category": "Risk",
-    "read": "5 min",
-    "extract": "Prohibited, high, limited, minimal — every AI system you use sits in one of four tiers, including the ones your software vendors embedded without telling you.",
+    "read": "1 min",
+    "extract": "Whether every AI system in use, including tools bought in or embedded in other software, has been assigned a risk tier by a written method, with the reasoning kept.",
     "isSample": true,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "2.2",
-    "title": "Risk appetite: deciding what you won't let the machines do",
+    "title": "Risk appetite",
     "category": "Risk",
-    "read": "5 min",
-    "extract": "Every organisation has AI red lines. Almost none have written them down — which means they don't operationally exist.",
+    "read": "1 min",
+    "extract": "Whether the board has written down which uses of AI it will pursue, which it will allow only with controls, and which it refuses, in terms specific enough to settle a real decision.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "2.3",
-    "title": "DPIAs and FRIAs: the assessments that come before the deployment",
+    "title": "Impact assessments",
     "category": "Risk",
-    "read": "6 min",
-    "extract": "The DPIA is not optional paperwork for AI that decides about people — and if you serve the EU public sector, credit or insurance markets, the FRIA is coming for you too.",
+    "read": "1 min",
+    "extract": "Whether the effect of an AI system on people's data and on their wider rights is assessed before it goes live, as one joined exercise.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "2.4",
-    "title": "The deployer's duties: using someone else's AI properly",
+    "title": "Deployer operational controls",
     "category": "Risk",
-    "read": "5 min",
-    "extract": "You didn't build the model — but the instructions, the input data, the monitoring and the logs are still yours. Deployer duty is where most SMEs actually live.",
+    "read": "1 min",
+    "extract": "Whether AI bought from others is run as its provider specifies, on checked input data, with its behaviour watched and its logs kept.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "2.5",
-    "title": "Treating risk: mitigate, transfer, accept — but decide",
+    "title": "Risk treatment",
     "category": "Risk",
-    "read": "4 min",
-    "extract": "An AI risk register full of identified-but-untreated risks is a list of admissions. Every entry needs a decision with a name on it.",
+    "read": "1 min",
+    "extract": "Whether every AI risk the organisation has identified carries a recorded decision (reduce it, share it, stop the activity or accept it) with a named person, a date and a check that the action worked.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "2.6",
-    "title": "When the system misbehaves: readiness, suspension, and the reporting clock",
+    "title": "Incident readiness and suspension",
     "category": "Risk",
-    "read": "5 min",
-    "extract": "Fifteen days. Ten if someone died. Two for critical infrastructure. The AI Act's incident clocks are short — and they start whether or not you were ready.",
+    "read": "1 min",
+    "extract": "Whether the organisation would notice an AI system causing harm, has someone with authority to stop it, and knows whom it must tell and how quickly.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "2.7",
-    "title": "Lifecycle monitoring: risk didn't stop when procurement ended",
+    "title": "Ongoing monitoring",
     "category": "Risk",
-    "read": "4 min",
-    "extract": "The model updated, the use case drifted, the regulation moved — and your risk assessment is still dated the day you bought it.",
+    "read": "1 min",
+    "extract": "Whether the risk of each AI system is looked at again after it goes live, on a schedule and whenever something material changes.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "2.8",
-    "title": "Proportionate and provable: risk documentation that fits an SME",
+    "title": "Proportionality and documentation",
     "category": "Risk",
-    "read": "4 min",
-    "extract": "The regime now says it plainly: simplified documentation for smaller organisations. Proportionality is permission to be lean — not permission to be empty.",
+    "read": "1 min",
+    "extract": "Whether the depth of risk work matches the organisation's size and the stakes of each system, and whether there is a record to show for it.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "3.1",
@@ -299,291 +299,291 @@ export const ARTICLE_META: ArticleMeta[] = [
   },
   {
     "id": "5.1",
-    "title": "Scoping the regime: which of your decisions does the DUAA actually catch?",
+    "title": "Automated-decision scoping",
     "category": "Governance",
-    "read": "5 min",
-    "extract": "Two tests decide everything: is the decision significant, and is any human involvement meaningful? Get the scoping wrong and every downstream safeguard is built on the wrong map.",
+    "read": "1 min",
+    "extract": "Whether the organisation has worked out, system by system and in writing, which of its decisions about people are significant and taken with no meaningful human involvement.",
     "isSample": true,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "5.2",
-    "title": "Making the safeguards real: from statutory text to working process",
+    "title": "Safeguards implementation",
     "category": "Governance",
-    "read": "5 min",
-    "extract": "The Act names four rights. The ICO's word is 'operational.' The distance between the two is where most organisations currently live.",
+    "read": "1 min",
+    "extract": "Whether the four safeguards the law attaches to significant, solely automated decisions exist as working processes, each with an owner, a route, a record and a test.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "5.3",
-    "title": "Lawful basis for the machine: training, inputs, outputs",
+    "title": "Lawful basis",
     "category": "Governance",
-    "read": "5 min",
-    "extract": "The DUAA created a new lawful basis — and immediately banned it for automated decisions. Basis analysis for AI is now a three-layer exercise, and blanket 'legitimate interests' fails all three.",
+    "read": "1 min",
+    "extract": "Whether the organisation can name a valid legal ground for each use of personal data in its AI: training, the data fed in, and what the system says about people.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "5.4",
-    "title": "The DPIA as working instrument, not doorstop",
+    "title": "DPIA discipline",
     "category": "Governance",
-    "read": "5 min",
-    "extract": "For automated decisions and large-scale profiling, the DPIA is close to unavoidable. Done at the right moment, it is also the cheapest design review your AI will ever get.",
+    "read": "1 min",
+    "extract": "Whether data protection impact assessments are triggered when they should be, done in depth, and acted on: findings change the design, and the assessment is revisited when the system changes.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "5.5",
-    "title": "Special-category flows: finding the sensitive data you didn't know was deciding",
+    "title": "Special-category handling",
     "category": "Governance",
-    "read": "5 min",
-    "extract": "The rule is strict and the real problem is sight: health, race and biometric signals enter decision pipelines through side doors nobody logged. Discovery is the control.",
+    "read": "1 min",
+    "extract": "Whether the organisation knows where sensitive personal data enters its AI systems (at collection, in training data and in what a system infers) and whether each use rests on a documented lawful condition.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "5.6",
-    "title": "Feeding the machine: quality and minimisation as deployer disciplines",
+    "title": "Data quality and minimisation",
     "category": "Governance",
-    "read": "4 min",
-    "extract": "Relevant, representative, minimal — the three-word standard for what goes into your AI. Most estates fail on the third word first.",
+    "read": "1 min",
+    "extract": "Whether data fed to AI systems meets a written standard: relevant to the purpose, representative of the people decided about, accurate, and no more than the purpose requires.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "5.7",
-    "title": "Rights under automation: access, erasure and objection where AI is involved",
+    "title": "Rights readiness",
     "category": "Governance",
-    "read": "5 min",
-    "extract": "The subject-access request that touches an AI system is where data-rights machinery usually breaks. Build the AI paths before the request arrives, not during it.",
+    "read": "1 min",
+    "extract": "Whether the organisation can find, correct, delete or stop using a person's data when they ask, including data in AI training sets, outputs, profiles and suppliers' systems, within the legal time limit.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "5.8",
-    "title": "The accountability file: one folder per system, no archaeology",
+    "title": "Records and accountability",
     "category": "Governance",
-    "read": "4 min",
-    "extract": "Scoping, basis, DPIA, safeguards, decisions — the UK GDPR's accountability principle, applied to AI, resolves to a folder you can produce in an afternoon.",
+    "read": "1 min",
+    "extract": "Whether the organisation can prove, from records made at the time, how each AI system uses personal data: scope, legal basis, risk assessment, safeguards and decisions taken.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "6.1",
-    "title": "Knowing the adversary: the attacks that only work on AI",
+    "title": "AI threat awareness",
     "category": "Security",
-    "read": "5 min",
-    "extract": "Poisoned training data, adversarial inputs, injected prompts, models walking out the door. Your cyber programme was built for none of these.",
+    "read": "1 min",
+    "extract": "Whether the organisation knows the ways an AI system can be attacked that ordinary software cannot, and has written down which of them apply to each system it runs.",
     "isSample": true,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "6.2",
-    "title": "Secure by design, bought by standard: the NCSC bar for AI",
+    "title": "Secure development and procurement",
     "category": "Security",
-    "read": "5 min",
-    "extract": "The UK has published what 'secure AI' means — guidelines, then a code of practice. The only question left is whether your build and procurement actually require it.",
+    "read": "1 min",
+    "extract": "Whether there is a written security standard that every AI system must meet, both those the organisation builds and those it buys, and whether anyone checks that it is met.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "6.3",
-    "title": "Hands on the model: access and change control for the AI estate",
+    "title": "Access and change control",
     "category": "Security",
-    "read": "4 min",
-    "extract": "Who can edit the system prompt? Who touched the training data? If the answer takes longer than a minute, the answer is 'too many people, unlogged.'",
+    "read": "1 min",
+    "extract": "Whether the organisation knows who can change what an AI system does (its model, prompts, training data and data pipelines), limits that to those who need it, and keeps a record of every change.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "6.4",
-    "title": "The kill-switch: designing the ability to stop",
+    "title": "Containment and kill-switch",
     "category": "Security",
-    "read": "5 min",
-    "extract": "Dual authorisation, defined triggers, rehearsed rollback. The off switch is a governance control that has to be built — because on the day you need it, you cannot improvise it.",
+    "read": "1 min",
+    "extract": "Whether each AI system can be stopped quickly, by people who have the authority to do it and know how, and whether that has been tried.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "6.5",
-    "title": "When AI fails: wiring it into incident response",
+    "title": "Incident response integration",
     "category": "Security",
-    "read": "5 min",
-    "extract": "Your IR plan knows what to do about ransomware. Ask it what to do when the pricing model goes wrong at scale, and listen to the silence.",
+    "read": "1 min",
+    "extract": "Whether a failing AI system triggers the organisation's existing incident response: named scenarios, known reporting duties, rehearsal, and lessons fed back.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "6.6",
-    "title": "When the AI is down: operating without the machine",
+    "title": "Resilience and recovery",
     "category": "Security",
-    "read": "4 min",
-    "extract": "The quiet dependency test: which decisions stop, which customers wait, which staff no longer remember the manual process? Resilience is answering before the outage asks.",
+    "read": "1 min",
+    "extract": "Whether the business can keep serving people when an AI system is unavailable, withdrawn or switched off, and how quickly it can recover.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "6.7",
-    "title": "The supply chain under the AI: assessing what you depend on",
+    "title": "Supply-chain security",
     "category": "Security",
-    "read": "4 min",
-    "extract": "Behind the tool you bought sits a model you didn't, an API you can't see, and a dependency chain nobody mapped. Your security perimeter includes all of it.",
+    "read": "1 min",
+    "extract": "Whether the organisation knows what its AI depends on (the supplier, the underlying model, the interfaces, the data flows) and has assessed the security of each, before adoption and after.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "6.8",
-    "title": "The declaration: evidencing AI controls the board can sign",
+    "title": "Board-level security assurance",
     "category": "Security",
-    "read": "5 min",
-    "extract": "From the 2026 reporting cycle, boards declare their material controls effective — and the FRC has said IT, cyber and AI are inside the boundary. Signing on assertion is no longer available.",
+    "read": "1 min",
+    "extract": "Whether the board holds evidence that its controls over AI work, enough to support a public statement that the company's material controls are effective.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "7.1",
-    "title": "The literacy duty: the obligation already on your books",
+    "title": "AI literacy",
     "category": "Workforce",
-    "read": "5 min",
-    "extract": "It has applied since February 2025. Enforcement starts in August 2026. The AI Act's quietest duty is the one most boards still think is next year's problem.",
+    "read": "1 min",
+    "extract": "Whether the people who use AI for the organisation, employees and contractors alike, know enough to use it safely, and whether records show it.",
     "isSample": true,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "7.2",
-    "title": "Resourcing the overseer: competence, time, and standing",
+    "title": "Oversight capability",
     "category": "Workforce",
-    "read": "5 min",
-    "extract": "The law names the person: competent, trained, authorised, supported. Most organisations name them too — and then give them forty seconds per decision.",
+    "read": "1 min",
+    "extract": "Whether those assigned to oversee AI systems can do the job: trained on the system, given time for each case, and free to overrule it.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "7.3",
-    "title": "Designing for intervention: systems humans can actually stop",
+    "title": "Oversight by design",
     "category": "Workforce",
-    "read": "5 min",
-    "extract": "Article 14 puts the duty on the system, not just the person: built so oversight is possible. A capable human in front of an opaque, urgent interface is a design failure wearing a compliance badge.",
+    "read": "1 min",
+    "extract": "Whether systems are set up so a person can step in: a point to intervene before an output takes effect, reasons on screen, time to act and a way to stop.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "7.4",
-    "title": "Before the machine arrives: assessing the impact on people",
+    "title": "Workforce impact assessment",
     "category": "Workforce",
-    "read": "5 min",
-    "extract": "The s172 duty is procedural: stakeholder impact considered, and minuted. For AI that changes jobs, the assessment is your safe harbour — and it has to predate the decision.",
+    "read": "1 min",
+    "extract": "Whether the effect on jobs is assessed in writing before the board decides to adopt AI that changes work, and whether the board's consideration is minuted.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "7.5",
-    "title": "Telling the workforce: information and consultation before go-live",
+    "title": "Worker information and consultation",
     "category": "Workforce",
-    "read": "4 min",
-    "extract": "The deployer duty is explicit: workers and their representatives informed before the system enters service. Finding out from the rollout email is the compliance failure and the trust failure in one.",
+    "read": "1 min",
+    "extract": "Whether the people who will work with an AI system, or be managed by it, are told before it starts, and whether what they say can still change it.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "7.6",
-    "title": "Augmentation first: the strategy that survives contact with the workforce",
+    "title": "Augmentation-first strategy",
     "category": "Workforce",
-    "read": "5 min",
-    "extract": "Redesign over elimination is not sentiment — it is the adoption strategy with the better failure profile, the better metrics, and the better story to every audience that matters.",
+    "read": "1 min",
+    "extract": "Whether the default, when AI changes a job, is to redesign the work around people, and whether success is measured by output and quality instead of posts removed.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "7.7",
-    "title": "Shadow AI: governing the estate you didn't approve",
+    "title": "Acceptable use and shadow AI",
     "category": "Workforce",
-    "read": "5 min",
-    "extract": "Staff are already using AI you've never assessed — pasting into it, deciding with it, shipping from it. The governed response is a better catalogue, not a wider ban.",
+    "read": "1 min",
+    "extract": "Whether staff know which AI tools they may use and for what, and whether the organisation finds out about the tools it never approved.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "7.8",
-    "title": "Keeping the humans sharp: skill sustainability under automation",
+    "title": "Skill sustainability",
     "category": "Workforce",
-    "read": "5 min",
-    "extract": "The fallback plan assumes people who can still do the work. Automation quietly retires that assumption — unless retention is designed, the capability your controls depend on decays on schedule.",
+    "read": "1 min",
+    "extract": "Whether the organisation knows which human skills it must keep as AI takes over tasks, and has a way of keeping them in use.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "8.1",
-    "title": "The value chain found you: mapping the obligations that arrive by contract",
+    "title": "Value-chain position",
     "category": "ESG",
-    "read": "5 min",
-    "extract": "Mandatory CSRD now stops at 1,000 employees and €450 million. Your obligations didn't stop — they changed carrier, and they now arrive in your customers' supplier questionnaires.",
+    "read": "1 min",
+    "extract": "Whether the organisation knows which customers, lenders and public buyers must report on sustainability, which duties reach it as a supplier, and what each may ask.",
     "isSample": true,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "8.2",
-    "title": "The Basic Module: eleven disclosures that answer most of the mail",
+    "title": "Basic sustainability data",
     "category": "ESG",
-    "read": "5 min",
-    "extract": "B1 to B11 — profile, energy, emissions, workforce, safety, conduct. The VSME's Basic Module is the standardised answer to the questionnaire flood, and most of it is data you already hold.",
+    "read": "1 min",
+    "extract": "Whether the organisation can produce the basic data set that the EU's voluntary standard defines: energy, emissions, water, waste, workforce, safety, pay and conduct.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "8.3",
-    "title": "The Comprehensive Module: when finance and flagship clients want more",
+    "title": "Comprehensive readiness",
     "category": "ESG",
-    "read": "5 min",
-    "extract": "Scope 3, targets, transition risk, human rights — the C-module asks harder questions. Answer them once, deliberately, for the counterparties whose business justifies it.",
+    "read": "1 min",
+    "extract": "Whether, where a lender or major client requires it, the organisation can answer the fuller set: strategy, emissions targets, climate risks, human rights policies and incidents, and value-chain emissions.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "8.4",
-    "title": "The right to say no: holding the protected-undertaking line",
+    "title": "The protected-undertaking line",
     "category": "ESG",
-    "read": "4 min",
-    "extract": "Under 1,000 employees, the law now caps what your big customers may demand: information beyond the voluntary standard can be refused. A right nobody exercises protects nobody.",
+    "read": "1 min",
+    "extract": "Whether the organisation knows the legal limit on what a large customer may demand for its own sustainability report, and uses it.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "8.5",
-    "title": "Counting the machine: the environmental footprint of your AI",
+    "title": "AI environmental footprint",
     "category": "ESG",
-    "read": "5 min",
-    "extract": "The AI Act now makes model providers disclose energy use — which means your AI footprint is becoming a knowable number. Buyers have started asking for it.",
+    "read": "1 min",
+    "extract": "Whether the organisation knows how much energy, water and carbon its use of AI accounts for, and whether that shapes the models and suppliers it chooses.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "8.6",
-    "title": "Collect once, answer everywhere: the single sustainability dataset",
+    "title": "Sustainability data quality",
     "category": "ESG",
-    "read": "4 min",
-    "extract": "The same energy bill excavated six times a year is not a reporting burden — it is a filing failure. One dataset, owned and refreshed, collapses the marginal cost of every request to near zero.",
+    "read": "1 min",
+    "extract": "Whether sustainability figures are gathered once, from a known source, with an owner and a written method, and then reused for every customer, lender and report.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "8.7",
-    "title": "Someone senior, on the record: owning sustainability at board level",
+    "title": "Sustainability governance",
     "category": "ESG",
-    "read": "4 min",
-    "extract": "The comprehensive standard asks it directly: who at senior level is accountable for sustainability? 'Whoever was asked last' is an answer — just not one that survives a questionnaire.",
+    "read": "1 min",
+    "extract": "Whether one senior person is answerable for sustainability, and whether the board sees performance figures on a set timetable.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   },
   {
     "id": "8.8",
-    "title": "Making it pay: converting ESG readiness into contracts and capital",
+    "title": "Commercial leverage",
     "category": "ESG",
-    "read": "5 min",
-    "extract": "The dataset is built, the line is held, the owner is named. The last discipline is extraction: deliberately converting readiness into won tenders, kept clients, and better borrowing terms.",
+    "read": "1 min",
+    "extract": "Whether the organisation uses its sustainability evidence on purpose, in bids and in finance conversations, and records whether it made a difference.",
     "isSample": false,
-    "evidence": false
+    "evidence": true
   }
 ];
 

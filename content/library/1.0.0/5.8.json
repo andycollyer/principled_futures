@@ -1,7 +1,7 @@
 {
   "criterion": "5.8",
   "bank": "1.0.0",
-  "status": "draft",
+  "status": "approved",
   "checked": "2026-10-02",
   "items": [
     {
@@ -154,5 +154,6 @@
       "why": "Source of the figure: 85 in 2025/26 (54 audits, 31 follow-ups, p. 67) against 77 the year before. Also records eight UK GDPR penalty notices totalling £32,402,373 (p. 59) and that no data yet exist on use of the February 2026 powers (pp. 62-63). A correction slip of September 2026 amends reprimand figures only.",
       "last_checked": "2026-10-02"
     }
-  ]
+  ],
+  "approved": "2026-10-05"
 }

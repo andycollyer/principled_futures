@@ -1,10 +1,10 @@
 {
-  "built": "2026-10-02",
+  "built": "2026-10-05",
   "distinct_documents": 329,
   "target_total": 500,
   "criteria_with_a_reading_list": 64,
   "criteria_total": 64,
-  "reading_list_entries": 561,
+  "reading_list_entries": 562,
   "target_per_criterion": 12,
   "criteria_below_target": [
     "1.1",

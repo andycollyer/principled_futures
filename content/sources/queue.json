@@ -15,7 +15,11 @@
       ],
       "detail": "Confirmed in raw text: DUAA 2025 s.117 inserts DPA 2018 s.114A ('A body corporate called the Information Commission is established'); UK GDPR Art. 36 reads 'the Commission' from 30.9.2026 (S.I. 2026/386); ico.org.uk page title is 'Information Commission's Office'. Six approved briefs say 'Information Commissioner's Office' or 'Information Commissioner'. Proposed: 'the Information Commission (ICO)' in the next version; documents published before the change keep their original publisher name in reading lists.",
       "found": "2026-10-02",
-      "decide_by": "2026-10-16"
+      "decide_by": "2026-10-16",
+      "decision": "reword",
+      "decided": "2026-10-05",
+      "by": "Andy Collyer",
+      "note": "Approved: 'the Information Commission (ICO)' in 3.1, 3.2, 3.3, 3.5, 3.7, 4.4. Applied 5 Oct 2026."
     },
     {
       "id": "R-20261002-03",
@@ -29,7 +33,23 @@
       "detail": "On 2 Oct 2026 the 'not yet updated' notice was replaced by 'based on the EUR-Lex consolidated version of the AI Act as at 27 July 2026'. Lead re-read Arts 50, 111 and 113 in raw text: general application 2 August 2026 (Art. 113); Art. 50(2) for systems placed on the market before 2 August 2026 by 2 December 2026 (Art. 111). Both dates in 4.1 and 4.2 are confirmed.",
       "found": "2026-10-02",
       "decide_by": "2026-10-16",
-      "proposed": "Keep 4.1 and 4.2 unchanged. Update their reading-list notes to cite the consolidated version."
+      "proposed": "Keep 4.1 and 4.2 unchanged. Update their reading-list notes to cite the consolidated version.",
+      "decision": "keep",
+      "decided": "2026-10-05",
+      "by": "Andy Collyer",
+      "note": "Dates in 4.1 and 4.2 confirmed against the consolidated text; no change. Accepted with the sign-off pack."
+    },
+    {
+      "id": "R-20261005-01",
+      "type": "anchor",
+      "key": "5.8|to be provided before the end of the period of 24 hours begi",
+      "title": "Figure in 5.8",
+      "criteria": [
+        "5.8"
+      ],
+      "detail": "HTTP 0: \"to be provided before the end of the period of 24 hours beginning when the notice is given\" at https://www.legislation.gov.uk/ukpga/2018/12/section/142",
+      "found": "2026-10-05",
+      "decide_by": "2026-10-19"
     }
   ]
 }
