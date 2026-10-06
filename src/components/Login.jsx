@@ -9,7 +9,7 @@ import { useAuth } from "@/lib/auth";
 
 function Login({ onAuth, onBack, onDemo, mode = "signin" }) {
   const signup = mode === "signup";
-  const { configured, signInPassword, signUpPassword } = useAuth();
+  const { configured, signInPassword, signUpPassword, sendPasswordReset } = useAuth();
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
   const [busy, setBusy] = React.useState(false);
@@ -39,10 +39,14 @@ function Login({ onAuth, onBack, onDemo, mode = "signin" }) {
     if (signIn.error) setError(signIn.error); else onAuth();
   };
 
-  const forgot = () => {
+  const forgot = async () => {
     if (!EMAIL.test(email.trim())) { setError("Enter your email above first."); return; }
-    setError(null);
-    setNotice("Password reset by email is being set up. For now, use the password you chose — or continue in demo mode.");
+    setError(null); setBusy(true);
+    const { error: err } = await sendPasswordReset(email.trim());
+    setBusy(false);
+    // The same message either way, so the form never confirms whether an address has an account.
+    if (err && /rate|seconds/i.test(err)) { setNotice("A reset email was requested a moment ago. Please check your inbox, or try again in a minute."); return; }
+    setNotice("If that address has an account, a reset link is on its way. It opens a page where you choose a new password.");
   };
 
   return (

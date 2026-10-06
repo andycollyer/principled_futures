@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { AuthProvider } from "@/lib/auth";
+import { OrgProvider } from "@/lib/org";
 
 export const metadata: Metadata = {
   title: "Principled Futures",
@@ -14,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en-GB">
       <body>
-        <AuthProvider>{children}</AuthProvider>
+        <AuthProvider><OrgProvider>{children}</OrgProvider></AuthProvider>
       </body>
     </html>
   );

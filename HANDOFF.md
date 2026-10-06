@@ -79,6 +79,9 @@ Netlify settings: `SITE_PRIVATE=1`, `TEAM_PASSCODE` (also in `../TEAM-PASSCODE.t
 - [x] Guidance wording and measure names approved by Andy 6 Oct 2026
 - [ ] Next on the overview: the live criteria map driven by the customer's answers (needs typed, approved links); then the guide agent; then eight domain videos
 - [ ] The phone version (`/mobile`) still shows the old telemetry demo figures
+- [x] Roadmap phase 1 built 6 Oct 2026: first sign-in asks organisation name, sector, size, reader's name and role (`/onboarding`, `src/lib/org.tsx`, migration 0011 `save_org_details`); product footer on every dashboard page; report addressed to the organisation and reader, demo benchmark removed; password reset by email (`/reset`, Supabase allow-list set). Score history was already being recorded from the assessment page
+- [ ] Password reset uses Supabase's built-in email sender (limit about 2 an hour, plain sender name). Needs a proper email provider before customers. `/reset` is behind the passcode gate while the site is private
+- [ ] Guide agent data terms: Andy says Anthropic's retention policy was checked when building SLG³; no written record found in the SLG³ files. Re-confirm current terms and record them before launch
 - [ ] Seven 1.1.0 brief revisions in `content/briefs/next/` still await Andy's explicit sign-off
 
 ## Product roadmap (agreed 6 Oct 2026)

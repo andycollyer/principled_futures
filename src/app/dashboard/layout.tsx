@@ -7,7 +7,7 @@ import { SearchPalette } from "@/components/SearchPalette";
 import * as UI from "@/components/icons";
 import { shouldRedirectToMobile } from "@/lib/device";
 import { useAuth } from "@/lib/auth";
-import { supabase } from "@/lib/supabase";
+import { useOrg } from "@/lib/org";
 import { gateUrl } from "@/lib/next-url";
 
 /* The only area an anonymous visitor may reach: the assessment, and only its
@@ -41,21 +41,18 @@ export default function DashboardLayout({
   // prose is withheld by row-level security in the database, because in a
   // static export anything shipped to the browser is downloadable regardless
   // of what the screen shows.
-  const { ready: authReady, configured, session, orgId } = useAuth();
-
-  // The plan shown in the chrome is read from the organisation, never assumed.
-  const [plan, setPlan] = React.useState<string | null>(null);
-  React.useEffect(() => {
-    if (!orgId || !supabase) { setPlan(null); return; }
-    let live = true;
-    supabase.from("organisations").select("plan").eq("id", orgId).single()
-      .then(({ data }) => { if (live) setPlan(data?.plan ?? null); });
-    return () => { live = false; };
-  }, [orgId]);
+  const { ready: authReady, configured, session } = useAuth();
   const gated = configured && authReady && !session && !pathname.startsWith(ANONYMOUS_OK);
   React.useEffect(() => {
     if (gated) router.replace(gateUrl("/signup/", pathname));
   }, [gated, pathname, router]);
+
+  // First sign-in: ask who the client is before showing the product.
+  const { ready: orgReady, details, complete } = useOrg();
+  const needsDetails = configured && !!session && orgReady && !!details && !complete;
+  React.useEffect(() => {
+    if (needsDetails) router.replace("/onboarding");
+  }, [needsDetails, router]);
 
   const current = pathname.startsWith("/dashboard/assessment")
     ? "assessment"
@@ -84,19 +81,20 @@ export default function DashboardLayout({
   }, []);
 
   if (!ready) return null;
-  if (gated) return null;   // redirecting — don't flash gated content
+  if (gated || needsDetails) return null;   // redirecting — don't flash gated content
+  if (configured && session && !orgReady) return null;
 
   return (
     <AppShell
       nav={NAV}
       current={current}
-      plan={plan}
+      plan={details?.plan ?? null}
       onNavigate={(id: string) => {
         const item = NAV.find((n) => n.id === id);
         if (item?.path) router.push(item.path);
       }}
-      org={session?.user?.email?.split("@")[1] ?? "Principled Futures"}
-      user={{ name: session?.user?.email ?? "P" }}
+      org={details?.orgName || "Principled Futures"}
+      user={{ name: details?.fullName || session?.user?.email || "P" }}
       onSearch={() => setSearchOpen(true)}
       onHelp={() => router.push("/dashboard/help")}
     >

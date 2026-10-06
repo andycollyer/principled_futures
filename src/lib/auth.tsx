@@ -17,6 +17,7 @@ interface AuthState {
   authError: string | null;    // e.g. an expired sign-in link
   signInPassword: (email: string, password: string) => Promise<{ error: string | null }>;
   signUpPassword: (email: string, password: string) => Promise<{ error: string | null }>;
+  sendPasswordReset: (email: string) => Promise<{ error: string | null }>;
   signOut: () => Promise<void>;
 }
 
@@ -90,6 +91,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     return { error: /already registered/i.test(error.message) ? "An account already exists for that email — sign in instead." : error.message };
   }, []);
 
+  const sendPasswordReset = React.useCallback(async (email: string) => {
+    if (!supabase) return { error: "Backend not configured." };
+    const { error } = await supabase.auth.resetPasswordForEmail(email.trim(), { redirectTo: `${window.location.origin}/reset/` });
+    return { error: error ? error.message : null };
+  }, []);
+
   const signOut = React.useCallback(async () => {
     if (supabase) await supabase.auth.signOut();
     setSession(null);
@@ -105,6 +112,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     authError,
     signInPassword,
     signUpPassword,
+    sendPasswordReset,
     signOut,
   };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

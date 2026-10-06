@@ -12,6 +12,7 @@ import * as DS from "@/components/ds";
 import * as UI from "@/components/icons";
 import { TIERS, type Tier } from "@/lib/pricing";
 import { useAuth } from "@/lib/auth";
+import { useOrg } from "@/lib/org";
 import { checkoutUrl } from "@/lib/stripe";
 
 function PriceCard({ tier, onCta }: { tier: Tier; onCta: (t: Tier) => void }) {
@@ -55,6 +56,7 @@ function PriceCard({ tier, onCta }: { tier: Tier; onCta: (t: Tier) => void }) {
 export default function SettingsPage() {
   const router = useRouter();
   const { orgId, user } = useAuth();
+  const { details } = useOrg();
   const [notice, setNotice] = React.useState<string | null>(null);
 
   const onCta = (t: Tier) => {
@@ -74,8 +76,19 @@ export default function SettingsPage() {
     <div style={{ padding: 28, maxWidth: 1180, margin: "0 auto" }}>
       <div style={{ marginBottom: 22 }}>
         <h1 className="pf-display" style={{ fontSize: 26, color: "var(--ink-900)" }}>Settings</h1>
-        <p style={{ fontSize: 14, color: "var(--text-secondary)", marginTop: 4 }}>Billing and plan. Organisation, members and integrations arrive with accounts.</p>
+        <p style={{ fontSize: 14, color: "var(--text-secondary)", marginTop: 4 }}>Your organisation, plan and billing.</p>
       </div>
+
+      {details && (
+        <div style={{ border: "1px solid var(--border-default)", borderRadius: 10, padding: "16px 20px", marginBottom: 28, display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16, flexWrap: "wrap" }}>
+          <div>
+            <div style={{ fontSize: 15.5, fontWeight: 600, color: "var(--ink-900)" }}>{details.orgName}</div>
+            <div style={{ fontSize: 13.5, color: "var(--text-secondary)", marginTop: 2 }}>{[details.sector, details.size].filter(Boolean).join(" · ")}</div>
+            <div style={{ fontSize: 13.5, color: "var(--text-secondary)", marginTop: 2 }}>{[details.fullName, details.jobTitle].filter(Boolean).join(", ")}</div>
+          </div>
+          <DS.Button variant="outline" size="sm" onClick={() => router.push("/onboarding")}>Change details</DS.Button>
+        </div>
+      )}
 
       <h2 style={{ fontSize: 17, fontWeight: 600, color: "var(--ink-900)", marginBottom: 16 }}>Plan &amp; billing</h2>
 

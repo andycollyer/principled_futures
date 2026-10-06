@@ -14,6 +14,8 @@ function TopIcon({ children, onClick, label }) {
   );
 }
 
+const FRAMEWORK_VERSION = "1.0.0";
+const footLink = { color: "inherit", textDecoration: "none" };
 const PLAN_NAMES = { diagnostic: "Diagnostic", governance: "Governance", governance_plus: "Governance+" };
 
 function AppShell({ nav, current, onNavigate, org, user, children, breadcrumb, onSearch, onHelp, plan }) {
@@ -61,6 +63,19 @@ function AppShell({ nav, current, onNavigate, org, user, children, breadcrumb, o
           </div>
         </header>
         <main style={{ flex: 1, minWidth: 0 }}>{children}</main>
+        <footer className="pf-noprint pf-r-stack" style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "space-between", gap: 12, padding: "16px 24px", borderTop: "1px solid var(--border-subtle)", fontSize: 12.5, color: "var(--text-tertiary)" }}>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+            <UI.Logo size={18} />
+            <span><span style={{ color: "var(--text-secondary)", fontWeight: 600 }}>Principled Futures</span> · a Salveus Labs product · framework {FRAMEWORK_VERSION}</span>
+          </span>
+          <nav aria-label="Footer" style={{ display: "flex", flexWrap: "wrap", gap: 18 }}>
+            <a href="/dashboard/help/" style={footLink}>Help</a>
+            <a href="mailto:support@principledfutures.com" style={footLink}>support@principledfutures.com</a>
+            <a href="/privacy/" style={footLink}>Privacy</a>
+            <a href="/terms/" style={footLink}>Terms</a>
+            <a href="/gdpr/" style={footLink}>GDPR</a>
+          </nav>
+        </footer>
       </div>
     </div>
   );

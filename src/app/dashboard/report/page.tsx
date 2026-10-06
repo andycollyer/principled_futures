@@ -13,6 +13,7 @@ import { useAnswers } from "@/lib/store";
 import { useOwners } from "@/lib/telemetry-owners";
 import { loadHistoryAsync, trendFrom } from "@/lib/history";
 import { useAuth } from "@/lib/auth";
+import { useOrg } from "@/lib/org";
 
 const SOURCES = ["OECD AI Principles", "EU AI Act (Art. 12)", "UNESCO AI Ethics", "Gartner AI Maturity", "PwC 2025 Responsible AI", "ISS STOXX Governance Gap", "Diligent Boards & AI", "IoD / ICAEW"];
 
@@ -70,6 +71,9 @@ export default function ReportPage() {
   const { answers, ready } = useAnswers();
   const { owners, ready: ownersReady } = useOwners();
   const { orgId, user } = useAuth();
+  const { details } = useOrg();
+  const orgName = details?.orgName || "your organisation";
+  const reader = details?.fullName ? `${details.fullName}${details.jobTitle ? `, ${details.jobTitle}` : ""}` : (user?.email ?? "this device");
   const [mounted, setMounted] = React.useState(false);
   const [trends, setTrends] = React.useState<Record<string, number | null>>({});
   const [shareOpen, setShareOpen] = React.useState(false);
@@ -108,7 +112,7 @@ export default function ReportPage() {
       const o = owners[metricId];
       if (o) return `${o.personName}${o.role ? ` (${o.role})` : ""}`;
     }
-    return "Unassigned — assign in Telemetry";
+    return "No owner named yet — add one on the Overview";
   };
 
   const lowestCriteria = (d: Domain, n = 2) =>
@@ -157,7 +161,7 @@ export default function ReportPage() {
             <span style={{ display: "inline-flex", width: 36, height: 36, borderRadius: 9, background: "var(--green-100)", color: "var(--green-600)", alignItems: "center", justifyContent: "center" }}><UI.IFile size={19} /></span>
             <div>
               <div style={{ fontSize: 14.5, fontWeight: 600, color: "var(--ink-900)" }}>Advisory Report — Draft</div>
-              <div style={{ fontSize: 12.5, color: "var(--text-tertiary)" }}>Acme Holdings PLC · generated {today}</div>
+              <div style={{ fontSize: 12.5, color: "var(--text-tertiary)" }}>{orgName}{details?.sector ? ` · ${details.sector}` : ""} · generated {today}</div>
             </div>
           </div>
           <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
@@ -185,7 +189,7 @@ export default function ReportPage() {
 
         {/* Priority risk areas */}
         <div>
-          <SectionTitle n="1" sub="Ranked by severity and board exposure — owners read from your telemetry assignments">Priority risk areas</SectionTitle>
+          <SectionTitle n="1" sub="Ranked by severity and board exposure — owners are the people you named on the Overview">Priority risk areas</SectionTitle>
           <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
             {risks.map(({ d, s }) => {
               const sev = toneFor(s) === "success" ? "warning" : toneFor(s);
@@ -229,26 +233,9 @@ export default function ReportPage() {
           </DS.Card>
         </div>
 
-        {/* Peer benchmark */}
-        <div>
-          <SectionTitle n="3" sub="Overall maturity vs sector — benchmark values are demo data until sector aggregation lands">Peer benchmark</SectionTitle>
-          <DS.Card padding="lg">
-            {([["Your organisation", score, "brand"], ["Sector median (demo)", 54, "ink"], ["Top quartile (demo)", 81, "ink"]] as [string, number, string][]).map(([label, val, tone]) => (
-              <div key={label} style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 14 }}>
-                <span style={{ width: 170, fontSize: 13.5, fontWeight: label === "Your organisation" ? 600 : 500, color: label === "Your organisation" ? "var(--green-700)" : "var(--text-secondary)" }}>{label}</span>
-                <span style={{ flex: 1 }}><DS.Progress value={val} tone={tone} size="lg" /></span>
-                <span className="pf-tnum" style={{ width: 30, textAlign: "right", fontSize: 14, fontWeight: 600, color: "var(--ink-900)" }}>{val}</span>
-              </div>
-            ))}
-            <p style={{ fontSize: 13, color: "var(--text-tertiary)", marginTop: 6 }}>
-              {score >= 81 ? "You sit at or above the demo top quartile." : score >= 54 ? `You lead the demo sector median by ${score - 54} points and trail the demo top quartile by ${81 - score}.` : `You trail the demo sector median by ${54 - score} points.`} Real peer benchmarks arrive with sector data aggregation.
-            </p>
-          </DS.Card>
-        </div>
-
         {/* Roadmap */}
         <div>
-          <SectionTitle n="4" sub="Sequenced by horizon, each with a named accountable owner">Recommended roadmap</SectionTitle>
+          <SectionTitle n="3" sub="Sequenced by horizon, each with a named accountable owner">Recommended roadmap</SectionTitle>
           <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
             {risks.map(({ d, s }, i) => {
               const low = lowestCriteria(d, 1);
@@ -273,18 +260,18 @@ export default function ReportPage() {
 
         {/* Sources */}
         <div>
-          <SectionTitle n="5" sub="This assessment is grounded in recognised governance frameworks">Methodology &amp; sources</SectionTitle>
+          <SectionTitle n="4" sub="This assessment is grounded in recognised governance frameworks">Methodology &amp; sources</SectionTitle>
           <DS.Card padding="lg">
             <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
               {SOURCES.map((s) => <DS.Badge key={s} tone="neutral" variant="outline" pill={false}>{s}</DS.Badge>)}
             </div>
             <p style={{ fontSize: 12.5, color: "var(--text-tertiary)", marginTop: 14, lineHeight: 1.55 }}>
-              Scores derive from the 8×8 framework (64 board-level dimensions, 0–4 maturity scale), equal-weighted in v1.0, and mapped to the telemetry register for continuous oversight. Regulatory position current as of 22 July 2026.
+              Scores derive from the 8×8 framework (64 board-level dimensions, 0–4 maturity scale), equal-weighted in v1.0. Regulatory position current as of 22 July 2026.
             </p>
             {/* Attribution line — carried into the printed board pack so a
                 circulated copy names the account it was produced for. */}
             <p style={{ fontSize: 11.5, color: "var(--text-tertiary)", marginTop: 10, paddingTop: 10, borderTop: "1px solid var(--border-subtle)", lineHeight: 1.5 }}>
-              Prepared for {user?.email ?? "this device"} on {today}. © 2026 Salveus Labs Ltd. Licensed to one organisation for internal governance use — not for redistribution.
+              Prepared for {reader}{details?.orgName ? `, ${details.orgName}` : ""} on {today}. © 2026 Salveus Labs Ltd. Licensed to one organisation for internal governance use — not for redistribution.
             </p>
           </DS.Card>
         </div>
