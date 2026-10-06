@@ -73,16 +73,11 @@ function LinkList({ title, empty, items, answers, pick, onSelect }: {
   );
 }
 
-export function LiveMap({ answers, selected, onSelect }: { answers: Answers; selected: string | null; onSelect: (id: string | null) => void }) {
+/** The drawing on its own: used live on the overview and as a still figure in the report. */
+export function MapSvg({ answers, selected = null, onSelect, still = false }: { answers: Answers; selected?: string | null; onSelect?: (id: string | null) => void; still?: boolean }) {
   const out = selected ? new Set(holdsBack(selected).map((l) => l.to)) : new Set<string>();
   const inn = selected ? new Set(dependsOn(selected).map((l) => l.from)) : new Set<string>();
-  const top = priorities(answers);
-  const sel = selected ? CRITERIA[selected] : null;
-  const v = selected ? answers[selected] : undefined;
-
   return (
-    <div className="pf-r-col" style={{ display: "grid", gridTemplateColumns: "minmax(0, 1.08fr) minmax(0, 1fr)", gap: 28, alignItems: "start", marginTop: 16 }}>
-      <div>
         <svg viewBox={`${PAD} ${PAD} ${SIZE - 2 * PAD} ${SIZE - 2 * PAD}`} role="img" aria-label="Map of the 64 criteria and the links between them" style={{ width: "100%", height: "auto", display: "block" }}>
           {framework.map((d, i) => {
             const c = domainCentre(i);
@@ -100,7 +95,7 @@ export function LiveMap({ answers, selected, onSelect }: { answers: Answers; sel
               const on = isOut || isIn;
               return (
                 <path key={`${l.from}-${l.to}`} d={linkPath(POS[l.from], POS[l.to], same ? domainCentre(dom(l.from)) : { x: MID, y: MID }, same ? 0.7 : 0.55)}
-                  pathLength={1} className="pf-map-draw" style={isIn ? { strokeDasharray: "0.035 0.03", animation: "none" } : { animationDelay: `${(i * 11) % 900}ms` }}
+                  pathLength={1} className={still ? undefined : "pf-map-draw"} style={still ? undefined : isIn ? { strokeDasharray: "0.035 0.03", animation: "none" } : { animationDelay: `${(i * 11) % 900}ms` }}
                   stroke={isOut ? "var(--green-600)" : isIn ? "var(--ink-700)" : "var(--ink-400)"}
                   strokeWidth={on ? 4 : 1.5}
                   opacity={selected ? (on ? 1 : 0.1) : 0.38} />
@@ -112,7 +107,7 @@ export function LiveMap({ answers, selected, onSelect }: { answers: Answers; sel
             const isSel = id === selected, related = out.has(id) || inn.has(id);
             const fill = a === undefined ? "var(--surface-card)" : LEVEL_COLORS[a];
             return (
-              <g key={id} onClick={() => onSelect(isSel ? null : id)} style={{ cursor: "pointer" }} opacity={selected && !isSel && !related ? 0.35 : 1}>
+              <g key={id} onClick={onSelect ? () => onSelect(isSel ? null : id) : undefined} style={{ cursor: onSelect ? "pointer" : "default" }} opacity={selected && !isSel && !related ? 0.35 : 1}>
                 <title>{`${id} ${CRITERIA[id].criterion.title} — ${a === undefined ? "not answered" : BAND_LABELS[a]}`}</title>
                 {isSel && <circle cx={p.x} cy={p.y} r={NODE + 9} fill="none" stroke="var(--ink-900)" strokeWidth="3" />}
                 <circle cx={p.x} cy={p.y} r={isSel ? NODE + 2 : NODE - 1} fill={fill} stroke={a === undefined ? "var(--ink-300)" : fill} strokeWidth="2.5" />
@@ -121,6 +116,18 @@ export function LiveMap({ answers, selected, onSelect }: { answers: Answers; sel
             );
           })}
         </svg>
+  );
+}
+
+export function LiveMap({ answers, selected, onSelect }: { answers: Answers; selected: string | null; onSelect: (id: string | null) => void }) {
+  const top = priorities(answers);
+  const sel = selected ? CRITERIA[selected] : null;
+  const v = selected ? answers[selected] : undefined;
+
+  return (
+    <div className="pf-r-col" style={{ display: "grid", gridTemplateColumns: "minmax(0, 1.08fr) minmax(0, 1fr)", gap: 28, alignItems: "start", marginTop: 16 }}>
+      <div>
+        <MapSvg answers={answers} selected={selected} onSelect={onSelect} />
         <div style={{ display: "flex", flexWrap: "wrap", gap: "6px 14px", marginTop: 6 }}>
           {BAND_LABELS.map((b, i) => (
             <span key={b} style={{ display: "inline-flex", alignItems: "center", gap: 6, ...small }}><span style={{ width: 9, height: 9, borderRadius: "50%", background: LEVEL_COLORS[i] }} />{b}</span>
@@ -149,7 +156,7 @@ export function LiveMap({ answers, selected, onSelect }: { answers: Answers; sel
             ) : (
               <>
                 <p style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55, marginTop: 4 }}>
-                  Ranked by how far each answer is from the top level and how many other criteria it holds back. Select one to see why.
+                  Ranked from your own answers: how far each is from the top level, how many criteria it holds back, and whether those have been answered at a higher level than it can support. Select one to see why.
                 </p>
                 <div style={{ display: "grid", gap: 8, marginTop: 12 }}>
                   {top.map((p, i) => (
@@ -159,7 +166,7 @@ export function LiveMap({ answers, selected, onSelect }: { answers: Answers; sel
                       <span>
                         <span style={{ display: "block", fontSize: 14.5, fontWeight: 600, color: "var(--ink-900)" }}>{CRITERIA[p.id].criterion.title}</span>
                         <span style={{ display: "block", fontSize: 12.5, color: "var(--text-secondary)", marginTop: 2 }}>
-                          {p.id} · {CRITERIA[p.id].domain.name} · {BAND_LABELS[p.level]}{p.holds ? ` · holds back ${p.holds} other${p.holds === 1 ? "" : "s"}` : ""}
+                          {p.id} · {CRITERIA[p.id].domain.name} · {BAND_LABELS[p.level]}{p.holds ? ` · holds back ${p.holds} other${p.holds === 1 ? "" : "s"}` : ""}{p.exposed ? `, ${p.exposed} answered above it` : ""}
                         </span>
                       </span>
                     </button>

@@ -14,6 +14,7 @@ import { useOwners } from "@/lib/telemetry-owners";
 import { loadHistoryAsync, trendFrom } from "@/lib/history";
 import { useAuth } from "@/lib/auth";
 import { useOrg } from "@/lib/org";
+import { ReportBody } from "@/components/report/ReportBody";
 
 const SOURCES = ["OECD AI Principles", "EU AI Act (Art. 12)", "UNESCO AI Ethics", "Gartner AI Maturity", "PwC 2025 Responsible AI", "ISS STOXX Governance Gap", "Diligent Boards & AI", "IoD / ICAEW"];
 
@@ -151,8 +152,8 @@ export default function ReportPage() {
   };
 
   return (
-    <div id="pf-report" style={{ background: "var(--surface-canvas)", minHeight: "100%" }}>
-      <style>{`@media print { body * { visibility: hidden; } #pf-report, #pf-report * { visibility: visible; } #pf-report { position: absolute; left: 0; top: 0; width: 100%; } #pf-report .pf-noprint { display: none; } }`}</style>
+    <div id="pf-report" style={{ background: "#fff", minHeight: "100%" }}>
+      <style>{`@media print { body * { visibility: hidden; } #pf-report, #pf-report * { visibility: visible; } #pf-report { position: absolute; left: 0; top: 0; width: 100%; } #pf-report .pf-noprint { display: none; } #pf-report .pf-report-page { break-before: page; } #pf-report .pf-report-keep { break-inside: avoid; } @page { margin: 16mm 14mm; } }`}</style>
 
       {/* Action bar */}
       <div className="pf-noprint" style={{ background: "var(--surface-card)", borderBottom: "1px solid var(--border-subtle)", padding: "16px 28px" }}>
@@ -165,14 +166,14 @@ export default function ReportPage() {
             </div>
           </div>
           <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
-            <DS.Badge tone="warning" pill={false}>Draft — narrative generation arrives with the API phase</DS.Badge>
+            <DS.Badge tone="warning" pill={false}>Draft — not yet reviewed by an adviser</DS.Badge>
             <DS.Button variant="outline" size="sm" iconLeft={<UI.IDownload size={15} />} onClick={() => window.print()}>Download PDF</DS.Button>
             <DS.Button variant="primary" size="sm" iconLeft={<UI.IUsers size={15} />} onClick={() => setShareOpen(true)}>Share with board</DS.Button>
           </div>
         </div>
       </div>
 
-      <div style={{ maxWidth: 880, margin: "0 auto", padding: "28px 28px 56px", display: "flex", flexDirection: "column", gap: 26 }}>
+      <div style={{ maxWidth: 880, margin: "0 auto", padding: "28px 28px 56px", display: "flex", flexDirection: "column", gap: 34 }}>
         {/* Masthead — printed as well as shown, so the PDF names who it is for. */}
         <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 20, flexWrap: "wrap", paddingBottom: 18, borderBottom: "2px solid var(--green-600)" }}>
           <div>
@@ -186,108 +187,11 @@ export default function ReportPage() {
           </div>
         </div>
 
-        {/* Executive summary */}
-        <DS.Card padding="lg">
-          <div style={{ display: "grid", gridTemplateColumns: "180px 1fr", gap: 28, alignItems: "center" }}>
-            <div style={{ display: "grid", placeItems: "center" }}>
-              <DS.ScoreGauge score={score} size={150} bandLabel={band(score)} bandColor={BAND_COLORS[band(score)]} />
-            </div>
-            <div>
-              <DS.Badge tone="neutral" pill={false}>Executive summary</DS.Badge>
-              <h1 className="pf-display" style={{ fontSize: 24, color: "var(--ink-900)", marginTop: 10, lineHeight: 1.25 }}>{summary.headline}</h1>
-              <p style={{ fontSize: 14, color: "var(--text-secondary)", lineHeight: 1.6, marginTop: 10 }}>{details?.orgName ? summary.body.replace("Your organisation", details.orgName) : summary.body}</p>
-            </div>
-          </div>
-        </DS.Card>
+        <ReportBody answers={answers} owners={ownersReady ? owners : {}} details={details} trends={trends} headline={summary.headline} />
 
-        {/* Priority risk areas */}
-        <div>
-          <SectionTitle n="1" sub="Ranked by severity and board exposure — owners are the people you named on the Overview">Priority risk areas</SectionTitle>
-          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-            {risks.map(({ d, s }) => {
-              const sev = toneFor(s) === "success" ? "warning" : toneFor(s);
-              const low = lowestCriteria(d);
-              return (
-                <div key={d.id} style={{ display: "flex", gap: 14, background: "var(--surface-card)", border: "1px solid var(--border-subtle)", borderLeft: `3px solid var(--status-${sev})`, borderRadius: 12, boxShadow: "var(--shadow-card)", padding: 18 }}>
-                  <span style={{ flexShrink: 0, display: "inline-flex", width: 34, height: 34, borderRadius: 9, background: `var(--status-${sev}-bg)`, color: `var(--status-${sev})`, alignItems: "center", justifyContent: "center" }}><UI.IAlert size={18} /></span>
-                  <div style={{ flex: 1 }}>
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12 }}>
-                      <h3 style={{ fontSize: 15, fontWeight: 600, color: "var(--ink-900)" }}>{d.name} scores {s} ({band(s)})</h3>
-                      <DS.Badge tone={sev}>{sev === "danger" ? "Critical" : "Watch"}</DS.Badge>
-                    </div>
-                    <p style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55, marginTop: 5 }}>
-                      {d.description}{low.length ? ` Weakest criteria: ${low.join("; ")}.` : ""}
-                    </p>
-                    <div style={{ fontSize: 12.5, color: "var(--text-tertiary)", marginTop: 8 }}>Accountable owner: <strong style={{ color: "var(--text-secondary)", fontWeight: 600 }}>{ownerFor(d.id)}</strong></div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* Category breakdown */}
-        <div>
-          <SectionTitle n="2" sub="The 8×8 framework, scored 0–100 with movement since your last snapshot">Category breakdown</SectionTitle>
-          <DS.Card padding="none">
-            {framework.map((d, i) => {
-              const s = domainScore(d, answers);
-              const t = trends[String(d.id)];
-              return (
-                <div key={d.id} style={{ display: "flex", alignItems: "center", gap: 16, padding: "14px 20px", borderBottom: i < framework.length - 1 ? "1px solid var(--border-subtle)" : "none" }}>
-                  <span style={{ flex: 1, fontSize: 14, fontWeight: 500, color: "var(--ink-900)" }}>{d.name}</span>
-                  <span style={{ width: 130 }}><DS.Progress value={s ?? 0} tone={s == null ? "neutral" : toneFor(s) === "success" ? "brand" : toneFor(s)} /></span>
-                  <span className="pf-tnum" style={{ width: 30, textAlign: "right", fontSize: 14, fontWeight: 600, color: s == null ? "var(--text-tertiary)" : "var(--ink-900)" }}>{s == null ? "—" : s}</span>
-                  <span style={{ width: 100, textAlign: "right" }}>{s == null ? <DS.Badge tone="neutral">No data</DS.Badge> : <DS.Badge tone={toneFor(s)}>{band(s)}</DS.Badge>}</span>
-                  <span className="pf-tnum" style={{ width: 36, textAlign: "right", fontSize: 13, fontWeight: 600, color: t == null ? "var(--text-tertiary)" : t < 0 ? "var(--status-danger)" : "var(--status-success)" }}>{t == null ? "—" : `${t > 0 ? "+" : ""}${t}`}</span>
-                </div>
-              );
-            })}
-          </DS.Card>
-        </div>
-
-        {/* Roadmap */}
-        <div>
-          <SectionTitle n="3" sub="Sequenced by horizon, each with a named accountable owner">Recommended roadmap</SectionTitle>
-          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-            {risks.map(({ d, s }, i) => {
-              const low = lowestCriteria(d, 1);
-              const target = band(Math.min(100, s + 20));
-              return (
-                <div key={d.id} style={{ display: "flex", gap: 16, background: "var(--surface-card)", border: "1px solid var(--border-subtle)", borderRadius: 12, boxShadow: "var(--shadow-card)", padding: 18 }}>
-                  <div style={{ flexShrink: 0, width: 96 }}>
-                    <DS.Badge tone="brand">{HORIZONS[i] ?? "180+ days"}</DS.Badge>
-                  </div>
-                  <div style={{ flex: 1 }}>
-                    <h3 style={{ fontSize: 15, fontWeight: 600, color: "var(--ink-900)" }}>Lift {d.name} from {band(s)} towards {target}</h3>
-                    <p style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55, marginTop: 4 }}>
-                      {low.length ? `Start with the weakest criterion: ${low[0]}. ` : ""}The criterion briefing in the Research library sets out what leading practice looks like and the evidence to build.
-                    </p>
-                  </div>
-                  <div style={{ flexShrink: 0, alignSelf: "center", fontSize: 12.5, color: "var(--text-tertiary)", textAlign: "right", maxWidth: 140 }}>{ownerFor(d.id)}</div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* Sources */}
-        <div>
-          <SectionTitle n="4" sub="This assessment is grounded in recognised governance frameworks">Methodology &amp; sources</SectionTitle>
-          <DS.Card padding="lg">
-            <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-              {SOURCES.map((s) => <DS.Badge key={s} tone="neutral" variant="outline" pill={false}>{s}</DS.Badge>)}
-            </div>
-            <p style={{ fontSize: 12.5, color: "var(--text-tertiary)", marginTop: 14, lineHeight: 1.55 }}>
-              Scores derive from the 8×8 framework (64 board-level dimensions, 0–4 maturity scale), equal-weighted in v1.0. Regulatory position current as of 22 July 2026.
-            </p>
-            {/* Attribution line — carried into the printed board pack so a
-                circulated copy names the account it was produced for. */}
-            <p style={{ fontSize: 11.5, color: "var(--text-tertiary)", marginTop: 10, paddingTop: 10, borderTop: "1px solid var(--border-subtle)", lineHeight: 1.5 }}>
-              Prepared for {reader}{details?.orgName ? `, ${details.orgName}` : ""} on {today}. © 2026 Salveus Labs Ltd. Licensed to one organisation for internal governance use — not for redistribution.
-            </p>
-          </DS.Card>
-        </div>
+        <p style={{ fontSize: 11.5, color: "var(--text-tertiary)", paddingTop: 12, borderTop: "1px solid var(--border-subtle)", lineHeight: 1.5 }}>
+          Prepared for {reader}{details?.orgName ? `, ${details.orgName}` : ""} on {today}. Principled Futures is a Salveus Labs product. © 2026 Salveus Labs Ltd. Licensed to one organisation for internal governance use — not for redistribution.
+        </p>
       </div>
 
       {shareOpen && (

@@ -15,14 +15,33 @@ export const dependsOn = (id: string): CriterionLink[] => LINKS.filter((l) => l.
 
 export const levelLabel = (a: Answers, id: string): string | null => (a[id] === undefined ? null : BAND_LABELS[a[id]]);
 
-export interface Priority { id: string; level: number; holds: number; weight: number }
+export interface Priority {
+  id: string; level: number;
+  holds: number;      // criteria this one holds back
+  exposed: number;    // of those, how many are answered at a higher level than this one can support
+  weight: number;
+}
 
-/** Where to start: answers below the top level, ranked by how weak they are and how many
-    other criteria they hold back. Weight = levels short of the top × (1 + criteria held back). */
+/** How far a dependent criterion is answered above the criterion it rests on (0 when it is not). */
+export const overreach = (a: Answers, from: string, to: string): number =>
+  a[from] === undefined || a[to] === undefined ? 0 : Math.max(0, a[to] - a[from]);
+
+/** Where to start. Each answer below the top level is weighted by the organisation's own responses:
+
+      weight = levels short of the top × (1 + Σ over the criteria it holds back of (1 + overreach))
+
+    so a weak answer counts for more when more depends on it, and more again when what depends on
+    it has been answered at a higher level than the foundation supports. Scores themselves stay
+    equal-weighted (framework 1.0.0); this ranks priorities only. */
 export function priorities(a: Answers, n = 3): Priority[] {
   return Object.keys(CRITERIA)
     .filter((id) => a[id] !== undefined && a[id] < 4)
-    .map((id) => { const holds = holdsBack(id).length; return { id, level: a[id], holds, weight: (4 - a[id]) * (1 + holds) }; })
+    .map((id) => {
+      const out = holdsBack(id);
+      const reach = out.map((l) => overreach(a, id, l.to));
+      return { id, level: a[id], holds: out.length, exposed: reach.filter((r) => r > 0).length,
+        weight: (4 - a[id]) * (1 + reach.reduce((sum, r) => sum + 1 + r, 0)) };
+    })
     .sort((x, y) => y.weight - x.weight || x.level - y.level || x.id.localeCompare(y.id, undefined, { numeric: true }))
     .slice(0, n);
 }
