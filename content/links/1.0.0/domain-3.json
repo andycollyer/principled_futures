@@ -1,6 +1,6 @@
 {
   "domain": 3,
-  "status": "draft",
+  "status": "approved",
   "drafted": "2026-10-06",
   "note": "Each link reads: the first criterion has to be in place for the second to work. Links with domains 1 and 2 were approved with those domains.",
   "links": [
@@ -185,14 +185,14 @@
       "verdict": "keep",
       "reason": "The statutory safeguards (information, representations, human intervention, contest) are the machinery redress runs on.",
       "source": "UK GDPR, Article 22C; Lyons et al., Conceptualising Contestability (2021)"
-    }
-  ],
-  "proposed": [
+    },
     {
       "from": "3.6",
       "to": "3.8",
       "reason": "The body that can stop a deployment on ethical grounds is also the natural owner of decisions to withdraw a system and put harm right.",
-      "source": "UNESCO Recommendation on the Ethics of Artificial Intelligence"
+      "source": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
+      "verdict": "keep",
+      "added": true
     }
   ],
   "held": [
@@ -202,5 +202,7 @@
       "reason": "Remediation begins when testing shows people have been treated unfairly; without bias testing there is nothing to trigger it.",
       "source": "No document is shared by the two reading lists; needs a source before it can be proposed."
     }
-  ]
+  ],
+  "approved": "2026-10-06",
+  "approved_by": "Andy Collyer"
 }
