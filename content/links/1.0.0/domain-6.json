@@ -1,6 +1,6 @@
 {
   "domain": 6,
-  "status": "draft",
+  "status": "approved",
   "drafted": "2026-10-06",
   "note": "Each link reads: the first criterion has to be in place for the second to work. Links with lower-numbered domains were approved with those domains.",
   "links": [
@@ -75,5 +75,6 @@
       "source": "CAA Paper 2004/10, Flight Crew Reliance on Automation"
     }
   ],
-  "proposed": []
+  "approved": "2026-10-06",
+  "approved_by": "Andy Collyer"
 }

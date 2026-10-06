@@ -1249,8 +1249,876 @@ export const LIBRARY_STATS = {
     "EU": 89
   }
 } as const;
-/** Criteria joined by shared sources: [from, to, documents in common]. */
-export const CRITERION_LINKS: [string, string, number][] = [["3.2","3.3",8],["3.8","4.4",8],["1.5","6.7",7],["2.3","5.4",7],["2.6","6.5",7],["3.5","7.3",7],["8.1","8.4",7],["1.4","4.6",6],["3.5","5.1",6],["4.3","4.4",6],["2.3","3.6",5],["2.4","5.8",5],["3.1","3.3",5],["3.2","5.5",5],["3.3","3.7",5],["3.5","7.2",5],["3.6","5.4",5],["4.3","4.7",5],["4.4","5.2",5],["4.6","5.8",5],["4.7","5.2",5],["6.2","6.3",5],["6.2","6.7",5],["8.2","8.4",5],["8.3","8.7",5],["1.1","6.8",4],["1.3","7.7",4],["1.5","3.7",4],["1.8","7.4",4],["2.4","4.5",4],["2.8","5.8",4],["3.1","3.2",4],["3.4","3.5",4],["3.5","4.4",4],["3.5","4.7",4],["3.8","4.3",4],["3.8","5.2",4],["4.3","4.5",4],["4.4","4.7",4],["5.3","5.5",4],["7.4","7.6",4],["8.1","8.2",4],["8.1","8.3",4],["8.2","8.3",4],["8.3","8.4",4],["1.1","1.3",3],["1.1","2.2",3],["1.1","7.4",3],["1.2","2.1",3],["1.2","2.4",3],["1.2","2.8",3],["1.2","4.4",3],["1.3","2.2",3],["1.3","4.6",3],["1.5","2.4",3],["1.5","4.5",3],["1.7","6.8",3],["2.1","2.3",3],["2.2","2.5",3],["2.2","6.8",3],["2.3","3.1",3],["2.3","5.8",3],["2.4","2.5",3],["2.4","2.8",3],["2.4","6.7",3],["2.5","2.7",3],["2.5","5.4",3],["2.6","7.2",3],["2.7","5.4",3],["2.8","4.5",3],["2.8","4.6",3],["3.1","3.7",3],["3.2","3.4",3],["3.2","3.7",3],["3.4","5.1",3],["3.5","5.2",3],["3.7","4.5",3],["3.8","4.1",3],["3.8","4.7",3],["4.1","4.4",3],["4.3","5.2",3],["4.3","7.3",3],["4.5","7.3",3],["5.1","7.2",3],["7.4","7.5",3],["7.4","8.7",3],["7.6","7.8",3],["8.3","8.6",3],["8.5","8.6",3],["1.1","2.5",2],["1.1","4.6",2],["1.1","5.8",2],["1.2","1.4",2],["1.2","2.3",2],["1.2","2.7",2],["1.3","1.4",2],["1.3","1.6",2],["1.3","2.6",2],["1.4","2.8",2],["1.4","5.8",2],["1.5","3.3",2],["1.5","5.4",2],["1.5","5.5",2],["1.7","2.3",2],["1.7","3.3",2],["1.7","4.8",2],["1.7","5.8",2],["1.8","3.2",2],["1.8","8.7",2],["2.1","2.2",2],["2.1","2.7",2],["2.1","2.8",2],["2.1","3.4",2],["2.1","3.6",2],["2.2","7.4",2],["2.5","4.5",2],["2.5","6.8",2],["2.6","2.7",2],["2.7","3.3",2],["2.7","4.7",2],["2.4","7.1",3],["1.2","7.1",2],["2.3","7.5",2],["2.4","6.3",2],["2.7","5.6",2],["3.2","5.6",2],["4.6","7.7",2],["4.8","6.8",2],["6.1","6.2",2],["6.1","6.3",2],["6.1","6.6",2],["6.2","6.4",2],["6.3","6.4",2],["6.5","6.7",2],["6.6","6.8",2],["8.4","8.8",2],["1.1","1.6",1],["1.5","5.7",1],["2.3","4.2",1],["3.4","5.3",1],["3.5","5.7",1],["4.1","4.2",1],["4.8","8.8",1],["6.6","7.8",1],["8.3","8.5",1]];
+/** An approved dependency between two criteria: "from" has to be in place for "to" to work. */
+export interface CriterionLink { from: string; to: string; reason: string; source: string }
+export const LINKS: CriterionLink[] = [
+ {
+  "from": "1.1",
+  "to": "1.3",
+  "reason": "Policies carry authority only when a board or committee with an explicit AI remit has approved them; without that mandate, policy is one manager's preference.",
+  "source": "UK Corporate Governance Code 2024"
+ },
+ {
+  "from": "1.6",
+  "to": "1.1",
+  "reason": "A board cannot oversee what it has not been told is coming; tracking regulatory change is what keeps the board's AI agenda current.",
+  "source": "UK Corporate Governance Code 2024"
+ },
+ {
+  "from": "1.1",
+  "to": "2.2",
+  "reason": "Setting risk appetite is a board decision, so there has to be a board body that owns AI before appetite for AI risk can be defined.",
+  "source": "UK Corporate Governance Code 2024; FRC Corporate Governance Code Guidance"
+ },
+ {
+  "from": "1.1",
+  "to": "2.5",
+  "reason": "Accepting a risk needs sign-off from someone entitled to give it; the board mandate fixes where that authority sits.",
+  "source": "NIST AI Risk Management Framework 1.0"
+ },
+ {
+  "from": "4.6",
+  "to": "1.1",
+  "reason": "Board oversight is only as good as what the organisation can tell the board about what its AI does.",
+  "source": "Bank of England SS1/23; ICO AI audit toolkit: governance and accountability"
+ },
+ {
+  "from": "5.8",
+  "to": "1.1",
+  "reason": "The board shows it exercised oversight through the records kept; without the data trail, the mandate cannot be evidenced.",
+  "source": "ICO AI audit toolkit: governance and accountability"
+ },
+ {
+  "from": "1.1",
+  "to": "6.8",
+  "reason": "The board's declaration on material controls has to cover AI, which it can only do if AI is already within a board body's remit.",
+  "source": "UK Corporate Governance Code 2024; Cyber Governance Code of Practice"
+ },
+ {
+  "from": "1.1",
+  "to": "7.4",
+  "reason": "Workforce impact can only be considered and minuted before adoption if there is a board forum where AI adoption decisions are taken.",
+  "source": "Companies Act 2006, s.248; UK Corporate Governance Code 2024"
+ },
+ {
+  "from": "1.4",
+  "to": "1.2",
+  "reason": "A named owner can only be assigned to systems the organisation knows it has; the register is the list owners are assigned against.",
+  "source": "Bank of England SS1/23; NAO, Use of artificial intelligence in government"
+ },
+ {
+  "from": "1.2",
+  "to": "2.1",
+  "reason": "Someone has to be answerable for classifying each system and for the tier it is given.",
+  "source": "Bank of England SS1/23; Bank of England and FCA, AI in UK financial services 2024"
+ },
+ {
+  "from": "1.2",
+  "to": "2.3",
+  "reason": "An impact assessment needs a named person who commissions it and acts on its findings.",
+  "source": "EU AI Act, Article 26; ICO guidance on AI and data protection (accountability)"
+ },
+ {
+  "from": "1.2",
+  "to": "2.4",
+  "reason": "Deployer duties such as human oversight and monitoring must be assigned to named, competent people.",
+  "source": "EU AI Act, Article 26"
+ },
+ {
+  "from": "1.2",
+  "to": "2.7",
+  "reason": "Monitoring through a system's life lapses unless a named owner stays responsible after go-live.",
+  "source": "Bank of England SS1/23; EU AI Act, Article 26"
+ },
+ {
+  "from": "1.2",
+  "to": "4.4",
+  "reason": "A person contesting a decision needs a human with authority to review and change it, which is the escalation route this criterion defines.",
+  "source": "UK GDPR, Article 22A"
+ },
+ {
+  "from": "1.4",
+  "to": "1.3",
+  "reason": "Policies have to cover the AI actually in use; the register shows what that is, including tools bought in or embedded in other software.",
+  "source": "DSIT AI Management Essentials; NIST AI RMF"
+ },
+ {
+  "from": "1.6",
+  "to": "1.3",
+  "reason": "Policies stay current only if regulatory change is tracked and fed into them, including the staged application dates of the EU AI Act.",
+  "source": "EU AI Act, Article 113"
+ },
+ {
+  "from": "2.2",
+  "to": "1.3",
+  "reason": "Acceptable-use rules are the board's risk appetite written down for staff; without a stated appetite the policy has nothing to enforce.",
+  "source": "UK Corporate Governance Code 2024; NIST AI RMF"
+ },
+ {
+  "from": "1.3",
+  "to": "2.6",
+  "reason": "Suspending and reporting a misbehaving system relies on an escalation policy that says who decides and who is told.",
+  "source": "NIST AI RMF; NIST Generative AI Profile"
+ },
+ {
+  "from": "1.3",
+  "to": "4.6",
+  "reason": "Policy is what requires teams to record and disclose internally how they use AI.",
+  "source": "DSIT AI Management Essentials"
+ },
+ {
+  "from": "1.3",
+  "to": "7.7",
+  "reason": "People can only know what they may use if an approved acceptable-use policy exists and has reached them.",
+  "source": "UK GDPR, Article 24; R (Ayinde) v London Borough of Haringey [2025] EWHC"
+ },
+ {
+  "from": "1.4",
+  "to": "2.8",
+  "reason": "A proportionate approach has to be evidenced, and the register is the base record that evidence is built on.",
+  "source": "UK GDPR, Article 30; Bank of England SS1/23"
+ },
+ {
+  "from": "1.4",
+  "to": "4.6",
+  "reason": "Knowing what your AI does starts with knowing what AI you have.",
+  "source": "Algorithmic Transparency Recording Standard; UK GDPR, Article 30"
+ },
+ {
+  "from": "1.4",
+  "to": "5.8",
+  "reason": "The register is part of the records of processing; a data trail with systems missing from it is incomplete.",
+  "source": "UK GDPR, Article 30"
+ },
+ {
+  "from": "1.5",
+  "to": "2.4",
+  "reason": "Using a system as its provider instructs depends on obtaining those instructions and the right information at procurement.",
+  "source": "EU AI Act, Article 25; Code of Practice for the Cyber Security of AI"
+ },
+ {
+  "from": "1.5",
+  "to": "3.7",
+  "reason": "Checking a supplier's fairness claims is one part of vendor due diligence and needs the contractual right to test and audit.",
+  "source": "Guidelines for AI procurement; ICO AI audit toolkit: contracts and third parties"
+ },
+ {
+  "from": "1.5",
+  "to": "4.5",
+  "reason": "Explainability has to be written into requirements and contracts at purchase; it cannot be added to a bought-in system afterwards.",
+  "source": "Guidelines for AI procurement; ICO AI audit toolkit: contracts and third parties"
+ },
+ {
+  "from": "1.5",
+  "to": "5.4",
+  "reason": "A data protection impact assessment of a bought-in tool depends on information that only the vendor can supply, which due diligence must secure.",
+  "source": "ICO, AI tools in recruitment: audit outcomes; R (Bridges) v Chief Constable of South Wales Police [2020] EWCA Civ 1058"
+ },
+ {
+  "from": "1.5",
+  "to": "5.7",
+  "reason": "Honouring access and erasure requests where a vendor holds the data depends on the contract obliging the vendor to assist.",
+  "source": "UK GDPR, Article 28; ICO AI audit toolkit: contracts and third parties"
+ },
+ {
+  "from": "1.5",
+  "to": "6.7",
+  "reason": "Security assessment of models, APIs and suppliers is the security half of the same vendor due diligence.",
+  "source": "PRA SS2/21; NCSC supply chain security guidance; Code of Practice for the Cyber Security of AI"
+ },
+ {
+  "from": "2.3",
+  "to": "1.7",
+  "reason": "Independent review tests whether impact assessments were adequate; the Bridges judgment turned on one that was not.",
+  "source": "R (Bridges) v Chief Constable of South Wales Police [2020] EWCA Civ 1058; DSIT Introduction to AI assurance"
+ },
+ {
+  "from": "3.3",
+  "to": "1.7",
+  "reason": "Bias audit is one of the recognised assurance techniques; independent review relies on bias testing having been done and recorded.",
+  "source": "DSIT Introduction to AI assurance"
+ },
+ {
+  "from": "1.7",
+  "to": "4.8",
+  "reason": "Public claims about AI are credible when independently checked; assurance is what lets external reporting match technical reality.",
+  "source": "DSIT Trusted third-party AI assurance roadmap"
+ },
+ {
+  "from": "5.8",
+  "to": "1.7",
+  "reason": "An auditor or regulator can only review what has been recorded; assurance draws on the data trail.",
+  "source": "Data Protection Act 2018, s.146"
+ },
+ {
+  "from": "1.7",
+  "to": "6.8",
+  "reason": "The board's declaration on the effectiveness of material controls is stronger, and safer to sign, when it rests on independent assurance.",
+  "source": "UK Corporate Governance Code 2024; DSIT Trusted third-party AI assurance roadmap"
+ },
+ {
+  "from": "1.8",
+  "to": "3.2",
+  "reason": "Screening data for historical bias depends on documentation of where the data came from and how it was collected.",
+  "source": "Gebru et al., Datasheets for Datasets; Algorithmic Transparency Recording Standard"
+ },
+ {
+  "from": "1.8",
+  "to": "7.4",
+  "reason": "Showing that directors had regard to employees before adopting AI depends on the decision being minuted and the papers kept.",
+  "source": "Companies Act 2006, ss.172, 248 and 414CZA"
+ },
+ {
+  "from": "1.4",
+  "to": "2.1",
+  "reason": "Risk classification can only be complete if the register it works through is complete, including procured and embedded tools.",
+  "source": "Bank of England SS1/23; NAO, Use of artificial intelligence in government; NIST AI RMF"
+ },
+ {
+  "from": "1.8",
+  "to": "5.8",
+  "reason": "The evidence trail behind AI decisions and the data trail are two halves of the same record; a gap in one shows up in the other.",
+  "source": "Algorithmic Transparency Recording Standard; Cobbe, Lee and Singh, Reviewable Automated Decision-Making"
+ },
+ {
+  "from": "1.8",
+  "to": "1.7",
+  "reason": "Independent assurance reviews the documented evidence trail; without it there is nothing to audit.",
+  "source": "Bank of England SS1/23; NIST AI RMF"
+ },
+ {
+  "from": "1.1",
+  "to": "1.2",
+  "reason": "Named owners and escalation routes derive their authority from, and report to, the board body that holds the mandate.",
+  "source": "Bank of England SS1/23; Artificial Intelligence Playbook for the UK Government"
+ },
+ {
+  "from": "2.2",
+  "to": "2.1",
+  "reason": "Risk tiers mean something only against a stated appetite; the board's view of what it will not accept, including prohibited uses, sets where the tier boundaries sit.",
+  "source": "EU AI Act, Article 5; Bank of England SS1/23; NIST AI RMF"
+ },
+ {
+  "from": "2.1",
+  "to": "2.3",
+  "reason": "Classification is what triggers an impact assessment; a system that has not been tiered will not be recognised as needing one.",
+  "source": "UK GDPR, Article 35; ICO, When do we need to do a DPIA?"
+ },
+ {
+  "from": "2.7",
+  "to": "2.1",
+  "reason": "A tier given at adoption goes stale as the system and its use change; reassessment through the lifecycle keeps the classification true.",
+  "source": "Bank of England SS1/23; NIST AI RMF"
+ },
+ {
+  "from": "2.1",
+  "to": "2.8",
+  "reason": "Proportionality means scaling effort to risk, which is only possible once systems are sorted by tier.",
+  "source": "Bank of England SS1/23; NAO, Use of artificial intelligence in government"
+ },
+ {
+  "from": "2.1",
+  "to": "3.4",
+  "reason": "Restrictions on decisions using sensitive data can only be enforced where classification has flagged which systems use that data.",
+  "source": "EU AI Act, Article 5; UK GDPR, Article 35"
+ },
+ {
+  "from": "2.1",
+  "to": "3.6",
+  "reason": "An ethical review gate needs a rule for which deployments must pass through it; the risk tier supplies that rule.",
+  "source": "NIST AI RMF; ICO, When do we need to do a DPIA?"
+ },
+ {
+  "from": "2.2",
+  "to": "2.5",
+  "reason": "Deciding to mitigate, transfer or accept a risk is a judgement against appetite; without a stated appetite, acceptance has no test.",
+  "source": "UK Corporate Governance Code 2024; NIST AI RMF"
+ },
+ {
+  "from": "2.2",
+  "to": "6.8",
+  "reason": "The board's declaration on material controls has to say which AI risks are material, which follows from the appetite it has set.",
+  "source": "UK Corporate Governance Code 2024; FRC Corporate Governance Code Guidance"
+ },
+ {
+  "from": "3.1",
+  "to": "2.3",
+  "reason": "A rights impact assessment has to say who could be affected and how; the mapping of protected characteristics against AI uses is that input.",
+  "source": "Equality Act 2010, s.149; EU AI Act, Article 27; R (Bridges) [2020] EWCA Civ 1058"
+ },
+ {
+  "from": "2.3",
+  "to": "3.6",
+  "reason": "The ethical review gate decides on evidence, and the impact assessment is the main evidence put before it.",
+  "source": "UK GDPR, Article 35; EU AI Act, Article 27; Ada Lovelace Institute, Algorithmic impact assessment"
+ },
+ {
+  "from": "5.4",
+  "to": "2.3",
+  "reason": "The data protection impact assessment is the established discipline that wider rights assessments build on; where it is weak, the broader assessment will be too.",
+  "source": "UK GDPR, Article 35; EU AI Act, Article 27; ICO, What is a DPIA?"
+ },
+ {
+  "from": "2.3",
+  "to": "5.8",
+  "reason": "A completed impact assessment is one of the core records an organisation is expected to produce on request.",
+  "source": "ICO guidance on AI and data protection (accountability); R (Bridges) [2020] EWCA Civ 1058"
+ },
+ {
+  "from": "2.3",
+  "to": "7.5",
+  "reason": "Telling workers and their representatives what a system will do to them draws on what the impact assessment found.",
+  "source": "UK GDPR, Article 35; EU AI Act, Article 26"
+ },
+ {
+  "from": "2.4",
+  "to": "2.5",
+  "reason": "Operational controls such as input checks and monitoring are the mitigations in practice; a treatment plan with no working controls is only a document.",
+  "source": "NIST AI RMF; Post Office Horizon IT Inquiry, Volume 1"
+ },
+ {
+  "from": "2.8",
+  "to": "2.4",
+  "reason": "How much control a system needs should follow from a documented view of its risk; proportionality sets the depth of operational control.",
+  "source": "Bank of England SS1/23; ICO guidance on AI and data protection (accountability)"
+ },
+ {
+  "from": "4.5",
+  "to": "2.4",
+  "reason": "A deployer can only follow the provider's instructions and interpret outputs if the system came with that information, which is what explainability by design secures.",
+  "source": "EU AI Act, Article 13"
+ },
+ {
+  "from": "2.4",
+  "to": "5.8",
+  "reason": "Keeping the logs a system generates is a deployer control; those logs are a large part of the data trail.",
+  "source": "EU AI Act, Article 12; UK GDPR, Article 5"
+ },
+ {
+  "from": "6.3",
+  "to": "2.4",
+  "reason": "Monitoring and log retention can be trusted only if access to models, prompts and pipelines is controlled and changes are logged.",
+  "source": "Code of Practice for the Cyber Security of AI; Data Protection Act 2018, s.62; ETSI TS 104 223"
+ },
+ {
+  "from": "6.7",
+  "to": "2.4",
+  "reason": "Operating a system safely assumes its model, API and vendor dependencies have been security-assessed.",
+  "source": "EU AI Act, Article 25; Code of Practice for the Cyber Security of AI"
+ },
+ {
+  "from": "7.1",
+  "to": "2.4",
+  "reason": "Controls are operated by people; staff who cannot use AI competently will not apply provider instructions or spot bad inputs.",
+  "source": "R (Ayinde) v London Borough of Haringey [2025] EWHC 1383; Code of Practice for the Cyber Security of AI"
+ },
+ {
+  "from": "2.7",
+  "to": "2.5",
+  "reason": "A decision to accept or mitigate a risk holds only while circumstances hold; monitoring is what shows when the treatment needs revisiting.",
+  "source": "HM Treasury Orange Book; EU AI Act, Article 9"
+ },
+ {
+  "from": "4.5",
+  "to": "2.5",
+  "reason": "A risk cannot be mitigated if nobody can see why the system behaves as it does; explainability is a precondition for effective treatment.",
+  "source": "NIST AI RMF; ICO guidance on AI and data protection (accountability)"
+ },
+ {
+  "from": "5.4",
+  "to": "2.5",
+  "reason": "The impact assessment identifies the measures to reduce risk, and where high risk remains it requires consultation with the regulator before going ahead.",
+  "source": "UK GDPR, Article 36; ICO, How do we do a DPIA?"
+ },
+ {
+  "from": "2.5",
+  "to": "6.8",
+  "reason": "The board can declare its controls effective only if identified risks have in fact been treated and signed off.",
+  "source": "UK Corporate Governance Code 2024; Post Office Horizon IT Inquiry, Volume 1"
+ },
+ {
+  "from": "2.7",
+  "to": "2.6",
+  "reason": "A misbehaving system has to be detected before it can be suspended; ongoing monitoring is the detection.",
+  "source": "EU AI Act, Article 26; NIST AI RMF"
+ },
+ {
+  "from": "2.6",
+  "to": "6.5",
+  "reason": "Suspending an AI system and reporting on time works when AI failure is already routed into the organisation's rehearsed incident process.",
+  "source": "EU AI Act, Article 73; UK GDPR, Article 33; NIS Regulations 2018, reg. 11"
+ },
+ {
+  "from": "7.2",
+  "to": "2.6",
+  "reason": "Suspension is a human decision; it happens only if the people overseeing the system are trained and have the authority to stop it.",
+  "source": "EU AI Act, Article 26; NIST Generative AI Profile"
+ },
+ {
+  "from": "3.3",
+  "to": "2.7",
+  "reason": "Testing outcomes for disparate impact is one of the checks lifecycle monitoring has to repeat, because bias can emerge after go-live.",
+  "source": "EU AI Act, Article 9; ICO, AI tools in recruitment: audit outcomes"
+ },
+ {
+  "from": "2.7",
+  "to": "5.4",
+  "reason": "An impact assessment is meant to be kept under review; monitoring is what triggers its update when the processing or the risk changes.",
+  "source": "UK GDPR, Article 35; ICO, How do we do a DPIA?"
+ },
+ {
+  "from": "5.6",
+  "to": "2.7",
+  "reason": "Monitoring for drift and accuracy depends on knowing the data going in is relevant and representative; poor data quality hides or mimics model failure.",
+  "source": "ICO guidance on AI and data protection (accuracy); Bank of England SS1/23"
+ },
+ {
+  "from": "4.5",
+  "to": "2.8",
+  "reason": "Evidencing a proportionate approach relies on documentation of what each system is for and how it behaves, which explainability requirements produce.",
+  "source": "Mitchell et al., Model Cards for Model Reporting; Bank of England SS1/23"
+ },
+ {
+  "from": "4.6",
+  "to": "2.8",
+  "reason": "An organisation cannot show its approach is scaled to its context unless it knows internally what its AI does.",
+  "source": "UK GDPR, Article 30; Raji et al., Closing the AI Accountability Gap"
+ },
+ {
+  "from": "2.8",
+  "to": "5.8",
+  "reason": "The documentation that evidences a proportionate risk approach is itself part of the record the data trail must hold.",
+  "source": "UK GDPR, Article 30; ICO guidance on AI and data protection (accountability)"
+ },
+ {
+  "from": "2.3",
+  "to": "2.5",
+  "reason": "Risk treatment acts on what impact assessments find; without assessments, treatment addresses only the risks someone happened to notice.",
+  "source": "ICO guidance on AI and data protection (accountability)"
+ },
+ {
+  "from": "2.1",
+  "to": "2.4",
+  "reason": "Which deployer controls apply depends on the tier; high-risk systems carry duties that lower tiers do not.",
+  "source": "Bank of England SS1/23; NIST AI RMF"
+ },
+ {
+  "from": "3.1",
+  "to": "3.2",
+  "reason": "Screening data for bias needs to know which characteristics are at stake in each use, including proxies for them; the mapping supplies that list.",
+  "source": "Equality Act 2010, s.19; ICO guidance on AI and data protection (fairness, bias and discrimination)"
+ },
+ {
+  "from": "3.1",
+  "to": "3.3",
+  "reason": "Testing outcomes for disparate impact has to be run across specific groups; the mapping of protected characteristics says which.",
+  "source": "Equality Act 2010, s.19; R (Bridges) [2020] EWCA Civ 1058; CDEI Review into bias in algorithmic decision-making"
+ },
+ {
+  "from": "3.1",
+  "to": "3.7",
+  "reason": "The organisation stays liable for discrimination by a tool it bought, so it has to know which characteristics to press the supplier on.",
+  "source": "Equality Act 2010, s.109; DSIT Responsible AI in Recruitment"
+ },
+ {
+  "from": "3.2",
+  "to": "3.3",
+  "reason": "Outcome testing finds bias after the event; it is interpretable only when the data feeding the system has been screened first, and each informs the other.",
+  "source": "ICO guidance on AI and data protection, Annex A; FCA Research Note on bias in supervised machine learning"
+ },
+ {
+  "from": "3.4",
+  "to": "3.2",
+  "reason": "Checking data for bias usually means handling sensitive characteristics, which is lawful only within the special-category controls.",
+  "source": "UK GDPR, Article 9; CDEI, Enabling responsible access to demographic data"
+ },
+ {
+  "from": "3.2",
+  "to": "3.7",
+  "reason": "A supplier's fairness claim can only be verified by someone who understands what bias in data looks like and asks to see the supplier's evidence on it.",
+  "source": "ICO, AI tools in recruitment: audit outcomes; DSIT Responsible AI in Recruitment"
+ },
+ {
+  "from": "5.5",
+  "to": "3.2",
+  "reason": "Using sensitive data to detect and correct bias depends on the narrow legal exceptions being correctly applied and documented.",
+  "source": "UK GDPR, Article 9; Data Protection Act 2018, Schedule 1, Part 4; van Bekkum and Zuiderveen Borgesius (2023)"
+ },
+ {
+  "from": "5.6",
+  "to": "3.2",
+  "reason": "Data that is unrepresentative or excessive is a main source of bias; data quality discipline is where screening starts.",
+  "source": "EU AI Act, Article 10; ICO, AI tools in recruitment: audit outcomes"
+ },
+ {
+  "from": "3.3",
+  "to": "3.7",
+  "reason": "Verifying a vendor's fairness claim means testing outcomes yourself or examining the vendor's test results, so in-house bias testing capability comes first.",
+  "source": "NYC Local Law 144 guidance; Raghavan et al., Mitigating Bias in Algorithmic Hiring"
+ },
+ {
+  "from": "3.5",
+  "to": "3.4",
+  "reason": "Where significant decisions use sensitive data, the law restricts solely automated decisions; meaningful human review is the control that keeps a decision outside that restriction.",
+  "source": "UK GDPR, Articles 22A and 22C; Data (Use and Access) Act 2025, s.80"
+ },
+ {
+  "from": "5.1",
+  "to": "3.4",
+  "reason": "Restrictions on sensitive-data automated decisions can be enforced only once the organisation has identified which of its decisions are automated and significant.",
+  "source": "UK GDPR, Article 22A; Data (Use and Access) Act 2025 Explanatory Notes"
+ },
+ {
+  "from": "3.5",
+  "to": "4.4",
+  "reason": "A person contesting a decision is entitled to human intervention; that right is empty unless the human review is meaningful.",
+  "source": "UK GDPR, Article 22C; Green, The Flaws of Policies Requiring Human Oversight (2022)"
+ },
+ {
+  "from": "4.7",
+  "to": "3.5",
+  "reason": "People can ask for human review only if they have been told an automated decision was made about them.",
+  "source": "UK GDPR, Article 22C; ICO, AI tools in recruitment: audit outcomes"
+ },
+ {
+  "from": "5.1",
+  "to": "3.5",
+  "reason": "Whether a decision counts as solely automated turns on the quality of human involvement, so scoping and human review have to be worked out together, starting with knowing which decisions are in scope.",
+  "source": "UK GDPR, Article 22A; ICO draft guidance on automated decision-making"
+ },
+ {
+  "from": "3.5",
+  "to": "5.2",
+  "reason": "Human intervention is one of the statutory safeguards; the safeguards are not implemented unless the review is real.",
+  "source": "UK GDPR, Article 22C; ICO AI audit toolkit: human review"
+ },
+ {
+  "from": "7.2",
+  "to": "3.5",
+  "reason": "Review is meaningful only when reviewers are trained, have time and can overrule the system; research shows untrained reviewers defer to it.",
+  "source": "ICO AI audit toolkit: human review; Alon-Barkat and Busuioc (2022)"
+ },
+ {
+  "from": "7.3",
+  "to": "3.5",
+  "reason": "Reviewers can only intervene where the system and the process were designed to let them see, question and override outputs.",
+  "source": "EU AI Act, Article 14; UK GDPR, Article 22C"
+ },
+ {
+  "from": "5.4",
+  "to": "3.6",
+  "reason": "The ethical review gate needs a triggering process and written evidence; the data protection impact assessment already provides both and can require a deployment to pause.",
+  "source": "UK GDPR, Articles 35 and 36; ICO, When do we need to do a DPIA?"
+ },
+ {
+  "from": "4.5",
+  "to": "3.7",
+  "reason": "A supplier's fairness claims can be checked only if the contract secured enough information about how the system works.",
+  "source": "Guidelines for AI procurement; EU AI Act, Article 13; ICO AI audit toolkit: contracts and third parties"
+ },
+ {
+  "from": "4.1",
+  "to": "3.8",
+  "reason": "People can seek redress only if they know AI was involved in what happened to them.",
+  "source": "OECD AI Principles, 1.3; UNESCO Recommendation on the Ethics of AI"
+ },
+ {
+  "from": "4.3",
+  "to": "3.8",
+  "reason": "Putting an unfair decision right starts with being able to explain that decision; without an explanation neither side can see what went wrong.",
+  "source": "EU AI Act, Article 86; UK GDPR, Article 22C"
+ },
+ {
+  "from": "4.4",
+  "to": "3.8",
+  "reason": "Contesting a decision is the route by which unfair treatment reaches remediation; with no working route, harm stays undiscovered.",
+  "source": "UK GDPR, Article 22C; Post Office Horizon IT Inquiry, Volume 1"
+ },
+ {
+  "from": "4.7",
+  "to": "3.8",
+  "reason": "Redress depends on affected people being notified that a significant automated decision was made.",
+  "source": "UK GDPR, Article 22C; ICO draft guidance on ADM safeguards"
+ },
+ {
+  "from": "5.2",
+  "to": "3.8",
+  "reason": "The statutory safeguards (information, representations, human intervention, contest) are the machinery redress runs on.",
+  "source": "UK GDPR, Article 22C; Lyons et al., Conceptualising Contestability (2021)"
+ },
+ {
+  "from": "3.6",
+  "to": "3.8",
+  "reason": "The body that can stop a deployment on ethical grounds is also the natural owner of decisions to withdraw a system and put harm right.",
+  "source": "UNESCO Recommendation on the Ethics of Artificial Intelligence"
+ },
+ {
+  "from": "4.1",
+  "to": "4.2",
+  "reason": "Telling people they are dealing with AI and marking AI-generated content are two duties under the same provision; an organisation without a disclosure standard has no basis for a marking one.",
+  "source": "EU AI Act, Article 50"
+ },
+ {
+  "from": "4.1",
+  "to": "4.4",
+  "reason": "People can only challenge an AI-influenced outcome if they were told AI was involved.",
+  "source": "OECD AI Principles, 1.3; UNESCO Recommendation on the Ethics of AI"
+ },
+ {
+  "from": "4.3",
+  "to": "4.4",
+  "reason": "A person cannot make meaningful representations against a decision they have not had explained to them.",
+  "source": "UK GDPR, Article 22C; ICO, Explaining decisions made with AI, Part 1"
+ },
+ {
+  "from": "4.5",
+  "to": "4.3",
+  "reason": "An explanation of a specific decision can be given only if the system was bought or built to produce one.",
+  "source": "ICO, Explaining decisions made with AI, Part 3; Bank of England and FCA, AI in UK financial services 2024"
+ },
+ {
+  "from": "4.7",
+  "to": "4.3",
+  "reason": "The explanation is owed to people who have been notified; notification is the event that starts the explanation duty.",
+  "source": "UK GDPR, Article 22C; ICO draft guidance on ADM safeguards"
+ },
+ {
+  "from": "4.3",
+  "to": "5.2",
+  "reason": "Giving information about a decision is one of the statutory safeguards; they are not implemented without a working explanation process.",
+  "source": "UK GDPR, Article 22C; EU AI Act, Article 86"
+ },
+ {
+  "from": "4.3",
+  "to": "7.3",
+  "reason": "The person overseeing a system needs the same decision-level explanation to judge whether to accept or override an output.",
+  "source": "DSIT Ethics, Transparency and Accountability Framework for Automated Decision-Making"
+ },
+ {
+  "from": "4.7",
+  "to": "4.4",
+  "reason": "The right to contest begins with being told a significant automated decision has been made.",
+  "source": "UK GDPR, Article 22C; ICO draft guidance on ADM safeguards"
+ },
+ {
+  "from": "4.4",
+  "to": "5.2",
+  "reason": "The ability to make representations, obtain human intervention and contest are three of the four statutory safeguards.",
+  "source": "UK GDPR, Article 22C; Kaminski and Urban, The Right to Contest AI (2021)"
+ },
+ {
+  "from": "4.5",
+  "to": "7.3",
+  "reason": "Human oversight can be designed in only where the system exposes enough of its reasoning for a person to question it.",
+  "source": "UK GDPR, Article 25; NIST AI RMF"
+ },
+ {
+  "from": "4.6",
+  "to": "5.8",
+  "reason": "The data trail records what the organisation knows about its AI; it cannot evidence what has never been established internally.",
+  "source": "UK GDPR, Articles 5 and 30; ICO AI audit toolkit: governance and accountability"
+ },
+ {
+  "from": "7.7",
+  "to": "4.6",
+  "reason": "An organisation does not know what its AI does while staff are using tools it has not sanctioned and cannot see.",
+  "source": "DSIT AI Adoption Research; University of Melbourne and KPMG, Trust, attitudes and use of AI 2025"
+ },
+ {
+  "from": "4.7",
+  "to": "5.2",
+  "reason": "Telling people about a decision is the first of the statutory safeguards and the one the others depend on.",
+  "source": "UK GDPR, Article 22C; Data Protection Act 2018, s.50C"
+ },
+ {
+  "from": "4.8",
+  "to": "8.8",
+  "reason": "Using governance credentials to win business is safe only if the public claims are accurate; misleading claims to business customers are unlawful.",
+  "source": "Business Protection from Misleading Marketing Regulations 2008, reg. 3"
+ },
+ {
+  "from": "4.6",
+  "to": "4.8",
+  "reason": "Public claims about AI can match technical reality only if the organisation itself knows what its AI does.",
+  "source": "UK Corporate Governance Code 2024"
+ },
+ {
+  "from": "7.2",
+  "to": "5.1",
+  "reason": "Whether a decision is solely automated depends on what the human reviewer really does; scoping is wrong if it assumes oversight that is nominal.",
+  "source": "ICO guidance on automated decision-making; Green (2022); Alon-Barkat and Busuioc (2022)"
+ },
+ {
+  "from": "5.3",
+  "to": "5.5",
+  "reason": "Sensitive data needs a lawful basis and then a further condition on top; the second cannot be met where the first has not been established.",
+  "source": "ICO guidance on AI and data protection (lawfulness); ICO Enforcement Notice, Serco Leisure (2024); Information Commissioner v Clearview AI [2025] UKUT 319 (AAC)"
+ },
+ {
+  "from": "5.1",
+  "to": "5.2",
+  "reason": "Safeguards attach to significant automated decisions; they can only be put in place for decisions the organisation has identified as in scope.",
+  "source": "ICO guidance on automated decision-making; Article 29 Working Party Guidelines on automated decision-making and profiling"
+ },
+ {
+  "from": "5.4",
+  "to": "5.8",
+  "reason": "The completed impact assessment, and what was done about its findings, is a core part of the data trail.",
+  "source": "ICO guidance on AI and data protection (accountability); R (Bridges) [2020] EWCA Civ 1058"
+ },
+ {
+  "from": "5.6",
+  "to": "5.4",
+  "reason": "An impact assessment has to judge whether the data is necessary and proportionate, which rests on data quality and minimisation having been examined.",
+  "source": "ICO, AI tools in recruitment: audit outcomes"
+ },
+ {
+  "from": "6.1",
+  "to": "6.2",
+  "reason": "Secure development and procurement requirements are written against known threats; a team unaware of AI-specific attacks will not ask for the right protections.",
+  "source": "Code of Practice for the Cyber Security of AI; UK GDPR, Article 32"
+ },
+ {
+  "from": "6.1",
+  "to": "6.3",
+  "reason": "Deciding who may touch models, prompts and pipelines follows from understanding how they can be attacked or misused.",
+  "source": "Code of Practice for the Cyber Security of AI; ICO guidance on AI and data protection (security)"
+ },
+ {
+  "from": "6.1",
+  "to": "6.6",
+  "reason": "Recovery plans have to cover the ways AI fails or is attacked, which only threat awareness identifies.",
+  "source": "Code of Practice for the Cyber Security of AI; Bank of England, Financial Stability in Focus: AI (2025)"
+ },
+ {
+  "from": "6.2",
+  "to": "6.3",
+  "reason": "Access and change controls are far easier to enforce on systems built or bought with them specified from the start.",
+  "source": "NCSC Guidelines for secure AI system development; ETSI TS 104 223"
+ },
+ {
+  "from": "6.2",
+  "to": "6.4",
+  "reason": "The ability to contain or switch off a system has to be designed in or contracted for; it cannot be relied on if it was never built.",
+  "source": "Code of Practice for the Cyber Security of AI; Implementation Guide"
+ },
+ {
+  "from": "6.2",
+  "to": "6.7",
+  "reason": "Supply-chain security is the same secure-by-design discipline applied to models, APIs and vendors brought in from outside.",
+  "source": "Code of Practice for the Cyber Security of AI; PRA SS2/21; Gu et al., BadNets (2017)"
+ },
+ {
+  "from": "6.3",
+  "to": "6.4",
+  "reason": "A kill-switch is only as dependable as the control over who can use it and who can change the system around it.",
+  "source": "Code of Practice for the Cyber Security of AI; NCSC, Managing the cyber risk of agentic AI"
+ },
+ {
+  "from": "6.7",
+  "to": "6.5",
+  "reason": "Many AI incidents start at a supplier; response works only if dependencies are known and vendors are bound to notify and co-operate.",
+  "source": "Code of Practice for the Cyber Security of AI; Cyber Governance Code of Practice"
+ },
+ {
+  "from": "6.6",
+  "to": "6.8",
+  "reason": "The board cannot declare its controls effective for AI without evidence that critical services can withstand and recover from AI failure.",
+  "source": "FCA Handbook, SYSC 15A; Cyber security breaches survey 2025/2026"
+ },
+ {
+  "from": "7.8",
+  "to": "6.6",
+  "reason": "Falling back to manual operation when AI fails depends on people still having the skills to do the work themselves.",
+  "source": "CAA Paper 2004/10, Flight Crew Reliance on Automation"
+ },
+ {
+  "from": "7.4",
+  "to": "7.5",
+  "reason": "Workers and their representatives can only be told what a system will mean for them once its impact on their jobs has been assessed.",
+  "source": "EU AI Act, Article 26; UK GDPR, Article 35"
+ },
+ {
+  "from": "7.4",
+  "to": "7.6",
+  "reason": "A strategy of augmenting people before replacing them needs the role-by-role evidence that an impact assessment produces.",
+  "source": "Companies Act 2006, s.172; TULRCA 1992, s.188; DSIT assessment of AI and the UK labour market (2026)"
+ },
+ {
+  "from": "7.6",
+  "to": "7.8",
+  "reason": "Skills are sustained when the strategy keeps people doing meaningful parts of the work; a replacement-first approach lets them lapse.",
+  "source": "OECD AI Principles, 2.4; World Economic Forum, Future of Jobs Report 2025"
+ },
+ {
+  "from": "8.1",
+  "to": "8.2",
+  "reason": "Which sustainability data an organisation must hold is set by what its customers, lenders and reporting partners will ask of it.",
+  "source": "Niemann et al., Data Requests in Value Chains (2025); OECD, Fostering convergence in SME sustainability reporting"
+ },
+ {
+  "from": "8.1",
+  "to": "8.3",
+  "reason": "How far readiness needs to go follows from the organisation's position in other firms' value chains and public contracts.",
+  "source": "PPN 006; PRA SS5/25"
+ },
+ {
+  "from": "8.1",
+  "to": "8.4",
+  "reason": "Knowing where the legal limit on value-chain requests sits matters only once the organisation knows who is asking and in what capacity.",
+  "source": "Directive (EU) 2026/470; Commission Delegated Regulation (EU) 2026/1563"
+ },
+ {
+  "from": "8.2",
+  "to": "8.3",
+  "reason": "Wider readiness on strategy, targets and climate risk is built on top of the basic data set; without it the rest is assertion.",
+  "source": "EFRAG VSME standard; Commission Delegated Regulation (EU) 2026/1560"
+ },
+ {
+  "from": "8.2",
+  "to": "8.4",
+  "reason": "The limit on what larger partners may request is defined by reference to the voluntary standard's data set, so having that data is how the protection is used.",
+  "source": "Commission Recommendation (EU) 2025/1710; Commission Delegated Regulation (EU) 2026/1560"
+ },
+ {
+  "from": "8.4",
+  "to": "8.3",
+  "reason": "Knowing what cannot be demanded lets the organisation aim its readiness at what is warranted, not at every request it receives.",
+  "source": "Commission Delegated Regulation (EU) 2026/1560; PPN 006"
+ },
+ {
+  "from": "8.5",
+  "to": "8.3",
+  "reason": "AI use adds to energy use and purchased-services emissions, so a full picture of readiness has to include the AI footprint.",
+  "source": "Greenhouse Gas Protocol Corporate Value Chain (Scope 3) Standard"
+ },
+ {
+  "from": "8.6",
+  "to": "8.3",
+  "reason": "Readiness claims rest on the numbers behind them; weak data quality undermines every disclosure built on it.",
+  "source": "EFRAG VSME standard; Klaaßen and Stoll, Harmonizing corporate carbon footprints (2021)"
+ },
+ {
+  "from": "8.7",
+  "to": "8.3",
+  "reason": "Readiness is sustained when someone senior is accountable and the board sees progress; disclosure frameworks ask for that governance first.",
+  "source": "UK SRS S2; Companies Act 2006, s.414CB; FRC Thematic Review of climate-related disclosures (2025)"
+ },
+ {
+  "from": "8.4",
+  "to": "8.8",
+  "reason": "Sustainability credentials win contracts when the organisation knows what buyers can legitimately require and offers that confidently.",
+  "source": "PPN 006; Procurement Act 2023, s.12"
+ },
+ {
+  "from": "8.6",
+  "to": "8.5",
+  "reason": "A figure for AI's environmental footprint is credible only if it is measured to the same standard as the rest of the organisation's energy and carbon data.",
+  "source": "Greenhouse Gas Protocol Scope 3 Standard; Environmental Reporting Guidelines (SECR)"
+ }
+];
+/** The same links as [from, to, weight] for the landing-page map. */
+export const CRITERION_LINKS: [string, string, number][] = LINKS.map((l) => [l.from, l.to, 3]);
 
 
 /** Briefing metadata for a criterion id, or undefined if none exists. */

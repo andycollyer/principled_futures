@@ -13,8 +13,11 @@ import { framework, overallScore, band, domainScore, progress } from "@/lib/fram
 import { useAnswers } from "@/lib/store";
 import { BAND_MEANING, nextStep } from "@/lib/guidance";
 import { MEASURES } from "@/lib/measures";
-import { useOwners } from "@/lib/telemetry-owners";
 import { Ownership } from "@/components/overview/Ownership";
+import { OwnersProvider, OwnerChip, useOverviewOwners } from "@/components/overview/Owners";
+import { LiveMap, LEVEL_COLORS } from "@/components/overview/LiveMap";
+import { BAND_LABELS } from "@/lib/framework";
+import { LINKS } from "@/lib/content-meta";
 
 const BAND_COLORS: Record<string, string> = {
   Initial: "var(--status-danger)",
@@ -36,9 +39,16 @@ function BandTag({ label }: { label: string }) {
 }
 
 export default function DashboardPage() {
+  return <OwnersProvider><Overview /></OwnersProvider>;
+}
+
+function Overview() {
   const router = useRouter();
   const { answers, ready } = useAnswers();
-  const { owners, ready: ownersReady } = useOwners();
+  const { owners, ready: ownersReady } = useOverviewOwners();
+  const [selected, setSelected] = React.useState<string | null>(null);
+  const [openDomain, setOpenDomain] = React.useState<number | null>(null);
+  const showOnMap = (id: string) => { setSelected(id); document.getElementById("map")?.scrollIntoView({ behavior: "smooth", block: "start" }); };
 
   const score = ready ? overallScore(answers) : null;
   const done = ready ? progress(answers) : { answered: 0, total: 64 };
@@ -88,7 +98,18 @@ export default function DashboardPage() {
         )}
       </DS.Card>
 
-      {/* 2 — Domain by domain */}
+      {/* 2 — How it connects */}
+      <div id="map" style={{ marginTop: 16, scrollMarginTop: 80 }}>
+        <DS.Card style={{ padding: 28 }}>
+          <h2 style={h2}>How it connects</h2>
+          <p style={{ fontSize: 14, color: "var(--text-secondary)", marginTop: 4, maxWidth: 720, lineHeight: 1.55 }}>
+            Your 64 answers, coloured by level, and the {LINKS.length} links between them. A weak answer rarely stays in its own domain: select any point to see what it holds back and what it depends on.
+          </p>
+          <LiveMap answers={ready ? answers : {}} selected={selected} onSelect={setSelected} />
+        </DS.Card>
+      </div>
+
+      {/* 3 — Domain by domain */}
       <DS.Card style={{ padding: 28, marginTop: 16 }}>
         <h2 style={h2}>Domain by domain</h2>
         <p style={{ fontSize: 14, color: "var(--text-secondary)", marginTop: 4, maxWidth: 720, lineHeight: 1.55 }}>
@@ -105,6 +126,7 @@ export default function DashboardPage() {
                 <div style={{ display: "flex", alignItems: "center", gap: 14, flexWrap: "wrap" }}>
                   <span className="pf-tnum" style={{ width: 26, height: 26, borderRadius: 7, background: "var(--green-100)", color: "var(--green-700)", display: "grid", placeItems: "center", fontSize: 12.5, fontWeight: 700, flexShrink: 0 }}>{d.id}</span>
                   <span style={{ flex: 1, minWidth: 180, fontSize: 15, fontWeight: 600, color: "var(--ink-900)" }}>{d.name}</span>
+                  <OwnerChip ownerKey={`domain-${d.id}`} label={d.name} quiet />
                   {s != null && <BandTag label={band(s)} />}
                   <span style={{ width: 150 }}><DS.Progress value={s ?? 0} tone={s == null ? "neutral" : "brand"} /></span>
                   <span className="pf-tnum" style={{ width: 34, textAlign: "right", fontSize: 15, fontWeight: 600, color: s == null ? "var(--text-tertiary)" : "var(--ink-900)" }}>{s == null ? "—" : s}</span>
@@ -113,7 +135,7 @@ export default function DashboardPage() {
                   {s == null || !step ? (
                     <p style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55 }}>
                       Not answered yet. {d.description}{" "}
-                      <a href="/dashboard/assessment/" style={link}>Answer this domain</a>
+                      <a href={`/dashboard/assessment/?q=${d.id}.1`} style={link}>Answer this domain</a>
                     </p>
                   ) : (
                     <>
@@ -129,6 +151,28 @@ export default function DashboardPage() {
                       </p>
                     </>
                   )}
+                  <button onClick={() => setOpenDomain(openDomain === d.id ? null : d.id)} aria-expanded={openDomain === d.id}
+                    style={{ ...link, background: "none", border: "none", padding: 0, cursor: "pointer", fontFamily: "var(--font-sans)", marginTop: 8, display: "inline-block" }}>
+                    {openDomain === d.id ? "Hide the eight answers" : "Show the eight answers"}
+                  </button>
+                  {openDomain === d.id && (
+                    <div style={{ display: "grid", gap: 0, marginTop: 8, borderTop: "1px solid var(--border-subtle)" }}>
+                      {d.criteria.map((c) => {
+                        const a = ready ? answers[c.id] : undefined;
+                        return (
+                          <div key={c.id} style={{ display: "flex", alignItems: "center", gap: 12, padding: "8px 0", borderBottom: "1px solid var(--border-subtle)", flexWrap: "wrap" }}>
+                            <span className="pf-tnum" style={{ width: 28, fontSize: 12.5, fontWeight: 700, color: "var(--green-700)" }}>{c.id}</span>
+                            <span style={{ flex: 1, minWidth: 160, fontSize: 13.5, color: "var(--ink-900)" }}>{c.title}</span>
+                            <span style={{ display: "inline-flex", alignItems: "center", gap: 6, fontSize: 12.5, fontWeight: 600, color: a === undefined ? "var(--text-tertiary)" : "var(--ink-900)", width: 110 }}>
+                              <span style={{ width: 8, height: 8, borderRadius: "50%", background: a === undefined ? "var(--ink-300)" : LEVEL_COLORS[a] }} />{a === undefined ? "Not answered" : BAND_LABELS[a]}
+                            </span>
+                            <button onClick={() => showOnMap(c.id)} style={{ ...link, background: "none", border: "none", padding: 0, cursor: "pointer", fontFamily: "var(--font-sans)" }}>Show on map</button>
+                            <a href={`/dashboard/assessment/?q=${c.id}`} style={link}>{a === undefined ? "Answer" : "Change"}</a>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
                   {mine.length > 0 && (
                     <p className="pf-tnum" style={{ fontSize: 12.5, color: "var(--text-tertiary)", marginTop: 6 }}>
                       {mine.length === 1 ? "1 measure" : `${mine.length} measures`} to track: {mine.map((m) => m.name.toLowerCase()).join(", ")}
@@ -143,7 +187,7 @@ export default function DashboardPage() {
         </div>
       </DS.Card>
 
-      {/* 3 — Who owns it */}
+      {/* 4 — Who owns it */}
       <div id="owners" style={{ marginTop: 16, scrollMarginTop: 80 }}><Ownership /></div>
     </div>
   );

@@ -1,6 +1,6 @@
 {
   "domain": 7,
-  "status": "draft",
+  "status": "approved",
   "drafted": "2026-10-06",
   "note": "Each link reads: the first criterion has to be in place for the second to work. Links with lower-numbered domains were approved with those domains.",
   "links": [
@@ -33,5 +33,6 @@
       "source": "OECD AI Principles, 2.4; World Economic Forum, Future of Jobs Report 2025"
     }
   ],
-  "proposed": []
+  "approved": "2026-10-06",
+  "approved_by": "Andy Collyer"
 }

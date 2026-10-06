@@ -9,7 +9,7 @@ import React from "react";
 import * as DS from "@/components/ds";
 import { framework } from "@/lib/framework";
 import { MEASURES } from "@/lib/measures";
-import { useOwners, type MetricOwner } from "@/lib/telemetry-owners";
+import { useOverviewOwners, OwnerChip } from "@/components/overview/Owners";
 
 const RINGS = [
   { short: "The measures", name: "The measures", cadence: "what you track",
@@ -23,34 +23,8 @@ const RINGS = [
 ];
 const RING_SIZES = [104, 204, 304, 404];
 
-function OwnerChip({ owner, onClick }: { owner: MetricOwner | undefined; onClick: () => void }) {
-  const base: React.CSSProperties = { display: "inline-flex", alignItems: "center", gap: 7, borderRadius: 999, cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 12.5, fontWeight: 500 };
-  if (!owner) {
-    return <button onClick={onClick} style={{ ...base, padding: "5px 12px", border: "1px dashed var(--status-warning)", background: "transparent", color: "var(--status-warning)" }}>Name an owner</button>;
-  }
-  return (
-    <button onClick={onClick} title={`${owner.role || "No role given"} · ${RINGS[owner.ring].short}`}
-      style={{ ...base, padding: "4px 11px 4px 4px", border: "1px solid var(--border-default)", background: "var(--surface-card)", color: "var(--ink-900)" }}>
-      <span style={{ width: 20, height: 20, borderRadius: "50%", background: "var(--green-100)", color: "var(--green-700)", display: "grid", placeItems: "center", fontSize: 10.5, fontWeight: 600 }}>{owner.personName.trim().charAt(0).toUpperCase()}</span>
-      {owner.personName}<span style={{ color: "var(--text-tertiary)", fontWeight: 400 }}>· {RINGS[owner.ring].short}</span>
-    </button>
-  );
-}
-
 export function Ownership() {
-  const { owners, assignOwner, ready } = useOwners();
-  const [assigning, setAssigning] = React.useState<string | null>(null);
-  const [name, setName] = React.useState("");
-  const [role, setRole] = React.useState("");
-  const [ring, setRing] = React.useState<1 | 2 | 3>(2);
-
-  const open = (id: string) => {
-    const o = owners[id];
-    setName(o?.personName ?? ""); setRole(o?.role ?? ""); setRing(o?.ring ?? 2); setAssigning(id);
-  };
-  const confirm = () => {
-    if (assigning && name.trim()) { assignOwner(assigning, name.trim(), role.trim(), ring); setAssigning(null); }
-  };
+  const { owners, ready } = useOverviewOwners();
 
   const unowned = ready ? MEASURES.filter((m) => !owners[m.id]).length : 0;
   const ownedIn = (r: number) => MEASURES.filter((m) => owners[m.id]?.ring === r).length;
@@ -104,7 +78,7 @@ export function Ownership() {
                 <span style={{ display: "block", fontSize: 14, fontWeight: 500, color: "var(--ink-900)" }}>{m.name}</span>
                 <span style={{ display: "block", fontSize: 12.5, color: "var(--text-secondary)", marginTop: 1 }}>Threshold: {m.threshold} · reviewed {m.rhythm.toLowerCase()}</span>
               </span>
-              <OwnerChip owner={owners[m.id]} onClick={() => open(m.id)} />
+              <OwnerChip ownerKey={m.id} label={m.name} />
             </div>
           ));
         })}
@@ -114,32 +88,6 @@ export function Ownership() {
         The rule that makes it work: every measure belongs to one named person in one circle. If a number has no name, it isn&rsquo;t governed — it&rsquo;s just displayed.
       </p>
 
-      <DS.Modal open={assigning != null} onClose={() => setAssigning(null)} title="Name an owner" size="sm"
-        footer={
-          <div style={{ display: "flex", justifyContent: "flex-end", gap: 10 }}>
-            <DS.Button variant="ghost" onClick={() => setAssigning(null)}>Cancel</DS.Button>
-            <DS.Button variant="primary" disabled={!name.trim()} onClick={confirm}>Save</DS.Button>
-          </div>
-        }>
-        {assigning && (
-          <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-            <div style={{ fontSize: 13, color: "var(--text-secondary)" }}>{MEASURES.find((m) => m.id === assigning)?.name} — one named person, in one circle.</div>
-            <DS.FormField label="Person" required>
-              <DS.Input placeholder="Name" value={name} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setName(e.target.value)} />
-            </DS.FormField>
-            <DS.FormField label="Role" hint="e.g. CISO, Finance Director, External auditor">
-              <DS.Input placeholder="Role" value={role} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setRole(e.target.value)} />
-            </DS.FormField>
-            <DS.FormField label="Circle">
-              <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                {([1, 2, 3] as const).map((r) => (
-                  <DS.Radio key={r} name="pf-ring" label={RINGS[r].short} description={RINGS[r].cadence} checked={ring === r} onChange={() => setRing(r)} />
-                ))}
-              </div>
-            </DS.FormField>
-          </div>
-        )}
-      </DS.Modal>
     </DS.Card>
   );
 }

@@ -108,7 +108,7 @@ export default function ReportPage() {
 
   const ownerFor = (domainId: number): string => {
     if (!ownersReady) return "Unassigned";
-    for (const metricId of DOMAIN_METRICS[domainId] ?? []) {
+    for (const metricId of [`domain-${domainId}`, ...(DOMAIN_METRICS[domainId] ?? [])]) {
       const o = owners[metricId];
       if (o) return `${o.personName}${o.role ? ` (${o.role})` : ""}`;
     }

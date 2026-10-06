@@ -37,6 +37,15 @@ export default function AssessmentPage() {
   const anon = configured && !session;
 
   const [index, setIndex] = React.useState(0);
+  // ?q=4.1 opens that question (used by the overview map). Anonymous visitors stay within the free run.
+  React.useEffect(() => {
+    try {
+      const q = new URLSearchParams(window.location.search).get("q");
+      const i = q ? FLAT.findIndex((f) => f.criterion.id === q) : -1;
+      if (i >= 0 && !(anon && i >= FREE_QUESTIONS)) setIndex(i);
+    } catch {}
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const [copied, setCopied] = React.useState(false);
 
   const wall = anon && index >= FREE_QUESTIONS;   // reached the end of the free run

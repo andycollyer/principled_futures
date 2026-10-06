@@ -3,8 +3,7 @@
 lower-numbered domain), with questions and shared sources. Also: --pair A B lists any documents
 two criteria share.  Usage: python3 scripts/links_dump.py 2 | --pair 1.4 2.1"""
 import json, re, glob, os, sys
-src = open("src/lib/content-meta.ts").read()
-links = json.loads(re.search(r"CRITERION_LINKS[^=]*=\s*(\[.*?\]);", src, re.S).group(1))
+links = json.load(open("content/links/derived.json"))
 fw = open("src/lib/framework.ts").read()
 crit = {i: (t, q) for i, t, q in re.findall(r'id: "(\d\.\d)", title: "([^"]+)", question: "([^"]+)"', fw)}
 lib = {}

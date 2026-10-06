@@ -204,8 +204,24 @@ meta.push("");
   const take = (l) => { chosen.push(l); degree[l.a] = (degree[l.a] || 0) + 1; degree[l.b] = (degree[l.b] || 0) + 1; };
   for (const l of ranked) if (l.w >= 2 && chosen.length < 120 && (degree[l.a] || 0) < 7 && (degree[l.b] || 0) < 7) take(l);
   for (const l of ranked) if (chosen.length < 150 && !chosen.includes(l) && ((degree[l.a] || 0) < 2 || (degree[l.b] || 0) < 2)) take(l);
-  meta.push(`/** Criteria joined by shared sources: [from, to, documents in common]. */`);
-  meta.push(`export const CRITERION_LINKS: [string, string, number][] = ${JSON.stringify(chosen.map((l) => [l.a, l.b, l.w]))};`);
+  // The automatically derived pairs are working material for drafting (scripts/links_dump.py), not product data.
+  await mkdir(path.join(root, "content/links"), { recursive: true });
+  await writeFile(path.join(root, "content/links/derived.json"), JSON.stringify(chosen.map((l) => [l.a, l.b, l.w])));
+
+  // What the product shows: the links Andy approved, each directional ("from" has to be in place
+  // for "to" to work) with a one-sentence reason and a named source.
+  const approved = [];
+  for (let n = 1; n <= 8; n++) {
+    let d;
+    try { d = JSON.parse(await readFile(path.join(root, `content/links/1.0.0/domain-${n}.json`), "utf8")); } catch { continue; }
+    if (d.status !== "approved") continue;
+    for (const l of d.links) if (l.verdict === "keep") approved.push({ from: l.from, to: l.to, reason: l.reason, source: l.source });
+  }
+  meta.push(`/** An approved dependency between two criteria: "from" has to be in place for "to" to work. */`);
+  meta.push(`export interface CriterionLink { from: string; to: string; reason: string; source: string }`);
+  meta.push(`export const LINKS: CriterionLink[] = ${JSON.stringify(approved, null, 1)};`);
+  meta.push(`/** The same links as [from, to, weight] for the landing-page map. */`);
+  meta.push(`export const CRITERION_LINKS: [string, string, number][] = LINKS.map((l) => [l.from, l.to, 3]);`);
   meta.push("");
   meta.push("");
 }
