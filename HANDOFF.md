@@ -76,10 +76,19 @@ Netlify settings: `SITE_PRIVATE=1`, `TEAM_PASSCODE` (also in `../TEAM-PASSCODE.t
 - [x] Sign-in fixed 5 Oct 2026: the Netlify deploy step REBUILDS the site using Netlify's own stored settings, which still held the deleted database's address. Settings corrected; `check-bundle` now fails any build whose database address differs from `.env.local`. If the database ever moves again, update the Netlify settings too
 - [ ] Sign-up has no email confirmation, so a team address could be claimed by whoever registers it first. Turn confirmation on before reopening
 - [x] Overview and Telemetry merged 6 Oct 2026: one page (`src/app/dashboard/page.tsx`) reading where you stand → domain by domain (meaning + next step) → who owns it (`src/components/overview/Ownership.tsx`). Demo telemetry figures removed everywhere on desktop; `/dashboard/telemetry` redirects to `/dashboard/#owners`; measures list in `src/lib/measures.ts` (names, thresholds, rhythms, no values). Placeholder "Acme Holdings PLC / Director" replaced by the signed-in email
-- [ ] Andy to sign off the new guidance wording: five band sentences in `src/lib/guidance.ts`, the reworded "The measures" circle, and the plain-English measure names and thresholds in `measures.ts`
+- [x] Guidance wording and measure names approved by Andy 6 Oct 2026
 - [ ] Next on the overview: the live criteria map driven by the customer's answers (needs typed, approved links); then the guide agent; then eight domain videos
 - [ ] The phone version (`/mobile`) still shows the old telemetry demo figures
 - [ ] Seven 1.1.0 brief revisions in `content/briefs/next/` still await Andy's explicit sign-off
+
+## Product roadmap (agreed 6 Oct 2026)
+Roadmap artifact: https://claude.ai/artifact/CJR81jRejLMxwPhHHvTLej. Phases: 1 identity and brand; 2 criteria links with reasons, approved by Andy; 3 connected dashboard (live map); 4 personalised report; 5 guide agent; 6 proof and reach.
+Andy's decisions 6 Oct 2026:
+- First sign-in captures organisation name, sector, size, reader's name and role.
+- A named adviser reviews every report before the client sees it; initially Dr Andrew Collyer. Phase 4 needs a review queue and sign-off.
+- Guide agent runs on a Claude model; Andy leans to Haiku 4.5 for cost. Claude's advice: pilot Haiku and a larger model on the same test questions and choose on accuracy (not yet settled).
+- The guide is for the highest plan only (`governance_plus`).
+- The five band sentences (`guidance.ts`) and the measure names (`measures.ts`) are approved.
 
 ## Working rules
 - Verify end to end before reporting; say what was and was not tested.
