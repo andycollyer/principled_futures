@@ -113,27 +113,44 @@ Deno.serve(async (req) => {
 
   const MODELS = ["claude-haiku-4-5-20251001", "claude-sonnet-5-5"];
   const model = isTeam && MODELS.includes(askedModel) ? askedModel : (Deno.env.get("GUIDE_MODEL") ?? MODELS[0]);
+  // The reply's shape is guaranteed by the API (structured output), so it never needs repairing.
+  const FORMAT = { type: "json_schema", schema: { type: "object", additionalProperties: false, required: ["answer", "covered", "cited", "related"],
+    properties: { answer: { type: "string" }, covered: { type: "boolean" }, cited: { type: "array", items: { type: "integer" } }, related: { type: "array", items: { type: "string" } } } } };
+  // Sonnet 5.5 always thinks before it answers and that thinking counts against the limit, so it gets
+  // more room and is asked for a light touch. Haiku 4.5 does not take an effort setting.
+  const thinks = model !== "claude-haiku-4-5-20251001";
+  const request = {
+    model, max_tokens: thinks ? 6000 : 1500, system: SYSTEM,
+    output_config: thinks ? { effort: "low", format: FORMAT } : { format: FORMAT },
+    messages: [{ role: "user", content: `<material>\n${material}\n</material>\n\n<situation>\n${question}\n</situation>` }],
+  };
+
   let answer = "", covered = true, cited: number[] = [], related: string[] = [], usage = { input_tokens: 0, output_tokens: 0 };
   try {
     const res = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: { "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json" },
-      body: JSON.stringify({
-        model, max_tokens: 900, system: SYSTEM,
-        messages: [{ role: "user", content: `<material>\n${material}\n</material>\n\n<situation>\n${question}\n</situation>` }],
-      }),
+      body: JSON.stringify(request),
     });
     if (!res.ok) { console.error("anthropic", res.status, (await res.text()).slice(0, 300)); return json(502, { error: "The guide could not answer just now. Please try again." }); }
     const data = await res.json();
     usage = data.usage ?? usage;
-    const text = (data.content ?? []).filter((b: { type: string }) => b.type === "text").map((b: { text: string }) => b.text).join("");
-    try {
-      const parsed = JSON.parse(text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1));
+    // Check why it stopped before reading the answer: a declined or cut-off reply is not an answer.
+    if (data.stop_reason === "refusal") {
+      answer = "The guide cannot help with that request. Please rephrase it as a question about this criterion in your organisation.";
+      covered = false;
+    } else if (data.stop_reason === "max_tokens") {
+      console.error("guide truncated", model);
+      return json(502, { error: "The guide's answer was cut short. Please try again, or ask a narrower question." });
+    } else {
+      const text = (data.content ?? []).filter((b: { type: string }) => b.type === "text").map((b: { text: string }) => b.text).join("");
+      const parsed = JSON.parse(text);
       answer = String(parsed.answer ?? "").trim();
       covered = parsed.covered !== false;
-      cited = (Array.isArray(parsed.cited) ? parsed.cited : []).map(Number).filter((n: number) => Number.isInteger(n) && n >= 1 && n <= sources.length);
-      related = (Array.isArray(parsed.related) ? parsed.related : []).map(String).filter((id: string) => id !== criterion && ids.includes(id));
-    } catch { answer = text.trim(); }
+      cited = (parsed.cited as number[]).filter((n) => Number.isInteger(n) && n >= 1 && n <= sources.length);
+      // Models sometimes write "4.4 Contestability"; keep the number, and only ones that are truly linked.
+      related = (parsed.related as string[]).map((r) => (String(r).match(/\d\.\d/) ?? [""])[0]).filter((id) => id && id !== criterion && ids.includes(id));
+    }
   } catch (e) { console.error("guide", e); return json(502, { error: "The guide could not answer just now. Please try again." }); }
   if (!answer) return json(502, { error: "The guide could not answer just now. Please try again." });
 
