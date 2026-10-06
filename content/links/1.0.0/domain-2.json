@@ -1,0 +1,274 @@
+{
+  "domain": 2,
+  "status": "draft",
+  "drafted": "2026-10-06",
+  "note": "Each link reads: the first criterion has to be in place for the second to work. Links with domain 1 were drafted and approved with domain 1.",
+  "links": [
+    {
+      "from": "2.2",
+      "to": "2.1",
+      "verdict": "keep",
+      "reason": "Risk tiers mean something only against a stated appetite; the board's view of what it will not accept, including prohibited uses, sets where the tier boundaries sit.",
+      "source": "EU AI Act, Article 5; Bank of England SS1/23; NIST AI RMF"
+    },
+    {
+      "from": "2.1",
+      "to": "2.3",
+      "verdict": "keep",
+      "reason": "Classification is what triggers an impact assessment; a system that has not been tiered will not be recognised as needing one.",
+      "source": "UK GDPR, Article 35; ICO, When do we need to do a DPIA?"
+    },
+    {
+      "from": "2.7",
+      "to": "2.1",
+      "verdict": "keep",
+      "reason": "A tier given at adoption goes stale as the system and its use change; reassessment through the lifecycle keeps the classification true.",
+      "source": "Bank of England SS1/23; NIST AI RMF"
+    },
+    {
+      "from": "2.1",
+      "to": "2.8",
+      "verdict": "keep",
+      "reason": "Proportionality means scaling effort to risk, which is only possible once systems are sorted by tier.",
+      "source": "Bank of England SS1/23; NAO, Use of artificial intelligence in government"
+    },
+    {
+      "from": "2.1",
+      "to": "3.4",
+      "verdict": "keep",
+      "reason": "Restrictions on decisions using sensitive data can only be enforced where classification has flagged which systems use that data.",
+      "source": "EU AI Act, Article 5; UK GDPR, Article 35"
+    },
+    {
+      "from": "2.1",
+      "to": "3.6",
+      "verdict": "keep",
+      "reason": "An ethical review gate needs a rule for which deployments must pass through it; the risk tier supplies that rule.",
+      "source": "NIST AI RMF; ICO, When do we need to do a DPIA?"
+    },
+    {
+      "from": "2.2",
+      "to": "2.5",
+      "verdict": "keep",
+      "reason": "Deciding to mitigate, transfer or accept a risk is a judgement against appetite; without a stated appetite, acceptance has no test.",
+      "source": "UK Corporate Governance Code 2024; NIST AI RMF"
+    },
+    {
+      "from": "2.2",
+      "to": "6.8",
+      "verdict": "keep",
+      "reason": "The board's declaration on material controls has to say which AI risks are material, which follows from the appetite it has set.",
+      "source": "UK Corporate Governance Code 2024; FRC Corporate Governance Code Guidance"
+    },
+    {
+      "from": "2.2",
+      "to": "7.4",
+      "verdict": "drop",
+      "reason": "Both rest on the Governance Code, but workforce impact assessment does not depend on risk appetite in a way a board could act on; the link from the board mandate (1.1) already covers it.",
+      "source": "UK Corporate Governance Code 2024"
+    },
+    {
+      "from": "3.1",
+      "to": "2.3",
+      "verdict": "keep",
+      "reason": "A rights impact assessment has to say who could be affected and how; the mapping of protected characteristics against AI uses is that input.",
+      "source": "Equality Act 2010, s.149; EU AI Act, Article 27; R (Bridges) [2020] EWCA Civ 1058"
+    },
+    {
+      "from": "2.3",
+      "to": "3.6",
+      "verdict": "keep",
+      "reason": "The ethical review gate decides on evidence, and the impact assessment is the main evidence put before it.",
+      "source": "UK GDPR, Article 35; EU AI Act, Article 27; Ada Lovelace Institute, Algorithmic impact assessment"
+    },
+    {
+      "from": "2.3",
+      "to": "4.2",
+      "verdict": "drop",
+      "reason": "The only shared document is a transitional provision; there is no working dependency between impact assessment and content marking.",
+      "source": "EU AI Act, Article 111"
+    },
+    {
+      "from": "5.4",
+      "to": "2.3",
+      "verdict": "keep",
+      "reason": "The data protection impact assessment is the established discipline that wider rights assessments build on; where it is weak, the broader assessment will be too.",
+      "source": "UK GDPR, Article 35; EU AI Act, Article 27; ICO, What is a DPIA?"
+    },
+    {
+      "from": "2.3",
+      "to": "5.8",
+      "verdict": "keep",
+      "reason": "A completed impact assessment is one of the core records an organisation is expected to produce on request.",
+      "source": "ICO guidance on AI and data protection (accountability); R (Bridges) [2020] EWCA Civ 1058"
+    },
+    {
+      "from": "2.3",
+      "to": "7.5",
+      "verdict": "keep",
+      "reason": "Telling workers and their representatives what a system will do to them draws on what the impact assessment found.",
+      "source": "UK GDPR, Article 35; EU AI Act, Article 26"
+    },
+    {
+      "from": "2.4",
+      "to": "2.5",
+      "verdict": "keep",
+      "reason": "Operational controls such as input checks and monitoring are the mitigations in practice; a treatment plan with no working controls is only a document.",
+      "source": "NIST AI RMF; Post Office Horizon IT Inquiry, Volume 1"
+    },
+    {
+      "from": "2.8",
+      "to": "2.4",
+      "verdict": "keep",
+      "reason": "How much control a system needs should follow from a documented view of its risk; proportionality sets the depth of operational control.",
+      "source": "Bank of England SS1/23; ICO guidance on AI and data protection (accountability)"
+    },
+    {
+      "from": "4.5",
+      "to": "2.4",
+      "verdict": "keep",
+      "reason": "A deployer can only follow the provider's instructions and interpret outputs if the system came with that information, which is what explainability by design secures.",
+      "source": "EU AI Act, Article 13"
+    },
+    {
+      "from": "2.4",
+      "to": "5.8",
+      "verdict": "keep",
+      "reason": "Keeping the logs a system generates is a deployer control; those logs are a large part of the data trail.",
+      "source": "EU AI Act, Article 12; UK GDPR, Article 5"
+    },
+    {
+      "from": "6.3",
+      "to": "2.4",
+      "verdict": "keep",
+      "reason": "Monitoring and log retention can be trusted only if access to models, prompts and pipelines is controlled and changes are logged.",
+      "source": "Code of Practice for the Cyber Security of AI; Data Protection Act 2018, s.62; ETSI TS 104 223"
+    },
+    {
+      "from": "6.7",
+      "to": "2.4",
+      "verdict": "keep",
+      "reason": "Operating a system safely assumes its model, API and vendor dependencies have been security-assessed.",
+      "source": "EU AI Act, Article 25; Code of Practice for the Cyber Security of AI"
+    },
+    {
+      "from": "7.1",
+      "to": "2.4",
+      "verdict": "keep",
+      "reason": "Controls are operated by people; staff who cannot use AI competently will not apply provider instructions or spot bad inputs.",
+      "source": "R (Ayinde) v London Borough of Haringey [2025] EWHC 1383; Code of Practice for the Cyber Security of AI"
+    },
+    {
+      "from": "2.7",
+      "to": "2.5",
+      "verdict": "keep",
+      "reason": "A decision to accept or mitigate a risk holds only while circumstances hold; monitoring is what shows when the treatment needs revisiting.",
+      "source": "HM Treasury Orange Book; EU AI Act, Article 9"
+    },
+    {
+      "from": "4.5",
+      "to": "2.5",
+      "verdict": "keep",
+      "reason": "A risk cannot be mitigated if nobody can see why the system behaves as it does; explainability is a precondition for effective treatment.",
+      "source": "NIST AI RMF; ICO guidance on AI and data protection (accountability)"
+    },
+    {
+      "from": "5.4",
+      "to": "2.5",
+      "verdict": "keep",
+      "reason": "The impact assessment identifies the measures to reduce risk, and where high risk remains it requires consultation with the regulator before going ahead.",
+      "source": "UK GDPR, Article 36; ICO, How do we do a DPIA?"
+    },
+    {
+      "from": "2.5",
+      "to": "6.8",
+      "verdict": "keep",
+      "reason": "The board can declare its controls effective only if identified risks have in fact been treated and signed off.",
+      "source": "UK Corporate Governance Code 2024; Post Office Horizon IT Inquiry, Volume 1"
+    },
+    {
+      "from": "2.7",
+      "to": "2.6",
+      "verdict": "keep",
+      "reason": "A misbehaving system has to be detected before it can be suspended; ongoing monitoring is the detection.",
+      "source": "EU AI Act, Article 26; NIST AI RMF"
+    },
+    {
+      "from": "2.6",
+      "to": "6.5",
+      "verdict": "keep",
+      "reason": "Suspending an AI system and reporting on time works when AI failure is already routed into the organisation's rehearsed incident process.",
+      "source": "EU AI Act, Article 73; UK GDPR, Article 33; NIS Regulations 2018, reg. 11"
+    },
+    {
+      "from": "7.2",
+      "to": "2.6",
+      "verdict": "keep",
+      "reason": "Suspension is a human decision; it happens only if the people overseeing the system are trained and have the authority to stop it.",
+      "source": "EU AI Act, Article 26; NIST Generative AI Profile"
+    },
+    {
+      "from": "3.3",
+      "to": "2.7",
+      "verdict": "keep",
+      "reason": "Testing outcomes for disparate impact is one of the checks lifecycle monitoring has to repeat, because bias can emerge after go-live.",
+      "source": "EU AI Act, Article 9; ICO, AI tools in recruitment: audit outcomes"
+    },
+    {
+      "from": "2.7",
+      "to": "4.7",
+      "verdict": "drop",
+      "reason": "The shared sources are general; notifying people of automated decisions does not depend on lifecycle monitoring.",
+      "source": "EU AI Act, Article 26"
+    },
+    {
+      "from": "2.7",
+      "to": "5.4",
+      "verdict": "keep",
+      "reason": "An impact assessment is meant to be kept under review; monitoring is what triggers its update when the processing or the risk changes.",
+      "source": "UK GDPR, Article 35; ICO, How do we do a DPIA?"
+    },
+    {
+      "from": "5.6",
+      "to": "2.7",
+      "verdict": "keep",
+      "reason": "Monitoring for drift and accuracy depends on knowing the data going in is relevant and representative; poor data quality hides or mimics model failure.",
+      "source": "ICO guidance on AI and data protection (accuracy); Bank of England SS1/23"
+    },
+    {
+      "from": "4.5",
+      "to": "2.8",
+      "verdict": "keep",
+      "reason": "Evidencing a proportionate approach relies on documentation of what each system is for and how it behaves, which explainability requirements produce.",
+      "source": "Mitchell et al., Model Cards for Model Reporting; Bank of England SS1/23"
+    },
+    {
+      "from": "4.6",
+      "to": "2.8",
+      "verdict": "keep",
+      "reason": "An organisation cannot show its approach is scaled to its context unless it knows internally what its AI does.",
+      "source": "UK GDPR, Article 30; Raji et al., Closing the AI Accountability Gap"
+    },
+    {
+      "from": "2.8",
+      "to": "5.8",
+      "verdict": "keep",
+      "reason": "The documentation that evidences a proportionate risk approach is itself part of the record the data trail must hold.",
+      "source": "UK GDPR, Article 30; ICO guidance on AI and data protection (accountability)"
+    }
+  ],
+  "proposed": [
+    {
+      "from": "2.3",
+      "to": "2.5",
+      "reason": "Risk treatment acts on what impact assessments find; without assessments, treatment addresses only the risks someone happened to notice.",
+      "source": "ICO guidance on AI and data protection (accountability)"
+    },
+    {
+      "from": "2.1",
+      "to": "2.4",
+      "reason": "Which deployer controls apply depends on the tier; high-risk systems carry duties that lower tiers do not.",
+      "source": "Bank of England SS1/23; NIST AI RMF"
+    }
+  ]
+}
