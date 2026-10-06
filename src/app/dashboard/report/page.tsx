@@ -173,6 +173,19 @@ export default function ReportPage() {
       </div>
 
       <div style={{ maxWidth: 880, margin: "0 auto", padding: "28px 28px 56px", display: "flex", flexDirection: "column", gap: 26 }}>
+        {/* Masthead — printed as well as shown, so the PDF names who it is for. */}
+        <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 20, flexWrap: "wrap", paddingBottom: 18, borderBottom: "2px solid var(--green-600)" }}>
+          <div>
+            <div style={{ display: "flex", alignItems: "center", gap: 9, fontSize: 13.5, fontWeight: 600, color: "var(--ink-900)" }}><UI.Logo size={22} /> Principled Futures</div>
+            <div className="pf-display" style={{ fontSize: 28, color: "var(--ink-900)", marginTop: 14, lineHeight: 1.15 }}>{details?.orgName || "AI governance"}</div>
+            <div style={{ fontSize: 15, color: "var(--text-secondary)", marginTop: 4 }}>AI governance advisory report{details?.sector ? ` · ${details.sector}` : ""}{details?.size ? ` · ${details.size}` : ""}</div>
+          </div>
+          <div style={{ fontSize: 13, color: "var(--text-secondary)", lineHeight: 1.6, textAlign: "right" }}>
+            <div>Prepared for <span style={{ color: "var(--ink-900)", fontWeight: 600 }}>{reader}</span></div>
+            <div>{today} · draft, not yet reviewed by an adviser</div>
+          </div>
+        </div>
+
         {/* Executive summary */}
         <DS.Card padding="lg">
           <div style={{ display: "grid", gridTemplateColumns: "180px 1fr", gap: 28, alignItems: "center" }}>
@@ -182,7 +195,7 @@ export default function ReportPage() {
             <div>
               <DS.Badge tone="neutral" pill={false}>Executive summary</DS.Badge>
               <h1 className="pf-display" style={{ fontSize: 24, color: "var(--ink-900)", marginTop: 10, lineHeight: 1.25 }}>{summary.headline}</h1>
-              <p style={{ fontSize: 14, color: "var(--text-secondary)", lineHeight: 1.6, marginTop: 10 }}>{summary.body}</p>
+              <p style={{ fontSize: 14, color: "var(--text-secondary)", lineHeight: 1.6, marginTop: 10 }}>{details?.orgName ? summary.body.replace("Your organisation", details.orgName) : summary.body}</p>
             </div>
           </div>
         </DS.Card>
