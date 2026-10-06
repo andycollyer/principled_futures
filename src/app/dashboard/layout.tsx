@@ -8,6 +8,7 @@ import * as UI from "@/components/icons";
 import { shouldRedirectToMobile } from "@/lib/device";
 import { useAuth } from "@/lib/auth";
 import { useOrg } from "@/lib/org";
+import { useReportReview } from "@/lib/reviews";
 import { gateUrl } from "@/lib/next-url";
 
 /* The only area an anonymous visitor may reach: the assessment, and only its
@@ -54,7 +55,10 @@ export default function DashboardLayout({
     if (needsDetails) router.replace("/onboarding");
   }, [needsDetails, router]);
 
-  const current = pathname.startsWith("/dashboard/assessment")
+  const { isTeam } = useReportReview();
+  const nav = isTeam ? [...NAV.slice(0, 3), { id: "review", label: "Adviser review", icon: <UI.IUsers size={17} />, path: "/dashboard/review" }, ...NAV.slice(3)] : NAV;
+
+  const current = pathname.startsWith("/dashboard/review") ? "review" : pathname.startsWith("/dashboard/assessment")
     ? "assessment"
     : pathname.startsWith("/dashboard/research")
       ? "research"
@@ -86,11 +90,11 @@ export default function DashboardLayout({
 
   return (
     <AppShell
-      nav={NAV}
+      nav={nav}
       current={current}
       plan={details?.plan ?? null}
       onNavigate={(id: string) => {
-        const item = NAV.find((n) => n.id === id);
+        const item = nav.find((n) => n.id === id);
         if (item?.path) router.push(item.path);
       }}
       org={details?.orgName || "Principled Futures"}

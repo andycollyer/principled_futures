@@ -15,6 +15,8 @@ import { loadHistoryAsync, trendFrom } from "@/lib/history";
 import { useAuth } from "@/lib/auth";
 import { useOrg } from "@/lib/org";
 import { ReportBody } from "@/components/report/ReportBody";
+import { useReportReview, sameAnswers, longDate } from "@/lib/reviews";
+import { progress } from "@/lib/framework";
 
 const SOURCES = ["OECD AI Principles", "EU AI Act (Art. 12)", "UNESCO AI Ethics", "Gartner AI Maturity", "PwC 2025 Responsible AI", "ISS STOXX Governance Gap", "Diligent Boards & AI", "IoD / ICAEW"];
 
@@ -69,7 +71,28 @@ function draftSummary(score: number, strongest: Domain | null, weakest: { d: Dom
 }
 
 export default function ReportPage() {
-  const { answers, ready } = useAnswers();
+  const { answers: liveAnswers, ready } = useAnswers();
+  // Adviser review: a client sees the report built from the copy of their answers an adviser
+  // approved. Advisers, and the product running without a backend, see the live answers.
+  const { configured } = useAuth();
+  const review = useReportReview();
+  const gatedView = configured && review.ready && !review.isTeam;
+  const approved = review.approved;
+  const answers = gatedView && approved?.answers ? approved.answers : liveAnswers;
+  const changedSince = !!approved?.answers && !sameAnswers(liveAnswers, approved.answers);
+  const reviewedLine = approved && (gatedView || !changedSince) ? `Reviewed by ${approved.reviewer_name ?? "a Principled Futures adviser"} on ${longDate(approved.reviewed_at)}` : null;
+  const awaiting = review.latest?.status === "requested";
+  const [requesting, setRequesting] = React.useState(false);
+  const [requestError, setRequestError] = React.useState<string | null>(null);
+  const liveComplete = ready && progress(liveAnswers).answered === 64;
+  const askForReview = async () => {
+    const live = overallScore(liveAnswers);
+    if (live == null) return;
+    setRequesting(true); setRequestError(null);
+    const err = await review.request(live);
+    setRequesting(false);
+    if (err) setRequestError("That didn't send. Please try again, or email support@principledfutures.com.");
+  };
   const { owners, ready: ownersReady } = useOwners();
   const { orgId, user } = useAuth();
   const { details } = useOrg();
@@ -127,7 +150,37 @@ export default function ReportPage() {
   const HORIZONS = ["0–30 days", "30–90 days", "90–180 days"];
   const today = mounted ? new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }) : "";
 
-  if (!ready || !mounted) return <div style={{ padding: 28 }} />;
+  if (!ready || !mounted || (configured && !review.ready)) return <div style={{ padding: 28 }} />;
+
+  // A client with no approved report yet: explain, and let them ask for review.
+  if (gatedView && !approved) {
+    const returned = review.latest?.status === "changes";
+    return (
+      <div style={{ padding: 28, maxWidth: 720, margin: "0 auto" }}>
+        <DS.Card padding="lg" style={{ padding: 36 }}>
+          <h1 className="pf-display" style={{ fontSize: 24, color: "var(--ink-900)" }}>{awaiting ? "Your report is with your adviser" : "Your advisory report"}</h1>
+          <p style={{ fontSize: 14.5, color: "var(--text-secondary)", lineHeight: 1.6, marginTop: 10 }}>
+            {awaiting
+              ? `Requested on ${longDate(review.latest?.requested_at)}. A Principled Futures adviser reads every report before it is released. You will find it here once it has been approved.`
+              : "Every Principled Futures report is read and approved by a named adviser before you see it. When your assessment is complete, ask for review and your report will appear here once approved."}
+          </p>
+          {returned && review.latest?.note && (
+            <div style={{ marginTop: 16, borderLeft: "3px solid var(--status-warning)", paddingLeft: 14 }}>
+              <div style={{ fontSize: 12.5, fontWeight: 600, color: "var(--ink-900)" }}>{review.latest.reviewer_name ?? "Your adviser"} asked for changes on {longDate(review.latest.reviewed_at)}</div>
+              <p style={{ fontSize: 14, color: "var(--text-secondary)", lineHeight: 1.6, marginTop: 4 }}>{review.latest.note}</p>
+            </div>
+          )}
+          {!awaiting && (
+            <div style={{ marginTop: 20, display: "flex", gap: 12, alignItems: "center", flexWrap: "wrap" }}>
+              <DS.Button variant="primary" disabled={!liveComplete || requesting} onClick={askForReview}>{requesting ? "Sending…" : returned ? "Ask for review again" : "Ask for adviser review"}</DS.Button>
+              {!liveComplete && <a href="/dashboard/assessment/" style={{ fontSize: 13.5, fontWeight: 600, color: "var(--text-link)", textDecoration: "none" }}>Finish the assessment first ({progress(liveAnswers).answered} of 64 answered)</a>}
+            </div>
+          )}
+          {requestError && <p style={{ fontSize: 13, color: "var(--status-danger)", marginTop: 10 }}>{requestError}</p>}
+        </DS.Card>
+      </div>
+    );
+  }
 
   if (score == null) {
     return (
@@ -161,12 +214,17 @@ export default function ReportPage() {
           <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
             <span style={{ display: "inline-flex", width: 36, height: 36, borderRadius: 9, background: "var(--green-100)", color: "var(--green-600)", alignItems: "center", justifyContent: "center" }}><UI.IFile size={19} /></span>
             <div>
-              <div style={{ fontSize: 14.5, fontWeight: 600, color: "var(--ink-900)" }}>Advisory Report — Draft</div>
+              <div style={{ fontSize: 14.5, fontWeight: 600, color: "var(--ink-900)" }}>Advisory Report{reviewedLine ? "" : " — Draft"}</div>
               <div style={{ fontSize: 12.5, color: "var(--text-tertiary)" }}>{orgName}{details?.sector ? ` · ${details.sector}` : ""} · generated {today}</div>
             </div>
           </div>
           <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
-            <DS.Badge tone="warning" pill={false}>Draft — not yet reviewed by an adviser</DS.Badge>
+            {reviewedLine
+              ? <DS.Badge tone="success" pill={false}>{reviewedLine}</DS.Badge>
+              : <DS.Badge tone="warning" pill={false}>{awaiting ? "With the adviser for review" : "Draft — not yet reviewed by an adviser"}</DS.Badge>}
+            {configured && !awaiting && (!approved || changedSince) && (
+              <DS.Button variant="outline" size="sm" disabled={!liveComplete || requesting} onClick={askForReview}>{requesting ? "Sending…" : approved ? "Ask for a new review" : "Ask for adviser review"}</DS.Button>
+            )}
             <DS.Button variant="outline" size="sm" iconLeft={<UI.IDownload size={15} />} onClick={() => window.print()}>Download PDF</DS.Button>
             <DS.Button variant="primary" size="sm" iconLeft={<UI.IUsers size={15} />} onClick={() => setShareOpen(true)}>Share with board</DS.Button>
           </div>
@@ -183,10 +241,22 @@ export default function ReportPage() {
           </div>
           <div style={{ fontSize: 13, color: "var(--text-secondary)", lineHeight: 1.6, textAlign: "right" }}>
             <div>Prepared for <span style={{ color: "var(--ink-900)", fontWeight: 600 }}>{reader}</span></div>
-            <div>{today} · draft, not yet reviewed by an adviser</div>
+            <div>{reviewedLine ?? `${today} · draft, not yet reviewed by an adviser`}</div>
           </div>
         </div>
 
+        {gatedView && changedSince && (
+          <div className="pf-noprint" style={{ border: "1px solid var(--border-default)", borderLeft: "3px solid var(--status-warning)", borderRadius: 8, padding: "12px 16px", fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55 }}>
+            Your answers have changed since this report was reviewed. It shows the reviewed version. {awaiting ? "A new review has been requested." : "Ask for a new review to bring it up to date."}
+          </div>
+        )}
+        {approved?.note && reviewedLine && (
+          <div className="pf-report-keep" style={{ borderLeft: "3px solid var(--green-600)", paddingLeft: 16 }}>
+            <div style={{ fontSize: 12.5, fontWeight: 600, color: "var(--ink-900)" }}>Adviser&rsquo;s note</div>
+            <p style={{ fontSize: 14.5, color: "var(--text-secondary)", lineHeight: 1.6, marginTop: 4, whiteSpace: "pre-wrap" }}>{approved.note}</p>
+            <div style={{ fontSize: 12.5, color: "var(--text-tertiary)", marginTop: 4 }}>{approved.reviewer_name}, Principled Futures</div>
+          </div>
+        )}
         <ReportBody answers={answers} owners={ownersReady ? owners : {}} details={details} trends={trends} headline={summary.headline} />
 
         <p style={{ fontSize: 11.5, color: "var(--text-tertiary)", paddingTop: 12, borderTop: "1px solid var(--border-subtle)", lineHeight: 1.5 }}>
