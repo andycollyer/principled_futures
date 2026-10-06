@@ -32,7 +32,7 @@ export const PROFILE_QUESTIONS: ProfileQuestion[] = [
     because: "you use AI on special-category data", basis: "UK GDPR, Article 9; Data Protection Act 2018, Schedule 1",
     criteria: ["3.2", "3.4", "5.4", "5.5"] },
   { key: "regulated", legal: true, question: "Are you regulated by the FCA or PRA, or are you a public body?",
-    because: "you are a regulated firm or a public body", basis: "FCA and PRA rules and supervisory statements; the public sector equality duty",
+    because: "you are a regulated firm or a public body", basis: "FCA and PRA rules and supervisory statements; the public sector equality duty", // legal trigger confirmed by Andy 6 Oct 2026
     criteria: ["1.1", "1.7", "2.2", "6.6", "6.8"] },
   { key: "bought", legal: false, question: "Is most of your AI bought in from suppliers, not built in-house?",
     because: "most of your AI is bought in from suppliers", basis: "controls have to be secured through contracts",

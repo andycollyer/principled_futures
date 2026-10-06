@@ -11,6 +11,7 @@ import { LINKS } from "@/lib/content-meta";
 import { CRITERIA, holdsBack, dependsOn, priorities } from "@/lib/links";
 import { OwnerChip } from "@/components/overview/Owners";
 import { raisedBy, type Profile } from "@/lib/profile";
+import { GuidePanel } from "@/components/overview/GuidePanel";
 
 export const LEVEL_COLORS = ["var(--status-danger)", "var(--status-warning)", "var(--status-info)", "var(--status-success)", "var(--green-600)"];
 
@@ -120,7 +121,7 @@ export function MapSvg({ answers, selected = null, onSelect, still = false }: { 
   );
 }
 
-export function LiveMap({ answers, selected, onSelect, profile }: { answers: Answers; selected: string | null; onSelect: (id: string | null) => void; profile?: Profile | null }) {
+export function LiveMap({ answers, selected, onSelect, profile, plan }: { answers: Answers; selected: string | null; onSelect: (id: string | null) => void; profile?: Profile | null; plan?: string | null }) {
   const top = priorities(answers, 3, profile);
   const sel = selected ? CRITERIA[selected] : null;
   const v = selected ? answers[selected] : undefined;
@@ -208,6 +209,7 @@ export function LiveMap({ answers, selected, onSelect, profile }: { answers: Ans
               <a href={`/dashboard/research/${selected}/`} style={linkStyle}>Read the evidence brief</a>
               <a href={`/dashboard/assessment/?q=${selected}`} style={linkStyle}>{v === undefined ? "Answer this question" : "Change this answer"}</a>
             </div>
+            <GuidePanel criterionId={selected} title={sel.criterion.title} plan={plan} onSelect={onSelect} />
             <LinkList title="Holds back" empty="Nothing depends directly on this criterion." items={holdsBack(selected)} answers={answers} pick="to" onSelect={onSelect} />
             <LinkList title="Depends on" empty="This criterion does not depend directly on another." items={dependsOn(selected)} answers={answers} pick="from" onSelect={onSelect} />
           </>

@@ -107,7 +107,7 @@ function Overview() {
           <p style={{ fontSize: 14, color: "var(--text-secondary)", marginTop: 4, maxWidth: 720, lineHeight: 1.55 }}>
             Your 64 answers, coloured by level, and the {LINKS.length} links between them. A weak answer rarely stays in its own domain: select any point to see what it holds back and what it depends on.
           </p>
-          <LiveMap answers={ready ? answers : {}} selected={selected} onSelect={setSelected} profile={details?.profile} />
+          <LiveMap answers={ready ? answers : {}} selected={selected} onSelect={setSelected} profile={details?.profile} plan={details?.plan} />
         </DS.Card>
       </div>
 

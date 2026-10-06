@@ -86,6 +86,7 @@ export default function ReviewPage() {
       <p style={{ fontSize: 14, color: "var(--text-secondary)", marginTop: 4, maxWidth: 640, lineHeight: 1.55 }}>
         Reports clients have asked to have reviewed. A client sees their report only once you approve it, and it then carries your name and the date.
       </p>
+      <p style={{ fontSize: 13.5, marginTop: 8 }}><a href="/dashboard/guide-pilot/" style={{ color: "var(--text-link)", fontWeight: 600, textDecoration: "none" }}>Guide pilot: compare the two models</a></p>
       <div style={{ marginTop: 20, border: "1px solid var(--border-default)", borderRadius: 10 }}>
         {queue == null && <p style={{ padding: 20, fontSize: 14, color: "var(--text-tertiary)" }}>Loading…</p>}
         {queue?.length === 0 && <p style={{ padding: 20, fontSize: 14, color: "var(--text-secondary)" }}>Nothing is waiting. Requests appear here when a client asks for review from their report page.</p>}
