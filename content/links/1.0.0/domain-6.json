@@ -1,0 +1,79 @@
+{
+  "domain": 6,
+  "status": "draft",
+  "drafted": "2026-10-06",
+  "note": "Each link reads: the first criterion has to be in place for the second to work. Links with lower-numbered domains were approved with those domains.",
+  "links": [
+    {
+      "from": "6.1",
+      "to": "6.2",
+      "verdict": "keep",
+      "reason": "Secure development and procurement requirements are written against known threats; a team unaware of AI-specific attacks will not ask for the right protections.",
+      "source": "Code of Practice for the Cyber Security of AI; UK GDPR, Article 32"
+    },
+    {
+      "from": "6.1",
+      "to": "6.3",
+      "verdict": "keep",
+      "reason": "Deciding who may touch models, prompts and pipelines follows from understanding how they can be attacked or misused.",
+      "source": "Code of Practice for the Cyber Security of AI; ICO guidance on AI and data protection (security)"
+    },
+    {
+      "from": "6.1",
+      "to": "6.6",
+      "verdict": "keep",
+      "reason": "Recovery plans have to cover the ways AI fails or is attacked, which only threat awareness identifies.",
+      "source": "Code of Practice for the Cyber Security of AI; Bank of England, Financial Stability in Focus: AI (2025)"
+    },
+    {
+      "from": "6.2",
+      "to": "6.3",
+      "verdict": "keep",
+      "reason": "Access and change controls are far easier to enforce on systems built or bought with them specified from the start.",
+      "source": "NCSC Guidelines for secure AI system development; ETSI TS 104 223"
+    },
+    {
+      "from": "6.2",
+      "to": "6.4",
+      "verdict": "keep",
+      "reason": "The ability to contain or switch off a system has to be designed in or contracted for; it cannot be relied on if it was never built.",
+      "source": "Code of Practice for the Cyber Security of AI; Implementation Guide"
+    },
+    {
+      "from": "6.2",
+      "to": "6.7",
+      "verdict": "keep",
+      "reason": "Supply-chain security is the same secure-by-design discipline applied to models, APIs and vendors brought in from outside.",
+      "source": "Code of Practice for the Cyber Security of AI; PRA SS2/21; Gu et al., BadNets (2017)"
+    },
+    {
+      "from": "6.3",
+      "to": "6.4",
+      "verdict": "keep",
+      "reason": "A kill-switch is only as dependable as the control over who can use it and who can change the system around it.",
+      "source": "Code of Practice for the Cyber Security of AI; NCSC, Managing the cyber risk of agentic AI"
+    },
+    {
+      "from": "6.7",
+      "to": "6.5",
+      "verdict": "keep",
+      "reason": "Many AI incidents start at a supplier; response works only if dependencies are known and vendors are bound to notify and co-operate.",
+      "source": "Code of Practice for the Cyber Security of AI; Cyber Governance Code of Practice"
+    },
+    {
+      "from": "6.6",
+      "to": "6.8",
+      "verdict": "keep",
+      "reason": "The board cannot declare its controls effective for AI without evidence that critical services can withstand and recover from AI failure.",
+      "source": "FCA Handbook, SYSC 15A; Cyber security breaches survey 2025/2026"
+    },
+    {
+      "from": "7.8",
+      "to": "6.6",
+      "verdict": "keep",
+      "reason": "Falling back to manual operation when AI fails depends on people still having the skills to do the work themselves.",
+      "source": "CAA Paper 2004/10, Flight Crew Reliance on Automation"
+    }
+  ],
+  "proposed": []
+}

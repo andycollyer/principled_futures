@@ -1,6 +1,6 @@
 {
   "domain": 4,
-  "status": "draft",
+  "status": "approved",
   "drafted": "2026-10-06",
   "note": "Each link reads: the first criterion has to be in place for the second to work. Links with domains 1 to 3 were approved with those domains.",
   "links": [
@@ -108,14 +108,16 @@
       "verdict": "keep",
       "reason": "Using governance credentials to win business is safe only if the public claims are accurate; misleading claims to business customers are unlawful.",
       "source": "Business Protection from Misleading Marketing Regulations 2008, reg. 3"
-    }
-  ],
-  "proposed": [
+    },
     {
       "from": "4.6",
       "to": "4.8",
       "reason": "Public claims about AI can match technical reality only if the organisation itself knows what its AI does.",
-      "source": "UK Corporate Governance Code 2024"
+      "source": "UK Corporate Governance Code 2024",
+      "verdict": "keep",
+      "added": true
     }
-  ]
+  ],
+  "approved": "2026-10-06",
+  "approved_by": "Andy Collyer"
 }

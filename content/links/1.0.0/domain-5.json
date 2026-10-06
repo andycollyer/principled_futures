@@ -1,0 +1,56 @@
+{
+  "domain": 5,
+  "status": "draft",
+  "drafted": "2026-10-06",
+  "note": "Each link reads: the first criterion has to be in place for the second to work. Links with lower-numbered domains were approved with those domains.",
+  "links": [
+    {
+      "from": "7.2",
+      "to": "5.1",
+      "verdict": "keep",
+      "reason": "Whether a decision is solely automated depends on what the human reviewer really does; scoping is wrong if it assumes oversight that is nominal.",
+      "source": "ICO guidance on automated decision-making; Green (2022); Alon-Barkat and Busuioc (2022)"
+    },
+    {
+      "from": "5.3",
+      "to": "5.5",
+      "verdict": "keep",
+      "reason": "Sensitive data needs a lawful basis and then a further condition on top; the second cannot be met where the first has not been established.",
+      "source": "ICO guidance on AI and data protection (lawfulness); ICO Enforcement Notice, Serco Leisure (2024); Information Commissioner v Clearview AI [2025] UKUT 319 (AAC)"
+    }
+  ],
+  "proposed": [
+    {
+      "from": "5.1",
+      "to": "5.2",
+      "reason": "Safeguards attach to significant automated decisions; they can only be put in place for decisions the organisation has identified as in scope.",
+      "source": "ICO guidance on automated decision-making; Article 29 Working Party Guidelines on automated decision-making and profiling"
+    },
+    {
+      "from": "5.4",
+      "to": "5.8",
+      "reason": "The completed impact assessment, and what was done about its findings, is a core part of the data trail.",
+      "source": "ICO guidance on AI and data protection (accountability); R (Bridges) [2020] EWCA Civ 1058"
+    },
+    {
+      "from": "5.6",
+      "to": "5.4",
+      "reason": "An impact assessment has to judge whether the data is necessary and proportionate, which rests on data quality and minimisation having been examined.",
+      "source": "ICO, AI tools in recruitment: audit outcomes"
+    }
+  ],
+  "held": [
+    {
+      "from": "5.3",
+      "to": "5.4",
+      "reason": "An impact assessment has to state and test the lawful basis relied on.",
+      "source": "No document is shared by the two reading lists; needs a source before it can be proposed."
+    },
+    {
+      "from": "5.8",
+      "to": "5.7",
+      "reason": "Honouring access and erasure requests depends on records showing where a person's data is held and used.",
+      "source": "No document is shared by the two reading lists; needs a source before it can be proposed."
+    }
+  ]
+}

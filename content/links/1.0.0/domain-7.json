@@ -1,0 +1,37 @@
+{
+  "domain": 7,
+  "status": "draft",
+  "drafted": "2026-10-06",
+  "note": "Each link reads: the first criterion has to be in place for the second to work. Links with lower-numbered domains were approved with those domains.",
+  "links": [
+    {
+      "from": "7.4",
+      "to": "7.5",
+      "verdict": "keep",
+      "reason": "Workers and their representatives can only be told what a system will mean for them once its impact on their jobs has been assessed.",
+      "source": "EU AI Act, Article 26; UK GDPR, Article 35"
+    },
+    {
+      "from": "7.4",
+      "to": "7.6",
+      "verdict": "keep",
+      "reason": "A strategy of augmenting people before replacing them needs the role-by-role evidence that an impact assessment produces.",
+      "source": "Companies Act 2006, s.172; TULRCA 1992, s.188; DSIT assessment of AI and the UK labour market (2026)"
+    },
+    {
+      "from": "7.4",
+      "to": "8.7",
+      "verdict": "drop",
+      "reason": "Both rest on directors' duties, but senior accountability for sustainability does not depend on workforce impact assessment.",
+      "source": "Companies Act 2006, s.172"
+    },
+    {
+      "from": "7.6",
+      "to": "7.8",
+      "verdict": "keep",
+      "reason": "Skills are sustained when the strategy keeps people doing meaningful parts of the work; a replacement-first approach lets them lapse.",
+      "source": "OECD AI Principles, 2.4; World Economic Forum, Future of Jobs Report 2025"
+    }
+  ],
+  "proposed": []
+}

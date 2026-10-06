@@ -1,0 +1,86 @@
+{
+  "domain": 8,
+  "status": "draft",
+  "drafted": "2026-10-06",
+  "note": "Each link reads: the first criterion has to be in place for the second to work. Links with lower-numbered domains were approved with those domains.",
+  "links": [
+    {
+      "from": "8.1",
+      "to": "8.2",
+      "verdict": "keep",
+      "reason": "Which sustainability data an organisation must hold is set by what its customers, lenders and reporting partners will ask of it.",
+      "source": "Niemann et al., Data Requests in Value Chains (2025); OECD, Fostering convergence in SME sustainability reporting"
+    },
+    {
+      "from": "8.1",
+      "to": "8.3",
+      "verdict": "keep",
+      "reason": "How far readiness needs to go follows from the organisation's position in other firms' value chains and public contracts.",
+      "source": "PPN 006; PRA SS5/25"
+    },
+    {
+      "from": "8.1",
+      "to": "8.4",
+      "verdict": "keep",
+      "reason": "Knowing where the legal limit on value-chain requests sits matters only once the organisation knows who is asking and in what capacity.",
+      "source": "Directive (EU) 2026/470; Commission Delegated Regulation (EU) 2026/1563"
+    },
+    {
+      "from": "8.2",
+      "to": "8.3",
+      "verdict": "keep",
+      "reason": "Wider readiness on strategy, targets and climate risk is built on top of the basic data set; without it the rest is assertion.",
+      "source": "EFRAG VSME standard; Commission Delegated Regulation (EU) 2026/1560"
+    },
+    {
+      "from": "8.2",
+      "to": "8.4",
+      "verdict": "keep",
+      "reason": "The limit on what larger partners may request is defined by reference to the voluntary standard's data set, so having that data is how the protection is used.",
+      "source": "Commission Recommendation (EU) 2025/1710; Commission Delegated Regulation (EU) 2026/1560"
+    },
+    {
+      "from": "8.4",
+      "to": "8.3",
+      "verdict": "keep",
+      "reason": "Knowing what cannot be demanded lets the organisation aim its readiness at what is warranted, not at every request it receives.",
+      "source": "Commission Delegated Regulation (EU) 2026/1560; PPN 006"
+    },
+    {
+      "from": "8.5",
+      "to": "8.3",
+      "verdict": "keep",
+      "reason": "AI use adds to energy use and purchased-services emissions, so a full picture of readiness has to include the AI footprint.",
+      "source": "Greenhouse Gas Protocol Corporate Value Chain (Scope 3) Standard"
+    },
+    {
+      "from": "8.6",
+      "to": "8.3",
+      "verdict": "keep",
+      "reason": "Readiness claims rest on the numbers behind them; weak data quality undermines every disclosure built on it.",
+      "source": "EFRAG VSME standard; Klaaßen and Stoll, Harmonizing corporate carbon footprints (2021)"
+    },
+    {
+      "from": "8.7",
+      "to": "8.3",
+      "verdict": "keep",
+      "reason": "Readiness is sustained when someone senior is accountable and the board sees progress; disclosure frameworks ask for that governance first.",
+      "source": "UK SRS S2; Companies Act 2006, s.414CB; FRC Thematic Review of climate-related disclosures (2025)"
+    },
+    {
+      "from": "8.4",
+      "to": "8.8",
+      "verdict": "keep",
+      "reason": "Sustainability credentials win contracts when the organisation knows what buyers can legitimately require and offers that confidently.",
+      "source": "PPN 006; Procurement Act 2023, s.12"
+    },
+    {
+      "from": "8.6",
+      "to": "8.5",
+      "verdict": "keep",
+      "reason": "A figure for AI's environmental footprint is credible only if it is measured to the same standard as the rest of the organisation's energy and carbon data.",
+      "source": "Greenhouse Gas Protocol Scope 3 Standard; Environmental Reporting Guidelines (SECR)"
+    }
+  ],
+  "proposed": []
+}
