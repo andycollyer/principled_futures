@@ -1,38 +1,20 @@
 "use client";
 
-/* Dashboard / Overview — governance overview wired to real assessment scores.
-   Telemetry register and KPI cards remain prototype mock data (out of scope
-   until the telemetry phase). */
+/* Overview — one page, read top to bottom: where you stand, domain by domain
+   (what each score means and the next step), then who owns it. The old
+   Telemetry screen is folded in here; its demo figures are gone, because the
+   product must not show a customer numbers it does not hold. */
 
 import React from "react";
 import { useRouter } from "next/navigation";
 import * as DS from "@/components/ds";
 import * as UI from "@/components/icons";
-import { framework, overallScore, band, domainScore } from "@/lib/framework";
+import { framework, overallScore, band, domainScore, progress } from "@/lib/framework";
 import { useAnswers } from "@/lib/store";
-
-const TELEMETRY_ROWS = [
-  { metric: "Scaling Status", owner: "CEO / CAIO", value: "42%", tone: "success", band: "On track" },
-  { metric: "Realised ROI", owner: "CFO", value: "1.3x", tone: "success", band: "Positive" },
-  { metric: "Model Drift", owner: "CTO", value: "1.4%", tone: "success", band: "Within" },
-  { metric: "Bias / Disparate Impact", owner: "Ethics Officer", value: "1.31", tone: "warning", band: "Watch" },
-  { metric: "Hallucination Rate", owner: "Product Lead", value: "0.7%", tone: "success", band: "Within" },
-  { metric: "Shadow AI Detection", owner: "CISO", value: "3", tone: "danger", band: "Breach" },
-  { metric: "Kill-Switch Readiness", owner: "CISO & CTO", value: "Active", tone: "success", band: "Tested" },
-  { metric: "Regulatory Readiness", owner: "CCO", value: "Audit-ready", tone: "success", band: "Compliant" },
-  { metric: "AI Carbon Footprint", owner: "ESG Cttee", value: "Within cap", tone: "success", band: "Within" },
-];
-
-const DOMAIN_ICONS = [
-  <UI.IScale size={16} key="1" />,
-  <UI.IUsers size={16} key="2" />,
-  <UI.IShield size={16} key="3" />,
-  <UI.IPulse size={16} key="4" />,
-  <UI.IDoc size={16} key="5" />,
-  <UI.ITrend size={16} key="6" />,
-  <UI.IUsers size={16} key="7" />,
-  <UI.ILeaf size={16} key="8" />,
-];
+import { BAND_MEANING, nextStep } from "@/lib/guidance";
+import { MEASURES } from "@/lib/measures";
+import { useOwners } from "@/lib/telemetry-owners";
+import { Ownership } from "@/components/overview/Ownership";
 
 const BAND_COLORS: Record<string, string> = {
   Initial: "var(--status-danger)",
@@ -42,101 +24,127 @@ const BAND_COLORS: Record<string, string> = {
   Leading: "var(--green-600)",
 };
 
-function CategoryRow({ label, score, icon }: { label: string; score: number | null; icon: React.ReactNode }) {
+const h2: React.CSSProperties = { fontSize: 19, fontWeight: 600, color: "var(--ink-900)", letterSpacing: "-0.011em" };
+const link: React.CSSProperties = { fontSize: 13, fontWeight: 600, color: "var(--text-link)", textDecoration: "none", whiteSpace: "nowrap" };
+
+function BandTag({ label }: { label: string }) {
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: 14, padding: "11px 0", borderBottom: "1px solid var(--border-subtle)" }}>
-      <span style={{ display: "inline-flex", width: 30, height: 30, borderRadius: 8, background: "var(--green-100)", color: "var(--green-600)", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>{icon}</span>
-      <span style={{ flex: 1, fontSize: 13.5, fontWeight: 500, color: "var(--ink-900)" }}>{label}</span>
-      <div style={{ width: 140 }}>
-        <DS.Progress value={score ?? 0} tone={score == null ? "neutral" : score < 40 ? "danger" : score < 60 ? "warning" : "brand"} />
-      </div>
-      <span className="pf-tnum" style={{ width: 34, textAlign: "right", fontSize: 14, fontWeight: 600, color: score == null ? "var(--text-tertiary)" : "var(--ink-900)" }}>{score == null ? "—" : score}</span>
-    </div>
+    <span style={{ display: "inline-flex", alignItems: "center", gap: 6, fontSize: 12.5, fontWeight: 600, color: "var(--ink-900)" }}>
+      <span style={{ width: 8, height: 8, borderRadius: "50%", background: BAND_COLORS[label] }} />{label}
+    </span>
   );
 }
 
 export default function DashboardPage() {
   const router = useRouter();
   const { answers, ready } = useAnswers();
-  const toneBadge: Record<string, string> = { success: "success", warning: "warning", danger: "danger" };
+  const { owners, ready: ownersReady } = useOwners();
 
   const score = ready ? overallScore(answers) : null;
+  const done = ready ? progress(answers) : { answered: 0, total: 64 };
+  const complete = done.answered === done.total;
+
+  // Arriving from an old Telemetry link lands on the ownership section.
+  React.useEffect(() => {
+    if (ready && window.location.hash === "#owners") document.getElementById("owners")?.scrollIntoView();
+  }, [ready]);
 
   return (
-    <div style={{ padding: 28, maxWidth: 1180, margin: "0 auto" }}>
-      <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 16, marginBottom: 22 }}>
+    <div style={{ padding: 28, maxWidth: 1080, margin: "0 auto" }}>
+      <div className="pf-r-stack" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 16, marginBottom: 22 }}>
         <div>
-          <h1 className="pf-display" style={{ fontSize: 26, color: "var(--ink-900)" }}>Governance overview</h1>
-          <p style={{ fontSize: 14, color: "var(--text-secondary)", marginTop: 4 }}>Continuous oversight for Acme Holdings PLC.</p>
+          <h1 className="pf-display" style={{ fontSize: 26, color: "var(--ink-900)" }}>Overview</h1>
+          <p style={{ fontSize: 14, color: "var(--text-secondary)", marginTop: 4 }}>Where your board stands on governing AI, what it means, and what to do next.</p>
         </div>
-        <div style={{ display: "flex", gap: 10 }}>
-          <DS.Button variant="outline" size="sm" iconLeft={<UI.IDownload size={15} />}>Export</DS.Button>
-          <DS.Button variant="primary" size="sm" iconLeft={<UI.IFile size={15} />} onClick={() => router.push("/dashboard/report")}>Generate report</DS.Button>
-        </div>
+        <DS.Button variant="primary" size="sm" iconLeft={<UI.IFile size={15} />} onClick={() => router.push("/dashboard/report")}>Advisory report</DS.Button>
       </div>
 
-      {/* Top row: gauge + KPIs */}
-      <div style={{ display: "grid", gridTemplateColumns: "280px 1fr", gap: 16, marginBottom: 16 }}>
-        <DS.Card style={{ display: "grid", placeItems: "center" }}>
-          {score == null ? (
-            <div style={{ textAlign: "center", padding: "18px 8px" }}>
-              <div style={{ fontSize: 14, fontWeight: 600, color: "var(--ink-900)" }}>Assessment not started</div>
-              <p style={{ fontSize: 13, color: "var(--text-secondary)", margin: "6px 0 14px" }}>Your governance score appears once you begin.</p>
-              <DS.Button variant="brand" size="sm" onClick={() => router.push("/dashboard/assessment")}>Start assessment</DS.Button>
+      {/* 1 — Where you stand */}
+      <DS.Card style={{ padding: 28 }}>
+        <h2 style={h2}>Where you stand</h2>
+        {score == null ? (
+          <div style={{ marginTop: 10 }}>
+            <p style={{ fontSize: 14.5, color: "var(--text-secondary)", lineHeight: 1.6, maxWidth: 640 }}>
+              Nothing answered yet. The assessment is 64 questions across eight domains. You can stop and return at any point, and your position appears here as soon as you answer the first one.
+            </p>
+            <div style={{ marginTop: 16 }}><DS.Button variant="primary" onClick={() => router.push("/dashboard/assessment")}>Start the assessment</DS.Button></div>
+          </div>
+        ) : (
+          <div className="pf-r-col" style={{ display: "grid", gridTemplateColumns: "170px 1fr", gap: 28, alignItems: "center", marginTop: 14 }}>
+            <DS.ScoreGauge score={score} size={150} bandLabel={band(score)} bandColor={BAND_COLORS[band(score)]} />
+            <div>
+              <p style={{ fontSize: 13, color: "var(--text-tertiary)" }}>What this means</p>
+              <p style={{ fontSize: 17, color: "var(--ink-900)", lineHeight: 1.5, marginTop: 4, maxWidth: 620 }}>
+                <strong>{band(score)}.</strong> {BAND_MEANING[band(score)]}
+              </p>
+              <p className="pf-tnum" style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55, marginTop: 12, maxWidth: 620 }}>
+                {complete
+                  ? "All 64 questions answered. The score is the average of the eight domains below, each out of 100."
+                  : `${done.answered} of ${done.total} questions answered, so this is a partial position: it covers only what you have answered so far.`}
+              </p>
+              {!complete && <div style={{ marginTop: 14 }}><DS.Button variant="primary" size="sm" onClick={() => router.push("/dashboard/assessment")}>Continue the assessment</DS.Button></div>}
             </div>
-          ) : (
-            <DS.ScoreGauge score={score} size={150} label="Overall governance" bandLabel={band(score)} bandColor={BAND_COLORS[band(score)]} />
-          )}
-        </DS.Card>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
-          <DS.StatCard label="Scaling status" value="42" unit="%" delta="+6 pts" footnote="vs last quarter" icon={<UI.ITrend size={17} />} />
-          <DS.StatCard label="Realised ROI" value="1.3" unit="x" delta="+0.2x" footnote="vs business case" icon={<UI.ITrend size={17} />} />
-          <DS.StatCard label="Shadow AI" value="3" delta="2 new" deltaDirection="down" footnote="zero-tolerance" icon={<UI.IAlert size={17} />} />
-          <DS.StatCard label="Kill-switch" value="Active" footnote="tested weekly" icon={<UI.IShield size={17} />} />
+          </div>
+        )}
+      </DS.Card>
+
+      {/* 2 — Domain by domain */}
+      <DS.Card style={{ padding: 28, marginTop: 16 }}>
+        <h2 style={h2}>Domain by domain</h2>
+        <p style={{ fontSize: 14, color: "var(--text-secondary)", marginTop: 4, maxWidth: 720, lineHeight: 1.55 }}>
+          Each domain is scored out of 100 from its eight questions. Under each score: what it means, and the single step that would move your weakest answer up a level.
+        </p>
+        <div style={{ marginTop: 14, borderTop: "1px solid var(--border-subtle)" }}>
+          {framework.map((d) => {
+            const s = ready ? domainScore(d, answers) : null;
+            const step = ready ? nextStep(d, answers) : null;
+            const mine = MEASURES.filter((m) => m.domainId === d.id);
+            const unowned = ownersReady ? mine.filter((m) => !owners[m.id]).length : 0;
+            return (
+              <div key={d.id} style={{ padding: "18px 0", borderBottom: "1px solid var(--border-subtle)" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 14, flexWrap: "wrap" }}>
+                  <span className="pf-tnum" style={{ width: 26, height: 26, borderRadius: 7, background: "var(--green-100)", color: "var(--green-700)", display: "grid", placeItems: "center", fontSize: 12.5, fontWeight: 700, flexShrink: 0 }}>{d.id}</span>
+                  <span style={{ flex: 1, minWidth: 180, fontSize: 15, fontWeight: 600, color: "var(--ink-900)" }}>{d.name}</span>
+                  {s != null && <BandTag label={band(s)} />}
+                  <span style={{ width: 150 }}><DS.Progress value={s ?? 0} tone={s == null ? "neutral" : "brand"} /></span>
+                  <span className="pf-tnum" style={{ width: 34, textAlign: "right", fontSize: 15, fontWeight: 600, color: s == null ? "var(--text-tertiary)" : "var(--ink-900)" }}>{s == null ? "—" : s}</span>
+                </div>
+                <div style={{ paddingLeft: 40, marginTop: 8, maxWidth: 820 }}>
+                  {s == null || !step ? (
+                    <p style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55 }}>
+                      Not answered yet. {d.description}{" "}
+                      <a href="/dashboard/assessment/" style={link}>Answer this domain</a>
+                    </p>
+                  ) : (
+                    <>
+                      <p style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55 }}>
+                        <span style={{ color: "var(--ink-900)", fontWeight: 500 }}>What this means.</span> {BAND_MEANING[band(s)]}
+                      </p>
+                      <p style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55, marginTop: 6 }}>
+                        <span style={{ color: "var(--ink-900)", fontWeight: 500 }}>Next step.</span>{" "}
+                        {step.targetLabel
+                          ? <>Your weakest answer is <span style={{ color: "var(--ink-900)" }}>{step.criterion.title}</span>, at {step.currentLabel}. {step.targetLabel} looks like this: {step.target}</>
+                          : <>Every answer here is at the top level. Holding it looks like this: {step.target}</>}{" "}
+                        <a href={`/dashboard/research/${step.criterion.id}/`} style={link}>Read the evidence brief</a>
+                      </p>
+                    </>
+                  )}
+                  {mine.length > 0 && (
+                    <p className="pf-tnum" style={{ fontSize: 12.5, color: "var(--text-tertiary)", marginTop: 6 }}>
+                      {mine.length === 1 ? "1 measure" : `${mine.length} measures`} to track: {mine.map((m) => m.name.toLowerCase()).join(", ")}
+                      {ownersReady && unowned > 0 ? ` · ${unowned} without an owner. ` : ". "}
+                      <a href="#owners" style={{ ...link, fontSize: 12.5 }}>Who owns it</a>
+                    </p>
+                  )}
+                </div>
+              </div>
+            );
+          })}
         </div>
-      </div>
+      </DS.Card>
 
-      {/* Risk alert */}
-      <div style={{ marginBottom: 16 }}>
-        <DS.Alert tone="danger" title="Shadow AI threshold breached">
-          3 unsanctioned AI tools detected this month against a zero-tolerance policy. Owner: CISO. Review the security category before the next board meeting.
-        </DS.Alert>
-      </div>
-
-      {/* Two columns: category breakdown + telemetry table */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1.6fr", gap: 16 }}>
-        <DS.Card>
-          <DS.CardHeader title="Category maturity" subtitle="8×8 framework" />
-          {framework.map((d, i) => (
-            <CategoryRow key={d.id} label={d.name} score={ready ? domainScore(d, answers) : null} icon={DOMAIN_ICONS[i]} />
-          ))}
-          <div style={{ paddingTop: 12 }}>
-            <DS.Button variant="link" iconRight={<UI.IChevronRight size={15} />} onClick={() => router.push("/dashboard/assessment")}>View full assessment</DS.Button>
-          </div>
-        </DS.Card>
-
-        <DS.Card padding="none">
-          <div style={{ padding: "20px 20px 14px" }}>
-            <DS.CardHeader title="Telemetry register" subtitle="Continuous oversight · demo values" action={<DS.Badge tone="neutral" dot>Demo data</DS.Badge>} style={{ marginBottom: 0 }} />
-          </div>
-          <DS.Table
-            dense
-            style={{ border: "none", borderRadius: 0 }}
-            columns={[
-              { key: "metric", header: "Metric" },
-              { key: "owner", header: "Owner" },
-              { key: "value", header: "Value", align: "right" },
-              { key: "status", header: "Status", align: "right" },
-            ]}
-            rows={TELEMETRY_ROWS.map((r) => ({
-              metric: <span style={{ fontWeight: 500 }}>{r.metric}</span>,
-              owner: <span style={{ color: "var(--text-secondary)", fontSize: 13 }}>{r.owner}</span>,
-              value: <span className="pf-tnum" style={{ fontWeight: 600 }}>{r.value}</span>,
-              status: <DS.Badge tone={toneBadge[r.tone]} dot>{r.band}</DS.Badge>,
-            }))}
-          />
-        </DS.Card>
-      </div>
+      {/* 3 — Who owns it */}
+      <div id="owners" style={{ marginTop: 16, scrollMarginTop: 80 }}><Ownership /></div>
     </div>
   );
 }

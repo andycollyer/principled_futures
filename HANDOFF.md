@@ -75,6 +75,10 @@ Netlify settings: `SITE_PRIVATE=1`, `TEAM_PASSCODE` (also in `../TEAM-PASSCODE.t
 - [x] Plan loophole closed 5 Oct 2026 (migration 0010): browser roles can only read `organisations`; plans change server-side only
 - [x] Sign-in fixed 5 Oct 2026: the Netlify deploy step REBUILDS the site using Netlify's own stored settings, which still held the deleted database's address. Settings corrected; `check-bundle` now fails any build whose database address differs from `.env.local`. If the database ever moves again, update the Netlify settings too
 - [ ] Sign-up has no email confirmation, so a team address could be claimed by whoever registers it first. Turn confirmation on before reopening
+- [x] Overview and Telemetry merged 6 Oct 2026: one page (`src/app/dashboard/page.tsx`) reading where you stand → domain by domain (meaning + next step) → who owns it (`src/components/overview/Ownership.tsx`). Demo telemetry figures removed everywhere on desktop; `/dashboard/telemetry` redirects to `/dashboard/#owners`; measures list in `src/lib/measures.ts` (names, thresholds, rhythms, no values). Placeholder "Acme Holdings PLC / Director" replaced by the signed-in email
+- [ ] Andy to sign off the new guidance wording: five band sentences in `src/lib/guidance.ts`, the reworded "The measures" circle, and the plain-English measure names and thresholds in `measures.ts`
+- [ ] Next on the overview: the live criteria map driven by the customer's answers (needs typed, approved links); then the guide agent; then eight domain videos
+- [ ] The phone version (`/mobile`) still shows the old telemetry demo figures
 - [ ] Seven 1.1.0 brief revisions in `content/briefs/next/` still await Andy's explicit sign-off
 
 ## Working rules

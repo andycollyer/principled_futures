@@ -19,7 +19,6 @@ const NAV = [
   { id: "overview", label: "Overview", icon: <UI.IGrid size={17} />, path: "/dashboard" },
   { id: "assessment", label: "Assessment", icon: <UI.IList size={17} />, path: "/dashboard/assessment" },
   { id: "report", label: "Advisory Report", icon: <UI.IFile size={17} />, path: "/dashboard/report" },
-  { id: "telemetry", label: "Telemetry", icon: <UI.IPulse size={17} />, path: "/dashboard/telemetry" },
   { id: "research", label: "Library", icon: <UI.IDoc size={17} />, path: "/dashboard/research" },
   { id: "settings", label: "Settings", icon: <UI.ICog size={17} />, path: "/dashboard/settings" },
 ];
@@ -63,7 +62,7 @@ export default function DashboardLayout({
     : pathname.startsWith("/dashboard/research")
       ? "research"
       : pathname.startsWith("/dashboard/telemetry")
-        ? "telemetry"
+        ? "overview"
         : pathname.startsWith("/dashboard/report")
           ? "report"
           : pathname.startsWith("/dashboard/help")
@@ -96,8 +95,8 @@ export default function DashboardLayout({
         const item = NAV.find((n) => n.id === id);
         if (item?.path) router.push(item.path);
       }}
-      org="Acme Holdings PLC"
-      user={{ name: "Director" }}
+      org={session?.user?.email?.split("@")[1] ?? "Principled Futures"}
+      user={{ name: session?.user?.email ?? "P" }}
       onSearch={() => setSearchOpen(true)}
       onHelp={() => router.push("/dashboard/help")}
     >
