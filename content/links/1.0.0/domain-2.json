@@ -1,6 +1,6 @@
 {
   "domain": 2,
-  "status": "draft",
+  "status": "approved",
   "drafted": "2026-10-06",
   "note": "Each link reads: the first criterion has to be in place for the second to work. Links with domain 1 were drafted and approved with domain 1.",
   "links": [
@@ -255,20 +255,24 @@
       "verdict": "keep",
       "reason": "The documentation that evidences a proportionate risk approach is itself part of the record the data trail must hold.",
       "source": "UK GDPR, Article 30; ICO guidance on AI and data protection (accountability)"
-    }
-  ],
-  "proposed": [
+    },
     {
       "from": "2.3",
       "to": "2.5",
       "reason": "Risk treatment acts on what impact assessments find; without assessments, treatment addresses only the risks someone happened to notice.",
-      "source": "ICO guidance on AI and data protection (accountability)"
+      "source": "ICO guidance on AI and data protection (accountability)",
+      "verdict": "keep",
+      "added": true
     },
     {
       "from": "2.1",
       "to": "2.4",
       "reason": "Which deployer controls apply depends on the tier; high-risk systems carry duties that lower tiers do not.",
-      "source": "Bank of England SS1/23; NIST AI RMF"
+      "source": "Bank of England SS1/23; NIST AI RMF",
+      "verdict": "keep",
+      "added": true
     }
-  ]
+  ],
+  "approved": "2026-10-06",
+  "approved_by": "Andy Collyer"
 }
