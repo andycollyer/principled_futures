@@ -1,0 +1,61 @@
+{
+  "domain": 1,
+  "status": "draft",
+  "drafted": "2026-10-06",
+  "note": "Each link reads: the first criterion has to be in place for the second to work. 'verdict' is the drafter's recommendation; Andy decides.",
+  "links": [
+    {"from": "1.1", "to": "1.3", "verdict": "keep", "reason": "Policies carry authority only when a board or committee with an explicit AI remit has approved them; without that mandate, policy is one manager's preference.", "source": "UK Corporate Governance Code 2024"},
+    {"from": "1.6", "to": "1.1", "verdict": "keep", "reason": "A board cannot oversee what it has not been told is coming; tracking regulatory change is what keeps the board's AI agenda current.", "source": "UK Corporate Governance Code 2024"},
+    {"from": "1.1", "to": "2.2", "verdict": "keep", "reason": "Setting risk appetite is a board decision, so there has to be a board body that owns AI before appetite for AI risk can be defined.", "source": "UK Corporate Governance Code 2024; FRC Corporate Governance Code Guidance"},
+    {"from": "1.1", "to": "2.5", "verdict": "keep", "reason": "Accepting a risk needs sign-off from someone entitled to give it; the board mandate fixes where that authority sits.", "source": "NIST AI Risk Management Framework 1.0"},
+    {"from": "4.6", "to": "1.1", "verdict": "keep", "reason": "Board oversight is only as good as what the organisation can tell the board about what its AI does.", "source": "Bank of England SS1/23; ICO AI audit toolkit: governance and accountability"},
+    {"from": "5.8", "to": "1.1", "verdict": "keep", "reason": "The board shows it exercised oversight through the records kept; without the data trail, the mandate cannot be evidenced.", "source": "ICO AI audit toolkit: governance and accountability"},
+    {"from": "1.1", "to": "6.8", "verdict": "keep", "reason": "The board's declaration on material controls has to cover AI, which it can only do if AI is already within a board body's remit.", "source": "UK Corporate Governance Code 2024; Cyber Governance Code of Practice"},
+    {"from": "1.1", "to": "7.4", "verdict": "keep", "reason": "Workforce impact can only be considered and minuted before adoption if there is a board forum where AI adoption decisions are taken.", "source": "Companies Act 2006, s.248; UK Corporate Governance Code 2024"},
+
+    {"from": "1.4", "to": "1.2", "verdict": "keep", "reason": "A named owner can only be assigned to systems the organisation knows it has; the register is the list owners are assigned against.", "source": "Bank of England SS1/23; NAO, Use of artificial intelligence in government"},
+    {"from": "1.2", "to": "2.1", "verdict": "keep", "reason": "Someone has to be answerable for classifying each system and for the tier it is given.", "source": "Bank of England SS1/23; Bank of England and FCA, AI in UK financial services 2024"},
+    {"from": "1.2", "to": "2.3", "verdict": "keep", "reason": "An impact assessment needs a named person who commissions it and acts on its findings.", "source": "EU AI Act, Article 26; ICO guidance on AI and data protection (accountability)"},
+    {"from": "1.2", "to": "2.4", "verdict": "keep", "reason": "Deployer duties such as human oversight and monitoring must be assigned to named, competent people.", "source": "EU AI Act, Article 26"},
+    {"from": "1.2", "to": "2.7", "verdict": "keep", "reason": "Monitoring through a system's life lapses unless a named owner stays responsible after go-live.", "source": "Bank of England SS1/23; EU AI Act, Article 26"},
+    {"from": "1.2", "to": "2.8", "verdict": "drop", "reason": "The shared sources are general; no specific dependency between named ownership and proportionality beyond what other links already show.", "source": "ICO guidance on AI and data protection (accountability)"},
+    {"from": "1.2", "to": "4.4", "verdict": "keep", "reason": "A person contesting a decision needs a human with authority to review and change it, which is the escalation route this criterion defines.", "source": "UK GDPR, Article 22A"},
+    {"from": "1.2", "to": "7.1", "verdict": "drop", "reason": "Both draw on the same surveys, but competence of staff does not depend on named decision rights in a way a board could act on.", "source": "NAO, Use of artificial intelligence in government"},
+
+    {"from": "1.4", "to": "1.3", "verdict": "keep", "reason": "Policies have to cover the AI actually in use; the register shows what that is, including tools bought in or embedded in other software.", "source": "DSIT AI Management Essentials; NIST AI RMF"},
+    {"from": "1.6", "to": "1.3", "verdict": "keep", "reason": "Policies stay current only if regulatory change is tracked and fed into them, including the staged application dates of the EU AI Act.", "source": "EU AI Act, Article 113"},
+    {"from": "2.2", "to": "1.3", "verdict": "keep", "reason": "Acceptable-use rules are the board's risk appetite written down for staff; without a stated appetite the policy has nothing to enforce.", "source": "UK Corporate Governance Code 2024; NIST AI RMF"},
+    {"from": "1.3", "to": "2.6", "verdict": "keep", "reason": "Suspending and reporting a misbehaving system relies on an escalation policy that says who decides and who is told.", "source": "NIST AI RMF; NIST Generative AI Profile"},
+    {"from": "1.3", "to": "4.6", "verdict": "keep", "reason": "Policy is what requires teams to record and disclose internally how they use AI.", "source": "DSIT AI Management Essentials"},
+    {"from": "1.3", "to": "7.7", "verdict": "keep", "reason": "People can only know what they may use if an approved acceptable-use policy exists and has reached them.", "source": "UK GDPR, Article 24; R (Ayinde) v London Borough of Haringey [2025] EWHC"},
+
+    {"from": "1.4", "to": "2.8", "verdict": "keep", "reason": "A proportionate approach has to be evidenced, and the register is the base record that evidence is built on.", "source": "UK GDPR, Article 30; Bank of England SS1/23"},
+    {"from": "1.4", "to": "4.6", "verdict": "keep", "reason": "Knowing what your AI does starts with knowing what AI you have.", "source": "Algorithmic Transparency Recording Standard; UK GDPR, Article 30"},
+    {"from": "1.4", "to": "5.8", "verdict": "keep", "reason": "The register is part of the records of processing; a data trail with systems missing from it is incomplete.", "source": "UK GDPR, Article 30"},
+
+    {"from": "1.5", "to": "2.4", "verdict": "keep", "reason": "Using a system as its provider instructs depends on obtaining those instructions and the right information at procurement.", "source": "EU AI Act, Article 25; Code of Practice for the Cyber Security of AI"},
+    {"from": "1.5", "to": "3.3", "verdict": "drop", "reason": "Covered more precisely by the link from procurement to vendor fairness assurance (3.7).", "source": "ICO, AI tools in recruitment: audit outcomes"},
+    {"from": "1.5", "to": "3.7", "verdict": "keep", "reason": "Checking a supplier's fairness claims is one part of vendor due diligence and needs the contractual right to test and audit.", "source": "Guidelines for AI procurement; ICO AI audit toolkit: contracts and third parties"},
+    {"from": "1.5", "to": "4.5", "verdict": "keep", "reason": "Explainability has to be written into requirements and contracts at purchase; it cannot be added to a bought-in system afterwards.", "source": "Guidelines for AI procurement; ICO AI audit toolkit: contracts and third parties"},
+    {"from": "1.5", "to": "5.4", "verdict": "keep", "reason": "A data protection impact assessment of a bought-in tool depends on information that only the vendor can supply, which due diligence must secure.", "source": "ICO, AI tools in recruitment: audit outcomes; R (Bridges) v Chief Constable of South Wales Police [2020] EWCA Civ 1058"},
+    {"from": "1.5", "to": "5.5", "verdict": "drop", "reason": "The shared sources are examples rather than a rule; the dependency is already carried by the impact-assessment link (5.4).", "source": "ICO, AI tools in recruitment: audit outcomes"},
+    {"from": "1.5", "to": "5.7", "verdict": "keep", "reason": "Honouring access and erasure requests where a vendor holds the data depends on the contract obliging the vendor to assist.", "source": "UK GDPR, Article 28; ICO AI audit toolkit: contracts and third parties"},
+    {"from": "1.5", "to": "6.7", "verdict": "keep", "reason": "Security assessment of models, APIs and suppliers is the security half of the same vendor due diligence.", "source": "PRA SS2/21; NCSC supply chain security guidance; Code of Practice for the Cyber Security of AI"},
+
+    {"from": "2.3", "to": "1.7", "verdict": "keep", "reason": "Independent review tests whether impact assessments were adequate; the Bridges judgment turned on one that was not.", "source": "R (Bridges) v Chief Constable of South Wales Police [2020] EWCA Civ 1058; DSIT Introduction to AI assurance"},
+    {"from": "3.3", "to": "1.7", "verdict": "keep", "reason": "Bias audit is one of the recognised assurance techniques; independent review relies on bias testing having been done and recorded.", "source": "DSIT Introduction to AI assurance"},
+    {"from": "1.7", "to": "4.8", "verdict": "keep", "reason": "Public claims about AI are credible when independently checked; assurance is what lets external reporting match technical reality.", "source": "DSIT Trusted third-party AI assurance roadmap"},
+    {"from": "5.8", "to": "1.7", "verdict": "keep", "reason": "An auditor or regulator can only review what has been recorded; assurance draws on the data trail.", "source": "Data Protection Act 2018, s.146"},
+    {"from": "1.7", "to": "6.8", "verdict": "keep", "reason": "The board's declaration on the effectiveness of material controls is stronger, and safer to sign, when it rests on independent assurance.", "source": "UK Corporate Governance Code 2024; DSIT Trusted third-party AI assurance roadmap"},
+
+    {"from": "1.8", "to": "3.2", "verdict": "keep", "reason": "Screening data for historical bias depends on documentation of where the data came from and how it was collected.", "source": "Gebru et al., Datasheets for Datasets; Algorithmic Transparency Recording Standard"},
+    {"from": "1.8", "to": "7.4", "verdict": "keep", "reason": "Showing that directors had regard to employees before adopting AI depends on the decision being minuted and the papers kept.", "source": "Companies Act 2006, ss.172, 248 and 414CZA"},
+    {"from": "1.8", "to": "8.7", "verdict": "drop", "reason": "Both rest on directors' duties, but senior accountability for sustainability does not depend on the AI decision trail specifically.", "source": "Companies Act 2006, s.172"}
+  ],
+  "proposed": [
+    {"from": "1.4", "to": "2.1", "reason": "Risk classification can only be complete if the register it works through is complete, including procured and embedded tools.", "source": "To be confirmed against the reading lists for 1.4 and 2.1"},
+    {"from": "1.8", "to": "5.8", "reason": "The evidence trail behind AI decisions and the data trail are two halves of the same record; a gap in one shows up in the other.", "source": "To be confirmed against the reading lists for 1.8 and 5.8"},
+    {"from": "1.8", "to": "1.7", "reason": "Independent assurance reviews the documented evidence trail; without it there is nothing to audit.", "source": "To be confirmed against the reading lists for 1.8 and 1.7"},
+    {"from": "1.1", "to": "1.2", "reason": "Named owners and escalation routes derive their authority from, and report to, the board body that holds the mandate.", "source": "To be confirmed against the reading lists for 1.1 and 1.2"}
+  ]
+}
