@@ -9,12 +9,14 @@ import * as DS from "@/components/ds";
 import * as UI from "@/components/icons";
 import { useAuth } from "@/lib/auth";
 import { useOrg, SECTORS, SIZES } from "@/lib/org";
+import { PROFILE_QUESTIONS, profileComplete, type Profile } from "@/lib/profile";
 
 export default function OnboardingPage() {
   const router = useRouter();
   const { ready: authReady, configured, session } = useAuth();
   const { ready, details, complete, save } = useOrg();
   const [form, setForm] = React.useState({ orgName: "", sector: "", size: "", fullName: "", jobTitle: "" });
+  const [profile, setProfile] = React.useState<Profile>({});
   const [busy, setBusy] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
   const editing = React.useRef(false);
@@ -28,6 +30,7 @@ export default function OnboardingPage() {
     editing.current = complete;
     // An organisation starts out named after the email domain; don't offer that back as if it were chosen.
     const placeholderName = !details.sector && details.orgName.includes(".");
+    setProfile(details.profile ?? {});
     setForm({ orgName: placeholderName ? "" : details.orgName, sector: details.sector, size: details.size, fullName: details.fullName, jobTitle: details.jobTitle });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [details]);
@@ -35,20 +38,20 @@ export default function OnboardingPage() {
   if (!authReady || !ready || !session) return null;
 
   const set = (k: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => setForm((f) => ({ ...f, [k]: e.target.value }));
-  const valid = Object.values(form).every((v) => v.trim() !== "");
+  const valid = Object.values(form).every((v) => v.trim() !== "") && profileComplete(profile);
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!valid || busy) return;
     setBusy(true); setError(null);
-    const err = await save(form);
+    const err = await save({ ...form, profile });
     setBusy(false);
     if (err) { setError("That didn't save. Please try again, or email support@principledfutures.com."); return; }
     router.push(editing.current ? "/dashboard/settings" : "/dashboard");
   };
 
   return (
-    <div style={{ fontFamily: "var(--font-sans)", background: "#fff", minHeight: "100vh", display: "grid", placeItems: "center", padding: 28 }}>
-      <form onSubmit={submit} style={{ width: "100%", maxWidth: 480 }}>
+    <div style={{ fontFamily: "var(--font-sans)", background: "#fff", minHeight: "100vh", display: "grid", placeItems: "center", padding: "40px 28px" }}>
+      <form onSubmit={submit} style={{ width: "100%", maxWidth: 560 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 26 }}>
           <UI.Logo size={28} />
           <span style={{ fontSize: 15.5, fontWeight: 600, color: "var(--ink-900)", letterSpacing: "-0.012em" }}>Principled Futures</span>
@@ -79,6 +82,29 @@ export default function OnboardingPage() {
           <DS.FormField label="Your role" required hint="e.g. Chair, Non-executive director, Chief Executive, General Counsel">
             <DS.Input id="ob-role" value={form.jobTitle} onChange={set("jobTitle")} placeholder="Role" />
           </DS.FormField>
+          <fieldset style={{ border: "none", padding: 0, margin: "6px 0 0" }}>
+            <legend style={{ fontSize: 15, fontWeight: 600, color: "var(--ink-900)", padding: 0 }}>Five facts about how you use AI</legend>
+            <p style={{ fontSize: 13, color: "var(--text-secondary)", lineHeight: 1.5, margin: "4px 0 10px" }}>
+              These decide which priorities come first for you. They do not change your score. Answer as things stand today; you can change them later.
+            </p>
+            <div style={{ borderTop: "1px solid var(--border-subtle)" }}>
+              {PROFILE_QUESTIONS.map((q) => (
+                <div key={q.key} style={{ display: "flex", alignItems: "center", gap: 14, padding: "11px 0", borderBottom: "1px solid var(--border-subtle)" }}>
+                  <span id={`pq-${q.key}`} style={{ flex: 1, fontSize: 14, color: "var(--ink-900)", lineHeight: 1.45 }}>{q.question}</span>
+                  <span role="radiogroup" aria-labelledby={`pq-${q.key}`} style={{ display: "inline-flex", border: "1px solid var(--border-default)", borderRadius: 8, overflow: "hidden", flexShrink: 0 }}>
+                    {([true, false] as const).map((v) => {
+                      const on = profile[q.key] === v;
+                      return (
+                        <button key={String(v)} type="button" role="radio" aria-checked={on} onClick={() => setProfile((p) => ({ ...p, [q.key]: v }))}
+                          style={{ width: 52, height: 34, border: "none", borderLeft: v ? "none" : "1px solid var(--border-default)", cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 13.5, fontWeight: 600,
+                            background: on ? "var(--brand)" : "var(--surface-card)", color: on ? "#fff" : "var(--text-secondary)" }}>{v ? "Yes" : "No"}</button>
+                      );
+                    })}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </fieldset>
           {error && <p style={{ fontSize: 13, color: "var(--status-danger)" }}>{error}</p>}
           <DS.Button type="submit" variant="primary" block disabled={!valid || busy}>{busy ? "Saving…" : editing.current ? "Save" : "Continue"}</DS.Button>
         </div>

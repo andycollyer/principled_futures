@@ -14,6 +14,7 @@ import { fetchBriefingBody, type BriefingSource } from "@/lib/content";
 import { MapSvg, LEVEL_COLORS } from "@/components/overview/LiveMap";
 import type { MetricOwner } from "@/lib/telemetry-owners";
 import type { OrgDetails } from "@/lib/org";
+import { raisedBy, PROFILE_QUESTIONS } from "@/lib/profile";
 
 const BAND_COLORS: Record<string, string> = { Initial: LEVEL_COLORS[0], Developing: LEVEL_COLORS[1], Defined: LEVEL_COLORS[2], Managed: LEVEL_COLORS[3], Leading: LEVEL_COLORS[4] };
 const HORIZON = ["0 to 30 days", "30 to 90 days", "30 to 90 days", "90 to 180 days", "90 to 180 days"];
@@ -56,7 +57,8 @@ export function ReportBody({ answers, owners, details, trends, headline }: {
 }) {
   const score = overallScore(answers) as number;
   const org = details?.orgName || "Your organisation";
-  const top: Priority[] = priorities(answers, 5);
+  const profile = details?.profile ?? null;
+  const top: Priority[] = priorities(answers, 5, profile);
   const scored = framework.map((d) => ({ d, s: domainScore(d, answers) })).filter((x): x is { d: typeof x.d; s: number } => x.s != null);
   const strongest = scored.length ? scored.reduce((a, b) => (b.s > a.s ? b : a)) : null;
   const weakest = scored.length ? scored.reduce((a, b) => (b.s < a.s ? b : a)) : null;
@@ -110,7 +112,7 @@ export function ReportBody({ answers, owners, details, trends, headline }: {
       </div>
 
       {/* Priorities */}
-      <Section n={1} title="Priorities" sub="Ranked from your own answers: how far each is from the top level, how many other criteria it holds back, and whether those have been rated higher than this one can support.">
+      <Section n={1} title="Priorities" sub="Ranked from your own answers: how far each is from the top level, how many other criteria it holds back, whether those have been rated higher than this one can support, and the facts you gave about how you use AI.">
         <div style={{ display: "grid", gap: 14 }}>
           {top.map((p, i) => {
             const { criterion: c, domain: d } = CRITERIA[p.id];
@@ -139,6 +141,11 @@ export function ReportBody({ answers, owners, details, trends, headline }: {
                   <div><div style={label}>What {BAND_LABELS[p.level + 1]} requires</div><p style={{ ...para, marginTop: 3 }}>{c.levels[p.level + 1]}</p></div>
                 </div>
 
+                {raisedBy(profile, p.id).map((q) => (
+                  <p key={q.key} style={{ ...para, fontSize: 13, marginTop: 12, paddingLeft: 12, borderLeft: "2px solid var(--green-600)" }}>
+                    <span style={{ color: "var(--ink-900)", fontWeight: 500 }}>Raised for {org}</span> because {q.because}. {q.legal ? "Legal basis" : "Reason"}: {q.basis}.
+                  </p>
+                ))}
                 {held.length > 0 && (
                   <div style={{ marginTop: 14 }}>
                     <div style={label}>Why this comes first: it holds back {held.length} other {held.length === 1 ? "criterion" : "criteria"}</div>
@@ -246,7 +253,7 @@ export function ReportBody({ answers, owners, details, trends, headline }: {
             <span style={label}>Scoring.</span> The Principled Futures framework (version 1.0.0) has eight domains of eight criteria. Each criterion is answered on five described levels, from Initial to Leading. A domain score is the average of its answered criteria as a percentage; the overall score is the average of the domain scores. All criteria carry equal weight in the score.
           </p>
           <p style={{ ...para, marginTop: 8 }}>
-            <span style={label}>Priorities.</span> The ranking uses your own answers. Each answer below the top level is weighted by the number of levels it is short, by the number of criteria that depend on it, and by how far any of those have been rated above it. The {LINKS.length} dependencies between criteria each have a stated reason and a named source, reviewed and approved by Principled Futures.
+            <span style={label}>Priorities.</span> The ranking uses your own answers. Each answer below the top level is weighted by the number of levels it is short, by the number of criteria that depend on it, and by how far any of those have been rated above it. It is then raised by the facts you gave about your organisation: a criterion that a legal duty makes pressing for you counts double, and one raised for a practical reason counts one and a half times.{profile ? ` You answered yes to ${PROFILE_QUESTIONS.filter((q) => profile[q.key] === true).length} of the ${PROFILE_QUESTIONS.length} questions.` : ""} This affects the order of priorities only, never the score. The {LINKS.length} dependencies between criteria each have a stated reason and a named source, reviewed and approved by Principled Futures.
           </p>
           <p style={{ ...para, marginTop: 8 }}>
             <span style={label}>Evidence.</span> Every criterion rests on an evidence brief and a reading list. The library holds {LIBRARY_STATS.documents.toLocaleString("en-GB")} documents: legislation, regulator guidance, codes and standards, court and tribunal decisions, official reports and research. Quoted passages are re-checked against their sources daily.

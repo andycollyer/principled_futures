@@ -18,6 +18,7 @@ import { OwnersProvider, OwnerChip, useOverviewOwners } from "@/components/overv
 import { LiveMap, LEVEL_COLORS } from "@/components/overview/LiveMap";
 import { BAND_LABELS } from "@/lib/framework";
 import { LINKS } from "@/lib/content-meta";
+import { useOrg } from "@/lib/org";
 
 const BAND_COLORS: Record<string, string> = {
   Initial: "var(--status-danger)",
@@ -46,6 +47,7 @@ function Overview() {
   const router = useRouter();
   const { answers, ready } = useAnswers();
   const { owners, ready: ownersReady } = useOverviewOwners();
+  const { details } = useOrg();
   const [selected, setSelected] = React.useState<string | null>(null);
   const [openDomain, setOpenDomain] = React.useState<number | null>(null);
   const showOnMap = (id: string) => { setSelected(id); document.getElementById("map")?.scrollIntoView({ behavior: "smooth", block: "start" }); };
@@ -105,7 +107,7 @@ function Overview() {
           <p style={{ fontSize: 14, color: "var(--text-secondary)", marginTop: 4, maxWidth: 720, lineHeight: 1.55 }}>
             Your 64 answers, coloured by level, and the {LINKS.length} links between them. A weak answer rarely stays in its own domain: select any point to see what it holds back and what it depends on.
           </p>
-          <LiveMap answers={ready ? answers : {}} selected={selected} onSelect={setSelected} />
+          <LiveMap answers={ready ? answers : {}} selected={selected} onSelect={setSelected} profile={details?.profile} />
         </DS.Card>
       </div>
 

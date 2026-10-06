@@ -7,10 +7,12 @@
 import React from "react";
 import { supabase } from "./supabase";
 import { useAuth } from "./auth";
+import { profileComplete, type Profile } from "./profile";
 
 export interface OrgDetails {
   orgName: string; sector: string; size: string; plan: string | null;
   fullName: string; jobTitle: string;
+  profile: Profile;
 }
 export const SECTORS = [
   "Financial services", "Professional services", "Technology and software", "Healthcare and life sciences",
@@ -36,12 +38,13 @@ export function OrgProvider({ children }: { children: React.ReactNode }) {
   const load = React.useCallback(async () => {
     if (!supabase || !orgId || !session?.user) { setDetails(null); return; }
     const [o, p] = await Promise.all([
-      supabase.from("organisations").select("name, sector, size, plan").eq("id", orgId).single(),
+      supabase.from("organisations").select("name, sector, size, plan, profile").eq("id", orgId).single(),
       supabase.from("profiles").select("full_name, job_title").eq("id", session.user.id).single(),
     ]);
     setDetails({
       orgName: o.data?.name ?? "", sector: o.data?.sector ?? "", size: o.data?.size ?? "", plan: o.data?.plan ?? null,
       fullName: p.data?.full_name ?? "", jobTitle: p.data?.job_title ?? "",
+      profile: (o.data?.profile ?? {}) as Profile,
     });
   }, [orgId, session]);
 
@@ -59,11 +62,13 @@ export function OrgProvider({ children }: { children: React.ReactNode }) {
       p_org_name: d.orgName, p_sector: d.sector, p_size: d.size, p_full_name: d.fullName, p_job_title: d.jobTitle,
     });
     if (error) return error.message;
+    const { error: profileError } = await supabase.rpc("save_org_profile", { p_profile: d.profile });
+    if (profileError) return profileError.message;
     await load();
     return null;
   }, [load]);
 
-  const complete = !!details && !!details.orgName && !!details.sector && !!details.size && !!details.fullName && !!details.jobTitle;
+  const complete = !!details && !!details.orgName && !!details.sector && !!details.size && !!details.fullName && !!details.jobTitle && profileComplete(details.profile);
   return <Ctx.Provider value={{ ready, details, complete, save }}>{children}</Ctx.Provider>;
 }
 

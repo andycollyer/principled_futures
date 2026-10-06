@@ -10,6 +10,7 @@ import { framework, BAND_LABELS, type Answers } from "@/lib/framework";
 import { LINKS } from "@/lib/content-meta";
 import { CRITERIA, holdsBack, dependsOn, priorities } from "@/lib/links";
 import { OwnerChip } from "@/components/overview/Owners";
+import { raisedBy, type Profile } from "@/lib/profile";
 
 export const LEVEL_COLORS = ["var(--status-danger)", "var(--status-warning)", "var(--status-info)", "var(--status-success)", "var(--green-600)"];
 
@@ -119,8 +120,8 @@ export function MapSvg({ answers, selected = null, onSelect, still = false }: { 
   );
 }
 
-export function LiveMap({ answers, selected, onSelect }: { answers: Answers; selected: string | null; onSelect: (id: string | null) => void }) {
-  const top = priorities(answers);
+export function LiveMap({ answers, selected, onSelect, profile }: { answers: Answers; selected: string | null; onSelect: (id: string | null) => void; profile?: Profile | null }) {
+  const top = priorities(answers, 3, profile);
   const sel = selected ? CRITERIA[selected] : null;
   const v = selected ? answers[selected] : undefined;
 
@@ -156,7 +157,7 @@ export function LiveMap({ answers, selected, onSelect }: { answers: Answers; sel
             ) : (
               <>
                 <p style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.55, marginTop: 4 }}>
-                  Ranked from your own answers: how far each is from the top level, how many criteria it holds back, and whether those have been answered at a higher level than it can support. Select one to see why.
+                  Ranked from your own answers: how far each is from the top level, how many criteria it holds back, whether those have been answered at a higher level than it can support, and the five facts you gave about how you use AI. Select one to see why.
                 </p>
                 <div style={{ display: "grid", gap: 8, marginTop: 12 }}>
                   {top.map((p, i) => (
@@ -166,7 +167,7 @@ export function LiveMap({ answers, selected, onSelect }: { answers: Answers; sel
                       <span>
                         <span style={{ display: "block", fontSize: 14.5, fontWeight: 600, color: "var(--ink-900)" }}>{CRITERIA[p.id].criterion.title}</span>
                         <span style={{ display: "block", fontSize: 12.5, color: "var(--text-secondary)", marginTop: 2 }}>
-                          {p.id} · {CRITERIA[p.id].domain.name} · {BAND_LABELS[p.level]}{p.holds ? ` · holds back ${p.holds} other${p.holds === 1 ? "" : "s"}` : ""}{p.exposed ? `, ${p.exposed} answered above it` : ""}
+                          {p.id} · {CRITERIA[p.id].domain.name} · {BAND_LABELS[p.level]}{p.holds ? ` · holds back ${p.holds} other${p.holds === 1 ? "" : "s"}` : ""}{p.exposed ? `, ${p.exposed} answered above it` : ""}{p.factor > 1 ? ` · raised by your profile` : ""}
                         </span>
                       </span>
                     </button>
@@ -198,6 +199,11 @@ export function LiveMap({ answers, selected, onSelect }: { answers: Answers; sel
                 {v < 4 ? sel.criterion.levels[v + 1] : sel.criterion.leading}
               </p>
             )}
+            {raisedBy(profile, selected).map((q) => (
+              <p key={q.key} style={{ fontSize: 12.5, color: "var(--text-secondary)", lineHeight: 1.5, marginTop: 8, paddingLeft: 10, borderLeft: "2px solid var(--green-600)" }}>
+                Raised for you because {q.because} ({q.basis}).
+              </p>
+            ))}
             <div style={{ display: "flex", gap: 18, flexWrap: "wrap", marginTop: 10 }}>
               <a href={`/dashboard/research/${selected}/`} style={linkStyle}>Read the evidence brief</a>
               <a href={`/dashboard/assessment/?q=${selected}`} style={linkStyle}>{v === undefined ? "Answer this question" : "Change this answer"}</a>
